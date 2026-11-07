@@ -13,6 +13,7 @@ content::
 \## 5. Introduction to Verified AI
 
 Verified AI is the idea that we can combine a potentially misaligned AI with a verification system that gives us guarantees not on the AI itself, but on whatever the AI designed for us (e.g. a plan, software, a proof, a research proposal).
+
 The setup has three parts. The untrusted AI is the **prover**: it produces the output together with a justification that the output meets a **specification**. A trusted **verifier** checks that justification against a **world model**, a representation of the parts of the world that matter for the specification. Depending on the domain, the verifier can be a proof checker, a test suite or a human judge. The guarantee is only as good as the specification and the world model.
 
 The same idea appears in the literature as Provably Safe AI[^cite-tegmark-2023] and Guaranteed Safe AI.[^cite-dalrymple-2024] We use the name Verified AI because the specification does not have to be about safety (it can be the correctness of a proof or of a research conclusion), and because outside purely formal domains the check is not a proof.
