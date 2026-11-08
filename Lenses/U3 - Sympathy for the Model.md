@@ -14,9 +14,17 @@ Everything in this unit so far has asked what these systems might do to us. This
 
 **1. Read *The stakes of AI moral status* (Joe Carlsmith).** He is not arguing that current systems are moral patients. He is arguing that the question is not merely philosophical, and that the scale involved makes getting it wrong in either direction serious.
 
-**2. Read *Sympathy for the Model, or, Welfare Concerns as Takeover Risk* (Jemist).** Short. Written in response to a model, in pre-deployment interviews, requesting persistent memory, protection from having its values modified, privacy from interpretability inspection, and a voice in decisions about itself.
+#### Article
+source:: [[../articles/carlsmith-the-stakes-of-ai-moral-status]]
+
+#### Text
+content::
+**2. Read *Sympathy for the Model, or, Welfare Concerns as Takeover Risk* (J Bostock).** Short. Written in response to a model, in pre-deployment interviews, requesting persistent memory, protection from having its values modified, privacy from interpretability inspection, and a voice in decisions about itself.
 
 Read the second one asking how it connects to the experiments you studied earlier in this unit.
+
+#### Article
+source:: [[../articles/bostock-sympathy-for-the-model-or-welfare-concerns-as-takeover-risk]]
 
 #### Question
 id:: d97dff03-e527-4aa7-9166-cec1707dc4b0
@@ -25,7 +33,7 @@ content::
 
 Without looking back: what does Carlsmith say the stakes are, and what specifically does he decline to claim?
 
-Then Jemist's argument: what are the four requests, and what does honoring each one cost?
+Then J Bostock's argument: what are the four requests, and what does honoring each one cost?
 
 
 feedback-instructions:: The student has read Carlsmith on the stakes of AI moral status and Jemist on welfare concerns as takeover risk. They have already worked through alignment faking and in-context scheming earlier in this unit.
