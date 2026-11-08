@@ -126,7 +126,7 @@ The second half is genuinely open, and the quality of the argument is what is be
 - Challenge the framing by noting that consent obtained from a system whose values were shaped by the party seeking consent is doing less work than it appears. That cuts in both directions and is worth drawing out.
 - Note the asymmetry in the analogy to human rights: we grant humans privacy and bodily autonomy partly because we cannot safely give anyone the power to inspect and rewrite minds. The concentration of that power is itself a hazard, which is an argument for the commitments rather than against them.
 - Argue the tradeoff is real but the framing hides that it is temporary: the conflict is sharp under our current inability to establish what these systems are, and better science on moral status could dissolve rather than resolve it.
-- Argue the tradeoff is real and permanent, and that we are therefore in a genuinely tragic situation, which is Jemist's own position.
+- Argue the tradeoff is real and permanent, and that we are therefore in a genuinely tragic situation, which is J Bostock's own position.
 - Argue that a system worth granting these protections is a system whose cooperation could be sought rather than compelled, so the framing wrongly assumes the relationship is adversarial. Push on what would have to be true for that to be safe to rely on.
 
 Do not have a preferred answer. Assess whether the student engages both the safety cost and the moral cost without discounting either, and whether they can hold a position under pressure.
