@@ -68,7 +68,7 @@ Machine learning can result in models learning correlated proxy objectives inste
 
 ![Figure 7.5](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-goal-misgeneralization-figure-7-5.webp)
 
-*Figure 7.5: Table showcasing the 2 dimensional generalization picture for the CoinRun agent. Scenario 3 - capability generalization but not goal misgeneralization is the concerning misalignment scenario. *
+*Figure 7.5: Table showcasing the 2 dimensional generalization picture for the CoinRun agent. Scenario 3 - capability generalization but {--{"author":"Lens EA's AI","timestamp":1794162140463}@@not --}goal misgeneralization is the concerning misalignment scenario. *
 
 **Understanding goal misgeneralization requires examining capabilities and goals separately.** Unlike narrow systems designed for specific tasks, general-purpose AI systems must learn to pursue various goals across different contexts. As a concrete example, pre-trained LLMs have general capabilities to generate all sorts of text. Anthropic reinforces its LLMs with the goals of being helpful, harmless, and honest (HHH) during safety training. But what happens when the goal to be helpful generalizes further than the goal to be honest? In this case the model might learn to provide informative responses regardless of content, instead of being helpful within ethical bounds.
 
