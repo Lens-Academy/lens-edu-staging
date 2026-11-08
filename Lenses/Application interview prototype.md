@@ -527,22 +527,47 @@ These are the concepts Lens uses. Indentation means "part of". Lines marked `+` 
   - Automating alignment research
 - Unilateralist's Curse
 - Compute Verification
-- + Rationality additions (not yet in the Lens map)
-  - + Map and territory
-  - + Conservation of expected evidence
-  - + Noticing confusion
-  - + Inferential distance
-  - + Chesterton's fence
-  - + Value of information
-  - + Planning fallacy and hindsight bias
-  - + Belief in belief
-- + Effective altruism additions
-  - + Earning to give
-  - + Worldview diversification
-- + Agent foundations additions
-  - + Selection theorems
-  - + Cartesian frames and finite factored sets
-  - + Developmental interpretability and computational mechanics
-- + Arbital additions
-  - + Pivotal acts
-  - + Patch resistance, edge instantiation and context disasters
+- + Civilisational dynamics (not yet in the Lens map)
+  - + Moloch, races to the bottom, selection pressure on values
+  - + Goddess of everything else; accelerationism (Land)
+  - + Dark-triad and concentrated power
+  - + Ongoing maintenance of the good; meaning after AGI
+- + Ethics and value specification
+  - + Metaethics, moral realism, is-ought
+  - + Coherent extrapolated volition, reflective equilibrium
+  - + Social choice, bargaining, mechanism design
+  - + Population ethics, infinite ethics, fanaticism
+- + Philosophy of mind and knowledge
+  - + Personal identity, functionalism, the hard problem, free will
+  - + Self-locating belief, physicalism, Occam's razor
+  - + Preparadigmatic science
+- + Mathematics
+  - + Probability, measure theory, information theory, Kolmogorov complexity
+  - + Learning theory, computability and complexity
+  - + Category theory, dynamical systems, causal inference, MDPs, formal verification
+- + Agent foundations detail
+  - + Infra-Bayesianism: infradistributions, Knightian uncertainty, physicalism, learning-theoretic agenda
+  - + Cartesian frames, finite factored sets
+  - + Natural latents, selection theorems, agent structure problem
+  - + Developmental interpretability, computational mechanics, AIXI
+- + Classic alignment failure modes
+  - + Treacherous turn, one critical try, pivotal acts, alignment tax
+  - + Edge instantiation, unforeseen maximum, context disaster, patch resistance
+  - + Low impact, utility indifference, Vingean reflection, programmer deception
+- + Rationality craft (the most important two first)
+  - + Betting (and the gambling-averse use for it)
+  - + Double crux
+  - + Map and territory, conservation of expected evidence, noticing confusion
+  - + Inferential distance, Chesterton's fence, value of information
+  - + Belief in belief, cached thoughts, lost purposes, ideological Turing test
+- + Strategy-level insights
+  - + Offense-defense balance, verification sometimes easier than generation
+  - + Alignment basins, the bitter lesson, international relations
+- + EA craft and critique
+  - + Earning to give, worldview diversification, replaceability, global priorities research
+  - + Cluelessness; EA critiques and FTX (do not raise these yourself)
+- + Governance detail
+  - + Chip tracking and on-chip mechanisms, international treaties, national security framing
+  - + Middle powers, model-weight security, the nuclear analogy, democratic legitimacy
+- + Current technical practice (lower priority: probe only briefly)
+  - + Chain-of-thought monitoring, weak-to-strong generalisation, inference scaling, sycophancy
