@@ -95,13 +95,14 @@ $$
 
 1. **Initial row condition:** row $$0$$ correctly encodes the start configuration of $$N$$ on input $$x$$.
 2. **Accepting row condition:** row $$T$$ is in an accepting halting configuration.
-3. **Local transition conditions:** for every time $$1\le \tau \le T$$ and every tape position $$1\le j\le T+1$$, the symbol at tableau position $$(\tau,j)$$ is consistent with the machine transition rule applied to a constant-size neighborhood in the previous row, namely
+3. **Local transition conditions:** for every time $$1\le \tau \le T$$ and every tape position $$1\le j\le T+1$$, the $$2\times 3$$ window
 
 $$
-(\tau-1,j-1),\ (\tau-1,j),\ (\tau-1,j+1).
+W(\tau,j)=\big\{(\tau-1,j-1),\ (\tau-1,j),\ (\tau-1,j+1),\ (\tau,j-1),\ (\tau,j),\ (\tau,j+1)\big\}
 $$
 
-These are exactly the usual local constraints from the Cook–Levin tableau construction: whether one cell in row $$\tau$$ is correct depends only on a constant-size window in row $$\tau-1$$.
+is **legal**: the bottom row of the window can be obtained from the top row by a single transition of $$N$$ (cells beyond the edge of the tableau count as blank).
+These are the usual local constraints from the Cook–Levin tableau construction. A window two rows high is needed because $$N$$ is nondeterministic. Checking each cell of row $$\tau$$ separately against the three cells above it is not enough: suppose that in state $$q$$ reading $$a$$, $$N$$ may either write $$1$$ and move left, or write $$0$$ and move right. A row where the head moved left but the symbol $$0$$ was written passes every single-cell check, since each cell agrees with one of the two transitions, but no single transition produces it. The window centred on the head's old position contains every cell the step can change, so it catches this mix. If row $$0$$ is the start configuration and every window is legal, then every row is a valid successor of the row above.
 
 **Step 3: The cross-examination protocol.**  We define the following protocol.
 
@@ -116,7 +117,7 @@ where $$\mathrm{type}$$ specifies which constraint is being challenged:
 
 - $$\mathrm{type}=\mathrm{init}$$: challenge the initial-row condition at cell $$j$$;
 - $$\mathrm{type}=\mathrm{acc}$$: challenge the accepting-row condition at cell $$j$$;
-- $$\mathrm{type}=\mathrm{step}$$: challenge the local transition condition at spacetime location $$(\tau,j)$$.
+- $$\mathrm{type}=\mathrm{step}$$: challenge the legality of the window $$W(\tau,j)$$.
 3. The verifier computes the queried coordinates $$I(x,t)$$ as follows:
    - for $$\mathrm{init}$$, query only the $$j$$-th cell of row $$0$$;
    - for $$\mathrm{acc}$$, query only the $$j$$-th cell of row $$T$$;
