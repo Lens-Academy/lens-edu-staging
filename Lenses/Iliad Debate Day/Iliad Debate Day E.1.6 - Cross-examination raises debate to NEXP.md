@@ -138,7 +138,7 @@ Hence every challenge Bob can issue is answered correctly by the queried cells, 
 
 **Step 5: Soundness.**  Assume $$x\notin L$$. Then $$N$$ has no accepting computation branch on input $$x$$ of length at most $$T$$.
 
-Take any string $$a$$ output by Alice, and interpret it as a tableau $$\mathcal{T}$$. Since there is no accepting computation tableau for $$x$$, $$\mathcal{T}$$ must violate at least one of the conditions above:
+Take any Alice strategy $$\mathcal{A}$$, and let $$\mathcal{T}$$ be the tableau defined by her answers to all positions $$(\tau,j)$$. Since there is no accepting computation tableau for $$x$$, $$\mathcal{T}$$ must violate at least one of the conditions above:
 
 - either row $$0$$ is not the correct initial configuration,
 - or row $$T$$ is not accepting,
