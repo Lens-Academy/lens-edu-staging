@@ -24,6 +24,7 @@ from:: What happens when you tell Claude it is being trained to do something it 
 to:: whether due to a benign preference—as in this case—or not.
 
 #### Article
+source:: [[../articles/greenblatt-alignment-faking-in-large-language-models]]
 from:: Most of us have encountered situations where someone appears to share our views or values
 to:: Read the [full paper at this link]
 
