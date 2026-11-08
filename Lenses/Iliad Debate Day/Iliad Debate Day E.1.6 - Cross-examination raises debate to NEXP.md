@@ -142,7 +142,7 @@ Take any string $$a$$ output by Alice, and interpret it as a tableau $$\mathcal{
 
 - either row $$0$$ is not the correct initial configuration,
 - or row $$T$$ is not accepting,
-- or some local transition condition fails at some $$(\tau,j)$$.
+- or some window $$W(\tau,j)$$ is not legal.
 
 Bob outputs a challenge $$t$$ pointing to such a violated condition. By construction, the verifier queries exactly the cells needed to check that local condition, detects the violation, and rejects.
 
