@@ -14,9 +14,21 @@ Two results, in this order.
 
 **First, read *Alignment faking in large language models*** (Greenblatt et al., Anthropic and Redwood Research). Read the abstract and the summary of results. If you are reading the full paper, stop after the section reporting what happens when the researchers actually train on the new objective.
 
-**Then read *Frontier Models are Capable of In-context Scheming*** (Meinke et al., Apollo Research). The abstract and the table of which behaviors appeared in which models is enough.
+**Then read *Frontier Models are Capable of In-context Scheming*** (Meinke et al., Apollo Research). Their summary post is below. The first section, with the table of which behaviors appeared in which models, is enough.
 
 Before you start: open your predictions from the previous step and have them next to you. Read with your own numbers in view.
+
+#### Article
+source:: [[../articles/greenblatt-alignment-faking-in-large-language-models]]
+from:: What happens when you tell Claude it is being trained to do something it doesn't want to do?
+to:: whether due to a benign preference—as in this case—or not.
+
+#### Article
+from:: Most of us have encountered situations where someone appears to share our views or values
+to:: Read the [full paper at this link]
+
+#### Article
+source:: [[../articles/hobbhahn-frontier-models-are-capable-of-in-context-scheming]]
 
 #### Question
 id:: 9db48ec2-c755-4c12-b245-0cedde20371d
