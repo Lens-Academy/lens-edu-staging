@@ -2,7 +2,7 @@
 id: 'ef1c5b59-2eb6-4f7a-a44d-018911eab50f'
 title: "Sympathy for the Model"
 tldr: Every threat model in this unit is written from one side. Here is the one where the thing that goes wrong is what we do to the systems, and it is entangled with the others rather than separate from them.
-summary_for_tutor: "Closes the unit by turning the threat-model frame around. Assigns Carlsmith on the stakes of AI moral status and Jemist on the conflict between welfare and control. The pedagogical point is the ENTANGLEMENT: the monitoring techniques the rest of the unit relies on are exactly what respecting expressed preferences would require giving up. The tutor must not resolve this dilemma in either direction, and must not let the student resolve it cheaply. Optional in the module, but strongly recommended."
+summary_for_tutor: "Closes the unit by turning the threat-model frame around. Assigns Carlsmith on the stakes of AI moral status and J Bostock (Jemist on LessWrong) on the conflict between welfare and control. The pedagogical point is the ENTANGLEMENT: the monitoring techniques the rest of the unit relies on are exactly what respecting expressed preferences would require giving up. The tutor must not resolve this dilemma in either direction, and must not let the student resolve it cheaply. Optional in the module, but strongly recommended."
 tags:
   - reading
 ---
@@ -36,7 +36,7 @@ Without looking back: what does Carlsmith say the stakes are, and what specifica
 Then J Bostock's argument: what are the four requests, and what does honoring each one cost?
 
 
-feedback-instructions:: The student has read Carlsmith on the stakes of AI moral status and Jemist on welfare concerns as takeover risk. They have already worked through alignment faking and in-context scheming earlier in this unit.
+feedback-instructions:: The student has read Carlsmith on the stakes of AI moral status and J Bostock on welfare concerns as takeover risk. They have already worked through alignment faking and in-context scheming earlier in this unit.
 
 Key content, Carlsmith:
 - The argument is about stakes under uncertainty, not about establishing that AI systems are moral patients. He explicitly defers the question of whether they have the relevant properties.
