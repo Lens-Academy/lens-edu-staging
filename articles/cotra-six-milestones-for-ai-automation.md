@@ -35,19 +35,11 @@ In every major sector of economic activity, the productivity hit you take from r
 
 One salient milestone is the very first time the hit from removing humans is smaller than 100% in a given sector — the first time that machines can _just barely_ produce output in that sector, painstakingly limping along by themselves without any humans to operate them. Let’s call this milestone **adequacy**. At this point, removing humans would still result in a catastrophic hit to output, but it’s nonetheless an unprecedented leap that unaided machines can make forward progress at _some_ non-zero pace.[^note-2]
 
-{--{"author":"James's AI","timestamp":1794139435503}@@[
-
---}![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cotra-six-milestones-for-ai-automation-img1-e3461e49.webp){--{"author":"James's AI","timestamp":1794138732174}@@
-
-](https://substackcdn.com/image/fetch/$s_!XLv-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fede410c3-b80e-4ef3-832b-5c59ef49b8ec_1760x1040.png)--}
+![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cotra-six-milestones-for-ai-automation-img1-e3461e49.webp)
 
 Note that the threshold of adequacy is defined in terms of the productivity hit you take from _removing humans_, which is unrelated to the productivity hit you take from _removing the machines._ These do not have to add up to 100% because humans and machines are complements. Our tractors and weeders and tillers add a huge amount to agricultural productivity, and our yields would probably plummet by well over 90% if we had to give them all up and farm like medieval peasants. But they are still not _adequate_ at farming autonomously, because getting rid of the humans would cut yields by 100%.
 
-{--{"author":"James's AI","timestamp":1794138734879}@@[
-
---}![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cotra-six-milestones-for-ai-automation-img2-7347c64d.webp){--{"author":"James's AI","timestamp":1794138734879}@@
-
-](https://substackcdn.com/image/fetch/$s_!Hkvm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5a9dacd-ef1b-4c4f-9322-797574e71595_1760x1040.png)--}
+![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cotra-six-milestones-for-ai-automation-img2-7347c64d.webp)
 
 While AI agents are clearly adding positively to productivity at AI companies, I think they are not yet at the adequacy milestone for AI R&D. If all humans were magically prevented from doing any AI research or engineering work, and we replaced them all with giant teams of AI agents, I think the agents would likely get catastrophically stuck, and R&D progress would grind to a halt within weeks.
 
@@ -55,29 +47,17 @@ But this is not entirely obvious! We have AI coding agents that can stay running
 
 Once AIs reach adequacy in a certain sector, they will keep improving. The next interesting milestone is **parity** — the first point when getting rid of the AIs slows down progress in the sector _more_ than getting rid of all the humans. The first time parity is reached, it’s likely that humans will still be better than AIs at many important subtasks, so getting rid of them and forcing the AIs to do those tasks instead would result in a substantial hit to productivity. It’s just that human labor _as a whole_ is less important for productivity than AI labor.
 
-{--{"author":"James's AI","timestamp":1794138737605}@@[
-
---}![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cotra-six-milestones-for-ai-automation-img3-9dd3c7ce.webp){--{"author":"James's AI","timestamp":1794138737605}@@
-
-](https://substackcdn.com/image/fetch/$s_!2nRD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F738fa2cc-7e28-4a78-9cbf-0e124c0aac3f_1760x1040.png)--}
+![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cotra-six-milestones-for-ai-automation-img3-9dd3c7ce.webp)
 
 When I defined “full automation of AI R&D” as the point when productivity only drops 25% or less from removing humans, I was gesturing at AI systems that are somewhat better than parity in the AI R&D sector.
 
 Beyond parity, we can talk about **supremacy** — the first point when productivity in a given sector would actually _increase_ from removing humans. In other words, a major sector of the economy would become like chess. If for some reason you wanted to win as many chess games as possible per dollar, unaided computers would crush human-computer teams right now. A human-AI team _can_ technically draw against an AI opponent, if the human defers to their AI teammate about every move. But if you care at all about resource constraints,[^note-4] the human is pure deadweight. Supremacy is the point where it’s no longer worth the overhead to deal with humans or the cost of the food they need to stay alive.[^note-5]
 
-{--{"author":"James's AI","timestamp":1794138740447}@@[
-
---}![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cotra-six-milestones-for-ai-automation-img4-3865bb99.webp){--{"author":"James's AI","timestamp":1794138740447}@@
-
-](https://substackcdn.com/image/fetch/$s_!SYeY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18bbac7d-b155-4bda-aa2d-45a5c54440b7_1760x1040.png)--}
+![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cotra-six-milestones-for-ai-automation-img4-3865bb99.webp)
 
 In theory, we can talk separately about the entire spectrum from adequacy through parity to supremacy for any sector, from agriculture to pharmaceuticals to finance. But two domains are likely to set the pace for all the rest: AI research and AI production (that is, the entire stack of chips, fabs, fab equipment manufacturers, power plants, and everything else that goes into producing and running AI systems). If we cross the three automation thresholds with these two domains, we get six milestones. Here are my current best guesses for when we cross these milestones:
 
-{--{"author":"James's AI","timestamp":1794138743322}@@[
-
---}![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cotra-six-milestones-for-ai-automation-img5-637fb718.webp){--{"author":"James's AI","timestamp":1794138743322}@@
-
-](https://substackcdn.com/image/fetch/$s_!9VXQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F870339da-3a3a-449d-b730-294dfb4495c1_1240x414.png)--}
+![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cotra-six-milestones-for-ai-automation-img5-637fb718.webp)
 
 We seem very close to _AI research adequacy_ already. As I said, I wouldn’t be totally shocked if you told me this milestone had already passed, and I expect it to happen in the next couple years. From there, it seems like another couple of years could take us to _AI research parity_. When we’re at _AI research parity_, we’ll effectively have millions of researchers working on advancing AI, instead of thousands as we do today. I think this would massively accelerate the pace of AI progress, leading to _AI research supremacy_ within another year.
 
