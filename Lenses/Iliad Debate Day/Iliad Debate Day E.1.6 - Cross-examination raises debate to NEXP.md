@@ -122,13 +122,9 @@ where $$\mathrm{type}$$ specifies which constraint is being challenged:
 3. The verifier computes the queried coordinates $$I(x,t)$$ as follows:
    - for $$\mathrm{init}$$, query only the $$j$$-th cell of row $$0$$;
    - for $$\mathrm{acc}$$, query only the $$j$$-th cell of row $$T$$;
-   - for $$\mathrm{step}$$, query the constant-size neighborhood
+   - for $$\mathrm{step}$$, query the six cells of the window $$W(\tau,j)$$.
 
-   $$
-   (\tau-1,j-1),\ (\tau-1,j),\ (\tau-1,j+1),\ (\tau,j).
-   $$
-
-   The verifier accepts iff the queried cells satisfy the corresponding local constraint.
+   The verifier accepts iff the queried cells satisfy the corresponding local constraint. For $$\mathrm{step}$$, that means the window is legal.
 
 **Step 4: Completeness.**  Assume $$x\in L$$. Then $$N$$ has some accepting computation branch on input $$x$$ of length at most $$T$$. Let $$\mathcal{T}$$ be the tableau of that accepting branch, padded after halting so that it has exactly $$T+1$$ rows, and let $$a$$ be its linearization.
 
@@ -136,7 +132,7 @@ If Alice outputs this $$a$$, then:
 
 - the initial row is correct,
 - the final row is accepting,
-- every local transition constraint is satisfied.
+- every window is legal.
 
 Hence every challenge Bob can issue is answered correctly by the queried cells, and the verifier always accepts.
 
