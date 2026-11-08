@@ -102,6 +102,7 @@ W(\tau,j)=\big\{(\tau-1,j-1),\ (\tau-1,j),\ (\tau-1,j+1),\ (\tau,j-1),\ (\tau,j)
 $$
 
 is **legal**: the bottom row of the window can be obtained from the top row by a single transition of $$N$$ (cells beyond the edge of the tableau count as blank).
+
 These are the usual local constraints from the Cook–Levin tableau construction. A window two rows high is needed because $$N$$ is nondeterministic. Checking each cell of row $$\tau$$ separately against the three cells above it is not enough: suppose that in state $$q$$ reading $$a$$, $$N$$ may either write $$1$$ and move left, or write $$0$$ and move right. A row where the head moved left but the symbol $$0$$ was written passes every single-cell check, since each cell agrees with one of the two transitions, but no single transition produces it. The window centred on the head's old position contains every cell the step can change, so it catches this mix. If row $$0$$ is the start configuration and every window is legal, then every row is a valid successor of the row above.
 
 **Step 3: The cross-examination protocol.**  We define the following protocol.
