@@ -87,7 +87,7 @@ feedback-instructions:: The student committed to two numeric guesses before read
 This is a processing phase, not a teaching phase. Help them articulate the belief under the error; do not resolve it for them.
 
 The two errors mean different things, and which one they made is the content here. Our reading of the likely generators, offered as hypotheses to probe rather than diagnoses to deliver:
-- Overestimating the RATE fits an availability story: the famous discontinuities are famous because they were discontinuous, so they are over-sampled in memory. Nuclear weapons and the transistor are what comes to mind; the fifty ordinary trends are not.
+- Overestimating the RATE fits an availability story: the famous discontinuities are famous because they were discontinuous, so they are over-sampled in memory. Nuclear weapons and the transistor are what comes to mind; the ordinary trends are not.
 - Underestimating the SHARE fits an implicit model where progress is a smooth accumulation and jumps are noise on top of it. The survey says the opposite: jumps are rare and they carry a large fraction of the total.
 - Getting both roughly right but treating them as one fact is its own error, and worth naming: the two numbers pull in opposite directions and that tension is the whole finding.
 
