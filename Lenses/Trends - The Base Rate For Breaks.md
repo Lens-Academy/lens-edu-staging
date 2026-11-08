@@ -54,10 +54,10 @@ Spend 2 minutes writing down everything you can remember, without looking back. 
 feedback-instructions:: The student has just read AI Impacts' "Discontinuous progress in history: an update" and written a free recall without looking back.
 
 Key content:
-- The survey covers roughly fifty technological trends selected for having usable long-run historical data.
+- The survey covers 37 technological trends selected for having usable long-run historical data.
 - A discontinuity is defined operationally, in terms of how many years of progress at the previous rate arrived at once, which is what makes counting possible at all. The definition is a choice, and the paper is explicit about that.
 - Large robust discontinuities are rare per trend-year, on the order of 0.1 percent.
-- The chance that a given level of progress arrives in a large robust discontinuity is around 14 percent. Verbatim from the paper: "the average rate of large robust discontinuities per year across trends was about 0.1%, but the chance of a given level of progress arising in a large robust discontinuity was around 14%". Do not let the student walk away thinking this means 14 percent of all progress is jumps; it is a claim about how an increment arrives.
+- On average, 14 percent of total progress in a trend came from large robust discontinuities (16 percent of logarithmic progress, or 38 percent among trends that have at least one). Verbatim from the article: "On average 14% of total progress in a trend came from large robust discontinuities". Set against the rate of about 0.1 percent per trend-year, this is the point: jumps are rare in any year but carry a large share of total progress. Make sure the student reads it as an average across the trends studied, not as a rate per year.
 - These two findings pull in opposite directions: a jump is unlikely in any given trend-year, yet a given increment of progress has a substantial chance of having arrived via one.
 - Selection concerns are acknowledged: trends with good historical data may not be representative, and famous discontinuities are famous partly because they were discontinuous.
 
