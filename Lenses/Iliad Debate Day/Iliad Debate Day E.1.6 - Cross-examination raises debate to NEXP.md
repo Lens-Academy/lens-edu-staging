@@ -107,7 +107,7 @@ These are the usual local constraints from the Cook–Levin tableau construction
 
 **Step 3: The cross-examination protocol.**  We define the following protocol.
 
-1. Alice outputs a string $$a$$, intended to be the linearized tableau of an accepting computation branch of $$N$$ on input $$x$$.
+1. Alice does not send the tableau, which has $$(T+1)^2$$ cells, exponentially many. Instead, her strategy $$\mathcal{A}$$ answers single queries: given a position $$(\tau,j)$$, she replies with a symbol $$\mathcal{T}[\tau,j]\in\Gamma$$, intended to be that entry of the tableau of an accepting computation branch of $$N$$ on input $$x$$. The query has $$O(p(n))$$ bits and the reply is one symbol, so both fit within the polynomial bound $$r(n)$$. Because $$\mathcal{A}$$ is deterministic and every query goes to a fresh copy that sees only the position it is asked about, her answers define one fixed tableau $$\mathcal{T}$$ before Bob chooses where to challenge.
 2. Bob outputs a challenge
 
 $$
@@ -119,16 +119,16 @@ where $$\mathrm{type}$$ specifies which constraint is being challenged:
 - $$\mathrm{type}=\mathrm{init}$$: challenge the initial-row condition at cell $$j$$;
 - $$\mathrm{type}=\mathrm{acc}$$: challenge the accepting-row condition at cell $$j$$;
 - $$\mathrm{type}=\mathrm{step}$$: challenge the legality of the window $$W(\tau,j)$$.
-3. The verifier computes the queried coordinates $$I(x,t)$$ as follows:
+3. The verifier computes the coordinates $$I(x,t)$$ and queries Alice on each of them:
    - for $$\mathrm{init}$$, query only the $$j$$-th cell of row $$0$$;
    - for $$\mathrm{acc}$$, query only the $$j$$-th cell of row $$T$$;
    - for $$\mathrm{step}$$, query the six cells of the window $$W(\tau,j)$$.
 
    The verifier accepts iff the queried cells satisfy the corresponding local constraint. For $$\mathrm{step}$$, that means the window is legal.
 
-**Step 4: Completeness.**  Assume $$x\in L$$. Then $$N$$ has some accepting computation branch on input $$x$$ of length at most $$T$$. Let $$\mathcal{T}$$ be the tableau of that accepting branch, padded after halting so that it has exactly $$T+1$$ rows, and let $$a$$ be its linearization.
+**Step 4: Completeness.**  Assume $$x\in L$$. Then $$N$$ has some accepting computation branch on input $$x$$ of length at most $$T$$. Let $$\mathcal{T}$$ be the tableau of that accepting branch, padded after halting so that it has exactly $$T+1$$ rows.
 
-If Alice outputs this $$a$$, then:
+Let honest Alice answer every query $$(\tau,j)$$ with the entry $$\mathcal{T}[\tau,j]$$ of this tableau. Then:
 
 - the initial row is correct,
 - the final row is accepting,
