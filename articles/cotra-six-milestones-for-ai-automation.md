@@ -35,13 +35,9 @@ In every major sector of economic activity, the productivity hit you take from r
 
 One salient milestone is the very first time the hit from removing humans is smaller than 100% in a given sector — the first time that machines can _just barely_ produce output in that sector, painstakingly limping along by themselves without any humans to operate them. Let’s call this milestone **adequacy**. At this point, removing humans would still result in a catastrophic hit to output, but it’s nonetheless an unprecedented leap that unaided machines can make forward progress at _some_ non-zero pace.[^note-2]
 
-{--{"author":"James's AI","timestamp":1794138732174}@@[
+{--{"author":"James's AI","timestamp":1794139435503}@@[
 
---}{++{"author":"James's AI","timestamp":1794138772428}@@[
-
-++}![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cotra-six-milestones-for-ai-automation-img1-e3461e49.webp){++{"author":"James's AI","timestamp":1794138772428}@@
-
-](https://substackcdn.com/image/fetch/$s_!XLv-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fede410c3-b80e-4ef3-832b-5c59ef49b8ec_1760x1040.png)++}{--{"author":"James's AI","timestamp":1794138732174}@@
+--}![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cotra-six-milestones-for-ai-automation-img1-e3461e49.webp){--{"author":"James's AI","timestamp":1794138732174}@@
 
 ](https://substackcdn.com/image/fetch/$s_!XLv-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fede410c3-b80e-4ef3-832b-5c59ef49b8ec_1760x1040.png)--}
 
