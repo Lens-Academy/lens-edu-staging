@@ -13,7 +13,7 @@ content::
 
 People argue endlessly about whether technological progress arrives smoothly or in jumps. Both sides have examples. Nuclear weapons. The transistor. Powered flight. Also: decades of steady incremental improvement in almost everything.
 
-Katja Grace and collaborators did the boring thing. They took roughly fifty technological trends where good historical data exists, defined a "large robust discontinuity" precisely, and counted.
+Katja Grace and collaborators did the boring thing. They took 37 technological trends where good historical data exists, defined a "large robust discontinuity" precisely, and counted.
 
 Before reading, commit to two numbers.
 
@@ -24,7 +24,7 @@ Then say in one sentence which of the two numbers you expect to matter more for 
 
 
 assessment-instructions::
-The student is about to read Katja Grace's "Discontinuous progress in history: an update," which finds large robust discontinuities occur at roughly 0.1 percent per trend-year, while the chance that a given level of progress arrives via such a discontinuity is around 14 percent. Grace's exact wording matters here: the 14 percent is a probability about how any particular increment of progress arrives, NOT a share of total progress. Those sound alike and are different quantities.
+The student is about to read Katja Grace's "Discontinuous progress in history: an update," which finds large robust discontinuities occur at roughly 0.1 percent per trend-year, while on average 14 percent of total progress in a trend came from large robust discontinuities (Grace's wording; 16 percent of logarithmic progress, and 38 percent among trends that have at least one). Grace's exact wording matters here: the 14 percent is a share of total progress, averaged across the trends studied, while the 0.1 percent is a rate per trend-year. Those are different kinds of quantity.
 
 They have just committed to two numbers and a claim about which matters more.
 
@@ -40,7 +40,7 @@ content::
 
 **Read Katja Grace's *Discontinuous progress in history: an update* (AI Impacts).**
 
-This is the write-up of a survey across roughly fifty technological trends with usable historical data. Pay particular attention to two things: how they had to define "discontinuity" before they could count anything, and the two headline rates, which do not point in the same direction.
+This is the write-up of a survey across 37 technological trends with usable historical data. Pay particular attention to two things: how they had to define "discontinuity" before they could count anything, and the two headline rates, which do not point in the same direction.
 
 #### Article
 source:: [[../articles/grace-discontinuous-progress-in-history]]
