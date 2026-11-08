@@ -42,6 +42,7 @@ One salient milestone is the very first time the hit from removing humans is sma
 ++}![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cotra-six-milestones-for-ai-automation-img1-e3461e49.webp){++{"author":"James's AI","timestamp":1794138772428}@@
 
 ](https://substackcdn.com/image/fetch/$s_!XLv-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fede410c3-b80e-4ef3-832b-5c59ef49b8ec_1760x1040.png)++}{--{"author":"James's AI","timestamp":1794138732174}@@
+
 ](https://substackcdn.com/image/fetch/$s_!XLv-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fede410c3-b80e-4ef3-832b-5c59ef49b8ec_1760x1040.png)--}
 
 Note that the threshold of adequacy is defined in terms of the productivity hit you take from _removing humans_, which is unrelated to the productivity hit you take from _removing the machines._ These do not have to add up to 100% because humans and machines are complements. Our tractors and weeders and tillers add a huge amount to agricultural productivity, and our yields would probably plummet by well over 90% if we had to give them all up and farm like medieval peasants. But they are still not _adequate_ at farming autonomously, because getting rid of the humans would cut yields by 100%.
