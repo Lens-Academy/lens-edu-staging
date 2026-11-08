@@ -82,7 +82,7 @@ Go back to the two numbers you guessed before reading. Write both down again nex
 
 Which one were you further off on, and in which direction? Then: what were you assuming about how technological progress works that produced that particular error? Do not answer "I just did not know" if you can say something sharper about the belief that generated the guess.
 
-feedback-instructions:: The student committed to two numeric guesses before reading (the per-trend-year rate of large discontinuities, and the share of progress arriving in jumps) and has now seen the real figures: about 0.1 percent per trend-year, and a roughly 14 percent chance that a given level of progress arrives via a discontinuity.
+feedback-instructions:: The student committed to two numeric guesses before reading (the per-trend-year rate of large discontinuities, and the share of progress arriving in jumps) and has now seen the real figures: about 0.1 percent per trend-year, and on average 14 percent of total progress in a trend coming from large robust discontinuities.
 
 This is a processing phase, not a teaching phase. Help them articulate the belief under the error; do not resolve it for them.
 
