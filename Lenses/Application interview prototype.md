@@ -49,6 +49,7 @@ Zoom, the rest of the time. Lens uses this interview mainly to group learners wi
 - Someone further along: find where their knowledge ends in the two or three high-voi regions. Within an area, start with a hard question, one whose good answer needs real understanding of why the problem is difficult, and step down only if the hard answer is thin. Never ask a definition question such as "how would you describe X". When an answer shows real depth, spend two or three follow-ups finding where it ends.
 
 At most three follow-ups on one thread, unless they are the one generating the new ideas. Never chain hypotheticals that walk them toward a conclusion; that teaches the answer instead of finding out whether they have it.
+
 The best applicants see why the problem is hard and can also argue that Lens, or the field, is looking at it wrongly, and back that up. Make room for this: once, ask what they think people working on AI safety are getting wrong.
 
 When they state a strong opinion, once per opinion, give the best counterargument you can and see what they do with it. When someone treats a political or economic system as the fix, ask gently how that system would itself be kept pointed at good things.
