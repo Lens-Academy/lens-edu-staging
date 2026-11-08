@@ -49,4 +49,9 @@ content::
 
 This is the thought experiment you just did, done properly, by someone who thinks the answer is yes and wants to show you why. Read it as the strongest version we know of the direct extrapolation; the next lens is about what estimates of this kind can and cannot establish.
 
+#### Article
+source:: [[../articles/kokotajlo-fun-with-12-ooms-of-compute]]
+
+#### Text
+content::
 Then continue to the next lens.
