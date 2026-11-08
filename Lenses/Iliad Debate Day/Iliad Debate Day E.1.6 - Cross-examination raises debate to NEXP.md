@@ -2,7 +2,7 @@
 id: '9d974678-08e6-4f66-967a-4f73a8f8859b'
 title: "E.1.6 Cross-examination raises debate to NEXP"
 tldr: "Cross-examination, where a debater can question a fresh copy of the other debater, and a proof that it lifts debate from PSPACE to NEXP using computation tableaux."
-summary_for_tutor: "Sections 12 and 13 of worksheet E.1: the idea of cross-examination (questions to fresh copies of the earlier debater, PSPACE to NEXP), Definition 13.1 (the class CX with deterministic strategies A and B^A and verifier U), Theorem 13.2 NEXP is contained in CX-Debate, and its collapsed proof with a computation tableau, initial, accepting and local transition conditions, Bob's challenge (type, tau, j), completeness, soundness and verifier complexity. The handout Debate_Overview.pdf, which the room uses, numbers these items differently: each one shows its handout number in brackets."
+summary_for_tutor: "Sections 12 and 13 of worksheet E.1: the idea of cross-examination (questions to fresh copies of the earlier debater, PSPACE to NEXP), Definition 13.1 (the class CX with deterministic strategies A and B^A and verifier U), Theorem 13.2 NEXP is contained in CX-Debate, and its collapsed proof with a computation tableau, initial and accepting conditions, local transition conditions checked on 2x3 windows (checking one cell against the three above it is not enough for a nondeterministic machine, because cells could follow different transitions), Bob's challenge (type, tau, j), completeness, soundness and verifier complexity. The handout Debate_Overview.pdf, which the room uses, numbers these items differently: each one shows its handout number in brackets."
 authors:
   - Stephan Wäldchen (Iliad)
 source_url: https://iliad-intensive.org/safety/debate/
