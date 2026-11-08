@@ -238,7 +238,6 @@ These are the concepts Lens uses. Indentation means "part of". Lines marked `+` 
 - Agent Foundations
   - Acausal reasoning and anthropics
     - Malign universal prior
-    - Roko's basilisk
   - Agency
     - Agency and goal-directedness
       - Boundaries (membranes)
