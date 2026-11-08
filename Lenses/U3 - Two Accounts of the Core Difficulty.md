@@ -14,9 +14,17 @@ Two short pieces. Read them in this order, and read the second one asking how it
 
 **1. *A central AI alignment problem: capabilities generalization, and the sharp left turn*** (Nate Soares). Short. The key passage is the summary of his position near the end.
 
+#### Article
+source:: [[../articles/soares-a-central-ai-alignment-problem-capabilities-generalization-and-the-sharp-left-turn]]
+
+#### Text
+content::
 **2. *The Pointers Problem: Human Values Are A Function Of Humans' Latent Variables*** (John Wentworth). Read to the Takeaway section.
 
 Both authors think alignment is hard and unsolved. They are not describing the same difficulty. Your job while reading is to find the point where their accounts are incompatible, not merely different in emphasis.
+
+#### Article
+source:: [[../articles/johnswentworth-the-pointers-problem-human-values-are-a-function-of-humans-latent-variables]]
 
 #### Question
 id:: 04acc03c-b472-4a1a-bd64-52a5cc6b2472
