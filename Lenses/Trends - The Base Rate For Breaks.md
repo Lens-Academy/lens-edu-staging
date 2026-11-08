@@ -1,7 +1,7 @@
 ---
 id: 'e0f7f243-9f03-42ac-b15c-f2b368e4a661'
 title: The Base Rate For Breaks
-summary_for_tutor: "Supplies the outside-view number the extrapolation outcome needs. Students read Katja Grace's survey of roughly fifty technological trends, which measures how often large robust discontinuities actually occur (about 0.1 percent per trend-year, while the chance that a given level of progress arrives via a large robust discontinuity is around 14 percent). The design point: the debate about whether AI progress will jump is usually conducted with anecdotes on both sides, and this is the one reading that answers it by counting. Phase 3 forces the student to apply the two numbers, which point in opposite directions, to a single decision."
+summary_for_tutor: "Supplies the outside-view number the extrapolation outcome needs. Students read Katja Grace's survey of 37 technological trends, which measures how often large robust discontinuities actually occur (about 0.1 percent per trend-year, while on average 14 percent of total progress in a trend came from large robust discontinuities). The design point: the debate about whether AI progress will jump is usually conducted with anecdotes on both sides, and this is the one reading that answers it by counting. Phase 3 forces the student to apply the two numbers, which point in opposite directions, to a single decision."
 tldr: Everyone arguing about whether progress jumps has a favourite anecdote. Somebody went and counted. The answer is that jumps are rare in any given year, and carry a surprisingly large share of the increments that do arrive, which is worse than either side wanted.
 authors:
   - Claude
