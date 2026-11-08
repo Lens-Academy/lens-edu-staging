@@ -16,6 +16,9 @@ It is short and has two halves. Read both. They describe different failures, and
 
 As you read, keep your pre-test answer in mind. You built a mechanism under the same constraints Christiano is working under: nobody is scheming, everything is working as specified. Notice where his account and yours overlap and where they diverge.
 
+#### Article
+source:: [[../articles/greaterwrong-what-failure-looks-like]]
+
 #### Question
 id:: 00b7126d-4386-4081-85b1-4930f7e34e7a
 content::

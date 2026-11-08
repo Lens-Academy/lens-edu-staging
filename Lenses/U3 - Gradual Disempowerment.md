@@ -14,6 +14,11 @@ content::
 
 The interaction section is the one to read most carefully. It is doing the work that the individual sections cannot.
 
+#### Article
+source:: [[../articles/1-gradual-disempowerment-systemic-existential-risks-from-incremental-ai-development]]
+from:: This paper examines the systemic risks posed by incremental advancements in artificial intelligence
+to:: In addition to leading to misalignment in independent systems, there will be progressively stronger incentives to use influence in any one system to acquire influence in other systems.
+
 #### Question
 id:: 3a4bfda1-a774-4593-8100-bd6211302ea2
 content::
