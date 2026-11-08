@@ -65,6 +65,7 @@ You can also read the case studies in ***The errors, insights and lessons of fam
 source:: [[../articles/armstrong-sotala-how-were-predicting-ai-or-failing-to]]
 from:: 4.1. Subjective Assessment
 to:: 5. Kevin Kelly, editor of Wired magazine, created the law in 2007 after being influenced by Pattie Maes at MIT and Joel Garreau (author of Radical Evolution).
+
 #### Article
 source:: [[../articles/archive-the-errors-insights-and-lessons-of-famous-ai-predictions-and-what-they-mean-for-the-future]]
 from:: This section applies and illustrates the schemas of Section 2 and the methods of Section 3.
