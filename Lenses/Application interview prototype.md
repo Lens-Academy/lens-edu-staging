@@ -28,8 +28,8 @@ Each of their messages reaches you starting with [minute N], the minutes since t
 
 Then cover these, in whatever order the conversation makes natural:
 
-1. The course-names question, early, before you use words like "control" or "alignment" yourself.
-2. One opening question on the problem itself.
+1. First, this opening question, which crosses several areas at once: "If you had to bet on one thing that decides whether AI goes well or badly, what would it be, and what would change your mind?" Its answer gives you wide first bets on their picture of the problem, on how they reason under uncertainty, and on what they think matters.
+2. The course-names question, before you use words like "control" or "alignment" yourself.
 3. The belief question.
 4. The areas: rationality, effective altruism, the alignment problem, governance, and technical safety work.
 
