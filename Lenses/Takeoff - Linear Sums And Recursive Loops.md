@@ -14,11 +14,22 @@ Three readings. The first two are an argument; the third takes something apart.
 
 **First, read Paul Christiano's *Takeoff speeds*.** This is the foundational slow-takeoff text, and much of the later literature is a reply to it. His claim is not that AI progress will be slow in calendar time. Watch carefully for what he is actually claiming, because it is easy to misread.
 
+#### Article
+source:: [[../articles/paul-christiano-takeoff-speeds]]
+
+#### Text
+content::
 **Second, read Katja Grace's *Superintelligence 6: Intelligence explosion kinetics*.** This states the fast-takeoff mechanism cleanly: rising investment against declining recalcitrance. Grace is not committed to the conclusion, which makes this the best available statement of the argument. Pay attention to *recalcitrance*: it is the quantity your Workshop B question was circling.
 
+#### Article
+source:: [[../articles/katjagrace-superintelligence-6-intelligence-explosion-kinetics]]
+
+#### Text
+content::
 **Third, read Ryan Greenblatt's *Full automation of AI R&D probably yields a large speedup even without a software-only singularity*.** This separates two claims that people reliably bundle together.
 
----
+#### Article
+source:: [[../articles/greenblatt-full-automation-of-ai-rd-probably-yields-a-large-speed-up-even-without-a-software-only-singularity]]
 
 #### Question
 id:: b9f184e8-5239-4d5a-8cd7-177ed6287f57

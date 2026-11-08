@@ -41,7 +41,15 @@ Two short readings.
 
 **First, read Raemon's *"Slow" takeoff is a terrible term for "maybe even faster takeoff"*.** This is the terminology repair. It is short and it will change how you read everything else in this unit.
 
+#### Article
+source:: [[../articles/raemon-slow-takeoff-is-a-terrible-term-for-maybe-even-faster-takeoff-actually]]
+
+#### Text
+content::
 **Second, read Rob Bensinger's *Quick Nate/Eliezer comments on discontinuity*.** Having just watched an argument about whether progress is continuous, this reframes whether that was the right question at all. The suggestion is that the crux is not the shape of the curve but where the improvement is coming from.
+
+#### Article
+source:: [[../articles/bensinger-quick-nateeliezer-comments-on-discontinuity]]
 
 #### Question
 id:: 12aa425e-2187-493b-80c0-2feaa54081f7

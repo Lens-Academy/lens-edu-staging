@@ -1,7 +1,7 @@
 ---
 id: '6d47e55b-f642-42ea-a6e7-5eb8645db491'
 title: Compute-Centric Numbers
-summary_for_tutor: "Optional deep-dive on Tom Davidson's compute-centric takeoff model, plus his six-milestones framing. The value is not the headline number (a four-OOM capability gap compressed to roughly three years) but seeing how a model of this kind is assembled and where its parameters come from. The exercise makes the student find the parameter the conclusion is most sensitive to, which is the transferable skill. Also converts 'timelines' from one date into a sequence of thresholds."
+summary_for_tutor: "Optional deep-dive on Tom Davidson's compute-centric takeoff model, plus Ajeya Cotra's six-milestones framing. The value is not the headline number (a four-OOM capability gap compressed to roughly three years) but seeing how a model of this kind is assembled and where its parameters come from. The exercise makes the student find the parameter the conclusion is most sensitive to, which is the transferable skill. Also converts 'timelines' from one date into a sequence of thresholds."
 tldr: Somebody actually built the model. Davidson's compute-centric framework turns the takeoff argument into parameters you can disagree with one at a time, which is the only kind of disagreement that goes anywhere.
 tags:
   - optional
@@ -16,9 +16,17 @@ This is the takeoff argument as an actual model: growth in effective compute, re
 
 Read for the assembly, not the number. Where does each parameter come from? Which are measured, which are estimated from analogy, and which are essentially chosen?
 
-**Second, read Davidson's *Six milestones for AI automation*.**
+#### Article
+source:: [[../articles/giving-what-a-compute-centric-framework-says-about-takeoff-speeds]]
+
+#### Text
+content::
+**Second, read Ajeya Cotra's *Six milestones for AI automation*.**
 
 This one does something different, and to our eye more useful: it replaces "when does transformative AI arrive" with a sequence of thresholds, each with its own arrival estimate. That structure transfers to other questions about a technology arriving, which is why it is worth learning here rather than only for AI.
+
+#### Article
+source:: [[../articles/cotra-six-milestones-for-ai-automation]]
 
 #### Question
 id:: 20718618-28ec-46b3-a3a4-f699048bac1c
