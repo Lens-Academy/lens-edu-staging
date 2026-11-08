@@ -57,7 +57,7 @@ This is a survey of AI predictions. Armstrong assesses the whole set together, n
 1. What the paper says separates expert predictions from non-expert ones. The paper's claim is that nothing does: experts were no better than non-experts. Read this one with care. In 2016 AI Impacts found a spreadsheet error: a column recording the method behind each prediction had been read as an expert versus non-expert label. The authors acknowledged the error, and the paper's claim about expert versus non-expert predictions did not survive. The split between expert and non-expert predictions in Figure 1 is that same grouping, so read those markers as the paper's claim, not as a settled result.
 2. What the predicted dates look like when you plot them against the date each prediction was made. This finding survived the correction.
 
-You can also read **Luke Muehlhauser's *The errors, insights, and lessons of famous AI predictions***. It gives the individual cases behind the pattern.
+You can also read the case studies in ***The errors, insights and lessons of famous AI predictions***, by Stuart Armstrong, Kaj Sotala and Seán Ó hÉigeartaigh, after the main reading below. They give the individual cases behind the pattern.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
@@ -65,6 +65,11 @@ You can also read **Luke Muehlhauser's *The errors, insights, and lessons of fam
 source:: [[../articles/armstrong-sotala-how-were-predicting-ai-or-failing-to]]
 from:: 4.1. Subjective Assessment
 to:: 5. Kevin Kelly, editor of Wired magazine, created the law in 2007 after being influenced by Pattie Maes at MIT and Joel Garreau (author of Radical Evolution).
+#### Article
+source:: [[../articles/archive-the-errors-insights-and-lessons-of-famous-ai-predictions-and-what-they-mean-for-the-future]]
+from:: This section applies and illustrates the schemas of Section 2 and the methods of Section 3.
+to:: any AI designer would do well to keep them in mind in the course of their programming.
+optional:: true
 
 #### Question: Open
 id:: 4cce137a-0a4a-4942-bc28-fe4a4e5a6d48
