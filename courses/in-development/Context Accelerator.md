@@ -9,7 +9,7 @@ tags: [wip]
 Goal: what everyone joining AI safety should know (concepts, claims, skills).
 Targets and discussion: [[../../../Lens/11-People/Elias/Context accelerator discussion]]
 Luc's wishlist: [[../../../Lens/03-Product/Context Accelerator - Luc's wishlist]]
-Concept candidates: [[../../../Lens/03-Product/Claude Luc Context Accelerator - concept candidates]]
+Concept candidates: [[../../../Lens/03-Product/ConAc/Submissions/Claude Luc Context Accelerator - concept candidates]]
 The earlier strategy-and-ToC version is archived as [[../archived/ToC Accelerator]].
 %%
 
