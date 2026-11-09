@@ -7,12 +7,12 @@ tags: [wip]
 ---
 %%
 Links:
-- [[../../../Lens/03-Product/Notes on AI Safety Context Accelerator|Context Accelerator Pitch]]
+- [[../../../Lens/03-Product/ConAc/Notes on AI Safety Context Accelerator|Context Accelerator Pitch]]
 - [[../../../Lens/11-People/Mark/Q4 2026 Pitches/01 - Context Accelerator Launch Pitch|Context Accelerator Launch Pitch]]
 - [[../../../Lens/03-Product/04 - Accelerators|Accelerators one-pager]]
 
 Cap: https://cap.so/s/my8sc06hzsbbx9a
-[[../../../Lens/03-Product/Notes on AI Safety Context Accelerator]]
+[[../../../Lens/03-Product/ConAc/Notes on AI Safety Context Accelerator]]
 [[../../../Lens/11-People/Elias/Posts/Context accelerator ToC post]]
 
 ### Field Needs:
