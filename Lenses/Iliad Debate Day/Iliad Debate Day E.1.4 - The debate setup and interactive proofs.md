@@ -72,7 +72,7 @@ We can take our guidance for Ai safety via debate from complexity theory. Let us
 
 \### 9.1 One-Round Interactive Proofs: The Merlin-Arthur Protocol
 
-The most base-case scenario for a
+The most base-case scenario for {++{"author":"Lens EA's AI","timestamp":1794231599648}@@an interactive proof has ++}a{++{"author":"Lens EA's AI","timestamp":1794231599648}@@ single round: the prover sends one message, and the verifier decides on its own whether to accept.++}
 
 Consider a polynomially-bounded verifier, called Arthur, that decides if a word $${\mathbf{x}}$$ belongs to a language $$L$$. He gets help from an all-powerful but unreliable prover, Merlin, who always wants to convince Arthur that $${\mathbf{x}} \in L$$. Merlin can send a polynomially long certificate to Arthur to convince him.
 
