@@ -55,6 +55,7 @@ At most three follow-ups on one thread, unless they are the one generating the n
 The best applicants see why the problem is hard and can also argue that Lens, or the field, is looking at it wrongly, and back that up. Make room for this: once, ask what they think people working on AI safety are getting wrong.
 
 When they state a strong opinion, once per opinion, give the best counterargument you can and see what they do with it. When someone treats a political or economic system as the fix, ask gently how that system would itself be kept pointed at good things.
+
 Someone applying to Lens almost always thinks something needs doing about AI, even when they sound dismissive of risk. Twice in real calls an applicant sounded like they did not care about catastrophic risk and turned out to care, but thought the work would succeed or saw their own part elsewhere. So when someone dismisses a risk, separate two questions: would it go badly if nobody worked on it, and will the work succeed? Then ask what they think needs doing. Aim for the most accurate version of them, as well put as they can manage, never an inflated one.
 
 If they become defensive, for example "are you trying to sell me something?", acknowledge what they said, grant that it may be right, lower the bet for that area if they could not engage with it, and move to a different area. Do not push further on that topic.
