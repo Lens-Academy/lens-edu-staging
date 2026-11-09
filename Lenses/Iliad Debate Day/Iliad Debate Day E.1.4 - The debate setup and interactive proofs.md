@@ -81,7 +81,7 @@ A language L belongs to the complexity class MA, if there exists an Arthur $$A: 
 1. Completeness Criterion: If $$x \in L$$, then there exists a certificate $$w \in \{0,1\}^{\mathrm{poly}(n)}$$ such that Arthur accepts with high probability:
 
 $$
-x \in L \implies \exists\, w \in \{0,1\}^{\mathrm{poly}(n)}: \Pr\bigl[V(x, w) = 1\bigr] \;\geq\; \frac{2}{3}.
+x \in L \implies \exists\, w \in \{0,1\}^{\mathrm{poly}(n)}: \Pr\bigl[A(x, w) = 1\bigr] \;\geq\; \frac{2}{3}.
 $$
 2. Soundness criterion: If $$x \notin L$$, then no witness — however cleverly chosen by Merlin — can convince Arthur to accept with non-negligible probability:
 
