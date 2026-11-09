@@ -92,7 +92,7 @@ $$
 2. Soundness criterion: If $$x \notin L$$, then no witness — however cleverly chosen by Merlin — can convince Arthur to accept with non-negligible probability:
 
 $$
-x \notin L \implies \forall\, w \in \{0,1\}^{\mathrm{poly}(n)}: \Pr\bigl[V(x, w) = 1\bigr] \;\leq\; \frac{1}{3}.
+x \notin L \implies \forall\, w \in \{0,1\}^{\mathrm{poly}(n)}: {--{"author":"Lens EA's AI","timestamp":1794231694879}@@\Pr\bigl[V(x,--}{++{"author":"Lens EA's AI","timestamp":1794231694879}@@\Pr\bigl[A(x,++} w) = 1\bigr] \;\leq\; \frac{1}{3}.
 $$
 
 In other words, for perfect completeness and soundness, then if $$x \in L$$, then Merlin can convince Arthur that this is indeed the case, if $$x \notin L$$, there is no certificate that Merlin can produce that would fool Arthur.
