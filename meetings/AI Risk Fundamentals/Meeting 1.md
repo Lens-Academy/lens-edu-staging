@@ -29,7 +29,7 @@ Between rooms everyone comes back to the main room for five minutes. Your naviga
 
 - Confused about the task, or want to talk to the facilitator? Click “••• More” > “Ask for Help” > Your navigator gets pinged and pops into your room.
 - Lost the doc link, or a quick logistics thing? Check Discord or the Zoom chat.
-- Don't get the question or the reading? Ask the [Lens Tutor](https://lensacademy.org/tutor). {>>{"author":"Luc","timestamp":1791047487697}@@Tutor. The name "coach" is nolonger used. Anyway, also seems like bad advice? Because tutor doesn't have the sessions loaded, nor understands them.<<}
+- Don't get the question or the reading? Ask the [Lens Tutor](https://lensacademy.org/tutor). 
 - More questions? Check the [FAQ Tab](<#tab:Participant FAQ>)
 
 
@@ -38,7 +38,7 @@ Between rooms everyone comes back to the main room for five minutes. Your naviga
 \pagebreak
 ### Room 1: Icebreaker  [0:05–0:19]
 
-This is the first time this cohort meets, so we start with the people in the course. Go around your group, two things: {>>{"author":"Luc","timestamp":1791047536991}@@Weird sentences, can be way simplified<<}
+This is the first time this cohort meets, so we start with the people in the course. Go around your group, two things: 
 
 
 1\. Introduce yourself: your name, where you're joining from, and something you spend your time on that has nothing to do with AI. Then the real question: what brought you to a course on AI risk? A book, a conversation, a growing unease, plain curiosity? (Skeptics are very welcome; if you're not sure the risk is real, say so.)
