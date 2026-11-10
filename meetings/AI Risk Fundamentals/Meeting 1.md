@@ -10,7 +10,7 @@ title: AI Risk Fundamentals Unit 1 Session Doc Template
 
 ### Meeting link:
 
-### How today works
+{--{"author":"Andreas's AI","timestamp":1794334209932}@@### How today works
 
 You'll move through a few small **breakout rooms** (**3-4** people), meeting different people each time. In each room:
 
@@ -27,13 +27,13 @@ Between rooms everyone comes back to the main room for five minutes. Your naviga
 
 **🆘 Need help during a breakout?**
 
-- Confused about the task, or want to talk to the facilitator? Click “••• More” > “Ask for Help” > Your navigator gets pinged and pops into your room.
+--}{++{"author":"Andreas's AI","timestamp":1794334209932}@@source:: [[../shared/Session Doc ++}-{--{"author":"Andreas's AI","timestamp":1794334209932}@@ Confused about the task, or want to talk to the facilitator? Click “••• More” > “Ask for Help” > Your navigator gets pinged and pops into your room.
 - Lost the doc link, or a quick logistics thing? Check Discord or the Zoom chat.
 - Don't get the question or the reading? Ask the [Lens Tutor](https://lensacademy.org/tutor). 
 - More questions? Check the [FAQ Tab](<#tab:Participant FAQ>)
 
 
----
+-----}{++{"author":"Andreas's AI","timestamp":1794334209932}@@ How today works]]++}
 
 \pagebreak
 ### Room 1: Icebreaker  [0:05–0:19]
