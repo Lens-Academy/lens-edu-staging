@@ -111,7 +111,7 @@ One or two people share what their group landed on.
 
 1\. Go around: each of you shares the question your Room 3 group dug into, and where the discussion went.
 2\. The others respond: what would your Room 3 group have added, or seen differently?
-3\. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
+3\. {--{"author":"Andreas's AI","timestamp":1794345595994}@@Next unit: What--}{++{"author":"Andreas's AI","timestamp":1794345595994}@@If you still have time: what++} is most likely to stop you finishing {--{"author":"Andreas's AI","timestamp":1794345595994}@@it,--}{++{"author":"Andreas's AI","timestamp":1794345595994}@@the next unit,++} and what's your plan to prevent that? (Send the plan to your {--{"author":"Andreas's AI","timestamp":1794345595994}@@buddy--}{++{"author":"Andreas's AI","timestamp":1794345595994}@@buddies++} after the meeting.)
 
 
 | Names | Your Room 3 question + what the others added + your plan for the next unit |
