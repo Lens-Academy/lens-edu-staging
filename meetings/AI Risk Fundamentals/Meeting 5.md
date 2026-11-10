@@ -21,7 +21,7 @@ Go around your group, three things:{>>{"author":"Andreas's AI","timestamp":17911
 1. Did you finish the book? What was it like to reach the end? If you didn't finish, what got in the way?
 
 
-2. **How did your conversation go?** Your action plan asked you to talk to one real person about AI risk. If you already shared last unit, tell us what's happened since. Otherwise, share:
+2. **How did your conversation go?** Your action plan asked you to talk to one real person about AI risk. If you already shared last meeting, tell us what's happened since. Otherwise, share:
     - **Who did you talk to?**
     - **What was the best moment?**
     - **What was the hardest moment?**
