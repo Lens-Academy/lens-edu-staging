@@ -15,7 +15,7 @@ source:: [[../shared/Session Doc - How today works]]
 \pagebreak
 ### Room 1: The Lunch Table, Live  [0:05–0:19]
 
-Quick go-around first, one line each: How was this unit? Did you finish it? If you didn't, what got in the way? Did the day-zero reread land the way you expected?
+Quick go-around first, one line each: How was {--{"author":"Andreas's AI","timestamp":1794345539507}@@this--}{++{"author":"Andreas's AI","timestamp":1794345539507}@@the final++} unit? Did you finish it? If you didn't, what got in the way? Did the day-zero reread land the way you expected?
 
 
 Then the real thing. What AI news have you run into since the last meeting? Anything: a headline, a model release, a policy story, something a friend told you. Pick whichever one the group finds most interesting and do together, out loud, what you did alone in the unit:

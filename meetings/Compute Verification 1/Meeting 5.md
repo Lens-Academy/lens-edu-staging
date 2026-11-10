@@ -16,7 +16,7 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Icebreaker  [0:05–0:19]
 
 Go around your group:
-1\. How was this unit? Did you finish it? If you didn't, what got in the way?
+1\. How was {--{"author":"Andreas's AI","timestamp":1794345536764}@@this--}{++{"author":"Andreas's AI","timestamp":1794345536764}@@the final++} unit? Did you finish it? If you didn't, what got in the way?
 2\. Recall something from this unit that stuck with you: a number, a claim, or an unsolved limit. What was it, and how did it impact you?
 3\. Having now completed Compute Verification 1, are you more or less hopeful that a pause could actually be verified? Which part of the course swayed you most? If nothing changed, what evidence would move the needle for you?
 
