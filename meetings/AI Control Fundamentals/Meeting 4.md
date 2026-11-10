@@ -106,7 +106,7 @@ One or two people share what their group landed on.
 
 1\. Go around: your 0 to 10 from Room 2, and your number now.
 2\. Whoever moved most explains what moved them. The others: did the same thing move you?
-3\. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
+3\. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your {--{"author":"Andreas's AI","timestamp":1794345602013}@@buddy--}{++{"author":"Andreas's AI","timestamp":1794345602013}@@buddies++} after the meeting.)
 
 
 | Names | Your number in Room 2 → now + what moved it + your plan for the next unit |
