@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works]]
 Go around your group, two things:
 
 
-1. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to previous ones?
+1. How was this unit? Did you finish it? If you didn't, what got in the way?{--{"author":"Andreas's AI","timestamp":1794345500182}@@ What do you think about this unit compared to previous ones?--}
 
 
 2. **If an oracle told your group a misaligned superintelligence would end the world in 6 months — what would you all do with the time?** Land on **one plan you all agree on**, ideally a mash-up of everyone's ideas. It's an icebreaker, so wacky / not-cohesive / not-serious is totally fine.
