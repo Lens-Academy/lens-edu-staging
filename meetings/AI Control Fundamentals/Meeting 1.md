@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works]]
 First meeting, so start by getting to know each other. Go around:
 
 1. Who you are: name, where you're joining from, what you work on, and what brought you here. Skeptics welcome.
-2. How was working through this unit's content? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
+2. How was {--{"author":"Andreas's AI","timestamp":1794345569172}@@working through --}this {--{"author":"Andreas's AI","timestamp":1794345569172}@@unit's content?--}{++{"author":"Andreas's AI","timestamp":1794345569172}@@unit?++} Did you {--{"author":"Andreas's AI","timestamp":1794345569172}@@finish?--}{++{"author":"Andreas's AI","timestamp":1794345569172}@@finish it?++} If you {--{"author":"Andreas's AI","timestamp":1794345569172}@@didn't finish,--}{++{"author":"Andreas's AI","timestamp":1794345569172}@@didn't,++} what got in the way?{--{"author":"Andreas's AI","timestamp":1794345569172}@@ (No judgment, "I didn't finish" is a fine answer.)--}
 3. Share the gut view about AI control that you wrote down at the start of this unit ([find it here](https://lensacademy.org/courses/ai-control-fundamentals/module/ai-control-fundamentals-u1)). Where do you agree/disagree with each other?
 
 
