@@ -124,7 +124,9 @@ Each entry gives the decision, who made it, the reason, and what it commits us t
 
 **AIRF Meeting 1 keeps a book-specific check-in.** *Andreas, 2026-10-11.* He rewrote it to the new shape ("How was your first taste of the book? Did you finish the Introduction and Chapters 1-3? If you didn't, what got in the way?") and kept the one-word feeling its table asks for, but dropped the list of example feelings, which anchors answers (A8).
 
-**Room 4's preview takes CV1 Meeting 4 as its model.** *Andreas, 2026-10-11.* "Hardware verification, what a chip can and cannot prove about the work it did": it names the next main topic plainly and says what it involves. The guide's Room 4 example now uses it. Andreas writes one such sentence per meeting in [[Meeting Doc Text Review - Room 4 previews]].
+**Room 4's preview takes CV1 Meeting 4 as its model.** *Andreas, 2026-10-11.* "Hardware verification, what a chip can and cannot prove about the work it did": it names the next main topic plainly and says what it involves. The guide's Room 4 example now uses it. Andreas writes one such sentence per meeting in [[Meeting Doc Text Review - Room 4 previews]]. *Overtaken, found 2026-11-10:* Elias changed the guide on 2026-10-13 so that Room 4 does not preview the next unit at all (section 7).
+
+**Last meetings use the plain check-in.** *Andreas, 2026-11-10.* Each last meeting's Room 1 already reflects on the whole course, and the check-in looks back anyway, so it needs no last-meeting version: CV1 Meeting 5 and AI Futures Meeting 5 get "How was this unit? Did you finish it? If you didn't, what got in the way?". AI Control 1 Meeting 5 stays as it is, since its Room 1 is built around the course and deliberately skips the check-in. AIRF Meeting 5 keeps its book question.
 
 **Claude may suggest edits to the guide.** *Andreas, 2026-10-11.* Elias left the Room 4 question to Andreas and Claude, and the guide still carried several phrasings this work had made obsolete. Edits go in as suggestions, with the decision's author and date in the text, as Elias's own rules do.
 
@@ -359,6 +361,10 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 | 2026-10-11 | Andreas rewrote AIRF Meeting 1's check-in | meetings/AI Risk Fundamentals/Meeting 1 | Section 2 | Edited by Andreas |
 | 2026-10-11 | "this Room 4 only" restored; AIRF's check-in unbolded in Meetings 2 to 5, and Meeting 5's reassurance dropped; the guide's Room 4 example given CV1 Meeting 4's sentence | AIRF Meeting 1, CV1 Meeting 1, AI Control 1 Meeting 1; AIRF Meetings 2 to 5; AI Guide/Writing Meeting Docs | Section 2 | Pending, 8 suggestions, merged with the earlier pending ones where they overlap |
 | 2026-10-11 | Created the Room 4 previews worksheet | [[Meeting Doc Text Review - Room 4 previews]] | Part 2 of the buddy wording: Andreas writes one preview sentence per meeting beside what each doc says now | Direct, new file. To be trashed once the sentences are copied in |
+| 2026-11-10 | Found: the log, style sheet and worksheet moved to worklogs/andreas; the guide changed after 2026-10-11 | Lens Edu/worklogs/andreas; AI Guide/Writing Meeting Docs | Picking the work back up after a month | Read only. Guide changes listed in section 7 |
+| 2026-11-10 | AIRF Meeting 1's inline How today works replaced by the shared include | meetings/AI Risk Fundamentals/Meeting 1 | Andreas resolved Luc's three comments, which had blocked the swap | Pending, 1 suggestion |
+| 2026-11-10 | **Decision: last meetings use the plain check-in** | Plan | Section 2 | Andreas, 2026-11-10 |
+| 2026-11-10 | Plain check-in applied to the last meetings | CV1 Meeting 5, AI Futures Meeting 5 | Section 2 | Pending, 2 suggestions. AI Futures Meeting 5 keeps its day-zero reread question after the check-in |
 
 ---
 
