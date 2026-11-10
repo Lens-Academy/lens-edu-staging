@@ -119,8 +119,8 @@ One or two people share what their group landed on.{--{"author":"Andreas's AI","
 **New group. Names first, then straight in.**
 
 
-1. Accountability buddies: the people in this breakout room are your accountability buddies (if you are four or more, split into two groups). Swap contact details in the table now.
-2. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
+1. {--{"author":"Andreas's AI","timestamp":1794345609887}@@Accountability buddies: the--}{++{"author":"Andreas's AI","timestamp":1794345609887}@@The++} people in this breakout room are your accountability buddies{--{"author":"Andreas's AI","timestamp":1794345609887}@@ (if you are four or more, split into two groups). --}{++{"author":"Andreas's AI","timestamp":1794345609887}@@ for the rest of the course. ++}Swap contact details in the table {--{"author":"Andreas's AI","timestamp":1794345609887}@@now.--}{++{"author":"Andreas's AI","timestamp":1794345609887}@@below. Before each meeting, check in with one another: did you finish, are you coming?++}
+2. {--{"author":"Andreas's AI","timestamp":1794345609887}@@Next unit: What --}{++{"author":"Andreas's AI","timestamp":1794345609887}@@If you still have time: what ++}is most likely to stop you finishing {--{"author":"Andreas's AI","timestamp":1794345609887}@@it,--}{++{"author":"Andreas's AI","timestamp":1794345609887}@@the next unit,++} and what's your plan to prevent that? (Send the plan to your {--{"author":"Andreas's AI","timestamp":1794345609887}@@buddy--}{++{"author":"Andreas's AI","timestamp":1794345609887}@@buddies++} after the meeting.)
 
 
 
@@ -164,7 +164,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 Would you keep the checks? (reshuffle) |
-| 1:10–1:15 | Back together (whole group) |
+| 1:10–1:15 | Back together (whole {--{"author":"Andreas's AI","timestamp":1794345621796}@@group)--}{++{"author":"Andreas's AI","timestamp":1794345621796}@@group), then walk through the buddy setup below++} |
 | 1:15–1:27 | R4 Buddies, next unit (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
 
@@ -190,7 +190,16 @@ source:: [[../shared/Navigator Run-Sheet - During the breakout rooms]]
 
 source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 
-### Close
+### {++{"author":"Andreas's AI","timestamp":1794345616583}@@Accountability buddy setup
+
+**[1:10–1:15], whole group**, after the sharing. Walk through the accountability buddy system (about a minute):
+
+
+In Room 4, the people in each breakout room become their accountability buddies, so they should swap contact details. Before each meeting they will check in with one another: did they finish the unit? Are they coming?
+
+For **this Room 4 only**, aim to create breakout rooms of trios (a couple of pairs are fine).
+
+### ++}Close
 
 **[1:27–1:30], whole group**. Bring everyone back:
 
