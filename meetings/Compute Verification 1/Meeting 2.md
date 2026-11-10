@@ -16,7 +16,7 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Icebreaker  [0:05–0:19]
 
 Go around your group:
-1\. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to previous ones?
+1\. How was this unit? Did you finish it? If you didn't, what got in the way?{--{"author":"Andreas's AI","timestamp":1794345508570}@@ What do you think about this unit compared to previous ones?--}
 2\. The cost card. Read out your line: "I support \_\_\_ at the cost of \_\_\_." (Skipped it? Make one now.)
 5\. Was naming the price almost instant, took some thought, or genuinely hard?
 6\. If it was hard: who ends up paying, that you hadn't thought about?
