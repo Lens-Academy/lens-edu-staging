@@ -16,7 +16,7 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Where Did Your Points Go?  [0:05–0:19]
 
 Go around your group, two things.
-1\. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to previous ones?
+1\. How was this unit? Did you finish it? If you didn't, what got in the way?{--{"author":"Andreas's AI","timestamp":1794345524340}@@ What do you think about this unit compared to previous ones?--}
 2\. Your hundred points: which lever got your biggest line item, and which got almost nothing? One sentence on why. When everyone has gone, name the biggest disagreement in the room. Do not resolve it yet, you will want it later.
 
 
