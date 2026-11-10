@@ -16,7 +16,7 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Icebreaker  [0:05–0:19]
 
 Go around your group:
-1\. How was working through this unit's content? If you didn't finish, what got in the way?
+1\. How was {--{"author":"Andreas's AI","timestamp":1794345577947}@@working through this unit's content?--}{++{"author":"Andreas's AI","timestamp":1794345577947}@@this unit? Did you finish it?++} If you {--{"author":"Andreas's AI","timestamp":1794345577947}@@didn't finish,--}{++{"author":"Andreas's AI","timestamp":1794345577947}@@didn't,++} what got in the way?
 2\. Which criticism of control from this unit stuck with you most? If someone in your group didn't read your pick, sum it up in a sentence.
 3\. If you still have time: how do you feel about control after this unit?
 

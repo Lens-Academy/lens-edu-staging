@@ -16,7 +16,7 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Icebreaker  [0:05–0:19]
 
 Last meeting of the course. Go around:
-1\. How was the course for you? Did you finish everything?
+1\. How was the {--{"author":"Andreas's AI","timestamp":1794345581465}@@course for you?--}{++{"author":"Andreas's AI","timestamp":1794345581465}@@final unit?++} Did you finish {--{"author":"Andreas's AI","timestamp":1794345581465}@@everything?--}{++{"author":"Andreas's AI","timestamp":1794345581465}@@it? If you didn't, what got in the way?++}
 2\. Which argument from this unit stuck with you, whether or not you agree with it? Sum it up in one line for the others.
 3\. If you still have time: What do you think of control now that the course is over?
 

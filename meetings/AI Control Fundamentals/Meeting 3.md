@@ -16,7 +16,7 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Before and after  [0:05–0:19]
 
 Go around your group:
-1\. How was working through this unit's content? Did you finish? If you didn't finish, what got in the way?
+1\. How was {--{"author":"Andreas's AI","timestamp":1794345575246}@@working through --}this {--{"author":"Andreas's AI","timestamp":1794345575246}@@unit's content?--}{++{"author":"Andreas's AI","timestamp":1794345575246}@@unit?++} Did you {--{"author":"Andreas's AI","timestamp":1794345575246}@@finish?--}{++{"author":"Andreas's AI","timestamp":1794345575246}@@finish it?++} If you {--{"author":"Andreas's AI","timestamp":1794345575246}@@didn't finish,--}{++{"author":"Andreas's AI","timestamp":1794345575246}@@didn't,++} what got in the way?
 2\. Before this unit, how did you think control makes an AI catastrophe less likely? (Your guess from the start of the unit is in [Welcome to Unit 3](https://lensacademy.org/courses/ai-control-fundamentals/module/ai-control-fundamentals-u3).)
 3\. Did the unit present mechanisms you didn't think of before?
 4\. If you still have time: How did the unit leave you feeling about control?
