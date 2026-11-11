@@ -47,31 +47,27 @@ A working file ([[Meeting Doc Text Review Log]], section 2). Since 2026-11-10 th
 
 ### Meeting 1 (next: Unit 2)
 
-- **Room 4 now:** no next-unit item. Room 4 is buddies, a theory of change and feedback.
-- **Wrap-up now:** "Next unit: Precedents and policy scope. IAEA safeguards, Shavit's compute-monitoring proposal and why Iraq was missed; the goal, legal rule, verification claim ladder; compute versus capability thresholds; eleven anti-ASI policies sorted by effectiveness and feasibility, closing with a stakeholder map. About 170 minutes core, plus an optional 80-minute strategic-foundations reading list."
-- **Run-sheet now:** a shorter version of the same list.
+- **Run-sheet close now:** "Next-unit heads-up: reading is Unit 2, Precedents and policy scope (IAEA safeguards, Shavit and Iraq; the goal-rule-claim ladder and thresholds; the eleven-policy sort and the stakeholder map; about 170 minutes core plus an optional 80-minute reading list); remind them to message their Room-4 accountability buddy today, and that feedback goes to XLab's form (link in the session doc)."
+- **Participants see now:** nothing in Room 4; the wrap-up gives a long summary with times.
 - **New:**
 
 ### Meeting 2 (next: Unit 3)
 
-- **Room 4 now:** "Next unit is Treaty anatomy and actors." Then two items: "What is most likely to stop you finishing it?" and "What will you do about that?"
-- **Wrap-up now:** "Next unit: Treaty anatomy and actors. How a treaty text is built (you read parts of MIRI's draft ASI agreement and answer three of four questions on it), then who a pause actually binds: you place seventeen actors on a map and draw who can prove what about whom. About 210 minutes core; the full MIRI draft adds an optional 75."
-- **Run-sheet now:** a shorter version of the same.
+- **Run-sheet close now:** "Next-unit heads-up: reading is Unit 3, Treaty anatomy and actors (how a treaty text is built, three of four questions on MIRI's draft ASI agreement, then the seventeen-actor map and who can prove what about whom; about 210 minutes core plus the optional 75-minute MIRI draft); remind them to send their Room-4 plan to their accountability buddy, and that feedback goes to XLab's form (link in the session doc)."
+- **Participants see now:** Room 4 opens with "Next unit is Treaty anatomy and actors."; the wrap-up gives a long summary with times.
 - **New:**
 
 ### Meeting 3 (next: Unit 4)
 
-- **Room 4 now:** "Next unit: where a verification report's claims come from and who acts on them. You pick one real report (a system card, the UK AISI trends report, an IAEA report on Iran, or the BIS Seagate order) and pull it apart. About 170 minutes."
-- **Wrap-up now:** "Next unit: Evidence and its readers." followed by the same two sentences.
-- **Run-sheet now:** "the Fordow provenance case, the Context Distiller on one of four reports, four metrics for judging mechanisms, and privacy-preserving verification"
+- **Run-sheet close now:** "Next-unit heads-up: reading is Unit 4, Evidence and its readers (the Fordow provenance case, the Context Distiller on one of four reports, four metrics for judging mechanisms, and privacy-preserving verification; about 170 minutes, no optional lenses); remind them to bring the report they picked, to send their Room-4 plan to their accountability buddy, and that feedback goes to XLab's form (link in the session doc)."
+- **Participants see now:** Room 4 says "where a verification report's claims come from and who acts on them", then lists the four reports; the wrap-up repeats it.
 - **New:**
 
 ### Meeting 4 (next: Unit 5, the last)
 
-- **Room 4 now:** "Next unit: Hardware verification, what a chip can and cannot prove about the work it did. About 155 minutes plus an optional 30."
-- **Wrap-up now:** "Next unit: Hardware verification. What a signed attestation proves and what it does not; identity, location, topology and the negative claim of completeness; measuring and classifying compute use; offline licensing and who holds the key; and where trust should live: in the chip, on the network, on the power line, or across all three."
-- **Run-sheet now:** a shorter version of the wrap-up.
-- **New:** the model sentence, unless Andreas wants to change it.
+- **Run-sheet close now:** "Next-unit heads-up: reading is Unit 5, Hardware verification (attestation and what it does not prove, identity, location, topology and completeness, measuring and classifying use, offline licensing, and where trust should live; about 155 minutes core plus an optional 30-minute extension); remind them to send their Room-4 plan to their accountability buddy, and that feedback goes to XLab's form (link in the session doc)."
+- **Participants see now:** Room 4 has the model sentence; the wrap-up gives a long summary.
+- **New:** the model sentence, unless Andreas wants to change it: "Hardware verification, what a chip can and cannot prove about the work it did."
 
 ## AI Futures
 
