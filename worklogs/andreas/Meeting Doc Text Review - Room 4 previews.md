@@ -97,32 +97,29 @@ Its run-sheets already work this way: the navigator's close carries the preview,
 - **Participants see now:** the wrap-up: "Heads-up for next time: Unit 5 is the lightest reading of the course on purpose. It ends with you rereading your day-zero paragraph and rewriting your model one last time, so give the two closing exercises real time."
 - **New:**
 
-## AI Control 1
+## AI Control Fundamentals
 
-### Meeting 1 (next: Unit 2)
+The live control course (in scope since 2026-11-10, in place of AI Control 1, which is not live). Its run-sheets give no preview, and participants see none. The material quoted below is the summary from each unit's "Welcome to Unit N" lens.
 
-- **Room 4 now:** "Next unit: the paper that started this field, read in full with exercises and interactive models built into it, and then the question of when it would be safe to let AIs take over the work of keeping AIs safe. About 4 hours."
-- **Wrap-up now:** "Next unit: The founding paper and passing the buck. The 2023 paper that turned control into something you can measure, read in full with exercises and interactive models built into it, then an hour of straight reading: Josh Clymer on when handing the safety work to AI agents is the safer choice. About 4 hours."
-- **Run-sheet now:** a list of the same.
+### Meeting 1 (next: Unit 2, The key ideas and the field)
+- **Run-sheet close now:** "Remind them to message their Room-4 accountability buddy today and send that buddy their plan, to keep their gut-view note, and to fill in the meeting survey."
+- **Material:** "An AI that needs one bad action to cause a catastrophe and one that needs a thousand call for different defences. This unit covers that difference, then the people and organisations who work on control and how many of them there are."
 - **New:**
 
-### Meeting 2 (next: Unit 3)
+### Meeting 2 (next: Unit 3, Why people work on control)
 
-- **Room 4 now:** "Next unit: six lessons on why catching a model in the act counts as a win, which threats to worry about first, the strongest arguments that this whole approach is not worth doing, and how to price what it buys. About 4.5 hours."
-- **Wrap-up now:** "Next unit: Catching schemers, prioritising threats, and the case against control." followed by a longer list of the same.
-- **Run-sheet now:** a list of the same.
+- **Run-sheet close now:** "Remind them to send their plan for the next unit to their accountability buddy, and to fill in the Unit 2 feedback page in the course."
+- **Material:** "Control is supposed to make an AI catastrophe less likely, but by which routes, and what does each route need from AI companies and governments? This unit reads people who work on control and people who doubt them."
 - **New:**
 
-### Meeting 3 (next: Unit 4)
+### Meeting 3 (next: Unit 4, Criticisms of control)
 
-- **Room 4 now:** "Next unit: nine lessons on the plans a lab could run depending on its backing, the catalogue of measures for spotting, preventing and responding to a bad action, and which failures take only a few actions. About 5 hours, the longest of the course."
-- **Wrap-up now:** "Next unit: Plans, the control toolkit, and high-stakes framing." followed by a longer list of the same.
-- **Run-sheet now:** a list of the same.
+- **Run-sheet close now:** "Remind them to send their plan for the next unit to their accountability buddy, and to fill in the Unit 3 feedback page in the course."
+- **Material:** "The main criticisms of control, one at a time, in the critics' own words and with replies. First: does control work, and is it worth the effort? Then: does it make things worse?"
 - **New:**
 
-### Meeting 4 (next: Unit 5, the last)
+### Meeting 4 (next: Unit 5, Debates, and your own view)
 
-- **Room 4 now:** "Next unit: the last of this course. How an unmonitored copy of a model gets running in the first place, and what a lab can do with a flagged action besides letting it through. About 4.75 hours, plus one optional 20-minute lesson."
-- **Wrap-up now:** "Next unit: High-stakes monitoring and mitigation, the last unit of this course." followed by a longer version of the same.
-- **Run-sheet now:** a list of the same.
+- **Run-sheet close now:** "Remind them to send their Room 4 plan to their accountability buddy, and that feedback goes on the Unit 4 feedback page in the course."
+- **Material:** "People who know the arguments well still disagree about whether control helps. This unit lets you hear them argue, find what their disagreements turn on, and then decide where you stand."
 - **New:**
