@@ -16,7 +16,7 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Before and after  [0:05–0:19]
 
 Go around your group:
-1\. How was {--{"author":"Andreas's AI","timestamp":1794345575246}@@working through --}this {--{"author":"Andreas's AI","timestamp":1794345575246}@@unit's content?--}{++{"author":"Andreas's AI","timestamp":1794345575246}@@unit?++} Did you {--{"author":"Andreas's AI","timestamp":1794345575246}@@finish?--}{++{"author":"Andreas's AI","timestamp":1794345575246}@@finish it?++} If you {--{"author":"Andreas's AI","timestamp":1794345575246}@@didn't finish,--}{++{"author":"Andreas's AI","timestamp":1794345575246}@@didn't,++} what got in the way?
+1\. How was this unit? Did you finish it? If you didn't, what got in the way?
 2\. Before this unit, how did you think control makes an AI catastrophe less likely? (Your guess from the start of the unit is in [Welcome to Unit 3](https://lensacademy.org/courses/ai-control-fundamentals/module/ai-control-fundamentals-u3).)
 3\. Did the unit present mechanisms you didn't think of before?
 4\. If you still have time: How did the unit leave you feeling about control?
@@ -122,7 +122,7 @@ Pick one of these, or a question someone in your group really wants to discuss:
 - Does control mostly speed up safety work, or mostly help companies build AI faster?
 
 1\. Discuss your pick.
-2\. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your {--{"author":"Andreas's AI","timestamp":1794345598806}@@buddy--}{++{"author":"Andreas's AI","timestamp":1794345598806}@@buddies++} after the meeting.)
+2\. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
 
 
 | Names | Your question + where you landed + your plan for the next unit |
