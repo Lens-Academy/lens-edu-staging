@@ -21,30 +21,26 @@ A working file ([[Meeting Doc Text Review Log]], section 2). Since 2026-11-10 th
 
 ### Meeting 1 (next: Unit 2)
 
-- **Room 4 now:** "Next unit: Chapters 4-6 (You Don't Get What You Train For, Its Favorite Things, We'd Lose): Will it want what we trained it to want, would its wants leave room for us, and how could we actually lose to it?"
-- **Wrap-up now:** "Next unit's reading: Chapter 4: You Don't Get What You Train For + Chapter 5: Its Favorite Things + Chapter 6: We'd Lose"
-- **Run-sheet now:** "reading is Chapters 4-6 (You Don't Get What You Train For; Its Favorite Things; We'd Lose)"
+- **Run-sheet close now:** "Next-unit heads-up: reading is Chapters 4-6 (You Don't Get What You Train For; Its Favorite Things; We'd Lose); remind them to fill in the Meeting 1 Survey on the platform (it counts for their certificate), and to message their Room-4 accountability buddy on Discord today and send them their reading plan."
+- **Participants see now:** Room 4 lists Chapters 4-6 with their titles and three questions about them; the wrap-up lists the three chapters again.
 - **New:**
 
 ### Meeting 2 (next: Unit 3)
 
-- **Room 4 now:** "Next unit: Two short extension readings, a 30-minute film of the book's extinction scenario, Chapters 7 and 8 (optional), Chapter 9 (Ascension), the Coda, and the Your Leverage strengths exercise."
-- **Wrap-up now:** the same list, inside the closing paragraph.
-- **Run-sheet now:** the same list.
+- **Run-sheet close now:** "Point them to the Meeting 2 Survey on the platform; remind them that next unit is two short extension readings, a 30-minute film of the book's extinction scenario, Chapters 7 and 8 (optional), Chapter 9 (Ascension), the Coda, and the Your Leverage strengths exercise; and remind them of their buddy (same as Unit 1, swap plans)."
+- **Participants see now:** the same list in Room 4 and again in the wrap-up.
 - **New:**
 
 ### Meeting 3 (next: Unit 4)
 
-- **Room 4 now:** "Next unit: Chapters 10 and 11 (A Cursed Problem; An Alchemy, Not a Science)." Then a separate item: "Preview next unit: you'll learn how to have a real conversation about AI risk with someone you know. No action needed yet, the next unit will help you choose a person, rehearse, and then schedule it."
-- **Wrap-up now:** the chapters, plus the same conversation preview.
-- **Run-sheet now:** "Announce next unit's pivot: reading is Chapters 10 and 11, and participants will prepare for one real conversation about AI risk with someone they know."
+- **Run-sheet close now:** "Announce next unit's pivot: reading is Chapters 10 and 11, and participants will prepare for one real conversation about AI risk with someone they know. Tell them no action is needed yet; the next unit guides them through choosing a person, rehearsing, and scheduling. This unit's chapters are heavy, so close on that agency note, not on doom. Then point them to the Meeting 3 Survey on the platform; remind them of next unit's reading + their buddy (same as Unit 1)."
+- **Participants see now:** Room 4 names the chapters and previews the conversation; the wrap-up repeats both.
 - **New:**
 
 ### Meeting 4 (next: Unit 5, the last)
 
-- **Room 4 now:** "Next unit: the final reading, and the biggest one:" followed by a list of Chapters 12, 13 and 14 with their titles, the Closing Words and Your Action Plan, and "you'll rebuild the book's whole argument and choose your ongoing action."
-- **Wrap-up now:** "Next unit is our final session."
-- **Run-sheet now:** "the final reading and the biggest one: Chapters 12, 13 and 14 plus the Closing Words and Your Action Plan: why experts downplay the risk, the case for shutting it down, why there is still hope, and putting the whole argument in their own words."
+- **Run-sheet close now:** "Announce next unit: the final reading and the biggest one: Chapters 12, 13 and 14 plus the Closing Words and Your Action Plan: why experts downplay the risk, the case for shutting it down, why there is still hope, and putting the whole argument in their own words. Next session is the last one. Participants also continue their action plan: after the conversation, they choose one action to keep doing."
+- **Participants see now:** Room 4 lists the three chapters with their titles; the wrap-up says "Next unit is our final session."
 - **New:**
 
 ## Compute Verification 1
