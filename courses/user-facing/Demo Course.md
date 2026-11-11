@@ -10,7 +10,7 @@ Please go through this file first before clicking into any of the links.
 By the way, anything in-between double percentage marks is treated as a comment and is ignored by our website. 
 
 In this course file, we define modules and meetings.%%
-# Module: [[../../modules/main-demo-module|Demo basics]]
+# Module: [[../../modules/main-demo-module|Demo basics]
 # Module: [[../../modules/min-chat-messages-demo|Interaction requirements demo]]
 # Meeting: Name of the first meeting
 survey:: [[../../surveys/Demo Survey]]
