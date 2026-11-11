@@ -102,6 +102,7 @@ Its run-sheets already work this way: the navigator's close carries the preview,
 The live control course (in scope since 2026-11-10, in place of AI Control 1, which is not live). Its run-sheets give no preview, and participants see none. The material quoted below is the summary from each unit's "Welcome to Unit N" lens.
 
 ### Meeting 1 (next: Unit 2, The key ideas and the field)
+
 - **Run-sheet close now:** "Remind them to message their Room-4 accountability buddy today and send that buddy their plan, to keep their gut-view note, and to fill in the meeting survey."
 - **Material:** "An AI that needs one bad action to cause a catastrophe and one that needs a thousand call for different defences. This unit covers that difference, then the people and organisations who work on control and how many of them there are."
 - **New:**
