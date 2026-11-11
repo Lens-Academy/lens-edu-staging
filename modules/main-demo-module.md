@@ -127,7 +127,7 @@ reading_minutes:: 1
 
 #### Text
 content::
-The excerpts below come from a short dialogue in which every turn is a callout box. The first excerpt starts in the middle of Ada's turn and ends in the middle of Ben's. The second lies inside one turn. The third starts inside a closed appendix box and ends inside a turn in that box.
+The excerpts below come from a short dialogue in which every turn is a callout box. The first excerpt starts in the middle of Ada's turn and ends in the middle of Ben's. The second lies inside one turn. The third starts inside a closed appendix box and ends inside a turn in that box..
 
 #### Article
 source:: [[../articles/Article annotation and text collapse demo]]
