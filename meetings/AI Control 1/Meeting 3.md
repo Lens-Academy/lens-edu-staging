@@ -16,7 +16,7 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Icebreaker  [0:05–0:19]
 
 Go around your group:
-1\. How was this unit? Did you finish it? If you didn't, what got in the way?{--{"author":"Andreas's AI","timestamp":1794345529966}@@ What do you think about this unit compared to previous ones?--}
+1\. How was this unit? Did you finish it? If you didn't, what got in the way?
 2\. Near the end of this unit, one lesson stopped you before you read it and asked: is AI control good, and how good? Read out the gist in a sentence. (Didn't get there, or didn't write it down? Say what you would have written.)
 3\. Would you write the same now? What moved you, and did most of that come before or after that lesson?
 4\. If you still have time: one word for how this unit left you.
