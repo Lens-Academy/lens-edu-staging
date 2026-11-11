@@ -16,7 +16,7 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Inside a company or outside?  [0:05–0:19]
 
 Go around your group:
-1\. How was this unit? Did you finish it? If you didn't, what got in the way?{--{"author":"Andreas's AI","timestamp":1794345571970}@@ (No judgment, "I didn't finish" is a fine answer.)--}
+1\. How was this unit? Did you finish it? If you didn't, what got in the way?
 2\. Imagine your only goal is to make the future go well, not pay or prestige. Would you work on control inside an AI company or at an outside group?
 3\. What speaks for each side?
 4\. If you still have time: where specifically would you work, and why?
@@ -111,7 +111,7 @@ One or two people share what their group landed on.
 
 1\. Go around: each of you shares the question your Room 3 group dug into, and where the discussion went.
 2\. The others respond: what would your Room 3 group have added, or seen differently?
-3\. {--{"author":"Andreas's AI","timestamp":1794345595994}@@Next unit: What--}{++{"author":"Andreas's AI","timestamp":1794345595994}@@If you still have time: what++} is most likely to stop you finishing {--{"author":"Andreas's AI","timestamp":1794345595994}@@it,--}{++{"author":"Andreas's AI","timestamp":1794345595994}@@the next unit,++} and what's your plan to prevent that? (Send the plan to your {--{"author":"Andreas's AI","timestamp":1794345595994}@@buddy--}{++{"author":"Andreas's AI","timestamp":1794345595994}@@buddies++} after the meeting.)
+3\. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
 
 
 | Names | Your Room 3 question + what the others added + your plan for the next unit |
