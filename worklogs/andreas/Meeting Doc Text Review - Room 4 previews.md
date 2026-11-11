@@ -5,19 +5,15 @@ authors:
   - Andreas+Claude
 ---
 
-# Room 4 next-unit previews: worksheet
+# Navigator next-unit previews: worksheet
 
-A working file for part 2 of the buddy wording ([[Meeting Doc Text Review Log]], section 2). For every meeting that has a next unit, it shows what the doc says about that unit now: in Room 4, in the wrap-up, and in the navigator's run-sheet. Andreas writes one sentence per meeting on the "New" line. Claude then copies it into Room 4 with the standard ending, and the file can go once that is done.
+A working file ([[Meeting Doc Text Review Log]], section 2). Since 2026-11-10 the next-unit preview belongs to the navigator: one sentence in the run-sheet's close, said in their own words, and nothing in the participants' view. For every meeting that has a next unit, this file shows what the run-sheet's close says now and what participants see. Andreas writes one sentence per meeting on the "New" line. Claude then puts it in the run-sheet close in place of the current summary, keeping the reminders that follow it (survey, buddies, feedback). The file can go once that is done. Until 2026-11-10 this file collected sentences for Room 4 instead.
 
-**The shape** (the guide, as suggested on 2026-10-11): "Next unit: [one plain sentence on what it is about]." followed by the obstacle-and-plan question and the buddy line. No reading time, no names a newcomer cannot resolve, nothing that summarises the readings.
+**The model** (CV1 Meeting 4, chosen by Andreas): "Hardware verification, what a chip can and cannot prove about the work it did." No reading time, no names a newcomer cannot resolve, nothing that summarises the readings.
 
-**The model** (CV1 Meeting 4, chosen by Andreas): "Hardware verification, what a chip can and cannot prove about the work it did."
+**One question alongside the sentences:** the participants' wrap-up lists the next unit again in several docs ("Next unit: …"). Once the navigator says the sentence, those lines repeat it, and the guide's wrap-up rule says the wrap-up does not repeat Room 4. Remove them in the same round? The previews inside Room 4 itself wait for each course's content pass.
 
-**Still to settle alongside the sentences:**
-
-- The standard ending. Most docs say "What's most likely to stop you finishing, and what's your plan to beat it?". The guide's example says "What is most likely to stop you finishing it, and what's your plan to prevent that?". CV1 Meeting 2 splits the two questions into separate items. All three end with a buddy line, which becomes "(Send the plan to your buddies after the meeting.)".
-- The wrap-up's next-unit line. The guide's wrap-up rule says the wrap-up does not repeat Room 4, so these probably go once Room 4 carries the sentence.
-- The run-sheet heads-up. These are the longest summaries. They could shrink to the same sentence.
+**AI Control Fundamentals** has no preview anywhere yet. Its entries quote each unit's own one-line summary (the "Welcome to Unit N" lens) as material.
 
 ---
 
