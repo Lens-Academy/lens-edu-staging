@@ -8,8 +8,8 @@ tags: [wip]
 %%
 Goal: what everyone joining AI safety should know (concepts, claims, skills).
 Targets and discussion: [[../../../Lens/03-Product/ConAc/Context accelerator discussion]]
-Luc's wishlist: [[../../../Lens/03-Product/ConAc/Submissions/Luc - Wishlist, AI-compiled, not vetted (con-acc)]]
-Concept candidates: [[../../../Lens/03-Product/ConAc/Submissions/Luc - Context Accelerator concept candidates (con-acc)]]
+Luc's wishlist: [[../../../Lens/03-Product/ConAc/Submissions/Luc - Wishlist, AI-compiled, not vetted (c-acc)]]
+Concept candidates: [[../../../Lens/03-Product/ConAc/Submissions/Luc - Context Accelerator concept candidates (c-acc)]]
 The earlier strategy-and-ToC version is archived as [[../archived/ToC Accelerator]].
 %%
 
