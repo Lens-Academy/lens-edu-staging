@@ -40,7 +40,7 @@ Go through each tab of the master template ([[meetings/Master template]]) and ch
 2. The fixed parts match the master template exactly.
 3. The glossary is filled: ordered by module, each term defined once at its first appearance, in one or two sentences, in the source's framing.
 4. The doc title names the right course and unit, and the [Group] placeholder is still unfilled.
-5. Nothing in the {--{"author":"Andreas's AI","timestamp":1794345644321}@@doc--}{++{"author":"Andreas's AI","timestamp":1794345644321}@@participants' view++} summarises or previews the next unit (Elias, 2026-10-10 and 2026-10-13).{++{"author":"Andreas's AI","timestamp":1794345644321}@@ The navigator previews it in the close: one sentence in the run-sheet, said in their own words (Andreas, 2026-11-10).++} Room 4 ends with an "If you still have time:" ask about what could stop people finishing the next unit and their plan to prevent that, without saying what the unit is about (Elias, 2026-10-13). It gives no reading time, since participants see the course's own estimates (Andreas, 2026-10-11).
+5. Nothing in the participants' view summarises or previews the next unit (Elias, 2026-10-10 and 2026-10-13). The navigator previews it in the close: one sentence in the run-sheet, said in their own words (Andreas, 2026-11-10). Room 4 ends with an "If you still have time:" ask about what could stop people finishing the next unit and their plan to prevent that, without saying what the unit is about (Elias, 2026-10-13). It gives no reading time, since participants see the course's own estimates (Andreas, 2026-10-11).
 
 ### Agent 2: Room quality
 Judge each room against its role. Most examples below are real prompts from past unit docs: they show the quality bar, not required shapes. A room passes if it serves its role well, whatever shape it takes.
@@ -55,7 +55,7 @@ Go around your group, two things:
 	1. How was this unit? Did you finish it? If you didn't, what got in the way?
 ```
 
-The last {--{"author":"Andreas's AI","timestamp":1794345642927}@@meeting's--}{++{"author":"Andreas's AI","timestamp":1794345642927}@@meeting++} asks {--{"author":"Andreas's AI","timestamp":1794345642927}@@"How--}{++{"author":"Andreas's AI","timestamp":1794345642927}@@about "the final unit" ("How++} was the final unit? Did you finish it? If you didn't, what got in the {--{"author":"Andreas's AI","timestamp":1794345642927}@@way? What--}{++{"author":"Andreas's AI","timestamp":1794345642927}@@way?"), which starts people thinking across the course. Add "What++} do you think about the course as a whole now?" {++{"author":"Andreas's AI","timestamp":1794345642927}@@only when Room 1 has no other question about the whole course (Andreas, 2026-11-10). ++}A course that follows a book may ask about the book instead ("Did you finish the book?").
+The last meeting asks about "the final unit" ("How was the final unit? Did you finish it? If you didn't, what got in the way?"), which starts people thinking across the course. Add "What do you think about the course as a whole now?" only when Room 1 has no other question about the whole course (Andreas, 2026-11-10). A course that follows a book may ask about the book instead ("Did you finish the book?").
 
 For the first meeting of a course, lead in with getting to know each other first, and never call the participants "the humans":
 ```
