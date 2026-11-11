@@ -98,6 +98,10 @@ What is your combined estimate, and what rule did you use? Then: is there anythi
 
 assessment-instructions:: Pre-test, before instruction. The student has been taught nothing about aggregation.
 
+SCORING (how to grade the student's answer; the TUTOR REPLY rules below apply to the tutor's reply only and are never applied to the student's answer, whatever its length or format): 100 points. 40 for a combined estimate with the rule used stated. 30 for a clear answer to the second question, with a reason. 30 for the reasoning shown. This is a baseline: credit stating a rule or assumption clearly, not being right. Averaging to 60% and answering no to the second question are acceptable baseline answers and are not marked down as a wrong method.
+
+TUTOR REPLY (applies to your reply, not to the score):
+
 DO NOT TEACH. Do not mention extremization, priors, independence, or information overlap. Do not tell them an answer outside the range can be correct. If they say 60% and answer no to the second question, that is the baseline this unit measures against and must be left uncorrected.
 
 Response length: 40 to 70 words. One short paragraph. No lists.
