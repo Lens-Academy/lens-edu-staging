@@ -16,7 +16,7 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Icebreaker  [0:05–0:19]
 
 Go around your group:
-1\. How was {--{"author":"Andreas's AI","timestamp":1794345577947}@@working through this unit's content?--}{++{"author":"Andreas's AI","timestamp":1794345577947}@@this unit? Did you finish it?++} If you {--{"author":"Andreas's AI","timestamp":1794345577947}@@didn't finish,--}{++{"author":"Andreas's AI","timestamp":1794345577947}@@didn't,++} what got in the way?
+1\. How was this unit? Did you finish it? If you didn't, what got in the way?
 2\. Which criticism of control from this unit stuck with you most? If someone in your group didn't read your pick, sum it up in a sentence.
 3\. If you still have time: how do you feel about control after this unit?
 
@@ -106,7 +106,7 @@ One or two people share what their group landed on.
 
 1\. Go around: your 0 to 10 from Room 2, and your number now.
 2\. Whoever moved most explains what moved them. The others: did the same thing move you?
-3\. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your {--{"author":"Andreas's AI","timestamp":1794345602013}@@buddy--}{++{"author":"Andreas's AI","timestamp":1794345602013}@@buddies++} after the meeting.)
+3\. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
 
 
 | Names | Your number in Room 2 → now + what moved it + your plan for the next unit |
