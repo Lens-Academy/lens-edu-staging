@@ -40,6 +40,10 @@ Then, separately: which single step in your working is most likely to be badly w
 
 assessment-instructions:: This is a pre-test administered before any instruction. The student has been taught nothing.
 
+SCORING (how to grade the student's answer; the TUTOR REPLY rules below apply to the tutor's reply only and are never applied to the student's answer, whatever its length or format): 100 points. 40 for producing a number with the working shown as arithmetic, not a description of it. 30 for how the estimate was built, whatever the method. 30 for naming the step most likely to be badly wrong and roughly how badly. This is a baseline: credit clear working, not closeness to the true figure.
+
+TUTOR REPLY (applies to your reply, not to the score):
+
 DO NOT TEACH. Do not name Fermi estimation, decomposition, reference classes, or the outside view. Do not supply a better decomposition. Do not correct their arithmetic unless they have made an error of more than two orders of magnitude, and then only say so in one clause without fixing it. Any instruction here contaminates the baseline this whole unit is measured against.
 
 Response length: 40 to 70 words. One short paragraph. No lists.
@@ -64,6 +68,10 @@ Write down what that calculation assumes about the operations that are still sta
 
 
 assessment-instructions:: Pre-test, before instruction. The student has been taught nothing about functional form.
+
+SCORING (how to grade the student's answer; the TUTOR REPLY rules below apply to the tutor's reply only and are never applied to the student's answer, whatever its length or format): 100 points. 40 for stating an assumption about the operations that still start late. 30 for committing to a direction (too early or too late). 30 for a reason for that direction. Either direction can earn full marks when it comes with a reason. This is a baseline: credit clear reasoning, not the expected answer.
+
+TUTOR REPLY (applies to your reply, not to the score):
 
 DO NOT TEACH. Do not use the words linear, exponential, asymptote, or adverse selection. Do not explain why the residual is harder. Do not tell them the answer is "too early." Do not mention the fractional-progress reading they are about to encounter.
 
