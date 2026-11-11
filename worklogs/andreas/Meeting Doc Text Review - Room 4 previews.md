@@ -71,31 +71,30 @@ A working file ([[Meeting Doc Text Review Log]], section 2). Since 2026-11-10 th
 
 ## AI Futures
 
-Meetings 1 to 3 have three rooms and a whole-group close instead of Room 4, and Meeting 1 is likely to get a fourth room (Log, section 2). None of them previews the next unit in the participants' view. Meeting 4's Room 4 has no obstacle-and-plan question at all.
+Its run-sheets already work this way: the navigator's close carries the preview, and participants see none, except in Meeting 4's wrap-up. Meetings 2 and 3 already have close to one sentence, so they may need only trimming.
 
 ### Meeting 1 (next: Unit 2)
 
-- **Close now:** "Today, send your buddy one line: what's most likely to stop you finishing Unit 2, and your plan to beat it."
-- **Run-sheet now:** "Unit 2 releases on the Lens platform before the next meeting; the announcement lands in Discord."
+- **Run-sheet close now:** "Next-unit heads-up: Unit 2 releases on the Lens platform before the next meeting; the announcement lands in Discord. Remind them to message their buddy today with their Unit 2 plan so the check-in thread exists." It says when the unit appears, not what it is about.
+- **Participants see now:** nothing.
 - **New:**
 
 ### Meeting 2 (next: Unit 3)
 
-- **Close now:** "Next unit: today, send your accountability partner one line: what is most likely to stop you finishing it, and your plan to prevent that."
-- **Run-sheet now:** "The next unit moves from how we make forecasts to what we are forecasting: the threat models."
+- **Run-sheet close now:** "Next-unit heads-up: The next unit moves from how we make forecasts to what we are forecasting: the threat models. The readings will be on the platform before the next session. Check the course page. Remind them to send their next-unit plan to their accountability partner today, and to answer the course-shape question in the survey."
+- **Participants see now:** nothing.
 - **New:**
 
 ### Meeting 3 (next: Unit 4)
 
-- **Close now:** "Today, send your accountability buddy one line: what is most likely to stop you finishing the next unit, and your plan."
-- **Run-sheet now:** "Unit 4 turns from how it could go wrong to what anyone plans to do about it: rival strategies, one reading each, ending with them splitting 100 points of influence across the levers."
+- **Run-sheet close now:** "Next-unit heads-up: Unit 4 turns from how it could go wrong to what anyone plans to do about it: rival strategies, one reading each, ending with them splitting 100 points of influence across the levers. The readings will be on the platform before the next session. Check the course page. Remind them to send their next-unit plan to their accountability partner today, and to answer the too-hard question in the survey."
+- **Participants see now:** nothing.
 - **New:**
 
 ### Meeting 4 (next: Unit 5, the last)
 
-- **Room 4 now:** no next-unit item.
-- **Wrap-up now:** "Heads-up for next time: Unit 5 is the lightest reading of the course on purpose. It ends with you rereading your day-zero paragraph and rewriting your model one last time, so give the two closing exercises real time."
-- **Run-sheet now:** much the same as the wrap-up.
+- **Run-sheet close now:** "Next-unit heads-up: Unit 5 is the lightest reading of the course on purpose, and it ends with two exercises rather than readings. They reread their day-zero paragraph from Unit 1 and rewrite their ten-year model one last time, so tell them to leave those two real time, and to keep today's hundred-point allocation to hand."
+- **Participants see now:** the wrap-up: "Heads-up for next time: Unit 5 is the lightest reading of the course on purpose. It ends with you rereading your day-zero paragraph and rewriting your model one last time, so give the two closing exercises real time."
 - **New:**
 
 ## AI Control 1
