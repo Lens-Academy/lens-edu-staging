@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works]]
 First meeting, so start by getting to know each other. Go around:
 
 1. Who you are: name, where you're joining from, what you work on, and what brought you here. Skeptics welcome.
-2. How was {--{"author":"Andreas's AI","timestamp":1794345569172}@@working through --}this {--{"author":"Andreas's AI","timestamp":1794345569172}@@unit's content?--}{++{"author":"Andreas's AI","timestamp":1794345569172}@@unit?++} Did you {--{"author":"Andreas's AI","timestamp":1794345569172}@@finish?--}{++{"author":"Andreas's AI","timestamp":1794345569172}@@finish it?++} If you {--{"author":"Andreas's AI","timestamp":1794345569172}@@didn't finish,--}{++{"author":"Andreas's AI","timestamp":1794345569172}@@didn't,++} what got in the way?{--{"author":"Andreas's AI","timestamp":1794345569172}@@ (No judgment, "I didn't finish" is a fine answer.)--}
+2. How was this unit? Did you finish it? If you didn't, what got in the way?
 3. Share the gut view about AI control that you wrote down at the start of this unit ([find it here](https://lensacademy.org/courses/ai-control-fundamentals/module/ai-control-fundamentals-u1)). Where do you agree/disagree with each other?
 
 
@@ -105,11 +105,7 @@ If a question is unclear, ask your navigator or copy it into [Lens Tutor](https:
 
 ### Back together: 5 min  [1:10–1:15]
 
-One or two people share what their group landed on.{--{"author":"Andreas's AI","timestamp":1794345593415}@@ After that, your navigator will explain the accountability buddy system:
-
-1. In Room 4, the people in your breakout room become your accountability buddies. If you are four or more, split into two groups.
-2. You swap contact details.
-3. Before each meeting, you check in with each other: did you finish the unit? Are you coming?--}
+One or two people share what their group landed on.
 
 ---
 
@@ -119,8 +115,8 @@ One or two people share what their group landed on.{--{"author":"Andreas's AI","
 **New group. Names first, then straight in.**
 
 
-1. {--{"author":"Andreas's AI","timestamp":1794345609887}@@Accountability buddies: the--}{++{"author":"Andreas's AI","timestamp":1794345609887}@@The++} people in this breakout room are your accountability buddies{--{"author":"Andreas's AI","timestamp":1794345609887}@@ (if you are four or more, split into two groups). --}{++{"author":"Andreas's AI","timestamp":1794345609887}@@ for the rest of the course. ++}Swap contact details in the table {--{"author":"Andreas's AI","timestamp":1794345609887}@@now.--}{++{"author":"Andreas's AI","timestamp":1794345609887}@@below. Before each meeting, check in with one another: did you finish, are you coming?++}
-2. {--{"author":"Andreas's AI","timestamp":1794345609887}@@Next unit: What --}{++{"author":"Andreas's AI","timestamp":1794345609887}@@If you still have time: what ++}is most likely to stop you finishing {--{"author":"Andreas's AI","timestamp":1794345609887}@@it,--}{++{"author":"Andreas's AI","timestamp":1794345609887}@@the next unit,++} and what's your plan to prevent that? (Send the plan to your {--{"author":"Andreas's AI","timestamp":1794345609887}@@buddy--}{++{"author":"Andreas's AI","timestamp":1794345609887}@@buddies++} after the meeting.)
+1. The people in this breakout room are your accountability buddies for the rest of the course. Swap contact details in the table below. Before each meeting, check in with one another: did you finish, are you coming?
+2. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
 
 
 
@@ -164,7 +160,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 Would you keep the checks? (reshuffle) |
-| 1:10–1:15 | Back together (whole {--{"author":"Andreas's AI","timestamp":1794345621796}@@group)--}{++{"author":"Andreas's AI","timestamp":1794345621796}@@group), then walk through the buddy setup below++} |
+| 1:10–1:15 | Back together (whole group), then walk through the buddy setup below |
 | 1:15–1:27 | R4 Buddies, next unit (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
 
@@ -190,7 +186,7 @@ source:: [[../shared/Navigator Run-Sheet - During the breakout rooms]]
 
 source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 
-### {++{"author":"Andreas's AI","timestamp":1794345616583}@@Accountability buddy setup
+### Accountability buddy setup
 
 **[1:10–1:15], whole group**, after the sharing. Walk through the accountability buddy system (about a minute):
 
@@ -199,7 +195,7 @@ In Room 4, the people in each breakout room become their accountability buddies,
 
 For **this Room 4 only**, aim to create breakout rooms of trios (a couple of pairs are fine).
 
-### ++}Close
+### Close
 
 **[1:27–1:30], whole group**. Bring everyone back:
 
@@ -229,7 +225,7 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 **Room 1, Getting to know each other.** Keep introductions to about thirty seconds each so ask 3 gets time. Ask 3 is the gut-view note from the Unit 1 welcome, revisited in Unit 5. Take every view as it comes: "hopeless", "obviously doable" and "could make things worse" are all fine. Have everyone share their view before the discussion starts. Unit 4 and Unit 5 are where these views get tested, so the room does not need to settle anything.
 **Room 2, Check the insider, or limit the damage?** Ask groups to pick an organisation someone has worked in, not "a tech company". Checks to listen for: hiring checks, references, interviews, probation periods. Limits to listen for: separation of duties, logging, review by a second person, least privilege, audits. Ask 3 is the room's main point: checks of good behaviour cannot catch someone who behaves well whenever they might be tested, while limits on what they can do still hold. The reading makes the same claim about AI models. Let groups reach it themselves, and do not supply it. If a group has time left, ask what changes when the secret insider is an AI model, and treat "the analogy fails" as a real answer. Differences from a human insider that groups may raise: many copies of the model that could coordinate, speed and volume of work, and that a model can be rewound and asked again with no memory of the first try. Listen for Shlegeris's comparison from the "Spies, insiders and auditing" lesson. Guarding against a model is harder than guarding against a human spy, because every copy is probably on the same side, so a second copy is no independent reviewer. It is easier, because the lab controls everything the model sees and can test it with honeypots many times.
 **Room 3, Would you keep the checks?** No answer key, and do not give your own view. Collect everyone's choice in ask 1 before any discussion. The setups are from the reading: trusted monitoring and untrusted monitoring as in the founding experiment, and trusted editing is a close cousin of "defer to trusted". Untrusted monitoring catches more only if the copy is honest, which is exactly what is in doubt (the reading's answer is to test the copy with fake attacks). If someone picks "no checks" because of the clean year, ask whether a model secretly working against the company would also behave well for a year: that is an alignment argument, not a control one. Ask 2 is the safety and usefulness trade-off under competition. Unit 3 comes back to political will, so do not resolve it. In ask 3, listen for "if we caught it once": that is the reading's idea of catching an AI red-handed. Let groups reach it themselves.
-**Room 4, Buddies, next unit.** In the whole-group slot before Room 4, walk through the {--{"author":"Andreas's AI","timestamp":1794345628963}@@three --}buddy {--{"author":"Andreas's AI","timestamp":1794345628963}@@steps in the doc (about a minute),--}{++{"author":"Andreas's AI","timestamp":1794345628963}@@setup above,++} and ask buddies to message each other today, so both know the channel works. Insist on real contact details in the table. Unit 2 is about the same length as Unit 1, so people know what that feels like: push for a concrete plan (when, where, how much at a time).
+**Room 4, Buddies, next unit.** In the whole-group slot before Room 4, walk through the buddy setup above, and ask buddies to message each other today, so both know the channel works. Insist on real contact details in the table. Unit 2 is about the same length as Unit 1, so people know what that feels like: push for a concrete plan (when, where, how much at a time).
 
 # Tab: Glossary
 style:: plain
