@@ -16,9 +16,9 @@ eval-results:
 ---
 ## Test:
 id:: 16113b65-caa0-43f8-98ae-12d68bc8834f
-#### Question
-id:: 86c7b072-da7d-4ae9-a7c7-bc799ba3fdf7
-feedback:: true
+#### {--{"author":"James agent ready-87's AI","timestamp":1794489628620}@@Question--}{++{"author":"James agent ready-87's AI","timestamp":1794489628620}@@Question: Open++}
+id:: 86c7b072-da7d-4ae9-a7c7-bc799ba3fdf7{--{"author":"James agent ready-87's AI","timestamp":1794489628620}@@
+feedback:: true--}
 content:: Lay out the two strongest "it won't work" objections to BCI-type solutions: the circularity objection and the constant-factor objection. What does each claim?
 assessment-instructions:: A strong answer gives both: (1) Circularity (Shulman) — merging to get alignment presupposes an already-aligned AI; once AI surpasses humans the human is the bottleneck, so merge can't create alignment. (2) Constant-factor (niplav) {>>{"author":"Elias's AI","timestamp":1785352896656}@@Attribution fix: this objection is niplav's own, stated in the body of "Brain-Computer Interfaces and AI Alignment" (2021) under the section "'Merging' is Just Faster Interaction". It is not Buck Shlegeris's. Every comment on the four relevant LessWrong threads was retrieved via the forum GraphQL API and there is no Buck comment on any of them, nor any BCI writing by him. Grading learners on naming Buck teaches a fabricated citation.<<} — faster human-AI interaction only buys a constant-factor speedup, which doesn't change the exponential capability gap; BCIs are a distraction from pause/governance/alignment. Award 4-5 for both objections stated accurately; 3 for one solid and one weak; 1-2 if it can't reconstruct them. Accept paraphrase; credit noting the strongest reframe (drop "merge," keep "enhance/emulate") as a partial rebuttal.
 max-words:: 120
