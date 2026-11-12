@@ -75,7 +75,7 @@ Example:
 ```md
 ## Test:
 id:: <uuid>
-#### Question
+#### Question: Open
 id:: d8e6f1cc-e049-4516-a88b-b34100eb681e
 content:: <the test question>
 assessment-instructions:: <scoring rubric>
@@ -93,7 +93,7 @@ Required frontmatter: `id`
 
 Lenses are flat: frontmatter + H4 segments. No H3 section headers.
 
-Valid segment types: `Text`, `Chat`, `Article`, `Video`, `Question`, `Roleplay`
+Valid segment types: `Text`, `Chat`, `Article`, `Video`, `Question: Open` (also `Rating`, `Choice`, `FillBlank`, `Ranking`), `Roleplay`
 
 Article/Video segments carry a `source::` field (inherited from prior segment of same type).
 
