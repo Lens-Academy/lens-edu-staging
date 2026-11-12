@@ -18,7 +18,7 @@ eval-results:
 ## Test:
 id:: 03b31a65-a3cf-421f-98f2-07fc7142f072
 
-#### Question
+#### Question: Open
 id:: cdfc715e-c75a-4443-9b80-633865113f3a
 content:: An online discussion is its own medium, not a worse version of an in-person one. The mistake is treating it as a degraded form. It isn't — it has different affordances.
 
