@@ -6,7 +6,7 @@ tldr: You are about to be graded against professional forecasters on a question 
 authors:
   - Claude
 ---
-#### Question
+#### Question: Open
 id:: 51f59e72-d98b-4ac9-b158-3589e02a7cbc
 content::
 \## Before you read: put a number on it
@@ -26,7 +26,8 @@ Before you read anything, answer for yourself:
 Write all three down before moving on. The reading tells you what happened.
 
 
-assessment-instructions::
+force-feedback:: first
+feedback-instructions::
 The student is about to read Jacob Steinhardt's "AI Forecasting: One Year In," which reports that professional forecasters predicted 12.7 percent on the MATH benchmark for June 2022 and the actual result was 50.3 percent, landing far outside their credible intervals.
 
 They have just committed to their own point estimate, a 90 percent interval, and a stated basis for it.

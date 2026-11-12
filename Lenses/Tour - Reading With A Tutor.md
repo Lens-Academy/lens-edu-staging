@@ -33,7 +33,7 @@ That is the claim, and the gorilla comparison is the argument for it. The next q
 from:: "Experts disagree on whether artificial general intelligence"
 to:: "increased focus on global [AI regulation]"
 
-#### Question
+#### Question: Open
 id:: b685392a-4e9c-4594-a12a-6d9311fcfdc3
 content::
 One or two sentences, thirty seconds.
@@ -56,6 +56,8 @@ Award a pass for any answer that names one real consequence. The main ones, in a
 
 Answers that only restate the question, or that describe a generic chatbot with no reference to the reading, do not pass.
 
+force-feedback:: first
+feedback-instructions::
 Response length: 60 to 110 words. Short paragraphs, no lists.
 
 Response style:

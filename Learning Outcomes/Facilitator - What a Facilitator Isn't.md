@@ -16,7 +16,7 @@ eval-results:
 ## Test:
 id:: cb7d4deb-3254-4082-a349-fe0e2b283eb4
 
-#### Question
+#### Question: Open
 id:: 1f3863a7-5e88-4630-9436-0f6d3a8afb05
 content:: Clarity about the role is half the work. The other half is clarity about where the role *ends* — what you are not responsible for. Conflating these is the most reliable source of facilitator burnout.
 
