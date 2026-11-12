@@ -13,7 +13,7 @@ eval-results:
 ## Test:
 id:: 7e1314aa-d190-4ad7-8860-deee4f93b2dd
 
-#### Question
+#### Question: Open
 id:: eeebc550-7cd5-4cde-b8f3-dab0f372865a
 content:: Why is it useful to develop a theory of change before deciding what actions to take?
 
