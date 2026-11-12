@@ -46,6 +46,7 @@ Response: give a score from 0 to 100 using the bands below, then justify it in 1
 
 **96-100**: As above, plus recognises the symmetric construction: a method built from enumerated difficulties bounds from the opposite side, and the two together are more informative than either, because the answer is bracketed. *Example: Adds "The fix is not a better single number. If you separately estimated by listing every known hard step and costing each one, you would get a bound from the other side, and it would be too late rather than too early, because no enumeration can include the shortcut nobody has thought of yet. Running both gives you a bracket, and the width of the bracket is the honest output. A method that returns one number is hiding which side of the answer it lives on."*
 
+feedback-instructions:: Justify the score in 100 to 180 words, quoting the student's own words for the move that determined the score. Short paragraphs. No lists. Do not over-validate; avoid generic praise (great answer, excellent, well done).
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/Timelines - What A Model Is For - PQ]]
