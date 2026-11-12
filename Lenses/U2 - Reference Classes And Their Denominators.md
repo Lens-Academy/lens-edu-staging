@@ -25,13 +25,14 @@ As you read, keep a list of the different things "outside view" is used to mean.
 #### Article
 source:: [[../articles/taboo-outside-view]]
 
-#### Question
+#### Question: Open
 id:: fd2c404b-2ff4-4d82-83c2-b46d7669b347
 content::
 \## Phase 1: Recall
 
 Spend 2 minutes writing down everything you can remember from the reading, without looking back. No need to organize it.
 
+force-feedback:: first
 feedback-instructions:: The student has just read Kokotajlo's Taboo "Outside View" and written a free recall.
 
 Key content:
@@ -61,7 +62,7 @@ What to do in your single reply:
 
 This is a one-turn response. Do not ask a question. Tell them to move on.
 
-#### Question
+#### Question: Open
 id:: 0feb5a70-094d-41e3-b553-517cc562391d
 content::
 \## Phase 2: Learning Question
@@ -76,7 +77,8 @@ Then she is asked how likely it is that a particular AI system will be deployed 
 
 One of these two moves is a reference class. The other only uses the same words. Say which is which. Then say what the non-reference-class move actually is. For the reference-class move, say what its denominator is, and name one way that denominator could be wrong.
 
-assessment-instructions:: The student has read and recalled Kokotajlo's Taboo "Outside View". This lens compresses processing and learning into one phase because the reading is short and the skill is narrow.
+force-feedback:: first
+feedback-instructions:: The student has read and recalled Kokotajlo's Taboo "Outside View". This lens compresses processing and learning into one phase because the reading is short and the skill is narrow.
 
 The question is a deliberate wedge, not the test question.
 
