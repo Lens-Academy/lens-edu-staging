@@ -76,7 +76,7 @@ In your single reply: acknowledge what they captured, name what was missing (esp
 
 Do not re-teach, do not ask follow-up questions, do not invite dialogue. This is a one-turn response. Tell them to move on.
 
-#### Question
+#### Question: Open
 id:: fb27bdce-ad32-4a40-b952-710233f70c18
 content::
 \## Phase 2: Processing
@@ -84,6 +84,7 @@ Go back to the two numbers you guessed before reading. Write both down again nex
 
 Which one were you further off on, and in which direction? Then: what were you assuming about how technological progress works that produced that particular error? Do not answer "I just did not know" if you can say something sharper about the belief that generated the guess.
 
+force-feedback:: first
 feedback-instructions:: The student committed to two numeric guesses before reading (the per-trend-year rate of large discontinuities, and the share of progress arriving in jumps) and has now seen the real figures: about 0.1 percent per trend-year, and on average 14 percent of total progress in a trend coming from large robust discontinuities.
 
 This is a processing phase, not a teaching phase. Help them articulate the belief under the error; do not resolve it for them.
