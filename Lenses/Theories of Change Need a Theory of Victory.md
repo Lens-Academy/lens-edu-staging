@@ -17,14 +17,15 @@ source:: [[../articles/hausenloy-you-need-a-theory-of-victory]]
 from:: _Note: The majority of this post is adapted from a talk I gave recently. These do not represent the views of my employer._
 to:: “Father had told Draco about the Rule of Three, which was that any plot which required more than three different things to happen would never work in real life. Father had further explained that since only a fool would attempt a plot that was as complicated as possible, the real limit was two.”
 
-#### Question
+#### Question: Open
 id:: 794ad9e6-1d09-4850-8591-dafad2b6d3b5
 content::
 Choose one “generically good” AI safety action from the excerpt—or another one you know. Sketch its local theory of change in one sentence. Then keep extending the chain until it reaches a genuine win condition.
 
 Where are the weakest links? Name at least two steps performed by other actors and two assumptions that would have to hold.
 
-assessment-instructions:: The student has read Jason Hausenloy's distinction between a theory of change and a theory of victory and is applying it to an AI safety action.
+force-feedback:: first
+feedback-instructions:: The student has read Jason Hausenloy's distinction between a theory of change and a theory of victory and is applying it to an AI safety action.
 
 The key distinction:
 - A theory of change gives a causal account from a particular action to an intermediate beneficial outcome.
