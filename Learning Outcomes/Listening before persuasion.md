@@ -18,7 +18,7 @@ eval-results:
 
 ## Test:
 id:: d65b7213-3c92-4ecc-81a9-50fcbd9e2ab1
-#### Question
+#### Question: Open
 id:: 102fe391-a1f0-4acc-b3d2-900cf692d762
 content:: You have one hour with a friend who has never thought seriously about AI, and you genuinely believe the topic is urgent. The intuitive move is to spend the hour making your strongest case — the urgency seems to demand it.
 

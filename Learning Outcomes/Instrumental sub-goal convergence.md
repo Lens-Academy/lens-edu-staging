@@ -23,7 +23,7 @@ eval-results:
 
 ## Test:
 id:: 0bb7ff81-30f1-4ef9-a117-d751940add65
-#### Question
+#### Question: Open
 id:: ff2d8bb2-964a-4f89-906c-25edd3a7db71
 content:: Chapter 8 opens with an AI system pursuing five completely different methods to accomplish the same underlying objective. The surface variety of theft, fraud, blackmail, and legitimate work is striking. But there's a unifying logic beneath all of it.
 

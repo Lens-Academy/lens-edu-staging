@@ -23,7 +23,7 @@ eval-results:
 
 ## Test:
 id:: eaf08892-3e55-406e-a90c-3d6d1ecbdb34
-#### Question
+#### Question: Open
 id:: 69b45683-36dc-4979-bb28-729730d7cb12
 content:: This chapter describes the end of human civilization without a single moment of hostile intent. No enemy. No hatred. No targeting. Just optimization. And thermodynamics.
 

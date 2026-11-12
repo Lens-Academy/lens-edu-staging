@@ -38,7 +38,8 @@ content::
 3. Now the useful move. What is the *smallest* change to that parameter that flips the conclusion from "roughly three years" to something you would describe as gradual? If it takes a wild change, the conclusion is robust in that direction; if a modest one does it, you have found the crux.
 4. Separately, on the six milestones: name a threshold you think is missing from his sequence, or argue that the sequence structure itself misleads. What does decomposing into thresholds buy you over a single date, and what does it cost?
 
-assessment-instructions:: Optional deep-dive after the main takeoff lens. The student is here by choice; push hard.
+force-feedback:: first
+feedback-instructions:: Optional deep-dive after the main takeoff lens. The student is here by choice; push hard.
 
 The capability being exercised: sensitivity analysis on a model you did not build. This is the practical form of the whole unit's skill, and it is the closest thing here to what a working forecaster actually does.
 
