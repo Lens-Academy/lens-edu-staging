@@ -102,7 +102,7 @@ Do not over-validate. Avoid generic praise (great job, excellent recall, well do
 
 Keep an internal turn counter. After 2 tutor replies, close the phase.
 
-#### Question
+#### Question: Open
 id:: 9fdb47ef-781c-4fdf-a8a9-128d1bf088bb
 content::
 \## Phase 3: Learning Question
@@ -114,7 +114,8 @@ They have used a real number, correctly quoted, from a careful study. The conclu
 
 Give me at least two distinct problems with this argument. For each, say whether fixing it would push the estimate up or down. Then: does the *other* number in the survey, the 14 percent, change the picture, and if so how?
 
-assessment-instructions:: The student has read the AI Impacts discontinuity survey and recalled it. This is the main discussion phase, and the question is a deliberate wedge rather than the test question: a correctly-quoted statistic applied wrongly, which the student must take apart.
+force-feedback:: first
+feedback-instructions:: The student has read the AI Impacts discontinuity survey and recalled it. This is the main discussion phase, and the question is a deliberate wedge rather than the test question: a correctly-quoted statistic applied wrongly, which the student must take apart.
 
 Learning outcome served: using a base rate for trend breaks to set confidence in an extrapolation, including recognising when the reference class does not fit.
 
