@@ -16,7 +16,7 @@ eval-results:
 ---
 ## Test:
 id:: 5875aea2-b4a3-4510-ab23-3a6adf54f8e1
-#### Question
+#### Question: Open
 id:: 0776ac78-424a-44f0-8435-cec217d2f197
 content:: Nuclear arms control had things to look at: radiation signatures, seismic monitoring, missile silos visible from orbit, warheads you can count. An AI agreement has none of that.
 

@@ -16,9 +16,9 @@ eval-results:
 ---
 ## Test:
 id:: 8215f188-d4bc-45ba-9661-55c6c7666c4b
-#### Question
-id:: b722e794-61ca-47e5-aacc-15fe29ca07c7
-feedback:: true
+#### {--{"author":"James agent ready-87's AI","timestamp":1794489637191}@@Question--}{++{"author":"James agent ready-87's AI","timestamp":1794489637191}@@Question: Open++}
+id:: b722e794-61ca-47e5-aacc-15fe29ca07c7{--{"author":"James agent ready-87's AI","timestamp":1794489637191}@@
+feedback:: true--}
 content:: Steelman the case against building a broad AI safety movement. What two assets does the skeptic argue a movement endangers, and by what mechanisms?
 assessment-instructions:: A strong answer captures Leicht's core argument: a broad popular movement risks damaging AI safety's two real assets — (1) organic/genuine public concern and (2) expert credibility — via mechanisms such as guilt-by-association, astroturf optics, policy asks that keep shifting (so the movement can't pivot coherently), and capture by fringe/populist positions that drop existential risk as the central concern. His alternative: narrow, issue-specific organizations (the Encode model). Award 4-5 for both assets plus at least two mechanisms; 3 for the gist with one asset/mechanism; 1-2 if it can't reconstruct the skeptic case or strawmans it. Accept paraphrase.
 max-words:: 120
