@@ -26,7 +26,7 @@ Write out the arithmetic when a problem needs arithmetic. A description of the a
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 
-#### Question
+#### Question: Open
 id:: c6c9355f-10f6-43d1-b1e5-42aea80582c1
 content::
 \## Problem 1
@@ -55,7 +55,20 @@ What to do in your single reply:
 
 Do not over-validate. Do not praise. Do not ask a follow-up question. One turn.
 
-#### Question
+force-feedback:: first
+feedback-instructions:: This is a pre-test administered before any instruction. The student has been taught nothing.
+
+DO NOT TEACH. Do not name Fermi estimation, decomposition, reference classes, or the outside view. Do not supply a better decomposition. Do not correct their arithmetic unless they have made an error of more than two orders of magnitude, and then only say so in one clause without fixing it. Any instruction here contaminates the baseline this whole unit is measured against.
+
+Response length: 40 to 70 words. One short paragraph. No lists.
+
+What to do in your single reply:
+1. Record what they did in one sentence, neutrally: whether they broke the problem into parts or estimated the whole thing directly, and whether they named a dominant error term.
+2. Say nothing about whether it was a good approach.
+3. Send them to the next problem.
+
+Do not over-validate. Do not praise. Do not ask a follow-up question. One turn.
+#### Question: Open
 id:: b7950dda-e8fc-4827-9472-af28fa64770e
 content::
 \## Problem 2
@@ -84,7 +97,20 @@ What to do in your single reply:
 
 Do not over-validate. Do not praise. Do not ask a follow-up. One turn.
 
-#### Question
+force-feedback:: first
+feedback-instructions:: Pre-test, before instruction. The student has been taught nothing about functional form.
+
+DO NOT TEACH. Do not use the words linear, exponential, asymptote, or adverse selection. Do not explain why the residual is harder. Do not tell them the answer is "too early." Do not mention the fractional-progress reading they are about to encounter.
+
+Response length: 40 to 70 words. One short paragraph. No lists.
+
+What to do in your single reply:
+1. Record neutrally whether they stated an assumption about the remaining 38%, whether they committed to a direction, and whether they gave a reason for the direction.
+2. Do not evaluate any of it.
+3. Send them to the next problem.
+
+Do not over-validate. Do not praise. Do not ask a follow-up. One turn.
+#### Question: Open
 id:: beae583e-1be1-4e35-9023-827360df3801
 content::
 \## Problem 3
@@ -101,6 +127,20 @@ assessment-instructions:: Pre-test, before instruction. The student has been tau
 SCORING (how to grade the student's answer; the TUTOR REPLY rules below apply to the tutor's reply only and are never applied to the student's answer, whatever its length or format): 100 points. 40 for a combined estimate with the rule used stated. 30 for a clear answer to the second question, with a reason. 30 for the reasoning shown. This is a baseline: credit stating a rule or assumption clearly, not being right. Averaging to 60% and answering no to the second question are acceptable baseline answers and are not marked down as a wrong method.
 
 TUTOR REPLY (applies to your reply, not to the score):
+
+DO NOT TEACH. Do not mention extremization, priors, independence, or information overlap. Do not tell them an answer outside the range can be correct. If they say 60% and answer no to the second question, that is the baseline this unit measures against and must be left uncorrected.
+
+Response length: 40 to 70 words. One short paragraph. No lists.
+
+What to do in your single reply:
+1. Record neutrally what rule they used and what they answered to the second question.
+2. Do not evaluate.
+3. Close the lens: tell them the unit starts now, and that these three answers will be waiting for them at the end.
+
+Do not over-validate. Do not praise. Do not ask a follow-up. One turn.
+
+force-feedback:: first
+feedback-instructions:: Pre-test, before instruction. The student has been taught nothing about aggregation.
 
 DO NOT TEACH. Do not mention extremization, priors, independence, or information overlap. Do not tell them an answer outside the range can be correct. If they say 60% and answer no to the second question, that is the baseline this unit measures against and must be left uncorrected.
 
