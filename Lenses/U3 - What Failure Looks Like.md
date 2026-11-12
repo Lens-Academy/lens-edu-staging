@@ -19,7 +19,7 @@ As you read, keep your pre-test answer in mind. You built a mechanism under the 
 #### Article
 source:: [[../articles/greaterwrong-what-failure-looks-like]]
 
-#### Question
+#### Question: Open
 id:: 00b7126d-4386-4081-85b1-4930f7e34e7a
 content::
 \## Phase 1: Recall
@@ -29,6 +29,7 @@ Without looking back: what are the two failure modes, and how does each begin?
 Then, in one sentence: which of the two, if either, did you construct yourself in the pre-test?
 
 
+force-feedback:: first
 feedback-instructions:: The student has just read Christiano's "What failure looks like" and previously attempted to construct a no-schemer catastrophe themselves.
 
 Key content:
