@@ -68,6 +68,7 @@ What to do in your single reply:
 3. Send them to the next problem.
 
 Do not over-validate. Do not praise. Do not ask a follow-up question. One turn.
+
 #### Question: Open
 id:: b7950dda-e8fc-4827-9472-af28fa64770e
 content::
@@ -110,6 +111,7 @@ What to do in your single reply:
 3. Send them to the next problem.
 
 Do not over-validate. Do not praise. Do not ask a follow-up. One turn.
+
 #### Question: Open
 id:: beae583e-1be1-4e35-9023-827360df3801
 content::

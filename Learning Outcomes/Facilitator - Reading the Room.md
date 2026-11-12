@@ -16,7 +16,7 @@ eval-results:
 ## Test:
 id:: e0f78ddc-f042-41d8-9598-91515a8908f3
 
-#### Question
+#### Question: Open
 id:: e8e3aec6-403a-4de7-8e0b-8a8bbb7d3d83
 content:: Most of what a participant is communicating isn't in their words. Online, the signals are subtler but still legible: mute-status changes, camera state changes, typing in chat, off-camera attention, face changes even at low resolution. The skill that pairs with reading is *naming what you see* — gently surfacing it.
 

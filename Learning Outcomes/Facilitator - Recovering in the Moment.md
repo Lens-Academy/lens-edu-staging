@@ -16,7 +16,7 @@ eval-results:
 ## Test:
 id:: b3be36a5-1649-4118-953d-254640ad8066
 
-#### Question
+#### Question: Open
 id:: 2659663c-ff82-4e4e-841f-37ed2a142c5c
 content:: You will, at some point: say something factually wrong; lose track of time; misread the room; get pushed back on; have participants get into something heated; stumble and lose the thread. All of these are recoverable. The recovery move that works in almost all of them is the same: **name it, apologise lightly if warranted, move forward.**
 

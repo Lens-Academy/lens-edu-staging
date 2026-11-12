@@ -18,7 +18,7 @@ eval-results:
 ## Test:
 id:: 27062e0b-42db-4241-88b8-9da786790d04
 
-#### Question
+#### Question: Open
 id:: 7d3266de-d96f-4f73-9018-57c997077990
 content:: You will be tempted to over-prepare. Reading the entire reading three times, writing 15 candidate questions, drafting an opening monologue — these feel diligent. They mostly aren't. There's a small list of prep moves that reliably improve quality and a longer list that's busywork.
 
