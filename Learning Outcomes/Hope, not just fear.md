@@ -18,7 +18,7 @@ eval-results:
 
 ## Test:
 id:: c5982833-e21c-4cb3-ba0c-2ebeaddb48f1
-#### Question
+#### Question: Open
 id:: 8e4ab00c-b734-4bd0-aa18-2b1595bc0eae
 content:: The conversation went well — maybe too well. Your friend has genuinely taken the concern on board, and now they say:
 

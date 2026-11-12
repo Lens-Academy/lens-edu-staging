@@ -21,7 +21,7 @@ eval-results:
 
 ## Test:
 id:: d9991083-07bf-48af-9e16-f45559ea3064
-#### Question
+#### Question: Open
 id:: d44ed125-3211-466b-a3c9-601a22bd4611
 content:: As the Sable scenario unfolds, the question of what happens to humanity comes up. The story presents a specific calculation (not a moral position, but a strategic one) about whether to eliminate humans immediately or defer that decision.
 
