@@ -18,7 +18,7 @@ eval-results:
 ## Test:
 id:: b39982cd-9c10-4c78-9e2e-73c5363166bb
 
-#### Question
+#### Question: Open
 id:: 74cd2d50-e463-4b67-8e5d-e473faf5d76e
 content:: If you only memorise one structural pattern from this whole course, make it this one. Think-Pair-Share is a three-step structure: silent think, pair discussion, whole-group share. It looks almost too simple, but it makes use of three different mechanisms from §2.1 simultaneously.
 
