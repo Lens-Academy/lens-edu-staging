@@ -21,7 +21,7 @@ The unit you have just done depends almost everywhere on a single trend line. Th
 #### Article
 source:: [[../articles/metr-clarifying-limitations-of-time-horizon]]
 
-#### Question
+#### Question: Open
 id:: 271ad89e-5309-4475-8d06-ab0242f66414
 content::
 \## After reading their caveats
@@ -30,6 +30,7 @@ You have now read a forecast built on this trend, and the trend's authors explai
 
 Does anything in their caveats change the number you wrote down earlier in this unit? If yes, say which caveat, and in which direction. If no, say what a caveat would have to say in order to move you. An answer that nothing could move is worth noticing.
 
+force-feedback:: first
 feedback-instructions:: This is an optional lens with no grade attached. Treat it as a conversation.
 
 The student has read METR's own account of what the time-horizon result does and does not support, having earlier committed to a median year of their own.
