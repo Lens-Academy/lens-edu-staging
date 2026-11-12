@@ -16,7 +16,7 @@ eval-results:
 ---
 ## Test:
 id:: 814cb88a-ce26-4b1e-9d05-0fc5dadeea70
-#### Question
+#### Question: Open
 id:: ce1aec44-573f-476a-8120-3e090bd66e2a
 feedback:: true
 content:: According to the 2026 talent-needs evidence, how has the binding constraint on the AI safety field changed, and what does that imply field-building organizations should do differently?

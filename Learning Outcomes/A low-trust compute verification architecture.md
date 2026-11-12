@@ -25,7 +25,7 @@ assesment system prompt + question-specific assessment-instructions + answer -->
 	base coach/tutor system prompt + conversation context + reusable feedback prompt appended to context + question-specific assessment-instructions + answer + pass/fail + reason --> feedback to student
 %%
 
-#### Question
+#### Question: Open
 id:: a863faf9-bce1-44db-898a-424ad5cfc17d
 content:: Every mechanism so far has needed someone to trust some silicon. Cankaya's architecture is built to avoid that: an inspector should be able to establish what a data center ran without either side trusting the other's hardware, and without new chips being designed.
 
