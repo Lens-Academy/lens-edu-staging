@@ -101,7 +101,7 @@ What not to do:
 - Adjudicate whether forecasting is worthwhile.
 - Let this run more than 2 tutor turns.
 
-#### Question
+#### Question: Open
 id:: fbef858a-1dba-47e1-bedf-1afcf7310c5f
 content::
 \## Phase 3: Learning Question
@@ -113,7 +113,8 @@ Every factual claim your colleague makes is true. The fit really is 0.97, it rea
 
 Where does the argument stop being licensed by the data? And what would you have to know, that is not on the chart, before the fourteen-month figure meant anything?
 
-assessment-instructions:: The student has read Steinhardt's forecasting scoreboard and METR's account of their own metric's limits, has recalled both, and has processed being graded against professional forecasters. This is the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has read Steinhardt's forecasting scoreboard and METR's account of their own metric's limits, has recalled both, and has processed being graded against professional forecasters. This is the main discussion phase.
 
 The question is a deliberate wedge. It is not the test question. It hands the student a plausible-sounding but flawed extrapolation and asks them to locate where the license runs out, so the outcome is drawn out from a fresh angle rather than recited.
 
