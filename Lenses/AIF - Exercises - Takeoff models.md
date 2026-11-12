@@ -9,11 +9,13 @@ summary_for_tutor: "An exercise page (no reading): two discussion-group exercise
 content::
 Two exercises on the AI Futures Model you just read. These are meant for discussion groups: bring your answers to the meeting.
 
-#### Question
+#### Question: Open
 id:: 33587aa5-fdb3-40a0-a9dd-7801585c6703
 content:: How does the AI Futures model compare to other takeoff models you've seen this week (e.g. the Forethought software-intelligence-explosion analysis)? Name at least one structural similarity and one difference.
 assessment-instructions:: A good answer identifies a concrete similarity (e.g. both model AI R&D automation as the central driver, both extrapolate from capability trends) and a concrete difference (e.g. milestone-based simulation vs returns-parameter analysis, different treatment of compute bottlenecks or time-horizon extrapolation). Reward specificity about assumptions/parameters over vague comparisons.
 max-words:: 200
+force-feedback:: first
+feedback-instructions:: Name the strongest part of the learner's answer, then the most important thing it missed or got wrong, judging only by what the question asks. If nothing is missing, confirm that and stop. Two to four sentences. No generic praise.
 
 #### Question
 id:: bb955d0d-d9c0-4ce6-9310-9cdf142da650
