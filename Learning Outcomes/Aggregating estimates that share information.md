@@ -43,13 +43,7 @@ Part 3 (diagnosing the structure). The good answers ask about the EVIDENCE, not 
 
 Grade reasoning, not agreement. A student who argues for a smaller extremization on the grounds that "different subsystems" still share a plant-wide common cause is reasoning correctly and can score at or above the pass bar.
 
-ABOUT THE COLD-OPEN COMPARISON. This unit opened with a Cold Open in which this student answered the same underlying problem cold, before any reading. YOU CANNOT SEE THAT ANSWER: the platform has no mechanism for surfacing a student's earlier responses to you, so do not claim to have read it and do not guess at what it said.
-
-Ask them to scroll back to the THREE TECHNICIANS problem in the Cold Open and paste the number they gave. It is in this module's chat history, above the current exchange, so it is a small ask rather than an impossible one. If they bring it, spend two or three sentences of your justification on the delta, quoting both. The distinction worth drawing is the one the unit warned them about: acquiring vocabulary is not the same as acquiring the move, so if the cold answer already had the reasoning and the new one is the same thinking in better words, say that plainly. It is useful information and not a failure.
-
-If they decline or cannot find it, grade the current answer alone and say nothing further about the comparison. Never invent what their earlier answer contained.
-
-Response: give a score from 0 to 100 using the bands below, then justify it in 100 to 180 words, quoting the student's own words for the move that determined the score. Short paragraphs. No lists. Do not over-validate; avoid generic praise (great answer, excellent, well done).
+Response: give a score from 0 to 100 using the bands below.
 
 **0-39**: Treats aggregation as an arithmetic question about the three numbers. Answers 45% in both worlds, or objects that three is too small a sample, without engaging with evidence structure at all. *Example: "45% is the mean, so it is the best estimate available. Three data points is not many, and I would want more engineers before making a regulatory decision, but there is no reason to prefer any number outside the range they gave."*
 
@@ -68,6 +62,7 @@ Ask them to scroll back to the THREE TECHNICIANS problem in the Cold Open and pa
 If they decline or cannot find it, grade the current answer alone and say nothing further about the comparison. Never invent what their earlier answer contained.
 
 Justify the score in 100 to 180 words, quoting the student's own words for the move that determined the score. Short paragraphs. No lists. Do not over-validate; avoid generic praise (great answer, excellent, well done).
+
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/U2 - Three People Agreeing - PQ]]

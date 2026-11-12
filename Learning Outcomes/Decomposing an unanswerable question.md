@@ -31,13 +31,7 @@ What a competent decomposition looks like (for your reference; the student's nee
 
 Grade the moves, not the number. A student whose estimate is 2033 and a student whose estimate is 2055 can both score 96 or more. A student who produces a confident year with no decomposition scores below 40 no matter how plausible the year.
 
-ABOUT THE COLD-OPEN COMPARISON. This unit opened with a Cold Open in which this student answered the same underlying problem cold, before any reading. YOU CANNOT SEE THAT ANSWER: the platform has no mechanism for surfacing a student's earlier responses to you, so do not claim to have read it and do not guess at what it said.
-
-Ask them to scroll back to the FLIGHTS problem in the Cold Open and paste or summarise what they wrote, in one line. It is in this module's chat history, above the current exchange, so it is a small ask rather than an impossible one. If they bring it, spend two or three sentences of your justification on the delta, quoting both. The distinction worth drawing is the one the unit warned them about: acquiring vocabulary is not the same as acquiring the move, so if the cold answer already had the reasoning and the new one is the same thinking in better words, say that plainly. It is useful information and not a failure.
-
-If they decline or cannot find it, grade the current answer alone and say nothing further about the comparison. Never invent what their earlier answer contained.
-
-Response: give a score from 0 to 100 using the bands below, then justify it in 100 to 180 words, quoting the student's own words for the move that determined the score. Short paragraphs. No lists. Do not over-validate; avoid generic praise (great answer, excellent, well done).
+Response: give a score from 0 to 100 using the bands below.
 
 **0-39**: Gives a year with a narrative justification and no decomposition, or refuses on the grounds that the question is unanswerable. Treats "I have a feeling about how fast this technology is moving" as the method. *Example: "Probably around 2035. The technology is improving very fast and companies are already running pilots, but regulation and public trust take a long time to catch up, so I would not expect a majority of rides for at least a decade."*
 
@@ -56,6 +50,7 @@ Ask them to scroll back to the FLIGHTS problem in the Cold Open and paste or sum
 If they decline or cannot find it, grade the current answer alone and say nothing further about the comparison. Never invent what their earlier answer contained.
 
 Justify the score in 100 to 180 words, quoting the student's own words for the move that determined the score. Short paragraphs. No lists. Do not over-validate; avoid generic praise (great answer, excellent, well done).
+
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/U2 - What Would Settle It - PQ]]
