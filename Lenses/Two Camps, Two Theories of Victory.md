@@ -50,7 +50,7 @@ Response length: 120–190 words. Ask at most two precise causal questions. Avoi
 from:: ## Camp 2
 to:: > Some are useful.
 
-#### Question
+#### Question: Open
 id:: a70fdfd6-0fc4-4f5e-8c12-cddb780e5fed
 content::
 Now reconstruct Camp 2's strongest theory of victory. Then compare the two camps across four fault lines:
@@ -64,7 +64,8 @@ For each camp, identify its most vulnerable transition from “something helpful
 
 The excerpt finishes with several other theories of victory. Choose one. Does it fit inside either camp, combine parts of both, or expose a different strategic axis altogether? Name its own most load-bearing assumption.
 
-assessment-instructions:: The student has read both of Hausenloy's camps and his brief list of other theories of victory. They should compare the two main camps without mistaking the author's map for a neutral census of the field, then use one alternative to test the limits of the two-camp framing.
+force-feedback:: first
+feedback-instructions:: The student has read both of Hausenloy's camps and his brief list of other theories of victory. They should compare the two main camps without mistaking the author's map for a neutral census of the field, then use one alternative to test the limits of the two-camp framing.
 
 Camp 2's proposed chain is roughly: communicate the danger clearly, build public and political support, secure a superintelligence ban or international treaty, verify and enforce it, and maintain a stable non-racing equilibrium. Hausenloy's critique is that this may depend on a legible non-catastrophic warning shot, persuasion reaching powerful actors, governments acting competently and quickly, and a stable global stopping point.
 

@@ -18,7 +18,7 @@ eval-results:
 ## Test:
 id:: e593ff7c-ae4b-4883-8ced-14415f5364d7
 
-#### Question
+#### Question: Open
 id:: 345a647b-132e-4353-973b-57bd84c56be9
 content:: Coaching is a different mode than facilitating, and it takes a different posture. Coaching is about the *person*, not the *problem*. Most rookies make the same mistake: they listen to the problem, then start solving. Better coaching has more questions and less advice.
 

@@ -18,7 +18,7 @@ eval-results:
 ## Test:
 id:: ad3efc35-fe09-404d-bb4e-c0096f468b4c
 
-#### Question
+#### Question: Open
 id:: b26a2e12-5008-42ed-ac27-00dfa0020b8e
 content:: The last five minutes of a session matter disproportionately. People remember beginnings and endings; middles fade. A weak close costs you most of what the session built.
 
