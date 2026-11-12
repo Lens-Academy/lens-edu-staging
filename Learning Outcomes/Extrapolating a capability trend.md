@@ -49,6 +49,7 @@ Response: give a score from 0 to 100 using the bands below, then justify it in 1
 
 **96-100**: As above, plus notices that the 10,000-step threshold is itself an unmeasured assertion, so even a perfectly continued trend would not settle the question the commentator asked. *Example: Adds "There is a second problem underneath the first. The 10,000 figure is asserted, not measured, and nobody has demonstrated that depth is the binding constraint on autonomous materials discovery at all. If autonomy needs 10,000 steps and something the metric does not capture, such as choosing which chemistry is worth trying, then even a trend that continues perfectly lands you at 10,000 steps of a process that still is not autonomous. The extrapolation and the threshold are separate claims and only one of them has data behind it. I would ask what happened to the runs that reached the current depth limit: if they were producing useful chemistries and simply stopped, that is evidence for the threshold, and if they were producing nothing worth having, the metric and the goal have come apart."*
 
+feedback-instructions:: Justify the score in 100 to 180 words, quoting the student's own words for the move that determined the score. Short paragraphs. No lists. Do not over-validate; avoid generic praise (great answer, excellent, well done).
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/Trends - Predict The Metric - PQ]]
