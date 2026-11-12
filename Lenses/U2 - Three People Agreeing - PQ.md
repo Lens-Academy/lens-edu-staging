@@ -8,7 +8,7 @@ summary_for_tutor: "Pre-reading question for the aggregation material. Pumps the
 authors:
   - Claude
 ---
-#### Question
+#### Question: Open
 id:: 5cab45a5-23cd-43c0-993a-afd3a0cb6a0d
 content::
 \## Before the reading
@@ -23,7 +23,8 @@ Then one more question. It is not a rhetorical question. Is there any set of fac
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 
-assessment-instructions:: The student is about to study forecast aggregation and extremization. This question surfaces the range-preserving intuition, which is the default move the extremization literature is written against and which is wrong under independence.
+force-feedback:: first
+feedback-instructions:: The student is about to study forecast aggregation and extremization. This question surfaces the range-preserving intuition, which is the default move the extremization literature is written against and which is wrong under independence.
 
 If the student answers 65% and says no to the third question, often on the grounds that you cannot know more than your best expert, that is the case this phase is built for and is not to be corrected here.
 
