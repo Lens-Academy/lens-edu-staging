@@ -29,7 +29,7 @@ content:: Explain each of these terms in one sentence, in your own words: agenda
 assessment-instructions:: Check that the student gives (1) agenda as a coherent research direction or prioritized plan of work aimed at a problem, not just a vague topic, and (2) theory of change as a causal story linking actions to outcomes: problem, mechanism, assumptions, and how/why it could work. Penalize circular definitions and purely motivational slogans.
 max-words:: 150
 
-#### Question
+#### Question: Open
 id:: 9bd934f8-c844-4d9b-bd6f-1930a195a4b9
 content:: Choose one argument for and one argument against the same agenda. Reconstruct the strongest version of each as a mini theory of change: the problem it targets, the mechanism, what has to go right, and how it could fail. You can type your answer or record it using the microphone.
 assessment-instructions:: Evaluate whether the student (1) selects a matched pair (pro and contra) about the same proposal/agenda/direction, (2) steelmans both sides, avoiding strawmen and one-liners, (3) expresses each as a causal chain with the required fields: problem, mechanism, key assumptions/what has to go right, and failure modes, and (4) distinguishes could fail (mechanism breaks) from is bad (value judgment) where possible.
