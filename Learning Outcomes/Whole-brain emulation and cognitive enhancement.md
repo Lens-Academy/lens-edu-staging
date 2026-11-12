@@ -16,9 +16,9 @@ eval-results:
 ---
 ## Test:
 id:: 44306814-0216-4772-a0dd-276370e0ccd7
-#### Question
-id:: 4a4acaff-01cf-4fc1-94ae-4fd4033836eb
-feedback:: true
+#### {--{"author":"James agent ready-87's AI","timestamp":1794489807235}@@Question--}{++{"author":"James agent ready-87's AI","timestamp":1794489807235}@@Question: Open++}
+id:: 4a4acaff-01cf-4fc1-94ae-4fd4033836eb{--{"author":"James agent ready-87's AI","timestamp":1794489807235}@@
+feedback:: true--}
 content:: Why is whole-brain emulation pitched as "aligned by construction," and what does the 2025 state-of-the-field reality check say about how soon that could matter?
 assessment-instructions:: A strong answer explains the WBE alignment story: an emulation is a scan/simulation of a specific human brain, so it starts with human goals and cognition and plausibly inherits human values "by construction" — and group uploads could form fast, copyable alignment-research teams. The reality check (2025 report): the science is generations away — no whole-brain single-neuron recording exists in any organism, the field has <500 researchers — so WBE is a long-shot tail, not a near-term bet; plus WBE research may accelerate unsafe neuromorphic AI first. Award 4-5 for the aligned-by-construction rationale plus the maturity/timeline reality check; 3 for one side; 1-2 if it treats WBE as near-term or misses the alignment rationale. Accept paraphrase.
 max-words:: 120
