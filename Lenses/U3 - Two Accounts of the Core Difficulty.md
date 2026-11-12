@@ -26,7 +26,7 @@ Both authors think alignment is hard and unsolved. They are not describing the s
 #### Article
 source:: [[../articles/johnswentworth-the-pointers-problem-human-values-are-a-function-of-humans-latent-variables]]
 
-#### Question
+#### Question: Open
 id:: 04acc03c-b472-4a1a-bd64-52a5cc6b2472
 content::
 \## Phase 1: Recall
@@ -36,6 +36,7 @@ Without looking back, state each position in two sentences. Then state, in one s
 If you cannot find a disagreement, say so plainly. That is a real possible answer and more useful than a manufactured one.
 
 
+force-feedback:: first
 feedback-instructions:: The student has read Soares on the sharp left turn and Wentworth on the pointers problem.
 
 Soares's position: capabilities generalize further than alignment. Once a system's capabilities start generalizing well beyond the training environment, into regimes that allow significant reshaping of the world, the alignment predictably fails to generalize with them. This ruins your ability to direct the system and breaks whatever constraints you were relying on for corrigibility. His framing: the problem is keeping the system aligned through that transition, or realigning it afterwards, and he claims most of the field assumes this problem away.
