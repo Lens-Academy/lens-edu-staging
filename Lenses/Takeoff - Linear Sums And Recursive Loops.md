@@ -62,7 +62,7 @@ In your single reply: acknowledge what they captured, name what was missing, and
 
 Close with one calibrating sentence. Do not re-teach, do not ask follow-up questions, do not invite dialogue. This is a one-turn response. Tell them to move on.
 
-#### Question
+#### Question: Open
 id:: 22c4d745-affc-48e4-a722-f5182e98ab3f
 content::
 \## Phase 2: Processing
@@ -72,6 +72,7 @@ Now that you have read Christiano, Grace and Greenblatt: is your quantity the on
 
 Then the rest: which argument did you find yourself believing, and did that change between the first and the second reading? Did Greenblatt's separation feel like a technicality or like something important?
 
+force-feedback:: first
 feedback-instructions:: The student has read Christiano, Grace and Greenblatt and is reflecting. Earlier they worked through a two-workshops primer that built the linear-versus-recursive distinction without naming it, and in that primer they were asked to name a measurable quantity for Workshop B. That was a real commitment and this is where it gets cashed.
 
 OPEN ON THEIR QUANTITY, quoting what they wrote. This is the payoff for the primer and it should not be a passing mention. If they named some version of the per-cycle improvement, that is the right neighbourhood, and it is exactly the figure the module later shows to be uninformative on its own. Grace's recalcitrance is the concept the literature uses for the same territory. If they named the TREND in the gain rather than its level, that is ahead of where the module expects them to be, and you should say so directly rather than withholding it.

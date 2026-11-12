@@ -22,9 +22,9 @@ feedback:: true--}
 content:: Steelman the case against building a broad AI safety movement. What two assets does the skeptic argue a movement endangers, and by what mechanisms?
 assessment-instructions:: A strong answer captures Leicht's core argument: a broad popular movement risks damaging AI safety's two real assets — (1) organic/genuine public concern and (2) expert credibility — via mechanisms such as guilt-by-association, astroturf optics, policy asks that keep shifting (so the movement can't pivot coherently), and capture by fringe/populist positions that drop existential risk as the central concern. His alternative: narrow, issue-specific organizations (the Encode model). Award 4-5 for both assets plus at least two mechanisms; 3 for the gist with one asset/mechanism; 1-2 if it can't reconstruct the skeptic case or strawmans it. Accept paraphrase.
 max-words:: 120
-#### Question
-id:: 4b336c35-5ee3-4cae-a978-8f00b724efa7
-feedback:: true
+#### {--{"author":"James agent ready-87's AI","timestamp":1794489672156}@@Question--}{++{"author":"James agent ready-87's AI","timestamp":1794489672156}@@Question: Open++}
+id:: 4b336c35-5ee3-4cae-a978-8f00b724efa7{--{"author":"James agent ready-87's AI","timestamp":1794489672156}@@
+feedback:: true--}
 content:: Elmore argues for public advocacy; Leicht argues against a broad movement. Where exactly do they disagree — and is it a factual disagreement, a values disagreement, or a bet about consequences?
 assessment-instructions:: A strong answer locates the crux: both want good AI-safety policy; they disagree about whether a *broad public movement* is net-positive or net-negative for that goal. It is primarily a bet about consequences / empirical-strategic disagreement (will a movement generate political will, or will it backfire and discredit the cause?), not a fundamental values clash. Credit noting that Leicht favors narrow issue-orgs while Elmore favors mass public advocacy, and that evidence about how movements actually behave (backfire, capture, mobilization) would move the disagreement. Award 4-5 for correctly locating the crux AND classifying it as a consequences/empirical bet; 3 for locating the crux only; 1-2 if it misframes the disagreement. Accept paraphrase.
 max-words:: 120
