@@ -83,7 +83,7 @@ Conversation flow:
 
 Do not resolve with a mini-lecture, do not adjudicate whether bio-anchors is a good method, do not run past 2 turns.
 
-#### Question
+#### Question: Open
 id:: c78a52ee-93ef-4c8f-b7b1-40b0b459f527
 content::
 \## Phase 3: Learning Question
@@ -95,7 +95,8 @@ Their work is careful. Every individual estimate is defensible. They have done s
 
 But their number has the same character as Karnofsky's, rotated. What kind of estimate is it, which side does it bound from, and what assumption puts it on that side? Then: what would you have to believe for their 2062 to be a location rather than a bound?
 
-assessment-instructions:: The student has read Karnofsky's bio-anchors method and his bounding-not-pinpointing correction, recalled both, and revisited their own earlier misclassification. This is the main discussion phase, and the question is a deliberate wedge rather than the test question: it presents an estimate constructed in the opposite direction, so the student must generalise the bounding idea rather than recite where Karnofsky applied it.
+force-feedback:: first
+feedback-instructions:: The student has read Karnofsky's bio-anchors method and his bounding-not-pinpointing correction, recalled both, and revisited their own earlier misclassification. This is the main discussion phase, and the question is a deliberate wedge rather than the test question: it presents an estimate constructed in the opposite direction, so the student must generalise the bounding idea rather than recite where Karnofsky applied it.
 
 Learning outcome for this lens: Given an unfamiliar quantitative estimate of a future event, determine whether the estimate's method can locate the answer or only bound it from one side, state which side the bound is on and what assumption puts it there, and name a case where the bound is uninformative.
 

@@ -75,7 +75,7 @@ The most important thing to check: whether their corrected definition is actuall
 
 Otherwise: acknowledge what they captured, name gaps briefly, correct errors in one sentence, normalize incomplete recall, and close with one calibrating sentence. Do not over-validate, do not re-teach at length, do not ask follow-up questions, do not invite dialogue. One-turn response. Tell them to move on.
 
-#### Question
+#### Question: Open
 id:: cd208229-d26d-49f6-a264-a1178a9410f9
 content::
 \## Phase 3: Learning Question
@@ -90,7 +90,8 @@ They used the words "slow" and "fast" the way the literature does. Both were spe
 
 Rewrite both positions in language that makes the actual disagreement visible, without using the words "fast," "slow," or "takeoff." Then: is there anything left that they genuinely disagree about? And what would you have asked, twenty minutes in, to save them the other forty?
 
-assessment-instructions:: The student has read Raemon and Bensinger and corrected their working definition. This is the main discussion phase. The question is a deliberate wedge, not the test question: a real and extremely common failure of the vocabulary, staged so the student must repair it by rewriting rather than by defining.
+force-feedback:: first
+feedback-instructions:: The student has read Raemon and Bensinger and corrected their working definition. This is the main discussion phase. The question is a deliberate wedge, not the test question: a real and extremely common failure of the vocabulary, staged so the student must repair it by rewriting rather than by defining.
 
 Learning outcome served: distinguishing the continuity axis from the calendar-duration axis, and recognising that they can vary independently and that the conventional terms conflate them.
 

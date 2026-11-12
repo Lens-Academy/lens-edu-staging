@@ -46,12 +46,13 @@ This is the write-up of a survey across 37 technological trends with usable hist
 #### Article
 source:: [[../articles/grace-discontinuous-progress-in-history]]
 
-#### Question
+#### Question: Open
 id:: cb896969-5fa5-476f-b40a-934a0d2e8f01
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember, without looking back. The definition they used, the numbers, the examples, the caveats. No need to organize it.
 
+force-feedback:: first
 feedback-instructions:: The student has just read AI Impacts' "Discontinuous progress in history: an update" and written a free recall without looking back.
 
 Key content:

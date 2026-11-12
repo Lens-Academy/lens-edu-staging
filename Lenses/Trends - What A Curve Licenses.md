@@ -62,7 +62,7 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: 78f82614-2c06-4fc4-85fd-475bc5ba1885
 content::
 \## Phase 2: Processing
@@ -70,6 +70,7 @@ You put a number on the MATH benchmark before you read. Now you know what happen
 
 Take 2 minutes on how that landed. Where was your number, relative to the forecasters and to reality? What does it feel like to have been wrong, or right, in that particular way? What in either reading did you want to argue with? No need to organize it, just capture the reaction.
 
+force-feedback:: first
 feedback-instructions:: The student predicted a MATH benchmark result in a previous lens, has now read that professional forecasters said 12.7 percent while reality delivered 50.3 percent, and is reflecting.
 
 This is a processing phase, not a teaching phase. Help them articulate their reaction. Do not resolve it.
