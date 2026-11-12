@@ -18,7 +18,7 @@ eval-results:
 ---
 ## Test:
 id:: d42dd4a7-6562-42aa-af58-c2a7dc955008
-#### Question
+#### Question: Open
 id:: 277fc2ff-2d37-46d0-bcb0-6bd47c151c31
 content:: A common assumption is that verifying AI agreements is a problem for the future — that it waits on breakthroughs nobody has made yet. The Oxford AIGI report, written under deliberately conservative assumptions, reaches a different conclusion.
 

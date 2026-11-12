@@ -12,7 +12,7 @@ eval-results:
 ## Test:
 id:: 348a053f-c379-4f8a-9d2b-0d5efd34a2a4
 
-#### Question
+#### Question: Open
 id:: 1caaacc7-f8c7-4526-b2f1-edf35f8066c5
 content:: A hospital network is estimating when a new diagnostic system will handle the majority of its imaging caseload. They survey their radiologists annually with one question: "What fraction of your diagnostic work could this system do today, unsupervised?"
 

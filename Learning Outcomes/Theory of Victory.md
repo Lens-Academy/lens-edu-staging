@@ -15,7 +15,7 @@ eval-results:
 ## Test:
 id:: b24d22b5-5471-44c3-bd56-ab6b12ea84fc
 
-#### Question
+#### Question: Open
 id:: 9c7f7892-e067-42e2-8a69-2e45c1f178f8
 content:: In your own words, what is the difference between a theory of change and a theory of victory?
 

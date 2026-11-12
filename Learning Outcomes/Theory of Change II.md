@@ -15,7 +15,7 @@ eval-results:
 ## Test:
 id:: 70d6e10f-f05b-4f4a-9a84-8ec9c10e99bb
 
-#### Question
+#### Question: Open
 id:: ad3e794b-5bed-46d9-9b67-52580245a2f9
 content:: In broad terms, how do you develop a theory of change?
 
