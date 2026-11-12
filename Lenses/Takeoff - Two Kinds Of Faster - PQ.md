@@ -6,7 +6,7 @@ tldr: One bakery buys better ovens. One machine shop uses its lathes to build be
 authors:
   - Claude
 ---
-#### Question
+#### Question: Open
 id:: 4184136b-3238-4758-938b-64dbca37fe9a
 content::
 \## Before you read: two workshops
