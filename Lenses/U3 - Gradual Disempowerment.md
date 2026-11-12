@@ -85,7 +85,7 @@ Branch:
 
 Keep an internal turn counter. After 2 tutor replies, close the phase.
 
-#### Question
+#### Question: Open
 id:: a9e4b2ef-b1dc-48c2-91bb-fa18ea47a579
 content::
 \## Phase 3: Learning Question
@@ -101,7 +101,8 @@ The last sentence is the mistake. Why?
 And: is there a version of this proposal that would work, or is the whole approach wrong?
 
 
-assessment-instructions:: The student has read both structural-failure accounts. This wedge question hands them a competent-sounding proposal built on an additive assumption. It is not the test question.
+force-feedback:: first
+feedback-instructions:: The student has read both structural-failure accounts. This wedge question hands them a competent-sounding proposal built on an additive assumption. It is not the test question.
 
 Learning outcome for this lens: explain how interaction between separately-benign optimizers produces an outcome no part selected; identify the structural conditions required; name a case where they do not hold.
 
