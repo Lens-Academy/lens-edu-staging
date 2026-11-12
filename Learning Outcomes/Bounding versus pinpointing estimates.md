@@ -34,7 +34,7 @@ The underlying structure, for your reference as grader:
 
 Grade reasoning, not agreement. A student who argues the estimate is closer to a location than I have described, and argues it well from the structure of the method, can score at the pass bar or above.
 
-Response: give a score from 0 to 100 using the bands below, then justify it in 100 to 180 words, quoting the student's own words for the move that determined the score. Short paragraphs. No lists. Do not over-validate; avoid generic praise (great answer, excellent, well done).
+Response: give a score from 0 to 100 using the bands below.
 
 **0-39**: Treats the estimate as a prediction and evaluates only whether 2041 seems plausible, or rejects the method wholesale as "just a guess" without identifying any structure. No notion of directionality. *Example: "This is way too speculative. You cannot predict science like this, there are too many unknowns, and picking a specific year like 2041 gives false confidence. They should present a range instead."*
 
@@ -47,6 +47,7 @@ Response: give a score from 0 to 100 using the bands below, then justify it in 1
 **96-100**: As above, plus recognises the symmetric construction: a method built from enumerated difficulties bounds from the opposite side, and the two together are more informative than either, because the answer is bracketed. *Example: Adds "The fix is not a better single number. If you separately estimated by listing every known hard step and costing each one, you would get a bound from the other side, and it would be too late rather than too early, because no enumeration can include the shortcut nobody has thought of yet. Running both gives you a bracket, and the width of the bracket is the honest output. A method that returns one number is hiding which side of the answer it lives on."*
 
 feedback-instructions:: Justify the score in 100 to 180 words, quoting the student's own words for the move that determined the score. Short paragraphs. No lists. Do not over-validate; avoid generic praise (great answer, excellent, well done).
+
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/Timelines - What A Model Is For - PQ]]
