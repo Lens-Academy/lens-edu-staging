@@ -52,12 +52,13 @@ content::
 #### Article
 source:: [[../articles/bensinger-quick-nateeliezer-comments-on-discontinuity]]
 
-#### Question
+#### Question: Open
 id:: 12aa425e-2187-493b-80c0-2feaa54081f7
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down what you remember from both readings, without looking back. Then, separately: rewrite your working definition of "slow takeoff" from before, corrected.
 
+force-feedback:: first
 feedback-instructions:: The student has just read Raemon's terminology piece and Bensinger's discontinuity comments, and has recalled both plus corrected their own prior working definition.
 
 Key content:

@@ -27,7 +27,7 @@ content:: Which of these options feels most meaningful, and which feels most rea
 assessment-instructions:: Grade only whether both halves of the question are answered, never which options the student chooses. Check that the student (1) identifies an option they find most meaningful, (2) identifies an option they find most realistic, and (3) says something about the gap between the two, or about why the same option serves both. Award 100 when both halves are answered with some reasoning about the difference or the match; 70 to 90 when both halves are answered but the reasoning is thin; 40 to 60 when only one half is answered; 0 to 20 only for an empty or off topic answer. Naming the same option twice is a valid answer. Be generous with honest personal reflection.
 enforce-voice:: true
 
-#### Question
+#### Question: Open
 id:: 9ade5c73-c889-453d-a524-60cc18f9701e
 content:: What is the main thing you are missing right now in order to decide how, or whether, you want to engage further?
 assessment-instructions:: Check that the student (1) names a specific missing piece, such as information, a skill, time, money, a contact, or clarity about their own priorities, rather than leaving the question open, and (2) connects it to their own decision about engaging further. Award 100 for one concrete gap that is specific to this student; 70 to 90 for a real but broadly stated gap; 40 to 60 when the answer only restates the question or stays entirely generic; 0 to 20 only for an empty or off topic answer. "Nothing is missing, I already know what I want to do" earns full marks when the student says what that is. Do not judge how large, small, or worthy the named gap is, and do not penalize a student for saying they do not plan to engage further.

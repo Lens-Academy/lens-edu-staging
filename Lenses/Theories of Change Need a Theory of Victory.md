@@ -48,7 +48,7 @@ As you read, keep your chosen pathway in mind. Look for a step that sounds persu
 from:: ## Developing Strategic Taste
 to:: **Then act on the gap.**
 
-#### Question
+#### Question: Open
 id:: 2ee89f8e-d1ca-4028-8688-0b0010f760fa
 content::
 Now revise your pathway into a compact theory of victory. Include:
@@ -61,7 +61,8 @@ Now revise your pathway into a compact theory of victory. Include:
 
 Finally, say whether the action still looks worth pursuing—and what changed in your view after making the pathway explicit.
 
-assessment-instructions:: The student is constructing and stress-testing a theory of victory after reading Hausenloy's “decompose and resolve” method.
+force-feedback:: first
+feedback-instructions:: The student is constructing and stress-testing a theory of victory after reading Hausenloy's “decompose and resolve” method.
 
 A strong response:
 - States an actual end-state rather than an intermediate good.
