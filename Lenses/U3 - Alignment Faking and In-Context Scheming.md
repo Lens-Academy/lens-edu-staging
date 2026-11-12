@@ -71,7 +71,7 @@ What to do in your single reply:
 
 This is a one-turn response. Do not ask a question or invite reply. Tell them to move on.
 
-#### Question
+#### Question: Open
 id:: f458ac48-2fad-4794-b53c-c506c7cfe35c
 content::
 \## Phase 2: Where you were wrong
@@ -83,7 +83,8 @@ Where was the distance largest? Take the single prediction you got most wrong, a
 Not "I underestimated it" or "I was too optimistic". What specifically did you believe about the machinery?
 
 
-assessment-instructions:: The student has compared their pre-reading numeric predictions against the actual findings. This phase is about the belief that generated the error, not about the error itself.
+force-feedback:: first
+feedback-instructions:: The student has compared their pre-reading numeric predictions against the actual findings. This phase is about the belief that generated the error, not about the error itself.
 
 This is a processing phase, not a teaching phase. Do not resolve their confusion and do not deliver the correct model of the machinery. The next phase does that work through dialogue.
 
@@ -104,7 +105,7 @@ Branch on what they report:
 
 Keep an internal turn counter. After 2 tutor replies, close: "Hold that. The next step is about what these results actually license."
 
-#### Question
+#### Question: Open
 id:: 6669fb77-729f-41fe-bb85-0671192dd47b
 content::
 \## Phase 3: Learning Question
@@ -120,7 +121,8 @@ A skeptic replies:
 Each of them is right about something and wrong about something. Separate the parts.
 
 
-assessment-instructions:: The student has read both empirical results and compared them against their own predictions. This question hands them two plausible-sounding but flawed readings and asks them to sort the parts. It is deliberately not the test question.
+force-feedback:: first
+feedback-instructions:: The student has read both empirical results and compared them against their own predictions. This question hands them two plausible-sounding but flawed readings and asks them to sort the parts. It is deliberately not the test question.
 
 Learning outcome for this lens: Given a reported experimental result about an AI system behaving deceptively, determine which threat-model claims the result supports, which it leaves untouched, and which it would have to be redesigned to test.
 
