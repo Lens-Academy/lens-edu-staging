@@ -29,13 +29,14 @@ source:: [[../articles/neyman-algorithmic-bayesian-epistemology-explained]]
 from:: \* Chapter 7: Robust aggregation of substitutable signals
 to:: have only just started exploring. I’m excited!
 
-#### Question
+#### Question: Open
 id:: 92f7db72-d5b7-4edc-a027-9fc5bd694b63
 content::
 \## Phase 1: Recall
 
 Spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organize it.
 
+force-feedback:: first
 feedback-instructions:: The student has just read the robust-aggregation section of Neyman's thesis summary and written a free recall.
 
 Key content:
@@ -66,7 +67,7 @@ What to do in your single reply:
 
 This is a one-turn response. Do not ask a question. Tell them to move on.
 
-#### Question
+#### Question: Open
 id:: 31b57296-55cf-40dc-9291-a6d2b9559149
 content::
 \## Phase 2: Processing
@@ -75,6 +76,7 @@ Go back to the number you wrote down one lens ago, when three people who had not
 
 If the two differ, the arithmetic is not the interesting question. The interesting question is what you believed about aggregation when you wrote your first number. Name that belief. Then say how confident you were at the time, and what that tells you about confidence as a signal.
 
+force-feedback:: first
 feedback-instructions:: The student has recalled the aggregation reading and is now reflecting. Critically, one lens ago they committed to a number for the three-people-agreeing problem (estimates of 60, 65 and 70 percent against a 10 percent base rate). The case that phase was built for is an answer inside the 60-to-70 range, reasoning that an aggregate cannot exceed what any individual believes; expect that, but read what they actually wrote.
 
 CASH THAT COMMITMENT. This is the moment the strand is built around: they made a confident, specific, checkable prediction and the reading has just contradicted it. Open by putting their number next to that direction, quoting what they wrote. If they did not commit a number, ask once what they would have said.
