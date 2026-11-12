@@ -38,7 +38,7 @@ min_chat_messages:: 1
 content::
 Two questions on one page, and the lens has `min_chat_messages:: 1`. Both questions need an answer, and one message to the tutor is needed on top. The list under the button says "Answer question 1", "Answer question 2" (each linking to its question) and "Send 1 message to the Lens Tutor". A reply typed in either question's feedback conversation counts as the message; the auto-sent feedback request does not.
 
-#### Question
+#### Question: Open
 id:: ac382aa6-dce0-43b1-a322-696849b71885
 content:: Question 1: What did you have for breakfast?
 
