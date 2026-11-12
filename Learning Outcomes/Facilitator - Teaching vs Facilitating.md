@@ -16,7 +16,7 @@ eval-results:
 ## Test:
 id:: f412a598-a3fd-4e0b-9502-89ef2088250c
 
-#### Question
+#### Question: Open
 id:: 2d9ea2a0-62f8-4396-9e85-5d7945c0e60a
 content:: A teacher transfers knowledge — they are the source. A facilitator helps a group think together — they are not the source. That sounds simple, but in practice almost every move you make in a session is shaped by which mode you're operating in.
 
