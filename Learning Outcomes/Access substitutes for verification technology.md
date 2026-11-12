@@ -18,7 +18,7 @@ eval-results:
 ---
 ## Test:
 id:: 28fd9797-a945-417b-bee5-9e1d51298965
-#### Question
+#### Question: Open
 id:: 4d42c17e-cf43-4447-977a-1b4e01ed94c7
 content:: Most of the verification mechanisms people would *want* — elegant, privacy-preserving, cryptographic — do not yet exist in deployable form. Scher and Thiergart argue this is much less damning than it sounds.
 
