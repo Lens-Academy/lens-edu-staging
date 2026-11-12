@@ -16,7 +16,7 @@ eval-results:
 ## Test:
 id:: 68998159-2970-4bc6-b87b-4f31f94f7bad
 
-#### Question
+#### Question: Open
 id:: f20cae1e-eead-41b1-b682-9613b2574dbf
 content:: Long sessions decay. The energy you have at minute 10 is not the energy you have at minute 40. Four practical antidotes work reliably — and one of them tends to produce the best contributions of the whole session.
 
