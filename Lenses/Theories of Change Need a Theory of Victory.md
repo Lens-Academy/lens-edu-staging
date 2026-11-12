@@ -24,6 +24,7 @@ Choose one “generically good” AI safety action from the excerpt—or another
 
 Where are the weakest links? Name at least two steps performed by other actors and two assumptions that would have to hold.
 
+assessment-instructions:: Score out of 100. Context: a theory of change is a causal account from one action to a useful intermediate outcome. A theory of victory continues it to an explicit win condition, a state in which the whole problem is solved, through the actions of all the actors involved. Any AI safety action may be chosen. Grade how complete and explicit the chain is, not the choice of action or of win condition. 15: names an AI safety action and says in about one sentence how it leads to a useful intermediate outcome. 25: extends the chain step by step until it reaches an end state in which the problem is actually solved, not just another intermediate good. 20: says where the weakest links in the chain are. 20: names at least two steps that other actors have to perform, saying who does what (10 if only one). 20: names at least two assumptions that would have to hold (10 if only one). Give credit for each point whenever the answer shows the idea, in any wording.
 force-feedback:: first
 feedback-instructions:: The student has read Jason Hausenloy's distinction between a theory of change and a theory of victory and is applying it to an AI safety action.
 
