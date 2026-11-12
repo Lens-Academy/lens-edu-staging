@@ -18,7 +18,7 @@ eval-results:
 ---
 ## Test:
 id:: bb9f6daf-a217-4860-b569-3d053a7486f3
-#### Question
+#### Question: Open
 id:: f8ba3525-615f-490a-bbaa-7de93dc07f71
 content:: Shavit's scheme is designed so that an inspector can walk up to a set of chips and establish what they were used to train — without the inspector reading anyone's weights on demand or watching the training as it happens.
 
