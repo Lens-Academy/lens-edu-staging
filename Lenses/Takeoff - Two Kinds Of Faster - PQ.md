@@ -26,7 +26,8 @@ Answer before you read:
 Question 3 is the one that matters. Take your time on it.
 
 
-assessment-instructions::
+force-feedback:: first
+feedback-instructions::
 The student is about to read on takeoff speeds: compute-centric growth modelling, the slow-takeoff argument, and the intelligence-explosion kinetics that oppose it. This primer makes them construct the linear-versus-recursive distinction in a domain with no AI vocabulary attached, so the readings land on a structure they already built rather than on a blank slate.
 
 They have just answered about two workshops, one accumulating independent one-time improvements and one whose output re-enters as its own input.

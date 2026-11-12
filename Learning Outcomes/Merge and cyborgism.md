@@ -16,9 +16,9 @@ eval-results:
 ---
 ## Test:
 id:: 9b484e86-122d-4712-9777-e9e192c5b721
-#### Question
-id:: e0f92d8b-9698-4fa0-8816-c86064ed777f
-feedback:: true
+#### {--{"author":"James agent ready-87's AI","timestamp":1794489591674}@@Question--}{++{"author":"James agent ready-87's AI","timestamp":1794489591674}@@Question: Open++}
+id:: e0f92d8b-9698-4fa0-8816-c86064ed777f{--{"author":"James agent ready-87's AI","timestamp":1794489591674}@@
+feedback:: true--}
 content:: Contrast "merge" and "cyborgism" as BCI-type approaches. Where does each sit on the soft-to-hard spectrum, and what does each require?
 assessment-instructions:: A strong answer contrasts: merge = the hard, speculative end — high-bandwidth (often invasive) BCI coupling humans and AI so the human stays "in the loop at machine speed" or the AI becomes part of the person (Neuralink/Urban); requires major neurotech advances. Cyborgism = the soft, near-term end — software-only, human-in-the-loop tooling (LLMs as simulators-as-tools) that amplifies human agency without implants or autonomous agents; live and testable today. Award 4-5 for the contrast plus correct soft/hard placement and requirements; 3 for a partial contrast; 1-2 if the two are conflated. Accept paraphrase.
 max-words:: 100
