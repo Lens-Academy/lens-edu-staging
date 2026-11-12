@@ -20,12 +20,13 @@ Read them in that order. The first is about being wrong; the second is about a g
 
 ---
 
-#### Question
+#### Question: Open
 id:: 3b0480ea-c35a-4c88-915d-a02db270d28d
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from both readings, without looking back. Numbers, arguments, caveats, anything. No need to organize it. Using the speech to text feature is highly recommended here.
 
+force-feedback:: first
 feedback-instructions:: The student has just read Jacob Steinhardt's "AI Forecasting: One Year In" and METR's "Clarifying limitations of time horizon," and has written a free recall without looking back at either.
 
 Key content across the two readings:

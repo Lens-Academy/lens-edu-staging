@@ -8,7 +8,7 @@ summary_for_tutor: "Pre-reading question for the fractional-progress material. P
 authors:
   - Claude
 ---
-#### Question
+#### Question: Open
 id:: 56d0f1a2-d06f-4c09-ac76-eb36031cd401
 content::
 \## Before the reading
@@ -21,7 +21,8 @@ Then answer one more question. What would have to be true about the remaining 84
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 
-assessment-instructions:: The student is about to read about the fractional-progress survey method and its failure. They have not seen it yet. This question makes them perform the extrapolation themselves so that the reading lands as a critique of something they did, not something a stranger did.
+force-feedback:: first
+feedback-instructions:: The student is about to read about the fractional-progress survey method and its failure. They have not seen it yet. This question makes them perform the extrapolation themselves so that the reading lands as a critique of something they did, not something a stranger did.
 
 If the student divides (four years bought 16%, so 100% takes twenty-five years), that is the case this phase is built for. It is not a mistake to be corrected here.
 
