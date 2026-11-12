@@ -103,7 +103,7 @@ Conversation flow:
 
 Do not resolve their confusion with a mini-lecture, do not adjudicate between Christiano and Grace, and do not let this run past 2 turns.
 
-#### Question
+#### Question: Open
 id:: da0a5e18-03be-4179-83c6-78072dab5271
 content::
 \## Phase 3: Learning Question
@@ -115,7 +115,8 @@ The analyst has correctly identified that self-improvement is the crux. They are
 
 Break the argument. Specifically: construct a world in which AI systems genuinely do AI research, genuinely improve themselves, and there is nonetheless no explosion. What is true in that world? And what does that tell you about what the analyst should have been asking instead of "can they or can't they"?
 
-assessment-instructions:: The student has read Christiano, Grace, and Greenblatt, recalled them, and processed the disagreement. This is the main discussion phase. The question is a deliberate wedge, not the test question: it hands the student a plausible-sounding binary and asks them to break it by constructing the missing case.
+force-feedback:: first
+feedback-instructions:: The student has read Christiano, Grace, and Greenblatt, recalled them, and processed the disagreement. This is the main discussion phase. The question is a deliberate wedge, not the test question: it hands the student a plausible-sounding binary and asks them to break it by constructing the missing case.
 
 Learning outcome for this lens: Given an unfamiliar system in which output feeds back into the process that produced it, determine whether the coupling produces a bounded speedup or unbounded acceleration, identify the specific quantity whose behaviour decides which, and state what would have to be measured to tell the two apart in advance.
 
