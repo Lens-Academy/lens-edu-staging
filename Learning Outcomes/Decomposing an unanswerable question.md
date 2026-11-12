@@ -49,6 +49,13 @@ Response: give a score from 0 to 100 using the bands below, then justify it in 1
 
 **96-100**: As above, plus notices that some sub-questions are not independent, and that treating them as independent factors understates the spread. *Example: Adds "Multiplying my four factors treats them as separate, and they are not. The thing that gets regulators to permit is the same thing that gets riders to accept: a visible safety record. So (b) and (d) are driven by a common cause, and they will move together, which means the good case is better and the bad case is worse than the product of my ranges suggests. My interval is too narrow, not because any single estimate is bad, but because the decomposition asserted an independence the world does not have. If I wanted to fix it I would model the safety record as its own node and hang both (b) and (d) off it."*
 
+feedback-instructions:: ABOUT THE COLD-OPEN COMPARISON. This unit opened with a Cold Open in which this student answered the same underlying problem cold, before any reading. YOU CANNOT SEE THAT ANSWER: the platform has no mechanism for surfacing a student's earlier responses to you, so do not claim to have read it and do not guess at what it said.
+
+Ask them to scroll back to the FLIGHTS problem in the Cold Open and paste or summarise what they wrote, in one line. It is in this module's chat history, above the current exchange, so it is a small ask rather than an impossible one. If they bring it, spend two or three sentences of your justification on the delta, quoting both. The distinction worth drawing is the one the unit warned them about: acquiring vocabulary is not the same as acquiring the move, so if the cold answer already had the reasoning and the new one is the same thinking in better words, say that plainly. It is useful information and not a failure.
+
+If they decline or cannot find it, grade the current answer alone and say nothing further about the comparison. Never invent what their earlier answer contained.
+
+Justify the score in 100 to 180 words, quoting the student's own words for the move that determined the score. Short paragraphs. No lists. Do not over-validate; avoid generic praise (great answer, excellent, well done).
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/U2 - What Would Settle It - PQ]]

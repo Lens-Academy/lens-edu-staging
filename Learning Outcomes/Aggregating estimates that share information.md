@@ -61,6 +61,13 @@ Response: give a score from 0 to 100 using the bands below, then justify it in 1
 
 **96-100**: As above, plus notes that the elicitation procedure determines which world you are in, so the structure is a design choice rather than a fact to be discovered. *Example: Adds "The deeper point is that the regulator partly chooses which world she is in, and she chose before she asked. If she had briefed all three together, she would have manufactured world two and destroyed the information that makes world one worth having, while the numbers on the page would look the same and might even look better, because they would agree more tightly. Tighter agreement among people who share a source is not more evidence, it is less, and it is the failure mode that makes an expert consensus a weaker signal than it appears. So the aggregation question cannot be separated from the elicitation design: what you can correctly do at the end is fixed by how you gathered at the start."*
 
+feedback-instructions:: ABOUT THE COLD-OPEN COMPARISON. This unit opened with a Cold Open in which this student answered the same underlying problem cold, before any reading. YOU CANNOT SEE THAT ANSWER: the platform has no mechanism for surfacing a student's earlier responses to you, so do not claim to have read it and do not guess at what it said.
+
+Ask them to scroll back to the THREE TECHNICIANS problem in the Cold Open and paste the number they gave. It is in this module's chat history, above the current exchange, so it is a small ask rather than an impossible one. If they bring it, spend two or three sentences of your justification on the delta, quoting both. The distinction worth drawing is the one the unit warned them about: acquiring vocabulary is not the same as acquiring the move, so if the cold answer already had the reasoning and the new one is the same thinking in better words, say that plainly. It is useful information and not a failure.
+
+If they decline or cannot find it, grade the current answer alone and say nothing further about the comparison. Never invent what their earlier answer contained.
+
+Justify the score in 100 to 180 words, quoting the student's own words for the move that determined the score. Short paragraphs. No lists. Do not over-validate; avoid generic praise (great answer, excellent, well done).
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/U2 - Three People Agreeing - PQ]]
