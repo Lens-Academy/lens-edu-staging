@@ -9,11 +9,13 @@ summary_for_tutor: "An exercise page (no reading): two discussion-group exercise
 content::
 Two exercises on the measurement readings (Epoch ECI and METR time horizons). Bring your answers to the meeting.
 
-#### Question
+#### Question: Open
 id:: b6a57f4a-4a21-4ec9-8032-d34d605789ee
 content:: What seem to be the main methodological differences between Epoch's ECI and METR's time horizon? Which one would you rather extrapolate to understand capabilities progress or AI R&D progress, and why?
 assessment-instructions:: A good answer contrasts the approaches (ECI: composite latent scale over many benchmarks; time horizon: task-length humans need vs AI 50% success rate, anchored to human labor time) and gives a reasoned preference tied to a purpose (e.g. time horizon maps more directly onto automation of R&D labor; ECI is broader but less interpretable). Reward understanding of each metric's failure modes.
 max-words:: 250
+force-feedback:: first
+feedback-instructions:: Name the strongest part of the learner's answer, then the most important thing it missed or got wrong, judging only by what the question asks. If nothing is missing, confirm that and stop. Two to four sentences. No generic praise.
 
 #### Question
 id:: e9900a42-b81f-4911-916b-36e7e813ecef
