@@ -19,7 +19,7 @@ source:: [[../articles/1-gradual-disempowerment-systemic-existential-risks-from-
 from:: This paper examines the systemic risks posed by incremental advancements in artificial intelligence
 to:: In addition to leading to misalignment in independent systems, there will be progressively stronger incentives to use influence in any one system to acquire influence in other systems.
 
-#### Question
+#### Question: Open
 id:: 3a4bfda1-a774-4593-8100-bd6211302ea2
 content::
 \## Phase 1: Recall
@@ -29,6 +29,7 @@ Without looking back: what is the mechanism, and what are the three systems it o
 Then: what does the paper say happens when you consider the three together that does not happen when you consider each alone?
 
 
+force-feedback:: first
 feedback-instructions:: The student has read Kulveit et al.'s "Gradual Disempowerment" and previously read Christiano's "What failure looks like".
 
 Key content:
@@ -56,7 +57,7 @@ What to do in your single reply:
 
 One-turn response. Tell them to move on.
 
-#### Question
+#### Question: Open
 id:: 4f58e5dc-7c89-433f-9ae3-e46747301fc6
 content::
 \## Phase 2: Processing
@@ -66,6 +67,7 @@ Two readings now, both describing catastrophe with nobody at fault.
 Which of the two do you find more plausible, and what is the actual source of the difference in your reaction? Is it the mechanism, or is it something about how the story is told?
 
 
+force-feedback:: first
 feedback-instructions:: A processing phase comparing two structural-failure accounts. Help the student articulate what is driving their reaction. Do not adjudicate which reading is correct.
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
