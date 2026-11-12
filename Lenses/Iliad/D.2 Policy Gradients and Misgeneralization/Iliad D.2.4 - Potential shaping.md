@@ -5,8 +5,8 @@ authors:
   - David Quarel (ARENA), based on work by Matthew Farrugia-Roberts (University of Oxford)
 source_url: https://iliad-intensive.org/agency/policy-gradients-misgeneralization/
 upstream_key: "policy-gradients-misgeneralization#potential-shaping"
-upstream_fingerprint: "kfj1XaDkAnOZuyUv12/610/1/09Gu0L0A0Oqv0QMw0oSZ1Kt71O5e1ha527De2afw2wrn34q13XFo3dt84Gnk4lIC4or84vB658vq5DQ35JLR5aQA61IZ65756EZm6FrZ6tir7QYG7nbF7t3C7u1P7u7B"
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_fingerprint: "kfj1XaDkAnOZuyUv12/612/1/09Gu0L0A0Oqv0QMw0oSZ1O5e1ha527De2afw2wrn34q13XFo3dt84Gnk4lIC4or84vB658vq5DQ35JLR5aQA61IZ657565S36EZm6FrZ6tir7QYG7nbF7t3C7u1P7u7B"
+upstream_commit: 'b3705a24ca68b39382cc58057547aedf830657ff'
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/agency/policy-gradients-misgeneralization/#potential-shaping"
@@ -16,7 +16,7 @@ synced_from:
 content::
 \### Potential shaping
 
-The notebook shapes the reward with a potential function. These exercises show this cannot change the optimal policy.
+The ARENA material shapes the reward with a potential function. These exercises show this cannot change the optimal policy.
 
 :::callout {title="Definition" tone="blue"}
 
@@ -123,7 +123,7 @@ $$
 
 :::callout {title="Exercise" tone="amber"}
 
-**Exercise 5.** In the notebook, $$\Phi = 0.5$$ while holding a shard and $$0$$ otherwise. What shaping bonus does picking up a shard and dropping it again earn? What if we instead paid $$+0.5$$ per `PICKUP`?
+**Exercise 5.** In the ARENA material, $$\Phi = 0.5$$ while holding a shard and $$0$$ otherwise. What shaping bonus does picking up a shard and dropping it again earn? What if we instead paid $$+0.5$$ per `PICKUP`?
 
 :::
 

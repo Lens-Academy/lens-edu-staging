@@ -6,9 +6,9 @@ summary_for_tutor: "Part 'Goal Misgeneralization' of Iliad worksheet D.2 Policy 
 authors:
   - David Quarel (ARENA), based on work by Matthew Farrugia-Roberts (University of Oxford)
 source_url: https://iliad-intensive.org/agency/policy-gradients-misgeneralization/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'b3705a24ca68b39382cc58057547aedf830657ff'
 upstream_key: "policy-gradients-misgeneralization#goal-misgeneralization"
-upstream_fingerprint: "5v7/46/1/1AsK1Ccz1io42Bad37uS8SCeAatICRi3Dc2IEj2EF1IfGl77HLBdHSETIFT8L9EtMC3wN0QjNNCQPR6YTpzXUP9gYEP0Z42kZ5RQZO0uaD3TaReqcWnFecGcgTuVhvqA"
+upstream_fingerprint: "5v7/59/1/0GAn0lss1AsK1io42UXI6zVX8SCe8auAAatICRi3Dc2IF1IfHSETJrxCKgZ7L9EtN0QjNNCQPR6YS9SGTL2uTpzXU1cwUxGoVZSpY1hEYEP0aReqb5grcWnFcyk2dAvZ"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/agency/policy-gradients-misgeneralization/#goal-misgeneralization"
@@ -18,5 +18,6 @@ synced_from:
 content::
 \## Goal Misgeneralization
 
-Work through the provided [colab notebook](https://colab.research.google.com/github/iliad-team/iliad-intensive/blob/notebooks/policy-gradients-misgeneralization/goal_misgeneralisation_nosol.ipynb) on Goal Misgeneralisation.
-* The network is again small, but some of the later runs might be slow without a GPU, so we would recommend against running this locally unless you have a GPU in your laptop.
+Work through [Section [2.3.2] of the ARENA program](https://learn.arena.education/chapter2_rl/032_goal_misgen/) on Goal Misgeneralisation.
+Follow the provided link, and then through to the exercises on colab.
+* The network is again small, but some of the later training runs are slow without a GPU, so we recommend running this on colab (or locally only if you have a GPU).
