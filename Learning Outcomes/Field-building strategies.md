@@ -18,8 +18,8 @@ eval-results:
 id:: 814cb88a-ce26-4b1e-9d05-0fc5dadeea70
 #### Question: Open
 id:: ce1aec44-573f-476a-8120-3e090bd66e2a
-feedback:: true
-content:: According to the 2026 talent-needs evidence, how has the binding constraint on the AI safety field changed, and what does that imply field-building organizations should do differently?
+{--{"author":"James agent ready-87's AI","timestamp":1794489273547}@@feedback:: true
+--}content:: According to the 2026 talent-needs evidence, how has the binding constraint on the AI safety field changed, and what does that imply field-building organizations should do differently?
 assessment-instructions:: A strong answer states the shift: the binding constraint moved from junior-talent *supply* to **absorptive / mentorship capacity** — the field can produce juniors faster than organizations can mentor, manage, and employ them. Implications: prioritize senior/experienced hires, build management and mentorship capacity, and support organizations that can absorb talent, rather than pouring more into top-of-funnel intro pipelines. Award 4-5 for the shift plus at least one concrete implication; 3 for the shift with vague implications; 1-2 if it still frames "more juniors" as the need or misstates the constraint. Accept paraphrase.
 max-words:: 100
 #### Question

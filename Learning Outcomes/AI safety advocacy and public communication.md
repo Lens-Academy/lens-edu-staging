@@ -14,7 +14,7 @@ eval-results:
 ---
 ## Test:
 id:: 821efa8f-6625-4c92-a461-c2e225cfb59a
-#### Question
+#### Question: Open
 id:: ac50af95-3801-420b-b3b9-4317f4efbcc8
 feedback:: true
 content:: Explain the "inside game vs outside game" distinction in AI safety influence, and summarize the case for the outside game (public advocacy).
