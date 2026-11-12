@@ -31,7 +31,7 @@ to:: Read the [full paper at this link]
 #### Article
 source:: [[../articles/hobbhahn-frontier-models-are-capable-of-in-context-scheming]]
 
-#### Question
+#### Question: Open
 id:: 9db48ec2-c755-4c12-b245-0cedde20371d
 content::
 \## Phase 1: Recall
@@ -41,6 +41,7 @@ Without looking back at either paper, write down what they found. Include whatev
 Then, beside each, your own prediction for the same quantity.
 
 
+force-feedback:: first
 feedback-instructions:: The student has just read the alignment-faking paper and the in-context-scheming paper, having previously written down numeric predictions for several of the reported quantities. They have now written a free recall alongside their predictions.
 
 Key findings the recall should touch:
