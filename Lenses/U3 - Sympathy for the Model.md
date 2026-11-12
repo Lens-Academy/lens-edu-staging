@@ -26,7 +26,7 @@ Read the second one asking how it connects to the experiments you studied earlie
 #### Article
 source:: [[../articles/bostock-sympathy-for-the-model-or-welfare-concerns-as-takeover-risk]]
 
-#### Question
+#### Question: Open
 id:: d97dff03-e527-4aa7-9166-cec1707dc4b0
 content::
 \## Phase 1: Recall
@@ -36,6 +36,7 @@ Without looking back: what does Carlsmith say the stakes are, and what specifica
 Then J Bostock's argument: what are the four requests, and what does honoring each one cost?
 
 
+force-feedback:: first
 feedback-instructions:: The student has read Carlsmith on the stakes of AI moral status and J Bostock on welfare concerns as takeover risk. They have already worked through alignment faking and in-context scheming earlier in this unit.
 
 Key content, Carlsmith:
