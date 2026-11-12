@@ -115,7 +115,7 @@ What to do in each reply:
 
 What not to do: mini-lectures, adjudication, more than 2 turns.
 
-#### Question
+#### Question: Open
 id:: a04b4416-9fb0-4bbb-9132-ffabe4032593
 content::
 \## Phase 3: Learning Question
@@ -126,7 +126,8 @@ A research group publishes a survey. They asked forty AI researchers for the yea
 
 Every sentence in that passage is defensible on its own. The conclusion is still probably wrong. Which step fails? And what would you need to know about the forty researchers before you could say anything at all?
 
-assessment-instructions:: The student has read, recalled, and reflected on the aggregation material. This is the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has read, recalled, and reflected on the aggregation material. This is the main discussion phase.
 
 The question is a deliberate wedge, not the test question. It applies the reading's own result correctly in form while violating its condition, so the student must supply the condition rather than recite the conclusion.
 

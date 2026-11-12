@@ -14,9 +14,9 @@ eval-results:
 ---
 ## Test:
 id:: 152f865d-ecb9-4374-a959-d696c0039648
-#### Question
-id:: 08a1a373-cdc4-4894-8fdc-960f4490b662
-feedback:: true
+#### {--{"author":"James agent ready-87's AI","timestamp":1794489621246}@@Question--}{++{"author":"James agent ready-87's AI","timestamp":1794489621246}@@Question: Open++}
+id:: 08a1a373-cdc4-4894-8fdc-960f4490b662{--{"author":"James agent ready-87's AI","timestamp":1794489621246}@@
+feedback:: true--}
 content:: What is the core bet behind "BCI-type" AI safety solutions? State the bottleneck it targets and how it differs from plans that work on the AI itself.
 assessment-instructions:: A strong answer identifies the bet: a central AI-safety bottleneck is the human-AI capability and bandwidth gap (humans think/communicate slowly, tire, coordinate badly, give low-bandwidth feedback), so as AI outpaces us we lose the ability to supervise, specify values, and stay in control. BCI-type solutions therefore change the HUMAN side of the equation — enhance, merge, emulate, or better-interface humans — rather than only constraining or aligning external AI. Award 4-5 for the capability/bandwidth-gap bottleneck plus the human-side-vs-AI-side contrast; 3 if one is vague; 1-2 if it just lists technologies with no theory of change. Accept paraphrase.
 max-words:: 100
