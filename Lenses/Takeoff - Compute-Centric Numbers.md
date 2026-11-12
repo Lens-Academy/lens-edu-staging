@@ -28,7 +28,7 @@ This one does something different, and to our eye more useful: it replaces "when
 #### Article
 source:: [[../articles/cotra-six-milestones-for-ai-automation]]
 
-#### Question
+#### Question: Open
 id:: 20718618-28ec-46b3-a3a4-f699048bac1c
 content::
 \## Find the load-bearing parameter

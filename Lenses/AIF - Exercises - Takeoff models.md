@@ -17,10 +17,11 @@ max-words:: 200
 force-feedback:: first
 feedback-instructions:: Name the strongest part of the learner's answer, then the most important thing it missed or got wrong, judging only by what the question asks. If nothing is missing, confirm that and stop. Two to four sentences. No generic praise.
 
-#### Question
+#### {--{"author":"James agent ready-87's AI","timestamp":1794489544420}@@Question--}{++{"author":"James agent ready-87's AI","timestamp":1794489544420}@@Question: Open++}
 id:: bb955d0d-d9c0-4ce6-9310-9cdf142da650
 content:: Open the AI Futures Project web app (linked from the article) and set the parameters to your own best guesses. What median takeoff forecast do you get, and which parameter moved your result the most? Any reflections on the model itself?
-assessment-instructions:: A good answer reports a concrete median forecast from playing with the app, names the parameter(s) they changed and the direction of effect, and offers at least one thoughtful reflection on the model's structure or limitations. Don't grade the forecast value itself; grade engagement and understanding of parameter sensitivity.
+{--{"author":"James agent ready-87's AI","timestamp":1794489544420}@@assessment-instructions::--}{++{"author":"James agent ready-87's AI","timestamp":1794489544420}@@force-feedback:: first
+feedback-instructions::++} A good answer reports a concrete median forecast from playing with the app, names the parameter(s) they changed and the direction of effect, and offers at least one thoughtful reflection on the model's structure or limitations. Don't grade the forecast value itself; grade engagement and understanding of parameter sensitivity.
 max-words:: 200
 
 #### Chat

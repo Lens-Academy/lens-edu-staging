@@ -31,12 +31,13 @@ content::
 #### Article
 source:: [[../articles/greenblatt-full-automation-of-ai-rd-probably-yields-a-large-speed-up-even-without-a-software-only-singularity]]
 
-#### Question
+#### Question: Open
 id:: b9f184e8-5239-4d5a-8cd7-177ed6287f57
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the three readings, without looking back. Arguments, mechanisms, numbers, disagreements. No need to organize it. Speech to text is recommended.
 
+force-feedback:: first
 feedback-instructions:: The student has just read Christiano's "Takeoff speeds," Grace's "Superintelligence 6: Intelligence explosion kinetics," and Greenblatt's "Full automation of AI R&D probably yields a large speedup even without a software-only singularity," and written a free recall.
 
 Key content:
