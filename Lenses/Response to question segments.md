@@ -7,6 +7,7 @@ summary_for_tutor: 'Reference page for course creators. It documents shared fiel
 ---
 
 %% A Response to question segment is an interactive field that collects one learner response. Same syntax works in surveys, normal lenses, and Learning Outcome tests. Context determines grading.
+Always write the type: a bare `#### Question` is legacy syntax and must not be written in new or edited content.
 
 Every question segment needs an `id::` and a `content::` field. The editor creates a globally unique UUID for you. If you write a file by hand, get one from https://www.uuidgenerator.net/version4 (plain-text API: https://www.uuidgenerator.net/api/version4). Responses are stored under this id, so never change it after learners have responded. There is no separate `key::` field.
 
