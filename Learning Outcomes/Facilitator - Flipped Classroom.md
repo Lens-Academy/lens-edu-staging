@@ -18,7 +18,7 @@ eval-results:
 ## Test:
 id:: a9fe0f34-2a9a-468b-b9d4-1825138d8470
 
-#### Question
+#### Question: Open
 id:: d7a4aa32-5874-4d30-a973-f4a398fa9fac
 content:: The format you'll be facilitating is almost always a *flipped classroom*: participants do the readings/videos on their own; the session itself is for discussion, application, and working with the material together. This shifts the facilitator's job dramatically — from delivering content to running cognitive work.
 

@@ -56,7 +56,7 @@ Strict behavioral rules:
 - Natural length is 12-20 exchanges. End the way this lunch would actually end.
 assessment-instructions:: Debrief out of character, 120-200 words. Report, concretely: (1) roughly how their statements-to-questions ratio ran, (2) which of Dana's three layers they reached — training annoyance, skill worry, her son — and name the move that unlocked the deepest one they got (quote their words back), (3) the moment they most nearly lost her — a correction, a pitch, a missed aside — and what a listening move would have looked like there, verbatim. If they took the correction-bait, say so plainly and name what Dana's wrong claim was protecting (her feelings, not a factual position). If they earned the "what do you actually think?" question, point out that everything they got to say was said with permission — that's the whole model working. Do not re-litigate AI facts. No generic praise. Close by sending them to the reflection question below.
 
-#### Question
+#### {--{"author":"James agent ready-87's AI","timestamp":1794489562345}@@Question--}{++{"author":"James agent ready-87's AI","timestamp":1794489562345}@@Question: Open++}
 id:: 90590052-94a0-438a-850e-86b0ff30756e
 content::
 \## What did you learn about Dana?
@@ -64,6 +64,7 @@ Two minutes, from memory of the conversation:
 - What does Dana actually care about most? (Not "AI" — the thing under it.)
 - Next time you see her, what's one sentence you could open with that shows her you heard her?
 
-assessment-instructions:: The student just finished the Dana roleplay and is extracting the reconnaissance: what she protects and how to reopen the channel. One turn, 60-120 words, no lists, no generic praise.
+{--{"author":"James agent ready-87's AI","timestamp":1794489562345}@@assessment-instructions::--}{++{"author":"James agent ready-87's AI","timestamp":1794489562345}@@force-feedback:: first
+feedback-instructions::++} The student just finished the Dana roleplay and is extracting the reconnaissance: what she protects and how to reopen the channel. One turn, 60-120 words, no lists, no generic praise.
 
 If they name a surface fact ("she doesn't like the training") when they reached deeper layers, point at the deeper material they heard and ask nothing — just name it. If they reached the son layer and named it, confirm that what she protects is her ability to guide her kid, and note that their reopening line should touch that, not AI. Judge their proposed opening sentence by one bar: does it prove listening ("Did you and your son end up having that talk about majors?") or does it restart a pitch ("I found an article you should read")? If it's a pitch, rewrite it for them in one sentence. Close by telling them the module test is next.
