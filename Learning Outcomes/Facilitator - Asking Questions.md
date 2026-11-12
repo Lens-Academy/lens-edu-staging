@@ -18,7 +18,7 @@ eval-results:
 ## Test:
 id:: fa91d02a-f35c-4df8-8da7-7e226f538bdf
 
-#### Question
+#### Question: Open
 id:: a7d8f44d-77ed-4f95-95b9-8874d6b3b1fe
 content:: Most facilitators ask weak questions by default ("any thoughts?", "what did you think?") and get weak answers in return. Three frameworks improve this dramatically: **PPPB** (Pose, Pause, Pounce, Bounce), **ABC** (Agree, Build, Challenge), and **EEAA** (Engage, Evaluate, Apply, Adapt).
 

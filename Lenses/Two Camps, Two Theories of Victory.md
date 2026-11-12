@@ -26,14 +26,15 @@ to:: ::note[Many of the talk's slides were added to this article as pictures but
 from:: ## ToVs in AI Safety
 to:: The accompanying meme asks: “Whose alignment are we automating?”
 
-#### Question
+#### Question: Open
 id:: 9f7f83f6-b1de-400c-8c49-6a2f5ba3e2a8
 content::
 Reconstruct the strongest version of Camp 1's theory of victory as a causal chain, from present-day action to an acceptable outcome.
 
 Which three assumptions are most load-bearing? For each, say whether Hausenloy presents it as the camp's explicit claim, an implicit premise, or his own criticism.
 
-assessment-instructions:: The student has read Hausenloy's account of Camp 1: the United States or a responsible lab maintains the lead; alignment is engineering-shaped and improves iteratively; control, evaluations, and warning shots provide useful feedback; near-frontier AI accelerates alignment research; and responsible institutions pause or deploy safely.
+force-feedback:: first
+feedback-instructions:: The student has read Hausenloy's account of Camp 1: the United States or a responsible lab maintains the lead; alignment is engineering-shaped and improves iteratively; control, evaluations, and warning shots provide useful feedback; near-frontier AI accelerates alignment research; and responsible institutions pause or deploy safely.
 
 Help the student steelman the causal chain before criticizing it. A good reconstruction distinguishes:
 - What proponents explicitly claim.

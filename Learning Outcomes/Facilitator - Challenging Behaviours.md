@@ -16,7 +16,7 @@ eval-results:
 ## Test:
 id:: 4426fe76-43ec-436e-854c-f67fe84430c3
 
-#### Question
+#### Question: Open
 id:: 06847023-e364-4305-a0ae-047fe54d6899
 content:: Some hard moments are about specific behaviours, not your slips. The five most common: the dominator (3× anyone else), the cynic (every idea gets shot down), the off-topic-er (keeps pulling threads away), the personal sharer (too much emotional content), the grandstander (long impressive statements that don't engage).
 
