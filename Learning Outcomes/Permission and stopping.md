@@ -20,7 +20,7 @@ eval-results:
 
 ## Test:
 id:: 27749ecb-d544-40fd-be2a-35b23366f2f4
-#### Question
+#### Question: Open
 id:: b5b05247-52f4-48d3-8188-0facd750f1a2
 content:: Two moments from one conversation.
 

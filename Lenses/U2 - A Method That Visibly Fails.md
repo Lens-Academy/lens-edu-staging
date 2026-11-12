@@ -114,7 +114,7 @@ What to do in each reply:
 
 What not to do: mini-lectures, adjudication, more than 2 turns.
 
-#### Question
+#### Question: Open
 id:: f380b4b4-35c5-4e4e-95ef-4907bf9f35db
 content::
 \## Phase 3: Learning Question
@@ -125,7 +125,8 @@ Someone who read the same piece draws the following lesson:
 
 This answer is wrong, and the way it is wrong is worth studying. Two questions. First, changing the curve does not repair the original method. So what is the actual defect? Second, suppose you did fit an exponential and it gave you a comfortable answer. What would that comfortable answer be evidence of?
 
-assessment-instructions:: The student has read, recalled, and reflected on Xu and Shulman. This is the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has read, recalled, and reflected on Xu and Shulman. This is the main discussion phase.
 
 The question is a deliberate wedge, not the test question. It offers a plausible fix (use a better curve) that leaves the real defect untouched.
 
