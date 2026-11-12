@@ -33,7 +33,7 @@ assessment-instructions:: Score the answer from 1 to 5. This is an introductory 
 
 Do not require the learner's wording to match the examples. Accept “local impact pathway” or similar language for a theory of change.
 
-#### Question
+#### Question: Open
 id:: 194f6c81-fae6-4adc-87f6-2adc1ab2208f
 content:: Suppose an AI safety organization says: “We produce better evaluations of dangerous AI capabilities, which gives policymakers better information.” Is that already a complete theory of victory? Briefly explain what would still be missing.
 
