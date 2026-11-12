@@ -16,7 +16,7 @@ eval-results:
 ## Test:
 id:: 3c9bc24a-934b-4de7-9571-f5815ebdfa70
 
-#### Question
+#### Question: Open
 id:: 27d8200b-c3a6-4c99-a102-94abab1599e8
 content:: Roger Schwarz contrasts two mindsets a facilitator can operate from: **mutual learning** (transparency, curiosity, informed choice, accountability, compassion) and **unilateral control** ("I know what should happen here; my job is to make it happen"). Most of us default to unilateral control under pressure — and pressure shows up reliably in facilitation.
 
