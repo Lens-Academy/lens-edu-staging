@@ -37,13 +37,14 @@ Notice what all three have in common. Each one converts a question about the fut
 #### Article
 source:: [[../articles/xu-shulman-fractional-progress-estimates]]
 
-#### Question
+#### Question: Open
 id:: 5547f1ec-e6a6-4cae-b179-4690caea984e
 content::
 \## Phase 1: Recall
 
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it.
 
+force-feedback:: first
 feedback-instructions:: The student has just read Xu and Shulman on fractional progress estimates and written a free recall.
 
 Key content:
@@ -73,13 +74,14 @@ What to do in your single reply:
 
 This is a one-turn response. Do not ask a question. Tell them to move on.
 
-#### Question
+#### Question: Open
 id:: e07af7a2-2411-4981-ad69-64afde476d1b
 content::
 \## Phase 2: Processing
 
 Take 2 minutes to write down your reaction to the reading. What felt important to you? What confused you? What did you doubt or disagree with?
 
+force-feedback:: first
 feedback-instructions:: The student has recalled the Xu and Shulman reading and is now reflecting.
 
 This is a processing phase, not a teaching phase.
