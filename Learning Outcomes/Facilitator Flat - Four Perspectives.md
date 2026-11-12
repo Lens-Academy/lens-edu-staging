@@ -16,7 +16,7 @@ eval-results:
 ## Test:
 id:: b6d2dd87-4d95-4346-9e4a-bbec32aa64b7
 
-#### Question
+#### Question: Open
 id:: e293bf89-4ce9-4c2b-b813-6f0b1846e82b
 content:: While a session is running, you're tracking four things at once: self (am I clear, regulated?), individual (what does the speaker need?), group (energy, who hasn't spoken?), context (where are we in the arc?). Rookie facilitators almost always neglect one or two — most commonly self or context.
 
