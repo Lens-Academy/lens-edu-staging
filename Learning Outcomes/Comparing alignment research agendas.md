@@ -17,13 +17,13 @@ eval-results:
 ## Test:
 id:: be1e845f-9faf-4508-b07e-83fb829c5a71
 
-#### Question
+#### Question: Open
 id:: 7c28b3b0-ee1f-426c-8caf-a15ce6c25bc0
 content:: List the concepts from this module that seemed most important to you. You can type your answer or record it using the microphone.
 assessment-instructions:: Score out of 100. The question asks the learner to list the concepts from the module that seemed most important to them, so any honest selection is acceptable. The module covered: research agendas and theories of change; using AI to automate alignment research and its difficulties; mechanistic interpretability and its limits; AI evaluations and what they can and cannot show; AI control; agent foundations; and calls to pause or stop frontier AI development. 100: names at least two concepts from this module. 60: names one. 0: names nothing from the module.
 enforce-voice:: true
 
-#### Question
+#### Question: Open
 id:: fd1cab0a-5b3e-403f-8f19-e8c73ec31294
 content:: Explain each of these terms in one sentence, in your own words: agenda, theory of change.
 assessment-instructions:: Check that the student gives (1) agenda as a coherent research direction or prioritized plan of work aimed at a problem, not just a vague topic, and (2) theory of change as a causal story linking actions to outcomes: problem, mechanism, assumptions, and how/why it could work. Penalize circular definitions and purely motivational slogans.
