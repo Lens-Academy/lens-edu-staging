@@ -61,11 +61,11 @@ Everything at once: a lens minimum of 1 message, a chat box, a required question
 instructions::
 Keep replies to one short sentence.
 
-#### Question
+#### Question: Open
 id:: 724c3410-7bd9-4f4b-abb2-d93652bb9c2a
 content:: Required: what is one thing you learned today?
 
-#### Question
+#### Question: Open
 id:: 33959573-ef6a-4cb7-9c7f-54e722f2f47f
 optional:: true
 content:: Optional: anything else on your mind?
