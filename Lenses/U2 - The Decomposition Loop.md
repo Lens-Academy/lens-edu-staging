@@ -103,7 +103,7 @@ What not to do:
 - Adjudicate their skepticism.
 - Let this run more than 2 tutor turns.
 
-#### Question
+#### Question: Open
 id:: e58b7e19-d70b-4938-afbd-d5beda28ca4b
 content::
 \## Phase 3: Learning Question
@@ -114,7 +114,8 @@ A colleague reads the same piece and writes up her method. She says:
 
 She has followed every step in order. Her decomposition will still not help her. What has she actually done? And what would a decomposition that does help look like?
 
-assessment-instructions:: The student has read Kokotajlo's Good Judgment Project summary, recalled it, and reflected on it. They are now in the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has read Kokotajlo's Good Judgment Project summary, recalled it, and reflected on it. They are now in the main discussion phase.
 
 The question is a deliberate wedge. It is not the test question. It hands the student a decomposition that satisfies the letter of the five-step loop while failing at its purpose, so the outcome gets drawn out rather than recited.
 

@@ -33,13 +33,13 @@ content:: What is the main thing you are missing right now in order to decide ho
 assessment-instructions:: Check that the student (1) names a specific missing piece, such as information, a skill, time, money, a contact, or clarity about their own priorities, rather than leaving the question open, and (2) connects it to their own decision about engaging further. Award 100 for one concrete gap that is specific to this student; 70 to 90 for a real but broadly stated gap; 40 to 60 when the answer only restates the question or stays entirely generic; 0 to 20 only for an empty or off topic answer. "Nothing is missing, I already know what I want to do" earns full marks when the student says what that is. Do not judge how large, small, or worthy the named gap is, and do not penalize a student for saying they do not plan to engage further.
 enforce-voice:: true
 
-#### Question
+#### Question: Open
 id:: 3a63efe8-08c1-41ec-a97c-9b0adc323ee9
 content:: What would be a reasonable next step for you after this course to address that missing piece?
 assessment-instructions:: This asks for the concrete action that follows from the gap named in the previous question. Check that the student (1) names an action rather than an intention, so "read this report", "email this person", or "apply to this program" rather than "learn more", (2) describes something they could plausibly start soon, and (3) links it to the gap they identified. Award 100 for a specific, plausible step that addresses the stated gap; 70 to 90 for a specific step whose link to the gap is loose; 40 to 60 when the action is so vague that the student could not tell whether they had done it; 0 to 20 only for an empty or off topic answer. Do not judge the ambition of the step: a small realistic step scores as well as a large one.
 enforce-voice:: true
 
-#### Question
+#### Question: Open
 id:: 89312514-cb26-4dd9-8c94-ab31ae1675f0
 content:: What did you take away from this course for yourself?
 assessment-instructions:: Check that the student (1) names at least one specific thing from the course, such as an idea, argument, reading, exercise, or conversation, rather than giving a general verdict on the course, and (2) says what it changed or confirmed for them personally. Award 100 when something identifiable from the course is tied to a personal takeaway; 70 to 90 when a specific takeaway is named but the personal link is thin; 40 to 60 for a generic reaction such as "it was interesting" or "I learned a lot" with nothing identifiable from the course; 0 to 20 only for an empty or off topic answer. A takeaway that is critical of the course, or that reports the student moving away from the positions the material argued for, earns full marks when it is specific. Grade specificity and honesty, not satisfaction or agreement.
