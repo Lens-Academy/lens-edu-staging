@@ -6,7 +6,7 @@ summary_for_tutor: "Pre-reading test for the core-difficulty strand. The student
 tags:
   - pre-test
 ---
-#### Question
+#### Question: Open
 id:: a96548b4-8f89-4ff2-9d0a-f38f5ca75220
 content::
 \## Before the readings
@@ -21,7 +21,8 @@ Answer these three from wherever you currently are. Do not look anything up, and
 
 **3.** Someone claims to have solved it. Describe what they would have to show you. Be concrete: what is the demonstration, and what would you check?
 
-assessment-instructions:: This is a pre-test taken BEFORE the student reads Soares on the sharp left turn or Wentworth on the pointers problem. Its purpose is to capture their untutored position so it can be compared afterwards.
+force-feedback:: first
+feedback-instructions:: This is a pre-test taken BEFORE the student reads Soares on the sharp left turn or Wentworth on the pointers problem. Its purpose is to capture their untutored position so it can be compared afterwards.
 
 Do not preview either reading. Do not name either author, or use the terms "sharp left turn", "pointers problem", "latent variables", "distributional shift", "generalization", or "specification". If the student produces one of these ideas on their own, reflect it back in their words.
 
