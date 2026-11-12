@@ -7,7 +7,7 @@ authors:
   - Elias+Claude
 ---
 
-#### Question
+#### Question: Open
 id:: df8dd3f2-3fdd-470b-9443-5cf13f287287
 content::
 Suppose the US and China sign an agreement: neither will train an AI model above some capability threshold. A year later, you are the inspector. Your job is to establish whether the other side kept its word.
@@ -15,7 +15,8 @@ Suppose the US and China sign an agreement: neither will train an AI model above
 **What do you go and look at?** Spend two minutes listing whatever comes to mind — places, objects, records, people, signals. Don't organize it, and don't worry about whether it would work.
 
 Then add one line: what is the single thing you'd most want to be able to measure, if measuring it were free?
-assessment-instructions::
+force-feedback:: first
+feedback-instructions::
 The learner is about to read Shavit's "What does it take to catch a Chinchilla?" and has not yet encountered compute monitoring, chip inspection, or proof-of-learning. This is a priming question, not a test.
 
 Response length: 60-100 words. One or two short paragraphs. No lists.
