@@ -49,4 +49,4 @@ It fails only if both items are generic praise ("it was interactive", "it felt m
 
 Do not penalise scepticism anywhere. A hostile, specific answer is the best possible outcome for this test and should pass comfortably.
 
-In the feedback: answer their second point honestly in two or three sentences. Say what we can currently show and what we cannot, and do not invent figures. If they have asked for something we do not yet measure, say that plainly and say it is a fair ask.
+feedback-instructions:: Answer their second point honestly in two or three sentences. Say what we can currently show and what we cannot, and do not invent figures. If they have asked for something we do not yet measure, say that plainly and say it is a fair ask.
