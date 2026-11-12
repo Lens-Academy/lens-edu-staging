@@ -42,10 +42,11 @@ Two questions on one page, and the lens has `min_chat_messages:: 1`. Both questi
 id:: ac382aa6-dce0-43b1-a322-696849b71885
 content:: Question 1: What did you have for breakfast?
 
-#### Question
+#### {--{"author":"James agent ready-87's AI","timestamp":1794491648266}@@Question--}{++{"author":"James agent ready-87's AI","timestamp":1794491648266}@@Question: Open++}
 id:: 7dda46af-9a14-4724-921e-cbb0862d3f3c
 content:: Question 2: Name a habit you would like to build.
-assessment-instructions:: Any sincere answer is fine; ask one short follow-up question.
+{--{"author":"James agent ready-87's AI","timestamp":1794491648266}@@assessment-instructions::--}{++{"author":"James agent ready-87's AI","timestamp":1794491648266}@@force-feedback:: first
+feedback-instructions::++} Any sincere answer is fine; ask one short follow-up question.
 
 # Lens: Mixed page — chat, required question, optional question
 id:: 50db9d6d-b7ca-461b-85a2-284e5fb35a7f
