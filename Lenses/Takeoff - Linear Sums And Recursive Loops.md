@@ -115,6 +115,7 @@ The analyst has correctly identified that self-improvement is the crux. They are
 
 Break the argument. Specifically: construct a world in which AI systems genuinely do AI research, genuinely improve themselves, and there is nonetheless no explosion. What is true in that world? And what does that tell you about what the analyst should have been asking instead of "can they or can't they"?
 
+assessment-instructions:: Score out of 100. 60: describes a world where AI systems do AI research and improve themselves and there is still no explosion, and says what makes that so: each round of improvement makes the next round harder, or returns less than the round before, so the gains shrink and progress levels off or stays steady. An equivalent mechanism earns the same points, for example a part of the process that AI cannot speed up (physical experiments, building chips) limits the whole. 40: says what the analyst should have asked instead of the yes-or-no question: a question of degree about how much each round of self-improvement returns, such as whether the gain per round is growing or shrinking. Give credit for each point whenever the answer shows the idea, in any wording.
 force-feedback:: first
 feedback-instructions:: The student has read Christiano, Grace, and Greenblatt, recalled them, and processed the disagreement. This is the main discussion phase. The question is a deliberate wedge, not the test question: it hands the student a plausible-sounding binary and asks them to break it by constructing the missing case.
 
