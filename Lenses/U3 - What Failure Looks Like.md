@@ -56,7 +56,7 @@ What to do in your single reply:
 
 This is a one-turn response. Tell them to move on.
 
-#### Question
+#### Question: Open
 id:: 81153648-ded0-4066-bbc2-6b6850c51e4c
 content::
 \## Phase 2: Processing
@@ -66,6 +66,7 @@ How did this land against what you expected?
 If the reading matched your pre-test answer, say what you now think you were already relying on that you had not made explicit. If it did not, say where the divergence is: did he include something you ruled out, or rule out something you leaned on?
 
 
+force-feedback:: first
 feedback-instructions:: A processing phase. The student is comparing a reading against a position they committed to before reading it. Help them articulate the comparison; do not resolve it.
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
@@ -85,7 +86,7 @@ Do not pre-empt the learning question. If their reaction maps onto it directly, 
 
 Keep an internal turn counter. After 2 tutor replies, close the phase.
 
-#### Question
+#### Question: Open
 id:: 73e4d263-0461-41c8-9068-d4532fb7caf9
 content::
 \## Phase 3: Learning Question
@@ -99,7 +100,8 @@ The objection sounds reasonable and it is wrong in a specific way. Find it.
 What is it about this particular failure that defeats the correction it assumes?
 
 
-assessment-instructions:: The student has read Christiano and previously built their own no-schemer mechanism. This question is a deliberate wedge, not the test question. It hands them a plausible objection whose flaw is the mechanism they need to articulate.
+force-feedback:: first
+feedback-instructions:: The student has read Christiano and previously built their own no-schemer mechanism. This question is a deliberate wedge, not the test question. It hands them a plausible objection whose flaw is the mechanism they need to articulate.
 
 Learning outcome for this lens: explain how interaction between separately-benign optimizers produces an outcome no part selected, and identify the structural conditions the argument requires.
 
