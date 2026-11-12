@@ -110,7 +110,7 @@ tags:
 ## Test:
 {>>How will we confirm that the student has achieved the learning outcome above?<<}
 id:: <generate another UUID>
-#### Question
+#### Question: Open
 id:: cad2de59-54b9-4636-9041-82276dbb3fe2
 content:: <the test question the student must be able to answer>
 assessment-instructions:: <how the AI scores the answer — a 1–5 rubric with an example answer per level works best>
@@ -129,7 +129,7 @@ source:: [[../Lenses/Another Lens Name]]
 - `learning-outcome`: What the student can do (the outcome you wrote in Step 1)
 - `discussion`: Link to the Discord channel for discussing this topic
 
-**Test section**: How we verify the student achieved the outcome — a `#### Question` the AI tutor poses and scores against your `assessment-instructions::`. Writing the rubric first defines the outcome sharply enough to design the lenses.
+**Test section**: How we verify the student achieved the outcome — a `#### Question: Open` the AI tutor poses and scores against your `assessment-instructions::`. Writing the rubric first defines the outcome sharply enough to design the lenses.
 
 **Suggested Lenses**: Lenses that can teach this outcome, listed under a `# Suggested Lenses:` header using `source:: [[path/to/lens]]`. These are suggestions for course creators only — they are NOT imported automatically. Whichever lenses a module wants to use must be imported explicitly in the module file, before the Learning Outcome. Use `notes::` to record why a lens fits.
 
@@ -201,7 +201,7 @@ Ask what they found surprising or new. Check if they can explain `<key concept>`
 - What to check for understanding
 
 > [!tip] Current best practice for reading lenses
-> The AI Risk Fundamentals course replaces the single Chat with three `#### Question` phases — Recall ("write down everything you remember"), Processing ("how did the reading land?"), and a Learning Question — each with detailed `assessment-instructions::` for the tutor. Open any `IABIED - ...` lens in `Lens Edu/Lenses/` to copy the pattern.
+> The AI Risk Fundamentals course replaces the single Chat with three `#### Question: Open` phases — Recall ("write down everything you remember"), Processing ("how did the reading land?"), and a Learning Question — each with detailed `assessment-instructions::` for the tutor. Open any `IABIED - ...` lens in `Lens Edu/Lenses/` to copy the pattern.
 
 ### Example
 
