@@ -17,10 +17,11 @@ max-words:: 250
 force-feedback:: first
 feedback-instructions:: Name the strongest part of the learner's answer, then the most important thing it missed or got wrong, judging only by what the question asks. If nothing is missing, confirm that and stop. Two to four sentences. No generic praise.
 
-#### Question
+#### {--{"author":"James agent ready-87's AI","timestamp":1794489540726}@@Question--}{++{"author":"James agent ready-87's AI","timestamp":1794489540726}@@Question: Open++}
 id:: e9900a42-b81f-4911-916b-36e7e813ecef
 content:: Are there better measures of capabilities progress or AI R&D progress that you'd prefer? Sketch one, or defend an existing alternative.
-assessment-instructions:: Reward concrete, creative proposals (e.g. uplift studies on real researchers, revenue per AI agent, internal lab acceleration estimates, task-completion in the wild) with awareness of their own limitations. A thoughtful defense of ECI/time-horizon combinations is also fine.
+{--{"author":"James agent ready-87's AI","timestamp":1794489540726}@@assessment-instructions::--}{++{"author":"James agent ready-87's AI","timestamp":1794489540726}@@force-feedback:: first
+feedback-instructions::++} Reward concrete, creative proposals (e.g. uplift studies on real researchers, revenue per AI agent, internal lab acceleration estimates, task-completion in the wild) with awareness of their own limitations. A thoughtful defense of ECI/time-horizon combinations is also fine.
 max-words:: 200
 
 #### Chat
