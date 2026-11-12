@@ -18,7 +18,7 @@ eval-results:
 ---
 ## Test:
 id:: 51520b70-c2a7-43e0-a83a-444e9fb387fc
-#### Question
+#### Question: Open
 id:: 253e82cc-a3bc-40ca-88b3-e51a27b515fa
 content:: Scher and co-authors write a specific agreement: a US–China-led coalition, a FLOP threshold capping training scale, and a ban on research that advances toward superintelligence or that undermines the agreement's own verifiability.
 
