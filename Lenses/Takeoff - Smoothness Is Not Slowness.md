@@ -6,7 +6,7 @@ tldr: '"Slow takeoff" does not mean it takes a long time. It means there is no s
 authors:
   - Claude
 ---
-#### Question
+#### Question: Open
 id:: 73acf4c0-573e-46bf-bb30-882061b3d1b0
 content::
 \## Before you read: two axes or one?
@@ -20,7 +20,8 @@ Answer before reading:
 3. If they are two separate questions, which one do you think people arguing about takeoff actually care about, and which one does the word "slow" sound like it is about?
 
 
-assessment-instructions::
+force-feedback:: first
+feedback-instructions::
 The student is about to read Raemon's "'Slow' takeoff is a terrible term for 'maybe even faster takeoff'" and Rob Bensinger's "Quick Nate/Eliezer comments on discontinuity."
 
 They have just tried to separate the continuity axis from the calendar-duration axis.
