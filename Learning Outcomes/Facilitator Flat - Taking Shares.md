@@ -16,7 +16,7 @@ eval-results:
 ## Test:
 id:: f4e3d0f4-fe00-4870-8250-34edf4cbe492
 
-#### Question
+#### Question: Open
 id:: 2e33cdb6-ab39-4c55-978f-3b2a88c7c8cf
 content:: A participant has just spoken. You have about three seconds to choose what to do next. Most facilitators default to "thank you, anyone else?" There are seven moves available, and the meta-skill is range, not preference.
 
