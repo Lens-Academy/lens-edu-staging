@@ -12,7 +12,7 @@ eval-results:
 ---
 ## Test:
 id:: b37cb37a-c7e6-451c-a4ad-05cc9fa9e43a
-#### Question
+#### Question: Open
 id:: eb92ba8c-6fc0-4bbe-a95a-738fb3836311
 content:: Describe the two-subsystem picture of brain-like AGI (the Learning Subsystem vs the Steering Subsystem) and how they relate as a reinforcement-learning agent.
 assessment-instructions:: A strong answer explains: a from-scratch, cortex-like Learning Subsystem that acquires knowledge and skills through experience, and an innate, genetically-specified Steering Subsystem (brainstem/hypothalamus-like) that supplies the reward/motivation signal; together they form an actor-critic reinforcement learner, with the Steering Subsystem shaping what the Learning Subsystem is motivated toward. Award 4-5 for both subsystems correctly described plus the RL/actor-critic relationship; 3 for both subsystems but a vague relationship; 1-2 if a subsystem is misdescribed (e.g. swapping their roles). Accept paraphrase.
