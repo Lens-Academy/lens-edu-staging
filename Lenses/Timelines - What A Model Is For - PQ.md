@@ -6,7 +6,7 @@ tldr: Producing a number is the easy part. The question worth asking first is wh
 authors:
   - Claude
 ---
-#### Question
+#### Question: Open
 id:: 584a462a-b684-4fc2-88f0-8ae83ab57d1e
 content::
 \## Before you read: make the estimate, then interrogate it
@@ -24,7 +24,8 @@ Here is a setup. Suppose that tomorrow, without any new ideas, algorithms, or in
 Question 3 is the one to spend time on.
 
 
-assessment-instructions::
+force-feedback:: first
+feedback-instructions::
 The student is about to read Daniel Kokotajlo's "Fun with +12 OOMs of Compute" and then Holden Karnofsky's two pieces on biological anchors, the second of which argues the method bounds rather than locates.
 
 They have just produced their own estimate and been asked to classify what kind of estimate it is.

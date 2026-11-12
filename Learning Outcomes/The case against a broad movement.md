@@ -28,9 +28,9 @@ feedback:: true--}
 content:: Elmore argues for public advocacy; Leicht argues against a broad movement. Where exactly do they disagree — and is it a factual disagreement, a values disagreement, or a bet about consequences?
 assessment-instructions:: A strong answer locates the crux: both want good AI-safety policy; they disagree about whether a *broad public movement* is net-positive or net-negative for that goal. It is primarily a bet about consequences / empirical-strategic disagreement (will a movement generate political will, or will it backfire and discredit the cause?), not a fundamental values clash. Credit noting that Leicht favors narrow issue-orgs while Elmore favors mass public advocacy, and that evidence about how movements actually behave (backfire, capture, mobilization) would move the disagreement. Award 4-5 for correctly locating the crux AND classifying it as a consequences/empirical bet; 3 for locating the crux only; 1-2 if it misframes the disagreement. Accept paraphrase.
 max-words:: 120
-#### Question
-id:: 9f43a58b-9849-47e7-951b-bb0e1bd0015e
-feedback:: true
+#### {--{"author":"James agent ready-87's AI","timestamp":1794489692679}@@Question--}{++{"author":"James agent ready-87's AI","timestamp":1794489692679}@@Question: Open++}
+id:: 9f43a58b-9849-47e7-951b-bb0e1bd0015e{--{"author":"James agent ready-87's AI","timestamp":1794489692679}@@
+feedback:: true--}
 content:: Give one concrete mistake the AI safety movement is said to have made, and one lesson it could take from other social movements (e.g. climate, nuclear, animal welfare).
 assessment-instructions:: For the mistake, credit any from the synthesis: insularity/echo-chamber, neglecting policy and coalitions for too long, off-putting extremeness or weirdness, over-concentration in a few orgs/funders, communication missteps. For the cross-movement lesson, credit any reasonable one grounded in the material: insider vs mass-movement trade-offs, coalition-building, avoiding polarization, the role of protest/mobilization (e.g. Social Change Lab's application of movement research). Award 4-5 for a concrete mistake plus a genuine cross-movement lesson; 3 for one strong and one weak; 1-2 if generic or unsupported. Accept paraphrase.
 max-words:: 100

@@ -49,7 +49,7 @@ In your single reply: acknowledge what they captured, name what was missing, cor
 
 Do not re-teach, do not ask follow-up questions, do not invite dialogue. One-turn response. Tell them to move on.
 
-#### Question
+#### Question: Open
 id:: 5ca9c941-fa20-4afc-b5e5-9362698af514
 content::
 \## Phase 2: Processing
@@ -57,6 +57,7 @@ Go back to what you wrote in the previous lens, your answer to "what is my estim
 
 Take 2 minutes: has that answer changed? What did it feel like to read an author dismantle the interpretation of his own model? And is there something unsatisfying about a method that gives you a bound rather than a date? Just capture the reaction.
 
+force-feedback:: first
 feedback-instructions:: The student committed, in the previous lens, to a classification of their own estimate; that lens was built to draw out "this is when it happens", so expect a location. They have now read Karnofsky's method and his correction to it.
 
 This is a processing phase, not a teaching phase. Help them articulate the reaction. Do not resolve it.
