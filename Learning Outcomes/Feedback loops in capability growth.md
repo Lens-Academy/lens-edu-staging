@@ -12,7 +12,7 @@ eval-results:
 ## Test:
 id:: dc99e11b-2967-4cde-9b55-f7ee821c107c
 
-#### Question
+#### Question: Open
 id:: 8eacd6fd-585a-4b88-87cf-8aca687ba3af
 content:: Two research directors describe their labs.
 
