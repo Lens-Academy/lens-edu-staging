@@ -63,7 +63,7 @@ What to do in your single reply:
 
 One-turn response. Tell them to move on.
 
-#### Question
+#### Question: Open
 id:: aff0ff88-5eb8-4a9f-a279-e9dd74435171
 content::
 \## Phase 2: Processing
@@ -73,6 +73,7 @@ Which of the two, on first reading, felt more like the real problem to you?
 Then: is that a judgment about the arguments, or about which one is easier to picture? Soares describes an event. Wentworth describes a condition. Events are easier to imagine.
 
 
+force-feedback:: first
 feedback-instructions:: A processing phase. The student is reporting an intuition and being asked to examine its source. Do not adjudicate which position is correct; neither the field nor this course has settled it.
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
@@ -90,7 +91,7 @@ Branch:
 
 Keep an internal turn counter. After 2 tutor replies, close the phase.
 
-#### Question
+#### Question: Open
 id:: bb934142-3c6c-4cc8-b3fb-ae92b7338e95
 content::
 \## Phase 3: Learning Question
@@ -104,7 +105,8 @@ Which of the two authors would consider this aimed at the right problem, and whi
 Then, the harder half: is there a version of this research program that both authors would agree is worth doing? If yes, describe it. If no, say what makes it impossible.
 
 
-assessment-instructions:: The student has read both positions. This wedge hands them a proposal that is squarely aimed at one author's problem while being close to irrelevant to the other's. It is not the test question.
+force-feedback:: first
+feedback-instructions:: The student has read both positions. This wedge hands them a proposal that is squarely aimed at one author's problem while being close to irrelevant to the other's. It is not the test question.
 
 Learning outcome for this lens: state the disagreement between the two accounts, identify a distinguishing observation, and determine which account a proposed solution implicitly assumes.
 
