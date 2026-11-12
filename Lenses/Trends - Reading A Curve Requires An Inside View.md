@@ -21,7 +21,7 @@ Note the title, and read past it. There is a real argument underneath, and part 
 #### Article
 source:: [[../articles/wyeth-reactions-to-metr-task-length-paper-are-insane]]
 
-#### Question
+#### Question: Open
 id:: b5327ed2-e704-4bc9-8563-a5bc39eaf095
 content::
 \## Name the smuggled premise
@@ -33,7 +33,8 @@ Take any extrapolation of AI capability you have encountered, including one of y
 3. Ask yourself honestly: did you know that mechanism claim was in there? Could you defend it? If you cannot, what should that do to your confidence, and does it push you toward a longer or shorter timeline, or neither?
 4. Wyeth's framing is aggressive. Strip the aggression and state the strongest version of his argument in two sentences. Then say where you think it overreaches, if it does.
 
-assessment-instructions:: Optional deep-dive after the main trend-extrapolation lens. The student chose to be here, so push harder than in the core lenses.
+force-feedback:: first
+feedback-instructions:: Optional deep-dive after the main trend-extrapolation lens. The student chose to be here, so push harder than in the core lenses.
 
 The capability being exercised: recognising that every extrapolation carries an implicit mechanism claim, and that the claim is usually invisible to the person making it.
 

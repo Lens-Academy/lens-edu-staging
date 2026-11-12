@@ -6,7 +6,7 @@ tldr: Everyone arguing about whether progress jumps has a favourite anecdote. So
 authors:
   - Claude
 ---
-#### Question
+#### Question: Open
 id:: c7efdd5f-6fd0-4d89-a0ec-244cdedbe7ba
 content::
 \## Before you read: guess the rate
@@ -23,7 +23,8 @@ Before reading, commit to two numbers.
 Then say in one sentence which of the two numbers you expect to matter more for reasoning about AI.
 
 
-assessment-instructions::
+force-feedback:: first
+feedback-instructions::
 The student is about to read Katja Grace's "Discontinuous progress in history: an update," which finds large robust discontinuities occur at roughly 0.1 percent per trend-year, while on average 14 percent of total progress in a trend came from large robust discontinuities (Grace's wording; 16 percent of logarithmic progress, and 38 percent among trends that have at least one). Grace's exact wording matters here: the 14 percent is a share of total progress, averaged across the trends studied, while the 0.1 percent is a rate per trend-year. Those are different kinds of quantity.
 
 They have just committed to two numbers and a claim about which matters more.
