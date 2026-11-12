@@ -29,7 +29,8 @@ These two arguments reach roughly the same conclusion from almost entirely diffe
 2. Two independent lines of reasoning converging on the same answer is usually treated as strong evidence. Is it here? Consider whether they are genuinely independent, or whether some shared assumption is doing work in both.
 3. Suppose one of them is decisively refuted next year and the other survives untouched. What should happen to your timeline estimate, and why is the answer not simply "move it earlier by half"?
 
-assessment-instructions:: The student has read one or both bear-case arguments as optional material after the main timelines lens. This is an optional deep-dive, so the student is here by choice and can be pushed harder.
+force-feedback:: first
+feedback-instructions:: The student has read one or both bear-case arguments as optional material after the main timelines lens. This is an optional deep-dive, so the student is here by choice and can be pushed harder.
 
 The capability being exercised: distinguishing arguments by their structure rather than their conclusion, and reasoning about the evidential value of convergence.
 

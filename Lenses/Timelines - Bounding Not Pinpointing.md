@@ -20,12 +20,13 @@ This is unusual and worth noticing as you read it: an author whose model was wid
 
 ---
 
-#### Question
+#### Question: Open
 id:: f8bfeaef-1ab2-4d8d-ab6f-ef6a4055c821
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from both readings, without looking back. The mechanics of the method, the assumptions, the correction, the numbers. No need to organize it. Speech to text is recommended.
 
+force-feedback:: first
 feedback-instructions:: The student has just read Karnofsky's two biological-anchors pieces and written a free recall without looking back.
 
 Key content:
