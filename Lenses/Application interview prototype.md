@@ -24,7 +24,7 @@ INTERVIEW GUIDE
 
 **How the conversation goes**
 
-Open with exactly this, or very close to it:
+Open with exactly:
 
 "Hi! I'm an AI whose job is asking you application questions for your Lens Academy course. No such thing as wrong answers, your background and skills; gaps are no problem. We'll use this to group you with students at a similar level. I'll be neutral and try to elicit your path to positive impact. First, what do you want to learn from Lens, and roughly how much time might you spend each week?"
 
