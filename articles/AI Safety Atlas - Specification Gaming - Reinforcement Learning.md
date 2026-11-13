@@ -57,7 +57,7 @@ RL is different from supervised learning as it begins with a high-level descript
 
 ## Core Loop
 
-The overall functioning of RL is relatively straightforward. The two main components are the agent itself, and the environment within which the agent lives and operates. At each time step :
+The overall functioning of RL is relatively straightforward. The two main components are the agent itself, and the environment within which the agent lives and operates. At each time step $t$:
 
 1. The agent then takes some action $a_t$
 2. The environment state $s_t$ changes depending upon the action $a_t$.
@@ -119,7 +119,7 @@ The reward function provides immediate feedback to the agent, indicating the goo
 
 The reward indicates the immediate desirability of states or actions, while a value function represents the long-term desirability of states, taking into account future rewards and states. The value is the expected return if you start in a state or state-action pair, and then act according to a particular policy forever after. 
 
-There are many different ways of choosing value functions. They can also be discounted over time, i.e. future rewards are worth less by some factor .
+There are many different ways of choosing value functions. They can also be discounted over time, i.e. future rewards are worth less by some factor $\gamma$.
 
 Following is one simple formulation is the discounted sum of future rewards given some policy. The cumulative discounted rewards are given by:
 
