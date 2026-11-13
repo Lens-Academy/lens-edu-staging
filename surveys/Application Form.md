@@ -23,7 +23,7 @@ required:: true
 
 #### Question
 key:: linkedin_url
-content:: LinkedIn URL
+content:: LinkedIn URL (or another profile link if you don't have LinkedIn)
 short:: true
 placeholder:: https://www.linkedin.com/in/…
 required:: true
