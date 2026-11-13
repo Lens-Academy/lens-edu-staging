@@ -23,4 +23,6 @@ The earlier strategy-and-ToC version is archived as [[../archived/ToC Accelerato
 
 # Meeting: Week 5
 
+# Module: [[../../modules/ConAc AI Safety Term Groups]]
+optional:: true
 # Meeting: Week 6
