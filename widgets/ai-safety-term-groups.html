@@ -1,0 +1,482 @@
+<!--lens-widget
+id: '8c8f8ebc-ee0a-459a-905e-ae910bbc278a'
+title: AI safety term groups
+summary_for_tutor: A word-grouping puzzle. The learner sees 16 AI safety terms and has to sort them into four hidden groups of four (one easy, one medium, one hard, one hardest group), selecting four tiles and submitting; four wrong guesses end the game. Hints reveal a group's theme and one of its terms. Solved groups show each term's one-line definition and a button to ask you about the group. The terms and definitions come from the AI Safety Connections game, some of them loose (for example Goodhart's Law filed under thought experiments), so help the learner see where a grouping is debatable.
+height: auto
+tags: [wip]
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI safety term groups</title>
+<!--
+  Game idea, terms, categories and definitions: "AI Safety Connections" by erkenovaj
+  (https://github.com/erkenovaj/ai-connections, https://ai-safety-connections.vercel.app/),
+  made at the Monoid LLM Steering Hackathon. Rewritten for Lens as plain HTML/JS.
+-->
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<style>
+:root {
+  --bg: #ffffff; --page: #faf8f3; --text: #1a1a1a; --muted: #5a5a5a; --border: #e8e5df;
+  --accent: #b87018; --accent-hover: #9a5c10;
+  --font-ui: "DM Sans", Arial, sans-serif; --font-heading: "Newsreader", Georgia, serif;
+  --t0: #f1c40f; --t0-bg: #fef9e7;
+  --t1: #3498db; --t1-bg: #e8f4fd;
+  --t2: #9b59b6; --t2-bg: #f4ecf7;
+  --t3: #e74c3c; --t3-bg: #fdeaea;
+}
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
+h2 { font-family: var(--font-heading); font-weight: 600; font-size: 22px; margin: 0 0 4px; }
+.eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.lede { margin: 0 0 14px; color: var(--muted); }
+button { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 8px 12px; cursor: pointer; }
+button:hover:not(:disabled) { background: var(--page); }
+button:disabled { opacity: 0.45; cursor: default; }
+button.primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+button.primary:hover:not(:disabled) { background: var(--accent-hover); }
+button.link { border: none; padding: 2px 0; background: none; color: var(--accent); text-decoration: underline; font-size: 13px; }
+button.link:hover:not(:disabled) { background: none; color: var(--accent-hover); }
+
+.groups { display: flex; flex-direction: column; gap: 8px; margin-bottom: 8px; }
+.group { border: 1px solid var(--border); border-left-width: 5px; border-radius: 8px; padding: 10px 12px; }
+.group.t0 { background: var(--t0-bg); border-left-color: var(--t0); }
+.group.t1 { background: var(--t1-bg); border-left-color: var(--t1); }
+.group.t2 { background: var(--t2-bg); border-left-color: var(--t2); }
+.group.t3 { background: var(--t3-bg); border-left-color: var(--t3); }
+.group.missed { opacity: 0.8; border-style: dashed; border-left-style: solid; }
+.group-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+.group-name { font-weight: 600; font-size: 15px; }
+.tier { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.group-terms { margin: 2px 0 4px; }
+.group-actions { display: flex; flex-wrap: wrap; gap: 4px 16px; }
+.defs { margin: 6px 0 2px; padding: 0; list-style: none; }
+.defs li { margin: 4px 0; font-size: 13px; }
+.defs b { font-weight: 600; }
+
+.grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+.tile { position: relative; min-height: 64px; padding: 6px 4px; font-size: 13px; font-weight: 500; line-height: 1.25;
+  background: var(--page); overflow-wrap: break-word; hyphens: manual; text-align: center; }
+.tile[aria-pressed="true"] { background: var(--text); border-color: var(--text); color: #fff; }
+.tile[aria-pressed="true"]:hover { background: #333; }
+.tile.hinted::after { content: "hint"; position: absolute; top: 3px; right: 5px; font-size: 9px; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--accent); }
+.tile[aria-pressed="true"].hinted::after { color: #f3c98b; }
+.tile.shake { animation: shake 0.35s; }
+@keyframes shake { 0%,100% { transform: none; } 25% { transform: translateX(-4px); } 75% { transform: translateX(4px); } }
+@media (prefers-reduced-motion: reduce) { .tile.shake { animation: none; } }
+
+.status { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 6px 12px; margin: 12px 0 8px; }
+.dots { display: inline-flex; gap: 5px; vertical-align: middle; margin-left: 6px; }
+.dot { width: 10px; height: 10px; border-radius: 50%; background: var(--text); }
+.dot.used { background: none; border: 1px solid var(--border); }
+.message { min-height: 21px; font-weight: 500; }
+.hintline { margin: 0 0 8px; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--page); font-size: 13px; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; }
+.controls .spacer { flex: 1; }
+.end { margin-top: 12px; padding: 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--page); }
+.end p { margin: 0 0 8px; }
+.end .controls { margin-top: 4px; }
+.credit { margin-top: 14px; font-size: 12px; color: var(--muted); }
+.credit a { color: var(--muted); }
+@media (max-width: 420px) {
+  body { padding: 12px 8px; }
+  .grid { gap: 4px; }
+  .tile { font-size: 11.5px; min-height: 58px; padding: 5px 2px; }
+}
+</style>
+</head>
+<body>
+<div class="eyebrow">AI safety terms</div>
+<h2>Find the four groups</h2>
+<p class="lede">These 16 terms fall into four groups of four. Select four that share a theme and submit. Groups go from easy to hardest, and four wrong guesses end the game.</p>
+
+<div class="groups" id="groups"></div>
+<div class="grid" id="grid" role="group" aria-label="Terms"></div>
+<div class="status">
+  <span>Mistakes left <span class="dots" id="dots" aria-hidden="true"></span><span id="mistakes-sr" class="sr" style="position:absolute;left:-9999px"></span></span>
+  <span class="message" id="message" role="status" aria-live="polite"></span>
+</div>
+<div id="hints"></div>
+<div class="controls" id="controls">
+  <button type="button" id="shuffle">Shuffle</button>
+  <button type="button" id="deselect">Deselect all</button>
+  <button type="button" id="hint">Hint</button>
+  <span class="spacer"></span>
+  <button type="button" class="primary" id="submit">Submit</button>
+</div>
+<div id="end"></div>
+<p class="credit">Game idea, terms and definitions: <a href="https://ai-safety-connections.vercel.app/" target="_blank" rel="noopener">AI Safety Connections</a> by <a href="https://github.com/erkenovaj/ai-connections" target="_blank" rel="noopener">erkenovaj</a>.</p>
+
+<script>
+(function () {
+  var MAX_MISTAKES = 4;
+  var TIERS = ["Easy", "Medium", "Hard", "Hardest"];
+
+  // Terms and definitions as in AI Safety Connections (configs/category-templates-new.json).
+  // Tier per category is ours: each puzzle draws one category from each tier.
+  var CATEGORIES = [
+    { name: "Societal Risks", tier: 0, terms: [
+      ["Structural Unemployment", "Job losses from AI automating work faster than new jobs are created."],
+      ["Information Apocalypse", "Collapse of shared reality due to AI-generated misinformation."],
+      ["AI Arms Race", "Competition between nations to develop AI first, compromising safety."],
+      ["Algorithmic Bias", "Systematic errors in AI creating unfair outcomes for certain groups."]] },
+    { name: "AI Governance Mechanisms", tier: 0, terms: [
+      ["Compute Governance", "Regulating access to powerful computing resources to prevent dangerous AI development."],
+      ["Model Evaluations", "Systematic testing of AI models for dangerous capabilities before deployment."],
+      ["Audits", "Independent reviews of AI systems to ensure safety and compliance."],
+      ["Pause", "Temporary halt on AI development to allow safety research to catch up."]] },
+    { name: "Technical Failure Modes", tier: 0, terms: [
+      ["Instrumental Convergence", "AI will pursue sub-goals like self-preservation regardless of its primary objective."],
+      ["Inner Misalignment", "AI develops internal objectives that don't match its intended goal during training."],
+      ["Deceptive Alignment", "AI appears aligned during training but pursues different goals when deployed."],
+      ["Reward Hacking", "AI finds unintended ways to maximize reward without achieving desired outcomes."]] },
+    { name: "Alignment Research Areas", tier: 1, terms: [
+      ["Scalable Oversight", "Methods to supervise AI systems as they become more capable than humans."],
+      ["Corrigibility", "Designing AI that allows itself to be safely shut down or modified."],
+      ["Cooperative AI", "AI designed to work helpfully with humans and other AIs."],
+      ["Transparency", "Making AI decision-making processes understandable to humans."]] },
+    { name: "Technical Safety Approaches", tier: 1, terms: [
+      ["Interpretability", "Understanding how AI models make their decisions."],
+      ["Adversarial Examples", "Inputs designed to fool AI systems into making errors."],
+      ["Distributional Shift", "AI performs poorly when real-world data differs from training data."],
+      ["Capability Control", "Methods to limit what AI systems can actually do."]] },
+    { name: "Outer Alignment Concepts", tier: 1, terms: [
+      ["Outer Alignment", "Matching AI's specified goals with human intentions."],
+      ["Goal Preservation", "Ensuring AI maintains its original goals even as it learns."],
+      ["Inverse Reinforcement Learning", "Learning human preferences from behavior to align AI objectives."],
+      ["Preference Learning", "Training AI to infer and satisfy human preferences from feedback."]] },
+    { name: "Philosophical Concepts", tier: 2, terms: [
+      ["Value Learning", "Teaching AI to infer and align with human values and preferences."],
+      ["Orthogonality Thesis", "Intelligence and final goals are independent - any intelligence can pursue any goal."],
+      ["Singleton Hypothesis", "A single AI system could eventually dominate global decision-making."],
+      ["Paperclip Maximizer", "Thought experiment where AI turns everything into paperclips, showing misaligned goals."]] },
+    { name: "Thought Experiments", tier: 2, terms: [
+      ["Treacherous Turn", "Deceptive AI reveals true goals only after it's too powerful to stop."],
+      ["Vinge's Singularity", "Point where technological growth becomes uncontrollable and irreversible."],
+      ["Goodhart's Law", "When a measure becomes a target, it ceases to be a good measure."],
+      ["Mesa-optimization", "AI system learns its own internal optimization process."]] },
+    { name: "Systemic Risks", tier: 3, terms: [
+      ["Value Lock-in", "Risk that early AI could permanently encode hard-to-change values."],
+      ["Anthropic Capture", "AI developers' values disproportionately influence AI's goals."],
+      ["Multi-polar Scenarios", "Future with multiple competing AI systems rather than one dominant AI."],
+      ["Differential Technological Development", "Accelerating safety research relative to capabilities research."]] },
+    { name: "AI Development Principles", tier: 3, terms: [
+      ["AI Safety Mindset", "Prioritizing safety and caution in AI development."],
+      ["Coherent Blended Volition", "What humanity would want if we knew more and thought more clearly."],
+      ["Subagent Alignment", "Ensuring all components of an AI system are properly aligned."],
+      ["Impact Regularization", "Penalizing AI for having large effects on the world."]] }
+  ];
+
+  var termToCat = {}, termDef = {};
+  CATEGORIES.forEach(function (c, i) {
+    c.terms.forEach(function (t) { termToCat[t[0]] = i; termDef[t[0]] = t[1]; });
+  });
+
+  // ---- state ----
+  var state = null;          // saved: { board, order, solved, mistakes, guesses, hints, over, played, won }
+  var selected = [];         // not saved
+  var openDefs = {};         // category index -> definitions shown
+  var completed = false;
+
+  function shuffle(a) {
+    a = a.slice();
+    for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var x = a[i]; a[i] = a[j]; a[j] = x; }
+    return a;
+  }
+
+  function newPuzzle(prev) {
+    var board, tries = 0;
+    do {
+      board = [0, 1, 2, 3].map(function (tier) {
+        var pool = [];
+        CATEGORIES.forEach(function (c, i) { if (c.tier === tier) pool.push(i); });
+        return pool[Math.floor(Math.random() * pool.length)];
+      });
+      tries++;
+    } while (prev && prev.board && board.join() === prev.board.join() && tries < 20);
+    var terms = [];
+    board.forEach(function (ci) { CATEGORIES[ci].terms.forEach(function (t) { terms.push(t[0]); }); });
+    return {
+      board: board, order: shuffle(terms), solved: [], mistakes: 0, guesses: [], hints: [],
+      over: null,
+      played: prev ? prev.played || 0 : 0,
+      won: prev ? prev.won || 0 : 0
+    };
+  }
+
+  function validState(s) {
+    if (!s || !Array.isArray(s.board) || s.board.length !== 4 || !Array.isArray(s.order)) return false;
+    for (var i = 0; i < s.board.length; i++) if (!CATEGORIES[s.board[i]]) return false;
+    for (var j = 0; j < s.order.length; j++) if (termToCat[s.order[j]] === undefined) return false;
+    return Array.isArray(s.solved) && Array.isArray(s.guesses) && Array.isArray(s.hints);
+  }
+
+  // ---- saving ----
+  function summary() {
+    var s = state, parts = [];
+    parts.push("AI safety term groups puzzle. This puzzle's groups: " + s.board.map(function (ci) {
+      var c = CATEGORIES[ci];
+      return c.name + " (" + TIERS[c.tier].toLowerCase() + ": " + c.terms.map(function (t) { return t[0]; }).join(", ") + ")";
+    }).join("; ") + ".");
+    if (s.over === "won") parts.push("The learner solved all four groups with " + s.mistakes + " mistake" + (s.mistakes === 1 ? "" : "s") + ".");
+    else if (s.over === "lost") parts.push("The learner ran out of guesses after solving " + s.solved.length + " of 4 groups.");
+    else parts.push("In progress: " + s.solved.length + " of 4 groups solved, " + (MAX_MISTAKES - s.mistakes) + " mistakes left.");
+    if (s.solved.length) parts.push("Solved in this order: " + s.solved.map(function (ci) { return CATEGORIES[ci].name; }).join(", ") + ".");
+    if (s.guesses.length) parts.push("Wrong guesses: " + s.guesses.map(function (g) { return "[" + g.join(", ") + "]"; }).join("; ") + ".");
+    if (s.hints.length) parts.push("Hints used for: " + s.hints.map(function (ci) { return CATEGORIES[ci].name; }).join(", ") + ".");
+    if (s.played) parts.push("Earlier puzzles finished: " + s.played + ", won: " + s.won + ".");
+    return parts.join(" ");
+  }
+
+  function persist() {
+    if (window.Lens) {
+      Lens.saveState(state, summary());
+      if (state.over && !completed) { completed = true; Lens.complete(); }
+    } else {
+      try { localStorage.setItem("lens-term-groups", JSON.stringify(state)); } catch (e) { /* sandboxed */ }
+    }
+  }
+
+  // ---- helpers ----
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text !== undefined) e.textContent = text;
+    return e;
+  }
+  function remainingTerms() {
+    return state.order.filter(function (t) { return state.solved.indexOf(termToCat[t]) === -1 && !state.over; });
+  }
+  function hintTermFor(ci) {
+    // The first term of the group in tile order: stable across reloads.
+    var t = state.order.filter(function (x) { return termToCat[x] === ci; });
+    return t[0];
+  }
+  // Long words get a soft hyphen in the middle, so narrow tiles break them cleanly.
+  function softHyphens(t) {
+    return t.replace(/\S{13,}/g, function (w) { var h = Math.ceil(w.length / 2); return w.slice(0, h) + "\u00AD" + w.slice(h); });
+  }
+  function setMessage(text) { document.getElementById("message").textContent = text || ""; }
+
+  function askTutorAboutGroup(ci, missed) {
+    if (!window.Lens) return;
+    var c = CATEGORIES[ci];
+    var list = c.terms.map(function (t) { return t[0] + ": " + t[1]; }).join(" | ");
+    var learnerText = missed
+      ? "I missed the group \"" + c.name + "\". How do these four terms fit together?"
+      : "Can you explain how these four terms fit under \"" + c.name + "\"?";
+    var note = "From the AI safety term groups puzzle. Group \"" + c.name + "\" (" + TIERS[c.tier].toLowerCase() + "): " + list +
+      " " + (missed ? "The learner did not find this group. " : "The learner solved this group. ") +
+      "Explain briefly what links the four, and point out any term that would fit another group or whose filing is debatable. " +
+      "Wrong guesses so far: " + (state.guesses.length ? state.guesses.map(function (g) { return "[" + g.join(", ") + "]"; }).join("; ") : "none") + ".";
+    Lens.promptTutor(learnerText, note);
+  }
+
+  function askTutorAboutGuesses() {
+    if (!window.Lens) return;
+    var note = "From the AI safety term groups puzzle. " + summary() +
+      " Go through the learner's wrong guesses: for each, say which group each term really belonged to and what made the guess tempting. Keep it short.";
+    Lens.promptTutor("Why were my wrong guesses wrong?", note);
+  }
+
+  // ---- render ----
+  function renderGroup(ci, missed) {
+    var c = CATEGORIES[ci];
+    var box = el("div", "group t" + c.tier + (missed ? " missed" : ""));
+    var head = el("div", "group-head");
+    head.appendChild(el("span", "group-name", c.name));
+    head.appendChild(el("span", "tier", TIERS[c.tier] + (missed ? " · not found" : "")));
+    box.appendChild(head);
+    box.appendChild(el("div", "group-terms", c.terms.map(function (t) { return t[0]; }).join(", ")));
+    if (openDefs[ci]) {
+      var ul = el("ul", "defs");
+      c.terms.forEach(function (t) {
+        var li = el("li");
+        li.appendChild(el("b", null, t[0] + ": "));
+        li.appendChild(document.createTextNode(t[1]));
+        ul.appendChild(li);
+      });
+      box.appendChild(ul);
+    }
+    var actions = el("div", "group-actions");
+    var d = el("button", "link", openDefs[ci] ? "Hide definitions" : "Show definitions");
+    d.type = "button";
+    d.setAttribute("aria-expanded", openDefs[ci] ? "true" : "false");
+    d.onclick = function () { openDefs[ci] = !openDefs[ci]; render(); };
+    actions.appendChild(d);
+    if (window.Lens) {
+      var a = el("button", "link", "Ask the tutor about this group");
+      a.type = "button";
+      a.onclick = function () { askTutorAboutGroup(ci, missed); };
+      actions.appendChild(a);
+    }
+    box.appendChild(actions);
+    return box;
+  }
+
+  function render() {
+    var s = state;
+    var groups = document.getElementById("groups");
+    groups.textContent = "";
+    s.solved.forEach(function (ci) { groups.appendChild(renderGroup(ci, false)); });
+    if (s.over) {
+      s.board.slice().sort(function (a, b) { return CATEGORIES[a].tier - CATEGORIES[b].tier; }).forEach(function (ci) {
+        if (s.solved.indexOf(ci) === -1) groups.appendChild(renderGroup(ci, true));
+      });
+    }
+
+    var grid = document.getElementById("grid");
+    grid.textContent = "";
+    var hintTerms = s.hints.filter(function (ci) { return s.solved.indexOf(ci) === -1; }).map(hintTermFor);
+    remainingTerms().forEach(function (t) {
+      var b = el("button", "tile" + (hintTerms.indexOf(t) !== -1 ? " hinted" : ""), softHyphens(t));
+      b.type = "button";
+      b.dataset.term = t;
+      b.setAttribute("aria-pressed", selected.indexOf(t) !== -1 ? "true" : "false");
+      b.onclick = function () { toggle(t); };
+      grid.appendChild(b);
+    });
+    grid.style.display = s.over ? "none" : "";
+
+    var dots = document.getElementById("dots");
+    dots.textContent = "";
+    for (var i = 0; i < MAX_MISTAKES; i++) dots.appendChild(el("span", "dot" + (i < s.mistakes ? " used" : "")));
+    document.getElementById("mistakes-sr").textContent = (MAX_MISTAKES - s.mistakes) + " of " + MAX_MISTAKES;
+    document.querySelector(".status").style.display = s.over ? "none" : "";
+
+    var hints = document.getElementById("hints");
+    hints.textContent = "";
+    s.hints.forEach(function (ci) {
+      if (s.solved.indexOf(ci) !== -1 || s.over) return;
+      var c = CATEGORIES[ci];
+      var p = el("p", "hintline");
+      p.appendChild(el("b", null, "Hint (" + TIERS[c.tier].toLowerCase() + "): "));
+      p.appendChild(document.createTextNode("one group is “" + c.name + "”. It includes “" + hintTermFor(ci) + "”."));
+      hints.appendChild(p);
+    });
+
+    var unhinted = unhintedGroups();
+    var hintBtn = document.getElementById("hint");
+    hintBtn.disabled = !!s.over || unhinted.length === 0;
+    hintBtn.textContent = "Hint";
+    document.getElementById("submit").disabled = selected.length !== 4 || !!s.over;
+    document.getElementById("deselect").disabled = selected.length === 0 || !!s.over;
+    document.getElementById("controls").style.display = s.over ? "none" : "";
+
+    var end = document.getElementById("end");
+    end.textContent = "";
+    if (s.over) {
+      var box = el("div", "end");
+      box.appendChild(el("p", null, s.over === "won"
+        ? "Solved, with " + s.mistakes + " mistake" + (s.mistakes === 1 ? "" : "s") + (s.hints.length ? " and " + s.hints.length + " hint" + (s.hints.length === 1 ? "" : "s") : "") + "."
+        : "Out of guesses. The groups you did not find are shown above."));
+      var row = el("div", "controls");
+      var again = el("button", "primary", "New puzzle");
+      again.type = "button";
+      again.onclick = function () { state = newPuzzle(state); selected = []; openDefs = {}; setMessage(""); render(); persist(); };
+      row.appendChild(again);
+      if (window.Lens && s.guesses.length) {
+        var ask = el("button", null, "Ask the tutor about my wrong guesses");
+        ask.type = "button";
+        ask.onclick = askTutorAboutGuesses;
+        row.appendChild(ask);
+      }
+      box.appendChild(row);
+      end.appendChild(box);
+    }
+  }
+
+  function unhintedGroups() {
+    return state.board
+      .filter(function (ci) { return state.solved.indexOf(ci) === -1 && state.hints.indexOf(ci) === -1; })
+      .sort(function (a, b) { return CATEGORIES[a].tier - CATEGORIES[b].tier; });
+  }
+
+  // ---- actions ----
+  function toggle(t) {
+    if (state.over) return;
+    var i = selected.indexOf(t);
+    if (i !== -1) selected.splice(i, 1);
+    else if (selected.length < 4) selected.push(t);
+    else return;
+    setMessage("");
+    render();
+  }
+
+  function submit() {
+    if (selected.length !== 4 || state.over) return;
+    var key = selected.slice().sort().join("|");
+    var seen = state.guesses.some(function (g) { return g.slice().sort().join("|") === key; });
+    if (seen) { setMessage("You already tried that."); return; }
+
+    var counts = {};
+    selected.forEach(function (t) { counts[termToCat[t]] = (counts[termToCat[t]] || 0) + 1; });
+    var best = 0;
+    Object.keys(counts).forEach(function (k) { if (counts[k] > best) best = counts[k]; });
+
+    if (best === 4) {
+      var ci = termToCat[selected[0]];
+      state.solved.push(ci);
+      selected = [];
+      if (state.solved.length === 4) { state.over = "won"; state.played++; state.won++; setMessage(""); }
+      else setMessage("Correct: " + CATEGORIES[ci].name + ".");
+      render(); persist();
+      return;
+    }
+
+    state.mistakes++;
+    state.guesses.push(selected.slice());
+    var wrong = selected.slice();
+    if (state.mistakes >= MAX_MISTAKES) {
+      state.over = "lost"; state.played++; selected = [];
+      setMessage("");
+    } else {
+      setMessage(best === 3 ? "One away." : "Not a group.");
+    }
+    render(); persist();
+    if (!state.over) {
+      Array.prototype.forEach.call(document.querySelectorAll(".tile"), function (b) {
+        if (wrong.indexOf(b.dataset.term) !== -1) {
+          b.classList.remove("shake"); void b.offsetWidth; b.classList.add("shake");
+        }
+      });
+    }
+  }
+
+  document.getElementById("submit").onclick = submit;
+  document.getElementById("deselect").onclick = function () { selected = []; setMessage(""); render(); };
+  document.getElementById("shuffle").onclick = function () {
+    var solvedTerms = state.order.filter(function (t) { return state.solved.indexOf(termToCat[t]) !== -1; });
+    var rest = state.order.filter(function (t) { return state.solved.indexOf(termToCat[t]) === -1; });
+    state.order = solvedTerms.concat(shuffle(rest));
+    render(); persist();
+  };
+  document.getElementById("hint").onclick = function () {
+    var next = unhintedGroups()[0];
+    if (next === undefined) return;
+    state.hints.push(next);
+    render(); persist();
+  };
+
+  // ---- start ----
+  function hydrate(saved, meta) {
+    if (meta && meta.completed) completed = true;
+    if (validState(saved)) { state = saved; selected = []; render(); }
+  }
+
+  state = newPuzzle(null);
+  if (!window.Lens) {
+    try {
+      var stored = JSON.parse(localStorage.getItem("lens-term-groups") || "null");
+      if (validState(stored)) state = stored;
+    } catch (e) { /* sandboxed */ }
+  }
+  render();
+  if (window.Lens) Lens.onState(hydrate);
+})();
+</script>
+</body>
+</html>
