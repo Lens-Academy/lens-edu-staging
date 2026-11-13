@@ -63,7 +63,7 @@ to:: as the industry finally tamps down on the risks of other Hugging Face-like 
 id:: f6fddf4b-4045-4a4c-97df-f5549138d520
 force-feedback:: first
 content::
-Cheng wants fewer blocking monitors, Li wants more of the control budget spent on detection and disclosure, and Adler wants more preventive controls such as gated actions and circuit breaking.
+Cheng wants fewer blocking monitors, Li wants more of the control budget spent on detection and disclosure, and Adler wants more preventive controls such as gated actions (the agent must get approval before taking a risky action) and circuit breaking (a monitor halts the agent mid-run if it starts misbehaving).
 
 1. Which factual claim does their disagreement turn on most?
 2. Name one observation that would move each of them.
