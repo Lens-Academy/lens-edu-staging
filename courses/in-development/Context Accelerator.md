@@ -24,7 +24,3 @@ The earlier strategy-and-ToC version is archived as [[../archived/ToC Accelerato
 # Meeting: Week 5
 
 # Meeting: Week 6
-
-# Meeting: Week 7
-
-# Meeting: Week 8
