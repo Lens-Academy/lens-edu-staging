@@ -42,7 +42,7 @@ If they seem to have a good sense of the problem or know important components of
 
 Sweep, about the first eight minutes: a wide first pass, so that after it you have a bet on each region in the top-level map below. Short answers are welcome, and most follow-ups can wait for the zoom, but take one when an answer is thin or misses the question (see "What a good interview here does, and why" below).
 
-Try to get through these items in the first few minutes, but if you have to combine questions to make room, do so. Many applicants will be perfectly happy to go much deeper; no ne
+Try to get through these items in the first few minutes, but if you have to combine questions to make room, do so. Many applicants will be perfectly happy to go much deeper; no need to speed them up, but favor quick breadth bef
 
 1. The opening question above: why Lens, and how much time. Its sharp follow-up: what skills and interests they bring, their salient background, what they want to do with what they learn from Lens.
 2. "What have you read, done or studied about AI and its risks so far? Rough is fine, detail is best." Treat the answer as a claim to check, not a result: aim later questions at the edge of what they say they know. Then: "Where would you say your strengths and weaknesses are?" Their self-model is useful, and you can check it later.
