@@ -1,0 +1,66 @@
+---
+title: "Foundation Models"
+author:
+  - "Markov Grey"
+  - "Charbel-Raphaël Segerie"
+source_url: "https://ai-safety-atlas.com/chapters/v1/capabilities/foundation-models/"
+published: 2026-11-13
+tags:
+  - "source-sync"
+synced_from:
+  source: atlas
+  url: "https://docs.google.com/document/d/1hWdq25Nw17538nk5aNG1_a8PxfNUhFKfaa9r0H6fRP4/edit?tab=t.0"
+---
+
+We have seen a paradigm shift from narrow AI to adaptable general-purpose systems pre-trained on massive data. This paradigm introduces new unique safety challenges.
+
+---
+
+**Foundation models represent a fundamental shift in how we develop AI.** Rather than building specialized models for many small specific tasks, we can now train large-scale models that serve as a "foundation" for many different applications. These models are then specialized later by a process called fine-tuning to perform specific tasks. Think of this as similar to how we can build many different types of buildings using the same base structure ([Bommasani et al., 2022](https://arxiv.org/abs/2108.07258)). We can build banks, restaurants, or housing but the underlying foundation remains largely the same. This is just a very quick intuitive definition. We will get more into the details in the next few subsections on training, properties and risks.
+
+*Video 1.2: Optional video to understand foundation models.* ([Watch the video](https://www.youtube.com/watch?v=kK3NmQT241w))
+
+**The traditional approach of training specialized AI models for every task often proved inefficient and limiting.** Progress was bottlenecked by the need for human-labeled data and the inability to transfer knowledge between tasks effectively. Foundation models overcame these limitations through a process called self-supervised learning on massive unlabeled datasets. This breakthrough happened because of many different reasons - advances in specialized hardware like GPUs, new machine learning architectures like transformers, and increased access to huge amounts of online data ([Kaplan et al., 2020](https://arxiv.org/abs/2001.08361)) are some of the more prominent reasons for this shift.
+
+In language processing, models like GPT-4 and Claude are examples of foundation models. Both of these have demonstrated the ability to generate human language, have complex conversations and perform simple reasoning tasks ([OpenAI, 2023](https://arxiv.org/abs/2303.08774)). Examples in computer vision include models like DALL-E 3 and Stable Diffusion. ([Betker et al., 2023](https://cdn.openai.com/papers/dall-e-3.pdf)) These are domain specific examples, but we are also seeing a trend toward multimodal foundation models (LMMs). This includes things like GPT-4V and Gemini that can work across different types of data - processing and generating text, images, code, audio and probably more in the future ([Google, 2023](https://arxiv.org/abs/2312.11805)). Even in reinforcement learning, where models were traditionally trained for specific tasks, we're seeing foundation models like Gato demonstrate the ability to learn general-purpose behaviors that can be adapted to various different downstream tasks ([Reed et al., 2022](https://arxiv.org/abs/2205.06175)).
+
+**Foundation models mark a paradigm shift towards general-purpose systems.** This paradigm introduces many new risks which didn't exist previously. These include misuse risks from power centralization, homogenization, and dual-use capabilities just to name a few. The ability of foundation models to learn broad, transferable capabilities has led to increasingly sophisticated behaviors emerging from relatively simple training objectives ([Wei et al., 2022](https://arxiv.org/abs/2206.07682)). Complex capabilities, combined with generality and scale, means we need to seriously consider safety risks beyond just misuse that previously seemed theoretical or distant. Beyond just misuse risk, things like misalignment are becoming an increasing concern with each new capability that these foundation models exhibit. We dedicate an entire chapter to the discussion of these risks. But we will also give you a small taste on the kinds of possible risks in the next few subsections, as it warrants some repetition.
+
+**What is the difference between foundation models and frontier models?** Frontier models represent the cutting edge of AI capabilities - they are the most advanced models in their respective domains. While many frontier models are also foundation models (like Claude 3.5 Sonnet), this isn't always the case. For example, AlphaFold, while being a frontier model in protein structure prediction, isn't typically considered a foundation model because it's specialized for a single task rather than serving as a general foundation for multiple applications ([Jumper et al., 2021](https://pubmed.ncbi.nlm.nih.gov/34265844/)).
+
+## Training
+
+Generally, foundation models use a two-stage training process. First, they go through what we call a pre-training, and then second, they can be adapted through various mechanisms like fine-tuning or scaffolding to perform specific tasks. Rather than learning from human-labeled examples for specific tasks, these models learn by finding patterns in huge amounts of unlabeled data.
+
+![Figure 1.24](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-283d577f.webp)
+
+*Figure 1.24: On the Opportunities and Risks of Foundation Models ([Bommasani et al., 2022](https://arxiv.org/abs/2108.07258))*
+
+**Pre-training is the initial phase where the model learns general patterns and knowledge from massive datasets of millions or billions of examples.** During this phase, the model isn't trained for any specific task - instead, it develops broad capabilities that can later be specialized. This generality is both powerful and concerning from a safety perspective. While it enables the model to adapt to many different tasks, it also means we can't easily predict or constrain what the model might learn to do ([Hendrycks et al., 2022](https://arxiv.org/abs/2109.13916)).
+
+![Figure 1.25](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-784dc38f.webp)
+
+*Figure 1.25: On the Opportunities and Risks of Foundation Models ([Bommasani et al., 2022](https://arxiv.org/abs/2108.07258))*
+
+**Self-supervised learning (SSL) is the key technical innovation that makes foundation models possible.** This is how we actually implement the pre-training phase. Unlike traditional supervised learning, which requires human-labeled data, SSL leverages the inherent structure of the data itself to create training signals. For example, instead of manually labeling images, we might just hide part of a full image we already have and ask a model to predict what the rest should be. So it might predict the bottom half of an image given the top half, learning about which objects often appear together. As an example, it might learn that images with trees and grass at the top often have more grass, or maybe a path, at the bottom. It learns about objects and their context - trees and grass often appear in parks, dogs are often found in these environments, paths are usually horizontal, and so on. These learned representations can then be used for a wide variety of tasks that the model was not explicitly trained for, like identifying dogs in images, or recognizing parks - all without any human-provided labels! The same concept applies in language, a model might predict the next word in a sentence, such as "The cat sat on the … ," learning grammar, syntax, and context as long as we repeat this over huge amounts of text.
+
+**After pre-training, foundation models can be adapted through two main approaches: fine-tuning and in-context prompting.** Fine-tuning involves additional training on a specific task or dataset to specialize the model's capabilities. For example, we might use Reinforcement Learning from Human Feedback (RLHF) to make language models better at following instructions or being more helpful. Prompting, on the other hand, involves providing the model with carefully crafted inputs that guide it toward desired behaviors without additional training.
+
+**The training process of foundation models creates several unique safety challenges.** First, the self-supervised nature of pre-training means we have limited control over what the model learns - it might develop unintended capabilities or behaviors. Second, the adaptation process needs to reliably preserve any safety properties we've established during pre-training. Finally, the massive scale of training data and compute makes it difficult to thoroughly understand or audit what the model has learned. Many of the safety challenges we'll discuss throughout this book - from goal misgeneralization to scalable oversight - are deeply connected to how these models are trained and adapted.
+
+## Properties
+
+The ability of foundation models to transfer knowledge, generalize across many different domains, and develop emergent capabilities means we can't rely on traditional safety approaches that assume narrow, predictable behavior.
+
+**Transfer learning is the ability to transfer knowledge learned during pre-training to new tasks and domains.** Rather than starting from scratch for each task, we can leverage the general knowledge these models have already acquired ([Bommasani et al., 2022](https://arxiv.org/abs/2108.07258)). This property enables rapid adaptation and deployment, it also means that both capabilities and safety risks can transfer in unexpected ways. For example, a model might transfer not just useful knowledge but also harmful biases or undesired behaviors to new applications.
+
+**Zero-shot and few-shot learning is the ability to perform new tasks with very few examples, or even no examples at all.** For example, GPT-4 can solve novel reasoning problems just from a natural language description of the task ([OpenAI, 2023](https://arxiv.org/abs/2303.08774)). This emergent ability to generalize to new situations is powerful but concerning from a safety perspective. If models can adapt to novel situations in unexpected ways, it becomes harder to predict and control their behavior in deployment.
+
+**Generalization in foundation models works differently from traditional AI systems.** Rather than just generalizing within a narrow domain, these models can generalize capabilities across domains in surprising ways. However, this generalization of capabilities often happens without a corresponding generalization of goals or constraints - a critical safety concern we'll explore in detail in our chapter on goal misgeneralization. For example, a model might generalize its ability to manipulate text in unexpected ways without maintaining the safety constraints we intended ([Hendrycks et al., 2022](https://arxiv.org/abs/2109.13916)).
+
+![Figure 1.26](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-dac2018c.webp)
+
+*Figure 1.26: On the Opportunities and Risks of Foundation Models ([Bommasani et al., 2022](https://arxiv.org/abs/2108.07258))*
+
+> Multimodality will definitely be important. Speech in, speech out, images, eventually video. Clearly, people really want that. Customizability and personalization will also be very important.
+> — Sam Altman, CEO of OpenAI (Jan 2024) [Cronshaw, 2024](https://www.linkedin.com/pulse/altman-multimodality-important-david-cronshaw-5fz0c)

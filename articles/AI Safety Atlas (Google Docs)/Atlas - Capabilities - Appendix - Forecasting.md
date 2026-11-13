@@ -1,0 +1,128 @@
+---
+title: "Appendix: Forecasting"
+author:
+  - "Markov Grey"
+  - "Charbel-Raphaël Segerie"
+source_url: "https://ai-safety-atlas.com/chapters/v1/capabilities/appendix-forecasting/"
+published: 2026-11-13
+tags:
+  - "source-sync"
+synced_from:
+  source: atlas
+  url: "https://docs.google.com/document/d/1hWdq25Nw17538nk5aNG1_a8PxfNUhFKfaa9r0H6fRP4/edit?tab=t.0"
+---
+
+## Effective Compute
+
+### Hardware Efficiency
+
+The first factor in increasing effective compute is - how efficient is the hardware that we produce at doing computation?
+
+**AI chips are getting about 35% more powerful each year, but we're approaching physical limits.** Since around 2010, the raw computational performance (FLOP/s) of GPUs in FP32 precision has grown by roughly 1.35× per year ([Epoch AI, 2023](https://epoch.ai/trends); [Hobbahn et al., 2023](https://epoch.ai/blog/trends-in-machine-learning-hardware)). The improvement comes from things like denser transistors, specialized AI circuitry, and switching to lower-precision number formats. Performance per dollar has improved rapidly, and hardware at any given precision and fixed performance level becomes 30% cheaper each year. At the same time, manufacturers continue to introduce more powerful and expensive hardware ([Epoch AI, 2025](https://epoch.ai/data/machine-learning-hardware))
+
+**In the near future this trend seems likely to continue, but thermodynamic limits will eventually stop this trend.** Chips can only get so energy-efficient before physics says “no”. Every computation generates heat as a fundamental law of physics, not an engineering problem. Current analysis suggests there is room for a 50 to 1,000× improvement in energy efficiency before we hit fundamental CMOS limits, with a 50% chance that improvements cease before a roughly 200× improvement on existing technology. These estimates suggest that CMOS processors are likely sufficiently efficient to power substantially larger AI training runs than today.[^note-7] This implies we have significant headroom to scale using current silicon paradigms through 2030 and beyond, although hardware R&D returns may eventually diminish as we approach physical limits. Beyond these limits, training runs would likely require radical changes to computing paradigms, like a shift to adiabatic computing ([Ho et al., 2023](https://epoch.ai/blog/limits-to-the-energy-efficiency-of-cmos-microprocessors); [Sevilla et al., 2024](https://epoch.ai/blog/can-ai-scaling-continue-through-2030)).
+
+![Figure 1.49](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-0297f635.webp)
+
+*Figure 1.49: Currently observed trends in the efficiency of hardware used for ML over the last decades. We can see a clear year by year increase in peak computational performance ([Hobbahn et al., 2023](https://epoch.ai/blog/trends-in-machine-learning-hardware)).*
+
+![Figure 1.50](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-4a2a8dbd.webp)
+
+*Figure 1.50: A forecast of the future using the Growth and AI Transition Endogenous (GATE) playground. This graph shows investments in hardware R&D improving the efficiency of AI chips (measured in units of FLOP/year per \$). Eventually, hardware efficiency is capped by physical limits. The red line showcases aggressive parameter settings, green is conservative parameter settings. The red zone highlights the difference in timelines to full automation between aggressive and conservative models ([Epoch AI, 2025](https://epoch.ai/gate)).*
+
+### Software and Algorithmic Efficiency
+
+The second factor in increasing effective compute is - how well we can utilize all the existing hardware that we have. This is separate from just making the physical hardware itself more efficient.
+
+**Better algorithms have cut the compute needed for a given result by \~3× per year.** The level of compute needed to achieve a given level of performance has halved roughly every 8 months[^note-8]. This rapid improvement means that the compute required to achieve specific levels of capability on benchmarks can drop by orders of magnitude over just a few years of algorithmic progress. The improvements to compute efficiency explain roughly 35% of performance improvements in language modeling since 2014, with the other 65% coming from just building more chips and running them longer. Overall, this means we're getting smarter about using available hardware, and not just throwing more compute at problems ([Epoch AI, 2023](https://epoch.ai/trends); [Ho et al., 2024](https://epoch.ai/blog/algorithmic-progress-in-language-models)).
+
+![Figure 1.51](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-dc4f8401.webp)
+
+*Figure 1.51: Estimates of the contributions of scaling and algorithmic innovation in terms of the raw compute that would be naively needed to achieve a state-of-the-art level of performance. The contribution of algorithmic progress is roughly half as much as that of compute scaling ([Ho et al., 2024](https://epoch.ai/blog/algorithmic-progress-in-language-models))*
+
+![Figure 1.52](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-d878e7dc.webp)
+
+*Figure 1.52: A forecast of the future using the Growth and AI Transition Endogenous (GATE) playground. This graph shows algorithmic improvements over time. By developing better algorithms and using higher-quality data, it becomes possible to do more with the same hardware (measured in units of "effective FLOP per FLOP"). The red line showcases aggressive parameter settings, green is conservative parameter settings. The red zone highlights the difference in timelines to full automation between aggressive and conservative models ([Epoch AI, 2025](https://epoch.ai/gate)).*
+
+### Semiconductor Production
+
+The third factor in increasing effective compute is - how many chips can you actually build?
+
+**Total available computing power from NVIDIA chips has grown by approximately 2.3x per year since 2019, enabling the training of ever-larger models.** NVIDIA designs a dominant share of AI training chips, and Taiwan's TSMC serves as the primary chip fab for these manufacturers. The AI chip supply chain is highly concentrated. In 2024 TSMC dedicated roughly 5% of their advanced chip production to AI accelerators—the rest goes to phones, computers, and other electronics ([Sevilla et al., 2024](https://epoch.ai/blog/can-ai-scaling-continue-through-2030)). If AI labs want dramatically more chips, TSMC would need to shift priorities, expand capacity, and compete with other customers who also want cutting-edge semiconductors ([Epoch AI, 2025](https://epoch.ai/data-insights/nvidia-chip-production)).
+
+![Figure 1.53](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-ea93816a.webp)
+
+*Figure 1.53: An estimate the world’s installed NVIDIA GPU compute capacity, broken down by GPU model ([Epoch AI, 2025](https://epoch.ai/data-insights/nvidia-chip-production)).*
+
+![Figure 1.54](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-cd0449e8.webp)
+
+*Figure 1.54: Table showcasing estimates costs and times to overcome various  constraints in scaling up compute production ([Edelman & Ho, 2025](https://epoch.ai/gradient-updates/compute-scaling-will-slow-down-due-to-increasing-lead-times)).*
+
+![Interactive figure 1.4](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-2148fb36.webp)
+
+*Interactive figure 1.4: Quarterly revenue of NVIDIA Corporation across its main market segments, reported in US dollars. NVIDIA manufactures graphics processing units (GPUs), which were originally used for gaming and are now used to train AI models. This data is not adjusted for inflation ([Our World in Data, 2023](https://ourworldindata.org/artificial-intelligence)).* ([Open the interactive version](https://ourworldindata.org/grapher/nvidia-quarterly-revenue-segment?tab=chart))
+
+**Investment doesn't immediately make chip production go faster.** If some country wants to build their own TSMC equivalent, then it can take 4-5 years to build a new cutting-edge fab (accounting for construction and permitting), though upgrading an existing fab takes less time, around 2 years in addition to billions in investment ([Edelman & Ho, 2025](https://epoch.ai/gradient-updates/compute-scaling-will-slow-down-due-to-increasing-lead-times); [Epoch AI, 2025](https://arxiv.org/abs/2503.04941)). Besides the existing competition for chips from TSMC, another factor is that the machines TSMC needs to manufacture the chips. These are almost exclusively made by a single company: ASML in the Netherlands ([Blablová, 2025](https://epoch.ai/gradient-updates/why-china-isnt-about-to-leap-ahead-of-the-west-on-compute)). These extreme ultraviolet (EUV) lithography machines cost between \$150 million to \$380 million each. If/When someone (e.g. TSMC) wants to expand production, they can't just order fifty more next month. They join an already long waitlist ([Edelman & Ho, 2025](https://epoch.ai/gradient-updates/compute-scaling-will-slow-down-due-to-increasing-lead-times); [Sevilla, AXRP Podcast, 2024](https://axrp.net/episode/2024/10/04/episode-37-jaime-sevilla-forecasting-ai.html)).
+
+![Figure 1.55](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-e13edff7.webp)
+
+*Figure 1.55: A forecast using the Growth and AI Transition Endogenous (GATE) playground. This graph shows potential scale up of AI chip fabrication to meet demand for AI workloads. Due to the exponential cost of rapid expansions, growth is reduced by an “adjustment costs” parameter. The red line showcases aggressive parameter settings, green is conservative parameter settings. The red zone highlights the difference in timelines to full automation between aggressive and conservative models ([Epoch AI, 2025](https://epoch.ai/gate)).*
+
+## Investment and Training Costs
+
+**The cost in USD of training frontier models has grown by 3.5x per year per year since 2020.** If trends continue, we'll see the training cost for a single model approach billion-dollar training runs by 2027. The cost breaks down roughly as: 50-65% for hardware (spread across its useful life), 30-45% for the researchers and engineers, and 2-6% for electricity. This is venture capital and Big Tech money so far, but these numbers are approaching scales where only nations or the largest corporations can compete ([Cottier et al., 2025](https://epoch.ai/blog/how-much-does-it-cost-to-train-frontier-ai-models)).
+
+![Figure 1.56](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-d96a7770.webp)
+
+*Figure 1.56: Breakdown of model development costs for selected models. Hardware costs are amortized to the total number of chip-hours spent on experiments and training. R&D staff costs cover the duration of development, from initial experiments to publication ([Cottier et al., 2025](https://epoch.ai/blog/how-much-does-it-cost-to-train-frontier-ai-models)).*
+
+![Interactive figure 1.5](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-10809314.webp)
+
+*Interactive figure 1.5: Hardware and energy cost to train notable AI systems. This data is expressed in US dollars, adjusted for inflation ([Our World in Data, 2023](https://ourworldindata.org/artificial-intelligence)).* ([Open the interactive version](https://ourworldindata.org/grapher/hardware-and-energy-cost-to-train-notable-ai-systems?tab=chart))
+
+![Figure 1.57](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-07dd3766.webp)
+
+*Figure 1.57: Amortized hardware cost plus energy cost for the final training run of frontier models. The selected models are among the top 10 most compute-intensive for their time. Amortized hardware costs are the product of training chip-hours and a depreciated hardware cost, with 23% overhead added for cluster-level networking. Open circles indicate costs which used an estimated production cost of Google TPU hardware. These costs are generally more uncertain than the others, which used actual price data rather than estimates ([Cottier et al., 2025](https://epoch.ai/blog/how-much-does-it-cost-to-train-frontier-ai-models)).*
+
+**The acquisition cost in USD of the hardware used to train frontier AI models has grown by 2.5x per year since 2016.** To give you a sense of how much training a frontier model costs, the total amortized cost of developing Grok-4 (released in July 2025), including hardware and electricity, is estimated at \$480 million USD. The acquisition cost of the hardware to train Grok-3, including GPUs, other server components, and networking, is estimated at \$3 billion USD. The hardware used to train Grok 4 may have been even more expensive ([Epoch AI, 2025](https://epoch.ai/trends)).
+
+![Interactive figure 1.6](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-5d90fa29.webp)
+
+*Interactive figure 1.6: Money put into privately held AI companies by private investors. This excludes publicly traded companies (e.g., Big Tech companies) and companies’ internal spending, such as R&D or infrastructure. Expressed in US dollars, adjusted for inflation ([Our World in Data, 2023](https://ourworldindata.org/artificial-intelligence)).* ([Open the interactive version](https://ourworldindata.org/grapher/private-investment-in-artificial-intelligence-cset?tab=line))
+
+**An unknown question is whether the returns to productivity gains will justify continued investment.** 2025 saw a lot of news headlines about circular investment and an “AI bubble”. If AI can automate significant portions of cognitive work, capturing even a fraction of the global labor market makes trillion-dollar investments rational. However, massive investments face increasing hurdles due to structural constraints. As compute scales up, the lead time between project initiation and deployment lengthens significantly—roughly one year for every ten-fold increase in scale—creating a feedback loop that naturally slows the pace of scaling ([Edelman & Ho, 2025](https://epoch.ai/gradient-updates/compute-scaling-will-slow-down-due-to-increasing-lead-times)). This uncertainty regarding long-term returns over extended periods may drive investors to prefer incremental scaling, breaking up projects into smaller chunks to gauge returns before committing further, rather than making massive upfront investments ([Edelman & Ho, 2025](https://epoch.ai/gradient-updates/compute-scaling-will-slow-down-due-to-increasing-lead-times)). Several things could break the pattern entirely: models hitting a capability ceiling where more compute doesn't help, regulations capping training runs or data center sizes, energy costs making large runs uneconomical, or economic recession drying up capital. Each represents a distinct way scaling could stop independent of technical feasibility.
+
+![Figure 1.58](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-fa1d6989.webp)
+
+*Figure 1.58: A forecast using the Growth and AI Transition Endogenous (GATE) playground. GATE predicts high levels of investment in AI-related capital and R&D to support massive expansions of the effective compute stock. This involves major reallocations away from conventional capital investments and consumption, and occurs before AI generates significant economic value, motivated by the large payoffs from AI automation. The red line showcases aggressive parameter settings, green is conservative parameter settings. The red zone highlights the difference in timelines to full automation between aggressive and conservative models ([Epoch AI, 2025](https://epoch.ai/gate)).*
+
+![Figure 1.59](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-e8f63681.webp)
+
+*Figure 1.59: Large investments in AI precede the economic benefits of automation, driven by expectations of large future payoffs. At the start of simulations, there is a brief period with substantial AI investment but with little generated economic value. However, as automation proceeds the value generated by AI grows rapidly, comprising the majority of output within a few years. The GATE model thus captures the dynamic where it is worth making major upfront investments to enjoy the value generated by AI. The investment is measured as the fraction of yearly economic output that is reinvested in AI, while the benefit is measured as the fraction of yearly output that can be attributed to the deployment of digital workers. The red line showcases aggressive parameter settings, green is conservative parameter settings. The red zone highlights the difference in timelines to full automation between aggressive and conservative models ([Epoch AI, 2025](https://epoch.ai/gate)).*
+
+## Power Consumption
+
+**Training frontier models requires enough electrical power to run a small city.** GPT-4's training run likely consumed around 50 megawatts, equivalent to powering roughly 40,000 US homes. If compute scaling continues at 4-5× per year, frontier training runs will require 4-16 gigawatts by 2030—matching the Grand Coulee Dam, America's largest power plant ([You et al., 2025](https://epoch.ai/blog/power-demands-of-frontier-ai-training)).
+
+**Energy costs remain small relative to hardware costs but this could change.** Currently, electricity costs represent only 2-6% of total training costs, with hardware and labor dominating the budget ([Cottier et al., 2024](https://epoch.ai/blog/how-much-does-it-cost-to-train-frontier-ai-models)). But if training runs scale to 10+ gigawatts while hardware efficiency improvements slow down, energy could become a much larger fraction of costs. At \$0.05 per kilowatt-hour, a 10 GW training run running for 100 days costs roughly \$120 million just for electricity. That's still less than the hardware, but it's no longer negligible. And in practice, securing multi-gigawatt power supplies might cost significantly more than wholesale electricity rates suggest.
+
+![Figure 1.60](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-3ac6ea79.webp)
+
+*Figure 1.60: Historic trend and forecast for the electricity demand of the largest individual frontier training runs ([You et al., 2025](https://epoch.ai/blog/power-demands-of-frontier-ai-training)).*
+
+![Figure 1.61](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-c497f33e.webp)
+
+*Figure 1.61: The projected power consumption for planned frontier datacenters for selected AI companies ([Epoch AI, 2025](https://epoch.ai/data/data-centers)).*
+
+**Scaling AI systems to the forecasted levels of 2030 will require substantial power infrastructure.** A training run of $2 \times 10^{29}$ FLOP would require approximately 6 GW of power, assuming improvements in hardware efficiency. This scale necessitates data center campuses ranging from 1 to 5 GW by the end of the decade ([Sevilla et al., 2024](https://epoch.ai/blog/can-ai-scaling-continue-through-2030)). Lead times increase with scale: every additional 10× increase in compute stock adds roughly one year to project timelines. Constructing the necessary large-scale power plants typically takes 2-3 years ([Edelman & Ho, 2025](https://epoch.ai/gradient-updates/compute-scaling-will-slow-down-due-to-increasing-lead-times)). Despite these hurdles, the cost of power remains a small fraction of data center expenses—roughly one-tenth the cost of the chips - making the capital investment rational given the potential returns ([Ho et al., 2025](https://epoch.ai/gradient-updates/is-almost-everyone-wrong-about-americas-ai-power-problem)).
+
+![Interactive figure 1.7](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-9f41363e.webp)
+
+*Interactive figure 1.7: Total electricity generated in each country or region, measured in terawatt-hours ([Our World in Data, 2024](https://ourworldindata.org/energy-production-consumption)).* ([Open the interactive version](https://ourworldindata.org/grapher/electricity-generation?tab=map))
+
+![Interactive figure 1.8](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-76963317.webp)
+
+*Interactive figure 1.8: The levelized cost of energy (LCOE) accounts for everything, the cost of building the power plant, plus the ongoing costs in keeping it operational over the lifetime of the plant. The cost of energy generation per watt has been falling for decades, and even more dramatically for renewable sources ([Our World in Data, 2026](https://ourworldindata.org/grapher/levelized-cost-of-energy)).* ([Open the interactive version](https://ourworldindata.org/grapher/levelized-cost-of-energy?tab=line))
+
+[^note-7]: CMOS (Complementary Metal-Oxide-Semiconductor) is the primary paradigm in processor production. The majority of all digital integrated circuits (CPUs, GPUs, RAM, mobile SoCs) produced today are CMOS.
+[^note-8]: 95% confidence interval of 5 to 14 months
