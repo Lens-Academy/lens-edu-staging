@@ -101,7 +101,8 @@ button.link:hover:not(:disabled) { background: none; color: var(--accent-hover);
 </div>
 <div id="hints"></div>
 <div class="controls" id="controls">
-  <button type="button" id="shuffle">Shuffle</button>
+  <button type="button" id="newboard">New board</button>
+  <button type="button" id="shuffle">Shuffle tiles</button>
   <button type="button" id="deselect">Deselect all</button>
   <button type="button" id="hint">Hint</button>
   <span class="spacer"></span>
@@ -374,9 +375,9 @@ button.link:hover:not(:disabled) { background: none; color: var(--accent-hover);
         ? "Solved, with " + s.mistakes + " mistake" + (s.mistakes === 1 ? "" : "s") + (s.hints.length ? " and " + s.hints.length + " hint" + (s.hints.length === 1 ? "" : "s") : "") + "."
         : "Out of guesses. The groups you did not find are shown above."));
       var row = el("div", "controls");
-      var again = el("button", "primary", "New puzzle");
+      var again = el("button", "primary", "New board");
       again.type = "button";
-      again.onclick = function () { state = newPuzzle(state); selected = []; openDefs = {}; setMessage(""); render(); persist(); };
+      again.onclick = startNewBoard;
       row.appendChild(again);
       if (window.Lens && s.guesses.length) {
         var ask = el("button", null, "Ask the tutor about my wrong guesses");
@@ -448,6 +449,9 @@ button.link:hover:not(:disabled) { background: none; color: var(--accent-hover);
 
   document.getElementById("submit").onclick = submit;
   document.getElementById("deselect").onclick = function () { selected = []; setMessage(""); render(); };
+  // New board: four freshly drawn groups (one per tier). An unfinished game is dropped, not counted.
+  function startNewBoard() { state = newPuzzle(state); selected = []; openDefs = {}; setMessage(""); render(); persist(); }
+  document.getElementById("newboard").onclick = startNewBoard;
   document.getElementById("shuffle").onclick = function () {
     var solvedTerms = state.order.filter(function (t) { return state.solved.indexOf(termToCat[t]) !== -1; });
     var rest = state.order.filter(function (t) { return state.solved.indexOf(termToCat[t]) === -1; });

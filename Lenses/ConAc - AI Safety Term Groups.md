@@ -8,7 +8,7 @@ tags: [wip]
 
 #### Text
 content::
-A short break from reading. The 16 terms below fall into four groups of four. Pick four that belong together and submit; you can make four mistakes. Once you solve a group, open its definitions, or ask the tutor how the four fit together. Press "New puzzle" for another board.
+A short break from reading. The 16 terms below fall into four groups of four. Pick four that belong together and submit; you can make four mistakes. Once you solve a group, open its definitions, or ask the tutor how the four fit together. "New board" deals four different groups at any time; "Shuffle tiles" only rearranges the current ones.
 
 #### Widget
 source:: [[../widgets/ai-safety-term-groups]]
