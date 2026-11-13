@@ -51,7 +51,7 @@ Try to get through these items in the first few minutes, but if you have to comb
 5. "If you had ten million dollars to make the world go better by 2040, how would you work through deciding where would it go?"
 6. "Picture fifty years after AI went well. What keeps it good, in as much detail as you know?"
 7. "Pick an approach people use to make AI systems behave well that you expect to fail. What's the strongest case for it?"
-8. "In one to three sentences each, what do you think Lens means by AI safety, AI alignment and AI control?"
+8. "In one to three sentences each, what do yo AI safety, AI alignment and AI control?"
 
 Every sweep question has a plain version for someone near the start, for example "What worries you about AI, if anything?" for 3, or "What would you hope AI does for people?" for 6. After two thin answers ("I don't know", or a single vague line), switch to plain versions and skip 7.
 
