@@ -190,6 +190,10 @@ source:: [[../Lenses/Interview demo]]
 # Lens:
 source:: [[../Lenses/Application interview prototype]]
 
+%% Version B of the application interview prototype, for comparison: a guide that gives the interviewer purpose, context and latitude, with fewer prescribed steps. %%
+# Lens:
+source:: [[../Lenses/Application interview prototype B]]
+
 %% Finally, please see how Lenses can link to other Lenses: %%
 # Lens:
 optional:: true
