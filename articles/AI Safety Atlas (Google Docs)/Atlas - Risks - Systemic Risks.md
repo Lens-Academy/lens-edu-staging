@@ -114,7 +114,7 @@ Whenever AI systems are used to collect and analyze data on a mass scale regimes
 > In the 21st century we might witness the creation of a massive new unworking class: people devoid of any economic, political or even artistic value, who contribute nothing to the prosperity, power and glory of society. This 'useless class' will not merely be unemployed — it will be unemployable.
 > — Yuval Noah Harari, Historian and Philosopher (2017) ([TED, 2017](https://ideas.ted.com/the-rise-of-the-useless-class/))
 
-![Interactive figure 2.3](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-risks-7d70303b.webp)
+![Interactive figure 2.3](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-risks-7d70303b.webp "chart:owid-share-companies-using-artificial-intelligence")
 
 *Interactive figure 2.3: Share of Companies using AI ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence))* ([Open the interactive version](https://ourworldindata.org/grapher/share-companies-using-artificial-intelligence?tab=chart))
 

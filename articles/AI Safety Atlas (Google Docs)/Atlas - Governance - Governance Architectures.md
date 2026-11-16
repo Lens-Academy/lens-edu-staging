@@ -54,7 +54,7 @@ In this section we'll look at how AI companies approach governance in practice. 
 
 **Internal corporate governance mechanisms matter because frontier AI companies currently have significant freedom in governing their own systems.** Their proximity to development allows them to identify and address risks earlier and more effectively than external oversight alone could achieve ([Zhang et al., 2021](https://arxiv.org/abs/2105.02117)). However, internal governance alone cannot address systemic risks; these require public oversight, which we explore later in this chapter.
 
-![Interactive figure 4.2](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-governance-96ba1b8b.webp)
+![Interactive figure 4.2](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-governance-96ba1b8b.webp "chart:owid-affiliation-researchers-building-artificial-intelligence-systems-all")
 
 *Interactive figure 4.2: Affiliation of research teams building notable AI systems, by year of publication. Describes the sector where the authors of a notable AI system have their primary affiliations ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).* ([Open the interactive version](https://ourworldindata.org/grapher/affiliation-researchers-building-artificial-intelligence-systems-all?tab=chart))
 
@@ -186,7 +186,7 @@ National governance provides the enforcement mechanisms and democratic legitimac
 - **AI risks have a global impact.** The regulation of those risks requires international cooperation ([Tallberg et al., 2023](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4424123)). When asked about China's participation in the Bletchley AI Safety summit, James Cleverly, former UK Foreign Secretary correctly noted: "we cannot keep the UK public safe from the risks of AI if we exclude one of the leading nations in AI tech."
 - **Race-to-the-bottom dynamics.** Countries fear competitive disadvantage in the AI race, which creates incentives for regulatory arbitrage and undermines safety standards globally ([Lancieri et al., 2024](https://scholarship.law.georgetown.edu/facpub/2647/)). International governance can help align incentives between nations, encouraging responsible AI development without forcing any one country to sacrifice its competitive edge ([Li, 2025](https://digitalcommons.law.villanova.edu/cgi/viewcontent.cgi?article=3670&context=vlr)).
 
-![Interactive figure 4.3](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-governance-2fe65eb4.webp)
+![Interactive figure 4.3](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-governance-2fe65eb4.webp "chart:owid-cumulative-number-of-large-scale-ai-systems-by-country")
 
 *Interactive figure 4.3: Cumulative number of large-scale AI systems by country since 2017. Refers to the location of the primary organization with which the authors of a large-scale AI systems are affiliated ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).* ([Open the interactive version](https://ourworldindata.org/grapher/cumulative-number-of-large-scale-ai-systems-by-country?tab=chart))
 

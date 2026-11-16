@@ -22,7 +22,7 @@ Leading AI researchers and technologists express significant concern about exist
 
 *Interactive figure 1.9: Views about AI's impact on society in the next 20 years, 2021. Survey respondents were asked, “Will artificial intelligence help or harm people in the next 20 years?”  ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).* ([Open the interactive version](https://ourworldindata.org/grapher/views-ai-impact-society-next-20-years?tab=chart))
 
-![Interactive figure 1.10](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-42113696.webp)
+![Interactive figure 1.10](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-42113696.webp "chart:owid-views-of-americans-robot-vs-human-intelligence")
 
 *Interactive figure 1.10: Views of Americans about robot vs. human intelligence. Survey respondents were asked, “Which ONE, if any, of the following statements do you MOST agree with?” ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).* ([Open the interactive version](https://ourworldindata.org/grapher/views-of-americans-robot-vs-human-intelligence?tab=chart))
 

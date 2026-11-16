@@ -58,7 +58,7 @@ The third factor in increasing effective compute is - how many chips can you act
 
 *Figure 1.54: Table showcasing estimates costs and times to overcome various  constraints in scaling up compute production ([Edelman & Ho, 2025](https://epoch.ai/gradient-updates/compute-scaling-will-slow-down-due-to-increasing-lead-times)).*
 
-![Interactive figure 1.4](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-2148fb36.webp)
+![Interactive figure 1.4](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-2148fb36.webp "chart:owid-nvidia-quarterly-revenue-segment")
 
 *Interactive figure 1.4: Quarterly revenue of NVIDIA Corporation across its main market segments, reported in US dollars. NVIDIA manufactures graphics processing units (GPUs), which were originally used for gaming and are now used to train AI models. This data is not adjusted for inflation ([Our World in Data, 2023](https://ourworldindata.org/artificial-intelligence)).* ([Open the interactive version](https://ourworldindata.org/grapher/nvidia-quarterly-revenue-segment?tab=chart))
 
@@ -86,7 +86,7 @@ The third factor in increasing effective compute is - how many chips can you act
 
 **The acquisition cost in USD of the hardware used to train frontier AI models has grown by 2.5x per year since 2016.** To give you a sense of how much training a frontier model costs, the total amortized cost of developing Grok-4 (released in July 2025), including hardware and electricity, is estimated at \$480 million USD. The acquisition cost of the hardware to train Grok-3, including GPUs, other server components, and networking, is estimated at \$3 billion USD. The hardware used to train Grok 4 may have been even more expensive ([Epoch AI, 2025](https://epoch.ai/trends)).
 
-![Interactive figure 1.6](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-5d90fa29.webp)
+![Interactive figure 1.6](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-5d90fa29.webp "chart:owid-private-investment-in-artificial-intelligence-cset")
 
 *Interactive figure 1.6: Money put into privately held AI companies by private investors. This excludes publicly traded companies (e.g., Big Tech companies) and companies’ internal spending, such as R&D or infrastructure. Expressed in US dollars, adjusted for inflation ([Our World in Data, 2023](https://ourworldindata.org/artificial-intelligence)).* ([Open the interactive version](https://ourworldindata.org/grapher/private-investment-in-artificial-intelligence-cset?tab=line))
 
@@ -120,7 +120,7 @@ The third factor in increasing effective compute is - how many chips can you act
 
 *Interactive figure 1.7: Total electricity generated in each country or region, measured in terawatt-hours ([Our World in Data, 2024](https://ourworldindata.org/energy-production-consumption)).* ([Open the interactive version](https://ourworldindata.org/grapher/electricity-generation?tab=map))
 
-![Interactive figure 1.8](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-76963317.webp)
+![Interactive figure 1.8](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/atlas-capabilities-76963317.webp "chart:owid-levelized-cost-of-energy")
 
 *Interactive figure 1.8: The levelized cost of energy (LCOE) accounts for everything, the cost of building the power plant, plus the ongoing costs in keeping it operational over the lifetime of the plant. The cost of energy generation per watt has been falling for decades, and even more dramatically for renewable sources ([Our World in Data, 2026](https://ourworldindata.org/grapher/levelized-cost-of-energy)).* ([Open the interactive version](https://ourworldindata.org/grapher/levelized-cost-of-energy?tab=line))
 
