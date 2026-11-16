@@ -1,3 +1,7 @@
+How this file works
+- The file name is the idea's name. The first paragraph is the learning outcome.
+- priority: high, medium or low. courses: the courses this idea belongs to.
+- Requires: ideas in this folder that must come first, one link per line. Leave the heading and no lines when there are none.
 ---
 id: <new uuid>
 priority: medium
