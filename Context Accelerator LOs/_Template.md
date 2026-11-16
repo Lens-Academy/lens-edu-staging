@@ -33,6 +33,7 @@ Paragraph answering "Why should I know this?" (e.g. what goes wrong if someone c
 - https://lesswrong.com/
 
 ## Questions
+%
 #### Question: Open
 id:: <new uuid>
 content:: The question, complete in itself.
