@@ -54,7 +54,7 @@ So, what does a good AI safety theory of change actually look like? This table m
 A useful strategy is backchaining: start by specifying the long-term goal, then work backwards. What has to change for this outcome to be possible? How does your project contribute to creating those conditions? Each link in the chain should be an if-then claim. If we publish this benchmark, then labs will adopt it. If labs adopt it, then training procedures will incorporate the findings. If training procedures change, then deployed models will be safer, and “safer” here has to mean something specific: reward hacking rates, deception probes, behavior under distribution shift.
 
 :::callout {title="Strategy: LLM Clarity Check" tone="blue"}
-A simple test to check if you are clear enough is to try explaining the project to an LLM. If, after your pitch, it still makes basic assumptions about what you are doing or why it matters wrong, your explanation is probably too fuzzy. And if the model is confused, people will likely be confused too.
+A simple test to check if you are clear enough is to try explaining the project to an LLM. If, after your pitch, it still gets basic assumptions about what you are doing or why it matters wrong, your explanation is probably too fuzzy. And if the model is confused, people will likely be confused too.
 :::
 
 :::callout {title="Strong Theories of Change" tone="neutral" collapse="closed"}
