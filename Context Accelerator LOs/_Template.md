@@ -4,7 +4,7 @@ priority: medium
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Clear description (sentence, paragraph, or) of what the student can do after learning this.
+Clear description (sentence, paragraph, or bullet list) of what the student can do after learning this.
 - Start with a verb (explain, distinguish, predict, apply).
 
 ## Requires
