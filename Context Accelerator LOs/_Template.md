@@ -4,7 +4,8 @@ priority: medium
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-One sentence: what the learner can do after this. Start with a verb (explain, distinguish, predict, apply).
+Clear description (sentence, paragraph, or) of what the student can do after learning this.
+- Start with a verb (explain, distinguish, predict, apply).
 
 ## Requires
 - [[Name of an idea that must come first]]
@@ -13,7 +14,7 @@ One sentence: what the learner can do after this. Start with a verb (explain, di
 - [[Name of an idea that helps but is not needed]]
 
 ## Why it matters
-One or two sentences: what goes wrong if someone cannot do this.
+Bullet list: what goes wrong if someone cannot do this.
 
 ## Learn
 - Start with [[../Lenses/Name of a lens|the words you want shown]].
