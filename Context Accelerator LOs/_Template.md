@@ -34,7 +34,7 @@ Paragraph answering "Why should I know this?" (e.g. what goes wrong if someone c
 
 ## Questions
 %%
-2-20 questions that 
+2-20 questions that can all be answered by someone who achie
 %%
 #### Question: Open
 id:: <new uuid>
