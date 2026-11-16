@@ -32,7 +32,7 @@ content::
 
 #### Video
 from:: 4:22.6
-to:: 13:32.5
+to:: 12:50
 skip:: 5:12.3-8:34.7 "Miles reads example problems from the dataset"
 
 #### Question: Open
