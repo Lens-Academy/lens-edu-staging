@@ -6,7 +6,7 @@ courses:
 ---
 Clear description (sentence, paragraph, or bullet list) of what the student can do after learning this.
 - Start with a verb (explain, distinguish, predict, apply).
-- Follows best practices of how learning o
+- Follows best practices of how learning outcomes should be written.
 
 ## Requires
 - [[Name of an idea that must come first]]
