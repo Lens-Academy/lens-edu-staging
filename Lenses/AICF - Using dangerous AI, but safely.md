@@ -57,6 +57,8 @@ content::
 from:: 12:50
 to:: 17:41.2
 
+#### Question: Open
+
 #### Text
 content::
 In the paper, the first protocol in this clip is called **upfront auditing**.
