@@ -14,12 +14,6 @@ How this file works
 - Questions: about 3 to 20, each "#### Question: Open" (or Choice, FillBlank, Ranking) with its own id. A flashcard shows a random one of them.
 - Files whose name starts with _ are left out of the concept map.
 %%
----
-id: <new uuid>
-priority: medium
-courses:
-  - "[[../courses/in-development/Context Accelerator]]"
----
 Clear description (sentence, paragraph, or bullet list) of what the student can do after learning this.
 - Start with a verb (explain, distinguish, predict, apply).
 - Follows best practices of how learning outcomes should be written.
