@@ -15,7 +15,7 @@ Clear description (sentence, paragraph, or bullet list) of what the student can 
 - [[Name of an idea that helps but is not needed]]
 
 ## Why it matters
-Bullet list: what goes wrong if someone cannot do this.
+PaBullet list: what goes wrong if someone cannot do this.
 
 ## Learn
 - Start with [[../Lenses/Name of a lens|the words you want shown]].
