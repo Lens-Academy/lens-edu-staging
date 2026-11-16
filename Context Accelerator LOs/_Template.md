@@ -1,3 +1,9 @@
+---
+id: <new uuid>
+priority: medium
+courses:
+  - "[[../courses/in-development/Context Accelerator]]"
+---
 %%
 How this file works
 - The file name is the idea's name. The first paragraph is the learning outcome.
