@@ -20,6 +20,7 @@ Paragraph answering "Why should I know this?" (e.g. what goes wrong if someone c
 ## Learn
 - Start with [[../Lenses/Name of a lens|the words you want shown]].
 - [[../Lenses/Name of another lens]]
+- https://lesswrong.com/
 
 ## Questions
 #### Question: Open
