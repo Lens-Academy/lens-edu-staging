@@ -42,13 +42,6 @@ assessment-instructions:: Score out of 100. 50: the red team builds an attack po
 force-feedback:: first
 feedback-instructions:: The learner just watched part of Robert Miles's video on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the relevant moment in the clip (where he introduces the red team's attack policy and the game of red versus blue). No follow-up question. No generic praise.
 
-#### Question: Open
-id:: 3794863c-f23b-460a-bf24-a5fe3bf18066
-content:: What do the usefulness score and the safety score measure?
-assessment-instructions:: Score out of 100. 50: usefulness: how much useful work the protocol gets done if the untrusted model is not trying anything, here how many programming problems get solved, scaled from what the trusted model alone achieves (0) to what the untrusted model achieves (100). 50: safety: if the untrusted model is trying to cause harm, how unlikely it is to succeed, here the chance that the red team never gets a backdoor through, the inverse of P(doom). The scaling detail is not required for full points. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Usefulness measures how much of the new model's benefit you keep if it is honest: how many problems get solved, from 0 (as good as GPT-3.5 alone) to 100 (as good as GPT-4). Safety measures how unlikely it is that the model gets a backdoor through if it is secretly the red team's attack policy, the inverse of P(doom). The two trade off against each other."
-force-feedback:: first
-feedback-instructions:: The learner just watched part of Robert Miles's video on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the relevant moment in the clip (where he defines usefulness and safety). No follow-up question. No generic praise.
-
 #### Text
 content::
 \## Part 3: the first protocols
@@ -58,6 +51,11 @@ from:: 12:50
 to:: 17:41.2
 
 #### Question: Open
+id:: 3794863c-f23b-460a-bf24-a5fe3bf18066
+content:: What do the usefulness score and the safety score measure?
+assessment-instructions:: Score out of 100. 50: usefulness: how much useful work the protocol gets done if the untrusted model is not trying anything, here how many programming problems get solved, scaled from what the trusted model alone achieves (0) to what the untrusted model achieves (100). 50: safety: if the untrusted model is trying to cause harm, how unlikely it is to succeed, here the chance that the red team never gets a backdoor through, the inverse of P(doom). The scaling detail is not required for full points. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Usefulness measures how much of the new model's benefit you keep if it is honest: how many problems get solved, from 0 (as good as GPT-3.5 alone) to 100 (as good as GPT-4). Safety measures how unlikely it is that the model gets a backdoor through if it is secretly the red team's attack policy, the inverse of P(doom). The two trade off against each other."
+force-feedback:: first
+feedback-instructions:: The learner just watched part of Robert Miles's video on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the relevant moment in the clip (where he defines usefulness and safety). No follow-up question. No generic praise.
 
 #### Text
 content::
