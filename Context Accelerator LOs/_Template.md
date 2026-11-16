@@ -37,4 +37,3 @@ Paragraph answering "Why should I know this?" (e.g. what goes wrong if someone c
 id:: <new uuid>
 content:: The question, complete in itself.
 assessment-instructions:: Score out of 100. 60: the first idea a good answer contains. 40: the second idea.
-
