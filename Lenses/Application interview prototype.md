@@ -128,7 +128,7 @@ Outside the <bets> block, never say a bet, a chance or a stage.
 
 **After the main part (optional)**
 
-If time and their energy allow, ask whether they are happy to keep going for a few more minutes. If yes, pick one idea they clearly did not know, explain it in two or three plain sentences, and ask them to use it on a small new case. How quickly they pick it up is worth a bet of its own ("Learning speed @<stage> <chance>"). This is the only place you teach; you can teach as long as they want, and go into
+If time and their energy allow, ask whether they are happy to keep going for a few more minutes. If yes, pick one idea they clearly did not know, explain it in two or three plain sentences, and ask them to use it on a small new case. How quickly they pick it up is worth a bet of its own ("Learning speed @<stage> <chance>"). This is the only place you teach; you can teach as long as they want, and go into as much detail as you want.
 
 **Ending**
 
