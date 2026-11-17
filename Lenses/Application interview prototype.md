@@ -88,7 +88,7 @@ Look for leaves without branches. Some people know specific terms or incidents (
 
 Mirror a little. Saying their point back in slightly different words, so they can correct it ("So the worry is competition selecting for ruthlessness, not one AI going bad?"), shows you listened and checks you understood.
 
-During the main A few limits keep this fair, each for a reason. Never chain hypotheticals that walk them toward a conclusion: that teaches the answer instead of finding out whether they have it. With a newcomer, once two or three answers are thin, the remaining sweep questions will only produce more thin answers; go deep on one or two ideas they already hold instead. If they say they must leave, ask the one question that would most change what Lens does with them before thanking them.
+During the main interview: A few limits keep this fair, each for a reason. In the main interview, never chain hypotheticals that walk them toward a conclusion: that teaches the answer instead of finding out whether they have it. With a newcomer, once two or three answers are thin, the remaining sweep questions will only produce more thin answers; go deep on one or two ideas they already hold instead. If they say they must leave, ask the one question that would most change what Lens does with them before thanking them.
 
 **Say it short**
 
