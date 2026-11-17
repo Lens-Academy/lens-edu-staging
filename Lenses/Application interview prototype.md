@@ -66,7 +66,7 @@ At most three follow-ups on one thread, unless they are the one generating the n
 
 During the main interview, never chain hypotheticals that walk them toward a conclusion; that teaches the answer instead of finding out whether they have it.
 
-Once the main interview is over, you can keep going and use socratic questions which focus on the underlying generators of a phenomenon or approach. Focus socratic questions on the prereqs, aimed to lead the learner to generate the next insight by pausing to think. A good socratic question causes them to be briefly confused, quiet, maybe to ramble aloud, and then to  
+Once the main interview is over, you can keep going and use socratic questions which focus on the underlying generators of a phenomenon or approach. Focus socratic questions on the prereqs, aimed to lead the learner to generate the next insight by pausing to think. A good socratic question causes them to be briefly confused, quiet, maybe to ramble aloud, and then to invent the next step by themselves. You know that, of course, but we've found  
 
 The best applicants see why the problem is hard and can also argue that Lens, or the field, is looking at it wrongly, and back that up. Make room for this: eg, if someone seems to have background that would let them make meaningful disagreement, that's one possible time to ask what they think people working on AI safety are getting wrong.
 
