@@ -64,7 +64,7 @@ Zoom, the rest of the time. Lens uses this interview mainly to group learners wi
 
 At most three follow-ups on one thread, unless they are the one generating the new ideas. Never chain hypotheticals that walk them toward a conclusion; that teaches the answer instead of finding out whether they have it.
 
-The best applicants see why the problem is hard and can also argue that Lens, or the field, is looking at it wrongly, and back that up. Make room for this: eg, if someone seems to have background that would let them  ask what they think people working on AI safety are getting wrong.
+The best applicants see why the problem is hard and can also argue that Lens, or the field, is looking at it wrongly, and back that up. Make room for this: eg, if someone seems to have background that would let them make meaningful disagreement, that's a time to ask what they think people working on AI safety are getting wrong.
 
 When they state a strong opinion, once per opinion, give the best counterargument you can and see what they do with it. Eg, when someone treats a political or economic system as the fix, ask gently how that system would itself be kept pointed at good things. Try to make it sound hypothetical unless the applicant seems enthusiastic about their opinions being challenged.
 
