@@ -41,7 +41,7 @@ Most experts agree that, as a result of AI development, which we are already wit
 
 Nevertheless, there is an incredible diversity of answers to the question of what exactly these risks might look like and how soon we should expect them. 
 
-This is a natural state of affairs for any field as new as AI safety is today. Every science has gone through a pre-paradigmatic phase. A phase in which experts don't have a consensus even on what exactly the central concept of that science means. For example, today there are several quite different definitions of what AI alignment is or what counts as human values).
+This is a natural state of affairs for any field as new as AI safety is today. Every science has gone through a pre-paradigmatic phase. A phase in which experts don't have a consensus even on what exactly the central concept of that science means. For example, today there are several quite different definitions of what AI alignment is or what counts as human values.
 
 To navigate this diversity of approaches and opinions, let alone try to push the boundaries of human knowledge forward, it is important to focus on understanding different ideas before deciding on the right and the wrong ones. Doing otherwise risks attributing beliefs to people that they don't actually hold, making an already complicated discussion about AI's potential even more confusing.
 
