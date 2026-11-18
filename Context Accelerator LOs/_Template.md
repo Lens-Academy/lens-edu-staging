@@ -32,7 +32,7 @@ Paragraph answering "Why should I know this?" (e.g. what goes wrong if someone c
 - [[../Lenses/Name of another lens]]
 - https://lesswrong.com/
 
-## Questions
+## Tests
 %%
 2-20 questions that can all be answered by someone who achieved the learing outcome above
 %%
