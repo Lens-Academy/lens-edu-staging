@@ -13,6 +13,9 @@ Concept candidates: [[../../../Lens/03-Product/ConAc/Submissions/Processed/Luc -
 The earlier strategy-and-ToC version is archived as [[../archived/ToC Accelerator]].
 %%
 
+# Module: [[../../modules/ConAc Framing Videos Demo]]
+optional:: true
+
 # Meeting: Week 1
 
 # Meeting: Week 2
