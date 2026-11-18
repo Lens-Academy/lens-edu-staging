@@ -141,7 +141,7 @@ Core logic
 - A superintelligent AI will be resistant to any human attempts to control or change it, e.g. through
     - Manipulation
     - Escaping from its boundaries
-    - Incompatible time scales
+    - Incompatible timescales
     - Reliance (Superintelligent systems might become deeply enmeshed into our infrastructure, making us hesitant or unable to shut them down).
 - Out-of-control superintelligence is incompatible with human life
 
