@@ -41,7 +41,7 @@ Nevertheless, there is an incredible diversity of answers to the question of wha
 
 To navigate this diversity of approaches and opinions, let alone try to push the boundaries of human knowledge forward, it is important to focus on deeply understanding different ideas before attempting to criticise them. Doing otherwise risks attributing beliefs to people that they don't actually hold, making an already complicated discussion about AI's potential even more confusing.
 
-We will start this module with what we think is a useful classification of existing views on the question *How different could the futures shaped by AI be?* We will look not only at *What are the main competing views?*, but also at *What assumptions underlie them?* This will allow us to analyse different positions by examining the assumptions and chains of reasoning behind them.
+We will start this module with what we think is a useful classification of existing views on the question *How different could the futures shaped by AI be?* *What are the main competing views?*, but also at *What assumptions underlie them?* This will allow us to analyse different positions by examining the assumptions and chains of reasoning behind them.
 
 A word of caution: like almost any classification, this one is neither rigorous nor exhaustive. The boundaries are fuzzy and the categories overlap. Nevertheless, we believe this one serves our purposes, so we will use it.
 
