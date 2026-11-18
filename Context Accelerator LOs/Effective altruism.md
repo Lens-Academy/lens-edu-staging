@@ -1,0 +1,132 @@
+---
+id: 9a6b0787-78f5-4c23-8f6d-06d37c84ab45
+priority: medium
+courses:
+  - "[[../courses/in-development/Context Accelerator]]"
+---
+Explain what effective altruism is, how it has funded and staffed much of the AI safety field, and the main controversies, from FTX to ties with AI companies, that shape how critics and supporters see it.
+
+## Requires
+
+## Helpful first
+
+## Why it matters
+Many AI safety funders, organizations and researchers have roots in effective altruism, and opponents of AI regulation often attack the field through it. Knowing what EA is and isn't, and which criticisms have substance, helps you weigh claims, explain your work to outsiders and avoid being dismissed by association.
+
+## Lenses
+
+## Tests
+
+#### Question: Choice
+id:: 01745b28-7fa7-4ada-b50e-f0f823de7f7a
+content:: Which description best fits effective altruism (EA)?
+options::
+- [x] A project of using evidence and reasoning to find how to help others most
+- A foundation that funds AI safety research and policy work
+- A movement that judges charities mainly by their overhead costs
+- A philosophy holding that people should give away most of their income
+shuffle:: true
+
+#### Question: Choice
+id:: d2f2eb27-195f-4476-a820-1ba95e810571
+content:: In effective altruism's way of comparing causes, why does a cause being neglected make it a higher priority, other things being equal?
+options::
+- [x] Extra resources usually achieve more where few people already work
+- Neglected problems are usually easier to solve
+- Neglected causes tend to be larger in scale
+- Neglected causes attract less public criticism
+shuffle:: true
+
+#### Question: Choice
+id:: ad97f165-b346-4b8d-8e4c-4dcbcf240e83
+content:: GiveWell, a charity evaluator closely tied to effective altruism, mainly recommends charities working in which area?
+options::
+- [x] Global health and poverty
+- AI safety research
+- Animal welfare
+- Pandemic preparedness
+shuffle:: true
+
+#### Question: Choice
+id:: 8789bc93-8a21-4287-af15-b1d99c26f7bf
+content:: Why do many people in effective altruism rank risk from advanced AI as a top cause area?
+options::
+- [x] They judge its stakes huge, the work neglected and progress possible
+- It has the strongest evidence from randomized controlled trials
+- Its harms are already well measured and growing quickly
+- Major donors made it a condition of joining the movement
+shuffle:: true
+
+#### Question: Choice
+id:: e125424c-0563-4570-95b2-e04f9f7b9477
+content:: How has 80,000 Hours, an organization linked to effective altruism, mainly shaped who works in AI safety?
+options::
+- [x] It gives career advice and ranks AI risk among the most pressing problems
+- It gives grants to AI safety researchers and labs
+- It runs safety evaluations of frontier AI models
+- It lobbies governments to fund AI safety jobs
+shuffle:: true
+
+#### Question: FillBlank
+id:: c211a5c6-3176-44c5-9279-d659af8a1599
+content:: Open Philanthropy, the EA-linked foundation that has long been the largest philanthropic funder of AI safety work, renamed itself {{Coefficient Giving}} in 2025.
+
+#### Question: Choice
+id:: 4390223d-8b57-4540-b9af-e7aa566a1a22
+content:: Which statement best describes the relationship between effective altruism and the AI safety field, as of November 2026?
+options::
+- [x] EA has been a major source of funding and staff, but much of the field sits outside EA
+- AI safety began inside EA and is still run mainly by EA organizations
+- EA has stayed out of AI safety to focus on global health and animal welfare
+- EA funding for AI safety ended after the FTX collapse in 2022
+shuffle:: true
+
+#### Question: Choice
+id:: 950afa15-1d03-45cc-8990-a664573e6a6d
+content:: Why did the 2022 collapse of the crypto exchange FTX damage effective altruism's reputation?
+options::
+- [x] Its founder, a prominent EA donor, was convicted of fraud
+- FTX had been owned and run by EA charities
+- EA groups had advised FTX on how to manage customer funds
+- FTX's losses came mainly from paying out EA grants
+shuffle:: true
+
+#### Question: Choice
+id:: f7014096-adee-4842-9060-8e8294b6f8c1
+content:: Why did OpenAI's brief removal of Sam Altman as CEO in November 2023 add to criticism of effective altruism?
+options::
+- [x] Board members behind it had EA ties, and critics framed it as EA influence over AI
+- EA donors had publicly demanded his removal beforehand
+- Altman had publicly attacked EA shortly before the vote
+- OpenAI's founding charter had been written by EA organizations
+shuffle:: true
+
+#### Question: Choice
+id:: 2eb0cc53-8cdf-4c49-9817-bb458623c57f
+content:: Some opponents of AI regulation call AI safety efforts an "EA" or "doomer" project. What does this framing usually imply?
+options::
+- [x] Concern about AI risk comes from a niche, well-funded movement, not broad expert opinion
+- Concern about AI risk is shared by most AI researchers and the public
+- AI safety proposals focus on present harms like bias and privacy
+- AI safety work is mostly funded and directed by governments
+shuffle:: true
+
+#### Question: Open
+id:: 990998bc-6bee-4923-a53f-a24f5aa9d944
+content:: Name two ways effective altruism has shaped the AI safety field.
+assessment-instructions:: Score out of 100. 50 points each for any two of: funding (e.g. Open Philanthropy, now Coefficient Giving); career advice and recruitment (e.g. 80,000 Hours); field-building programs and student groups; a talent pool that staffs safety teams, labs and policy organizations; spreading ideas about existential risk and longtermism. Vague answers ("it helped") get at most 25 each.
+
+#### Question: Open
+id:: 3a690e6a-df85-45ee-a1be-ba5974312879
+content:: What is "earning to give" in effective altruism, and why did the FTX collapse make it controversial?
+assessment-instructions:: Score out of 100. 50 for the definition: choosing a high-paying career in order to donate much of the income. 50 for the controversy: FTX's founder was a leading example, and his fraud raised worries that the idea can excuse ends-justify-means behaviour or make the movement depend on a few risky donors. Partial credit for either part alone.
+
+#### Question: Open
+id:: 6d0280c4-ad7a-4046-8e5a-d7d192a0428b
+content:: Effective altruism grew out of rigorous charity evaluation. Why do some critics see its focus on AI risk as a departure from that, and how do supporters reply?
+assessment-instructions:: Score out of 100. 50 for the critique: AI risk can't be measured with trials or hard data, so it rests on speculative reasoning about uncertain future events. 50 for the reply: careful expected-value reasoning still applies, and a small chance of a huge catastrophe can outweigh better-evidenced causes. Partial credit for either side alone.
+
+#### Question: Open
+id:: d3a7646d-02df-4c0e-a423-a8faea147a9a
+content:: Many people linked to effective altruism work at or fund frontier AI companies. Give one reason critics see this as a problem and one reason supporters give for it.
+assessment-instructions:: Score out of 100. 50 for a critic's reason, e.g. conflicts of interest between funders, researchers and companies; lending safety credibility to the race; speeding up capabilities. 50 for a supporter's reason, e.g. shaping safety practices from inside; safety research needs frontier access; better safety-minded people lead. Partial credit for vague answers.
