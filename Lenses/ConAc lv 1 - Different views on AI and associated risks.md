@@ -143,7 +143,7 @@ Core logic
     - Escaping from its boundaries
     - Incompatible timescales
     - Reliance (Superintelligent systems might become deeply enmeshed into our infrastructure, making us hesitant or unable to shut them down).
-- Out-of-control superintelligence is incompatible with human life
+- Out-of-control superintelligence is incompatible with [norn] human life
 
 #### Article
 source:: [[../articles/arxiv-the-three-main-doctrines-on-the-future-of-ai]]
