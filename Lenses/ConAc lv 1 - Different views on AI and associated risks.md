@@ -13,7 +13,7 @@ content::
 
 Most experts agree that, as a result of AI development, which we are already witnessing, the world will change drastically, and these potential changes are associated with substantial risks.
 
-In 2023, many experts and business leaders signed an open letter calling for a 6-month moratorium on AI experiments, attempting to buy time to set up governance and oversight systems, as well as develop protocols that would ensure "[that systems adhering to them are safe beyond a reasonable doubt](https://futureoflife.org/open-letter/pause-giant-ai-experiments/)". Signatories included Yoshua Bengio (Turing Award winner), Stuart Russell (UC Berkeley professor and AI pioneer), Max Tegmark (MIT professor), Steve Wozniak  (Apple co-founder), Elon Musk, and more than 30 thousand other people.
+In 2023, many experts and business leaders signed an open letter calling for a 6-month moratorium on AI experiments, attempting to buy time to set up governance and oversight systems, as well as develop protocols that would ensure "[that systems adhering to them are safe beyond a reasonable doubt](https://futureoflife.org/open-letter/pause-giant-ai-experiments/)". Signatories included Yoshua Bengio (Turing Award winner), Stuart Russell (UC Berkeley professor and AI pioneer), Max Tegmark (MIT professor), Steve Wozniak (Apple co-founder), Elon Musk, and more than 30 thousand other people.
 
 This pause was not enacted.
 
