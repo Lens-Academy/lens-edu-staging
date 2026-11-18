@@ -27,7 +27,7 @@ tags: [wip]
 
 # Module: [[../../modules/ET FG W8 - Final Presentations|Week 8: Final Presentations]]
 
-# Module: [[../../modules/ET FG Post-Program - Feedback and Certificate|Post-Program Feedback & Certificate]]
+# Module: [[../../modules/ET FG Post-Program - Feedback and Certificate|Post-Programme Feedback (Incredibly Appreciated)]]
 
 # Meeting: Weekly Facilitation Guides
 
