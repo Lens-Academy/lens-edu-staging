@@ -1,0 +1,109 @@
+---
+id: 727f4e7b-ff7c-479d-8634-ceb0b526d8f6
+priority: medium
+courses:
+  - "[[../courses/in-development/Context Accelerator]]"
+---
+Describe the main positions on whether advanced AI will be autonomous and goal-directed, and the arguments for each.
+
+## Requires
+- [[AI agents]]
+- [[Agents and goals]]
+
+## Helpful first
+
+## Why it matters
+Many AI risk arguments, such as instrumental convergence, assume AI systems that pursue goals over long periods. If AI stays tool-like, some of those arguments weaken; if pressures push toward agents, they apply in full. Knowing this debate helps you judge which risk arguments fit the systems actually being built.
+
+## Lenses
+
+## Tests
+
+#### Question: Choice
+id:: c0d5568b-e866-4f47-bb53-ce1976a6a651
+content:: One argument against relying on tool AI is that agent AIs will outcompete tool AIs. What is the core reasoning?
+options::
+- [x] Agents skip slow human approval steps, so competitors gain by deploying them.
+- Tool AIs are harder to train, so labs can't build them at scale.
+- Agents are easier to align, so labs choose them for safety reasons.
+- Tool AIs need more compute to run, so they cost more per task.
+shuffle:: true
+
+#### Question: Choice
+id:: 6e3e746f-d8fc-4251-b050-5b88e693f15c
+content:: Some argue that hard tasks reward consequentialist AI. What does "consequentialist" mean here?
+options::
+- [x] Choosing actions by their predicted effects on reaching an outcome
+- Following fixed rules whatever the results turn out to be
+- Taking only actions that a human approved in advance
+- Copying the actions humans took in similar situations
+shuffle:: true
+
+#### Question: Choice
+id:: c8d3c2f2-7983-4a24-9f79-7144cc38051d
+content:: A lab finds its model solves hard problems better after reinforcement learning that rewards task success. Why do some see this as a push toward agentic AI?
+options::
+- [x] Rewarding success selects for strategies that pursue outcomes over many steps.
+- Reinforcement learning makes models smaller and cheaper to deploy.
+- Reinforcement learning removes the need for human oversight in training.
+- Rewarding success makes models copy human-written answers more closely.
+shuffle:: true
+
+#### Question: Choice
+id:: ce019617-79dd-4b62-88f7-19349a9a2c90
+content:: In debates about whether AI will be agentic, which system is the best example of a "tool AI"?
+options::
+- [x] One that answers questions or proposes plans, while a human decides whether to act
+- One that manages a company's ad budget, adjusting spending by itself
+- A coding assistant that edits files, runs tests and submits changes unaided
+- A trading system that buys and sells shares within limits a human set
+shuffle:: true
+
+#### Question: Choice
+id:: 1e90fb8e-3b61-49c8-a810-6147b2e9921c
+content:: Critics say the line between tool AI and agent AI is easy to cross. Which observation supports this?
+options::
+- [x] A question-answering model can be put in a loop that acts on its own answers.
+- Tool AIs are trained on different data from agent AIs.
+- Agent systems use a different neural network architecture from tool systems.
+- Most tool AIs are closed-source, while most agents are open-source.
+shuffle:: true
+
+#### Question: Choice
+id:: 9df81023-be2f-4ccb-8834-9242f7c87c68
+content:: What does Eric Drexler's "Comprehensive AI Services" (CAIS) proposal claim?
+options::
+- [x] Superhuman capability could come from many bounded AI services, not one general agent.
+- Advanced AI should be one general agent overseen by a committee of humans.
+- AI services should be sold to governments rather than to companies.
+- Superintelligence will emerge from connecting human brains to AI services.
+shuffle:: true
+
+#### Question: Choice
+id:: e7b707fa-f1b3-4d53-bd92-8a9f93594d90
+content:: Tool AI proposals aim to reduce the risk of AI pursuing its own goals. Would keeping AI tool-like also remove the risk of people misusing it?
+options::
+- Yes
+- [x] No
+
+#### Question: Choice
+id:: c6b98a89-13a3-4dc9-87c6-4ed107fc9cf1
+content:: The economic argument for agentic AI says agents will be deployed because they are more useful than tools. If agents proved much less reliable than tool-style AI, would that weaken this argument?
+options::
+- [x] Yes
+- No
+
+#### Question: Open
+id:: 3a93acb1-4818-494a-9311-87aa5ab8aabc
+content:: What is the difference between an AI being autonomous and being goal-directed? Give an example of a system that has one without the other.
+assessment-instructions:: Score out of 100. Autonomous: acts without a human approving each step. Goal-directed: chooses actions to bring about outcomes. 100 for both definitions plus a valid example (e.g. a scripted bot running unattended is autonomous but barely goal-directed; a chess engine that only suggests moves is goal-directed but not autonomous). 50 for the distinction without a valid example.
+
+#### Question: Open
+id:: 8317ef1b-cc82-4378-bcee-abfe399008b1
+content:: In one or two sentences, state the case for building tool AI instead of agents: what it proposes and why it might reduce risk.
+assessment-instructions:: Score out of 100. Proposal: build AI that gives answers, advice or narrow services while humans decide and act. Why: systems without long-term goals of their own have less reason to seek power or resist correction, and humans stay in control of actions. 100 for both parts; 50 for one.
+
+#### Question: Open
+id:: 860d36e4-0f6d-4a22-94b8-701f9974cb77
+content:: One reply to "hard tasks require agentic AI" is that hard tasks can be split into small steps, each done by a narrow system and checked by humans. Give one weakness of this reply.
+assessment-instructions:: Score out of 100. 100 for any one of: someone or something must plan the split, which is itself agentic work; some tasks don't split cleanly; checking every step is slow, so competitors skip it; humans may rubber-stamp steps they can't evaluate; the combined system can behave like an agent as a whole. 50 for a vague answer such as "it might not work".
