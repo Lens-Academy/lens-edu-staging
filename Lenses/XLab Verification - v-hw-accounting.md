@@ -128,6 +128,7 @@ O'Gara, Aidan, Gabriel Kulp, Will Hodgkins, et al. "Hardware-Enabled Mechanisms 
 
 Feldgoise, Jacob, Kyle Miller, and Hanna Dohmen. "Tracking AI Chips: Assessing Location Verification as an Export Control Enforcement Tool." Issue brief, Center for Security and Emerging Technology, Sept. 2026. [cset.georgetown.edu](https://cset.georgetown.edu/publication/tracking-ai-chips/)
 *Compares seven location-verification methods for enforcing export controls on AI chips.*
+
 XLab. "2.1.3 Accounting for Hardware: Identity, Location, Topology, and Completeness." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-accounting)
 *The source lesson this page adapts.*
 :::
