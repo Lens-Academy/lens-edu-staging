@@ -179,7 +179,7 @@ content:: \### Dominance doctrine
 content::
 In The Situational Awareness, Leopold Aschenbrenner, a former OpenAI Superalignment researcher, argues that superintelligence could give its developers overwhelming military and economic power, making US leadership in the AI race a matter of national security.
 
-From AGI to Superintelligence: the Intelligence Explosion https://situational-awareness.ai/from-agi-to-superintelligence/#The_power_of_superintelligence
+From AGI to Superintelligence: the Intelligence Explosion 
 
 #### Article
 source:: [[../articles/ahead-ii-from-agi-to-superintelligence-the-intelligence-explosion]]
