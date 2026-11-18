@@ -15,7 +15,7 @@ Before we dive into the MIRI treaty, first read some provisions from the Practic
 
 \## How an Agreement Is Put Together
 
-\### [Practice Guide to International Treaties](https://www.eda.admin.ch/content/dam/eda/en/documents/publications/Voelkerrecht/Practice-Guide-to-International-Treatie-2023_EN.pdf)
+\### [Practice Guide to International Treaties](https://www.eda.admin.ch/en/publication?id=U3S1B7gHeC8q)
 Claude Schenker, Directorate of International Law, Swiss Federal Department of Foreign Affairs (2023)
 
 Review the following sections:
