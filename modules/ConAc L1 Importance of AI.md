@@ -6,4 +6,4 @@ tags:
   - wip
 ---
 # Lens:
-source:: [[../Lenses/ConAc lv 1 - Different views on AI and associated risks]]1 - Different views on AI and associated risks]]
+source:: [[../Lenses/ConAc lv 1 - Different views on AI and associated risks]]1
