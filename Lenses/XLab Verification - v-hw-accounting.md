@@ -90,6 +90,9 @@ Feldgoise, Miller and Dohmen compare seven location-verification methods as tool
 
 [Tracking AI Chips: Assessing Location Verification as an Export Control Enforcement Tool](https://cset.georgetown.edu/publication/tracking-ai-chips/)
 :::
+
+#### Text
+content::
 \#### Completeness
 
 The hardest claim is often negative: no relevant compute existed outside the declared system.
