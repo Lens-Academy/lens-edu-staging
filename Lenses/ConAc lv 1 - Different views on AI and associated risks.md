@@ -43,13 +43,6 @@ Nevertheless, there is an incredible diversity of answers to the question of wha
 
 This is a natural state of affairs for any field as new as AI safety is today. Every science has gone through a pre-paradigmatic phase, a phase in which experts don't have a consensus even on what exactly the central concept of that science means (for example, today there are several quite different definitions of what AI alignment is or what counts as human values).
 
-AI safety is a pre-paradigmatic field, which APA defines as:
-
-“a science at a primitive stage of development, before it has achieved a paradigm and established a consensus about the true nature of the subject matter and how to approach it.”
-
-In other words, there is no universally agreed-upon description of what the alignment problem is. Some would even describe the field as ‘non-paradigmatic’, where the field may not converge to a single paradigm given the nature of the problem that may never be definitely established. It’s not just that the proposed solutions garner plenty of disagreements, the nature of the problem itself is ill-defined and often disagreed among researchers in the field. Hence, the field is centered around various researchers / research organizations and their research agenda, which are built on very different formulations of the problem, or even a portfolio of these problems.
-
-
 To navigate this diversity of approaches and opinions, let alone try to push the boundaries of human knowledge forward, it is important to focus on understanding different ideas before deciding on the right and the wrong ones. Doing otherwise risks attributing beliefs to people that they don't actually hold, making an already complicated discussion about AI's potential even more confusing.
 
 We will start this module with what we think is a useful classification of existing views on the question *How different could the futures shaped by AI be?* 
