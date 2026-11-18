@@ -88,13 +88,23 @@ to:: as the extinction of the human species.
 
 #### Article
 source:: [[../articles/arxiv-the-three-main-doctrines-on-the-future-of-ai]]
-from:: The dominance doctrine predicts that the first
+from:: **The dominance doctrine**, which predicts that the first actor
+to:: "decisive strategic advantage" over all other actors;
+
+#### Article
+source:: [[../articles/arxiv-the-three-main-doctrines-on-the-future-of-ai]]
+from:: **The extinction doctrine**, which predicts
+to:: likely leading to its extinction or permanent disempowerment.
+
+#### Article
+source:: [[../articles/arxiv-the-three-main-doctrines-on-the-future-of-ai]]
+from:: **The replacement doctrine**, a broad umbrella
 to:: may overturn existing economic and geopolitical paradigms.
 
 #### Article
 source:: [[../articles/arxiv-the-three-main-doctrines-on-the-future-of-ai]]
 from:: Proponents of the dominance doctrine believe that
-to:: to human extinction or its permanent disempowerment.19
+to:: leading to human extinction or its permanent disempowerment.
 
 #### Text
 content::
@@ -106,13 +116,18 @@ Core logic:
 
 #### Article
 source:: [[../articles/arxiv-the-three-main-doctrines-on-the-future-of-ai]]
-from:: While the extinction doctrine largely agrees with
-to:: researchers (Yoshua Bengio, Georey Hinton, Ilya Sutskever).59
+from:: While the extinction doctrine largely agrees
+to:: permanent subjugation of all of humanity.
 
 #### Article
 source:: [[../articles/arxiv-the-three-main-doctrines-on-the-future-of-ai]]
-from:: A wide range of pathways have been theorized,
-to:: across all economic, political and social functions.
+from:: This doctrine is reflected in a statement published by the Center for AI Safety
+to:: (Yoshua Bengio, Geoffrey Hinton, Ilya Sutskever).
+
+#### Article
+source:: [[../articles/arxiv-the-three-main-doctrines-on-the-future-of-ai]]
+from:: A wide range of pathways to this outcome have been theorized
+to:: political and social functions.
 
 #### Article
 source:: [[../articles/arxiv-the-three-main-doctrines-on-the-future-of-ai]]
@@ -132,8 +147,8 @@ Core logic
 
 #### Article
 source:: [[../articles/arxiv-the-three-main-doctrines-on-the-future-of-ai]]
-from:: The replacement doctrine, a broad umbrella of
-to:: if only as capital holders and consumers.
+from:: **The replacement doctrine**, a broad umbrella
+to:: even if only as capital holders and consumers.
 
 #### Text
 content::
