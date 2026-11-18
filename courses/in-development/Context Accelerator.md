@@ -15,9 +15,6 @@ The earlier strategy-and-ToC version is archived as [[../archived/ToC Accelerato
 
 # Module: [[../../modules/ConAc How this course works]]
 
-# Module: [[../../modules/ConAc Framing Videos Demo]]
-optional:: true
-
 # Meeting: Week 1
 
 # Meeting: Week 2
