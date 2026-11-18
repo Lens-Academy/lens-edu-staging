@@ -5,8 +5,9 @@ tldr: "Read one text on how alignment problems are decomposed: training stories,
 summary_for_tutor: "Session 2 of worksheet A.1: alignment problem decompositions. Students read one of: training stories, reward misspecification, goal misgeneralization, or soft inductive biases (with emergent misalignment). Discussion prompts ask for examples of misspecification versus misgeneralization, what training stories fix about the inner/outer split, and what inductive biases explain generalization, including emergent misalignment."
 authors:
   - Leon Lang (Iliad)
+  - Margot Stakenborg
 source_url: https://iliad-intensive.org/alignment/ai-alignment-intro/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: '14ab6a4e04e32f4fb893a1df022f80313e2e5a23'
 upstream_key: "ai-alignment-intro#session-2-alignment-problem-decompositions"
 upstream_fingerprint: "JjY/198/1/03KW04W80BVs1SMf1Xw41vDS25H32CMC2I8A3Ora55OB56pC5IHG5YxB5liq6VaA6mOL7PeF7bTI7qqz7ryW8E4c8gXD92al9D2p9GGn9RTQ9nGq9nZJAElmAaNaBq09"
 synced_from:

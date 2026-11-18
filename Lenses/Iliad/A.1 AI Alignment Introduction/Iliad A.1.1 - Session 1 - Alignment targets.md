@@ -5,8 +5,9 @@ tldr: "Read one text on an alignment target (coherent extrapolated volition, int
 summary_for_tutor: "Session 1 of worksheet A.1: alignment targets. Students spend 25 minutes on one of four texts (CEV, intent alignment, Claude's constitution, corrigibility), then discuss in groups of 3-5. Prompts: which targets imply which others, which seem sufficient for safety (e.g. whether a corrigible system could cause catastrophic harm), and what other targets could exist."
 authors:
   - Leon Lang (Iliad)
+  - Margot Stakenborg
 source_url: https://iliad-intensive.org/alignment/ai-alignment-intro/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: '14ab6a4e04e32f4fb893a1df022f80313e2e5a23'
 upstream_key: "ai-alignment-intro#session-1-alignment-targets"
 upstream_fingerprint: "Zuk/129/1/1AsK1Xw42CMC2I8A3Msl3tUz4PNx5fd65wAu67Fo6Gvb6gXl6xhV7fKG8mMXBTiCBdL2C52QDvgUE0TCEPdoEhFNFlhbHsRnIIaHIfHLIy8YJMdgJW4EJc7LJoq5KbpS"
 synced_from:

@@ -5,8 +5,9 @@ tldr: "The day's learning goals for the alignment intro, and a short map of AI r
 summary_for_tutor: "Opening of worksheet A.1 AI Alignment Intro. It lists the day's goals (risk decomposition, alignment targets, training stories, goal-directedness, uncertain risks, timelines, the Hugging Face incident) and defines misalignment, misuse and systemic risks (AI-enabled coups, concentration of power, gradual disempowerment, loss of control). It points to the AISafety.com field map. The day asks: what behavior do we want, why would training produce it, and what can we infer from behavior."
 authors:
   - Leon Lang (Iliad)
+  - Margot Stakenborg
 source_url: https://iliad-intensive.org/alignment/ai-alignment-intro/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: '14ab6a4e04e32f4fb893a1df022f80313e2e5a23'
 upstream_key: "ai-alignment-intro#"
 upstream_fingerprint: "oGJibaubA/312/1/06YW07mV0FL40NRJ0ctt0lVu0lZu14eW1GDO1abg1rHc25WU2CMC2yjY3r4d3wmV40Bu4AE54FYi4JfJ4K6a4Ppw4QiO4avl4mkT4r0555OB5KCQ5Qaa5YxB5ZGA5oRB"
 synced_from:
