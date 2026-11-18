@@ -13,7 +13,7 @@ Find the cruxes of a disagreement, meaning the beliefs that would change a concl
 
 
 ## Why it matters
-https://youtu.be/hYI3ikRbKGE
+https://www.youtube.com/shorts/hYI3ikRbKGE
 
 Disagreements about AI risk often stall because people trade arguments that wouldn't change anyone's mind. If you can find the cruxes, you can spend your effort on the evidence that would actually move a conclusion, and learn what someone would need to see before changing their view.
 

@@ -13,7 +13,7 @@ Explain what s-risks are, how advanced AI could bring them about, and why some p
 
 
 ## Why it matters
-https://youtu.be/witfVCwlJAM
+https://www.youtube.com/shorts/witfVCwlJAM
 
 Some researchers and funders focus on s-risks, which leads them to different priorities, such as cooperation between AI systems, rather than only preventing extinction. Understanding the idea helps you follow these debates and see that making sure humanity survives is not the same as making sure the future goes well.
 

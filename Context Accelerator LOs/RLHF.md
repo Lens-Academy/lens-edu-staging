@@ -14,7 +14,7 @@ Explain how RLHF trains a model toward outputs people rate highly, using a rewar
 
 
 ## Why it matters
-https://youtu.be/wtOJF2KLEX4
+https://www.youtube.com/shorts/wtOJF2KLEX4
 
 As of 2026, RLHF and methods built on it shape how most chatbots behave, so they explain much of what you see, including flattery and confident errors. Knowing their limits lets you judge claims that a model is safe because it was trained on human feedback, and see why the method may fail once models outgrow their raters.
 

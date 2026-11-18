@@ -14,7 +14,7 @@ Explain what scheming is and how it relates to deceptive alignment, alignment fa
 
 
 ## Why it matters
-https://youtu.be/o0pRAaqJo00
+https://www.youtube.com/shorts/o0pRAaqJo00
 
 A scheming model would behave well whenever it thought it was being watched, so good results in training and testing would tell you little about its goals. Knowing the idea and the evidence for it helps you judge safety claims based on testing, and see why researchers also work on interpretability, monitoring and control.
 

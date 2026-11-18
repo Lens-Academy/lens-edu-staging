@@ -15,7 +15,7 @@ Describe the main kinds of proposed pause on frontier AI development, what each 
 - [[AI governance]]
 
 ## Why it matters
-https://youtu.be/rpi-Jey8oD4
+https://www.youtube.com/shorts/rpi-Jey8oD4
 
 Calls to pause frontier AI are a central and much-disputed demand in AI safety. If you know each side's best case, you can judge a specific proposal on its details and discuss it with people on both sides, instead of backing or dismissing "a pause" as a slogan.
 
