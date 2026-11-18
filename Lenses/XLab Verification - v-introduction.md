@@ -133,19 +133,15 @@ content::
 How fast is fast? Two charts from Our World in Data's [brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai) show the pace.
 
 **Timeline of notable AI systems**
-
 #### Widget
 source:: [[../widgets/short-history]]
-
 #### Text
 content::
 **Test scores of AI systems on various capabilities relative to human performance**
 
 Within each domain, the initial performance of the AI is set to minus 100. Human performance is used as a baseline, set to zero. When the AI's performance crosses the zero line, it scored more points than humans.
-
 #### Widget
 source:: [[../widgets/short-history-scores]]
-
 #### End Callout
 
 #### Text
