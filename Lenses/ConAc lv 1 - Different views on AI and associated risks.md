@@ -147,7 +147,7 @@ Core logic
 
 #### Article
 source:: [[../articles/arxiv-the-three-main-doctrines-on-the-future-of-ai]]
-from:: **The replacement doctrine**, a broad umbrella
+from:: A wide range of pathways
 to:: even if only as capital holders and consumers.
 
 #### Text
