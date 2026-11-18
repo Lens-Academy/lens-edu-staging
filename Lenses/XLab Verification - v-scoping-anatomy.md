@@ -70,7 +70,7 @@ content::
 Texas Legislative Council, Research Division. *Reading Statutes and Bills*. 85th Legislature. [tlc.texas.gov](https://tlc.texas.gov/docs/legref/readingabill.pdf)
 *A drafting office's short guide to reading legal text: how codes and statutes are organised, the parts of a statute and of a bill, tips for reading each, and three practice exercises.*
 
-Schenker, Claude. *Practice Guide to International Treaties*. Directorate of International Law, Swiss Federal Department of Foreign Affairs, 2023. [eda.admin.ch](https://www.eda.admin.ch/content/dam/eda/en/documents/publications/Voelkerrecht/Practice-Guide-to-International-Treatie-2023_EN.pdf)
+Schenker, Claude. *Practice Guide to International Treaties*. Directorate of International Law, Swiss Federal Department of Foreign Affairs, 2023. [eda.admin.ch](https://www.eda.admin.ch/en/publication?id=U3S1B7gHeC8q)
 *The Swiss drafting office's handbook: how a treaty is structured, how it is interpreted under the Vienna Convention, and model final clauses on signature, ratification, accession, entry into force, and withdrawal.*
 
 Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence." *arXiv*, Nov. 2025. [arxiv.org](https://arxiv.org/abs/2511.10783)
