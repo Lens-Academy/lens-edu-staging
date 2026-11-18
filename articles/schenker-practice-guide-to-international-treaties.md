@@ -2,7 +2,7 @@
 title: "Practice Guide to International Treaties"
 author:
   - "Claude Schenker"
-source_url: "https://www.eda.admin.ch/content/dam/eda/en/documents/publications/Voelkerrecht/Practice-Guide-to-International-Treatie-2023_EN.pdf"
+source_url: "https://www.eda.admin.ch/en/publication?id=U3S1B7gHeC8q"
 published: 2023
 created: 2026-09-04
 accessed: 2026-09-04
