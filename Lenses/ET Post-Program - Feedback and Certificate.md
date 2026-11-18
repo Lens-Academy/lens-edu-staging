@@ -59,11 +59,6 @@ content::
 source:: [[../widgets/et-accelerator-completion-code]]
 required:: true
 
-#### Question: Open
-id:: 61699c16-e699-419b-8f20-bf3c7e8d28d8
-content:: 6. Anything else you'd like to share with us? (Optional, not graded) A reflection, a thank you, a wish for future cohorts, or anything on your mind!
-optional:: true
-
 #### Text
 content::
 ---
