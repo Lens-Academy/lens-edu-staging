@@ -86,7 +86,7 @@ to:: How can this protocol be made compatible with desires for strong cybersecur
 #### Text
 content::
 :::callout {title="Optional: Tracking AI Chips (CSET, 2026)" tone="neutral"}
-[Tracking AI Chips: Assessing Location Verification as an Export Control Enforcement Tool](https://cset.georgetown.edu/publication/tracking-ai-chips/), CSET 2026.
+[Tracking AI Chips: Assessing Location Verification as an Export Control Enforcement Tool](https://cset.georgetown.edu/publication/tracking-ai-chips/), CSET (2026)
 
 Feldgoise, Miller and Dohmen compare seven location-verification methods as tools for enforcing export controls. They find two methods work best: ping-based location verification, which is the delay-timing method in the widget above, and physical inspections. The brief also discusses the Chip Security Act, a US bill that would require location verification for covered chips.
 :::
