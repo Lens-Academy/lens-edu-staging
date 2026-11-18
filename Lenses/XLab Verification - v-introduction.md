@@ -124,21 +124,24 @@ Source: [Pacing the Frontier](https://www.pacingthefrontier.com/), signatory com
 
 It’s clear that ASI is no longer a hypothetical risk. It will require deliberate and proactive action by labs and governments alike to avoid.
 
-\### Optional: A Short History of AI Acceleration
+#### Callout: Optional: A Short History of AI Acceleration
+tone:: neutral
+collapse:: closed
 
+#### Text
+content::
 How fast is fast? Two charts from Our World in Data's [brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai) show the pace.
+**Timeline of notable AI systems**
 
 #### Widget
 source:: [[../widgets/short-history]]
 
+**Test scores of AI systems on various capabilities relative to human performance**
+
 #### Widget
 source:: [[../widgets/short-history-scores]]
 
-#### Text
-content::
-**Test scores of AI systems on various capabilities relative to human performance.** Within each domain, the initial performance of the AI is set to minus 100. Human performance is used as a baseline, set to zero. When the AI's performance crosses the zero line, it scored more points than humans.
-
-Chart: Max Roser, [The brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai), Our World in Data, 6 Dec. 2022. Licensed CC BY 4.0; chart redrawn. Underlying data from Kiela et al., 2023.
+#### End Callout
 
 #### Text
 content::
