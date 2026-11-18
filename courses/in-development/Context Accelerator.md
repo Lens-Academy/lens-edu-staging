@@ -12,6 +12,7 @@ Luc's wishlist: [[../../../Lens/03-Product/ConAc/Submissions/Luc - Wishlist, AI-
 Concept candidates: [[../../../Lens/03-Product/ConAc/Submissions/Processed/Luc - Context Accelerator concept candidates (c-acc)]]
 The earlier strategy-and-ToC version is archived as [[../archived/ToC Accelerator]].
 %%
+
 # Module: [[../../modules/ConAc How this course works]]
 
 # Module: [[../../modules/ConAc Framing Videos Demo]]
