@@ -27,7 +27,7 @@ Clear description (sentence, paragraph, or bullet list) of what the student can 
 ## Why it matters
 Paragraph answering "Why should I know this?" (e.g. what goes wrong if someone cannot do this.)
 
-## Learn
+## Lenses
 - Start with [[../Lenses/Name of a lens|the words you want shown]].
 - [[../Lenses/Name of another lens]]
 - https://lesswrong.com/
