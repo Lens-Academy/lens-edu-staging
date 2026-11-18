@@ -137,7 +137,7 @@ content::
 Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence." *arXiv*, Nov. 2025. [arxiv.org](https://arxiv.org/abs/2511.10783)
 *MIRI's draft international agreement to prevent the premature creation of artificial superintelligence, the treaty text several lessons read against.*
 
-Schenker, Claude. *Practice Guide to International Treaties*. Directorate of International Law, Swiss Federal Department of Foreign Affairs, 2023. [eda.admin.ch](https://www.eda.admin.ch/content/dam/eda/en/documents/publications/Voelkerrecht/Practice-Guide-to-International-Treatie-2023_EN.pdf)
+Schenker, Claude. *Practice Guide to International Treaties*. Directorate of International Law, Swiss Federal Department of Foreign Affairs, 2023. [eda.admin.ch](https://www.eda.admin.ch/en/publication?id=U3S1B7gHeC8q)
 *The Swiss drafting office's handbook: how a treaty is structured, how it is interpreted under the Vienna Convention, and model final clauses on signature, ratification, accession, entry into force, and withdrawal.*
 
 XLab. "1.1 Anatomy of a (Pause) Agreement." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-anatomy)
