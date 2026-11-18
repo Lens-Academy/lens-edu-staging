@@ -19,46 +19,6 @@ You did it! 🎉 Thank you so much for guiding a cohort through the Effective Th
 
 Your honest reflections, about what worked, what didn't, and what you wish had been different, help us improve the Accelerator and better support the next Campus Directors and Facilitators. There are no right or wrong answers, and we read every response!
 
-#### Callout: Post-Program Form
-tone:: amber
-
-#### Text
-content::
-**Please fill in the post-program form to share your feedback, offboard from the program, and get your confirmation code.**
-
-If the form doesn't load for you, you can [open it in a new tab](<https://airtable.com/appwUI4Pc2NJPOfmZ/pagHeZnPA3oHwu5Zc/form>).
-
-#### Text
-content::
-Please fill in the [post-program feedback form](<https://airtable.com/appwUI4Pc2NJPOfmZ/pagHeZnPA3oHwu5Zc/form>).
-
-#### End Callout
-
-#### Question: Open
-id:: 01bfb133-4d3b-4bb4-b7fd-6071870bb89f
-content:: Enter the confirmation code shown after you submit the form above.
-placeholder:: Confirmation code
-
-#### Text
-content::
----
-
-\# ✅ Get Your Certificate
-
-To receive your certificate, please confirm you've submitted the form and enter the code you received at the end of it. 💛
-
-#### Question: Choice
-id:: e2710293-e6c8-4457-a3c0-524339fd0f5e
-content:: 1. Have you submitted the post-program form? If not yet, you can [open it here](https://airtable.com/appwUI4Pc2NJPOfmZ/pagHeZnPA3oHwu5Zc/form).
-options::
-- ✅ Yes, I've submitted the post-program form
-- Not yet (please complete it, as it's required for your certificate!)
-
-#### Question: Open
-id:: efbd3b64-4ec9-4fcd-b7bc-3801629de2d3
-content:: 2. Anything else you'd like to share with us? (Optional) A reflection, a thank you, a wish for future cohorts, or anything on your mind!
-optional:: true
-
 #### Text
 content::
 ---
