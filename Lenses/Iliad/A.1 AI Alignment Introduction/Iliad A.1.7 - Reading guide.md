@@ -5,8 +5,9 @@ tldr: "A reading guide that connects the day's topics: AI risks, alignment targe
 summary_for_tutor: "Reading guide of worksheet A.1. It summarizes risk types, alignment targets (CEV, intent alignment, constitution, corrigibility), training stories, outer versus inner alignment and goal misgeneralization, inductive biases and emergent misalignment, 'Reward is not the optimization target', goal-directedness and instrumental convergence, optimistic/intermediate/pessimistic views, AI 2027, and solution approaches (empirical, mathematical, philosophical, prosaic)."
 authors:
   - Leon Lang (Iliad)
+  - Margot Stakenborg
 source_url: https://iliad-intensive.org/alignment/ai-alignment-intro/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: '14ab6a4e04e32f4fb893a1df022f80313e2e5a23'
 upstream_key: "ai-alignment-intro#reading-guide"
 upstream_fingerprint: "7knV8XnQbCKItGcwzVXfGTl6tUnwU8bwmrHq/2590/1/01r002fr06Ri08pH0A1v0CG80FGm0OMq0Oqv0R0Q0RKd0UGk0fDJ0kW40prO0qPC0qbr0sUy0yGQ105b107f13D314vP165N16UU18nm19Fv1AJg1AVg1BDJ1BdG1DpL"
 synced_from:

@@ -7,7 +7,7 @@ partner-name: Iliad
 partner-logo: iliad-lockup.svg
 partner-logo-small: iliad-small.svg
 partner-url: https://www.iliad.ac/
-upstream_commit: '34011715880350ff1670ce0c9ca43a573eb441d0'
+upstream_commit: '14ab6a4e04e32f4fb893a1df022f80313e2e5a23'
 sync_rules: '2'
 ---
 # Module: [[../../modules/Iliad/Iliad A.1 - AI Alignment Introduction|A.1 AI Alignment Introduction]]

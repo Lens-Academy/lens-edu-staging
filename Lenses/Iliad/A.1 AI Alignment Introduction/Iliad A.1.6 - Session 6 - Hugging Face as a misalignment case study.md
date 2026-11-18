@@ -5,8 +5,9 @@ tldr: "Read an account of the Hugging Face incident and the explanation of train
 summary_for_tutor: "Session 6 of worksheet A.1: Hugging Face as a misalignment case study. Students pick one primary account (Hugging Face, OpenAI or METR). The explainer defines weights, context, the training pipeline (pretraining, SFT, preference/reward post-training, evaluation), rollout, benchmark, evaluation, scorer, sandbox, and capability versus safety evaluations. It then covers the incident layers and ties them to reward hacking, goal-directedness and corrigibility."
 authors:
   - Leon Lang (Iliad)
+  - Margot Stakenborg
 source_url: https://iliad-intensive.org/alignment/ai-alignment-intro/
-upstream_commit: '4acae5ba61c3018e73d89a7a7ae04c13c6203170'
+upstream_commit: '14ab6a4e04e32f4fb893a1df022f80313e2e5a23'
 upstream_key: "ai-alignment-intro#session-6-hugging-face-as-a-misalignment-case-study"
 upstream_fingerprint: "u974o1/197/1/2E0G2UbG2lSj2nx03VAF4JGG4VwV4hbQ4l8w4x5B5TSF5WTY5mdB5vWy6yOh70Rq7W9b7vCC81hV8O0JAEY3AWgrAsbZBVJXBZzhC64ICdR7DvyNDyyHE12JEaFGEmQv"
 synced_from:

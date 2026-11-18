@@ -5,8 +5,9 @@ tldr: "Further reading lists for the alignment intro: problem overviews, alignme
 summary_for_tutor: "Further reading section of worksheet A.1. It is a reference list grouped by topic (problem overviews, non-misalignment risks such as misuse, power concentration and gradual disempowerment, alignment targets, and more), with a one-line description for many items. These are optional pointers and not assigned work."
 authors:
   - Leon Lang (Iliad)
+  - Margot Stakenborg
 source_url: https://iliad-intensive.org/alignment/ai-alignment-intro/
-upstream_commit: '4acae5ba61c3018e73d89a7a7ae04c13c6203170'
+upstream_commit: '14ab6a4e04e32f4fb893a1df022f80313e2e5a23'
 upstream_key: "ai-alignment-intro#further-reading"
 upstream_fingerprint: "eZEbahnQbCKItGclLOv4dzD0I8r/2050/1/01rJ03KW04up07Cb0C470EE80FU50IB10K5i0Lmz0NVa0QsK0RJu0SKh0Seu0Xb60feA0gcW0jE00oPU0r2a0sUy0tI50v7G0y0C0yEO11sE139J165N16dE1ARD1CPB"
 synced_from:

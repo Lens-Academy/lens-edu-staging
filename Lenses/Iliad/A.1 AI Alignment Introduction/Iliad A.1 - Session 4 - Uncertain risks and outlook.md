@@ -5,8 +5,9 @@ tldr: "Read about Anthropic's core views on AI safety, model organisms of misali
 summary_for_tutor: "Session 4 of worksheet A.1: uncertain risks and outlook. Readings: Core views on AI safety (empiricism, frontier models, portfolio approach), Model organisms of misalignment (before 'Examples'), and The rocket alignment problem. Discussion asks whether the scenario is optimistic, intermediate or pessimistic, which model organisms appeared since 2023, whether the rocket analogy holds, and which safety approaches are most appealing."
 authors:
   - Leon Lang (Iliad)
+  - Margot Stakenborg
 source_url: https://iliad-intensive.org/alignment/ai-alignment-intro/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: '14ab6a4e04e32f4fb893a1df022f80313e2e5a23'
 upstream_key: "ai-alignment-intro#session-4-uncertain-risks-and-outlook"
 upstream_fingerprint: "aaq/201/1/0UQP0daq1Mpy1OzF1Xw41YLS1xjy2CMC2G3T2I8A39Ki3T6n3mXi4Hsu4JGG4QeJ5IHG5OEl5Qaa5YxB6rKs7aqc7hLs85P18IPA9nGqB2YvB3GaBZSTBsunC9bUCWOg"
 synced_from:

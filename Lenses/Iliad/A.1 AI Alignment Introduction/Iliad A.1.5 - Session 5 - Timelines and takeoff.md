@@ -5,8 +5,9 @@ tldr: "Read the 2025 and early-2026 parts of AI 2027, check which predictions ca
 summary_for_tutor: "Session 5 of worksheet A.1: timelines, takeoff and checking predictions. Students read the original 2025 and early-2026 passages of AI 2027, note which predictions held, judge future ones, then read the recent update from AI Futures. A 10-minute discussion asks whether the model surprised them and what they expect in the next 6 to 12 months. The learning goals also mention writing a forecast with a deadline and resolution rule."
 authors:
   - Leon Lang (Iliad)
+  - Margot Stakenborg
 source_url: https://iliad-intensive.org/alignment/ai-alignment-intro/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: '14ab6a4e04e32f4fb893a1df022f80313e2e5a23'
 upstream_key: "ai-alignment-intro#session-5-timelines-and-takeoff"
 upstream_fingerprint: "EJm/114/1/0dPT11KF1AsK1qDt1rHc21yD2CMC2Ihd2NLx2QjB3ckr3hEH3mYs5dyA5wAu7vbh8sqeB9JnBdZQCb4aCbT4DyyHF2lyGVwpGqmdIHLmIbhSJoq5LYLTM3e9MBqWN4CW"
 synced_from:

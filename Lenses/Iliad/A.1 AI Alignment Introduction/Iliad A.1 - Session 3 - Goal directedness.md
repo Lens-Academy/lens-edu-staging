@@ -5,8 +5,9 @@ tldr: "Read about whether humans will build goal-directed agents and about basic
 summary_for_tutor: "Session 3 of worksheet A.1: goal-directedness. Readings are 'Will humans build goal-directed agents?' and 'Basic AI drives' (abstract, intro, conclusion, each heading's argument). Discussion covers what type of agent today's LLM agents are, other convergent instrumental goals, the link between corrigibility and instrumental subgoals, and which instrumental-convergence claims need idealized optimization."
 authors:
   - Leon Lang (Iliad)
+  - Margot Stakenborg
 source_url: https://iliad-intensive.org/alignment/ai-alignment-intro/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: '14ab6a4e04e32f4fb893a1df022f80313e2e5a23'
 upstream_key: "ai-alignment-intro#session-3-goal-directedness"
 upstream_fingerprint: "bck/174/1/0LXc0SKh17uf1Jr71Lqg1Xw41vDS1vZU27b32AtN2CMC2I8A2kHJ2yjY3Ni43dLU4cdI54lB5IHG5ZGA6SPf6fR46mxi6nN97Ghz7vbh8NnR8Pym8QVW9gLEAS9fBhDD"
 synced_from:
