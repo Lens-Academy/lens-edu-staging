@@ -224,7 +224,7 @@ to:: when it’s clear you should *apply* the brakes”
 content:: \### The replacement doctrine
 
 #### Text
-content:: In A guide to understanding AI as normal Technology, Princeton researchers Arvind Narayanan and Sayash Kapoor argue that AI should be understood as a powerful technology whose societal effects depend largely on how people and institutions adopt and use it.
+content:: In *A guide to understanding AI as normal technology*, Princeton researchers Arvind Narayanan and Sayash Kapoor argue that AI should be understood as a powerful technology whose societal effects depend largely on how people and institutions adopt and use it.
 
 #### Article
 source:: [[../articles/narayanan-a-guide-to-understanding-ai-as-normal-technology]]
