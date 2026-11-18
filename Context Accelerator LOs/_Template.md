@@ -10,8 +10,8 @@ How this file works
 - priority: high, medium or low. courses: the courses this idea belongs to.
 - Requires: ideas in this folder that must come first, one link per line. Leave the heading and no lines when there are none.
 - Helpful first: optional. Ideas that help but are not needed.
-- Learn: links to lenses. A link can sit inside a sentence, and [[lens|other words]] shows other words instead of the lens title.
-- Questions: about 3 to 20, each "#### Question: Open" (or Choice, FillBlank, Ranking) with its own id. A flashcard shows a random one of them.
+- Lenses: links to lenses. A link can sit inside a sentence, and [[lens|other words]] shows other words instead of the lens title.
+- Tests: about 3 to 20 questions, each "#### Question: Open" (or Choice, FillBlank, Ranking) with its own id. A flashcard shows a random one of them.
 - Files whose name starts with _ are left out of the concept map.
 %%
 Clear description (sentence, paragraph, or bullet list) of what the student can do after learning this.
