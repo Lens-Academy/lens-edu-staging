@@ -16,7 +16,7 @@ The earlier strategy-and-ToC version is archived as [[../archived/ToC Accelerato
 # Module: [[../../modules/ConAc How this course works]]
 
 
-# Module: [[../../modules/ConAc L1 Importance of AI|Module 1: What AI Safety is]]
+# Module: [[../../modules/ConAc L1 M1 Importance of AI|Module 1: What AI Safety is]]
 # Meeting: Week 1
 
 # Module: [[../../modules/ConAc L1 M2 What success looks like|Module 2: What success looks like]]
