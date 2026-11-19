@@ -9,7 +9,7 @@ tags:
 slug:: m1-overview
 
 ## Lens:
-source:: [[../Lenses/ConAc M1 - In this module]]
+source:: [[../Lenses/ConAc L1 M1 - In this module]]
 
 # Submodule: 1.1 Different views on AI and associated risks
 slug:: m1-1-different-views
