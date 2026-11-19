@@ -20,6 +20,9 @@ source:: [[../Lenses/ConAc L1 M1 - Different views on AI and associated risks]]
 # Submodule: 1.2 Scaling laws
 slug:: m1-2-scaling-laws
 
+#### Text
+content::
+TBD
 # Submodule: 1.3 Intelligence explosion
 slug:: m1-3-intelligence-explosion
 
