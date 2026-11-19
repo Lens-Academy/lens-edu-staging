@@ -22,13 +22,13 @@ The earlier strategy-and-ToC version is archived as [[../archived/ToC Accelerato
 # Module: [[../../modules/ConAc L1 M2 What success looks like|Module 2: What success looks like]]
 # Meeting: Week 2
 
-# Module: [[../../modules/ConAc M3 Understanding the problem|Module 3: Understanding the problem]]
+# Module: [[../../modules/ConAc L1 M3 Understanding the problem|Module 3: Understanding the problem]]
 # Meeting: Week 3
 
-# Module: [[../../modules/ConAc M4 Existing approaches|Module 4: Existing approaches]]
+# Module: [[../../modules/ConAc L1 M4 Theories of change for existing approaches|Module 4: Theories of change for existing approaches]]
 # Meeting: Week 4
 
-# Module: [[../../modules/ConAc M5 AI Safety ecosystem|Module 5: AI Safety ecosystem]]
+# Module: [[../../modules/ConAc L1 M5 AI Safety ecosystem|Module 5: AI Safety ecosystem]]
 # Meeting: Week 5
 
 # Module: [[../../modules/ConAc M6 Ways to get involved|Module 6: Ways to get involved]]
