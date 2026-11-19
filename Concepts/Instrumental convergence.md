@@ -9,7 +9,7 @@ Why agents with almost any final goal tend to seek resources, power, self-preser
 
 
 ### [[../Lenses/Shut It All Down - Yudkowsky TED Talk]]
-Tier 3: Brief: killing humans is 'convergently implied' by almost any never-saturating goal, e.g. to stop rival superintelligences. Two or three sentences in the Q&A; it names the idea without developing it. dhdhdhdhd add these hehehe aididid eibibye
+Tier 3: Brief: killing humans is 'convergently implied' by almost any never-saturating goal, e.g. to stop rival superintelligences. Two or three sentences in the Q&A; it names the idea without developing it. dhdhdhdhd add these hehehe aididid eibibyeleld 
  
 ### [[../video_transcripts/machineintelligenceresearchinstitute-eliezer-yudkowsky-ai-alignment-why-its-hard-and-where-to-start]]
 Tier 2: Full talk's Toronto-or-Tokyo argument: paperclip and diamond maximizers share resource-seeking first steps. It stresses that convergent strategies are not new goals, and shows the broom building sub-agents to keep the cauldron full.
