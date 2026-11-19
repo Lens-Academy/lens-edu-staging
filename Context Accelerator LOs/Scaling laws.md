@@ -13,6 +13,8 @@ Explain why AI developers expect bigger training runs to give better models, and
 ## Helpful first
 
 ## Why it matters
+https://www.youtube.com/shorts/pO0onulviKc
+
 Many forecasts of when AI could match human experts assume that adding compute keeps making models more capable. If you know what scaling laws measure and where the evidence is disputed, you can judge those forecasts, see why companies spend so heavily on data centers, and tell whether news of a slowdown should change your timelines.
 
 ## Lenses
