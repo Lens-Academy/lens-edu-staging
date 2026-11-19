@@ -17,3 +17,6 @@ Tier 1: Theory of change for agent foundations: Goodhart breaks proxies, so we n
 
 ### [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Where to Start]]
 Tier 2: Methodological advice: ask how you'd solve it with unlimited compute, so ideas are precise enough to be refuted. Closing section of the excerpt, beside 'don't try to solve the whole problem' and 'don't defer thinking until later'; MIRI's rationale, stated briefly. The full talk motivates it at length (Poe on the Mechanical Turk, Shannon's chess algorithm).
+
+### [[../video_transcripts/machineintelligenceresearchinstitute-eliezer-yudkowsky-ai-alignment-why-its-hard-and-where-to-start]]
+Tier 2: Methodological advice: ask how you'd solve it with unlimited compute, so ideas are precise enough to be refuted. Closing section of the excerpt, beside 'don't try to solve the whole problem' and 'don't defer thinking until later'; MIRI's rationale, stated briefly. The full talk motivates it at length (Poe on the Mechanical Turk, Shannon's chess algorithm).
