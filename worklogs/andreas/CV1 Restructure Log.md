@@ -49,6 +49,8 @@ The plan this file carries out is [[CV1 Streamlining Proposal]]. Elias reviewed 
 
 **Stage 9 paused, 2026-11-01.** Andreas is holding stage 9 briefly, since it is likely to depend on the meeting doc text review, which he is resolving first. The work files (this log, the CV1 worklists and proposal, the two AIRF restructure files and the three meeting doc text review files) moved from the vault's top level to `worklogs/andreas` (A55). Every link to and from them still resolves.
 
+**Follow-ups, 2026-11-18.** While stage 9 waits, Andreas found three secondary effects: game theory terms the required Ross reading uses but does not define (Q27), a fact missing before Upstream and Downstream's first question (Q28, with a suggestion pending), and a chart box on unit 1's introduction that looks unlike the page's other boxes (Q29, not from this project).
+
 **Since the proposal.** Others changed CV1 between 2026-10-08 and 2026-10-20 (section 3). Two of those changes affect the plan. The unit 1 essays are now a choose-one group instead of two optional lenses, so one essay is required, which reopens decision 3. And every lens's time estimate was replaced on 2026-10-09, which fixes some of stage 1's misses but not the largest ones (section 6).
 
 **Where things are.**
