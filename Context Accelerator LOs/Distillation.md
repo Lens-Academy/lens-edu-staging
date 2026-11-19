@@ -12,6 +12,8 @@ Explain how distillation trains a smaller student model on the outputs of a larg
 ## Helpful first
 
 ## Why it matters
+https://www.youtube.com/shorts/Wtayoq3ysJY
+
 If a model's skills can be copied from its outputs, then guarding its weights and limiting chips will not by themselves keep a lead. Understanding distillation helps you judge how long a frontier advantage lasts, why AI companies police how their models are queried, and why safeguards may not survive copying.
 
 ## Lenses

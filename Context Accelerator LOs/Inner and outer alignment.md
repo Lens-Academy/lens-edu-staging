@@ -13,6 +13,8 @@ Tell apart failures of outer alignment (the training objective doesn't capture w
 ## Helpful first
 
 ## Why it matters
+https://www.youtube.com/shorts/HBZpiQVqxV0
+
 Researchers often sort alignment problems and proposed fixes by which half they address. With the split in mind, you can see what a proposal such as better reward design leaves unsolved: even a perfect objective doesn't settle which goal training actually put into the model.
 
 ## Lenses

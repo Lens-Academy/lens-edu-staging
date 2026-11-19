@@ -12,6 +12,8 @@ Explain why a measurable stand-in for a goal that works under light pressure ten
 - [[Intelligence as optimization]]
 
 ## Why it matters
+https://www.youtube.com/shorts/clWbMwUkaHs
+
 AI systems are trained and judged on measurable stand-ins: reward signals, benchmarks, human ratings. A learner who expects a proxy that works today to keep working as systems grow more capable will misjudge the risk of reward hacking. Goodhart's law explains why stronger optimization makes these failures more likely, not less.
 
 ## Lenses
