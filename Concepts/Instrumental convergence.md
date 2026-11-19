@@ -7,9 +7,6 @@ Why agents with almost any final goal tend to seek resources, power, self-preser
 
 ## Relationships
 
-### [[../Lenses/PASTA AI]]
-
-hello world
 
 ### [[../Lenses/Shut It All Down - Yudkowsky TED Talk]]
 Tier 3: Brief: killing humans is 'convergently implied' by almost any never-saturating goal, e.g. to stop rival superintelligences. Two or three sentences in the Q&A; it names the idea without developing it. 
