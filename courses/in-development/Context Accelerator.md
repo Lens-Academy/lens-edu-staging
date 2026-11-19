@@ -31,7 +31,7 @@ The earlier strategy-and-ToC version is archived as [[../archived/ToC Accelerato
 # Module: [[../../modules/ConAc L1 M5 AI Safety ecosystem|Module 5: AI Safety ecosystem]]
 # Meeting: Week 5
 
-# Module: [[../../modules/ConAc M6 Ways to get involved|Module 6: Ways to get involved]]
+# Module: [[../../modules/ConAc L1 M6 Hight-impact carreer strategies and expectations|Module 6: Hight-impact carreer strategies and expectations]]
 
 
 # Module: [[../../modules/ConAc AI Safety Term Groups]]
