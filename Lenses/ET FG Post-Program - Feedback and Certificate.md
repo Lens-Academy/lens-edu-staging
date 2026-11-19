@@ -34,11 +34,6 @@ Please fill in the [post-program feedback form](<https://airtable.com/appwUI4Pc2
 
 #### End Callout
 
-#### Question: Open
-id:: 01bfb133-4d3b-4bb4-b7fd-6071870bb89f
-content:: Enter the confirmation code shown after you submit the form above.
-placeholder:: Confirmation code
-
 #### Text
 content::
 ---
