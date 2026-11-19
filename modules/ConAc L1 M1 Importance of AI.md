@@ -27,8 +27,16 @@ TBD
 # Submodule: 1.3 Intelligence explosion
 slug:: m1-3-intelligence-explosion
 
+#### Text
+content::
+TBD
 # Submodule: 1.4 AI timelines
 slug:: m1-4-ai-timelines
 
+#### Text
+content::
+TBD
 # Submodule: 1.5 Why people disagree
-slug:: m1-5-why-people-disagree
+#### Text
+content::
+TBD
