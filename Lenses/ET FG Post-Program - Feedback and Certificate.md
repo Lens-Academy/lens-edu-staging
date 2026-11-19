@@ -55,9 +55,9 @@ options::
 - Not yet (please complete it, as it's required for your certificate!)
 
 #### Question: Open
-id:: efbd3b64-4ec9-4fcd-b7bc-3801629de2d3
-content:: 2. Anything else you'd like to share with us? (Optional) A reflection, a thank you, a wish for future cohorts, or anything on your mind!
-optional:: true
+id:: 01bfb133-4d3b-4bb4-b7fd-6071870bb89f
+content:: Enter the confirmation code shown after you submit the form above.
+placeholder:: Confirmation code
 
 #### Text
 content::
