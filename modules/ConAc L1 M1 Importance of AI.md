@@ -15,7 +15,7 @@ source:: [[../Lenses/ConAc M1 - In this module]]
 slug:: m1-1-different-views
 
 ## Lens:
-source:: [[../Lenses/ConAc lv 1 - Different views on AI and associated risks]]
+source:: [[../Lenses/ConAc L1 M1 - Different views on AI and associated risks]]
 
 # Submodule: 1.2 Scaling laws
 slug:: m1-2-scaling-laws
