@@ -5,5 +5,83 @@ title: "Importance of AI"
 tags:
   - wip
 ---
-# Lens:
+# Submodule: Module 1 overview
+slug:: m1-overview
+
+## Lens: Module 1 overview
+id:: 52fe2696-d1a6-4bea-be89-2d0f15b1bca3
+
+#### Text
+content::
+TBD
+
+# Submodule: 1.1 Different views on AI and associated risks
+slug:: m1-1-different-views
+
+## Lens:
 source:: [[../Lenses/ConAc lv 1 - Different views on AI and associated risks]]
+
+%% Если примеры доктрин выносим в отдельную линзу, она встаёт сюда:
+## Lens:
+source:: [[../Lenses/ConAc lv 1 - The doctrines in their authors' words]]
+%%
+
+# Submodule: 1.2 Scaling laws
+slug:: m1-2-scaling-laws
+
+## Lens: Scaling laws
+id:: 46c67877-f01a-43f7-ae4d-747ad18e86a7
+
+#### Callout: In this submodule
+collapse:: closed
+
+#### Text
+content::
+TBD
+
+#### End Callout
+
+# Submodule: 1.3 Intelligence explosion
+slug:: m1-3-intelligence-explosion
+
+## Lens: Intelligence explosion
+id:: 88d6d323-3ca1-4a2c-95f3-f84f678f4778
+
+#### Callout: In this submodule
+collapse:: closed
+
+#### Text
+content::
+TBD
+
+#### End Callout
+
+# Submodule: 1.4 AI timelines
+slug:: m1-4-ai-timelines
+
+## Lens: AI timelines
+id:: 992f377b-8884-40a4-80ee-8d3d23f118e9
+
+#### Callout: In this submodule
+collapse:: closed
+
+#### Text
+content::
+TBD
+
+#### End Callout
+
+# Submodule: 1.5 Why people disagree
+slug:: m1-5-why-people-disagree
+
+## Lens: Why people disagree
+id:: 922fbb07-05a3-4dd3-941a-0e1949641e0b
+
+#### Callout: In this submodule
+collapse:: closed
+
+#### Text
+content::
+TBD
+
+#### End Callout
