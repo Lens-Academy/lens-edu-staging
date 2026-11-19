@@ -23,6 +23,7 @@ slug:: m1-2-scaling-laws
 #### Text
 content::
 TBD
+
 # Submodule: 1.3 Intelligence explosion
 slug:: m1-3-intelligence-explosion
 
