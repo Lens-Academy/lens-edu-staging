@@ -8,12 +8,26 @@ tags:
 # Submodule: Module 1 overview
 slug:: m1-overview
 
-## Lens: Module 1 overview
-id:: 52fe2696-d1a6-4bea-be89-2d0f15b1bca3
+## Lens:
+source:: [[../Lenses/ConAc M1 - In this module]]
 
-#### Text
-content::
-TBD
+# Submodule: 1.1 Different views on AI and associated risks
+slug:: m1-1-different-views
+
+## Lens:
+source:: [[../Lenses/ConAc lv 1 - Different views on AI and associated risks]]
+
+# Submodule: 1.2 Scaling laws
+slug:: m1-2-scaling-laws
+
+# Submodule: 1.3 Intelligence explosion
+slug:: m1-3-intelligence-explosion
+
+# Submodule: 1.4 AI timelines
+slug:: m1-4-ai-timelines
+
+# Submodule: 1.5 Why people disagree
+slug:: m1-5-why-people-disagree
 
 # Submodule: 1.1 Different views on AI and associated risks
 slug:: m1-1-different-views
