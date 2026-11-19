@@ -8,7 +8,7 @@ Why agents with almost any final goal tend to seek resources, power, self-preser
 ## Relationships
 
 ## ...how to make cookies
-Hmm, these things 
+Hmm, these things are nto really related.
 
 
 ### [[../Lenses/Shut It All Down - Yudkowsky TED Talk]]
