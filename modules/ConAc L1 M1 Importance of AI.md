@@ -37,6 +37,8 @@ slug:: m1-4-ai-timelines
 content::
 TBD
 # Submodule: 1.5 Why people disagree
+slug:: m1-5-why-people-disagree
+
 #### Text
 content::
 TBD
