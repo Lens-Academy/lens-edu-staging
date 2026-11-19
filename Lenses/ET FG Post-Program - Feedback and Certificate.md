@@ -1,8 +1,8 @@
 ---
 id: 'f81fb4ff-8d50-4110-9721-1341e954ba4d'
-title: "Post-Programme Feedback (Incredibly Appreciated)"
-tldr: "Fill in the post-program form to share your feedback and offboard as a Campus Director or Facilitator."
-summary_for_tutor: "The final lens of the Accelerator Facilitator Guide. Campus Directors and Facilitators open the Airtable post-program form from a link on the page to give feedback and offboard. The form is at https://airtable.com/appwUI4Pc2NJPOfmZ/pagHeZnPA3oHwu5Zc/form"
+title: "Post-Program Feedback & Certificate"
+tldr: "Fill in the post-program form to share your feedback, offboard as a Campus Director or Facilitator, and get the confirmation code for your certificate."
+summary_for_tutor: "The final lens of the Accelerator Facilitator Guide. Campus Directors and Facilitators fill in an embedded Airtable post-program form to give feedback and offboard. At the end of the form they receive a confirmation code, which they enter in the question below the form to receive their certificate. If the form does not load, they can open it directly at https://airtable.com/appwUI4Pc2NJPOfmZ/pagHeZnPA3oHwu5Zc/form"
 reading_minutes: 2
 tutor_minutes: 0
 tags: [wip]
