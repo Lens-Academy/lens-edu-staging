@@ -19,21 +19,33 @@ application-survey:: [[../../surveys/Application Form]]
 
 
 # Module: [[../../modules/ConAc L1 M1 Importance of AI|Module 1: What AI Safety is]]
+# Module: [[../../modules/ConAc L2 M1 Importance of AI|Module 1, level 2: What AI Safety is]]
+# Module: [[../../modules/ConAc L3 M1 Importance of AI|Module 1, level 3: What AI Safety is]]
 # Meeting: Week 1
 
 # Module: [[../../modules/ConAc L1 M2 What success looks like|Module 2: What success looks like]]
+# Module: [[../../modules/ConAc L2 M2 What success looks like|Module 2, level 2: What success looks like]]
+# Module: [[../../modules/ConAc L3 M2 What success looks like|Module 2, level 3: What success looks like]]
 # Meeting: Week 2
 
 # Module: [[../../modules/ConAc L1 M3 Understanding the problem|Module 3: Understanding the problem]]
+# Module: [[../../modules/ConAc L2 M3 Understanding the problem|Module 3, level 2: Understanding the problem]]
+# Module: [[../../modules/ConAc L3 M3 Understanding the problem|Module 3, level 3: Understanding the problem]]
 # Meeting: Week 3
 
 # Module: [[../../modules/ConAc L1 M4 Theories of change for existing approaches|Module 4: Theories of change for existing approaches]]
+# Module: [[../../modules/ConAc L2 M4 Theories of change for existing approaches|Module 4, level 2: Theories of change for existing approaches]]
+# Module: [[../../modules/ConAc L3 M4 Theories of change for existing approaches|Module 4, level 3: Theories of change for existing approaches]]
 # Meeting: Week 4
 
 # Module: [[../../modules/ConAc L1 M5 AI Safety ecosystem|Module 5: AI Safety ecosystem]]
+# Module: [[../../modules/ConAc L2 M5 AI Safety ecosystem|Module 5, level 2: AI Safety ecosystem]]
+# Module: [[../../modules/ConAc L3 M5 AI Safety ecosystem|Module 5, level 3: AI Safety ecosystem]]
 # Meeting: Week 5
 
 # Module: [[../../modules/ConAc L1 M6 Hight-impact carreer strategies and expectations|Module 6: Hight-impact carreer strategies and expectations]]
+# Module: [[../../modules/ConAc L2 M6 High-impact career strategies and expectations|Module 6, level 2: High-impact career strategies and expectations]]
+# Module: [[../../modules/ConAc L3 M6 High-impact career strategies and expectations|Module 6, level 3: High-impact career strategies and expectations]]
 
 
 # Module: [[../../modules/ConAc AI Safety Term Groups]]
