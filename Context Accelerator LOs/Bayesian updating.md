@@ -14,27 +14,21 @@ Update your confidence in a claim by asking how much more likely the evidence is
 Debates about AI progress and risk are full of evidence that sounds striking but may be nearly as likely whichever view is right. Asking how strongly evidence favours one view over another helps you shift your beliefs by the right amount, instead of overreacting to headlines or ignoring real warning signs.
 
 ## Lenses
+- [The Medical Test Paradox, and Redesigning Bayes' Rule (3Blue1Brown)](https://www.youtube.com/watch?v=lG4VkPoG3ko): why a positive result from an accurate test can still leave you unlikely to be sick, and the fix: write your prior as odds and multiply by the Bayes factor, once for each new test (December 2020).
+- [[../Lenses/HftS - How Much Evidence Does It Take|How Much Evidence Does It Take?]]: independent pieces of evidence multiply the odds, and the less likely a claim starts out, the more evidence it takes to make it probable.
+- [[../Lenses/HftS - Absence of Evidence Is Evidence of Absence|Absence of Evidence Is Evidence of Absence]]: if finding a sign would raise your belief, not finding it must lower it, by an amount set by how likely you were to find it.
+- [0 and 1 Are Not Probabilities (LessWrong)](https://www.lesswrong.com/posts/QGkYCwyC7wTDyt3yT/0-and-1-are-not-probabilities): in odds terms, certainty is infinitely far away, so a belief at 0% or 100% could never be moved by any finite evidence (January 2008).
 
 ## Tests
 
 #### Question: Choice
-id:: 4e9055de-9a83-44fa-a01b-70f375eb6779
-content:: In Bayesian updating, what determines how strongly a piece of evidence favours one hypothesis over another?
+id:: b0dc50a2-a419-4023-addf-7ef3e09788e4
+content:: A test for deceptive AI models flags 90% of deceptive models and 9% of honest ones. Only 1% of tested models are deceptive. Why are most flagged models nonetheless honest?
 options::
-- [x] How much more likely the evidence is under one hypothesis than the other
-- How likely the evidence is under the hypothesis you currently favour
-- How surprising or memorable the evidence feels when you first see it
-- How confident you were in each hypothesis before seeing it
-shuffle:: true
-
-#### Question: Choice
-id:: 06e4c345-d8a5-405f-a9fe-a04df0fa979a
-content:: A test for deceptive AI models flags 90% of deceptive models and 9% of honest ones. If 1% of tested models are deceptive, roughly what share of flagged models are deceptive?
-options::
-- [x] About 9%
-- About 50%
-- About 81%
-- About 90%
+- [x] Honest models are so common that their false flags outnumber the true ones
+- The test misses one deceptive model in ten, so many true flags are lost
+- A 9% false-alarm rate makes most flags wrong whatever the mix of models
+- Honest models trip the test more often than its stated rates suggest
 shuffle:: true
 
 #### Question: FillBlank

@@ -14,9 +14,12 @@ Explain the main reasons to doubt that today's safety methods, and evidence from
 - [[Aligned behavior so far]]
 
 ## Why it matters
-Most safety methods are tested on models weaker than the systems they are meant to protect against. If you can judge whether a method is likely to carry over, you can tell which reassurances about current models matter for the future, and which research plans rest on assumptions that may fail.
+Safety methods are tested on models weaker than the systems they must eventually handle, and AI is already speeding up AI research, so stronger systems may come soon. Judging whether a method will carry over tells you which reassurances about current models matter, and which research plans rest on assumptions that may fail.
 
 ## Lenses
+- [[../articles/ahead-iiic-superalignment|Superalignment]]: Leopold Aschenbrenner, formerly of OpenAI's Superalignment team, on why RLHF breaks down for superhuman AI, the research bets (scalable oversight, weak-to-strong generalization, interpretability) and the plan to have each AI generation automate alignment for the next; read "The problem" and "The default plan" (May 2024).
+- [[../Lenses/The Case Against AI Control Research|The Case Against AI Control Research]]: John Wentworth argues that early AI will produce alignment "solutions" that look fine but can't be checked, that prosaic methods won't generalize to superintelligence, and that a chain of AI generations has the same problem at every step; one side of a live debate (January 2025).
+- [[../Lenses/Interpretability Will Not Reliably Find Deceptive AI|Interpretability Will Not Reliably Find Deceptive AI]]: Neel Nanda on why neither interpretability nor black-box tests will give reliable safeguards for superintelligence, and why methods that only work on pre-superintelligent systems are still worth building (2025).
 
 ## Tests
 
@@ -41,23 +44,23 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: acf0326c-300a-4c63-aff9-004ff94c8b4b
-content:: In the "sharp left turn" argument, an AI's capabilities suddenly generalize far beyond the situations it was trained on. What does the argument say happens to its alignment?
+id:: ab44bfda-035e-4fc6-80a8-0ae0c4042b7c
+content:: Some researchers worry that when an AI's capabilities suddenly extend far beyond its training (a "sharp left turn"), its alignment won't keep up. What is the main reasoning?
 options::
-- [x] It generalizes less far, so the AI's goals stop matching what was intended
-- It generalizes further than its capabilities, making the AI overly cautious
-- It is lost because new skills overwrite the AI's earlier training
-- It becomes easier to check, because the AI's reasoning becomes more structured
+- [x] Almost any task rewards better general skills, but nothing similarly rewards the intended goals
+- Alignment training is only applied to small models and then copied to larger ones
+- Aligned behavior is stored in a few parameters, so it is the first thing disrupted
+- Training data for alignment runs out long before data for capabilities does
 shuffle:: true
 
 #### Question: Choice
-id:: 5b85a456-fd43-4072-9940-f2432267a0a0
-content:: Weak-to-strong generalization research trains a strong model using labels from a much weaker model, and measures whether the strong model ends up better than its supervisor. Why is this used as a stand-in for aligning superhuman AI?
+id:: 2a9c81fb-ce8b-45f6-b3b2-6c438e80f43a
+content:: Weak-to-strong generalization research has a strong model learn from labels made by a much weaker model, as a stand-in for humans supervising superhuman AI. Why might good results here overstate how well this would work on real superhuman AI?
 options::
-- [x] Humans supervising superhuman AI would be the weaker supervisor
-- Strong models are cheaper to train when given weak labels
-- Weaker models are more aligned, so their values pass to the strong model
-- It tests whether strong models can be compressed into weaker ones
+- [x] Today's strong models learned their skills from human data; superhuman skills wouldn't come from there
+- The weak supervisors get far more training data than human supervisors would have
+- The experiments used only image tasks, which are easier to supervise than language tasks
+- Labels from weak models are more accurate than labels from human supervisors
 shuffle:: true
 
 #### Question: Choice
@@ -75,8 +78,8 @@ id:: 32798769-65e4-43d2-bd75-a3f30f4cf9a7
 content:: Some researchers argue that today's alignment methods don't need to work on superintelligence directly. What is the usual reasoning behind this view?
 options::
 - [x] Each trusted AI generation can help align and check a slightly stronger successor
-- A superintelligent system will align itself once it understands human values
-- AI capabilities will level off before systems become much smarter than humans
+- A superintelligent system will work out human values and adopt them on its own
+- Superintelligent systems will be kept offline, so their alignment matters less
 - Regulation will keep deployed AI at roughly human level
 shuffle:: true
 
@@ -86,7 +89,7 @@ content:: A dangerous-capability evaluation finds that a model can't complete a 
 options::
 - [x] The model may recognize the test and deliberately underperform
 - Test tasks leak into training data and inflate the model's scores
-- Larger models answer multiple-choice questions more randomly
+- More capable models are tested on fewer tasks, so results are noisier
 - Benchmark scores stop rising once models pass human level
 shuffle:: true
 
@@ -95,7 +98,7 @@ id:: 8aefa7d5-e1e4-4fc1-a608-8ffc983b772e
 content:: Interpretability research tries to understand a model by studying its internal computations. Why might methods that work on current models be harder to apply to far more capable ones?
 options::
 - [x] Their internal concepts may be ones humans have no words or intuitions for
-- Their activations turn into random noise at large scale
+- Capable models stop forming internal concepts, so there is nothing to find
 - They will no longer be built from neural network weights
 - The methods require the model's training data to be made public
 shuffle:: true

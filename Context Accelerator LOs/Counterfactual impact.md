@@ -94,12 +94,12 @@ options::
 - [x] The value of what the philanthropist funds instead
 - The full value of the project you funded
 - Zero, since the project would have been funded anyway
-- The project's value minus the philanthropist's other grants
+- Half the project's value, since you and the philanthropist share the credit
 shuffle:: true
 
 #### Question: FillBlank
 id:: 6d25c937-77ff-4033-ba24-57a8c250de2a
-content:: When judging the impact of taking a job, asking whether someone else would do it equally well if you didn't is a question of {{replaceability}}.
+content:: When judging the impact of taking a job, asking whether someone else would do it equally well if you didn't is a question of {{replaceability|substitutability}}.
 
 #### Question: Open
 id:: 2c3ef0d2-f1b8-450e-b91a-36aa9eb96f14
@@ -110,10 +110,10 @@ assessment-instructions:: Score out of 100. 100 for any one of: you are clearly 
 id:: 272c3707-2c02-44d9-848d-88fc590cd9a8
 content:: An AI company will develop a new capability within months whether or not you help. Someone argues that your helping therefore makes no counterfactual difference. What does this argument overlook?
 options::
-- [x] Your help can still change when, how well or by whom it is built
-- Counterfactual reasoning applies to donations, not to jobs
-- The capability matters a lot, so any help is significant
-- Your impact doesn't depend on what others would have done
+- [x] Your help can still change how soon it arrives, how safely it is built or which company builds it
+- Counterfactual reasoning only applies when nobody else could do the work
+- The capability is important, so any contribution to it is significant
+- Helping matters only if the capability turns out to be dangerous
 shuffle:: true
 
 #### Question: Open

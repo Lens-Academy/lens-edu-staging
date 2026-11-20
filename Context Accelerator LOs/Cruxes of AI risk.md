@@ -75,7 +75,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: 6ff40884-1b8f-4602-baf5-ad2a8960af69
-content:: One person says current deep learning methods will stall well short of human-level AI; another says scaling plus new algorithms will get there within a few decades. Which crux of AI risk is this disagreement mainly about?
+content:: One person says current deep learning methods will stall well short of human-level AI; another says scaling plus new algorithms will get there within a few years. Which crux of AI risk is this disagreement mainly about?
 options::
 - [x] Timelines to highly capable AI
 - Takeoff speed
@@ -94,13 +94,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 24663e31-89af-4715-b43e-0851eb3c730f
-content:: Two people give very different probabilities of existential catastrophe from AI. Why is it more useful to find their cruxes than to compare their final numbers?
+id:: 0356b26f-e943-4474-bc34-fbd31f5668ea
+content:: Ana puts existential risk from AI at 3%, Ben at 50%. They agree on timelines, but Ana expects early warning signs that let us fix problems, while Ben expects a misaligned system could hide its flaws until too late. What is the most useful next step for their conversation?
 options::
-- [x] It shows which questions, if settled, would change their estimates
-- It shows which of the two people has more relevant expertise
-- It lets their two estimates be averaged into a more accurate one
-- It shows that their estimates rest on the same underlying beliefs
+- [x] Ask each what evidence about warning signs would change their mind
+- Ask each when they expect human-level AI to arrive
+- Ask which of them has spent longer working in AI
+- Ask each to give their estimate as a precise range
 shuffle:: true
 
 #### Question: Open

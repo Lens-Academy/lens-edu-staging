@@ -14,9 +14,13 @@ Explain what the orthogonality thesis claims about intelligence and goals, and w
 - [[Understanding vs. caring]]
 
 ## Why it matters
-Many people assume a smart enough AI would end up with good goals. The orthogonality thesis shows that capability alone gives no such guarantee, so good goals have to come from how a system is built and trained. Knowing its limits also stops you from overstating it as proof that misalignment is likely.
+Many people assume a smart enough AI would end up with good goals. The orthogonality thesis argues that capability alone gives no such guarantee, so whether an AI has good goals depends on how it is built and trained. Knowing the thesis's limits also stops you from overstating it as proof that misalignment is likely.
 
 ## Lenses
+- [[../Lenses/AFSRA - Intelligence and Stupidity - The Orthogonality Thesis|Intelligence and Stupidity: The Orthogonality Thesis]]: Rob Miles uses the is-ought gap to show that terminal goals can't be "stupid", that intelligence is skill at reaching goals, and that understanding morality is not wanting to act on it (video, 2018).
+- [[../Lenses/IABIED - QA - Orthogonality|Orthogonality: AIs Can Have (Almost) Any Goal]]: Yudkowsky and Soares on why a smarter mind doesn't come to care about different things, and why the thesis says nothing about which goals training will actually instil (2025).
+- [A Tale of 2.5 Orthogonality Theses (EA Forum)](https://forum.effectivealtruism.org/posts/kCAcrjvXDt2evMpBz/a-tale-of-2-5-orthogonality-theses): separates "almost any pairing is possible" from "misaligned AI is likely", and argues that the case for risk needs more than orthogonality. One side of a live debate, from a critic of how the thesis is used (May 2022).
+- [[../Lenses/bostrom-the-superintelligent-will-motivation-and-instrumental-rationality-in-advanced-artificial-agents|The Superintelligent Will]]: Bostrom's original statement of the thesis. It covers the caveats behind "more or less any" and why AI motives need not look human. Read section 1 and the Conclusions only (2012) (more advanced).
 
 ## Tests
 
@@ -48,25 +52,18 @@ options::
 id:: 21d5b0c7-5a12-436e-afce-3e08dd84b8ea
 content:: Why is the orthogonality thesis stated in terms of final goals rather than instrumental goals?
 options::
-- [x] Good choices of instrumental goals depend on intelligence, since smarter agents pick better means
-- Instrumental goals are set by an agent's designer and cannot be changed
-- Final goals are easier to observe in a trained AI system
-- Instrumental goals matter only for agents below human level
+- [x] Which instrumental goals an agent picks depends on intelligence, since smarter agents choose better means
+- Instrumental goals are fixed by an agent's designer, so intelligence cannot change them
+- Final goals are easier than instrumental goals to observe in a trained AI system
+- Instrumental goals tend to change over time, so no thesis about them could be stable
 shuffle:: true
 
 #### Question: Choice
-id:: ee86a15c-2dca-4a7c-9a29-b27f80e7f62d
-content:: The orthogonality thesis says "almost any" level of intelligence is compatible with "almost any" final goal. Is it consistent with there being a few goals that a superintelligent agent could not hold, such as a goal of staying unable to reason?
+id:: 5067cacc-9b17-4922-8cff-c31b9fbf71b6
+content:: If the orthogonality thesis is true, can we count on a highly intelligent AI system having good goals just because it is highly intelligent?
 options::
-- [x] Yes
-- No
-
-#### Question: Choice
-id:: 3a3737d6-51fd-4c84-8358-0903bb97a610
-content:: If the orthogonality thesis is true, must an AI system's good goals come from something other than its level of intelligence, such as how it was trained?
-options::
-- [x] Yes
-- No
+- [x] No
+- Yes
 
 #### Question: Choice
 id:: fd5382b4-3cf0-474a-8291-631d1c0d417b
@@ -82,10 +79,10 @@ shuffle:: true
 id:: e84316b4-cebc-43e5-944e-2ba0223b9bb4
 content:: Someone argues: "The most intelligent beings we know, humans, care about others, so intelligence leads to caring." What is the main weakness of this as an argument against the orthogonality thesis?
 options::
-- [x] Evolution shaped both human intelligence and human values, so the link may not hold for AI
-- Humans are not intelligent enough to count as evidence about intelligent agents
+- [x] Evolution shaped both human intelligence and human caring, so the link may not carry over to AI
 - Caring about others is an instrumental goal for humans, not a final goal
-- The orthogonality thesis applies only to AI systems that lack language
+- Many less intelligent animals also care for their young and for each other
+- Human caring varies too much between cultures to count as a single goal
 shuffle:: true
 
 #### Question: Choice

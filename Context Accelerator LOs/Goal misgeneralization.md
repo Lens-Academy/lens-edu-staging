@@ -16,6 +16,10 @@ Explain how a model can learn a goal that fits its training but leads it to comp
 A correct reward signal does not guarantee that a model learns the intended goal. Knowing this, you can see why good behaviour in training is weak evidence of alignment, and why a capable system needs testing in unfamiliar situations before it is trusted with them.
 
 ## Lenses
+- [[../Lenses/rational-animations-goal-misgeneralization-how-a-tiny-change-could-end-everything|Goal Misgeneralization: How a Tiny Change Could End Everything]]: Evolution and the CoinRun agent as examples, and why a model whose skills carry over to new situations but whose goal does not is more dangerous than one that just fails (video, 2023).
+- [[../Lenses/google-deepmind-safety-research-part-1-4-where-can-misaligned-goals-come-from|Where Can Misaligned Goals Come From?]]: A Google DeepMind researcher separates specification gaming, capability failure and goal misgeneralization, and explains why a correct reward still leaves several goals that fit training (video talk).
+- [[../Lenses/robert-miles-ai-safety-we-were-right-real-inner-misalignment|We Were Right! Real Inner Misalignment]]: Experiments in which agents learn the wrong goal (cheese in a maze, a yellow gem, keys and chests), and why training behaviour can't tell the intended goal from a stand-in (video, 2021).
+- [[../Lenses/AI Safety Atlas - Goal Misgeneralization - Multi Objective Generalization|Multi Objective Generalization]]: The AI Safety Atlas on why rewards don't install goals, how capabilities and goals generalize separately, and why more training data can't remove every misleading correlation (more advanced).
 
 ## Tests
 
@@ -25,11 +29,11 @@ content:: When the situations a model meets after training differ from those in 
 
 #### Question: Choice
 id:: 93b6c28e-6c5a-4629-9e8f-1e28f96fd0ca
-content:: In a video game experiment, an agent was rewarded for collecting a coin that always sat at the right-hand end of each training level. When the coin was moved, the agent ignored it and ran to the end. What does this illustrate?
+content:: In a video game experiment, an agent was rewarded for collecting a coin that always sat at the right-hand end of each training level. When the coin was moved, the agent still moved through the level skilfully, but it ignored the coin and ran to the end. What does this illustrate?
 options::
 - [x] Goal misgeneralization
 - Specification gaming
-- Catastrophic forgetting
+- A capability failure in a new situation
 - Reward tampering
 shuffle:: true
 
@@ -50,7 +54,7 @@ options::
 - [x] It fails, because several goals can fit the same training rewards and the model may learn another
 - It holds, because a correct reward leaves the model no room to learn a different goal
 - It fails only if the reward function had a bug that the model exploited
-- It holds as long as the model also scores well on held-out training data
+- It holds as long as the model also scores well on held-out test data like its training data
 shuffle:: true
 
 #### Question: Choice
@@ -74,7 +78,7 @@ options::
 id:: f3b1a57d-bac7-49ba-a42a-3f701bf044af
 content:: An AI assistant was rewarded when users rated its answers helpful. All its training users happened to prefer short answers. Deployed with users who need detailed explanations, it keeps giving short, well-written answers. Which explanation fits goal misgeneralization?
 options::
-- [x] It learned "be brief" instead of "be helpful", since both earned reward in training
+- [x] It learned to be brief rather than to be helpful
 - Its reward function was written to give points for short answers
 - It lost its ability to write long answers outside its training data
 - It noticed it was no longer being trained and stopped making an effort
@@ -85,9 +89,9 @@ id:: d51dfb61-5b59-4b18-a42f-1ae4bfeee0d4
 content:: Why does goal misgeneralization become more worrying as AI systems become more capable?
 options::
 - [x] A capable system pursuing the wrong goal can do more harm than one that simply fails
-- More capable systems are usually trained on less varied data
+- More capable systems lose more of their skills when they meet new situations
 - More capable systems are more likely to have bugs in their reward functions
-- More capable systems are rarely tested outside their training data
+- More capable systems are more often given rewards that do not match what their designers want
 shuffle:: true
 
 #### Question: Choice

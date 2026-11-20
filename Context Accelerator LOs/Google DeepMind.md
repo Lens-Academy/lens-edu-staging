@@ -108,6 +108,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
+id:: 63f2b9cf-efeb-4b7b-b615-3a811d7237cc
+content:: In May 2026, what did Demis Hassabis say about when AGI might arrive?
+options::
+- [x] Around 2030, and possibly as early as 2029
+- By the end of 2026, as current agents already count
+- Around 2045, after several more scientific breakthroughs
+- Not this century, since today's methods cannot reach it
+shuffle:: true
 id:: 6834ee28-5280-4f7e-95e1-13928c741792
 content:: In February 2025, Google revised its AI principles in a post co-written by Demis Hassabis. Did the revision add or remove a pledge not to pursue AI for weapons?
 options::

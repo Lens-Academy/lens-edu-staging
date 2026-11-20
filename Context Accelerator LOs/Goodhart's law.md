@@ -17,6 +17,10 @@ https://www.youtube.com/shorts/clWbMwUkaHs
 AI systems are trained and judged on measurable stand-ins: reward signals, benchmarks, human ratings. A learner who expects a proxy that works today to keep working as systems grow more capable will misjudge the risk of reward hacking. Goodhart's law explains why stronger optimization makes these failures more likely, not less.
 
 ## Lenses
+- [[../Lenses/johnswentworth-why-agent-foundations-an-overly-abstract-explanation|Why Agent Foundations? (Goodhart sections)]]: the Soviet nail factory, "instagram food", and why training an AI on human approval makes things look good rather than be good once optimization pressure rises; read from the start to the end of "Goodhart Is Not Inevitable" (March 2022).
+- [Too much efficiency makes everything worse (Jascha Sohl-Dickstein)](https://sohl-dickstein.github.io/2022/11/06/strong-Goodhart.html): the "strong version" of Goodhart's law, where the real goal first improves, then stalls, then gets worse as the proxy keeps rising, with examples from schools, science and politics and fixes such as regularization and early stopping (November 2022).
+- [[../Lenses/garrabrant-goodhart-taxonomy|Goodhart Taxonomy]]: four ways proxies break under optimization (regressional, causal, extremal, adversarial); read the Quick Reference, Regressional Goodhart and Extremal Goodhart sections, which explain why the top proxy score is rarely the top true score and why extreme cases break the correlation (December 2017).
+- [Scaling Laws for Reward Model Overoptimization (arXiv)](https://arxiv.org/abs/2210.10760): the experiment that trains language models harder against a learned reward model and measures a separate "gold" reward, and how the KL penalty affects the result; the abstract and figures are enough (October 2022) (more advanced).
 
 ## Tests
 
@@ -24,20 +28,20 @@ AI systems are trained and judged on measurable stand-ins: reward signals, bench
 id:: 7d12c2c3-97a1-4fd8-8a08-09a095d8b42b
 content:: A team says: "Our reward model agrees with human raters 95% of the time on current outputs, so training a much stronger model against it is safe." What does Goodhart's law suggest is wrong with this reasoning?
 options::
-- [x] Agreement on current outputs says little about the unusual outputs strong optimization seeks.
-- 95% agreement is too low; at 99% the reasoning would hold.
-- The human raters, not the reward model, are the weak link.
-- Stronger models are less able to find flaws in reward models.
+- [x] Current outputs say little about the unusual ones strong optimization will find.
+- 95% agreement is too low; at 99% agreement the reasoning would hold.
+- A stronger model will want to deceive the reward model; a weaker one would not.
+- The human raters, not the reward model, are the weak link in the setup.
 shuffle:: true
 
 #### Question: Choice
-id:: 38bd7640-d991-478f-9b77-9433ca895e58
-content:: In discussions of Goodhart's law, "the tails come apart" describes two measures that are strongly but not perfectly correlated. If you pick the case with the single highest score on one measure, what usually holds for the other?
+id:: a3e1b668-71a0-4972-ae45-8e5c0fb9fae2
+content:: A reward model's scores correlate strongly, but not perfectly, with the true quality of answers. An optimizer searches millions of candidate answers and picks the one with the single highest reward score. What should you expect about that answer?
 options::
-- [x] It is high, but usually not the highest of all cases.
-- It is very likely the highest of all cases.
-- It is close to the average across all cases.
-- It is usually below average, because the correlation is imperfect.
+- [x] It is probably good, but its score overstates how good it is.
+- It is very likely the best of all the candidates.
+- It is about average, since extreme scores are mostly noise.
+- Its score probably understates its quality, since top answers are hard to judge.
 shuffle:: true
 
 #### Question: Open

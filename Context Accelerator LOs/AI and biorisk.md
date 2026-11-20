@@ -108,9 +108,9 @@ id:: 04974626-9def-4712-a593-bf644460acf6
 content:: Why do many scientists object to AI safeguards that block biology questions broadly?
 options::
 - [x] Much of the same knowledge is needed for medicine and research
-- Blocking questions makes models more likely to be stolen
-- Safeguards make models much slower at writing code
-- People rarely ask AI models about biology
+- Blocked questions are reported to the police
+- Broad blocking is banned under research-freedom laws
+- Blocking only works on open-weight models
 shuffle:: true
 
 #### Question: Open

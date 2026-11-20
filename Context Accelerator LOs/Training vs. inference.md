@@ -13,9 +13,13 @@ Distinguish training a model from running it (inference), and compare their cost
 - [[Models and weights]]
 
 ## Why it matters
-Rules that target training, such as training-compute thresholds, act on a few large, visible runs; inference happens wherever a model is used, so it is harder to oversee. And since running a trained model costs far less than training it, a new capability can be put to work at scale almost at once.
+Rules that target training, such as training-compute thresholds, act on a few large, visible runs; inference happens wherever a model is used and is harder to oversee. Running one copy costs far less than training, so a new capability can be deployed at scale almost at once. And letting models reason longer can raise capability with no new training.
 
 ## Lenses
+- [Large Language Models explained briefly (3Blue1Brown)](https://www.3blue1brown.com/lessons/mini-llm): how training tunes a model's parameters at an enormous compute cost on GPUs, and how a chatbot then uses the fixed model to predict the next word from the conversation text it is given (November 2024).
+- [Continuous Doesn't Mean Slow (Tom Davidson, Planned Obsolescence)](https://www.planned-obsolescence.org/continuous-doesnt-mean-slow/): why the compute used to train a powerful model can afterwards run it on hundreds of thousands of tasks at once, and why that could speed progress up very quickly (April 2023).
+- [What's the best model you can run on a single consumer GPU? (Epoch AI)](https://epoch.ai/data-insights/consumer-gpu-model-gap): a single gaming GPU can now run open models that match the frontier of 6 to 12 months earlier (August 2025).
+- [Inference Scaling Reshapes AI Governance (Toby Ord, Forethought)](https://www.forethought.org/research/inference-scaling-reshapes-ai-governance): how capability gained by spending more compute while answering changes the picture, including why it undermines training-compute thresholds such as the EU's 10^25 and the US 10^26. Read "The end of an era" and "Scaling inference-at-deployment" (February 2025).
 
 ## Tests
 #### Question: Choice
@@ -75,7 +79,8 @@ id:: ad5a633a-8619-4962-a404-a789cefbd52b
 content:: Which of these can usually be done on a single high-end gaming computer?
 options::
 - [x] Running a small open-weights model to answer questions
-- Pretraining a frontier language model from scratch
+- Training that same small model from scratch on all its training data
+- Running one of the largest frontier models at full size and speed
 - Training a frontier model with large-scale reinforcement learning
 - Pretraining a mid-sized model on a large share of the web
 shuffle:: true
@@ -85,8 +90,8 @@ id:: b12ba3f0-e5c6-4013-a202-3bc7094485c1
 content:: Some AI rules flag models for extra oversight based on the compute used to train them. What makes training a practical point to regulate?
 options::
 - [x] Frontier training runs are few, costly and done by a handful of firms
-- A single use of a model takes more compute than its training run
-- Inference runs on consumer chips that governments cannot track
+- Training compute tells regulators exactly what a model will be able to do
+- Most countries already require a licence before any large training run
 - A model's capabilities cannot change once its training has ended
 shuffle:: true
 

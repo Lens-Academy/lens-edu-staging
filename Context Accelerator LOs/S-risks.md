@@ -86,8 +86,8 @@ content:: Why do some s-risk researchers worry about AI that is nearly, but not 
 options::
 - [x] It might keep many minds alive while getting key values badly wrong.
 - It is more likely to cause extinction than a fully misaligned AI.
-- It takes longer to train than a fully aligned AI, wasting research time.
-- It would refuse to act, leaving humanity defenceless against other AIs.
+- It is more likely to deceive its developers than a fully misaligned AI.
+- It would use far more resources than a fully misaligned AI.
 shuffle:: true
 
 #### Question: Choice
@@ -103,4 +103,4 @@ shuffle:: true
 #### Question: Open
 id:: c4398a49-bfde-4f65-ad71-946f86ddb5bb
 content:: Name one approach that has been proposed for reducing s-risks from advanced AI.
-assessment-instructions:: Score out of 100. 100 for any one of: research on cooperation and bargaining between AI systems; surrogate goals or other ways to make threats less harmful; safety measures aimed at avoiding the worst outcomes, including near-miss alignment; reducing the influence of malevolent actors; expanding moral concern to digital minds and animals; preventing lock-in of bad values. 50 for generic AI safety work.
+assessment-instructions:: Score out of 100. 100 for any one of: research on cooperation and bargaining between AI systems; surrogate goals or other ways to make threats less harmful; safety work aimed at the worst outcomes, such as reducing near-miss risks; reducing the influence of malevolent actors; expanding moral concern to digital minds and animals; preventing lock-in of bad values. 50 for generic AI safety work.

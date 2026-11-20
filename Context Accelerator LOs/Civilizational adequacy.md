@@ -16,6 +16,11 @@ Describe the case that society and the AI safety field may be unable to judge wh
 If you assume governments, labs and the safety field will sort out which plans are sound, you may defer to them when you shouldn't. Knowing why judging plans is hard without failures to learn from helps you weigh claims of progress and see where better checks, or more political will, would help most.
 
 ## Lenses
+- [[../Lenses/AFSRA - AGI Ruin, A List of Lethalities|AGI Ruin: A List of Lethalities]]: Yudkowsky's case that the AI safety field has no way to recognise real progress, that funders can't tell good work from bad, and that "there's no plan"; read Section C (points 38–43) only (2022).
+- [[../articles/bowkis-automated-alignment-is-harder-than-you-think|Automated alignment is harder than you think]]: why science usually corrects its mistakes by iteration, why this works in physics but less in psychology, and why alignment lacks the safe feedback that would let it do the same; read section 3.2 only (May 2026).
+- [An Equilibrium of No Free Energy (Eliezer Yudkowsky, Inadequate Equilibria)](https://equilibriabook.com/an-equilibrium-of-no-free-energy/): what makes a system "inadequate", and why a bad outcome can persist when everyone responds sensibly to their incentives, using academics and grantmakers as the example; read sections iv and v (2017).
+- [Where I agree and disagree with Eliezer (Paul Christiano, Alignment Forum)](https://www.alignmentforum.org/posts/CoZhXrhpQxpy9xw9y/where-i-agree-and-disagree-with-eliezer): a leading researcher agrees there may be no fire alarm and that research drifts to tractable problems, but argues we can learn a lot from weaker systems and that checking solutions is easier than finding them; read Agreements 2–4, 9 and 12–13 and Disagreements 1, 16 and 19 (June 2022).
+- [The current bottleneck is political will, not research (Charbel-Raphaël Segerie, LessWrong)](https://www.lesswrong.com/posts/EexsebbYhbe2gXkPP/the-current-bottleneck-is-political-will-not-research): the case, from an AI policy advocate, that known safety measures go unused because decision-makers aren't committed, and that more effort should go to advocacy; read section 1 (July 2026).
 
 ## Tests
 
@@ -33,30 +38,30 @@ shuffle:: true
 id:: acdf9abd-efbb-40f4-8b9e-36304512a8ce
 content:: In the 2010s, large projects that repeated published psychology studies found that many results didn't hold up. In debates about whether our institutions can handle AI risk, what is this usually used to show?
 options::
-- [x] A field can reward wrong results for years when feedback from reality is weak.
-- Psychology is less rigorous than research on AI safety.
-- Peer review catches most errors once a field matures.
-- Repeating experiments costs too much to be worth doing.
+- [x] Fields can reward wrong results for years when real-world checks are weak.
+- Peer review catches most errors in a field once it has matured.
+- Only young fields publish many results that later fail to replicate.
+- Repeating studies usually costs more than it reveals about a field.
 shuffle:: true
 
 #### Question: Choice
-id:: 99235f7c-eb9c-4a6b-9423-66387359e758
-content:: Which feature most helps a scientific field catch and correct its own mistakes?
+id:: 8a9c2207-3941-48e5-8987-d9f47979a394
+content:: Which of these AI safety claims can be checked most directly against real outcomes today?
 options::
-- [x] Its claims are tested quickly against clear real-world outcomes.
-- Its papers pass review at leading journals.
-- Its senior researchers broadly agree with each other.
-- It receives steady funding from governments.
+- [x] A filter blocks most requests from a known list of harmful prompts.
+- A training method will keep much more capable future systems honest.
+- A lab's safety plan will hold up if AI starts improving itself.
+- An oversight scheme will catch a system that is trying to hide its flaws.
 shuffle:: true
 
 #### Question: Choice
-id:: 1ca538cc-3ebc-4db4-a94c-e9440cb22350
-content:: Eliezer Yudkowsky uses the term "inadequate equilibrium" for a bad outcome that persists in a system. Why does it persist?
+id:: 4047d973-7294-42b1-82c9-60789e9b9678
+content:: Suppose the leaders of several AI labs sincerely believe it would be safer if all labs slowed down, yet every lab keeps racing. What best explains how this can persist?
 options::
-- [x] Each actor responds sensibly to their incentives, so no one can fix it alone.
-- The people involved haven't noticed that the outcome is bad.
-- The problem behind the outcome is technically unsolvable.
-- A single powerful actor benefits and blocks every change.
+- [x] Each lab loses out if it slows down alone, so none can fix it by itself.
+- The leaders haven't noticed that racing could be risky.
+- Slowing down is technically impossible once training has begun.
+- Laws require each lab to release new models on a fixed schedule.
 shuffle:: true
 
 #### Question: Choice
@@ -83,10 +88,9 @@ shuffle:: true
 id:: 7967ed53-3c95-49ab-a67f-e1df022f6119
 content:: Some people argue that "political will, not research, is the bottleneck" for reducing AI risk. What does this view claim?
 options::
-- [x] Known measures that would lower risk aren't taken because decision-makers won't commit to them.
-- Alignment has been solved, and only deployment of the solution remains.
-- Researchers lack funding, so more grants would solve the problem.
-- The public opposes AI regulation, so politicians can't act on it.
+- [x] Measures that would lower risk are known, but decision-makers won't adopt them.
+- Alignment is already solved, so only rolling out the fix remains.
+- Safety research is underfunded, so more grants are what's most needed.
 shuffle:: true
 
 #### Question: Open
