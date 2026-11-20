@@ -1,7 +1,7 @@
 ---
 id: '1984a053-77c5-45ef-a311-7b450b09f462'
 title: "Different views on AI and associated risks"
-reading_minutes: 30
+reading_minutes: {--{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795188996927}@@30--}{++{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795188996927}@@20++}
 tutor_minutes: 0
 tags:
   - wip
@@ -211,7 +211,7 @@ to:: this is not always the case.
 #### Article
 source:: [[../articles/arxiv-the-three-main-doctrines-on-the-future-of-ai]]
 from:: The vast divergence between the doctrines
-to:: may still escalate due to such uncertainties.
+to:: may still escalate due to such uncertainties.{--{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795188982759}@@
 
 #### Text
 content:: \## what examples of these points of view look like
@@ -273,4 +273,4 @@ content:: In *A guide to understanding AI as normal technology*, Princeton resea
 #### Article
 source:: [[../articles/narayanan-a-guide-to-understanding-ai-as-normal-technology]]
 from:: There is a long causal chain between
-to:: prepare for whatever comes next.
+to:: prepare for whatever comes next.--}
