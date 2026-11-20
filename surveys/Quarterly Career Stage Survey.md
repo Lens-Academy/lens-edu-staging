@@ -3,7 +3,7 @@ id: 'c9f04f04-af4e-437c-9106-0df4935c4342'
 title: Quarterly Career Stage Survey
 ---
 
-%% DRAFT (Mark, 30 Sep 2026). Sent to all alumni every 3 months after their course. Not attached to any meeting, and not automated yet: send it by email or Discord for now. Question 1 uses the exact wording of the application form's `ais_work_status`, so each answer compares directly with the application and with the previous quarter. Question 2 (stage when they started) is for the first send only: `ais_work_status` went on the application form on 3 Oct 2026, so most alumni have no baseline; drop it once they do. Question 4 uses the application form's `ai_safety_programs` list; keep the two lists the same. Questions 6–8 ask everyone what helped and how much Lens contributed. They are adapted from [[Role Attribution Survey]] to "where you are now" instead of "this role". Keep question 6 first in its section: it must be answered before Lens is named. Structure agreed with Mark on 20 Nov 2026: where you are now (1–5), what helped (6–9), last details (10–11). Outcome categories (A1–C) and how we report them: [[../../Lens/05-Growth/Impact Tracking/Career Outcomes and Attribution]]. %%
+%% DRAFT (Mark, 30 Sep 2026). Sent to all alumni every 3 months after their course. Not attached to any meeting, and not automated yet: send it by email or Discord for now. Question 1 uses the exact wording of the application form's `ais_work_status`, so each answer compares directly with the application and with the previous quarter. Question 2 (stage when they started) is for the first send only: `ais_work_status` went on the application form on 3 Oct 2026, so most alumni have no baseline; drop it once they do. Question 4 uses the application form's `ai_safety_programs` list; keep the two lists the same. Questions 6–8 ask everyone what helped and how much Lens contributed. They are adapted from [[Role Attribution Survey]] to "where you are now" instead of "this role". Keep question 6 first in its section: it must be answered before Lens is named. Structure agreed with Mark on 20 Nov 2026: where you are now (1–5), what helped (6–10), last details (11–12). Question 9 (what Lens made possible) is the source of quotes; its help line is adapted from the final course surveys' testimonial note, and question 11 is its consent. Outcome categories (A1–C) and how we report them: [[../../Lens/05-Growth/Impact Tracking/Career Outcomes and Attribution]]. %%
 
 #### Text
 content:: Hi, it's Lens! {--{"author":"Mark's AI","timestamp":1795166295864}@@This is a quarterly 4 minute survey--}{++{"author":"Mark's AI","timestamp":1795166295864}@@Every 3 months++} we {--{"author":"Mark's AI","timestamp":1795166295864}@@conduct to know--}{++{"author":"Mark's AI","timestamp":1795166295864}@@ask our alumni++} where {--{"author":"Mark's AI","timestamp":1795166295864}@@you're now--}{++{"author":"Mark's AI","timestamp":1795166295864}@@they are++} in AI {--{"author":"Mark's AI","timestamp":1795166295864}@@safety,--}{++{"author":"Mark's AI","timestamp":1795166295864}@@safety++} and what actually helped. {--{"author":"Mark's AI","timestamp":1795166295864}@@Your answer will help us--}{++{"author":"Mark's AI","timestamp":1795166295864}@@It takes about 7 minutes. If nothing has changed, please say so: that is just as useful++} to {--{"author":"Mark's AI","timestamp":1795166295864}@@prioritize--}{++{"author":"Mark's AI","timestamp":1795166295864}@@us. We report answers in aggregate,++} and {--{"author":"Mark's AI","timestamp":1795166295864}@@offer better support.--}{++{"author":"Mark's AI","timestamp":1795166295864}@@only quote you if you say yes at the end.++}
@@ -150,6 +150,13 @@ options::
 - By 4–6 months
 - By more than 6 months
 - I likely wouldn't be here without Lens
+
+#### Question: Open
+id:: 5d1a4f89-be7a-4c19-a72e-c1d3e431295f
+content:: What, if anything, did Lens make possible for you that wouldn't have happened otherwise?
+description:: The most helpful answers are specific: something you're now doing because of Lens, a person you met, or a decision it changed. "Nothing in particular" is a fine answer.
+optional:: true
+max-chars:: 1000
 
 #### Question: Choice
 id:: 420f1bf0-bef3-4b2a-9309-72d2c3bb9f65
