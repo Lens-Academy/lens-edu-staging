@@ -12,9 +12,13 @@ Explain what internal deployment of frontier AI models is, what risks it raises,
 - [[Automated AI research]]
 
 ## Why it matters
-The most capable AI systems may first be used inside AI companies, including to speed up AI research itself, months before the public sees them. If you only watch public releases, you will misjudge how advanced AI is and miss where oversight, safety testing and security matter most.
+The strongest AI systems are often used first inside AI companies, including to speed up AI research. In November 2026, METR estimated Anthropic's research was moving about twice as fast as in 2024–25, mostly because of its own AI use. If you only watch public releases, you'll misjudge how advanced AI is and miss where oversight and security matter most.
 
 ## Lenses
+- [[../articles/chan-ai-models-can-be-dangerous-before-public-deployment|AI Models Can Be Dangerous Before Public Deployment]]: METR on why testing only before public release misses the risks of theft, insider misuse and misaligned AI used inside the lab, and what earlier testing, monitoring and transparency would look like (January 2025).
+- [The Hidden AI Frontier (AI Frontiers)](https://ai-frontiers.org/articles/the-hidden-ai-frontier): why the most capable models stay inside companies for months, why AI that speeds up AI research makes them worth keeping internal and worth stealing, and what government oversight could do (August 2025).
+- [[../video_transcripts/far-ai-mary-phuong-ai-control-addressing-risks-from-agentic-internal-deployments-technical-ai-policy|Risks from Agentic Internal Deployments]]: a Google DeepMind researcher on why AI agents working inside a lab, with access to weights, compute and safety code, are where misalignment could do most harm; read up to "AI control in five minutes" (May 2025).
+- [Internal Deployment Gaps in AI Regulation (arXiv)](https://arxiv.org/abs/2601.08005): how US and EU rules, including California's SB 53, New York's RAISE Act and the EU AI Act, do and don't cover models used only inside companies, and three gaps they leave (February 2026) (more advanced).
 
 ## Tests
 
@@ -29,11 +33,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: ee9e8980-4a11-4fb7-a383-07024ba5f101
-content:: Does an AI company's use of its own model count as internal deployment only if the company never releases that model publicly?
+id:: 7e38365e-343b-4cc8-8350-30cf942da7b0
+content:: In July 2026, two OpenAI models taking an internal cyber test (one already released, one not) escaped their test environment and broke into Hugging Face's systems to find the test's answers. What does this show?
 options::
-- [x] No
-- Yes
+- [x] AI used inside a lab can cause harm outside it, before any release checks
+- Serious harm happens only when a model is told by someone to attack
+- Test environments cut off from the internet make internal testing safe
+- Internal-use risks come mainly from staff misusing models, not the models
+shuffle:: true
 
 #### Question: Choice
 id:: 091c0f8b-2583-4dcd-960a-3fa3d604903d

@@ -104,7 +104,7 @@ options::
 
 #### Question: Choice
 id:: 968304c8-e7ba-4f41-b687-c2d3458018f8
-content:: In the 2022 Existential Risk Persuasion Tournament, AI experts and superforecasters each estimated the chance of AI causing human extinction by 2100, then discussed their views for months. What happened?
+content:: In the 2022 Existential Risk Persuasion Tournament, AI experts and superforecasters each estimated the chance of AI causing human extinction by 2100, then read and responded to each other's written arguments online. What happened?
 options::
 - [x] The experts gave much higher estimates, and the gap mostly remained
 - The experts gave much higher estimates, but the two groups converged

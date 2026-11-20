@@ -111,13 +111,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: a209e0e7-f16f-4536-948c-ab16fcf6d3cd
-content:: What happened to US policy on Nvidia's sales of its H20 chip to China during 2025?
+id:: ab7b9042-ae07-4141-a282-9ad924ab9ad3
+content:: How did US policy on selling Nvidia AI chips to China change between April 2025 and early 2026?
 options::
-- [x] Blocked in April, later licensed in return for a share of revenue
-- Allowed without conditions for the whole year
-- Banned permanently by a law passed by Congress
-- Unaffected, because the H20 met every export rule
+- [x] It blocked the H20, then licensed it and the stronger H200 for a cut of revenue
+- It licensed the H20, then banned all Nvidia AI chip sales to China
+- It kept the 2023 limits unchanged, so only H20-class chips could be sold
+- It lifted all limits, allowing even Blackwell chips to be sold
 shuffle:: true
 
 #### Question: Choice

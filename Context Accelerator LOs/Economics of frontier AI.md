@@ -100,7 +100,7 @@ options::
 - [x] Chip suppliers such as Nvidia
 - Frontier AI developers such as OpenAI
 - Startups building apps on top of AI models
-- Companies that resell chatbot subscriptions
+- Firms that label and prepare training data
 shuffle:: true
 
 #### Question: Choice
@@ -108,19 +108,25 @@ id:: 02d69316-ab6d-485e-884f-efd1be8c3303
 content:: Which physical constraint is most often cited as limiting how fast new AI data centers can be built in the US?
 options::
 - [x] Access to electricity and grid connections
-- A shortage of software engineers
-- Limited internet bandwidth to the sites
-- Legal limits on how many models a company trains
+- Water supplies for cooling
+- Availability of suitable land
+- Fiber-optic bandwidth to the sites
 shuffle:: true
 
-#### Question: FillBlank
-id:: 2222b17b-7f4a-413a-ab7f-0ef0d5eb1b23
-content:: In January 2025, OpenAI, SoftBank and Oracle announced the Stargate project, planning to invest up to ${{500}} billion in US AI infrastructure.
+#### Question: Choice
+id:: 864655a4-3139-4543-8a3c-228a15443b45
+content:: Frontier AI developers such as OpenAI and Anthropic have committed to spend hundreds of billions of dollars on compute, far more than they currently earn. Where does most of the money to cover the gap come from?
+options::
+- [x] Investors and big tech partners, through equity, cloud deals and debt
+- Governments, through national AI research grants and subsidies
+- Customers, through multi-year prepaid enterprise contracts
+- Advertising sold to the many free users of their chatbots
+shuffle:: true
 
 #### Question: Open
 id:: ed36ebda-4ec0-4971-a129-23d8bcc25126
-content:: Frontier AI companies spend far more than they earn. Explain how investors' expectations about future AI revenue affect the pace of AI development.
-assessment-instructions:: Score out of 100. 100 for: companies fund losses with investor money (or big tech cash flows), so spending continues while investors expect large future returns; if those expectations fall, funding and scaling slow. 50 for saying money drives the pace without linking it to expectations of future returns.
+content:: Frontier AI companies have committed to spend far more on compute than they currently earn. Explain how investors' expectations about future AI revenue affect the pace of AI development.
+assessment-instructions:: Score out of 100. 100 for: companies fund losses and commitments with investor money (or big tech cash flows), so spending continues while investors expect large future returns; if those expectations fall, funding and scaling slow. 50 for saying money drives the pace without linking it to expectations of future returns.
 
 #### Question: Open
 id:: 187a4936-acec-409d-8ddb-0f0ecd38b476

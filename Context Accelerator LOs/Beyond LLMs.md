@@ -12,30 +12,34 @@ Explain why future AI might not be built mainly from large language models, and 
 ## Helpful first
 
 ## Why it matters
-Many safety plans, forecasts and policies are built around how today's LLMs work. If a different kind of AI takes over, some of them could stop working while others still hold. Knowing which is which helps you judge how robust a plan is, rather than betting everything on one technology.
+Many safety plans, forecasts and policies are built around how today's LLMs work. If a different kind of AI replaces LLMs as the leading design, some of them could stop working while others still hold. Knowing which is which helps you judge how robust a plan is, rather than betting everything on one technology.
 
 ## Lenses
+- [[../Lenses/byrnes-foom-doom-1-brain-in-a-box-in-a-basement|Foom & Doom 1: Brain in a Box in a Basement]]: a leading brain-like AGI researcher argues that a far more compute-efficient paradigm will replace LLMs, and why that would undercut chip-based governance, pre-release testing and LLM-based forecasts; one side of a live debate. Read §1.3, §1.5–1.7.1 and §1.8.6 (June 2025).
+- [[../Lenses/byrnes-why-we-should-expect-ruthless-sociopath-asi|Why We Should Expect Ruthless Sociopath ASI]]: why AI that learns by imitating human text may pick up human-like behaviour, but AI that learns by trial and error against a reward signal is ruthless by default, and why designing safe rewards is unsolved (February 2026).
+- [AI doom from an LLM-plateau-ist perspective (LessWrong)](https://www.lesswrong.com/posts/KJRBb43nDxk6mwLcR/ai-doom-from-an-llm-plateau-ist-perspective): a short FAQ on which worries about AI risk, timelines and a training pause still hold if LLMs stall and other designs take over (April 2023, updated June 2026).
+- [Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety (arXiv)](https://arxiv.org/abs/2507.11473): researchers from many labs on why reading a model's written reasoning helps safety, and how new designs that reason in internal numbers could take that away. See "Novel architectures" in §2 and the architecture question in §3 (July 2025) (more advanced).
 
 ## Tests
 
 #### Question: Choice
-id:: 81f95d41-9827-402a-b360-3fdaf2f08d2b
-content:: A common argument that LLMs may not be the final form of AI points to how efficiently humans learn. What comparison does it make?
+id:: 4e771bfd-c7f5-43bc-8c56-92bea6091e88
+content:: Children learn language from many thousands of times less text than LLMs are trained on. Why do some people see this as a sign that future AI might not be built mainly from LLMs?
 options::
-- [x] Children learn language from far less text than LLMs are trained on
-- LLMs need less training text than children but more energy
-- Children and LLMs see similar amounts of text, but LLMs learn it faster
-- Children need more text than LLMs but remember it for longer
+- [x] It shows a far more data-efficient way to learn exists, which a different AI design might copy
+- It shows LLMs have already read all the text there is, so they cannot improve further
+- It shows that AI trained on less text would automatically be safer
+- It shows children's brains run on more computing power than any AI system
 shuffle:: true
 
 #### Question: Choice
-id:: c1fe1924-35d7-485f-84b5-347b5572f581
-content:: Steven Byrnes studies "brain-like AGI": AI built on learning methods like those in the human brain. What is his main safety concern about such systems?
+id:: 2eab6afb-2171-4357-a39c-5105cbc06aeb
+content:: Suppose future AI learned like a human brain, mainly by trial and error guided by built-in reward signals. What would be a central safety challenge?
 options::
-- [x] Their goals would come from reward signals that are hard to design safely
-- They would copy the values of whoever wrote their training text
-- They would be too slow to run on today's computers
-- They could not learn anything beyond what humans already know
+- [x] Its goals would grow out of reward signals its designers wrote, and these are hard to design so the goals turn out safe
+- Its goals would simply copy the values of the people whose writing it was trained on
+- It could never become more capable than the humans who designed it
+- It would be safe by default, because human brains learn in the same way
 shuffle:: true
 
 #### Question: Choice
@@ -59,19 +63,22 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 5c258966-f862-420c-b4bf-51349a73c007
-content:: Some people hope that because LLMs learn from huge amounts of human writing, they pick up human concepts and values. Would this reason for hope apply less strongly to an AI that learned mainly by trial and error in an environment?
+id:: 0eeb33af-7ec8-4222-b9a6-c6f411a37288
+content:: Some people hope that because LLMs learn from huge amounts of human writing, they pick up human concepts and values. Why might this hope apply less to an AI that learned mainly by trial and error in an environment?
 options::
-- [x] Yes
-- No
+- [x] Its concepts and goals would be shaped mainly by what earned reward in its environment, not by human writing
+- It would be unable to understand any human language
+- Learning by trial and error always produces hostile goals
+- It would learn too slowly ever to become highly capable
+shuffle:: true
 
 #### Question: Choice
 id:: d011cbfd-ea3d-4b5a-9acf-7125b7e5b7e9
 content:: As of November 2026, leading AI systems are pretrained on text, then given heavy reinforcement learning, tools and image inputs. What does this suggest about the question of whether AI will move beyond LLMs?
 options::
 - [x] The change could be gradual, with no clear point where systems stop being LLMs
-- These systems no longer contain any language model at all
-- Adding reinforcement learning means AI-risk arguments no longer apply to them
+- A move beyond LLMs could only happen as a sudden switch to an unrelated design
+- Safety findings about pure text-prediction models carry over to these systems unchanged
 - A new kind of AI would have to start by dropping pretraining
 shuffle:: true
 
@@ -80,9 +87,9 @@ id:: ad11b854-7304-4d7c-967c-234cac973ce9
 content:: Which of these is the best historical reason to doubt that LLMs are the final form of AI?
 options::
 - [x] The leading approach in AI has changed several times in past decades
-- LLMs have not improved in any measurable way since 2023
-- LLMs cannot learn from images or sound
-- LLMs have become more expensive to run every year
+- Every past AI approach was abandoned within five years of being invented
+- Neural networks were tried and failed in the past, so they will fail again
+- Past waves of AI progress always ended because computing became more expensive
 shuffle:: true
 
 #### Question: Choice
@@ -90,9 +97,9 @@ id:: 27475967-9bef-405b-820a-5dea017abe7d
 content:: Some forecasts of when AI will match human abilities extend trends in LLMs, such as how capability grows with training compute. If a far more compute-efficient way to build AI were found, what would that most likely mean for these forecasts?
 options::
 - [x] Advanced AI could arrive earlier than the trends suggest
-- Advanced AI would arrive later than the trends suggest
-- The forecasts would become more accurate than before
-- The forecasts would be unaffected, since they measure compute
+- Advanced AI would arrive later, because the new method would need years of new hardware
+- The forecasts would be unaffected, because they track computing power rather than methods
+- The forecast dates would hold, but the systems would be less capable than expected
 shuffle:: true
 
 #### Question: Open

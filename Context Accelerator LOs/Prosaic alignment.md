@@ -120,4 +120,4 @@ assessment-instructions:: Score out of 100. 50 for a reason to expect transfer (
 #### Question: Open
 id:: ec469850-cc9b-4d79-93cf-d5b72f0a42b1
 content:: A researcher says: "If AGI comes from a new paradigm, prosaic alignment work will be wasted." Give one way such work could still be useful.
-assessment-instructions:: Score out of 100. 100 for any one of: some techniques or lessons may carry over; it makes intermediate systems safer; safer AI systems could help with later alignment research; it trains researchers and builds the field; it shows which problems are hard. 50 for a vague answer such as "it is still good research".
+assessment-instructions:: Score out of 100. 100 for any one of: some techniques or lessons may carry over; it makes intermediate systems safer; safer AI systems could help with later alignment research; it trains researchers and builds the field; it shows which problems are hard. 20 for a vague answer with no mechanism, such as "it is still good research".

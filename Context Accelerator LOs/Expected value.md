@@ -100,6 +100,6 @@ content:: Give one way expected-value reasoning about AI risk can mislead, even 
 assessment-instructions:: Score out of 100. 100 for any one of: the inputs are guesses that drive the result; ignoring the chance that the model or argument itself is wrong; tiny probabilities of enormous stakes dominating the decision (fanaticism, Pascal's mugging); leaving out important outcomes or options. 50: says only that numbers are uncertain, without saying how that misleads.
 
 #### Question: Open
-id:: c0579815-0f0a-47ba-a701-f918ec53bef8
-content:: In decision theory, what is "fanaticism", and what is one response people propose to it?
-assessment-instructions:: Score out of 100. 60: always preferring a tiny chance of an enormous payoff over a sure, more modest good, however tiny the chance. 40 for any one response: ignore probabilities below some threshold; cap how much value an outcome can have; discount speculative estimates; give weight to other decision rules or moral views.
+id:: 202865d6-94c2-43ff-963a-4e4e9bfdd237
+content:: Followed strictly, expected-value reasoning can prefer a tiny chance of an enormous payoff to a sure, more modest good, however tiny the chance. Give one response people propose to this problem, and one drawback of that response.
+assessment-instructions:: Score out of 100. 50 for one response: ignore probabilities below a threshold; cap how much value an outcome can have; discount speculative estimates; give weight to other decision rules or moral views. 50 for a fitting drawback, e.g. any threshold is arbitrary and many small risks may each fall below it; a cap can make huge real harms count too little; how much to discount is unclear.
