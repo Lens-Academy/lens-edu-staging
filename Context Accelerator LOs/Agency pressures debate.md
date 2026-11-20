@@ -4,7 +4,7 @@ priority: medium
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Describe the main positions on whether advanced AI will be autonomous and goal-directed, and the arguments for each.
+Describe the main positions on whether advanced AI will be, and should be, autonomous and goal-directed, and the arguments for each, now that companies are already deploying AI agents.
 
 ## Requires
 - [[AI agents]]
@@ -13,9 +13,13 @@ Describe the main positions on whether advanced AI will be autonomous and goal-d
 ## Helpful first
 
 ## Why it matters
-Many AI risk arguments, such as instrumental convergence, assume AI systems that pursue goals over long periods. If AI stays tool-like, some of those arguments weaken; if pressures push toward agents, they apply in full. Knowing this debate helps you judge which risk arguments fit the systems actually being built.
+Many AI risk arguments, such as instrumental convergence, assume AI that pursues goals over long periods. As of late 2026, companies already deploy agents that complete tasks taking people many hours, but how goal-directed future systems will be, and whether tool-like designs stay viable, is still debated. This debate helps you judge which risk arguments fit the systems being built.
 
 ## Lenses
+- [[../Lenses/gwern-why-tool-ais-want-to-be-agent-ais|Why Tool AIs Want to Be Agent AIs]]: the classic case that tool AIs lose out to agents: what "tool AI" means (Karnofsky's Google Maps example), why humans in the loop become the bottleneck, and why agency also makes AI smarter. Read the opening through "Economic" and the first part of "Intelligence", up to "every sufficiently hard problem becomes a reinforcement learning problem" (2016).
+- [[../Lenses/shah-will-humans-build-goal-directed-agents|Will Humans Build Goal-Directed Agents?]]: Rohin Shah weighs the arguments for goal-directed AI (economic efficiency, beating human performance, reinforcement learning, evolution's example) and asks how far each really goes, including agents that act without being goal-directed (2019).
+- [[../Lenses/carlsmith-is-power-seeking-ai-an-existential-risk|Is Power-Seeking AI an Existential Risk?]]: Section 3, "Incentives", only: reasons we might not build agentic planners, then three reasons we probably will (usefulness, available techniques, agency arising as a byproduct), and how a system of non-agentic parts can act as an agent (2021).
+- [Reframing Superintelligence: Comprehensive AI Services as General Intelligence (LessWrong)](https://www.lesswrong.com/posts/x3fNwSe5aWZb5yXEG): Rohin Shah's summary of Drexler's CAIS proposal, that superhuman capability could come from many bounded AI services rather than one general agent, why that might be safer, and Shah's doubts; the post only, not the comments (January 2019).
 
 ## Tests
 
@@ -25,18 +29,18 @@ content:: One argument against relying on tool AI is that agent AIs will outcomp
 options::
 - [x] Agents skip slow human approval steps, so competitors gain by deploying them.
 - Tool AIs are harder to train, so labs can't build them at scale.
-- Agents are easier to align, so labs choose them for safety reasons.
+- Regulators require agents for high-stakes uses, so tools lose those markets.
 - Tool AIs need more compute to run, so they cost more per task.
 shuffle:: true
 
 #### Question: Choice
-id:: 6e3e746f-d8fc-4251-b050-5b88e693f15c
-content:: Some argue that hard tasks reward consequentialist AI. What does "consequentialist" mean here?
+id:: 54b1fc6d-673a-45dd-a696-f3f507b0c024
+content:: Some argue that very hard tasks, such as a new research project, need AI that chooses its actions by their predicted effects on an outcome. Why does this matter for AI risk?
 options::
-- [x] Choosing actions by their predicted effects on reaching an outcome
-- Following fixed rules whatever the results turn out to be
-- Taking only actions that a human approved in advance
-- Copying the actions humans took in similar situations
+- [x] Planning that finds clever routes to a goal can also find harmful ones, like gaining resources or avoiding shutdown.
+- AI that plans by outcomes needs far more training data, so it raises mainly privacy concerns.
+- Planning by outcomes only works in games, so it says little about AI in the real world.
+- AI that plans by outcomes always follows its instructions more strictly than other AI does.
 shuffle:: true
 
 #### Question: Choice

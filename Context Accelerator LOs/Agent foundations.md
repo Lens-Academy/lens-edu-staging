@@ -43,16 +43,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 58deeefd-3cac-4a09-bd71-53f9a136e087
-content:: Supporters of agent foundations compare today's alignment work to trying to fly a rocket to the Moon before anyone understood orbital mechanics. What point does the analogy make?
-options::
-- [x] Hitting a narrow target reliably may need basic theory before engineering
-- Alignment needs far more funding than early space programs received
-- Trial and error is enough if every failed attempt is carefully studied
-- Progress in AI will slow down, as space travel did after the Moon landings
-shuffle:: true
-
-#### Question: Choice
 id:: b6df5213-b825-4531-bb70-83d0dd8eea0f
 content:: What is a common criticism of agent foundations research?
 options::

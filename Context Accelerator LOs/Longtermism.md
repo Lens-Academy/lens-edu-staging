@@ -35,6 +35,7 @@ options::
 shuffle:: true
 
 #### Question: Choice
+id:: a262d12d-cae9-4823-84fa-b5a3710e3a92
 content:: Most longtermists reject "pure time discounting." If you reject it, how do you treat a harm that will happen 1,000 years from now, other things equal?
 options::
 - [x] As just as bad as the same harm happening today

@@ -84,13 +84,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 7985eb49-7205-4fdf-b52b-9f8af26fe308
-content:: Is AI control mainly a method for changing what an AI model wants?
-options::
-- [x] No
-- Yes
-
-#### Question: Choice
 id:: 096f04c4-00dc-4610-86a9-d355719449e0
 content:: Which of these is an AI control measure rather than an alignment technique?
 options::
