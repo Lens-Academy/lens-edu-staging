@@ -89,19 +89,19 @@ Parties jointly detect and respond to computational emergencies such as rogue de
 :::callout {title="6. Knowledge and benefit transfers" tone="neutral" collapse="closed"}
 In two strands: sharing research, development knowledge, and safety-enhancing technologies; and sharing chips, compute access, completed models or API access, cash, and AI-enabled aid. Both function as side payments that make restrictive regimes acceptable to states asked to forgo development.
 
-**Historical parallel: Atoms for Peace, 1953.** Eisenhower’s program offered civilian nuclear technology, materials, and training to countries that accepted safeguards, a bargain later written into the NPT as Article IV. Benefit-sharing is what made a discriminatory regime signable for the have-nots. The double edge: some transferred “peaceful” technology later fed weapons programs, including India’s.
+**Historical parallel: Atoms for Peace, 1953.** Eisenhower’s program offered civilian nuclear technology, materials, and training to countries that accepted safeguards, a bargain later written into the Nuclear Non-Proliferation Treaty (NPT) as Article IV. Benefit-sharing is what made a discriminatory regime signable for the have-nots. The double edge: some transferred “peaceful” technology later fed weapons programs, including India’s.
 :::
 
 :::callout {title="7. Compute controls" tone="neutral" collapse="closed"}
 Export controls, international chip tracking, and hardware-enabled governance mechanisms restricting who can access frontier-scale compute. Also the enforcement backbone for options 8 through 11.
 
-**Historical parallel: Fissile material chokepoint.** Nuclear nonproliferation works largely because enriched uranium and plutonium are hard to produce and their supply chains are controllable, policed by the Nuclear Suppliers Group and Cold War-era regimes like CoCom. Advanced chips play the same chokepoint role for AI, with a similar concentration: a handful of firms (TSMC, ASML, NVIDIA) sit where enrichment technology once did.
+**Historical parallel: Fissile material chokepoint.** Nuclear nonproliferation works largely because enriched uranium and plutonium are hard to produce and their supply chains are controllable, policed by the Nuclear Suppliers Group and Cold War-era regimes like the Coordinating Committee for Multilateral Export Controls (CoCom). Advanced chips play the same chokepoint role for AI, with a similar concentration: a handful of firms (TSMC, ASML, NVIDIA) sit where enrichment technology once did.
 :::
 
 :::callout {title="8. Binding international regulation of development and deployment" tone="neutral" collapse="closed"}
 Treaty rules spanning the stack, from data-center training runs down to fine-tuning, inference, and sensitive AI-enabled devices.
 
-**Historical parallel: Chemical Weapons Convention, 1993.** The CWC regulates an entire dual-use industry rather than banning a single object, with tiered schedules of chemicals, facility declarations, and routine OPCW inspections of commercial plants. It’s the best existing model of intrusive, stack-spanning regulation of a technology that is mostly civilian.
+**Historical parallel: Chemical Weapons Convention, 1993.** The CWC regulates an entire dual-use industry rather than banning a single object, with tiered schedules of chemicals, facility declarations, and routine inspections of commercial plants by the Organisation for the Prohibition of Chemical Weapons (OPCW). It’s the best existing model of intrusive, stack-spanning regulation of a technology that is mostly civilian.
 :::
 
 :::callout {title="9. Nonproliferation regime" tone="neutral" collapse="closed"}
