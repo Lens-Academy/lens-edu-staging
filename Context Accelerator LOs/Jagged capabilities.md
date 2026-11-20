@@ -15,6 +15,10 @@ Explain why AI systems can beat experts on some tasks while failing at ones huma
 The same AI system can solve hard maths problems and then make a basic error a child would avoid. If you understand this unevenness, you can judge both dismissive and alarmed claims about AI on the evidence rather than on one striking example, and know when to check its outputs.
 
 ## Lenses
+- [Taking Jaggedness Seriously (Helen Toner, Rising Tide)](https://helentoner.substack.com/p/taking-jaggedness-seriously): why AI keeps getting better while still failing in strange ways, what "jagged" means, and four reasons the unevenness may last (how easy success is to check, missing context, adversaries, physical work); read "What is jaggedness?" and "Why might AI keep being jagged?" if short on time (November 2025).
+- [Centaurs and Cyborgs on the Jagged Frontier (Ethan Mollick, One Useful Thing)](https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged): the piece that coined the "jagged frontier", with a study of consultants using GPT-4 who did better on tasks inside the frontier and worse on a task just outside it, because the edge is invisible and they trusted wrong answers; the study models are from 2023 (September 2023).
+- [Why language models hallucinate (OpenAI)](https://openai.com/index/why-language-models-hallucinate/): why models state falsehoods confidently, including that tests score a lucky guess above "I don't know" and that rare facts like a person's birthday can't be learned from patterns (September 2025).
+- [Moravec's Paradox (Ege Erdil, Epoch AI)](https://epoch.ai/gradient-updates/moravec-s-paradox): why skills that are easy for humans, like perception and movement, are hard for AI, and which jobs this suggests will be automated first or last (December 2024) (more advanced).
 
 ## Tests
 
@@ -42,10 +46,10 @@ shuffle:: true
 id:: 9df6cc0d-d5e6-44b9-8fe4-8a1ebed62729
 content:: Which of these is a main reason language models hallucinate?
 options::
-- [x] Training rewards plausible text, and many tests score a confident guess above "I don't know"
+- [x] Training and tests reward a confident guess over saying "I don't know"
 - Models look up facts in an internal database that contains many errors
-- Random noise added while generating text slowly corrupts the facts a model has stored
-- Models are deliberately trained to invent details so that their answers seem richer
+- Models mostly repeat false claims they found in their training text
+- Models run out of memory and fill the gaps with random words
 shuffle:: true
 
 #### Question: Choice
@@ -63,9 +67,9 @@ id:: 935a4691-0b73-43b6-9dbc-5368914bdbec
 content:: Some language models that could solve hard maths problems failed to count how many times the letter "r" appears in "strawberry". Which is the best explanation?
 options::
 - [x] Models see text as multi-character tokens, not as individual letters
-- The models were trained on too little English text to know common words
-- The models were deliberately underperforming on simple tasks to hide their skill
-- Counting and maths are handled by separate parts of the computer's hardware
+- Models cannot look back at earlier parts of a word once it is written
+- Spelling questions were filtered out of training data as too trivial
+- Models are trained mainly on maths, leaving little room for spelling
 shuffle:: true
 
 #### Question: Choice
@@ -89,11 +93,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: dcda9e4b-475e-41ce-b44a-1401ac4af20c
-content:: Are language models more likely to hallucinate about obscure facts, such as a little-known person's birth date, than about widely known facts?
+id:: 80a930ce-08c5-4a17-a26d-79d0ad5322ee
+content:: You ask a language model with no web search for each of these. Which answer most needs checking before you rely on it?
 options::
-- [x] Yes
-- No
+- [x] The founding date of a small local charity
+- A summary of the causes of the First World War
+- A general explanation of how vaccines work
+- A translation of a short email into Spanish
+shuffle:: true
 
 #### Question: Open
 id:: 37d658dc-68aa-42a9-99f6-98c7e749a735

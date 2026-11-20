@@ -13,9 +13,14 @@ Explain how researchers try to read what a model is computing from its internal 
 - [[Scheming]]
 
 ## Why it matters
-A model that is scheming could behave well whenever it is tested, so checking its outputs may not be enough. Knowing what interpretability can already show, and what it can't, helps you judge safety claims that rely on it and see why many researchers hope it matures in time.
+A model that is scheming could behave well whenever it is tested, so checking its outputs may not be enough. Some labs now use interpretability in their pre-deployment safety checks. Knowing what it can show, and what it can't, helps you judge safety claims that rely on it and see why many researchers hope it matures in time.
 
 ## Lenses
+- [[../articles/darioamodei-dario-amodei-the-urgency-of-interpretability|The Urgency of Interpretability]]: why we don't understand the AI we build, and how researchers have started to pick out the concepts a model uses and trace how it reaches an answer. Read from "The Dangers of Ignorance" to the end of "The Utility of Interpretability", plus footnote 8. This is the hopeful case, from the head of a leading lab (April 2025).
+- [Reasoning Models Don't Always Say What They Think (Anthropic)](https://www.anthropic.com/research/reasoning-models-dont-say-think): an experiment showing that when AI models explain their reasoning step by step, they often leave out what really drove their answer, including when they are cheating (April 2025).
+- [Natural Language Autoencoders (Anthropic)](https://www.anthropic.com/research/natural-language-autoencoders): a new tool that turns a model's internal workings into readable sentences. It revealed that a model suspected it was being tested without saying so, and the post is frank about the tool's mistakes and costs (May 2026).
+- [[../Lenses/Interpretability Will Not Reliably Find Deceptive AI|Interpretability Will Not Reliably Find Deceptive AI]]: a leading interpretability researcher explains why looking inside a model won't reliably catch an AI that is hiding its goals, and why it is still worth using as one safety check among several. One side of a live debate, replying to Amodei (May 2025).
+- [[../Lenses/AI Safety Atlas - Goal Misgeneralization - Detection|Detecting Hidden Goals]]: a textbook survey of the methods for catching a model that hides misaligned goals, what each one has shown and where each one fails. The "Linear Probes" section is the part most worth reading (more advanced).
 
 ## Tests
 #### Question: Choice
@@ -43,13 +48,13 @@ id:: 23962c3b-27d7-468e-80b4-6c4e71ba13a1
 content:: When a neural network represents more features than it has neurons, by storing them as overlapping directions in its activations, this is called {{superposition}}.
 
 #### Question: Choice
-id:: 0d7e04e9-349d-4836-9d27-9955be2e0826
-content:: In interpretability research, what is a sparse autoencoder used for?
+id:: f875290e-787b-4f50-930c-db905b9a2625
+content:: Why can't researchers usually understand a language model just by checking what each of its neurons responds to?
 options::
-- [x] Splitting a model's activations into many more interpretable features
-- Compressing a model so that it runs on smaller hardware
-- Removing harmful knowledge from a model's weights
-- Generating training data that makes a model easier to interpret
+- [x] Models store more concepts than neurons, so most neurons mix several unrelated ones
+- Most neurons stay inactive and play no part in producing the outputs
+- Each neuron responds only to single characters, never to whole concepts
+- The model reassigns what each neuron does whenever it gets a new prompt
 shuffle:: true
 
 #### Question: Choice
@@ -89,7 +94,7 @@ options::
 - [x] Many features and some circuits found, with much computation still unexplained
 - Explanations of most of the computation behind frontier models' outputs
 - Interpretable features found in small toy models but not in large ones
-- Reliable tools that labs use to certify their models as aligned
+- Tools reliable enough to certify a frontier model as aligned
 shuffle:: true
 
 #### Question: Choice
@@ -97,9 +102,9 @@ id:: 89a88593-9f49-46f2-9825-c1847ca398c6
 content:: A team audits a language model with interpretability tools and finds no features linked to deception. Why might this not show the model is safe?
 options::
 - [x] Current tools leave much of the computation unexplained, so deception could be missed
-- Interpretability tools detect deception during training but not after deployment
-- A model's goals are stored in its training data rather than its activations
-- Deception shows up in a model's outputs, so internal features are irrelevant
+- Interpretability tools only work on models much smaller than frontier models
+- Features found by these tools are unrelated to how the model actually behaves
+- Deception can be detected only from a model's outputs, never from its activations
 shuffle:: true
 
 #### Question: Choice

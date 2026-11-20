@@ -17,6 +17,10 @@ Explain what a binding international agreement on advanced AI could require, whi
 Many plans for reducing AI risk, from compute caps to a pause, work only if the leading countries agree and can check that others aren't cheating. Knowing what verification can and can't do helps you judge which proposals are realistic and where a treaty could fail.
 
 ## Lenses
+- [[../Lenses/AIV - An International Agreement to Prevent Premature ASI|An International Agreement to Prevent Premature ASI]]: MIRI's governance team sets out a treaty led by the US and China, with compute thresholds, chip tracking, research limits, and an honest account of why it could fail and why the political will is not there yet; read up to the end of section 4 (November 2025).
+- [U.S.-China AI Agreements Need Verification, Not Trust (CNAS)](https://www.cnas.org/publications/cnas-insights/cnas-insights-u-s-china-ai-agreements-need-verification-not-trust): Why neither side will take the other's word, what verification of compute limits could look like, what can't be checked, and why the tools need building now (September 2026).
+- [Governing Dual-Use Technologies: Case Studies of International Security Agreements (arXiv)](https://arxiv.org/abs/2409.02779v1): What the IAEA, the START treaties, the chemical weapons body (OPCW), the Wassenaar export controls and the Biological Weapons Convention teach an AI treaty about inspections, challenge inspections and the cost of having no verification; read the Executive Summary, plus the OPCW and BWC case studies (September 2024).
+- [[../Lenses/AIV - Verification for International AI Governance|Verification for International AI Governance]]: Oxford Martin's report on which AI agreements could be checked today or within a few years, why data-centre compute is the tractable case, and the on-chip and off-chip hardware that could do it; read the abstract and executive summary (July 2025) (more advanced).
 
 ## Tests
 #### Question: Choice
@@ -90,13 +94,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 8bbb574e-60c6-4cba-9963-7a1bb0cacb61
-content:: Which of these is a binding international treaty on AI, rather than a declaration or voluntary commitment?
+id:: ab06d308-87f3-4d74-b9a6-ab9b1a60b9d2
+content:: As of November 2026, what binding international law limits the compute or capabilities of frontier AI models?
 options::
-- [x] The Council of Europe Framework Convention on AI
-- The Bletchley Declaration
-- The Frontier AI Safety Commitments agreed in Seoul
-- The Hiroshima AI Process Code of Conduct
+- [x] None; the one binding AI treaty covers human rights, not compute or capabilities
+- A UN treaty caps training compute, though the US and China haven't joined
+- The Bletchley Declaration, which became binding once the Seoul summit confirmed it
+- The Hiroshima Code of Conduct, which binds AI companies based in G7 countries
 shuffle:: true
 
 #### Question: Choice
@@ -110,10 +114,20 @@ options::
 id:: b286112f-dcae-4221-a84d-40d9eff38397
 content:: In September 2026, after a Trump–Xi summit in Washington, what did the US and China agree on AI?
 options::
-- [x] A dialogue on superintelligence risks and a channel for AI incidents
+- [x] A channel for serious AI incidents and a dialogue on AI's risks and benefits
 - A cap on training compute with mutual inspections
 - A joint ban on open-weight models above a capability threshold
 - A new UN agency to license frontier AI developers
+shuffle:: true
+
+#### Question: Choice
+id:: d7423420-78ad-415e-bca3-49c1bc75ba8d
+content:: On 20 November 2026, Trump said he and Xi Jinping had agreed to "some joint guardrails" on superintelligence. As of late November 2026, what are these guardrails?
+options::
+- [x] A stated intention, with no text or details published
+- A signed treaty awaiting ratification in both countries
+- A compute cap checked through joint inspections of data centers
+- An executive agreement whose full text the White House has released
 shuffle:: true
 
 #### Question: Open
