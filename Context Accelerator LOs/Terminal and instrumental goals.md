@@ -76,26 +76,6 @@ options::
 - The goals it reaches last in a plan
 shuffle:: true
 
-#### Question: Choice
-id:: a973af6d-27af-4dcf-bc9a-e676f304f0dc
-content:: Instrumental convergence is the argument that agents with very different terminal goals would pursue similar instrumental goals. Why would different terminal goals lead to similar instrumental goals?
-options::
-- [x] Some means, like resources, help with a wide range of ends
-- Agents tend to copy the goals of other agents
-- Training tends to give AI systems the same terminal goals
-- Terminal goals tend to drift towards the same ones over time
-shuffle:: true
-
-#### Question: Choice
-id:: e4462ffd-4b27-404c-9f0b-6f0872179e18
-content:: An AI agent's only terminal goal is to make as many paperclips as possible. Someone offers to change its terminal goal to making staples. Judged by its current goal, how would the agent rate this change?
-options::
-- [x] As bad, because it would lead to fewer paperclips
-- As neutral, because it would still have a goal to pursue
-- As good, because staples and paperclips are similar
-- As good, if staples are easier to make than paperclips
-shuffle:: true
-
 #### Question: Open
 id:: 6f9ed412-87ee-4e3f-b68b-3ba8e5761149
 content:: Explain the difference between a terminal goal and an instrumental goal, and give one example of each for the same agent.
@@ -110,4 +90,4 @@ options::
 
 #### Question: FillBlank
 id:: 371927b1-bd36-4ca6-8a98-44bc1d221929
-content:: A goal an agent pursues for its own sake, rather than as a means to some other goal, is called a {{terminal|final|intrinsic}} goal.
+content:: A goal an agent pursues for its own sake, rather than as a means to some other goal, is called a {{terminal|final}} goal.

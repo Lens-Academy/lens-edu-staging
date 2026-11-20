@@ -113,10 +113,6 @@ options::
 - It is required under World Trade Organization rules
 shuffle:: true
 
-#### Question: FillBlank
-id:: 810bb62b-55e5-48e5-a400-f059383120d9
-content:: The Dutch company {{ASML}} is the only maker of the EUV lithography machines needed to make the most advanced chips, which is one reason export controls on China can work.
-
 #### Question: Open
 id:: 784c6efb-7b55-4964-8721-7a583c2d31b7
 content:: Name two advantages China is often said to have over the US in AI competition.

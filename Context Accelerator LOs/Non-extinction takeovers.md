@@ -111,13 +111,6 @@ options::
 - Humans slowly hand over all decisions to AI systems
 shuffle:: true
 
-#### Question: Choice
-id:: d9e234bc-c446-4252-b5ff-1ca9067752ef
-content:: In scenarios where a misaligned AI spares humans out of a slight concern for them, do humans keep control over how most of the universe's resources are used?
-options::
-- [x] No
-- Yes
-
 #### Question: FillBlank
 id:: 0dc78950-43bc-46d1-ac9b-5a38a58ae4ba
 content:: An AI takeover in which humans survive but lose control over the future for good is often described as permanent human {{disempowerment}}.

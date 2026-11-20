@@ -33,13 +33,7 @@ options::
 - It ranks interventions by how much risk each one removes
 - It rests on a careful estimate of how likely catastrophe is
 - It focuses on the single most likely way AI could fail
-- It is endorsed by a major AI company or government
-- It gives a probability that AI causes human extinction
 shuffle:: true
-
-#### Question: FillBlank
-id:: 18834171-2d4c-4486-a028-67ebd170862c
-content:: An end-to-end story of how humanity gets from the present to a safe, stable outcome with advanced AI is called a {{theory of victory}}.
 
 #### Question: Choice
 id:: a880c023-0027-4ef5-a5ed-e8152cb79aae

@@ -73,10 +73,6 @@ options::
 - The risk counts as small only if the estimate is accurate
 shuffle:: true
 
-#### Question: FillBlank
-id:: b1490838-f09b-4962-a049-677e6ec95e00
-content:: A risk with a 1% chance of killing all of 8 billion people has an expected death toll of {{80 million|80,000,000}}.
-
 #### Question: Choice
 id:: a297abbc-dbc8-4989-a294-8df94a4cc19f
 content:: Some argue that the case for reducing AI risk doesn't depend on caring about future generations. If the risk of extinction were 10%, what would best support this?

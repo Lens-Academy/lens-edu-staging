@@ -46,13 +46,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 546a68fb-d816-4d3c-9815-a84a4d2e9b78
-content:: A safety technique makes a model follow instructions more reliably, which also makes it more useful to customers. Does that extra usefulness count as a possible capabilities externality?
-options::
-- [x] Yes
-- No
-
-#### Question: Choice
 id:: 577dd0a3-f2c5-4a2b-bc84-ec38826e96ac
 content:: A safety technique also makes AI models more useful. Why do some see this as good news for safety, despite the capabilities externality?
 options::

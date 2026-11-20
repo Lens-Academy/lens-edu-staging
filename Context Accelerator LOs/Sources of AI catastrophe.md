@@ -111,10 +111,6 @@ options::
 - Systemic risks
 shuffle:: true
 
-#### Question: FillBlank
-id:: 49de14e3-2e8b-4036-b1e7-ccdd3f8750cb
-content:: Harm from AI that comes from competition, incentives and interactions between many actors, with no single person or system intending it, is called {{structural|systemic}} risk.
-
 #### Question: Open
 id:: fccc0660-9be2-47e0-8443-82e679240dcf
 content:: Why do different sources of AI catastrophe often need different solutions? Give one measure that helps against one source but not another.
