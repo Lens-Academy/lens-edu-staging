@@ -65,7 +65,14 @@ to:: "like first graders trying to supervise people with multiple doctorates."
 from:: "Simply put, without a very concerted effort"
 to:: "hoping for the best simply isn’t a good enough answer on alignment."
 
-%%AF-EXCERPT%%
+#### Article
+source:: [[../articles/larsen-q3-5-timelines-update-looks-like-the-intelligence-explosion-will-happen-in-2027-after-all]]
+from:: "_We want to get this post out quickly given the urgency of the topic."
+to:: "[**AI 2027 scenario**](https://ai-2027.com/)."
+
+#### Article
+from:: "**Now,** [**all of us forecast**]"
+to:: "will put us in an extremely bad position."
 
 #### Text
 content::
