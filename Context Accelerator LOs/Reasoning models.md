@@ -36,16 +36,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 0bde712a-7040-41a2-8e6b-77a297d4cfeb
-content:: In reinforcement learning with verifiable rewards (RLVR), where does the reward signal usually come from?
-options::
-- [x] An automatic check of the answer, such as running unit tests
-- Human raters choosing which of two responses they prefer
-- Matching human-written reasoning steps word for word
-- The model's own rating of how confident it feels
-shuffle:: true
-
-#### Question: Choice
 id:: 2730f0ad-d91b-4292-b1d2-bdbdc2a62ab9
 content:: Before reasoning models, people often got better answers by adding "Let's think step by step" to a prompt. How do reasoning models differ?
 options::
@@ -116,7 +106,3 @@ id:: 342e3389-f41f-4c3f-8406-1e0fedacb9e0
 content:: How does the reward signal in reinforcement learning with verifiable rewards (RLVR) differ from the reward signal in RLHF?
 assessment-instructions:: Score out of 100. 100 for saying RLVR rewards come from an automatic check of whether the answer is correct (tests, known solutions), while RLHF rewards come from human preference ratings, usually through a reward model trained on them. 50 for describing only one side correctly.
 
-#### Question: Open
-id:: 561faa63-f3cd-479f-b33e-f1aae1dfee6d
-content:: Give one reason a reasoning model's chain of thought can help people oversee the model.
-assessment-instructions:: Score out of 100. 100 for any one of: humans or automated monitors can read the intermediate reasoning and catch signs of misbehaviour (such as plans to cheat or deceive); it shows how the model reached an answer, helping spot errors; on hard tasks the model may need to write its reasoning out, making it harder to hide. 50 for a vague "it's more transparent" without saying what can be seen or caught.

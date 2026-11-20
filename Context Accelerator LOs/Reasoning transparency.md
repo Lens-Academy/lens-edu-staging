@@ -85,13 +85,14 @@ shuffle:: true
 id:: 54fd4857-a5f8-4905-846a-5db5880dc8d0
 content:: A memo concluding that a policy will reduce AI risk adds a line saying what evidence would change the author's mind. What does this mainly do for readers?
 options::
-- [x] Shows which evidence the conclusion depends on, so they can check it
+- [x] Shows which evidence the conclusion depends on
 - Shows that the author is humble and open to criticism
 - Shows that the author has dealt with the main objections
 - Protects the author from blame if the policy fails
 shuffle:: true
 
 #### Question: Choice
+id:: 5d908e73-d58c-4bf9-b556-c3ed6bca6541
 content:: An author writes "I'm 70% confident that a lab's next model will pass a particular safety evaluation." What does giving the number do?
 options::
 - [x] Lets readers score the claim once the result is known

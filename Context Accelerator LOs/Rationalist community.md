@@ -108,7 +108,6 @@ options::
 - A six-month pause on training models more powerful than today's
 - Licensing and mandatory safety testing for frontier AI companies
 - Open-sourcing frontier models so that anyone can check them
-- Leaving alignment to the safety teams inside AI companies
 shuffle:: true
 
 #### Question: Open

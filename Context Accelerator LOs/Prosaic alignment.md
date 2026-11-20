@@ -64,6 +64,7 @@ shuffle:: true
 id:: 6d1a5ca8-da4e-4823-b650-a3ef6e0054a0
 content:: A lab finds that its safety method reliably stops harmful behaviour in its current models. Why might a skeptic of prosaic alignment still be unimpressed?
 options::
+- [x] The method might stop working once models can evade or game it
 - The method was tested on language models but not on image models
 - Harmful behaviour in current models is too rare to measure reliably
 - The method has not yet been described in a peer-reviewed paper

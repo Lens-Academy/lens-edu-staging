@@ -72,10 +72,6 @@ options::
 - Probing for weaknesses at random because their safety training broke
 shuffle:: true
 
-#### Question: FillBlank
-id:: 910dc23d-948e-44d8-95f5-b05c2dd8f6fc
-content:: When a model gets a high score by exploiting a flaw in how its task was specified or graded, instead of doing the intended task, this is called {{specification gaming|reward hacking}}.
-
 #### Question: Choice
 id:: 7f6eff73-6187-4526-aa63-8f439f5b6bcc
 content:: A worrying behavior has been found in one model from one lab, in one test scenario. Which further finding would most widen how far the result can be generalized?

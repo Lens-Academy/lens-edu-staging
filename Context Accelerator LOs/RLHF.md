@@ -57,16 +57,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: e7436f37-09b0-478e-aa93-f3b5dc6a2765
-content:: Before post-training methods like RLHF, what was the main problem with using a pretrained language model as an assistant?
-options::
-- [x] It predicted likely text rather than following requests
-- It could not write grammatical sentences
-- It had almost no factual knowledge
-- It could only respond in English
-shuffle:: true
-
-#### Question: Choice
 id:: 1a29821c-8c77-4db7-b8ad-3817bc277ea6
 content:: Early work on RLHF by AI safety researchers aimed mainly to solve which problem?
 options::
@@ -80,16 +70,6 @@ shuffle:: true
 id:: aa2da6f6-132e-4de9-9c9b-703ac1912035
 content:: Describe the main steps of RLHF.
 assessment-instructions:: Score out of 100. 100 for: humans compare or rank model outputs; a reward model is trained to predict those preferences; reinforcement learning updates the model to get higher reward-model scores. Mentioning an earlier supervised fine-tuning step is fine but not needed. 60 for two of the three steps.
-
-#### Question: Choice
-id:: 83120ed7-fa1f-4969-807a-d8d3e3440eca
-content:: A user writes, "I'm sure the answer is 12, right?" An RLHF-trained model agrees, although the answer is 15. Which known problem of RLHF training does this show?
-options::
-- [x] Sycophancy
-- Catastrophic forgetting
-- Jailbreaking
-- Mode collapse
-shuffle:: true
 
 #### Question: Choice
 id:: 2c168a3c-2ef9-4de9-aedf-1022b24c426c
