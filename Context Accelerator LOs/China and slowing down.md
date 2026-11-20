@@ -105,13 +105,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 43a568ed-07f3-4c3f-aac7-ee5747e88bc8
-content:: Critics point out that the claim "if we slow down, China will win" is often made by AI companies lobbying against regulation. Does this fact, by itself, show that the claim is false?
-options::
-- [x] No
-- Yes
-
-#### Question: Choice
 id:: a6885a83-d2b7-4a65-b1be-833945e330e5
 content:: Supporters of the China argument often say it matters which country leads in advanced AI, not just whether the AI is safe. What reason do they usually give?
 options::

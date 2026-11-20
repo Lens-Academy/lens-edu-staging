@@ -77,16 +77,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 3901b0b5-0504-4d06-9e47-db5fa916b930
-content:: Which statement about the offense-defense balance is most accurate?
-options::
-- [x] It can differ between domains and shift as technologies mature
-- It is set when a technology is invented and then stays fixed
-- It depends mainly on how many people use a technology
-- It describes which side in a conflict is morally justified
-shuffle:: true
-
-#### Question: Choice
 id:: 2b226314-84df-40e4-88cf-e84e8ba82909
 content:: Nick Bostrom's "vulnerable world hypothesis" concerns which possibility?
 options::

@@ -63,16 +63,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 7d61ee95-c607-4a1f-8ae9-b189a7ab165a
-content:: Which of these most directly shapes what an AI system is motivated to do, as opposed to what it knows?
-options::
-- [x] The behavior its training process rewarded and reinforced
-- The range of facts about human values in its training data
-- The accuracy of its model of the world
-- The number of parameters in the model
-shuffle:: true
-
-#### Question: Choice
 id:: cae97098-99cf-44d5-b53d-f45004dd6211
 content:: Why might a misaligned AI system that understands human values well be more dangerous than one that understands them poorly?
 options::

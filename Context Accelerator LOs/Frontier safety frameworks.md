@@ -117,10 +117,6 @@ options::
 - Advance choices bind competitors to adopt the same safeguards
 shuffle:: true
 
-#### Question: FillBlank
-id:: 4fa83c63-d696-4809-8936-827720d781f3
-content:: Anthropic's Responsible Scaling Policy groups the safeguards required at each level of model capability into {{AI Safety Levels|AI Safety Level|ASLs|ASL}}.
-
 #### Question: Choice
 id:: dc34c72a-df8e-454d-8f78-e795bbc76dc2
 content:: Besides safeguards on how a model is deployed, what else do most frontier safety frameworks require once a model crosses a dangerous-capability threshold?
@@ -137,13 +133,6 @@ content:: Did the voluntary AI commitments that seven companies made to the Whit
 options::
 - [x] No
 - Yes
-
-#### Question: Choice
-id:: 8938081c-bc56-4577-9653-f2c0ba712338
-content:: After the 2024 AI Seoul Summit, did companies such as Meta, Microsoft and Amazon publish their own frontier safety frameworks?
-options::
-- [x] Yes
-- No
 
 #### Question: Choice
 id:: 75330521-c0c3-4214-8b6a-e2ad4c4b163c

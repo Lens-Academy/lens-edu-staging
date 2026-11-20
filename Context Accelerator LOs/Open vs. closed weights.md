@@ -35,7 +35,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: 99a09509-2de7-44bd-93f7-c28cb2152827
-content:: Someone downloads an open-weights model and runs it on their own laptop with the internet switched off. Which of these is true?
+content:: Someone downloads an open-weights model and runs it on their own laptop. Which of these is true?
 options::
 - [x] The developer can't see or block what they ask it.
 - The developer can still filter its answers remotely.
@@ -77,7 +77,7 @@ shuffle:: true
 id:: 9d102261-7145-4079-8560-c52f3cce3432
 content:: Which of these is an argument usually made in favour of releasing model weights openly?
 options::
-- [x] Outside researchers can study the model's internals for safety research.
+- [x] Outside researchers can study the model's internals.
 - Developers can monitor how the model is being misused.
 - Safety fixes can be pushed to every user at once.
 - Fewer groups gain access to the most capable AI.
@@ -92,13 +92,6 @@ options::
 - The model learned most of what it knows from public web pages.
 - The model sometimes gives wrong answers about cyberattacks.
 shuffle:: true
-
-#### Question: Choice
-id:: 50ba04ed-32c4-4c3b-8e9a-bec9917ab43c
-content:: Does releasing a model's weights openly mean its training data is also made public?
-options::
-- [x] No
-- Yes
 
 #### Question: Choice
 id:: 7094ba59-4cb6-426f-aa3e-adf97d19730e

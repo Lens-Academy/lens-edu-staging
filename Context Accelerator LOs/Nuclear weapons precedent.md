@@ -118,10 +118,6 @@ options::
 - Only wars, not agreements, have stopped countries from building weapons
 shuffle:: true
 
-#### Question: FillBlank
-id:: aef13344-3c28-4155-93fb-208db4fcb59b
-content:: As of November 2026, {{nine|9}} countries are believed to have nuclear weapons.
-
 #### Question: Choice
 id:: 862ec954-ea5f-4929-bc0c-b475f1557b0c
 content:: After the Manhattan Project, what did nuclear scientists do that AI governance writers often point to as a model?

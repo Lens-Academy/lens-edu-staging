@@ -53,13 +53,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 84994aad-3b17-4f2d-a5e2-7139332eec2f
-content:: Is most AI safety research at frontier AI companies paid for by the companies themselves or by philanthropic grants?
-options::
-- [x] By the companies themselves
-- By philanthropic grants
-
-#### Question: Choice
 id:: f063a392-2213-4290-a8a8-cdb055610e97
 content:: What does a career-transition grant for AI safety usually pay for?
 options::

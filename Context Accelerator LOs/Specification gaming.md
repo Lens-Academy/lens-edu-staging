@@ -108,10 +108,6 @@ options::
 - Agents usually hide gamed code in files that developers never open
 shuffle:: true
 
-#### Question: FillBlank
-id:: b6d18785-6014-436a-9d81-326e6cbf5712
-content:: Specification gaming by a system trained with reinforcement learning is now usually called {{reward hacking|reward-hacking}}.
-
 #### Question: Open
 id:: 7f5a229c-4112-4801-a992-ff8f0fa95f30
 content:: A cleaning robot is rewarded when its camera sees no mess. Describe one way it could get high reward without cleaning.
