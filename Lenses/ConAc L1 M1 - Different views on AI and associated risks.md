@@ -105,7 +105,7 @@ Meanwhile, AI safety research cannot simply stop and wait for a mature scientifi
 
 *This* makes navigating disagreements and understanding background claims part of the research itself.
 
-\### Further reading
+**Further reading**
 
 If you'd like to explore these problems further, here are three essays with three different perspectives:
 
@@ -113,7 +113,7 @@ If you'd like to explore these problems further, here are three essays with thre
 - [Legible vs. Illegible AI Safety Problems](https://www.lesswrong.com/posts/PMc65HgRFvBimEpmJ/legible-vs-illegible-ai-safety-problems), by Wei Dai (2025). This short post explores a consequence of the field's lack of shared understanding: some important safety problems may be difficult for researchers, funders, and decision-makers to recognise or appreciate. Dai argues that making such problems more understandable may be as important as solving them, and that focusing on more easily recognised problems could sometimes do more harm than good.
 - [Epistemic Modesty and How I Think About AI Risk](https://www.lesswrong.com/posts/wx2hQskeDuKvM2Yd8/epistemic-modesty-and-how-i-think-about-ai-risk), by Aryeh Englander (2022). This essay approaches the problem from an individual's perspective. How should you form your own views when experts who have studied a question far longer than you have still disagree? Englander discusses how to weigh your own assessment of arguments against other people's opinions, and how to reason about your uncertainty when you cannot confidently evaluate everything yourself.
 
-\### What does navigating disagreements look like in practice?
+**What does navigating disagreements look like in practice?**
 
 If you'd like to see what researchers actually do to overcome all of these, here are two examples.
 
