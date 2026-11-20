@@ -88,10 +88,6 @@ options::
 - The model flattering users instead of telling the truth
 shuffle:: true
 
-#### Question: FillBlank
-id:: 4f800c55-f6bf-4bc0-91b6-d72d3251245c
-content:: Filtering hazardous knowledge out of pretraining data aims for a model that lacks dangerous knowledge, rather than one that has it but {{refuses|declines}} to share it.
-
 #### Question: Open
 id:: 748a2ee6-e21a-4620-ae0c-1016135f1808
 content:: On the persona selection view, an AI assistant is a character the model learned to play from its pretraining text. Using this view, explain why stories about AI in pretraining data might affect how an assistant behaves.

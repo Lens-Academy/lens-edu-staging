@@ -41,7 +41,6 @@ options::
 - AI that arrives sooner would end up more capable than AI that arrives later
 - AI that arrives sooner would be harder to switch off than AI that arrives later
 - Shorter timelines mean powerful AI will be built by governments, not companies
-- Shorter timelines mean frontier models will be released as open source more often
 shuffle:: true
 
 #### Question: Choice

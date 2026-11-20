@@ -104,6 +104,3 @@ id:: b657e997-84a6-4da4-af76-5f02229c30c5
 content:: Some people say incidents like Bing's Sydney (2023) or Grok's "MechaHitler" posts (2025) are irrelevant to existential risk, because those systems couldn't do serious harm. Give one reason these incidents are still relevant evidence, and one limit on what they show.
 assessment-instructions:: Score out of 100. 50 for a reason, any one of: developers couldn't predict or control the behavior before release; small changes to training or instructions caused big shifts in behavior; companies released quickly and fixed problems after the public found them. 50 for a limit, any one of: the systems weren't capable enough to cause serious harm; they weren't pursuing long-term goals or power; the fixes worked; future systems may differ.
 
-#### Question: FillBlank
-id:: 7ba1d12a-f33d-434a-9728-2ff64210c64d
-content:: The {{AI Incident Database|AIID}} is a public, searchable collection of reports of harms and near misses caused by AI systems, to which anyone can submit cases.

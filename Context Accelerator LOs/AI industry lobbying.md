@@ -117,10 +117,6 @@ options::
 - Yes
 - [x] No
 
-#### Question: FillBlank
-id:: ed7241fc-02ea-4477-9bd3-1413008c55bd
-content:: In the US, a {{super PAC|super political action committee}} can raise and spend unlimited money on elections, as long as it doesn't coordinate directly with candidates.
-
 #### Question: Open
 id:: d7062421-e216-4581-a77a-907c614853c4
 content:: Name two policy positions that AI companies or their investors have commonly pushed in US lobbying since 2023.

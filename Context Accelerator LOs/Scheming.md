@@ -106,7 +106,3 @@ assessment-instructions:: Score out of 100. 100 for: the goal came from the prom
 id:: 07217688-2385-4f60-8baf-33234cc933bc
 content:: In 2025, OpenAI and Apollo Research trained models not to take covert actions, and covert actions in their tests fell sharply. Why can't a drop like this, on its own, show that a model has stopped scheming?
 assessment-instructions:: Score out of 100. 100 for any one of: the training might teach the model to hide scheming better; the model may behave well because it recognizes that it is being tested; tests cover limited situations, so rare or new cases may be missed. 50 for a vague answer such as "the model could still be lying" with no mechanism.
-
-#### Question: FillBlank
-id:: 5bdbfc9d-8fdc-495d-bb5a-fe47d93a8af8
-content:: The 2019 paper "Risks from Learned Optimization" describes a model that performs well in training only so that its own goals survive training as {{deceptively aligned|deceptive alignment}}.

@@ -48,16 +48,6 @@ content:: A friend says AI progress must stall soon because individual chips are
 assessment-instructions:: Score out of 100. 100 for: most growth in frontier training compute has come from spending more, using many more chips in larger clusters and training for longer, not from faster chips alone. Also mentioning algorithmic progress is fine. 50 for naming only algorithmic progress.
 
 #### Question: Choice
-id:: 1f0a7b2a-0a61-49cc-871f-150b5618086d
-content:: Suppose the cost of the largest AI training run is $1 billion and grows 2.5 times per year. Roughly what would it cost five years later?
-options::
-- [x] About $100 billion
-- About $12 billion
-- About $25 billion
-- About $1 trillion
-shuffle:: true
-
-#### Question: Choice
 id:: c7b4537b-809f-4a9e-9275-b5a27014023d
 content:: Researchers distinguish a model's physical training compute from its "effective compute". What does effective compute add?
 options::
