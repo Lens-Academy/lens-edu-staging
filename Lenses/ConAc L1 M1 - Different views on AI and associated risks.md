@@ -129,13 +129,20 @@ source:: [[../articles/arxiv-the-three-main-doctrines-on-the-future-of-ai]]
 from:: Proponents of the dominance doctrine believe that
 to:: leading to human extinction or its permanent disempowerment.
 
+#### Callout: Core logic of the dominance doctrine
+collapse:: closed
+
 #### Text
 content::
-Core logic:
+Below is the argument of the **dominance doctrine** in short. We distilled it from the paper's section on this doctrine, keeping the authors' headings where we could.
 
 - Automated AI R&D can yield an insurmountable lead in AI
 - Powerful AI can be leveraged into a decisive strategic advantage
 - A decisive strategic advantage can be used to neutralize opponents
+#### End Callout
+
+#### Text
+content:: \## Extinction doctrine
 
 #### Article
 source:: [[../articles/arxiv-the-three-main-doctrines-on-the-future-of-ai]]
