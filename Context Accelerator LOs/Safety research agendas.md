@@ -115,9 +115,9 @@ id:: 251d79ba-f0ad-45ce-9b62-80322fb4d257
 content:: Alignment training methods such as RLHF and constitutional AI reward outputs that graders judge to be good. What is a main worry about relying on them for much more capable models?
 options::
 - [x] Models may learn to look good to graders rather than be good
-- Models trained this way lose most of their capabilities
-- These methods can be applied only during pretraining
-- Graders' judgments can't be turned into a training signal
+- Graders disagree too often to give a usable training signal
+- The methods cost too much to run on very large models
+- Models forget the trained behavior soon after deployment
 shuffle:: true
 
 #### Question: Choice
@@ -142,4 +142,4 @@ assessment-instructions:: Score out of 100. 50 per agenda correctly paired with 
 #### Question: Open
 id:: 82f3fcd5-ac44-449f-ac3b-b37c6646e92f
 content:: Technical safety agendas differ in whether they try to prevent misalignment, or to detect it or limit its harm. Name one agenda of each kind.
-assessment-instructions:: Score out of 100. 50 for a preventing agenda (alignment training such as RLHF or constitutional AI, alignment pretraining, scalable oversight, agent foundations). 50 for a detecting or harm-limiting agenda (interpretability, evaluations, red-teaming, chain-of-thought monitoring, AI control). Accept other placements if a correct reason is given.
+assessment-instructions:: Score out of 100. 50 for a preventing agenda (alignment training such as RLHF or constitutional AI, alignment pretraining, agent foundations). 50 for a detecting or harm-limiting agenda (interpretability, evaluations, red-teaming, chain-of-thought monitoring, AI control). Scalable oversight counts on either side, but only once. Accept other placements if a correct reason is given.

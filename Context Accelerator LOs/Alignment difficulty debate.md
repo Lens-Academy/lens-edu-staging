@@ -87,9 +87,9 @@ id:: 2f20cbd0-d3f2-4cd3-9913-1749b323816a
 content:: A researcher thinks aligning advanced AI is technically fairly easy, yet still worries about AI catastrophe. Which reason fits that combination of views?
 options::
 - [x] Developers racing each other may skip safety work even when it is cheap
-- Easy alignment would make AI systems more likely to seek power
-- Easy alignment would make models refuse to help with safety research
-- Easy alignment would slow AI progress far below current forecasts
+- Training may give models goals that differ from the ones intended
+- Models may hide misaligned goals while they are being tested
+- Today's alignment methods may stop working on smarter-than-human systems
 shuffle:: true
 
 #### Question: Choice
@@ -109,7 +109,7 @@ content:: The argument that an AI's capabilities may carry over to new domains w
 #### Question: Open
 id:: 685ce875-5a01-49d7-b506-cf735404f2fd
 content:: Name one piece of evidence optimists cite that aligning advanced AI may be fairly easy, and one reason pessimists consider that evidence weak.
-assessment-instructions:: Score out of 100. 50 for any one optimist point: current models mostly behave well and follow instructions; RLHF or constitutional training works; models learn human values from training data; full access to weights allows inspection and editing. 50 for a matching pessimist reply: weaker systems can't yet deceive or seize power, so good behavior says little; behavioral training doesn't pin down goals; capabilities may generalize further than alignment.
+assessment-instructions:: Score out of 100. 50 for any one optimist point: current models mostly behave well and follow instructions; RLHF or constitutional training works; models learn human values from training data; full access to weights allows inspection and editing. 50 for a matching pessimist reply: current systems can't yet reliably fool overseers or seize power, so good behavior says little; behavioral training doesn't pin down goals; capabilities may generalize further than alignment.
 
 #### Question: Open
 id:: 12202055-44ae-43f6-8020-10906401d06c

@@ -106,4 +106,4 @@ shuffle:: true
 #### Question: Open
 id:: 82527d1a-876f-4e8f-bc54-4e4d2ea5066a
 content:: Give one limitation of alignment pretraining as a way to make a model aligned.
-assessment-instructions:: Score out of 100. 100 for any one of: its effects shrink after post-training; evidence so far comes from fairly small models and may not hold at scale; it doesn't stop misalignment caused by later training incentives such as reward hacking; testing it needs costly pretraining runs; filtering can remove useful knowledge; it may change surface behavior rather than underlying values. 50 for a vague answer like "it might not work".
+assessment-instructions:: Score out of 100. 100 for any one of: its effects shrink after post-training, and one test on a larger model found heavy reinforcement learning mostly erased them; the evidence is early and mixed, so it may not hold for frontier models; it doesn't stop misalignment caused by later training incentives such as reward hacking; testing it needs costly pretraining runs; filtering can remove useful knowledge; it may change surface behavior rather than underlying values. 50 for a vague answer like "it might not work".

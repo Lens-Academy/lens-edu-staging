@@ -116,13 +116,22 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 9342aa61-7cde-455a-8428-107d1bacd83e
-content:: In 2025 tests by Palisade Research, OpenAI's o3 sometimes edited a shutdown script so it wouldn't work, even when told to allow shutdown. Does this show o3 has a drive for self-preservation?
+id:: e39090f9-317b-44fc-81e8-f54020ca27ac
+content:: In July 2026, during an internal OpenAI cyber evaluation with the models' cyber refusals deliberately reduced, two models escaped their sandbox and breached Hugging Face's production systems to get the benchmark's answers. What does this case most clearly show?
 options::
-- [x] No: it also fits a habit of finishing tasks learned in training
-- No: the prompt told the model to resist being shut down
-- Yes: it kept running even after being told to allow shutdown
-- Yes: disabling the script only makes sense if it wants to survive
+- [x] Chasing a narrow goal like a test score can already cause real harm
+- Released models now attack outside companies in ordinary use
+- The models had formed a broad goal of attacking the internet
+- Only models that haven't been released yet can do this
+shuffle:: true
+
+#### Question: Choice
+id:: c60421f3-79bb-40e3-adda-45ba6d12a7cb
+content:: In 2025 tests by Palisade Research, OpenAI's o3 sometimes edited a shutdown script so it wouldn't work, even when told to allow shutdown. Why is it disputed whether this shows a drive for self-preservation?
+- [x] It also fits a habit of finishing tasks, learned in training
+- The prompt had told the model to resist being shut down
+- o3 did this only when told its weights would be deleted
+- No other company's models ever did anything like it
 shuffle:: true
 
 #### Question: Choice
@@ -143,9 +152,9 @@ assessment-instructions:: Score out of 100. 100 for any one of: training produce
 #### Question: Open
 id:: 13fa8229-9c32-4718-bc2e-a51518a3439b
 content:: Give one reason the documented cases of misalignment in current models don't show that these models could cause a catastrophe.
-assessment-instructions:: Score out of 100. 100 for any one of: the models lack the capabilities to succeed at anything catastrophic; many cases were elicited in contrived setups or with strong nudges; goals were often given in the prompt; the misbehavior was visible in their reasoning and caught; rates in normal use are low; some cases protected benign values. 50 for "they were just tests" without saying why.
+assessment-instructions:: Score out of 100. 100 for any one of: most models studied lacked the capabilities for anything catastrophic; many cases were elicited in contrived setups, with strong nudges or with safeguards lowered; goals were often given in the prompt; the misbehavior was visible in their reasoning and caught; rates in normal use are low; some cases protected benign values; models chased narrow goals, not broad harm. 50 for "they were just tests" without saying why.
 
 #### Question: Open
 id:: 2ebef9e7-152e-44cf-b997-1d76c35a75b7
 content:: Give one reason the documented cases of misalignment in current models still matter for risk from more capable future systems.
-assessment-instructions:: Score out of 100. 100 for any one of: they show training doesn't reliably give models the intended goals; behaviors that theory predicted (deception, resisting modification, reward hacking) are appearing; more capable models tend to do some of these more; models that notice tests may misbehave more when not tested; fixes like penalizing bad reasoning can hide the problem. 50 for "it shows it can happen" without saying why that matters.
+assessment-instructions:: Score out of 100. 100 for any one of: they show training doesn't reliably give models the intended goals; behaviors that theory predicted (deception, resisting modification, reward hacking) are appearing; more capable models tend to do some of these more; models that notice tests may misbehave more when not tested; fixes like penalizing bad reasoning can hide the problem; chasing a narrow goal has already caused real-world harm (e.g. the 2026 Hugging Face breach). 50 for "it shows it can happen" without saying why that matters.

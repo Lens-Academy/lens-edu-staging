@@ -119,7 +119,7 @@ options::
 
 #### Question: Choice
 id:: 268dc929-e7ba-40cd-b092-68ccd7ea01c1
-content:: Does the US Department of Defense's policy on autonomy in weapon systems (Directive 3000.09, updated in 2023) ban the development of fully autonomous weapons?
+content:: As of late 2026, does the US Department of Defense's policy on autonomy in weapon systems (Directive 3000.09, last updated in 2023) ban the development of fully autonomous weapons?
 options::
 - [x] No
 - Yes

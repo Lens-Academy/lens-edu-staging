@@ -69,7 +69,7 @@ id:: 929abd3e-c163-4649-a720-3acb8bac84f1
 content:: "Indirect normativity" is a proposal for specifying the goals of a superintelligent AI. What does it do?
 options::
 - [x] Specifies a process for working out the right values, not the values themselves
-- Lets the AI choose any goal, provided it accepts being shut down
+- Has the AI follow its operators' wishes until they agree on values
 - Lists a fixed set of moral rules that the AI must obey
 - Trains the AI on examples of everyday human behaviour
 shuffle:: true
@@ -86,7 +86,7 @@ id:: 8da0794c-a15e-4b28-9ca2-badde75b7371
 content:: An AI is fully corrigible: it accepts correction and shutdown from its operators, but has no strong values of its own. What is the main risk of this alignment target?
 options::
 - [x] Its safety depends on the goals of whoever controls it
-- It will tend to resist being retrained by its operators
+- It will be too cautious to act without its operators' approval
 - It will tend to seek power to protect its goals
 - It will be much weaker at difficult tasks
 shuffle:: true
@@ -97,23 +97,23 @@ content:: Some alignment researchers propose corrigibility (accepting correction
 options::
 - [x] It lets humans fix other mistakes in the AI later
 - Corrigible AI would be more capable at hard research tasks
-- Corrigibility would make human oversight of the AI unnecessary
-- Human values are simple enough to need no learned target
+- A corrigible AI would refuse harmful orders from its operators
+- Corrigibility ensures the AI's goals already match human values
 shuffle:: true
 
 #### Question: Choice
-id:: bac3f1f0-b6f1-4ea7-a569-0925066b9b79
-content:: Nick Bostrom sorts possible superintelligent AI designs into oracles, genies and sovereigns. What is a sovereign?
+id:: ed7685c1-a0b7-42fc-9ea8-0302e88ab049
+content:: Which of these AI designs most needs its values specified correctly before deployment, rather than relying on humans to correct it as it goes?
 options::
-- [x] An AI that acts on its own in the world to pursue broad goals
-- An AI that answers questions but takes no actions itself
-- An AI that carries out one command, then waits for the next
-- An AI that is owned and run by a national government
+- [x] An AI that acts on its own in the world to pursue broad, long-term goals
+- An AI that answers questions but takes no actions in the world itself
+- An AI that carries out one command, then waits for the next one
+- An AI used as a narrow tool for a single well-defined task
 shuffle:: true
 
 #### Question: Choice
 id:: 2fc94d53-5e99-49ad-9872-78e7a488b98c
-content:: As of November 2026, Anthropic's constitution for its Claude models asks Claude, during the current period of AI development, to rank not undermining legitimate human oversight above its own broader ethical judgment. Which alignment target does this ranking favour?
+content:: As of November 2026, Anthropic's constitution for its Claude models asks Claude, during the current period of AI development, to rank not undermining legitimate human oversight above its own broader ethical judgment, though not to obey blindly. Which alignment target does this ranking favour?
 options::
 - [x] Corrigibility
 - Coherent extrapolated volition

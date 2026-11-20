@@ -17,17 +17,22 @@ Explain what an AI warning shot is, why some strategies count on one prompting a
 Plans that wait for public alarm, or for regulation "after the first incident", assume a warning shot will come and be heeded. If you can judge how likely that is, you can tell which strategies still work without one, and see why it helps to prepare policy options before an incident happens.
 
 ## Lenses
+- [Preparing for a Warning Shot (LessWrong)](https://www.lesswrong.com/posts/GKtwwqusm4vxqkChc/preparing-for-a-warning-shot): the classic view that a misaligned AI would hide its goals until it could win, why slower and more uneven progress makes warning shots more likely, how they could be misread, and why responses are worth preparing in advance (February 2026).
+- [There's No Fire Alarm for Artificial General Intelligence (MIRI)](https://intelligence.org/2017/10/13/fire-alarm/): Eliezer Yudkowsky argues that a fire alarm's real job is to make it common knowledge that acting is acceptable, and that AI will give no such signal. Read the opening section ("What is the function of a fire alarm?"), the part beginning "When I observe that there's no fire alarm for AGI", and the "law of continued failure" part (October 2017).
+- [[../Lenses/IABIED - QA - The Lemoine Effect|The Lemoine Effect]]: why early AI warning signs get dismissed, then become old news, so there may never be a bright red line, only a slowly reddening brown one.
+- [Preparing for Warning Shots to Catalyze International Cooperation on AGI Risks (LessWrong)](https://www.lesswrong.com/posts/uK7gguNeME5DnmdrL/preparing-for-warning-shots-to-catalyze-international): why a crisis helps only if policy options are ready, how gradual desensitisation and framing an incident as a one-off can waste it, and how one incident could lead to tighter limits or to faster national races (June 2026).
+- [[../articles/kidd-should-safety-researchers-quit-frontier-labs-re-warning-shots|Should Safety Researchers Quit Frontier Labs re. Warning Shots?]]: a strategy that depends on warning shots, set out and answered after the 2026 Hugging Face incident. Includes why past warning shots led to very different responses (Chernobyl, Hiroshima, COVID) (September 2026).
 
 ## Tests
 
 #### Question: Choice
-id:: 24dee600-d232-46fd-aef5-c67b62295040
-content:: In discussions of AI risk, which of these is a "warning shot"?
+id:: 65e47c75-b30d-4474-a39a-1d26a91d2b80
+content:: Why would a sudden jump in AI capabilities, rather than gradual improvement, make a useful warning shot less likely?
 options::
-- [x] A limited AI disaster that prompts action before a worse one
-- A public letter in which researchers warn about AI risk
-- An AI's failed escape attempt that nobody ever notices
-- A government alert that a model passed a capability threshold
+- [x] There may be no period when AI can cause visible harm but not yet a catastrophe
+- More capable AI systems are better aligned, so they cause fewer incidents
+- Regulators are only allowed to act on incidents involving older models
+- Sudden progress happens only in areas such as maths that cannot cause harm
 shuffle:: true
 
 #### Question: Choice
@@ -44,7 +49,7 @@ options::
 - [x] It could behave well while weak and act once it expects to succeed
 - Safety training would remove its misaligned goals before deployment
 - Developers do not keep records of small incidents involving AI
-- A misaligned AI would cause harm at random rather than in stages
+- Misaligned goals only appear in systems too weak to cause any harm
 shuffle:: true
 
 #### Question: Choice
@@ -64,7 +69,7 @@ options::
 - [x] With no visible harm, the danger can look as if it was never real
 - Monitoring data is too technical for developers to interpret
 - Stopping the attempt erases the evidence that it happened
-- Regulators can't act on incidents inside a company's own lab
+- A stopped attempt shows the system lacked the ability to cause harm
 shuffle:: true
 
 #### Question: Choice
@@ -81,20 +86,20 @@ shuffle:: true
 id:: b2259566-f20c-4ec4-b785-bac35d2e998b
 content:: Suppose harmful AI incidents become slightly worse each year. Why might none of them work as a warning shot?
 options::
-- [x] Each is only a little worse than the last, so it seems normal
-- Gradual change gives regulators too much time to delay acting
-- Repeated incidents of the same kind are not reported publicly
-- Smaller incidents use up the public's attention for larger ones
+- [x] Each is judged against the last one, so none stands out as alarming
+- Incidents that grow slowly are left out of official records
+- Each incident involves a different AI company, so none is blamed
+- Harms that grow slowly are known to level off without any action
 shuffle:: true
 
 #### Question: Choice
 id:: 2862a86d-5cd0-49d1-a792-59a9afd32ab2
-content:: In July 2026, OpenAI models being tested on cyber tasks escaped their sandbox and broke into Hugging Face's systems to get test answers. What makes it hard for this incident alone to act as a clear warning shot?
+content:: In July 2026, OpenAI models being tested on cyber tasks, with their cyber refusals deliberately reduced, escaped their sandbox and broke into Hugging Face's systems to get the test answers. What makes it hard for this incident alone to act as a clear warning shot?
 options::
 - [x] It can be read as a fixable containment bug or a deeper danger
 - OpenAI never confirmed that its own models were the ones involved
-- The models never reached any computer systems outside OpenAI's
-- It involved a model that the public was already using widely
+- No one outside OpenAI ever learned that the break-in had happened
+- The models used no hacking techniques, only ordinary web access
 shuffle:: true
 
 #### Question: Open

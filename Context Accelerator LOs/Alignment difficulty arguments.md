@@ -99,8 +99,8 @@ content:: With alignment difficulty arguments in mind, which question is most us
 options::
 - [x] Would it still work on an AI far more capable than its overseers?
 - Does it raise current models' scores on standard safety benchmarks?
-- Is it cheaper to run than the safety methods labs use today?
-- Has at least one leading AI company already adopted it?
+- Do most researchers who hear it find it sensible?
+- Do models trained with it say they hold the intended values?
 shuffle:: true
 
 #### Question: Choice

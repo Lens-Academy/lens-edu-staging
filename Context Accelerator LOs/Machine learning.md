@@ -74,14 +74,13 @@ shuffle:: true
 
 #### Question: Choice
 id:: 387661bd-5616-4e73-bae5-b4cd2d6c3629
-content:: Chess program A picks moves using a search procedure and a scoring formula that programmers wrote and tuned by hand. Chess program B picks moves using parameters adjusted over millions of practice games to win more often. Is only program B an example of machine learning?
+content:: Chess program A picks moves using a search procedure and a scoring formula that programmers wrote and tuned by hand. Chess program B picks moves using parameters adjusted over millions of practice games to win more often. Which is an example of machine learning?
 options::
-- [x] Yes
-- No
-
-#### Question: FillBlank
-id:: 80491ea2-549c-4bf6-9ec7-8d689042a600
-content:: The numbers inside a machine learning model that training adjusts are called its {{parameters|weights}}.
+- [x] Only program B
+- Both, since both were tuned to play better
+- Neither, since both follow procedures they were given
+- Only program A
+shuffle:: true
 
 #### Question: FillBlank
 id:: 228b01d7-c2ba-4565-9075-969172aa9f5f

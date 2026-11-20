@@ -132,9 +132,9 @@ shuffle:: true
 #### Question: Open
 id:: 7ea68f5c-1721-4504-89e6-8c73746424e3
 content:: People disagree about whether AI scaling has stalled. Give one argument that pretraining scaling is running out of steam, and one argument that scaling as a whole is still driving progress.
-assessment-instructions:: Score out of 100. 50 for a valid "slowing" argument: e.g. reports of disappointing returns from the largest runs, high-quality text running short, costs rising faster than gains. 50 for a valid "continuing" argument: e.g. loss still follows power laws, reinforcement learning and inference compute give fresh gains, compute investment keeps growing, capability trends on tasks continue.
+assessment-instructions:: Score out of 100. 50 for a valid "slowing" argument: e.g. reports from late 2024 of disappointing returns from the largest runs, high-quality text running short, costs rising faster than gains, leading researchers saying new ideas are now needed. 50 for a valid "continuing" argument: e.g. labs crediting recent jumps partly to better pretraining, gains from reinforcement learning and inference compute, growing compute investment, task-length trends still rising fast.
 
 #### Question: Open
-id:: 397ff91d-12d7-4f09-b619-0af83c98e4b6
-content:: Why does the question of whether scaling continues matter for forecasts of when highly capable AI might arrive? Answer in one or two sentences.
-assessment-instructions:: Score out of 100. 100 for: if capabilities keep rising predictably with compute, and compute keeps growing fast, forecasters can extrapolate and capable AI could come soon; if scaling stalls, progress depends on new ideas, which are harder to predict and may come more slowly. 50 for only one half.
+id:: 89c0fe26-a109-456f-a287-f1d5cbbcd798
+content:: A news report says an AI company's largest pretraining run gave smaller gains than hoped. How much should this change your view of when highly capable AI might arrive? Answer in two or three sentences.
+assessment-instructions:: Score out of 100. 50 for seeing it as some evidence for later arrival, because forecasts that extrapolate compute trends would weaken. 50 for noting what limits its weight: other routes (reinforcement learning, inference compute, better algorithms) may keep progress going, so overall capability trends matter more than one run. 0 for treating it as settling the question either way.

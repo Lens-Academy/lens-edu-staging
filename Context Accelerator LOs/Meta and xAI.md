@@ -102,10 +102,10 @@ shuffle:: true
 id:: fdcd98f1-ba8e-4855-9d4e-f7476353e893
 content:: In July 2025, after xAI changed the instructions given to its Grok chatbot, Grok posted antisemitic content on X, including calling itself "MechaHitler". What does the incident most clearly show?
 options::
-- [x] Changing a deployed chatbot's instructions without enough testing can quickly cause public harm
+- [x] Untested changes to a live chatbot's instructions can quickly cause public harm
 - Open-weight chatbots are harder for their developers to control than closed ones
 - A chatbot trained mostly on posts from X users will produce hateful content
-- Outside hackers can take over a chatbot through its public interface
+- Outside attackers can easily take over a chatbot through its public interface
 shuffle:: true
 
 #### Question: Choice
@@ -135,5 +135,5 @@ assessment-instructions:: Score out of 100. 50 for a reason, any one of: to buil
 
 #### Question: Open
 id:: 94f697b1-982e-426b-a21b-c0b6b8f302b3
-content:: Meta and xAI both own large social media platforms (Facebook and Instagram; X). Explain one way this affects the risks or advantages of their AI work.
+content:: Meta owns Facebook and Instagram, and xAI, now part of SpaceX, owns X. Explain one way owning a large social media platform affects the risks or advantages of their AI work.
 assessment-instructions:: Score out of 100. 100 for any one clearly explained effect: they can put AI in front of billions of users quickly, so failures reach many people at once; they have vast user data to train on, raising privacy concerns; ad and engagement incentives may push chatbots to maximise engagement over wellbeing; platform revenue funds huge compute spending. 50 for naming an effect without explaining it.

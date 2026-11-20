@@ -16,6 +16,10 @@ Explain how advanced AI could make values or power structures effectively perman
 Much safety work asks whether AI will do what its developers want. Lock-in asks what happens next: whoever controls aligned AI could use it to fix their values or power in place for a very long time. Seeing this risk helps you judge proposals about who controls advanced AI and how decisions about the long-term future get made.
 
 ## Lenses
+- [[../video_transcripts/rational-animations-could-a-global-dictatorship-last-forever|Could a Global Dictatorship Last Forever?]]: a regime that rules forever, what it would need (global reach, no revolt from within), and how AI surveillance, tireless loyal AI censors and longer-lived rulers could supply it; watch up to the "How Can We Make These Technologies Safer?" section.
+- [[../Lenses/hadshar-extreme-power-concentration|Extreme Power Concentration]]: read the section "AI-enabled power concentration could cause enormous and lasting harm": why AI-backed rule could last (no labour to withhold, AI preserving a leader's values, no outside rival), and why it could freeze moral blind spots like the Victorians' (2025).
+- [AGI and Lock-in (Forethought)](https://www.forethought.org/research/agi-and-lock-in): the core argument that AGI makes lock-in technically feasible, not necessarily likely: values stored and copied, checked against reset copies, and institutions that no longer depend on human cooperation; read Section 0, "Summary" (October 2022, updated March 2025).
+- [MacAskill on Value Lock-In (Overcoming Bias)](https://www.overcomingbias.com/p/macaskill-on-value-lock-inhtml): economist Robin Hanson's critique: permanent takeover needs a single dominant power, decentralised competitors and software "rot" push against lock-in, and central control to prevent lock-in could itself cause it (August 2022).
 
 ## Tests
 #### Question: Choice
@@ -32,10 +36,10 @@ shuffle:: true
 id:: c1bdf70f-789c-4a2c-8eb8-a1018c4e08db
 content:: In discussions of value lock-in, which traditional check on entrenched power would advanced AI most directly weaken?
 options::
-- [x] A ruler's need for many soldiers, officials and workers to cooperate
-- Courts' power to review and strike down new laws
-- The spread of printed information among citizens
-- Trade and economic dependence between neighbouring countries
+- [x] Rulers' dependence on many people being willing to carry out orders
+- Constitutional term limits on how long a leader may hold office
+- Rival countries' ability to threaten military retaliation in response
+- Courts' power to review new laws and strike them down
 shuffle:: true
 
 #### Question: Choice
@@ -43,19 +47,19 @@ id:: 0c9bac07-0e2d-4f32-aab2-b25f93240a30
 content:: Why is value lock-in a concern even if the technical problem of aligning AI with its developers' intentions is solved?
 options::
 - [x] Aligned AI could faithfully enforce whatever values its controllers choose
-- Aligned AI systems gradually drift away from their original values
+- Alignment methods that work on today's models may fail on later ones
 - Solving alignment requires everyone to agree on one set of values
-- Aligned AI would refuse instructions that limit its own power
+- Aligned AI would be too costly for anyone but governments to run
 shuffle:: true
 
 #### Question: Choice
 id:: 44e026d3-5e1d-4d9a-83c7-72acd3503cdc
 content:: Researchers who argue that advanced AI could enable permanent value lock-in mainly claim which of these?
 options::
-- [x] Lock-in would become technically feasible if those in control wanted it
-- Lock-in is the most likely outcome of building AGI
-- Current language models have already locked in their developers' values
-- Lock-in requires AI systems to be misaligned with their developers
+- [x] Advanced AI would make lock-in possible, though not inevitable
+- Advanced AI would make lock-in likely, whatever people choose
+- Lock-in could happen only if AI were misaligned with its developers
+- Lock-in could last only decades, because computer hardware wears out
 shuffle:: true
 
 #### Question: Choice
@@ -69,23 +73,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: ce1db8f4-41ca-4b61-87ff-50223dfc22c1
-content:: Which of these is an example of value lock-in?
+id:: 482db772-bb26-4250-b0d6-39187bc6c9c4
+content:: Which of these comes closest to value lock-in?
 options::
-- [x] A ruling group uses AI enforcement to keep its founding rules unchanged for millennia
-- A country adopts a constitution that a two-thirds vote can amend
-- A company keeps its AI model's weights secret from competitors
-- A moral view stays popular for decades through open public debate
-shuffle:: true
-
-#### Question: Choice
-id:: 8e4005e6-9efc-445e-bf7a-ffd67a41979b
-content:: Which of these questions is about value lock-in rather than technical alignment?
-options::
-- [x] Will the values guiding society still be open to change in 500 years?
-- Will an AI system pursue the goals its developers intended?
-- Can we detect when a model hides its real goals?
-- Does reward hacking become more common as models grow?
+- [x] An AI-run government whose founding rules nobody can ever change
+- A constitution that has lasted 230 years and been amended many times
+- A religion followed for 2,000 years whose teachings have slowly shifted
+- A dictatorship that ruled for 40 years before a popular uprising
 shuffle:: true
 
 #### Question: Open
