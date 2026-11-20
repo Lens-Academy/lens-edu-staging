@@ -139,6 +139,7 @@ Below is the argument of the **dominance doctrine** in short. We distilled it fr
 - Automated AI R&D can yield an insurmountable lead in AI
 - Powerful AI can be leveraged into a decisive strategic advantage
 - A decisive strategic advantage can be used to neutralize opponents
+
 #### End Callout
 
 #### Text
