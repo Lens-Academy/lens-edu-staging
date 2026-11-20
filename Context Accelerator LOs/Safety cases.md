@@ -17,6 +17,10 @@ Explain what an AI safety case is, the main kinds of argument it can rest on (in
 Safety cases put the burden on developers to show, with evidence, that a specific deployment is acceptably safe, rather than on others to prove it dangerous. Knowing which arguments are strong lets you judge whether a company's safety claims hold up, and spot when a more capable model breaks an argument that worked before.
 
 ## Lenses
+- [[../Lenses/Iliad/A.2 Alignment in Practice/Iliad A.2.4 - Deployment 1 - strategy|Deployment 1: Strategy]]: what a safety case is, why it is tied to one deployment context, how it differs from a lab's scaling policy, and why it has to be kept up to date after release (read up to "Some more in depth info on evals").
+- [Safety Cases: How to Justify the Safety of Advanced AI Systems (Clymer et al., arXiv)](https://arxiv.org/abs/2403.10462): the four kinds of safety argument (inability, control, trustworthiness, deference), the evidence each needs, and why trustworthiness arguments are hard to make while a model might be faking alignment. Read sections 1–2, the Introduction and Executive Summary (March 2024).
+- [Safety Cases Explained: How to Argue an AI is Safe (Jan Wehner, LessWrong)](https://www.lesswrong.com/posts/38HzJMYdr2YL5gWQs/safety-cases-explained-how-to-argue-an-ai-is-safe): a plain-language overview of how safety cases put the burden of proof on developers, how they are borrowed from fields like aviation and nuclear power, and how they can fail through weak claims, reviewers who aren't independent, and commercial pressure (December 2025).
+- [AI companies are unlikely to make high-assurance safety cases if timelines are short (Ryan Greenblatt, LessWrong)](https://www.lesswrong.com/posts/neTbrpBziAsTH5Bn7/ai-companies-are-unlikely-to-make-high-assurance-safety): one researcher's argument that security and scheming risk make strong safety cases unlikely soon, and that companies probably won't pause for lack of one. Read up to the end of "Sufficiently mitigating scheming risk is unlikely", plus "Companies likely won't unilaterally slow down" (January 2025).
 
 ## Tests
 
@@ -64,10 +68,10 @@ shuffle:: true
 id:: 057f7ac0-c717-4ba4-aeff-c3866e390e4c
 content:: A safety case relies on the claim that a model can't perform a dangerous task. Evaluators then find that with better scaffolding and more attempts, the model succeeds. What does this mean for the safety case?
 options::
-- [x] That argument fails, so another kind, such as control, is needed
-- The case holds, since the model passed the original evaluation
-- The case holds, since scaffolding isn't part of the model itself
-- The developer only needs to rerun the original evaluation
+- [x] The inability argument fails, so it needs another argument or stronger safeguards
+- The case holds, since the model failed under the original test conditions
+- The case holds, since scaffolding is a separate tool, not part of the model
+- The case holds once it notes that results depend on the evaluation setup
 shuffle:: true
 
 #### Question: Choice
@@ -75,8 +79,8 @@ id:: 0258e887-102c-4d30-aea7-532366880ff4
 content:: Why are arguments that a model is safe because it is aligned currently considered among the hardest parts of an AI safety case to make?
 options::
 - [x] There's no reliable way yet to verify a model isn't faking good behavior
-- Aligned models are usually less capable, so few of them exist
-- Current regulations forbid relying on claims about a model's goals
+- A model's alignment can only be measured after it has been deployed
+- They cover misuse by people, not harm the model might cause itself
 - They require proving that the model lacks dangerous capabilities
 shuffle:: true
 
@@ -97,17 +101,17 @@ options::
 - [x] It must be revisited, since it assumed the original deployment
 - Nothing changes, since the released weights were already evaluated
 - Nothing changes, if customers review their own fine-tuning data
-- It is withdrawn, because fine-tuned models can't have safety cases
+- Nothing changes, since fine-tuning can't add capabilities the model lacked
 shuffle:: true
 
 #### Question: Choice
-id:: cda37ebb-d79b-4a5d-a488-5bca90a3a704
-content:: Safety cases for AI borrow a practice that is already required in which kind of field?
+id:: eb413ff3-fc1b-4222-a86d-4c9d513c0803
+content:: Nuclear power and UK offshore oil and gas make operators write safety cases instead of only following a fixed rulebook. What main advantage do supporters see in using this approach for frontier AI?
 options::
-- [x] Safety-critical industries, such as nuclear power and offshore oil and gas
-- Consumer software development, such as mobile apps and websites
-- Academic publishing, such as peer review of scientific papers
-- Marketing regulation, such as rules on product advertising claims
+- [x] Developers must deal with the risks of their own system, even as the technology changes
+- Regulators can apply one pass/fail test to every model in the same way
+- Developers no longer need outside review once their case is written
+- It removes the need to agree on what level of risk is acceptable
 shuffle:: true
 
 #### Question: FillBlank

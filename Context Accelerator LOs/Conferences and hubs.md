@@ -15,6 +15,11 @@ Name the main in-person events and physical hubs of the AI safety field, say wha
 Much of the field's networking, mentoring and hiring happens face to face, at conferences and in shared offices. Knowing which events suit you and where people work lets you spend limited travel time and money where you will meet the right people, instead of relying only on online applications.
 
 ## Lenses
+- [What are EA Global and EAGx events? (Centre for Effective Altruism)](https://www.effectivealtruism.org/ea-global/faq): the basic facts: how EA Global differs from the locally run, regional EAGx events, who should apply and how admission works, travel support, and booking one-on-ones in the Swapcard app (live FAQ, checked November 2026).
+- [Networking at EAG(x): How to Get the Most Value from Conversations (EA Forum)](https://forum.effectivealtruism.org/posts/tWeikZNJohALmmWtx/networking-at-eag-x-how-to-get-the-most-value-from): why one-on-ones, not talks, are the real value of these conferences, and how to prepare: set goals, list people, send meeting requests early (September 2025).
+- [What we learned from running an Australian AI Safety Unconference (EA Forum)](https://forum.effectivealtruism.org/posts/rBteAqbfqvaFMvpv5/what-we-learned-from-running-an-australian-ai-safety): how an unconference works in practice, with attendees proposing, voting on and leading the sessions, held alongside EAGxAustralia (October 2023).
+- [Announcing the London Initiative for Safe AI (LessWrong)](https://www.lesswrong.com/posts/P7dbHRYfwykEJiDYX/announcing-the-london-initiative-for-safe-ai-lisa): what LISA is (a shared research centre for AI safety organisations, programs and independent researchers), why London is a hub (Google DeepMind, the government's interest, talent that won't move to the Bay Area), and how to visit or join. Its list of residents is from 2024 (February 2024).
+- [AI safety events (AISafety.com)](https://www.aisafety.com/events): a live directory of upcoming AI safety conferences, workshops and meetups, in person and online, which you can filter by type, location and cost. Browse it to see what is on near you (live, checked November 2026).
 
 ## Tests
 
@@ -59,11 +64,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 69e26c70-1d46-4bd0-b2f6-82da5a7b4cc9
-content:: To attend an AI safety workshop at a major ML conference such as NeurIPS, do you usually need a paper accepted at that workshop?
+id:: d28d5143-1d9f-4c58-b20f-6ba904f811cc
+content:: You have no paper at an AI safety workshop at NeurIPS, but you want to attend it. What do you usually need?
 options::
-- [x] No
-- Yes
+- [x] A conference registration covering the workshop days, bought before places run out
+- An accepted paper or poster at that workshop or at the main conference
+- A personal invitation from the workshop's organizers, requested by email
+- Paid membership of a professional society such as the ACM or IEEE
+shuffle:: true
 
 #### Question: Choice
 id:: c3af28ef-8f40-49ab-8cd0-40375d1e9ee4
@@ -98,7 +106,7 @@ content:: As of November 2026, what is Constellation, in Berkeley?
 options::
 - [x] A research center where safety researchers from many groups work
 - A company training its own frontier AI models
-- A funder that gives grants to safety researchers
+- A think tank that lobbies the US Congress on AI bills
 - A yearly conference on AI governance
 shuffle:: true
 

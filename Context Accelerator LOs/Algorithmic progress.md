@@ -15,6 +15,10 @@ Explain how better algorithms let AI developers reach the same capability with l
 Forecasts and policies that track only chips and training compute miss a large part of AI progress. Because better algorithms keep cutting the compute a capability needs, progress can continue if compute growth slows, capabilities get cheaper for more groups to reach, and compute thresholds in regulation become a weaker guide to what a model can do.
 
 ## Lenses
+- [On DeepSeek and Export Controls (Dario Amodei)](https://darioamodei.com/post/on-deepseek-and-export-controls): Anthropic's CEO separates steady "curve-shifting" efficiency gains (his guess: ~4x a year) from rare paradigm shifts like reasoning models, and explains why DeepSeek-V3's ~$6M figure is not the full cost of developing it. Read "Three Dynamics of AI Development" and "DeepSeek's Models"; the rest argues for export controls (January 2025).
+- [Algorithmic Progress in Language Models (Epoch AI)](https://epoch.ai/blog/algorithmic-progress-in-language-models): the main estimate for 2012–2023: the compute needed for a given performance halved about every 8 months, more compute still drove most of the gains, and the transformer was worth about two years of progress (March 2024).
+- [The Least Understood Driver of AI Progress (Epoch AI)](https://epoch.ai/gradient-updates/the-least-understood-driver-of-ai-progress): an Epoch researcher's newer and more sceptical look. His best guess is ~10x a year, with very wide uncertainty; much of the gain comes from data and from changes that only pay off at scale, and compute bottlenecks may limit how far AI-automated research can speed things up. Read sections I, II and IV (February 2026).
+- [LLM Inference Prices Have Fallen Rapidly but Unequally Across Tasks (Epoch AI)](https://epoch.ai/data-insights/llm-inference-price-trends): the price of matching a fixed level of performance, such as GPT-4's on science questions, fell from about 9x to 900x a year depending on the task (March 2025).
 
 ## Tests
 
@@ -86,10 +90,10 @@ shuffle:: true
 id:: dccd8982-e162-4488-8bce-9737af5db99d
 content:: A 2024 Epoch AI study of language models from 2012 to 2023 compared how much more training compute and better algorithms each added to performance. What did it find?
 options::
-- [x] More compute and data drove most gains; algorithms a smaller share
-- Better algorithms drove most gains; compute growth a smaller share
+- [x] More compute drove most gains; better algorithms a smaller share
+- Better algorithms drove most gains; more compute a smaller share
 - More compute and better algorithms contributed roughly equal shares
-- Better algorithms drove nearly all gains once data was counted
+- Better algorithms drove nearly all gains; more compute added little
 shuffle:: true
 
 #### Question: Choice

@@ -15,6 +15,11 @@ Describe roughly how many people and businesses use AI as of late 2026, what the
 AI changes the economy only as fast as people and organizations actually put it to work. Knowing how wide and how fast adoption is helps you judge claims that AI is overhyped or that sweeping change is imminent, and how quickly AI revenue can pay for the next generation of models.
 
 ## Lenses
+- [The continued state of global AI diffusion in 2026 (Microsoft On the Issues)](https://blogs.microsoft.com/on-the-issues/2026/09/21/the-continued-state-of-global-ai-diffusion-in-2026/): Microsoft's device-data estimate that about 19% of the world's working-age people used generative AI by mid-2026. Leading countries, and a gap between Global North and South that is still widening (September 2026).
+- [How people are using ChatGPT (OpenAI)](https://openai.com/index/how-people-are-using-chatgpt/): OpenAI's study of 1.5 million conversations. About 70% are not about work, most are practical guidance, information seeking or writing, and growth is fastest in lower-income countries (September 2025).
+- [Anthropic Economic Index report: Learning curves (Anthropic)](https://www.anthropic.com/research/economic-index-march-2026-report): what people and businesses use Claude for. Coding is about a third of Claude.ai chats, API use hands off whole tasks more often, and use is concentrated across countries. Read "What has changed since our last report" (March 2026).
+- [Monitoring AI Adoption in the U.S. Economy (Federal Reserve Board)](https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260403.html): compares three US surveys (about 18% of firms, 41% of workers, 78% of workers at firms using AI) and explains why counting firms, workers or employment gives such different answers. Also covers firm size and industry (April 2026).
+- [[../Lenses/narayanan-a-guide-to-understanding-ai-as-normal-technology|A Guide to AI as Normal Technology]]: the skeptics' case that "deployment is not diffusion" and that headline user counts overstate real adoption, and why AI adoption still feels so fast. Read "The surreal debate about the speed of diffusion" and "Why AI adoption hits different" (September 2025).
 
 ## Tests
 
@@ -44,24 +49,27 @@ shuffle:: true
 
 #### Question: Open
 id:: 21d6bb6f-0bdc-4289-99cb-db6d7f750930
-content:: A 2025 McKinsey survey found 88% of organizations used AI in at least one business function. A 2026 US Census Bureau survey found about 20% of US businesses had used AI in the past two weeks. Give one reason both figures can be accurate.
-assessment-instructions:: Score out of 100. 100 for any one of: McKinsey surveys mainly larger organizations, while the Census covers all businesses, most of which are small and adopt AI less; "at least one function" at any point is a looser test than use in the past two weeks; the surveys differ in who answers, countries covered or date. 50 for "different surveys measure differently" with no specific difference.
+content:: A mid-2026 McKinsey survey found 89% of organizations regularly used AI in at least one business function. A US Census Bureau survey from the same months found about 20% of US businesses had used AI in the past two weeks. Give one reason both figures can be accurate.
+assessment-instructions:: Score out of 100. 100 for any one of: McKinsey's respondents come mostly from larger organizations, while the Census covers all businesses, most of which are small and adopt AI less; in a big organization, a few staff using AI anywhere is enough to count for McKinsey; the surveys differ in who answers, the time window or countries covered. 50 for "different surveys measure differently" with no specific difference.
 
 #### Question: Choice
-id:: 6b0e722a-1df7-473f-a420-870316f942c4
-content:: OpenAI studied a large sample of ChatGPT messages up to mid-2025. Were most of them related to the user's paid work?
+id:: 865823fd-9a14-4149-9c44-4102e1a14c88
+content:: OpenAI classified a large sample of messages sent on ChatGPT's consumer plans to estimate how ChatGPT is used. By mid-2025, roughly what share of all messages on those plans were not related to the user's work?
 options::
-- Yes
-- [x] No
+- [x] About 70%
+- About 30%
+- About 50%
+- About 95%
+shuffle:: true
 
 #### Question: Choice
 id:: d4d5bd4b-e63b-45a5-bf71-b564d03e8235
-content:: Coding was about a third of conversations on Anthropic's Claude.ai in early 2026, but about 4% of ChatGPT messages in mid-2025. What best explains such a gap?
+content:: Coding-related tasks were about a third of conversations on Anthropic's Claude.ai in early 2026, but about 4% of ChatGPT messages in mid-2025. What best explains such a gap?
 options::
 - [x] Each product draws different users, so its usage mix reflects who chose it
-- Coding use of AI fell sharply between 2025 and 2026
-- The two companies count a coding conversation in opposite ways
-- One of the two figures must come from a faulty sample
+- Anthropic's figure includes businesses' API traffic as well as its chat app
+- OpenAI's study left out messages from paying subscribers
+- Coding grew from a small to a large share of all AI use between 2025 and 2026
 shuffle:: true
 
 #### Question: Choice
@@ -95,11 +103,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 0cc2d6db-3f51-42a6-997a-fafd8d76dcb3
-content:: In surveys of generative AI use in many countries from 2023 to 2025, did women report using it more than men?
+id:: e778e1ca-eec0-481b-9883-79978981e34a
+content:: A 2024 review pooled 18 studies, covering over 140,000 people worldwide, comparing men's and women's use of generative AI. What did it find?
 options::
-- Yes
-- [x] No
+- [x] Women used it less than men in nearly all regions and sectors
+- Women used it more than men in nearly all regions and sectors
+- Men and women used it at about the same rate in most regions
+- Women used it less than men, but only in lower-income countries
+shuffle:: true
 
 #### Question: Choice
 id:: 8b3bd599-c69f-4243-9ab8-c51ebd746d80

@@ -39,7 +39,7 @@ content:: An AI agent's model decides it needs to run a shell command. What typi
 options::
 - [x] The scaffold runs the command and adds its output to the model's context
 - The model runs the command itself while it generates its reply
-- The command goes to the model's developer to approve and run
+- The scaffold runs the command, but the model never sees its output
 - The model predicts the command's output and carries on from that guess
 shuffle:: true
 
@@ -77,10 +77,10 @@ shuffle:: true
 id:: d4cd544b-d91b-45c3-838e-0093830becf5
 content:: A company sells its product as an "AI agent". What does that label tell you about whether the system has goals in the decision-theoretic sense?
 options::
-- [x] Little: it says the system is built to take actions, not what it is aiming at
-- That it chooses actions to maximise an explicit utility function
-- That it was trained to pursue one fixed long-term goal
-- That it lacks goals of its own, because it follows user instructions
+- [x] Little: it says the system takes actions, not what it is aiming at
+- Little: an agent just follows a fixed script its developers wrote
+- A lot: it means the system maximises an explicit utility function
+- A lot: it means the system has no goals, since it follows instructions
 shuffle:: true
 
 #### Question: Choice
@@ -95,7 +95,7 @@ shuffle:: true
 
 #### Question: FillBlank
 id:: 1ae30596-7979-4043-bf9d-f19ba5724d5e
-content:: When a language model is given descriptions of the tools available to it and outputs a structured request to use one, this is called {{tool calling|function calling|tool use}}.
+content:: When a language model outputs a structured request asking its scaffold to run a web search or a piece of code for it, this is called {{tool calling|function calling|tool use|tool calls}}.
 
 #### Question: Open
 id:: a06cb363-a02e-417e-9eaf-9447483f7b1d

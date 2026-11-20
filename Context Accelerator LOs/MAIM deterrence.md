@@ -15,6 +15,9 @@ Explain how MAIM deterrence is meant to stop any state from racing to superintel
 MAIM is one of the few concrete proposals for how rival powers could avoid a destabilizing race to superintelligence, and it shapes policy debate. Knowing what it assumes lets you judge claims that sabotage threats keep the peace, and see where they could instead lead to conflict.
 
 ## Lenses
+- [[../articles/hendrycks-superintelligence-strategy-expert-version|Superintelligence Strategy]]: the original proposal from Hendrycks, Schmidt and Wang: why rivals would sabotage a bid for AI dominance, the escalation ladder from espionage to strikes on datacenters, and how to keep the standoff stable; read the Executive Summary and the chapter "Deterrence with Mutual Assured AI Malfunction (MAIM)" (March 2025).
+- [[../Lenses/delaney-crucial-considerations-in-asi-deterrence|Crucial considerations in ASI deterrence]]: breaks the MAIM argument into three claims and weighs the strongest reasons for and against each, including fuzzy red lines, escalation risk and the role of verification (December 2025).
+- [Why MAIM Falls Short for Superintelligence Deterrence (AI Frontiers)](https://ai-frontiers.org/articles/why-maim-falls-short-for-superintelligence-deterrence): a critic's case that states cannot reliably see how close a rival is to superintelligence, so MAIM risks needless sabotage or a preemptive spiral (August 2025).
 
 ## Tests
 
@@ -32,10 +35,10 @@ shuffle:: true
 id:: b63ff701-a37d-489f-84bc-d1c261468306
 content:: In MAIM deterrence, as proposed in the paper "Superintelligence Strategy", which action is the threat of sabotage meant to deter?
 options::
-- [x] A state's attempt to build superintelligence that would let it dominate others
-- A rival state deploying AI systems in its military
-- A rival company releasing its model weights openly
-- A rival training a model above a set compute threshold
+- [x] A rival's bid to build superintelligence and gain dominance over others
+- A rival integrating advanced AI systems into its armed forces
+- A rival's companies openly releasing their most powerful model weights
+- A rival training any model above an internationally agreed compute threshold
 shuffle:: true
 
 #### Question: Choice
@@ -44,7 +47,7 @@ content:: MAIM deterrence is often compared to nuclear mutual assured destructio
 options::
 - [x] MAIM threatens to stop a rival's project before it succeeds, not to retaliate afterwards
 - MAIM relies on threats against civilian populations rather than military targets
-- MAIM works even if only one of the two states can sabotage the other
+- MAIM's threats are carried out by an international agency rather than by states
 - MAIM applies only between states that already have nuclear weapons
 shuffle:: true
 

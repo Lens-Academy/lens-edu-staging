@@ -15,6 +15,11 @@ Describe the AI ethics and fairness community: its focus on present harms such a
 The AI ethics community shapes much AI policy and public debate. If you know what it works on and why many members distrust AI safety, you can tell fair criticism from misunderstanding, avoid needless conflict, and find allies for shared goals such as accountability for AI companies.
 
 ## Lenses
+- [There are two factions working to prevent AI dangers. Here's why they're deeply divided (Vox)](https://www.vox.com/future-perfect/2022/8/10/23298108/ai-dangers-ethics-alignment-present-future-risk): Kelsey Piper on what the AI ethics camp works on (bias, privacy, harms from systems in use now), how it differs from AI safety and alignment, and why the two camps distrust each other (August 2022).
+- [Timnit Gebru (Wikipedia)](https://en.wikipedia.org/wiki/Timnit_Gebru): the plain facts on the community's best-known figure: Black in AI, the Gender Shades audit of facial recognition, the "Stochastic Parrots" paper and her 2020 exit from Google, the founding of DAIR, and the TESCREAL critique; read from her Microsoft work to the end of the TESCREAL section (November 2026).
+- [Statement from the listed authors of Stochastic Parrots on the "AI pause" letter (DAIR)](https://www.dair-institute.org/blog/letter-statement-March2023): Gebru, Bender, McMillan-Major and Mitchell reply to the Future of Life Institute's pause letter: longtermist "fearmongering" distracts from worker exploitation, data theft and concentration of power, and the fix is transparency and accountability for the companies (March 2023).
+- [Stop talking about tomorrow's AI doomsday when AI poses risks today (Nature)](https://www.nature.com/articles/d41586-023-02094-7): the case, as put by Nature's editors, that extinction warnings from industry leaders hype the technology, help the companies steer regulation, and push aside people who study current harms (June 2023).
+- [AI Regulation's Champions Can Seize Common Ground—or Be Swept Aside (Lawfare)](https://www.lawfaremedia.org/article/ai-regulation-s-champions-can-seize-common-ground-or-be-swept-aside): Helen Toner and Zachary Arnold on why the "ethicists" and the "doomers" clash, and six policies both could push for: government capacity, measurement science, third-party audits, incident reporting, disclosure rules and liability (August 2024).
 
 ## Tests
 
@@ -70,32 +75,32 @@ shuffle:: true
 
 #### Question: Choice
 id:: ed6cb10a-e487-4d73-bfa3-7f7fa26ad5a3
-content:: Critics including Timnit Gebru and Émile P. Torres use the term "TESCREAL". What does it refer to?
+content:: Critics including Timnit Gebru and Émile P. Torres use the contested term "TESCREAL". What does it refer to?
 options::
 - [x] Ideologies, including longtermism, that they link to the race to build AGI
-- A benchmark suite that measures social bias in large language models
-- A proposed international treaty restricting autonomous weapons
-- A coalition of AI ethics and AI safety researchers lobbying for rules
+- Present-day AI harms that they say safety researchers tend to ignore
+- A set of audit methods they proposed for finding bias in AI models
+- A coalition of ethics groups they formed to push for binding AI rules
 shuffle:: true
 
 #### Question: Choice
-id:: a7ab7478-166a-46ae-9e1a-3b53f81b3d6b
-content:: Which 2023 event did authors at the DAIR Institute, including Timnit Gebru and Emily Bender, publicly criticise for focusing on speculative future AI risks over current harms?
+id:: 262957e5-0a90-4fbe-a579-47888a62ea54
+content:: In March 2023 the Future of Life Institute published an open letter calling for a six-month pause on training the most powerful AI systems. The authors of "Stochastic Parrots" issued a statement criticising it. What did they argue for instead?
 options::
-- [x] The Future of Life Institute's open letter calling for a six-month pause
-- The European Parliament's vote on its position on the AI Act
-- The release of NIST's AI Risk Management Framework
-- The White House's Blueprint for an AI Bill of Rights
+- [x] Regulating companies' present practices instead of fearing imagined "digital minds"
+- Extending the pause to cover all AI research, not only the largest models
+- Avoiding new AI rules, since regulation tends to favour the biggest firms
+- Funding research on aligning future systems before deploying current ones
 shuffle:: true
 
 #### Question: Choice
 id:: fbd2ecb9-bda8-46f1-b4d9-965edea93efc
 content:: Some AI ethics researchers argue that AI company leaders' warnings about existential risk end up helping those companies. What mechanism do they usually point to?
 options::
-- [x] The warnings hype the technology's power and give the firms a lead role in shaping rules
-- The warnings let the firms charge higher prices for optional safety features
-- The warnings shift legal liability for AI harms from the firms onto users
-- The warnings qualify the firms for large government research grants
+- [x] They make the technology seem powerful and cast the firms as the experts to write the rules
+- They let the firms charge customers more for premium safety features and add-ons
+- They shift legal blame for AI harms from the firms onto the people using the tools
+- They help the firms win large government grants earmarked for safety research
 shuffle:: true
 
 #### Question: Open

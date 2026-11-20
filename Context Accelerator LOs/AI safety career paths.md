@@ -68,9 +68,9 @@ id:: 8a6a9ab0-52e7-448c-9f5f-49b221ae65e6
 content:: A 2026 MATS report on AI safety hiring named the main skills gap among candidates for AI governance roles. What was it?
 options::
 - [x] First-hand experience of how government institutions work
-- Knowledge of machine learning techniques
-- Ability to produce quantitative forecasts
-- Familiarity with arguments for AI risk
+- Technical knowledge of how machine learning models are trained
+- Skill at producing quantitative forecasts of AI progress
+- Familiarity with the main arguments for AI risk
 shuffle:: true
 
 #### Question: Choice
@@ -95,7 +95,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: 92fd0507-8911-45de-8230-33c5cb7a1066
-content:: As of 2026, how does pay for technical safety roles at frontier AI companies usually compare with similar roles at AI safety nonprofits?
+content:: As of 2026, counting salary and equity together, how does pay for technical safety roles at frontier AI companies usually compare with similar roles at AI safety nonprofits?
 options::
 - [x] Frontier AI companies usually pay substantially more
 - AI safety nonprofits usually pay substantially more

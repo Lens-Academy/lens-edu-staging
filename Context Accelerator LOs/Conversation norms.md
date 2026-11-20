@@ -4,7 +4,7 @@ priority: medium
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Disagree in ways that seek the truth rather than a win: steelman a view, state it well enough to pass an ideological Turing test, ask what a belief rests on, and tell factual disagreements from value disagreements.
+Disagree to find the truth, not to win: state a view as its holders would (an ideological Turing test), know when steelmanning helps and how it can mislead, ask what a belief rests on, and separate factual from value disagreements.
 
 ## Requires
 
@@ -15,6 +15,10 @@ Disagree in ways that seek the truth rather than a win: steelman a view, state i
 People working on AI risk disagree deeply about how likely catastrophe is, what to do and what matters most. If you can state other views fairly, ask what beliefs rest on, and tell factual disputes from value disputes, you can learn from people who disagree with you instead of only defending your position.
 
 ## Lenses
+- [ITT-passing and civility are good; "charity" is bad; steelmanning is niche (LessWrong)](https://www.lesswrong.com/posts/MdZyLnLHuaHrCskjy/itt-passing-and-civility-are-good-charity-is-bad): Rob Bensinger argues for stating others' views as they hold them (the ideological Turing test) and finding cruxes, rather than steelmanning, which can swap in a view nobody holds; one side of a live debate (July 2022).
+- [On the Contrary, Steelmanning Is Normal; ITT-Passing Is Niche (LessWrong)](https://www.lesswrong.com/posts/jo5Fhkb7escrYE9cC/on-the-contrary-steelmanning-is-normal-itt-passing-is-niche): Zack M. Davis replies that improving an argument is how you learn from it, and that the ITT matters mainly when communication has broken down; the other side (January 2024).
+- [[../Lenses/HftS - Is That Your True Rejection|Is That Your True Rejection?]]: the reason someone gives for rejecting an idea is often not what decided it, so ask what the view really rests on before arguing against the stated reason.
+- [Four Types of Disagreement (LessWrong)](https://www.lesswrong.com/posts/9vKqAQEDxLvKh7KcN/four-types-of-disagreement): sorting a dispute into facts, values, strategy and labels, and how value disagreements often pass for factual ones (April 2025).
 
 ## Tests
 
@@ -50,7 +54,7 @@ id:: 063ba47c-0625-46de-9109-d1d28bb501e1
 content:: Someone tells you that AI labs will stop development if their models become dangerous. Which reply best follows the norm of asking for the grounds of a belief?
 options::
 - [x] "What makes you expect that?"
-- "That seems very unlikely to me."
+- "Wouldn't competition stop them from pausing?"
 - "Labs have broken promises before."
 - "So you think AI safety isn't a problem?"
 shuffle:: true
@@ -67,7 +71,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: 85fd55be-17c2-498b-a25f-449d81d0ca32
-content:: Ana and Ben disagree about whether an AI lab should release a model's weights openly. Which of these is a value claim rather than a factual one?
+content:: Ana and Ben disagree about whether an AI lab should release a model's weights openly. Which of these claims is a value claim rather than a factual one?
 options::
 - [x] Wide access to AI matters more than a small added risk of misuse
 - Open weights let others remove the model's safety training

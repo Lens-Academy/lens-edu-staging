@@ -4,7 +4,7 @@ priority: medium
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Explain what it means to describe a system as an agent pursuing goals, and tell apart the senses of "agent" in use: the intentional stance, decision-theoretic agents, learning and planning systems, and LLM-based AI agents.
+Explain what it means for a system to pursue goals, including why reaching the same outcome despite obstacles is a common sign, and tell apart senses of "agent": intentional stance, decision-theoretic, learning and planning systems, LLM-based AI agents.
 
 ## Requires
 
@@ -15,25 +15,32 @@ Explain what it means to describe a system as an agent pursuing goals, and tell 
 Many AI risk arguments are stated in terms of agents with goals, but "agent" means different things in papers, textbooks and product launches. If you can tell which sense an argument relies on, you can check whether it applies to a given system instead of accepting or rejecting it because of the label.
 
 ## Lenses
+- [AGI safety from first principles: Goals and Agency (LessWrong)](https://www.lesswrong.com/posts/bz5GdmCWj8o48726N/agi-safety-from-first-principles-goals-and-agency): Richard Ngo on why expected-utility maximization and the intentional stance alone don't tell you whether a system is goal-directed, and his six traits of agency (self-awareness, planning, consequentialism, scale, coherence, flexibility); read the introduction and "Frameworks for thinking about agency" (September 2020).
+- [[../Lenses/adamshimi-literature-review-on-goal-directedness|Literature Review on Goal-Directedness]]: Dennett's intentional stance (thermostats included), why calling AlphaGo "trying to win" predicts the outcome even when you can't predict its moves, and why adapting to a changed environment is the clearest sign of a goal; read the "Explainability", "Generalization" and "Optimization" sections (January 2021).
+- [[../Lenses/AI Safety Atlas - Goal Misgeneralization - Goal-Directedness|Goal-Directedness (AI Safety Atlas)]]: goal-directedness defined by behaviour rather than by internal search, and how language models can play goal-directed characters without having persistent goals of their own; read the opening, "Heuristics" and "Simulators" up to the Waluigi Effect box (2026).
+- [I think "agent" may finally have a widely enough agreed upon definition to be useful jargon now (Simon Willison)](https://simonwillison.net/2025/Sep/18/agents/): the industry meaning of an LLM agent, "runs tools in a loop to achieve a goal", and the other uses of the word it sets aside (September 2025).
 
 ## Tests
 
 #### Question: Choice
 id:: 32a2eb6d-bacb-4e59-be68-dd3db5afa4d8
-content:: In decision theory, what makes a system count as an agent?
+content:: Decision theory describes an ideally rational agent. What does that model assume about the agent's choices?
 options::
-- [x] Its choices fit consistent preferences, given its beliefs
-- It runs an explicit search over possible plans
-- It is aware of its own goals
-- It can use tools to act in the world
+- [x] They fit consistent preferences, given its beliefs
+- They come from an explicit search over possible plans
+- They reflect goals the agent is consciously aware of
+- They always achieve the outcome the agent prefers
 shuffle:: true
 
 #### Question: Choice
-id:: 2156d962-cd49-46b7-9cc1-6c1c0f45550b
-content:: In reinforcement learning textbooks, can a program that just looks up action values in a table count as the "agent"?
+id:: 01fb1db5-15e3-4d74-85db-02ba3d24725d
+content:: In reinforcement learning textbooks, what does the word "agent" refer to?
 options::
-- [x] Yes
-- No
+- [x] Whatever part of the system picks actions and learns from reward
+- Only systems that plan several steps ahead before acting
+- Only systems with goals they can describe in words
+- Only systems that act in the world without human oversight
+shuffle:: true
 
 #### Question: Choice
 id:: cb68b4c8-b089-4b05-88b0-8c3b3a0d2b20
@@ -52,7 +59,7 @@ options::
 - [x] A thermostat keeping a room at 20 °C
 - A chess engine running a game-tree search
 - A route planner computing the shortest path
-- An LLM agent that writes a plan, then follows it
+- A scheduler comparing thousands of delivery timetables
 shuffle:: true
 
 #### Question: Choice
