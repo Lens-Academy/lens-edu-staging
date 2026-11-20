@@ -46,8 +46,8 @@ shuffle:: true
 id:: ebfd704d-454e-4a2b-8a85-dd8d37284912
 content:: A newcomer to AI safety is choosing a first project. Which kind of problem usually gives them the most room to make a useful contribution?
 options::
-- [x] A useful problem that few people are working on, even if unglamorous
-- The most popular research agenda, where most researchers already work
+- [x] A useful problem that few people are working on
+- The research agenda where most researchers already work
 - A problem a major lab has just announced it is tackling
 - The problem with the most prestige among researchers
 shuffle:: true

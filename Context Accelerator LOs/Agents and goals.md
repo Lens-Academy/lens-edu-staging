@@ -73,41 +73,11 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 29f08334-01b8-44aa-af2e-7450bcfbc0f5
-content:: An AI system is trained with a reward signal for winning games. Which statement about its goals is accurate?
-options::
-- [x] What it ends up pursuing may differ from the reward
-- Its goal is, by definition, to maximize the reward
-- Its goal is whatever its designers intended
-- It has no goals; its designers have the goals
-shuffle:: true
-
-#### Question: Choice
-id:: 54affce9-3e45-4e33-89c4-ca06ade714a5
-content:: Classical decision theory models an agent as separate from its environment. What does the "embedded agency" research agenda point out about real AI systems?
-options::
-- [x] They are part of the world, so their actions can change themselves
-- Their goals are set by the people who deploy them
-- They need human approval before each action
-- They act in simulated rather than physical worlds
-shuffle:: true
-
-#### Question: Choice
 id:: 0f22b70a-3298-4bb0-b43d-14fbe4e8523b
 content:: Daniel Dennett's intentional stance predicts a system's behavior by treating it as having beliefs and desires. Does taking this stance toward a system require believing it is conscious?
 options::
 - [x] No
 - Yes
-
-#### Question: Choice
-id:: 8ad8fc29-8d0c-421e-b14e-fd817ab63302
-content:: The instrumental convergence argument says goal-pursuing systems would tend to seek resources and their own survival. Which kind of system does it apply to most directly?
-options::
-- [x] A system flexibly pursuing long-term outcomes in many situations
-- A system called an agent because it calls tools in a loop
-- A system answering each prompt with no lasting objective
-- A system trained on a large amount of human text
-shuffle:: true
 
 #### Question: Open
 id:: 7dec74fa-f4bd-4c37-b021-20bdd0b84e1c

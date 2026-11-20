@@ -71,10 +71,6 @@ options::
 - Faster AI systems need more training data to stay accurate
 shuffle:: true
 
-#### Question: FillBlank
-id:: a9a51047-f17f-4f6e-a753-21e15933989a
-content:: If 1,000 copies of a human-level AI each think 10 times faster than a person, then in one year they do about {{10,000|10000|ten thousand}} years of human-equivalent thinking.
-
 #### Question: Open
 id:: 19b22821-050b-4343-ae48-c17d885e47a0
 content:: Name two advantages digital minds could have over humans that don't depend on being smarter than humans, and say briefly how each could help AI outcompete people.
