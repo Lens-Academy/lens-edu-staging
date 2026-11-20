@@ -93,7 +93,6 @@ options::
 - [x] Full automation of occupations was forecast many decades later
 - The two forecasts were within a few years of each other
 - Full automation of occupations was forecast many decades earlier
-- Most respondents declined to give a forecast for either question
 shuffle:: true
 
 #### Question: Choice

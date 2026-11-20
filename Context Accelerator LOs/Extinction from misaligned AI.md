@@ -21,15 +21,6 @@ If you assume an AI would have to hate humans to kill them, you will underrate t
 - [Notes on Fatalities from AI Takeover (Redwood Research)](https://blog.redwoodresearch.org/p/notes-on-fatalities-from-ai-takeover): a leading safety researcher's dissenting estimate that about half of people, not everyone, would die in expectation, with his reasons for and against survival. Read the estimates and the reasons sections (September 2025).
 
 ## Tests
-#### Question: Choice
-id:: e9e8d5cc-84da-46e3-9e38-16eab6c48a7b
-content:: A misaligned AI covers most of Earth's land with solar farms and data centers. Humans die because no land is left to grow food. Which reason for human extinction does this illustrate?
-options::
-- [x] A side effect of the AI pursuing its own goals
-- Removing humans as a threat to the AI
-- Punishing humans for resisting the AI's takeover
-- A failed attempt to carry out human wishes
-shuffle:: true
 
 #### Question: Open
 id:: cfe36b4d-d3b2-45cb-bdd5-82ef73a66510

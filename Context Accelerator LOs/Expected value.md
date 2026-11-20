@@ -32,10 +32,6 @@ options::
 - The average of its best and worst outcomes
 shuffle:: true
 
-#### Question: FillBlank
-id:: 39e51e73-bbbb-417a-9a43-e1ef82db9e74
-content:: An option with a 5% chance of a payoff of 200, and nothing otherwise, has an expected value of {{10}}.
-
 #### Question: Choice
 id:: b94256b6-feb4-4267-826f-35845ae7a713
 content:: Two options have equal expected value. Option A gives a certain result; option B gives either twice that result or nothing, with equal chances. Which difference between them does expected value alone ignore?
@@ -62,16 +58,6 @@ content:: A grantmaker finds that 80% of the long-shot research projects it fund
 options::
 - [x] No
 - Yes
-
-#### Question: Choice
-id:: fd0687c6-a345-40d8-a506-11994c00bbb3
-content:: A person prefers a sure $1,000 to a 50% chance of $2,100, even though the gamble has a higher expected dollar value. Which explanation is consistent with them deciding well?
-options::
-- [x] Each extra dollar matters less to them once they have $1,000
-- They have miscalculated the expected value of the gamble
-- A 50% chance is too uncertain for expected value to apply
-- They are ignoring the gamble's best possible outcome
-shuffle:: true
 
 #### Question: Choice
 id:: 0ed27ea2-c16b-406d-affc-268f7a2cfe05

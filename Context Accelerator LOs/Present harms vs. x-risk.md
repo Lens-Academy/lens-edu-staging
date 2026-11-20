@@ -23,15 +23,6 @@ People worried about AI's current harms and people worried about existential ris
 - [TESCREAL (Wikipedia)](https://en.wikipedia.org/wiki/TESCREAL): what the acronym stands for, why Gebru and Torres say these linked ideologies drive x-risk advocacy and distract from present harms, and the replies of critics who call the term a misleading lumping-together (November 2026).
 
 ## Tests
-#### Question: Choice
-id:: 7f2e9982-451c-4071-b961-9bb9ff7e8579
-content:: In the debate between AI ethics and AI safety, what is the "distraction" argument against focusing on existential risk from AI?
-options::
-- [x] It pulls attention, funding and regulation away from harms AI causes now
-- It makes AI companies less willing to fix bias in their products
-- It makes people think current AI systems are safe to deploy
-- It slows technical progress that would reduce present harms
-shuffle:: true
 
 #### Question: Choice
 id:: 8d83ab6b-b839-499e-8228-b30616598244

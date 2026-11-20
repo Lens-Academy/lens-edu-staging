@@ -56,7 +56,6 @@ options::
 - Other labs stop building frontier models and leave the field to Anthropic
 - Governments approve Anthropic's models as the only ones allowed for use
 - Other labs train larger models to beat Anthropic's scores
-- Other labs hire away Anthropic's researchers with higher pay
 shuffle:: true
 
 #### Question: Choice

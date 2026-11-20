@@ -101,10 +101,6 @@ options::
 - They cluster above 90%
 shuffle:: true
 
-#### Question: FillBlank
-id:: eeae51ec-2da6-4513-8c29-d62e07a0066d
-content:: In his 2020 book The Precipice, Toby Ord estimated the chance of existential catastrophe from unaligned AI over the next 100 years at about 1 in {{10|ten}}.
-
 #### Question: Open
 id:: bcfbd6d9-d910-4a6b-8b6c-d2657b6acd7f
 content:: Well-informed people give p(doom) estimates as different as 1% and 90%. Why can informed estimates of the same risk differ this much?

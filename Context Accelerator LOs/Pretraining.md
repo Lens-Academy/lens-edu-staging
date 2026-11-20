@@ -38,10 +38,6 @@ options::
 - A reward given when the model completes a task
 shuffle:: true
 
-#### Question: FillBlank
-id:: 06e57ffa-e798-4f14-88ba-767fbb974520
-content:: Language models split text into small chunks called {{tokens|token}}, and pretraining trains the model to predict the next one.
-
 #### Question: Open
 id:: b25c4213-dafc-4a7b-9b6c-80874ff57977
 content:: Pretraining only trains a model to predict the next token. Explain why this can lead the model to learn facts and reasoning skills.
@@ -115,16 +111,6 @@ options::
 - Training on human ratings of its answers
 - Fine-tuning on examples of following instructions
 - Answering users' questions after release
-shuffle:: true
-
-#### Question: Choice
-id:: 3e8e0cf2-a675-4bec-8937-3d4522bfda8f
-content:: As of 2026, roughly how much text have publicly documented pretraining runs for large open-weight language models used?
-options::
-- [x] Tens of trillions of tokens
-- Tens of billions of tokens
-- Hundreds of millions of tokens
-- Hundreds of quadrillions of tokens
 shuffle:: true
 
 #### Question: Open

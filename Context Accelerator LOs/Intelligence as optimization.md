@@ -117,10 +117,6 @@ options::
 - How many separate steps the optimizer's plan contained
 shuffle:: true
 
-#### Question: FillBlank
-id:: e54ae291-7460-41eb-9d70-f1e67bbe8b5e
-content:: Eliezer Yudkowsky describes general intelligence as efficient {{cross-domain|cross domain}} optimization.
-
 #### Question: Open
 id:: 92235431-90fb-4553-ae4c-e8532f5fd833
 content:: What does it mean to describe intelligence as the ability to "steer the world into narrow target states"? Answer in one or two sentences.

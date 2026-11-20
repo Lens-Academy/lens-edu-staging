@@ -92,10 +92,6 @@ options::
 - Nothing can count as evidence about AI risk until an AI catastrophe actually happens.
 shuffle:: true
 
-#### Question: FillBlank
-id:: 97152440-9ee7-42ae-8ba1-30313c129fac
-content:: To judge whether a prevented danger was real, you compare what actually happened with the {{counterfactual|counterfactual outcome}}: what would most likely have happened without the prevention.
-
 #### Question: Open
 id:: 9d127194-e5fe-4ed5-a1ac-f8d6731a7ec1
 content:: Using the prevention paradox, explain what is weak about this argument: "The Y2K warnings were overblown, so warnings about AI risk probably are too."
