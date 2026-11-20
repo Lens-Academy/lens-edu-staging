@@ -59,7 +59,7 @@ Eleven policy buckets, from the least demanding ask to the most. Open each one b
 :::callout {title="1. Self-governance (status quo)" tone="neutral" collapse="closed"}
 Voluntary lab commitments such as responsible scaling policies (RSPs) and safety frameworks; no external enforcement, and race dynamics persist.
 
-**Historical parallel: Asilomar, 1975.** Molecular biologists voluntarily paused recombinant DNA experiments and wrote their own safety guidelines at the Asilomar conference. Self-governance worked for a while because the research community was small and shared norms, but it later hardened into formal NIH rules. The AI parallel: lab commitments can precede regulation, but they historically survive only until commercial pressure or new entrants arrive.
+**Historical parallel: Asilomar, 1975.** Molecular biologists voluntarily paused recombinant DNA experiments and wrote their own safety guidelines at the Asilomar conference. Self-governance worked for a while because the research community was small and shared norms, but it later hardened into formal National Institutes of Health (NIH) rules. The AI parallel: lab commitments can precede regulation, but they historically survive only until commercial pressure or new entrants arrive.
 :::
 
 :::callout {title="2. Unilateral restraint" tone="neutral" collapse="closed"}
@@ -77,7 +77,7 @@ Each state licenses, audits, and sets safety requirements for its own developers
 :::callout {title="4. Transparency and information-sharing" tone="neutral" collapse="closed"}
 Incident reporting, model registries, notification of large training runs. The disclosure infrastructure most later options depend on.
 
-**Historical parallel: US-Soviet launch notifications, 1988.** The Ballistic Missile Launch Notification Agreement required each side to notify the other before ICBM and SLBM test launches. Nothing was limited or banned; the value was purely in reducing surprise and misinterpretation. Training-run notification proposals borrow this logic almost exactly. (Nearest fit, though missile launches are far easier to observe from outside than training runs.)
+**Historical parallel: US-Soviet launch notifications, 1988.** The Ballistic Missile Launch Notification Agreement required each side to notify the other before test launches of intercontinental and submarine-launched ballistic missiles (ICBMs and SLBMs). Nothing was limited or banned; the value was purely in reducing surprise and misinterpretation. Training-run notification proposals borrow this logic almost exactly. (Nearest fit, though missile launches are far easier to observe from outside than training runs.)
 :::
 
 :::callout {title="5. Joint emergency preparedness and response" tone="neutral" collapse="closed"}
