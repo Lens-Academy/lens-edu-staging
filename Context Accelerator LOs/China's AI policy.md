@@ -14,6 +14,11 @@ Describe China's main AI regulations and national AI strategy, and explain its s
 An international agreement on AI risk needs China, one of the two leading AI powers, to take part. Knowing what China's rules already require and what its government has said about safety and cooperation helps you judge which proposals it might accept, without assuming China either ignores AI safety or fully embraces it.
 
 ## Lenses
+- [[../Lenses/AI Safety Atlas - Governance - Appendix National Governance|Appendix: National Governance]]: read only the "China" section, for the basic facts of how China regulates AI: one targeted rule at a time (algorithm registry, deepfakes, generative AI), run by the Cyberspace Administration of China, with content control at the centre.
+- [[../Lenses/sheehan-how-china-views-ai-risks-and-what-to-do-about-them|How China Views AI Risks]]: Carnegie's reading of China's AI Safety Governance Framework 2.0, which names loss of human control, CBRN misuse and open-weight risks alongside content control, and why Beijing still weighs development above safety (October 2025).
+- [Promising Signals on AI Governance from China (MIRI)](https://intelligence.org/2026/04/06/promising-signals-on-ai-governance-from-china/): the case that China is open to an AI agreement, compiling official statements from the Bletchley Declaration and the Biden–Xi nuclear statement to UN-led governance and loss-of-control warnings; one side of a live debate (July 2026, updated October 2026).
+- [How China Sees AI Safety (China Media Project)](https://chinamediaproject.org/2025/07/30/how-china-sees-ai-safety/): the sceptical view, showing how China's "AI safety" standards mostly encode political content control and arguing the convergence with Western safety concerns is only partial (July 2025).
+- [China's Xi Jinping launches new AI alliance: What is it? (Al Jazeera)](https://www.aljazeera.com/news/2026/8/18/chinas-xi-jinping-launches-new-ai-alliance-what-is-it): Xi's 2026 pitch for global AI governance: no single country dominating, opposition to "overstretching" national security (US chip controls), open source as a "historic opportunity", and outreach to developing countries (July 2026).
 
 ## Tests
 
@@ -38,11 +43,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 59ac4c5e-3af4-40ea-adfc-7b0fc1f39cc5
-content:: Do China's 2023 interim measures on generative AI cover models a company uses only for internal research and development, without offering them to the public?
+id:: f7556630-de41-4ce7-b4c6-c2720a3c734c
+content:: China's 2023 interim measures on generative AI apply to generative AI services offered to the public in China. Which of these falls outside them?
 options::
-- [x] No
-- Yes
+- [x] A model a company trains and tests only internally
+- A chatbot a Chinese company offers to the public
+- A foreign company's AI service offered to users in China
+- An image generator in a popular Chinese app
+shuffle:: true
 
 #### Question: FillBlank
 id:: 0cd191ba-eab5-4bd3-b4a3-6e03766380aa
@@ -76,18 +84,18 @@ options::
 - No
 
 #### Question: Choice
-id:: fab3385f-aa2a-47f0-a29a-023f2bf24f13
-content:: In November 2024, Joe Biden and Xi Jinping made a joint statement on AI and the military. What did it affirm?
+id:: afac32d2-53ac-4b61-b9b5-5de91bbbabee
+content:: As of November 2026, which best describes what the US and Chinese governments have agreed on AI risk?
 options::
-- [x] Humans, not AI, should control decisions to use nuclear weapons
-- Both countries would ban lethal autonomous weapons
-- Both countries would pause training of frontier AI models
-- Their AI safety institutes would share model evaluations
+- [x] Narrow, non-binding steps: human control of nuclear launch decisions (2024), and a dialogue and incident channel (2026)
+- A binding treaty capping training compute, with inspections run by both countries' AI safety institutes
+- Nothing so far: the two governments have refused to discuss AI risk while export controls stay in place
+- A joint ban on lethal autonomous weapons, agreed in 2024 and extended to frontier AI models in 2026
 shuffle:: true
 
 #### Question: Choice
 id:: 34f3b629-2279-4c96-8f52-f3048184192b
-content:: In China's Global AI Governance Initiative (2023) and Global AI Governance Action Plan (2025), which forum does China say should lead global AI governance?
+content:: In China's Global AI Governance Initiative (2023) and Global AI Governance Action Plan (2025), which forum did China say should be central to global AI governance?
 options::
 - [x] The United Nations, with a strong voice for developing countries
 - The G7, coordinating with major AI companies
@@ -99,10 +107,10 @@ shuffle:: true
 id:: 4a0c3378-7098-465f-a5cf-3e812fde6dbb
 content:: As of November 2026, which statement about China and open-weight AI models is accurate?
 options::
-- [x] Government plans encourage open-source AI, and leading Chinese labs release open weights
-- The government bans releasing model weights, so Chinese labs keep models closed
-- Open-weight release is allowed only for models below a set compute threshold
-- Chinese labs release open weights despite official policy discouraging it
+- [x] Government plans encourage open-source AI, and several leading Chinese labs release open weights
+- The government bans releasing model weights, so Chinese labs keep their models closed
+- Open-weight release is allowed only for models below a compute threshold set in law
+- Chinese labs release open weights even though official policy discourages it
 shuffle:: true
 
 #### Question: Open
@@ -113,4 +121,4 @@ assessment-instructions:: Score out of 100. 50 for identifying US-led export con
 #### Question: Open
 id:: 29be77f9-ff52-4d8f-a1f3-d24a66def8e4
 content:: Name one stated Chinese position that could help an international agreement on AI risk, and one that could make such an agreement harder.
-assessment-instructions:: Score out of 100. 50 for a helpful position, any one of: signing the Bletchley Declaration; affirming human control of nuclear weapons decisions; official documents naming loss-of-control risk; support for UN-led AI governance. 50 for a complicating position, any one of: priority on development and national sovereignty; opposition to export controls; rejection of US-led groupings; emphasis on content control. Partial credit for vague answers.
+assessment-instructions:: Score out of 100. 50 for a helpful one: signing the Bletchley or Paris declarations; human control of nuclear or military AI decisions; the 2026 US–China dialogue and incident channel; the November 2026 stated intention of joint guardrails (no published text, not a signed deal); documents naming loss of control; backing UN-led governance. 50 for a complicating one: priority on development and sovereignty; opposing export controls; rejecting US-led groupings; China-led bodies such as WAICO; content control. Partial credit for vague answers.

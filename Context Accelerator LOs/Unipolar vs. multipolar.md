@@ -16,6 +16,10 @@ Explain the difference between unipolar and multipolar outcomes of advanced AI, 
 Whether one actor or many end up holding powerful AI changes which work helps most. If one project may take control, what matters is whether its AI is aligned and who directs it; if many compete, racing, conflict and failed coordination become central. Without this distinction, it is easy to back strategies built for the wrong world.
 
 ## Lenses
+- [[../Lenses/AI Safety Atlas - Capabilities - Appendix Takeoff|Appendix: Takeoff]]: what unipolar and multipolar takeoffs are, why a fast takeoff favours one leader, and the risks of each; read the "Polarity" section only.
+- [What is a Singleton? (Nick Bostrom)](https://nickbostrom.com/fut/singleton): the original definition of a singleton, the many forms it could take (from world government to a superintelligence that only enforces a few rules), and its pros and cons (2006).
+- [Superintelligence 7: Decisive strategic advantage (LessWrong)](https://www.lesswrong.com/posts/vkjWGJrFWBnzHtxrw/superintelligence-7-decisive-strategic-advantage): summary of Bostrom's chapter on whether one AI project could get far enough ahead to take control, and whether it would then form a singleton, with Paul Christiano's sceptical view; read the summary and Christiano's guest view (October 2014).
+- [What Multipolar Failure Looks Like (LessWrong)](https://www.lesswrong.com/posts/LpM3EAakwYdS6aRKf/what-multipolar-failure-looks-like-and-robust-agent-agnostic): Andrew Critch's stories of catastrophe with many AI-empowered actors and no single villain, where competition squeezes out human control (March 2021) (more advanced).
 
 ## Tests
 
@@ -43,27 +47,27 @@ shuffle:: true
 id:: 06942d7f-1605-4ac8-9a72-d69085a1deb3
 content:: In Bostrom's analysis, how does a decisive strategic advantage relate to a singleton?
 options::
-- [x] An actor with a decisive strategic advantage could use it to form a singleton, but might not
-- A singleton is any actor that holds a decisive strategic advantage
-- A decisive strategic advantage arises once a singleton has already formed
-- They are two names for the same situation
+- [x] Holding one makes forming a singleton possible, not certain
+- Any actor holding one is by definition a singleton
+- One can only arise after a singleton has formed
+- The two terms describe exactly the same situation
 shuffle:: true
 
 #### Question: Open
 id:: 587d68b5-c1b1-43a4-a9e9-3e00485e5fed
 content:: Why do many argue that a fast takeoff makes a unipolar outcome (one dominant AI or actor) more likely than a slow takeoff does?
-assessment-instructions:: Score out of 100. 100 for the idea that in a fast takeoff the leading project gains capability so quickly that rivals cannot catch up, copy it or respond before it pulls decisively ahead, while in a slow takeoff gains spread and others keep pace. 50 for saying only "the leader gets ahead faster" without why rivals can't catch up.
+assessment-instructions:: Score out of 100. 100 for the idea that in a fast takeoff the leader gains capability so quickly (for example, by using its AI to speed up its own research) that rivals cannot catch up, copy it or respond before it pulls decisively ahead, while in a slow takeoff gains spread and others keep pace. 50 for saying only "the leader gets ahead faster" without why rivals can't catch up.
 
 #### Question: Choice
 id:: 1c8d1124-ff22-493a-8978-b98a94de6ffd
-content:: One AI lab is a year ahead of everyone else. Rival labs in several countries have systems nearly as capable, and no one can stop the others from acting. Is this a unipolar or a multipolar scenario?
+content:: One AI lab is a few months ahead of everyone else. Rival labs in several countries have systems nearly as capable, and no lab can stop the others from acting. Is this a unipolar or a multipolar scenario?
 options::
 - [x] Multipolar
 - Unipolar
 
 #### Question: Choice
 id:: dc1d5d46-ee14-40d0-a4cf-6b0411b65f68
-content:: One government controls the only superintelligent AI system. It uses it only to stop anyone else from building such systems, and otherwise leaves countries to govern themselves. Is this a unipolar or a multipolar scenario?
+content:: One government controls the only superintelligent AI system. It uses it only to stop anyone else from building such systems, and otherwise leaves countries to govern themselves. Judged by who holds decisive power over advanced AI, is this a unipolar or a multipolar scenario?
 options::
 - [x] Unipolar
 - Multipolar
@@ -94,7 +98,7 @@ content:: Someone expects one AI project to pull so far ahead that it could cont
 options::
 - [x] Whether that project's AI is aligned, and who controls it
 - How to keep a stable balance of power among many AI nations
-- How to stop competing AI firms from undercutting each other's prices
+- How to stop many rival labs from cutting safety corners in a race
 - How to verify arms-control treaties among many AI labs
 shuffle:: true
 
@@ -103,7 +107,7 @@ id:: 44d97bbe-cf1f-4158-b398-31a92b387e62
 content:: Some argue that a world with many powerful AI systems is safer because the systems can check each other. Which is a common objection to this argument?
 options::
 - [x] Misaligned AI systems might cooperate with each other against human interests
-- A world with several superintelligent systems is physically impossible
+- Running several superintelligent systems would use too much energy
 - Checks between AI systems would slow down useful AI progress
 - Balance of power works between nations but not between companies
 shuffle:: true

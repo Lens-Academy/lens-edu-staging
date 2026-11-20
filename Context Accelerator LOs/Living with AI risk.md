@@ -98,7 +98,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: 3f20bd36-d9cf-450f-99b9-300464b62b62
-content:: Someone whose job is unrelated to AI spends hours a day reading AI news and feels more anxious each week. Which change is most often recommended?
+content:: Someone whose job is unrelated to AI spends hours a day reading AI news and feels more anxious each week. Which change is most likely to help?
 options::
 - [x] Limit news time, and catch up through occasional summaries
 - Follow more sources, so that no development is missed
@@ -111,9 +111,9 @@ id:: 223881c0-2785-4b11-af4e-8c7b6ce761ea
 content:: Which of these tends to protect people from burnout and despair in demanding, mission-driven work?
 options::
 - [x] Supportive relationships with people who understand the work
-- Avoiding talk about the work with anyone outside it
-- Adding hours until the goal feels within reach
-- Keeping difficult feelings private to avoid worrying others
+- Keeping up with every development so that nothing comes as a shock
+- Working extra hours during stretches when progress feels good
+- Relying on willpower to push through low periods
 shuffle:: true
 
 #### Question: Open

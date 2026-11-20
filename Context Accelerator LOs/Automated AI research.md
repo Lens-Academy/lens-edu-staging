@@ -4,7 +4,7 @@ priority: high
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Explain the argument that AI doing AI research could speed up AI progress in a feedback loop, the main reasons it might stall, and what AI companies report about automating their own research as of November 2026.
+Explain the argument that AI doing AI research could speed up AI progress in a feedback loop, the main reasons it might stall, and what AI companies and independent assessors report about automated AI research as of November 2026.
 
 ## Requires
 - [[AI agents]]
@@ -18,6 +18,10 @@ Explain the argument that AI doing AI research could speed up AI progress in a f
 Many forecasts of when powerful AI arrives, and how fast it improves afterwards, depend on when AI can do most of the work of AI research. Knowing the argument and the current evidence lets you judge such forecasts and company claims, rather than accepting or dismissing them wholesale.
 
 ## Lenses
+- [When AI builds itself (Anthropic)](https://www.anthropic.com/institute/recursive-self-improvement): Anthropic's own account of AI doing more and more of its AI development: the share of merged code Claude writes, what AI still can't do well (choosing research directions and judging results), bottlenecks such as compute and human review, and why recursive self-improvement raises the risk of losing control. A company's view of its own progress (September 2026).
+- [[../Lenses/forethought-will-ai-rd-automation-cause-a-software-intelligence-explosion|Will AI R&D Automation Cause a Software Intelligence Explosion?]]: Forethought's case that AI doing AI research could speed itself up on existing chips alone, and the two main brakes: limited compute for experiments and the months each training run takes. Read the Summary and Introduction (March 2025).
+- [METR's independent assessment of AI R&D acceleration at Anthropic (METR)](https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment): after 11 weeks with Anthropic's internal data, METR estimates that Anthropic's models are improving about twice as fast as in 2024–25, with most of the speedup due to AI, and explains why staff's own reports of speedup are weak evidence. Read the Executive summary and Key findings (November 2026).
+- [OpenAI's AI research intern is here: what 3.1 workdays mean (eWeek)](https://www.eweek.com/news/openai-ai-research-intern-agent-workdays/): what OpenAI's "automated research intern" does and what humans still decide, why 3.1 agent-workdays per human workday measures agent running time rather than output, and how often agents still needed human help (September 2026).
 
 ## Tests
 
@@ -46,9 +50,9 @@ id:: d1ad7d00-c7e5-469e-9f9b-0d9e025a66d1
 content:: An AI company gains thousands of automated AI researchers but no extra computing power. According to the "compute bottleneck" objection, what limits how much faster its research gets?
 options::
 - [x] Experiments need compute, so more researchers mostly compete for the same chips
-- The automated researchers cannot learn from each other's experiments
-- The company runs out of training data before the researchers can use it
-- Human managers cannot review the volume of work the researchers produce
+- Each automated researcher needs so much compute that it works slower than a human
+- Compute is needed to serve customers, so research must wait for quiet periods
+- Without new chips, the researchers' code cannot run any faster than before
 shuffle:: true
 
 #### Question: Choice
@@ -62,23 +66,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 6c60105c-c424-4d4c-9121-609d2be21a63
-content:: Suppose AI agents make the coding in AI research ten times faster, but planning experiments, waiting for them to run and judging the results take as long as before. What mostly limits the overall speedup of research?
+id:: 0d1f1947-1751-46dc-98f7-ed8703e8f809
+content:: Anthropic reported that Claude writes over 80% of its merged code and that engineers merge about 8 times as much code as in 2024. In November 2026, METR published an independent estimate of how much faster Anthropic's models were improving than in 2024–25. What did it find?
 options::
-- [x] The parts of the work that did not speed up
-- The size of the speedup in coding
-- The number of agents running at once
-- The size of the codebase being edited
-shuffle:: true
-
-#### Question: Choice
-id:: c03b7d0a-7583-48ce-ab2b-7f2a9f63a1da
-content:: In June 2026, Anthropic reported what share of the code merged into its production codebase had been written by Claude as of May 2026?
-options::
-- [x] More than 80%
-- About 50%
-- About 25%
-- Less than 10%
+- [x] About twice as fast, with most of the speedup due to Anthropic's use of AI
+- About eight times as fast, in line with the growth in code merged per engineer
+- No measurable change, even though Claude now writes most of the code
+- About twice as fast, but almost entirely due to extra compute rather than AI
 shuffle:: true
 
 #### Question: Choice
@@ -112,13 +106,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: d5e1bf22-445d-4685-a416-aa8997755cf0
-content:: A 2025 METR study measured how fast experienced open-source developers worked on their own projects with and without AI tools. What did it find?
+id:: e1e66c27-a00c-4616-913a-f6ac78c6540f
+content:: In a 2025 METR study, experienced open-source developers using early-2025 AI tools took longer with the tools, but believed the tools had made them faster. METR's 2026 follow-up suggests newer tools probably do speed developers up. Which lesson from the 2025 study still matters for judging claims that AI is speeding up AI research?
 options::
-- [x] They were slower with the tools, though they believed they were faster
-- They were much faster with the tools, and estimated the gain correctly
-- They were faster with the tools, though they believed they were slower
-- Their speed did not change, and they correctly saw no difference
+- [x] People's own sense of how much AI speeds them up can be badly wrong
+- AI tools slow experienced developers down, so reported speedups are false
+- AI tools help beginners but cannot help experienced researchers
+- Speedups appear only after developers have used a tool for several years
 shuffle:: true
 
 #### Question: Choice
@@ -126,9 +120,9 @@ id:: fdcd37c5-4cfb-4d80-83d5-c2dd0da15921
 content:: Why do many AI safety researchers see automated AI research as a key point for risk, and not only for the speed of progress?
 options::
 - [x] It could shrink the time humans have to notice and fix problems in new systems
-- It is the first point at which AI systems can write working code
-- It requires models to be given open access to the internet
-- It makes model weights easier for outsiders to steal
+- It would require giving models open, unmonitored access to the whole internet
+- It would make AI companies rely on outside contractors to check their models
+- It would mean new models no longer need to be trained on large data centers
 shuffle:: true
 
 #### Question: FillBlank

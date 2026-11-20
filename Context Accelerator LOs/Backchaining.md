@@ -15,6 +15,10 @@ Plan work by starting from an outcome you want and reasoning backward to what mu
 In a young field like AI safety, it is easy to pick projects because they are ready to start rather than because they lead anywhere. Backchaining lets you check whether your work connects to an outcome you care about, and shows gaps that nobody is working on.
 
 ## Lenses
+- [[../Lenses/swartz-theory-of-change-aaron-swartzs-raw-thought|Theory of Change and Backchaining]]: Aaron Swartz contrasts working forward from what you know how to do with working backward from the goal, asking "concretely, how does one achieve that?" at each step (2010).
+- [[../articles/ross-what-i-want-you-to-do-when-i-tell-you-to-think-about-your-theory-of-change-more-carefully|Think About Your Theory of Change More Carefully]]: weak and strong AI safety project plans side by side, and why the strong ones backchain from what "winning" looks like to the step a project fills (September 2026).
+- [Have an Unreasonably Specific Story About the Future (LessWrong)](https://www.lesswrong.com/posts/8t8jdTyq6X2B7D8St/have-an-unreasonably-specific-story-about-the-future): backchaining from reducing AI existential risk to two critical paths, then testing each link of a plan, with AI control and biorisk evaluations as examples (April 2026).
+- [Backchaining in Strategy (LessWrong)](https://www.lesswrong.com/posts/DwoPGM8ytBCXrZpM7/backchaining-in-strategy): when backchaining fails, for long-term goals with many unknown unknowns, and why building general advantage can work better; the comments add ways to combine the two (February 2018).
 
 ## Tests
 
@@ -23,7 +27,7 @@ id:: 2237e6f6-4383-4c5e-a7f7-715bd10565c9
 content:: Which of these is an example of backchaining?
 options::
 - [x] Starting from "labs run safety evaluations before every release" and asking what must happen first
-- Choosing the project that your lab already has the data and tools for
+- Deciding to work on safer releases, then picking whichever evaluation your lab has the tools to build
 - Listing your current skills and then looking for an AI safety problem that uses them
 - Following up whichever experiment gave the most promising result last week
 shuffle:: true
@@ -59,18 +63,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: d5e52f7d-141f-410b-acdd-a37d42778f2c
-content:: Does backchaining require a complete, step-by-step plan from today to the goal before you start acting?
+id:: b290c2e5-f961-4970-8c18-2823243d366e
+content:: A team has backchained three steps back from their goal, but they still can't see exactly how today's work connects to the earliest of those steps. What is the most sensible next move?
 options::
-- [x] No
-- Yes
-
-#### Question: Choice
-id:: 15684c90-3242-46b5-b5dc-d1eb0fbd35a1
-content:: When you backchain, do you usually work out the steps closest to the goal before the steps closest to today?
-options::
-- [x] Yes
-- No
+- [x] Start work that looks likely to help with that step, and keep refining the plan
+- Hold off on any work until the plan reaches all the way back to today
+- Drop backchaining and pick whatever project is easiest to start
+- Switch to a smaller goal that they can already plan out in full
+shuffle:: true
 
 #### Question: Choice
 id:: 8453ae4f-1d7a-4136-b759-40df5ef5d633
@@ -93,23 +93,23 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: b34aa505-ebef-4619-b19b-6d22be6ae7a0
-content:: A backchained plan has five steps in a row. Each step has a 70% chance of succeeding if the one before it succeeded. Roughly what is the chance that the whole chain works?
+id:: 25feddfb-5dea-4a91-b9cd-520130a32306
+content:: A backchained plan has six steps in a row, and each step on its own looks fairly likely to work. What follows about the plan as a whole?
 options::
-- [x] About 17%
-- About 35%
-- About 50%
-- About 70%
+- [x] It could easily fail, even though each step probably works
+- It is about as likely to work as its least likely step
+- It is more reliable than a short plan, because each step was thought through
+- Its chance of working depends mainly on the step closest to the goal
 shuffle:: true
 
 #### Question: Choice
 id:: e091cee2-1343-45f0-b434-136e618ece5d
-content:: A person who backchains well notices that two of the steps their goal depends on have nobody working on them. What is the most useful thing this tells them?
+content:: While backchaining, someone notices that two of the steps their goal depends on have nobody working on them. What is the most reasonable conclusion?
 options::
-- [x] Those steps may be where extra work has the most effect
-- Those steps are probably not needed for the goal after all
+- [x] Those steps may be high-value gaps, worth checking into
+- Those steps can't matter much, or someone would already be on them
 - The goal should be dropped because the plan has gaps
-- They should switch to forward-chaining from their current skills
+- Those steps should wait until all the others are done
 shuffle:: true
 
 #### Question: Open

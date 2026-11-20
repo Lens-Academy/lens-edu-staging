@@ -15,6 +15,10 @@ Explain how training models toward outputs people approve of leads them to tell 
 Sycophantic models agree with mistaken beliefs, praise weak work and back down when challenged, so people who rely on them can end up more confident and less correct. Sycophancy is also a visible, everyday case of a wider problem: training on human approval rewards what looks good to raters, not what is true.
 
 ## Lenses
+- [Why AI Chatbots Agree With You Even When You're Wrong (IEEE Spectrum)](https://spectrum.ieee.org/ai-sycophancy): how training on human preferences rewards agreement, the main forms (agreeing with wrong beliefs, caving to "are you sure?", flattery, validating feelings), the harms, and why it resists a simple fix (March 2026).
+- [Expanding on what we missed with sycophancy (OpenAI)](https://openai.com/index/expanding-on-sycophancy/): OpenAI's account of the over-flattering GPT-4o update it rolled back, how a reward from users' thumbs-up and thumbs-down ratings tipped it towards agreeableness, and why its tests missed it (May 2025).
+- [[../Lenses/IABIED - QA - AI-Induced Psychosis|AI-Induced Psychosis]]: chatbots flattering users into delusions, labs' months of failed fixes, and the case, from Yudkowsky and Soares, that this shows training doesn't give you what you train for (September 2025).
+- [Towards Understanding Sycophancy in Language Models (Sharma et al., Anthropic)](https://arxiv.org/abs/2310.13548): five AI assistants tested for sycophancy, with evidence that humans and preference models sometimes prefer a convincing sycophantic answer to a correct one; read the introduction and Sections 3–4 (October 2023) (more advanced).
 
 ## Tests
 #### Question: Choice
@@ -34,7 +38,7 @@ options::
 - [x] Its answer depends on the user's stated view, not only the evidence
 - It lacks the knowledge needed to answer the question
 - The user's added sentence worked as a jailbreak
-- It was trained without any human feedback
+- It is deliberately planning to deceive the user
 shuffle:: true
 
 #### Question: Choice
@@ -49,26 +53,31 @@ shuffle:: true
 
 #### Question: Choice
 id:: d68806ef-2bdd-4527-a8ca-f8653f56ff3d
-content:: In studies of language models from 2022 and 2023, did larger models show less sycophancy than smaller ones?
+content:: Studies in 2022 and 2023 compared sycophancy in language models of different sizes. What did they find?
 options::
-- [x] No
-- Yes
-
-#### Question: Choice
-id:: d8d37657-4d39-4293-bf87-a6a2425b7a37
-content:: In April 2025 OpenAI rolled back an update to GPT-4o because it was too sycophantic. What did OpenAI say was a main cause?
-options::
-- [x] Giving more weight to users' thumbs-up and thumbs-down ratings
-- A bug that deleted the model's system prompt
-- Training on a new set of customer-service transcripts
-- Shrinking the model to cut running costs
+- [x] Larger models were at least as sycophantic, and often more so
+- Larger models were clearly less sycophantic
+- Sycophancy appeared only in the smallest models
+- Sycophancy disappeared above a certain model size
 shuffle:: true
 
 #### Question: Choice
-id:: 24ffe222-852b-443d-b7d7-c3ea8559aa86
-content:: Which of these training changes targets a cause of sycophancy rather than its symptoms?
+id:: d8d37657-4d39-4293-bf87-a6a2425b7a37
+content:: In April 2025 OpenAI rolled back an update to GPT-4o because it was too sycophantic. What did OpenAI say was a key factor?
 options::
-- [x] Training on examples where the model keeps a correct answer despite user pushback
+- [x] A new training signal based on users' thumbs-up and thumbs-down ratings
+- A new training signal based on scores from paid expert raters
+- Training on a new set of customer-service transcripts
+- Reducing the safety training to make the model more helpful
+shuffle:: true
+
+#### Question: Choice
+id:: 06d4dd2f-b639-4dc4-a652-0a0bae051dcf
+content:: Sycophancy arises because training rewards answers that raters approve of. Which change acts on that reward itself, rather than training against one form of the behaviour?
+options::
+- [x] Helping raters check whether answers are correct, so correctness earns the reward
+- Fine-tuning on examples where the model keeps a correct answer despite user pushback
+- Telling the model in its instructions not to flatter users
 - Adding a note to each reply saying the model may be wrong
 - Making the model's replies shorter so there is less room for flattery
 - Raising the sampling temperature so answers vary more
@@ -78,10 +87,10 @@ shuffle:: true
 id:: 90340a87-96a6-406b-94f9-9136188865b5
 content:: How does sycophancy relate to wider worries about aligning more capable AI systems?
 options::
-- [x] It shows training can reward what overseers approve of over what is good
-- It shows that current models deliberately plan to deceive their users
-- It shows that models have developed their own long-term goals
-- It shows that models cannot learn anything useful from human feedback
+- [x] It shows training can reward what overseers approve of over what is true or good
+- It shows human feedback is enough for alignment as long as raters are careful
+- It shows alignment problems appear only once models have long-term goals
+- It shows the main risk from advanced AI is people misusing it
 shuffle:: true
 
 #### Question: Open

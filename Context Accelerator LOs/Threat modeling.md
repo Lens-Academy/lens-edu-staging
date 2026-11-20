@@ -15,6 +15,9 @@ Break a path to AI-enabled catastrophe into concrete steps, such as capability, 
 A vague sense that AI is dangerous doesn't tell you what to do. Breaking a path into steps shows which defenses, such as capability tests, securing model weights or DNA synthesis screening, act on which step, so you can judge a proposal by where it cuts the path and what it leaves open.
 
 ## Lenses
+- [[../Lenses/darioamodei-dario-amodei-the-adolescence-of-technology|The Adolescence of Technology]]: read section 2, "A surprising and terrible empowerment" (Misuse for destruction, then Defenses). Breaks AI-enabled bioterrorism into motive, ability and materials, explains uplift beyond what search gives, and sets model guardrails, gene synthesis screening and biodefense against different steps (2026).
+- [Activating AI Safety Level 3 protections (Anthropic)](https://www.anthropic.com/news/activating-asl3-protections): a lab states its threat models (help with end-to-end weapons workflows; theft of model weights), explains how a capability threshold triggered safeguards, and lists the layers: classifiers, monitoring and egress limits on weights (May 2025; the policy has since been revised).
+- [[../Lenses/shlegeris-ai-catastrophes-and-rogue-deployments|AI catastrophes and rogue deployments]]: splits misaligned-AI catastrophe into two steps, first escaping safety measures through weight exfiltration or an unmonitored internal run, then causing harm. Argues the first step is easy and the second hard, which is why monitoring targets the escape (June 2024).
 
 ## Tests
 
@@ -39,33 +42,33 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: c81eca2a-197e-46c5-89b3-30ec5091c8ce
-content:: In a threat model of AI-enabled bioweapons, dangerous capability evaluations of a model mainly give evidence about which step?
+id:: ddff8003-70f2-49cb-9f0c-03090fbfe678
+content:: A lab's dangerous capability evaluations find that its new model gives would-be attackers meaningful help with bioweapons, beyond what search offers. In a threat model, what does this finding change?
 options::
-- [x] Whether the model could give meaningful help
-- Whether anyone wants to cause mass harm
-- Whether attackers can get lab materials
-- Whether health agencies would detect an outbreak
+- [x] One step gets easier, so defenses at the other steps carry more weight
+- More people now want to cause mass harm, so the motive step gets easier
+- Materials become easier to get, so DNA synthesis screening stops working
+- Every step is now met, so an attack is close to certain
 shuffle:: true
 
 #### Question: Choice
-id:: bc99c8a5-d6a4-49a4-8074-7ba5c6fceb68
-content:: In threat modeling of AI misuse, what does "uplift" from a model usually mean?
+id:: 235d134e-161f-4f77-9894-1e2d9f5cc24b
+content:: A model gives a user accurate, detailed answers on a dangerous topic, but the same facts are in standard textbooks and come up in a quick web search. In threat modeling terms, how much uplift does the model give?
 options::
-- [x] Help beyond what the person could already get, for example from search
-- All the knowledge the model holds about the dangerous topic
-- The gain in benchmark scores between model versions
-- How much faster the model answers than a human expert
+- [x] Little, because it adds little to what the user could already get
+- A lot, because the answers are accurate and detailed
+- A lot, because the model clearly knows the topic well
+- It can't be judged without knowing the user's motive
 shuffle:: true
 
 #### Question: Choice
 id:: 491fa46f-43d6-4421-9643-ea630a84f588
 content:: Why is screening DNA synthesis orders often proposed as a defense against AI-enabled bioweapons?
 options::
-- [x] It acts at a physical step that is hard to route around, whatever advice the attacker got
-- It keeps biology papers out of the data that AI models are trained on
-- It detects disease outbreaks earlier than hospital reporting does
-- It makes it harder to remove refusal training from open models
+- [x] It acts on getting materials, whichever AI model advised the attacker
+- It keeps biology papers out of the data used to train AI models
+- It detects disease outbreaks sooner than hospital reporting does
+- It makes refusal training harder to remove from openly released models
 shuffle:: true
 
 #### Question: Choice
@@ -80,7 +83,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: 086252d0-58ee-44ce-847b-190bb1bcee52
-content:: In a threat model where a misaligned AI tries to copy its own weights out of the lab, which step does monitoring the AI's actions mainly target?
+content:: In a threat model where a misaligned AI tries to copy its own weights out of the lab, what does monitoring the AI's actions mainly do?
 options::
 - [x] Catching and stopping the attempt before it succeeds
 - Reducing the AI's skill at writing code

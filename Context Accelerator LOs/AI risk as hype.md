@@ -132,4 +132,4 @@ assessment-instructions:: Score out of 100. 100 for any one of: makes its AI see
 #### Question: Open
 id:: 737584ae-7313-49c6-9e8a-364179eac416
 content:: Give one reason to doubt that concern about AI existential risk is mainly industry hype.
-assessment-instructions:: Score out of 100. 100 for any one of: the warnings predate the companies; many who warn have no financial stake (academics, people who left companies to speak out); companies have mostly lobbied against binding safety rules; extinction warnings can hurt companies by raising fear and regulation; the arguments can be judged apart from who makes them. 50 for "not everyone is biased" alone.
+assessment-instructions:: Score out of 100. 100 for any one of: the warnings predate the companies; many who warn have no financial stake (academics, people who left companies); companies and their backers mostly lobby and spend against binding safety rules (e.g. SB 1047, 2025–26 super PACs); warnings can hurt companies by raising fear and regulation; arguments can be judged apart from who makes them. 50 for "not everyone is biased" alone.

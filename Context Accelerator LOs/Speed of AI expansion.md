@@ -16,6 +16,10 @@ Explain the arguments that a superintelligence could copy itself, build industry
 How fast AI could turn intelligence into physical power sets how much time people would have to notice problems and respond. If a misaligned AI or one company could build industry that doubles every few months, a small lead could become an overwhelming one before governments act. Slower expansion leaves more room to correct mistakes.
 
 ## Lenses
+- [[../Lenses/AIF - The Industrial Explosion|The Industrial Explosion]]: Forethought on how robot factories building robot factories could make physical output grow explosively, in three stages, with robot doubling times of about a year at first and days or weeks at the limit by analogy with fruit flies and bacteria; read up to the appendices (May 2025).
+- [Report on whether AI could drive explosive economic growth (Open Philanthropy)](https://coefficientgiving.org/?p=3412): Tom Davidson's plain-language summary of why AI that can replace workers could restore the loop that made growth speed up for most of history, why that loop broke when richer families had fewer children, and the main reasons for doubt (June 2021).
+- [Carl Shulman on the economy after AGI (80,000 Hours)](https://80000hours.org/podcast/episodes/carl-shulman-economy-agi/): one leading proponent on why most economists expect little growth from AI, and why Baumol-style bottlenecks and slow fab building need not hold back an economy where AI and robots can do all jobs; listen to or read 02:13:30 to 02:32:06 ("Economists and the intelligence explosion" to "Denying that robots can exist") (June 2024).
+- [Explosive growth from AI automation: a review of the arguments (Epoch AI, arXiv)](https://arxiv.org/abs/2309.11690): Ege Erdil and Tamay Besiroglu weigh three drivers of explosive growth against nine objections, including regulation, physical bottlenecks and slow automation, and judge explosive growth plausible but uncertain (July 2024) (more advanced).
 
 ## Tests
 #### Question: Choice
@@ -53,19 +57,19 @@ id:: 4870e63d-ffc2-4318-9e88-bbd589065ab4
 content:: For most of history, more output supported more people, who produced more new ideas, which raised output further. Growth models used in AI forecasting say this loop broke from the late 1800s onward. Why?
 options::
 - [x] Richer families began having fewer children
-- Most valuable ideas had already been found
+- Governments began taxing away most new output
 - Wars and pandemics sharply cut population
 - Fossil fuel shortages began to limit output
 shuffle:: true
 
 #### Question: Choice
-id:: 65894e41-ca15-4d9b-b5e5-67c5f2032ca1
-content:: An economy automates most of its tasks, but a few essential ones still depend on slow human work or slow physical processes. According to the bottleneck argument against explosive growth, what happens?
+id:: cf1e764f-0154-4848-8543-563c17b72daf
+content:: An economy automates 95% of its tasks, which become very fast and cheap. The other 5% still need slow human work or slow physical processes, and the economy can't do without them. Some economists argue overall growth would then stay far below explosive rates. What is their reasoning?
 options::
-- [x] The slow tasks hold back overall growth, even as the rest speed up
-- Growth still becomes explosive, since the slow tasks are a small share of today's economy
-- The slow tasks become cheaper, so the economy spends less on them
-- The slow tasks quickly drop out of the economy as demand shifts
+- [x] As automated work gets cheap, the slow tasks take up a growing share of costs, so they set the pace
+- Cheap automated output would flood markets, so prices fall and firms stop investing
+- Firms would keep human workers in automated tasks to avoid job losses
+- Automated tasks would use up available energy before growth could speed up
 shuffle:: true
 
 #### Question: Choice
@@ -74,8 +78,8 @@ content:: Some researchers argue that self-replicating machines could in princip
 options::
 - [x] Some organisms copy themselves in under a day using raw materials and energy
 - Insect colonies build structures many times larger than any single insect
-- Animal populations tend to grow fastest when food is scarce
-- Evolution produced complex animals within a few thousand years
+- Large animals live longer and use energy more efficiently than small ones
+- Plants capture far more energy from sunlight than all human industry uses
 shuffle:: true
 
 #### Question: Choice
@@ -84,7 +88,7 @@ content:: People arguing that industry could be rebuilt quickly often cite the U
 options::
 - [x] An economy can switch its factories to new products within a few years
 - A government can double its country's total output every year
-- Central planning outgrows market economies over several decades
+- Wartime growth rates can be kept up for decades afterwards
 - Weapons production speeds up progress in civilian technology
 shuffle:: true
 

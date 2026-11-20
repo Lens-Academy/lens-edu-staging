@@ -15,6 +15,11 @@ Explain what it means to treat a probability as a degree of belief, and read est
 Most numbers you'll meet about AI risk and timelines are personal estimates, not measurements. Reading them as measured frequencies, or dismissing them as made up, leads you to misjudge what experts are claiming, how much they disagree, and what their numbers mean for decisions.
 
 ## Lenses
+- [In Continued Defense Of Non-Frequentist Probabilities (Astral Codex Ten)](https://www.astralcodexten.com/p/in-continued-defense-of-non-frequentist): why it makes sense to give a probability for one-off events like AI destroying humanity, what such a number does and doesn't tell you, and why good forecasters' numbers are still useful (March 2024).
+- [Probability is in the Mind (LessWrong)](https://www.lesswrong.com/posts/f6ZLxEWaankRZ2Crv/probability-is-in-the-mind): probability as a description of what you know, not a property of the world; a covered coin and simple puzzles show why people with different information rightly give different numbers (March 2008).
+- [Stop talking about p(doom) (LessWrong)](https://www.lesswrong.com/posts/EwyviSHWrQcvicsry/stop-talking-about-p-doom): how one "p(doom)" can stand for many different questions (different definitions of doom, time frames, and conditions such as "if superintelligence is built"); the first section is the part to read (January 2024).
+- [[../Lenses/AI Safety Atlas - Risks - Appendix Quantifying Existential Risks|Quantifying Existential Risks]]: what p(doom) means, why there is no objective number to measure, the huge spread of expert estimates, and why they're hard to compare.
+- [Words of Estimative Probability (CIA, Sherman Kent)](https://www.cia.gov/resources/csi/studies-in-intelligence/archives/vol-8-no-4/words-of-estimative-probability): a classic intelligence-analysis essay on how the phrase "serious possibility" was read as anything from 20% to 80%, and why estimates are better stated as numbers (1964).
 
 ## Tests
 
@@ -59,11 +64,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 728655eb-c04f-46f7-81d9-d4a315033a32
-content:: Someone says AI has a 30% chance of causing a catastrophe this century and an 80% chance of not causing one this century. Are these two degrees of belief coherent?
+id:: 2a96895f-d57a-424c-81ad-b6b2c0408750
+content:: Someone puts 15% on AI causing a catastrophe by 2050 and 10% on AI causing a catastrophe by 2100. What, if anything, is wrong with these degrees of belief?
 options::
-- Yes
-- [x] No
+- [x] The 2100 chance can't be lower than the 2050 chance
+- Nothing, as risk may fall once safety research matures
+- Nothing, as each is a separate personal judgment
+- The two chances should add up to 100%
+shuffle:: true
 
 #### Question: Choice
 id:: 7520c091-5ed6-4822-950c-7188371e15b8
@@ -71,6 +79,7 @@ content:: A researcher says: "If superhuman AI is built by 2040, I put 40% on ca
 options::
 - [x] It drops the condition about superhuman AI by 2040
 - Nothing, as conditional and overall chances are equal
+- Nothing, since the condition is very likely to be met
 - It should report 60%, the chance things go well
 - Degrees of belief can't be reported as numbers
 shuffle:: true
@@ -111,5 +120,5 @@ assessment-instructions:: Score out of 100. 100 for any one of: it fits the avai
 
 #### Question: Open
 id:: 9408d91b-9307-45e8-84aa-558352ce52fb
-content:: Suppose a survey of AI researchers reports a median 5% chance that AI leads to human extinction. Give one reason not to read this as a measured fact about how dangerous AI is.
+content:: The 2024 AI Impacts survey of AI researchers reported a median 10% chance that AI leads to human extinction or a similarly permanent and severe disempowerment of humanity. Give one reason not to read this as a measured fact about how dangerous AI is.
 assessment-instructions:: Score out of 100. 100 for any one of: it combines personal degrees of belief, not observed frequencies; results depend on who answered and how the question was worded; respondents may not have thought hard about it; a median hides wide disagreement. 50 for saying only that surveys can be wrong, with no reason.

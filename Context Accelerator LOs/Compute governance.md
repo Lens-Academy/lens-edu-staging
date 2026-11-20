@@ -89,12 +89,10 @@ options::
 - Frontier developers have stopped increasing their training compute.
 shuffle:: true
 
-#### Question: Choice
-id:: 3186d6bf-dd76-4228-9e8b-d8cef5ad33ae
-content:: More compute is being used for inference rather than training. Does this make export controls on advanced AI chips irrelevant?
-options::
-- [x] No
-- Yes
+#### Question: Open
+id:: 5b25f537-3858-4d6f-9949-669789e325b0
+content:: More and more AI compute is used to run models (inference) rather than to train them. Why do export controls on advanced AI chips still matter?
+assessment-instructions:: Score out of 100. 100 for explaining that inference also runs best on advanced chips, so limiting chips limits how many copies of a model an actor can run, how long models can "think" while answering, and so how much capability they get from inference; or that frontier training still needs the same chips. 50 for "inference still uses chips" with no link to capability or scale.
 
 #### Question: Choice
 id:: 96f2035d-e49f-4259-ad66-c65d7038ce9e
@@ -111,9 +109,9 @@ id:: 66f898c8-95f4-43ac-924e-6e7615ed6092
 content:: Some proposals would build features into AI chips that let a regulator check where a chip is or how it is used (hardware-enabled mechanisms). Which weakness of chip export controls do these mainly address?
 options::
 - [x] Chips being smuggled or diverted to restricted buyers after sale
-- Algorithmic progress pushing capable models below compute thresholds
-- Small models being distilled from the outputs of larger ones
-- Capability gains coming from inference rather than training
+- Restricted countries building their own advanced chipmaking industry
+- Older chips, made before such features existed, staying in circulation
+- Allied governments disagreeing about which countries to restrict
 shuffle:: true
 
 #### Question: Open

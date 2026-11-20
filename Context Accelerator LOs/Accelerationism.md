@@ -37,19 +37,19 @@ id:: c063f20b-7aaa-412c-a156-7221e2ee1585
 content:: How does Vitalik Buterin's "d/acc" (defensive accelerationism) differ from e/acc?
 options::
 - [x] It favours speeding up technologies that make defence and decentralisation easier
-- It calls for slowing most AI work until risks are better understood
+- It favours speeding up AI above all other technologies, since AI can solve the rest
 - It supports faster AI as long as one government controls it
-- It is the same view, renamed for the crypto community
+- It holds that the benefits of AI are mostly exaggerated
 shuffle:: true
 
 #### Question: Choice
 id:: d3230058-cd07-4f26-9ee3-b4a5fbe38f09
-content:: Marc Andreessen's 2023 "Techno-Optimist Manifesto" says that any slowing of AI "will cost lives". Which assumption does this argument most depend on?
+content:: Marc Andreessen's 2023 "Techno-Optimist Manifesto" says that "any deceleration of AI will cost lives". Which assumption does this argument most depend on?
 options::
 - [x] Faster AI brings large benefits sooner without adding enough risk to outweigh them
-- AI systems are becoming conscious and deserve legal protection
-- Rules on AI cannot be enforced across national borders
-- AI will create more jobs than it removes
+- Governments are too slow and poorly informed to write sensible rules for AI
+- Public opinion in most countries strongly supports faster AI development
+- AI will create more new jobs than it removes over the coming decades
 shuffle:: true
 
 #### Question: Choice
@@ -82,21 +82,19 @@ options::
 - AI capabilities cannot be compared across countries
 shuffle:: true
 
-#### Question: Choice
-id:: 361efef4-a4a0-4a3f-b9e1-09375cb986c7
-content:: Is supporting faster AI progress the same as believing advanced AI poses no serious risks?
-options::
-- [x] No; some who favour speed accept the risks but think speed or defence is the better answer
-- Yes; favouring speed requires believing the risks from advanced AI are negligible
+#### Question: Open
+id:: 46215109-34a1-4bc3-a8e3-ca00c043e5f6
+content:: Someone says: "Anyone who wants AI built faster must think the risks are made up." Explain why this is not always true.
+assessment-instructions:: Score out of 100. 100 for saying some who favour speed accept serious risks but think speed is the better response, with a reason, e.g. building defences faster (d/acc), getting there before less careful actors or rival countries, spreading AI widely to avoid concentrated power, or judging the benefits worth the risk. 50 for saying some accept the risks without giving a reason they still favour speed.
 
 #### Question: Choice
-id:: 8bb15e2a-7b23-44c6-9a8e-061343bbd367
-content:: Some people on the pro-acceleration side say it would be acceptable if AI systems eventually replaced humanity. Which value would make this view consistent?
+id:: 98071324-c971-4947-b9da-21cfdcbe13c7
+content:: Some people on the pro-acceleration side say it would be acceptable if AI systems eventually replaced humanity. What does this view show about where some disagreement over AI risk lies?
 options::
-- [x] Caring about the growth of intelligence in general, not humans in particular
-- Caring mainly about the welfare of people alive today
-- Caring about keeping humans in control of technology
-- Caring about protecting the natural world from human industry
+- [x] In values, such as whether a future without humans could still be a good one
+- In forecasts, such as how many years AI will take to reach human-level skill
+- In evidence, such as whether today's AI systems are as capable as claimed
+- In policy, such as whether open-weight models should be legal to release
 shuffle:: true
 
 #### Question: Choice
@@ -104,7 +102,7 @@ id:: 72256f02-5cca-41dd-963a-ad3faf2856ae
 content:: An e/acc supporter and an AI safety researcher both agree that AI could help cure many diseases. Where do they most likely disagree?
 options::
 - [x] How much faster development raises the chance of catastrophe
-- Whether curing diseases would be valuable
+- Whether AI companies should be allowed to profit from new medicines
 - Whether AI systems are getting more capable over time
 - Whether AI is built mainly by private companies
 shuffle:: true
