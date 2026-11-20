@@ -62,13 +62,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 43e6e300-3f0b-4163-a6e3-b8debb71974a
-content:: As of November 2026, how do companies run a popular AI chatbot for their users?
-options::
-- [x] As many copies of the model running at once on many chips
-- As one copy of the model that handles each user in turn
-
-#### Question: Choice
 id:: 002ab6ec-5f9d-4183-a5e5-16cb213abae6
 content:: Which of these could limit how much an AI's speed of thought helps it in the real world?
 options::

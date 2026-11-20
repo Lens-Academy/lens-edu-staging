@@ -77,16 +77,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: bdc9aa0f-9938-4892-8d11-682e7462eb20
-content:: In AI safety, what does "prosaic alignment" refer to?
-options::
-- [x] Aligning AI built with current machine-learning methods, without new fundamental breakthroughs
-- Aligning a model by having it write out its values in plain prose
-- Alignment work that focuses on everyday harms rather than existential risk
-- Aligning AI by proving mathematically that it meets a safety specification
-shuffle:: true
-
-#### Question: Choice
 id:: 29d3e43f-aa98-4e3b-b7c4-02cab5b5e75f
 content:: What limitation do RLHF, RLAIF, constitutional AI and adversarial training share?
 options::

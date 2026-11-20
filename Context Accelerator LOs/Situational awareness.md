@@ -39,13 +39,6 @@ options::
 - [x] No
 
 #### Question: Choice
-id:: f175246f-2c6c-4fa9-96bc-b80de9b39044
-content:: Does situational awareness, as AI safety researchers use the term, include a model knowing facts about how it was trained?
-options::
-- [x] Yes
-- No
-
-#### Question: Choice
 id:: 2aa66a33-8518-40eb-8e20-f5230deab381
 content:: Why does a model's ability to notice that it is being evaluated make safety evaluations less reliable?
 options::
@@ -103,6 +96,9 @@ options::
 - They may make models look more dangerous than they will be in real use
 - They mainly measure how capable a model is, not how it behaves
 - They are reliable as long as the model's reasoning is visible
+shuffle:: true
+
+#### Question: Choice
 id:: 401546b7-5f82-43ab-a0f5-a52530d974e4
 content:: A model's visible reasoning during a safety test never mentions that it might be a test. Why doesn't this settle whether the model noticed?
 options::

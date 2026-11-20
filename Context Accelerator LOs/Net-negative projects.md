@@ -113,13 +113,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: a99b5382-5182-4e78-85d3-c63144fcc3ed
-content:: A project has a 90% chance of a small benefit and a 10% chance of a harm ten times bigger than that benefit. Is its expected value positive or negative?
-options::
-- [x] Negative
-- Positive
-
-#### Question: Choice
 id:: 282b0bb1-fbef-4840-b3d2-9c6729554588
 content:: The claim that "doing nothing can beat doing harm" is often made about AI safety projects. Which of these does it imply?
 options::
@@ -138,7 +131,3 @@ assessment-instructions:: Score out of 100. 100 for any one of: developers use i
 id:: f9fdbdaf-68bd-488f-91e2-5802f352f6d5
 content:: Name two different ways a well-meant AI safety project could end up doing more harm than good.
 assessment-instructions:: Score out of 100. 50 for each distinct way, such as: speeding up AI capabilities; spreading hazardous information; damaging the field's reputation or credibility; fuelling race dynamics or inspiring competitors; taking a niche from a better project; using up funders' money or experts' time; giving false reassurance. Two versions of the same mechanism get 50.
-
-#### Question: FillBlank
-id:: 44141ba0-381e-452a-b69d-c63c147b9928
-content:: When it's unclear whether a project's overall effect on AI risk is good or bad, people say the {{sign}} of its impact is uncertain.

@@ -42,16 +42,6 @@ options::
 - The amount of energy used to train it
 shuffle:: true
 
-#### Question: Choice
-id:: db6e99b8-aabd-4da9-9e2b-1b2c772ac1a6
-content:: A cluster's chips together perform 10²⁰ operations per second. A training run keeps them fully busy for 10⁶ seconds (about 12 days). How much compute does the run use?
-options::
-- [x] 10²⁶ FLOP
-- 10²⁶ FLOP/s
-- 10²⁰ FLOP
-- 10¹⁴ FLOP
-shuffle:: true
-
 #### Question: Open
 id:: e7a66b89-971d-423d-8430-4a584da997b1
 content:: A company announces a new cluster that can perform 10²⁰ operations per second (FLOP/s). Why doesn't this figure alone tell you how much compute its next model will be trained with?
@@ -113,7 +103,6 @@ content:: Some AI rules, including parts of the EU AI Act, add obligations for m
 options::
 - [x] It roughly tracks capability and is known before release
 - It directly measures how dangerous a model's outputs are
-- It is set by an international treaty that most countries signed
 - It shows how many people will end up using the model
 - It sets how much electricity the developer may use
 shuffle:: true
