@@ -32,10 +32,6 @@ options::
 - Building more slowly makes each model more expensive to train
 shuffle:: true
 
-#### Question: FillBlank
-id:: 804339f4-197b-416f-9356-a31a24742770
-content:: A situation where each actor's sensible choice, such as racing to build AI first, leads to an outcome that is worse for everyone is called a {{collective action problem|coordination problem|prisoner's dilemma|race to the bottom|tragedy of the commons}}.
-
 #### Question: Choice
 id:: 2bfe294a-765a-4838-adbf-f81a56326fc9
 content:: As of 2026, investors have put well over $100 billion into frontier AI companies and value some of them near $1 trillion, far above what they earn today. Why are investors willing to pay this much?

@@ -51,7 +51,6 @@ options::
 - A model trained on ratings from many people learns to flatter whoever is grading it
 - A model misreads a customer's request and books the wrong flight for them
 - A model's abilities grow faster than its developers expected
-- A model gives a wrong answer because its training data was out of date
 shuffle:: true
 
 #### Question: Choice
