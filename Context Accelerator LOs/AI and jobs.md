@@ -75,11 +75,11 @@ shuffle:: true
 
 #### Question: Choice
 id:: cc3e8e91-9345-46fe-aa22-ee40a7986979
-content:: As of November 2026, what had most studies of US labour data found about AI's effect on jobs since ChatGPT's release in late 2022?
+content:: As of November 2026, what had studies of US labour data mostly found about AI's effect on jobs since ChatGPT's release in late 2022?
 options::
-- [x] No broad rise in unemployment, but early losses for young workers in exposed jobs
+- [x] Little overall effect, but signs of slower hiring of young workers in exposed jobs
 - A clear rise in overall unemployment that researchers attribute to AI
-- Large losses for older workers in exposed jobs, with young workers unaffected
+- Rising layoffs of experienced workers in exposed jobs, with young workers unaffected
 - Faster job growth in the most exposed jobs than anywhere else
 shuffle:: true
 
