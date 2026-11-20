@@ -16,6 +16,10 @@ Explain why informed people reach very different estimates of AI risk by naming 
 Informed people's estimates of existential risk from AI differ by orders of magnitude. Knowing which few questions drive that spread lets you understand why sensible people disagree, ask questions that could actually change someone's view, and see which new evidence should move your own estimate.
 
 ## Lenses
+- [Why I Am Not (As Much Of) A Doomer (As Some People) (Astral Codex Ten)](https://www.astralcodexten.com/p/why-i-am-not-as-much-of-a-doomer): Scott Alexander sets out the case for optimism and for pessimism, then ends with a list of the cruxes that would move his roughly 33% estimate up or down, including takeoff speed and whether caught misbehaviour would trigger a strong response (March 2023).
+- [Roots of Disagreement on AI Risk (Forecasting Research Institute)](https://forecastingresearch.org/research/roots-of-disagreement-on-ai-risk): concerned experts and skeptical superforecasters spent weeks on the arguments and still ended at about 20% versus 0.12%; the study finds that long-run views on timelines, whether AI develops dangerous goals, how hard killing everyone would be, and how well society responds drive the gap. Read the executive summary (March 2024).
+- [[../video_transcripts/far-ai-the-two-cultures-of-ai-safety-catastrophists-vs-uniformitarians-jesse-hoogland-timaeus|The Two Cultures of AI Safety]]: Jesse Hoogland argues that the basic crux is how discontinuous AI progress will be, why that drives optimism or pessimism, and what recent evidence says on each side. Read the first part, up to "evidence goes both ways".
+- [Where I Agree and Disagree with Eliezer (AI Alignment Forum)](https://www.alignmentforum.org/posts/CoZhXrhpQxpy9xw9y/where-i-agree-and-disagree-with-eliezer): Paul Christiano lists, point by point, where he and Yudkowsky agree and differ: the first critical try, learning from weaker systems, takeoff speed, how hard alignment is (June 2022). (more advanced)
 
 ## Tests
 
@@ -24,9 +28,9 @@ id:: c505a7fb-7df3-4d3e-a8e2-fc48ca5fd4ed
 content:: Two people agree that AI will eventually outperform humans at most tasks, yet one puts existential risk from AI at 2% and the other at 40%. Which disagreement most likely explains the gap?
 options::
 - [x] Whether alignment failures will show up early enough to be fixed
-- Whether advanced AI will be economically valuable to its developers
-- Whether AI progress depends on growth in computing power
-- Whether AI systems are trained on large amounts of data
+- Whether AI will eventually outperform humans at most tasks
+- Whether AI will displace many workers in the coming decade
+- Whether training the most advanced AI will stay very expensive
 shuffle:: true
 
 #### Question: Choice
@@ -34,7 +38,8 @@ id:: 482f5419-0a29-4c7d-8014-7fb95157396a
 content:: Holding their other views fixed, why do shorter AI timelines tend to raise people's estimates of AI risk?
 options::
 - [x] Less time to develop alignment methods and governance before powerful AI arrives
-- Shorter timelines mean AI systems will be trained on less human data
+- AI that arrives sooner would end up more capable than AI that arrives later
+- AI that arrives sooner would be harder to switch off than AI that arrives later
 - Shorter timelines mean powerful AI will be built by governments, not companies
 - Shorter timelines mean frontier models will be released as open source more often
 shuffle:: true
@@ -56,7 +61,7 @@ options::
 - [x] If a system able to escape oversight is misaligned, the mistake can't be undone
 - Frontier models cost so much that labs cannot retrain them once flaws appear
 - Safety tests change a model's weights, so each test can be run once
-- Regulators allow one deployment attempt per frontier model before banning it
+- Only the first lab to build advanced AI will profit, so labs get one chance
 shuffle:: true
 
 #### Question: Choice
@@ -65,7 +70,7 @@ content:: Many people who doubt that AI development can be slowed by agreement p
 options::
 - [x] Each developer fears a less careful rival will overtake it if it slows down
 - Faster development makes models safer, so developers see no reason to slow down
-- Governments cannot detect large training runs, so agreed limits can't be checked
+- Users switch to whichever AI product is cheapest, so prices keep falling
 - Developers expect AI to be harmless, so they see no reason to coordinate
 shuffle:: true
 

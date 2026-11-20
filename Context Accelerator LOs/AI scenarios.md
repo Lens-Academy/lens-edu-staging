@@ -13,9 +13,14 @@ Describe the main storylines of AI 2027 and other AI scenarios such as "What fai
 - [[AI race dynamics]]
 
 ## Why it matters
-Scenarios like AI 2027 shape how the public, journalists and policymakers picture AI risk. If you know what a scenario assumes, and why vivid detail doesn't make it more likely, you can use it to spot key decisions and warning signs instead of treating it as a prediction or dismissing it.
+Scenarios like AI 2027 shape how the public, journalists and policymakers picture AI risk. If you know what a scenario assumes, and why vivid detail doesn't make it more likely, you can use it to spot key decisions and warning signs instead of taking its dates and details on trust or dismissing it.
 
 ## Lenses
+- [[../video_transcripts/aiincontext-were-not-ready-for-superintelligence|We're Not Ready for Superintelligence]]: AI In Context's 34-minute walk through AI 2027: AI automating AI research, China stealing the model weights, the committee's race-or-slow-down vote, both endings (including the power concentrated in a handful of people in the "good" one), and a few critics' objections (July 2025).
+- [[../Lenses/AIF - What Failure Looks Like|What Failure Looks Like]]: Paul Christiano's two quieter failure stories, a slow drift as the world optimises for what it can measure and influence-seeking systems that behave well until they can take control, with gradual change and many AIs across the economy rather than one lab's takeover (2019).
+- [Burdensome Details (LessWrong)](https://www.lesswrong.com/posts/Yq6aA4M3JKWaQepPJ/burdensome-details): Eliezer Yudkowsky's short essay on why every added detail makes a story feel more plausible but less probable, with futurists' scenarios as a main example (September 2007).
+- [AI 2027: Responses (LessWrong)](https://www.lesswrong.com/posts/gyT8sYdXch5RWdpjx/ai-2027-responses): Zvi Mowshowitz's roundup of reactions to AI 2027; read the sections from "Having a Concrete Scenario is Helpful" through "Phillip Tetlock Calibrates His Skepticism", plus "Timothy Lee Remains Skeptical", for what scenarios are good for, the worry that the race story could become self-fulfilling, and the authors' replies (April 2025).
+- [A Deep Critique of AI 2027's Bad Timeline Models (LessWrong)](https://www.lesswrong.com/posts/PAYfmG2aRbdb74mEp/a-deep-critique-of-ai-2027-s-bad-timeline-models): the critique by the physicist titotal of the timelines model behind AI 2027, arguing that its dates rest on weakly supported choices such as a faster-than-exponential trend curve; one side of a live debate, and the authors have replied (June 2025) (more advanced).
 
 ## Tests
 
@@ -25,7 +30,7 @@ content:: In the AI 2027 scenario, what mainly drives the jump from roughly huma
 options::
 - [x] AI systems doing most AI research, speeding up algorithmic progress
 - A single training run using a thousand times more compute
-- A breakthrough in quantum computing that makes training far cheaper
+- Robots building factories that rapidly multiply the supply of chips
 - Governments merging all leading labs into one national project
 shuffle:: true
 
@@ -56,8 +61,8 @@ assessment-instructions:: Score out of 100. 50 points each for any two of: makin
 
 #### Question: Open
 id:: f58884aa-e856-4370-8747-c29316b60fd4
-content:: Name one way the path to catastrophe in Paul Christiano's "What failure looks like" differs from the one in AI 2027.
-assessment-instructions:: Score out of 100. 100 for any one of: it is gradual, with no sudden intelligence explosion; harm comes from many AI systems across the economy rather than one lab's AI; much of the harm comes from AI optimising easy-to-measure goals that drift from what people want; humans lose control slowly without a clear moment of takeover. 50 for "it's less dramatic" with no mechanism.
+content:: Paul Christiano's "What failure looks like" tells two stories of how AI could lead to catastrophe. Name one way they differ from AI 2027's path to catastrophe.
+assessment-instructions:: Score out of 100. 100 for any one of: progress is gradual, with no sudden intelligence explosion; harm comes from many AI systems across the economy, not one lab's AI; in the first story, AI pursuing easy-to-measure goals drifts from what people want, with no takeover moment; in the second, many influence-seeking systems fail or turn together, not one AI's planned takeover. 50 for "less dramatic" with no mechanism.
 
 #### Question: Choice
 id:: 31e13777-cd6e-4448-8ba4-f3bf2ef95ca0
@@ -91,19 +96,22 @@ shuffle:: true
 
 #### Question: Choice
 id:: a5f2594b-4478-4d05-9719-fd20311a00f4
-content:: When AI 2027 was published in April 2025, was 2027 its lead author Daniel Kokotajlo's median year for AI that can do the work of top AI programmers, or was his median somewhat later?
+content:: When AI 2027 was published in April 2025, what was 2027 in its authors' own forecasts for AI that can do the work of top AI programmers?
 options::
-- [x] Somewhat later
-- 2027
+- [x] Their most likely single year, with their medians somewhat later
+- Their median year, with their most likely year somewhat earlier
+- An unlikely worst case they gave less than a 10% chance
+- The latest year by which they were confident it would happen
+shuffle:: true
 
 #### Question: Choice
 id:: 43a47fd2-a8fd-48a3-8fb2-8e10600216a8
 content:: A main criticism of the timelines forecast behind AI 2027 concerned its modelling. What was it?
 options::
-- [x] Its dates rested on assumptions, like faster-than-exponential growth, with weak evidence
-- It ignored compute entirely and relied only on expert surveys
-- It assumed AI progress would stop if chip exports were restricted
-- It used data only from one company's internal benchmarks
+- [x] Its dates hinged on weakly supported assumptions, like faster-than-exponential growth
+- It ignored benchmark trends and relied mainly on surveys of AI researchers
+- It treated progress as steady and ignored AI speeding up AI research
+- It counted progress from more compute but left out better algorithms
 shuffle:: true
 
 #### Question: Choice
@@ -131,8 +139,8 @@ id:: 3ac4b541-8e27-4282-913b-f1399b4db029
 content:: In AI 2027's "slowdown" ending, alignment goes much better. Which serious risk does the story still highlight?
 options::
 - [x] A small group gaining enormous power over the future
-- AI systems running out of useful work to do
-- Superintelligence arriving too late to help with climate change
+- A misaligned copy of the AI escaping and spreading online
+- The economy collapsing as AI automates most jobs
 - China's model overtaking the US model and taking control
 shuffle:: true
 

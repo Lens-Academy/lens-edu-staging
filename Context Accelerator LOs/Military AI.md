@@ -12,20 +12,23 @@ Describe how militaries use AI, from targeting support to autonomous weapons, an
 - [[Sources of AI catastrophe]]
 
 ## Why it matters
-Militaries are major buyers and developers of AI, and national security arguments shape how governments treat AI labs and regulation. If you understand how military AI can speed up escalation and fuel racing, you can judge proposals such as limits on autonomous weapons or keeping humans in charge of nuclear decisions.
+Militaries are buyers and developers of AI, and national security arguments shape how governments treat AI labs and regulation: in 2026 the Pentagon moved to cut off Anthropic after it refused uses including fully autonomous weapons. Understanding how military AI can speed up escalation and fuel racing helps you judge proposals such as keeping humans in charge of nuclear decisions.
 
 ## Lenses
+- [[../Lenses/AI Safety Atlas - Risks - Misuse Risks|Autonomous Weapons Risk]]: How AI weapons are already used in Libya, Ukraine and Gaza, why jamming and speed push toward autonomy, how human control becomes nominal under battlefield pressure, and how arms-race dynamics and interacting systems can escalate a clash; read only the "Autonomous Weapons Risk" section, including the short film Artificial Escalation.
+- [Defense Primer: U.S. Policy on Lethal Autonomous Weapon Systems (Congressional Research Service)](https://www.congress.gov/crs-product/IF11150): The plain facts: what counts as an autonomous weapon, human "in", "on" and "out of" the loop, what DoD Directive 3000.09 requires (and that it doesn't ban such weapons), and the UN CCW talks in Geneva (March 2026).
+- [Paul Scharre on how AI could transform the nature of war (80,000 Hours)](https://80000hours.org/podcast/episodes/paul-scharre-ai-warfare-autonomous-weapons/): A leading military-AI expert on why competition pushes humans out of the loop, "flash wars" with no timeout, AI in nuclear command and control, Petrov, deterrence and the US-China pledge on human control of nuclear decisions; listen or read from "Why would militaries take humans out of the loop?" to the end of "Nuclear stability and deterrence" (00:12:26–00:46:58) (December 2025).
 
 ## Tests
 
 #### Question: Choice
-id:: 7f408f4f-c5e0-4497-b32f-9cf302ae79ab
-content:: Analysts sometimes warn of a "flash war". What does the term describe?
+id:: 146d5a0f-d173-4f8a-8d83-a8e3fe8c4835
+content:: Two rival militaries deploy autonomous drones along a disputed border, each set to return fire instantly if attacked. Some analysts call the danger here a "flash war", by analogy with the 2010 stock-market flash crash. What is the danger?
 options::
-- [x] Opposing sides' automated systems escalating a clash faster than humans can intervene
-- A short war won quickly by the side with better AI
-- A cyberattack that disables an enemy's AI systems within seconds
-- A surprise attack planned by an AI without human approval
+- [x] Each side's systems could react to the other's, escalating a clash before humans step in
+- An enemy could hack one side's drones and turn them against their own forces
+- The drones could develop goals of their own and decide to start a war
+- Sensors could fail in bad weather, leaving the border undefended
 shuffle:: true
 
 #### Question: Choice
@@ -58,6 +61,16 @@ options::
 shuffle:: true
 
 #### Question: Choice
+id:: cbbfded3-5085-49e2-b3a0-e718f2f7b003
+content:: Talks on lethal autonomous weapons under the UN Convention on Certain Conventional Weapons have run for more than a decade without producing a treaty. Which feature of the forum is most often blamed?
+options::
+- [x] Decisions need consensus, so any single state can block progress
+- Only the five permanent Security Council members can vote
+- It can only restrict weapons that have already been used in war
+- Non-governmental experts are barred from its meetings
+shuffle:: true
+
+#### Question: Choice
 id:: 52b6094f-1969-435c-b3f3-7609129984b5
 content:: In the war in Ukraine, why has electronic jamming pushed drone makers to add onboard autonomy, such as automatic final targeting?
 options::
@@ -79,20 +92,23 @@ shuffle:: true
 
 #### Question: Choice
 id:: f0273f41-7a3a-4d0b-9558-a1feddd9bdd1
-content:: In November 2024, the US and Chinese leaders made a joint statement about AI and nuclear weapons. What did they affirm?
+content:: When the US and Chinese leaders met in November 2024, they agreed on a principle about AI and nuclear weapons. What did they affirm?
 options::
 - [x] Humans should keep control over decisions to use nuclear weapons
-- Both countries would pause military AI research for five years
-- AI would be banned from nuclear early-warning systems
-- Both countries would open their military AI models to inspection
+- AI would be kept out of all nuclear early-warning and command systems
+- Each would notify the other before deploying new military AI systems
+- Both would stop developing lethal autonomous weapons
 shuffle:: true
 
 #### Question: Choice
-id:: ed3a3eef-81df-4f5e-835f-32c2e83c887f
-content:: Once launched, a loitering munition searches an area and attacks the first enemy radar it detects, with no further human input. Is it an autonomous weapon?
+id:: 02b76a6b-79c8-43b4-a409-9c47eddb395d
+content:: Some anti-radar loitering munitions, once launched, search an area and attack the first enemy radar they detect, with no further human input. Which statement about weapons like this is true?
 options::
-- [x] Yes
-- No
+- [x] They have been in military service for decades
+- They exist only as prototypes and have never been deployed
+- They are banned under the Convention on Certain Conventional Weapons
+- Only the US and China are known to have deployed them
+shuffle:: true
 
 #### Question: Choice
 id:: e8fea697-aa32-45ef-a842-e03216e63ad3

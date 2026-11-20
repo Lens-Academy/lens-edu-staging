@@ -15,6 +15,11 @@ Describe how AI companies and their investors try to influence AI policy, throug
 Industry money and expertise shape which AI rules get written, weakened or blocked. Knowing who pushes for what helps you judge which policy proposals are realistic, read company statements on regulation critically, and see where company interests line up with safety and where they don't.
 
 ## Lenses
+- [The 2026 Midterms Could Decide AI's Future, and Silicon Valley Knows It (Built In)](https://builtin.com/artificial-intelligence/ai-super-pacs-2026-midterm-election-regulation): Overview of how the AI industry spends on politics: the Leading the Future super PAC network (a16z, Greg Brockman) and its push for one federal law over state laws, the Anthropic-backed Public First as a counterweight, Meta's state-level PACs, and federal lobbying totals by company (updated June 2026).
+- [OpenAI, Google, Anthropic and Microsoft's AI Action Plan proposals (Fortune)](https://fortune.com/2025/03/17/us-ai-action-plan-proposals-openai-anthropic-google-microsoft/): What each lab asked the White House for, including federal preemption, copyright, energy and chip export controls, and where they split, e.g. Anthropic wanting tighter chip controls while Google opposed the diffusion rule (March 2025).
+- [Exclusive: OpenAI Lobbied the E.U. to Water Down AI Regulation (TIME)](https://time.com/6288245/openai-eu-lobbying-ai-act/): While Sam Altman publicly called for AI regulation and a US licensing agency, OpenAI privately pushed to keep its models out of the EU AI Act's "high risk" category, and largely got its way (June 2023).
+- [SB 1047 (Wikipedia)](https://en.wikipedia.org/wiki/Safe_and_Secure_Innovation_for_Frontier_Artificial_Intelligence_Models_Act): The facts on California's 2024 frontier-AI bill. Read the sections on positions and the veto: who backed it, who opposed it (OpenAI, Meta, a16z, Y Combinator, tech trade groups), Anthropic's support with conditions, and Newsom's veto (2024).
+- [Trojan horses: how European startups teamed up with Big Tech to gut the AI Act (Corporate Europe Observatory)](https://corporateeurope.org/en/2024/03/trojan-horses-how-european-startups-teamed-big-tech-gut-ai-act): A lobby watchdog's account of how Mistral and Aleph Alpha, with backing from France and Germany, weakened the AI Act's rules on foundation models in the name of European competitiveness (March 2024).
 
 ## Tests
 
@@ -29,13 +34,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 48a53b2d-5680-4018-9e41-3ae7235e6a20
-content:: Many AI companies and investors lobby for federal "preemption" of state AI laws in the US. What does preemption mean here?
+id:: 7651f569-ea37-49aa-b8e5-156e0939226e
+content:: Many AI companies and investors lobby for federal "preemption" of US state AI laws, meaning one national rule would override state rules. What is the main worry critics raise?
 options::
-- [x] A federal law or rule overriding state AI laws
-- States enforcing federal AI rules on their behalf
-- Federal agencies approving AI models before release
-- Companies being exempt from a law while courts review it
+- [x] State AI safety laws could be blocked with no federal rules to replace them
+- Federal rules would be far stricter than any state's rules
+- States would have to pay to enforce the federal rules
+- Courts would lose the power to review any AI law
 shuffle:: true
 
 #### Question: Choice
@@ -46,6 +51,16 @@ options::
 - Electing candidates who support a pause on frontier AI
 - Funding campaigns for a federal AI licensing agency
 - Supporting candidates who want tighter chip export controls
+shuffle:: true
+
+#### Question: Choice
+id:: 6996075d-1c40-4e77-90ed-ef27a030155f
+content:: In the 2026 US elections, how did AI-industry election spending line up?
+options::
+- [x] Some industry backers funded groups opposing AI regulation; Anthropic funded a group backing safeguards
+- Nearly all AI companies jointly funded candidates who support strict AI safety laws
+- AI companies agreed not to spend on elections until federal rules were passed
+- Only chipmakers spent on elections; AI developers stayed out of campaigns
 shuffle:: true
 
 #### Question: Choice
@@ -74,8 +89,8 @@ content:: In late 2023, France and Germany, backed by their domestic AI startups
 options::
 - [x] Strict rules would hold back European AI firms against US rivals
 - Foundation models were already covered by the GDPR
-- Rules on foundation models should be set by the UN instead
-- The EU should wait until the US passed its own AI law
+- Each member state should set its own rules for foundation models
+- Binding rules should wait for an international AI treaty
 shuffle:: true
 
 #### Question: Choice

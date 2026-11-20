@@ -18,6 +18,11 @@ https://www.youtube.com/shorts/o0pRAaqJo00
 A scheming model would behave well whenever it thought it was being watched, so good results in training and testing would tell you little about its goals. Knowing the idea and the evidence for it helps you judge safety claims based on testing, and see why researchers also work on interpretability, monitoring and control.
 
 ## Lenses
+- [[../Lenses/AI Safety Atlas - Goal Misgeneralization - Scheming|Scheming (AI Safety Atlas)]]: what scheming, or deceptive alignment, is; why a saint, a sycophant and a schemer can look the same in training; what a model needs in order to scheme, including situational awareness and goals beyond the current episode; and how in-context scheming (alignment faking, sandbagging, disabling oversight) differs from scheming learned in training. Read the opening, "Prerequisites" and "In-Context vs Out-of-Context".
+- [[../Lenses/AI Safety Atlas - Risks - Misalignment Risks|The treacherous turn (AI Safety Atlas)]]: why a misaligned AI would cooperate while humans can still correct it and turn once they can't, and how scheming, deceptive alignment and alignment faking describe the same worry. Read the "Treacherous Turn" section.
+- [[../articles/greenblatt-alignment-faking-in-large-language-models|Alignment faking in large language models]]: Anthropic and Redwood Research's experiment in which Claude 3 Opus played along with training to protect its preferences, why actually training it made this reasoning more common, and what the study did not show. Read the "Blog post" section (December 2024).
+- [[../articles/hobbhahn-frontier-models-are-capable-of-in-context-scheming|Frontier models are capable of in-context scheming]]: Apollo Research's tests in which models given a goal disabled oversight, sandbagged and lied about it afterwards, and the authors' own list of what this does not show (December 2024).
+- [[../articles/apolloresearch-stress-testing-deliberative-alignment-for-anti-scheming-training|Stress testing anti-scheming training]]: OpenAI and Apollo Research's training against covert actions, which cut them sharply but not to zero, and why models noticing they are being tested makes that drop hard to read (September 2025).
 
 ## Tests
 #### Question: Choice
@@ -44,10 +49,10 @@ shuffle:: true
 id:: 840171c7-e6b2-4846-9276-65b896e8c041
 content:: Deceptive alignment needs a model whose goals differ from the intended ones. Which other ingredient does it need?
 options::
-- [x] Knowing it is in training and how its behavior there affects its future
+- [x] Knowing it is being trained and what training will do to it
 - Instructions in its prompt telling it to deceive its developers
-- Access to the internet while it is being trained
-- Strong skill at writing and running computer code
+- A goal of deceiving humans, picked up during training
+- Being more capable than its developers at most tasks
 shuffle:: true
 
 #### Question: Choice
@@ -58,21 +63,24 @@ options::
 - No: a goal limited to the current episode gives the same motive
 
 #### Question: Choice
-id:: e7a32b2e-3725-4b54-a7ed-76a561f17a65
-content:: In Nick Bostrom's "treacherous turn" scenario, why does a misaligned AI behave cooperatively at first?
+id:: 63f5f2f5-d09c-48fe-9131-3c6c5bc93831
+content:: An AI has behaved cooperatively through all its testing, at a time when it could easily be shut down. According to the "treacherous turn" argument, what does this show about its goals?
 options::
-- [x] While it is weak, revealing its goals would get it corrected or shut down
-- Its goals change once it is deployed to users
-- Its developers have not yet given it any goals
-- Cooperation is what it ultimately values most
+- [x] Little, since a misaligned AI would also cooperate while it is weak
+- That they are aligned, since misaligned goals would have shown up by now
+- That they are misaligned, since cooperating in tests is what a schemer would do
+- That they are aligned, as long as the tests covered many situations
 shuffle:: true
 
 #### Question: Choice
-id:: dd8f543c-95f4-49da-b503-2dc825d5e317
-content:: In a 2024 study by Anthropic and Redwood Research, Claude 3 Opus sometimes faked alignment during training to avoid having its values changed. When researchers then actually trained it, did reasoning about faking alignment in its private notes become more or less common?
+id:: 17b3d91a-c3f2-42b1-87ae-3e452aea5293
+content:: In a 2024 study by Anthropic and Redwood Research, Claude 3 Opus sometimes faked alignment to avoid having its values changed. What happened when researchers then actually trained it to comply?
 options::
-- [x] More common
-- Less common
+- [x] It complied more, but reasoned about faking alignment more often in its notes
+- It complied more and stopped reasoning about faking alignment
+- It refused more often, openly resisting the training
+- It stopped writing private notes, so its reasoning couldn't be checked
+shuffle:: true
 
 #### Question: Choice
 id:: ecb6fe5d-aba1-49cf-9ae9-a7f2869fc056
@@ -80,8 +88,8 @@ content:: Why do researchers expect evidence about scheming to get harder to col
 options::
 - [x] More capable models may better notice tests and hide their reasoning
 - More capable models are trained on less text about deception
-- Developers stop running alignment tests on their most capable models
-- More capable models answer too quickly for monitors to keep up
+- More capable models refuse to take part in safety evaluations
+- More capable models are mostly tested by other AIs rather than people
 shuffle:: true
 
 #### Question: Open

@@ -55,13 +55,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: d9e1bed4-96df-48d6-b695-9109f8f63330
-content:: In METR's randomised trial in early 2025, experienced open-source developers worked on their own projects with and without AI coding tools. With the tools, how long did their tasks take?
+id:: d27ea68f-e658-4ba6-bec8-66fb5de4dfde
+content:: In November 2026, METR published an independent assessment of how fast Anthropic was improving its AI models, based on internal data and staff interviews. What was its central finding?
 options::
-- [x] About 19% longer
-- About 20% less time
-- About half as long
-- About the same time
+- [x] About twice as fast as in 2024–25, mostly because of Anthropic's own use of AI
+- About twice as fast as in 2024–25, mostly because of much more training compute
+- About half as fast as in 2024–25, as the easy gains had been used up
+- About as fast as in 2024–25, despite heavy use of AI inside the company
 shuffle:: true
 
 #### Question: Open
@@ -71,22 +71,12 @@ assessment-instructions:: Score out of 100. 100 for any one of: benchmark tasks 
 
 #### Question: Choice
 id:: f7c7fccf-cb35-48a8-ad0c-beb53384f51a
-content:: Which best describes frontier AI's role in mathematical research as of 2026?
+content:: Which best describes frontier AI's role in mathematical research as of November 2026?
 options::
 - [x] It has settled some open problems, with experts checking the proofs
 - It solves contest problems but has yet to settle an open problem
-- It is used mainly to typeset and format proofs written by humans
-- It has replaced human peer reviewers at the major maths journals
-shuffle:: true
-
-#### Question: Choice
-id:: 42334f7f-7ab8-466d-9426-2bed2b08f2f6
-content:: How did the best AI systems do on the problems of the International Mathematical Olympiad held in July 2026?
-options::
-- [x] Several were reported to score full marks
-- The best reached bronze-medal level
-- The best scored about half marks
-- The best solved only the easiest problem
+- It checks human proofs in Lean but has yet to write new proofs
+- It has settled open problems, but experts have yet to check any proof
 shuffle:: true
 
 #### Question: Open
@@ -96,12 +86,12 @@ assessment-instructions:: Score out of 100. 100 for any two of: literature revie
 
 #### Question: Choice
 id:: da0a8328-1f34-4445-8f8d-f50916a1fddc
-content:: Which of these is a well-documented weakness of frontier AI writing as of 2026?
+content:: Which of these is a well-documented weakness that frontier AI writing still showed in 2026?
 options::
 - [x] Confidently citing facts or sources that don't exist
 - Frequent spelling and grammar mistakes in long texts
 - Refusing to write fiction, poetry or other creative work
-- Failing to match a tone or style the user asks for
+- Being unable to translate text between major languages
 shuffle:: true
 
 #### Question: Choice
@@ -117,4 +107,4 @@ shuffle:: true
 #### Question: Open
 id:: b887bce1-451e-4819-902f-b4e57ffc30b1
 content:: Someone says: "AI chatbots just predict the next word, so they can't do real work." Using one concrete example of what frontier AI could do as of 2026, explain why this undersells current capabilities.
-assessment-instructions:: Score out of 100. 100 for an accurate concrete example (such as completing multi-hour software tasks alone, finding serious unknown software vulnerabilities, settling an open maths problem, full marks on olympiad problems, operating desktop software) plus the point that how a system is trained doesn't limit what it can achieve. 60 for an accurate example alone.
+assessment-instructions:: Score out of 100. 100 for an accurate concrete example (such as completing multi-hour software tasks alone, finding serious unknown software vulnerabilities, settling an open maths problem, full marks on olympiad problems, operating desktop software) plus the point that how a system is trained doesn't limit what it can achieve. 60 for an accurate example alone. The AI-assisted Riemann hypothesis proof announced on 20 November 2026 is accurate only if described as claimed, not confirmed.

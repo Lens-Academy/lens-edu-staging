@@ -14,6 +14,10 @@ Explain the difference between scout and soldier mindset, and spot motivated rea
 Views on AI risk are bound up with people's identities, employers and funding, so motivated reasoning shows up among safety researchers, AI developers and skeptics alike. If you can spot it in examples and in your own thinking, you can weigh arguments on their merits instead of by which side they help.
 
 ## Lenses
+- [Why you think you're right, even if you're wrong (TED)](https://www.ted.com/talks/julia_galef_why_you_think_you_re_right_even_if_you_re_wrong): Julia Galef uses the Dreyfus affair to contrast soldier mindset (defending what you already believe) with scout mindset (wanting to see what's really there), and argues that scout mindset rests on curiosity and a sense of self-worth that doesn't depend on being right, not on intelligence (11-minute talk, 2016).
+- [Book Review: The Scout Mindset (Astral Codex Ten)](https://www.astralcodexten.com/p/book-review-the-scout-mindset): Scott Alexander on Galef's book; section III gives her thought-experiment tests for catching your own bias (imagine the same evidence favouring the other side; imagine your group believed the opposite), and section IV covers changing your mind when your identity is at stake (September 2021).
+- [[../Lenses/HftS - The Bottom Line|The Bottom Line]]: Yudkowsky's clever arguer, who writes the conclusion first and gathers the reasons afterwards, and why such a conclusion tells you only who paid for it.
+- [Keep Your Identity Small (Paul Graham)](https://www.paulgraham.com/identity.html): why people can't think clearly about questions that have become part of their identity, and why you should let as few labels as possible into yours (February 2009).
 
 ## Tests
 
@@ -22,9 +26,9 @@ id:: 05708086-246c-4fc9-a5ba-f67a13d59c76
 content:: In Julia Galef's framing, what distinguishes soldier mindset from scout mindset?
 options::
 - [x] Reasoning to defend a belief rather than to find out what's true
-- Reasoning driven by emotion rather than by careful logic
+- Relying on gut feeling rather than on explicit arguments
 - Holding strong opinions rather than staying uncertain
-- Arguing to persuade others rather than thinking things through alone
+- Knowing less about the topic rather than more
 shuffle:: true
 
 #### Question: Choice
@@ -59,7 +63,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: 56c4e997-253a-4c12-93b5-56d78ac8bea9
-content:: Maya is convinced AI risk is serious and has made reducing it her career. When shown strong evidence that one of her favourite arguments is flawed, she stops using it. In Julia Galef's framing, is she showing scout mindset?
+content:: Maya is convinced AI risk is serious and has made reducing it her career. When shown strong evidence that one of her favourite arguments is flawed, she accepts that it is flawed and stops using it, while keeping her overall view because her other reasons still hold. In Julia Galef's framing, is she showing scout mindset?
 options::
 - [x] Yes
 - No
@@ -78,7 +82,7 @@ options::
 - [x] Feeling good about yourself and fitting in with your group
 - Making more accurate predictions about the future
 - Learning faster from your past mistakes
-- Spotting weak arguments in other people's reasoning
+- Noticing sooner when your own plans are going wrong
 shuffle:: true
 
 #### Question: Choice
@@ -93,12 +97,12 @@ shuffle:: true
 
 #### Question: Choice
 id:: 5a15bfd8-f04b-4b66-b56b-70f587b10054
-content:: Which of these is the strongest sign that someone's mistakes come from motivated reasoning rather than honest error?
+content:: Which of these best suggests that someone's mistakes on a question come from motivated reasoning rather than honest error?
 options::
-- [x] Their mistakes tend to favour the conclusion they wanted
-- Their mistakes were on hard technical questions
+- [x] Their mistakes keep leaning toward the conclusion they wanted
+- They hold a strong view on the question
 - They were very confident before being corrected
-- They made their mistakes under time pressure
+- They made several mistakes on the same question
 shuffle:: true
 
 #### Question: Open

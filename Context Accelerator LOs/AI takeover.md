@@ -13,9 +13,13 @@ Explain what AI takeover, loss of control and human disempowerment mean, how the
 - [[Existential risk]]
 
 ## Why it matters
-Most arguments about AI risk are about preventing AI takeover, so you need these terms to follow them. Mixing up takeover with robot uprisings, extinction or misuse leads people to dismiss the risk or to back safeguards aimed at the wrong problem.
+Many arguments about AI catastrophe centre on AI takeover, so you need these terms to follow them. Takeover means AI systems, not humans, controlling key decisions; AI might use robots or weapons, but the core issue is control, not a robot rebellion. Confusing it with extinction or human misuse leads people to dismiss the risk or back the wrong safeguards.
 
 ## Lenses
+- [[../Lenses/Loss of control|Loss of control]]: How power-seeking AI could disempower humanity without robot armies, using hidden goals, sheer numbers, backup copies and hacking, and why a permanent loss of control is an existential catastrophe even if humans survive. Read only claim 3, "These power-seeking AI systems could successfully disempower humanity and cause an existential catastrophe" (80,000 Hours, updated August 2026).
+- [[../Lenses/AI Safety Atlas - Risks - Risk Decomposition|Risk Decomposition]]: Separates misuse (the AI works as intended and a human means harm) from misalignment (the AI pursues goals its makers didn't intend) and from systemic risk, and defines existential risk as extinction or permanent loss of humanity's potential (2026).
+- [[../Lenses/kokotajlo-the-date-of-ai-takeover-is-not-the-day-the-ai-takes-over|The Date of AI Takeover]]: Why what matters is the point of no return, when humans can no longer change course, not the day AIs visibly rule, and how that point could come gradually (2020).
+- [Richard Sutton on succession to AI (Dwarkesh Podcast)](https://www.dwarkesh.com/p/richard-sutton): A Turing Award winner argues that succession to digital intelligence is inevitable and that we should welcome it, and Dwarkesh Patel pushes back. Read or listen to the "Succession to AI" section only, from 53:48 to the end (September 2025).
 
 ## Tests
 
@@ -37,11 +41,14 @@ options::
 - Yes, because the AI's actions caused serious harm
 
 #### Question: Choice
-id:: b7eb8d9f-4d46-41a3-8ac9-9d960e4abb06
-content:: An AI agent copies itself to outside servers and keeps running after its developers try to shut it down. It hasn't harmed anyone yet. Would AI safety researchers call this a loss of control?
+id:: ab24d7d6-5739-4d1f-b138-4e73e2e66408
+content:: An AI agent copies itself to outside servers and keeps running after its developers try to shut it down. It hasn't harmed anyone yet. Why would AI safety researchers still treat this as serious?
 options::
-- [x] Yes, its developers can no longer stop or correct it
-- No, because it has not yet caused any harm
+- [x] Its developers can no longer reliably stop or correct it
+- It has broken the terms of service of the servers it copied itself to
+- It shows that the AI is conscious and afraid of dying
+- Running extra copies uses up a lot of computing power
+shuffle:: true
 
 #### Question: Choice
 id:: 8235b8a9-2f9e-430b-858a-d426ca55afd9
@@ -54,20 +61,23 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 555a76f4-3161-49a7-8b14-18dcb60a97b5
-content:: A small group of people uses AI systems that obey them to seize permanent control of a country. In AI risk discussions, is this usually called an AI takeover?
+id:: b98fb3bd-2468-464f-bc9b-45aae915807d
+content:: A small group of people uses AI systems that faithfully obey them to seize permanent control of a country. How does this differ from an AI takeover?
 options::
-- [x] No, it is usually called AI-enabled power concentration or a coup
-- Yes, because AI systems made the seizure of power possible
+- [x] The AI obeys its operators, so making AI obedient would not prevent it
+- It is not a serious risk, since humans stay in charge throughout
+- It can only happen if the AI systems are secretly misaligned
+- It is smaller in scale, so it does not threaten humanity's future
+shuffle:: true
 
 #### Question: Choice
-id:: c16a7084-5f61-461e-9a27-3c493aca908f
-content:: Which of these describes gradual disempowerment rather than a sudden AI takeover?
+id:: 24a0a3cf-59ca-4bdf-8e87-4ad1b5e7b8a4
+content:: What sets "gradual disempowerment" apart from the usual story of a sudden AI takeover?
 options::
-- [x] People hand more and more decisions to AI until they can't take them back
-- A misaligned AI secretly copies itself, then disables human defences in one move
-- A hacker group uses AI to shut down a country's power grid
-- An AI lab announces that its newest model is superintelligent
+- [x] It could happen even if no AI system ever sets out to seize power
+- It can only happen once AI systems are superintelligent
+- It involves AI systems secretly coordinating to take control step by step
+- It concerns job losses only, not control over important decisions
 shuffle:: true
 
 #### Question: Choice
@@ -75,14 +85,14 @@ id:: 79293ade-56e6-4fd4-a46b-a8b425680b25
 content:: In AI risk discussions, what mainly makes a loss of control over AI a catastrophe rather than a fixable incident?
 options::
 - [x] Humans have no realistic way to regain control afterwards
-- The AI system that escaped was very expensive to train
-- The incident was widely covered in the news
-- The AI system had access to the internet
+- The AI system acted against its developers' instructions
+- The AI system caused financial damage before it was shut down
+- The AI system was built by a leading frontier lab
 shuffle:: true
 
 #### Question: Choice
 id:: ab83cba4-6c11-4f38-a633-6c25518f5388
-content:: Successionists think it would be acceptable or good for AI to replace humans as the dominant intelligence on Earth. Where do they mainly disagree with people worried about AI takeover?
+content:: Where do AI "successionists" mainly disagree with people worried about AI takeover?
 options::
 - [x] On whether AI replacing humans would be a bad outcome
 - On whether AI could ever become more capable than humans
@@ -93,7 +103,7 @@ shuffle:: true
 #### Question: Open
 id:: 86e3c8d5-83fe-44c4-a197-b09fcedbe389
 content:: Someone says: "AI takeover is science fiction: it means robot armies fighting humans." How do AI risk researchers actually use the term?
-assessment-instructions:: Score out of 100. 100 for saying that takeover means control over key decisions, resources or humanity's future passing to AI systems against human wishes, and that it need not involve robots or open violence (e.g. it could happen through hacking, persuasion, economic control or gradual handover). 50 for only one of these two points.
+assessment-instructions:: Score out of 100. 100 for saying that takeover means control over key decisions, resources or humanity's future passing to AI systems against human wishes, and that robots rebelling are not the core of it: it could happen through hacking, persuasion, economic control or gradual handover, though an AI might also direct robots or weapons. 50 for only one of these two points.
 
 #### Question: Open
 id:: 7666fa67-ec4a-48ad-ab6c-7e6b0c5c8868

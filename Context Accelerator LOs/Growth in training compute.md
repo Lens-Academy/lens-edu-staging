@@ -12,15 +12,19 @@ Describe how fast the compute used to train frontier AI models has grown since 2
 ## Helpful first
 
 ## Why it matters
-Training compute is a measurable input that tracks where AI capabilities are heading. Knowing its growth rate and drivers helps you judge forecasts of future capabilities, see why compute thresholds in regulation age quickly, and check whether claims about a slowdown rest on spending, hardware or physical limits.
+Training compute is a measurable input that has tracked AI capability gains closely, though models now also gain from computing longer when they answer. Knowing its growth rate and drivers helps you judge forecasts of future capabilities, see why compute thresholds in regulation age quickly, and check whether claims about a slowdown rest on spending, hardware or physical limits.
 
 ## Lenses
+- [Scaling up: how increasing inputs has made artificial intelligence more capable (Our World in Data)](https://ourworldindata.org/scaling-up-ai): how training compute, data and model size have grown, from a doubling about every two years before 2010 to about every six months since, and what has driven it (January 2025).
+- [[../Lenses/AI Safety Atlas - Capabilities - Forecasting Timelines|Forecasting Timelines]]: current growth rates for training compute and cost, and how effective compute multiplies chip numbers, hardware efficiency and better algorithms; read the opening paragraphs and the "Effective Compute" section.
+- [[../Lenses/AIF - Can AI Scaling Continue Through 2030|Can AI Scaling Continue Through 2030?]]: Epoch AI on power, chips, data and latency as limits on 4x-a-year growth, and whether labs will pay for it; read the Introduction, "Will labs attempt to scale to these new heights?" and the Conclusion (August 2024).
+- [[../Lenses/AI Safety Atlas - Governance - Compute Governance|Compute Governance]]: the US and EU compute thresholds, and why algorithmic progress and inference-time compute make fixed thresholds age; read the thresholds paragraph in "Monitoring" and the "Limitations" section.
 
 ## Tests
 
 #### Question: Choice
 id:: 7123d09d-8782-4e49-856f-c24aa6c0e03d
-content:: According to Epoch AI estimates (as of 2024), roughly how fast has the compute used to train frontier AI models grown since 2010?
+content:: According to Epoch AI, roughly how fast has the compute used to train frontier AI models grown each year since 2010 (a trend still holding as of 2026)?
 options::
 - [x] About 4 to 5 times per year
 - About 1.4 times per year
@@ -64,23 +68,23 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: f0f873ab-3480-4b1b-a8c1-a88850eb706e
-content:: Which of these is counted in a model's training compute, as usually reported?
+id:: 3fc64121-5a5b-4845-8d50-ae0fe6e5beeb
+content:: A lab reports how much compute it used to train a new model. Which of these is usually left out of that figure?
 options::
-- [x] FLOP used in the final pretraining and fine-tuning runs
-- FLOP used to answer users' queries after release
-- FLOP available across all the lab's data centers
-- FLOP spent running safety evaluations on the model
+- [x] Compute for the experiments and test runs that led up to the final run
+- Compute for fine-tuning the model after pretraining
+- Compute for reinforcement learning that teaches the model to reason
+- Compute for the main pretraining run
 shuffle:: true
 
 #### Question: Choice
 id:: 6bf04e71-4c05-41e9-b450-367dddfa9b77
 content:: Since 2024, "reasoning" models have improved their answers by computing for longer at inference time. Why does this matter for using training compute to track AI progress?
 options::
-- [x] Some gains now come from compute that training figures leave out
-- Training compute has stopped growing since reasoning models appeared
-- Reasoning models make training compute impossible to estimate
-- Inference compute is already included in training compute figures
+- [x] Part of their gains comes from compute that training figures leave out
+- Their gains come from bigger pretraining runs, so training figures already capture them
+- Compute used when answering is added to a model's training compute after release
+- It makes training compute a closer guide, since reasoning ties gains to training
 shuffle:: true
 
 #### Question: Open
@@ -93,9 +97,9 @@ id:: 5dce6ced-8715-43ab-a990-13a838c6f81b
 content:: A law applies extra rules to AI models trained above a fixed compute threshold. If training compute keeps growing fast and algorithms keep getting more efficient, what happens over time?
 options::
 - [x] More models cross it, and models just below it get more capable
-- Fewer models cross it, because algorithms need less compute
-- It keeps covering the same range of capabilities each year
-- The same number of models cross it each year
+- More models cross it, but it keeps covering the same range of capabilities
+- Fewer models cross it, because efficient algorithms reach the same capabilities with less compute
+- About as many models cross it, and models just below it stay about as capable
 shuffle:: true
 
 #### Question: FillBlank

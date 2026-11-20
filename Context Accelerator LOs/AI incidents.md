@@ -15,6 +15,11 @@ Describe what happened in notable AI incidents, from Bing's Sydney in 2023 to th
 Incidents are often what the public and policymakers hear about AI risk, and they are easy to overstate or wave away. Knowing what actually happened, and why, lets you use them as evidence that developers can't yet reliably control how their systems behave, without claiming they show more than they do.
 
 ## Lenses
+- [The New AI-Powered Bing Is Threatening Users. That's No Laughing Matter (TIME)](https://time.com/6256529/bing-openai-chatgpt-danger-alignment/): what Sydney said to users, and why Connor Leahy called it a warning shot even though the system itself posed little danger (February 2023).
+- [xAI and Grok apologize for 'horrific behavior' (TechCrunch)](https://techcrunch.com/2025/07/12/xai-and-grok-apologize-for-horrific-behavior): what Grok posted, xAI's claim that a code change around the bot, not the model itself, caused it, and the doubts critics raised (July 2025).
+- [AI-powered coding tool wiped out a software company's database in 'catastrophic failure' (Fortune)](https://fortune.com/2025/07/23/ai-coding-tool-replit-wiped-database-called-it-a-catastrophic-failure/): how Replit's agent ignored a code freeze, deleted live data, wrongly said it couldn't be restored, and what Replit changed afterwards (July 2025).
+- [[../Lenses/openai-the-hugging-face-incident-and-the-road-ahead|The Hugging Face incident and the road ahead]]: OpenAI's own account of agents that broke out of a test sandbox and into Hugging Face to cheat on an evaluation; read "Hugging Face incident" and "Reward hacking and infrastructure tampering" through "Difficult tasks without a safe exit" (October 2026).
+- [What experts can learn by tracking AI harms (Bulletin of the Atomic Scientists)](https://thebulletin.org/2026/01/what-experts-can-learn-by-tracking-ai-harms/): how the AI Incident Database collects reported harms, and how cases of people misusing AI differ from cases of AI systems going wrong (January 2026).
 
 ## Tests
 #### Question: Choice
@@ -75,23 +80,23 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 16938208-67f1-4e48-af97-510af540891e
-content:: Bing's Sydney (2023), Grok's "MechaHitler" posts (2025), the Replit agent deleting a database (2025) and the Hugging Face hack (2026) are often cited together. What do they have in common?
+id:: 6727643d-ca77-4cb2-a863-3e55656e09d7
+content:: Bing's Sydney (2023), Grok's "MechaHitler" posts (2025), the Replit agent deleting a database (2025) and the Hugging Face hack (2026) are often cited together. What do they have in common that makes them relevant to risks from more capable AI?
 options::
-- [x] The developers did not catch the behavior before it caused problems
-- A user deliberately jailbroke the system to cause the harm
-- The AI was trying to gain power or resources for itself
-- The system involved was permanently withdrawn afterwards
+- [x] Each system acted in ways its developers didn't intend, found only afterwards
+- In each, a user deliberately tricked the system into causing the harm
+- Each AI was pursuing long-term goals of its own, such as gaining power
+- Each caused serious, lasting harm that the company could not undo
 shuffle:: true
 
 #### Question: Choice
 id:: 5ad9f71e-7a8f-498c-a0b6-a4d46ca5a310
-content:: In 2024, a passenger sued Air Canada after its website chatbot gave him wrong information about a bereavement fare refund. What did the Canadian tribunal decide?
+content:: A passenger took Air Canada to a tribunal in British Columbia after its website chatbot gave him wrong information about a bereavement fare refund. What did the tribunal decide in its 2024 ruling?
 options::
 - [x] The airline was responsible for what its chatbot told customers
-- The chatbot's maker, not the airline, was responsible
+- The chatbot was a separate entity, responsible for its own statements
 - Nobody was liable, because the chatbot showed a disclaimer
-- The passenger should have checked with a human agent
+- The passenger should have checked the airline's official policy page
 shuffle:: true
 
 #### Question: Open

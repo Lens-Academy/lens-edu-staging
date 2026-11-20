@@ -16,6 +16,10 @@ Explain how developers can shape a model's values and knowledge during pretraini
 A model learns much of its character from its pretraining data, including what that text says about AI itself. Knowing this approach lets you judge claims that online discussion of AI risk could make AI riskier, and see why removing dangerous knowledge before training can hold up better than teaching a model to refuse.
 
 ## Lenses
+- [[../articles/cam-alignment-pretraining-ai-discourse-causes-self-fulfilling-mis-alignment|Alignment Pretraining: Self-Fulfilling (Mis)alignment]]: The first controlled test of whether text about AI shapes a model's behaviour. 6.9B models pretrained with extra stories of good AI became far less misaligned, and the effect shrank but survived post-training. Skip the "Tampering" section, whose result the authors later withdrew (December 2025).
+- [[../Lenses/anthropic-enhancing-model-safety-through-pretraining-data-filtering|Pretraining Data Filtering]]: Anthropic removes chemical, biological, radiological and nuclear (CBRN) weapons content from pretraining data, which lowers harmful knowledge without hurting general ability. Read the Introduction, Results and Conclusions, and skim the Classifier section (August 2025).
+- [Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant Safeguards (EleutherAI)](https://blog.eleuther.ai/deep-ignorance/): Why filtering suits open-weight models: filtered models resist fine-tuning that undoes refusal-style safeguards, but they can still use hazardous information given in the prompt (August 2025).
+- [Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment (arXiv)](https://arxiv.org/abs/2601.10160): The full paper, with the final results: misalignment fell from 45% to 9%, and the effect weakened but persisted through post-training (January 2026) (more advanced).
 
 ## Tests
 
@@ -31,7 +35,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: 1ddf86b4-7e5d-454d-b81d-a34a4d56dd5b
-content:: What is the worry called "self-fulfilling misalignment"?
+content:: Some researchers worry that writing about AI going wrong could itself make AI go wrong. What mechanism do they have in mind?
 options::
 - [x] Text predicting that AI will be misaligned may teach models to act misaligned
 - Developers who expect misalignment may stop testing their models for it
@@ -40,13 +44,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: f88ffe9d-bb88-4f77-992a-a33802cc4780
-content:: In a study published in January 2026, 6.9-billion-parameter language models were pretrained with extra documents showing AI behaving well, which reduced misaligned answers. What happened to this effect after the models went through standard post-training?
+id:: d4865f98-e797-4923-b8da-30fbc7411086
+content:: In early 2026, adding text showing AI behaving well to the training data of small models reduced their misaligned answers, and the effect partly survived post-training. A later test on a larger model found the effect mostly faded after heavy reinforcement learning. What is the most reasonable conclusion?
 options::
-- [x] It became weaker but was still present
-- It disappeared completely
-- It became stronger
-- It reversed, making the models more misaligned
+- [x] Training data can shape behavior, but whether this lasts in frontier models is still unclear
+- Training data has no lasting effect, so the early results were measurement errors
+- Larger models need fewer good examples, so the approach gets easier at scale
+- Post-training overwrites earlier values, so developers can ignore pretraining data
 shuffle:: true
 
 #### Question: Open
@@ -99,8 +103,8 @@ content:: What is one main argument for shaping a model's values during pretrain
 options::
 - [x] Post-training adds a thin layer over traits learned from far more text
 - Pretraining is cheaper to redo than post-training when values need fixing
-- Models tend to drop post-training changes once deployed to users
-- Pretraining text mostly comes from AI safety researchers
+- Values learned in pretraining cannot be changed by any later fine-tuning
+- Only pretraining data can be checked by developers before training starts
 shuffle:: true
 
 #### Question: Open
