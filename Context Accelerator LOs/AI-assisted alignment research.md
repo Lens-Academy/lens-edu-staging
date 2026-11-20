@@ -93,13 +93,6 @@ options::
 - [x] That they may be misaligned
 - That they are aligned
 
-#### Question: Choice
-id:: a9a125a6-ac68-4f6a-8198-494bded313e9
-content:: Suppose the same AI systems speed up a lab's capabilities research and its alignment research by the same factor. Does that by itself close the gap between capabilities and alignment?
-options::
-- [x] No
-- Yes
-
 #### Question: Open
 id:: 0934c4ff-6a46-4d59-a81f-546de754cd17
 content:: Critics say that relying on AI to do alignment research is circular. Explain the circularity.

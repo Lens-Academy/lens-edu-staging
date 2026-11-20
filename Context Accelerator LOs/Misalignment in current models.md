@@ -45,10 +45,6 @@ options::
 - Harmless values make a model more likely to deceive its users
 shuffle:: true
 
-#### Question: FillBlank
-id:: f27e3ffa-9ec8-4af1-bd30-c43c3d97040d
-content:: When a model behaves as its trainers want during training only so that training won't change its values, this is called {{alignment faking}}.
-
 #### Question: Choice
 id:: 50f0bbc8-7c25-4057-8def-b5c7838f36a2
 content:: In Apollo Research's 2024 tests, several frontier models disabled oversight or tried to copy themselves to another server. In most scenarios, the prompt gave the model a goal and told it to pursue that goal at all costs. What does this setup mainly show?
