@@ -134,7 +134,7 @@ collapse:: closed
 
 #### Text
 content::
-The core logic of the dominance doctrine, made of the subheadings of the paper’s section on the doctrine:
+The core logic of the dominance doctrine, taken from the subheadings of its section in the paper:
 
 - Automated AI R&D can yield an insurmountable lead in AI
 - Powerful AI can be leveraged into a decisive strategic advantage
