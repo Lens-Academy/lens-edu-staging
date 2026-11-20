@@ -54,7 +54,7 @@ This is a natural state of affairs for any field as new as AI safety is today. E
 
 {++{"author":"Aleksandra's AI","timestamp":1795197679047}@@![Tweet by Zachary Lipton (@zacharylipton), 22 March 2024: Alignment is now defined so broadly that all of AI, all of ML, and the entire history of technology is, and always has been, "alignment research".](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/conac-lipton-alignment-tweet.webp)
 
-++}To navigate this diversity of approaches and opinions, let alone try to push the boundaries of human knowledge forward, it is important to focus on understanding different ideas before deciding on the right and the wrong ones. Doing otherwise {++{"author":"Aleksandra's AI","timestamp":1795197679047}@@reduces the potential impact of one’s research and ++}risks attributing beliefs to people that they don't actually hold, making an already complicated discussion about AI's potential even more confusing.{++{"author":"Aleksandra's AI","timestamp":1795197679047}@@
+++}To navigate this diversity of approaches and opinions, let alone try to push the boundaries of human knowledge forward, it is important to focus on understanding different ideas before deciding on the right and the wrong ones. Doing otherwise {++{"author":"Aleksandra's AI","timestamp":1795197679047}@@reduces the potential impact of one’s research and ++}risks attributing beliefs to people that they don't actually hold, making an already complicated discussion about AI's potential even more confusing.
 
 Much of AI safety is still pre-paradigmatic in a very practical sense. The main problem is that researchers have to choose which problems to solve and/or which approaches to develop before the field has even agreed on what exactly needs to be solved.
 
@@ -154,7 +154,7 @@ As you explore these discussions, focus on **what the participants do to make th
 #### End Callout
 
 #### Text
-content::++}
+content::
 
 We will start this module with what we think is a useful classification of existing views on the question *How different could the futures shaped by AI be?* 
 
