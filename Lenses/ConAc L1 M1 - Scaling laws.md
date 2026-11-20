@@ -6,7 +6,7 @@ tutor_minutes: 0
 tags:
   - wip
 ---
-#### Callout: In this module
+#### Callout: In this submodule
 collapse:: closed
 
 #### Text
