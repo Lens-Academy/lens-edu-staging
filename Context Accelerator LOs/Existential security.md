@@ -32,26 +32,10 @@ options::
 shuffle:: true
 
 #### Question: Choice
+id:: 7b7a766d-d897-4393-9115-9d950924da36
 content:: Which of these aims to keep existential risk low in a lasting way, rather than handling one danger at a time?
 options::
-- [x] Close to zero
-- About 99%
-- About 90%
-- About 50%
-shuffle:: true
-
-#### Question: Choice
-id:: c6589e1c-e3b2-4626-9f9f-59c9c841c6e7
-content:: A global treaty removes the threat from one dangerous technology, but new powerful technologies keep arriving faster than institutions can learn to govern them. Has humanity reached existential security?
-options::
-- [x] No
-- Yes
-
-#### Question: Choice
-id:: 7b7a766d-d897-4393-9115-9d950924da36
-content:: Which of these aims at existential security, rather than at handling one danger at a time?
-options::
-- [x] Building institutions that can spot and govern new dangerous technologies as they appear
+- [x] Building institutions that can spot and govern new dangerous technologies
 - Banning one risky line of research on a particular virus
 - Building a shelter designed to survive a large asteroid impact
 - Removing a dangerous capability from one AI model before its release
@@ -66,13 +50,6 @@ options::
 - Risk from natural disasters such as supervolcanoes would still be high
 - Extinction risk would rise again once the government eventually fell
 shuffle:: true
-
-#### Question: Choice
-id:: 76baf0ce-b224-46ae-8242-ec300df5d3bd
-content:: A reform makes governments much better at noticing and responding to new global threats, but it doesn't reduce any specific risk today. Does it contribute to existential security?
-options::
-- [x] Yes
-- No
 
 #### Question: Choice
 id:: b536c418-0700-4751-b268-737d4637d200
@@ -93,10 +70,6 @@ options::
 - Future people count for less than people alive today
 - Reducing risk today tends to raise risk in later centuries
 shuffle:: true
-
-#### Question: FillBlank
-id:: 0b23d598-e530-4a6a-806c-d1edbb50c1b7
-content:: The view that existential risk is unusually high now but could fall sharply and stay low if humanity gets through the next few centuries is called the {{time of perils|time of perils hypothesis}} hypothesis.
 
 #### Question: Open
 id:: 80c6bb57-3696-48eb-a8ec-41b0970f62e7

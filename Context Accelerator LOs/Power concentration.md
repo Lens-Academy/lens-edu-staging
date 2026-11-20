@@ -30,7 +30,6 @@ options::
 - Aligned AI will still be too costly for most governments to use
 - Aligned AI tends to defer to whichever user is most persuasive
 - Solving alignment makes model weights much easier to steal
-- Aligned AI systems refuse instructions from elected governments
 shuffle:: true
 
 #### Question: Choice
@@ -101,7 +100,6 @@ options::
 - It could slow progress enough to let rival countries catch up
 - It would be too expensive for any one government to fund
 - It would leave national governments out of decisions about AI
-- It would make the chips used to train AI much cheaper to buy
 shuffle:: true
 
 #### Question: Choice

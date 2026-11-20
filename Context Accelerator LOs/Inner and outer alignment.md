@@ -53,16 +53,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: d673b913-399e-4176-9774-f581f7a313a5
-content:: In the mesa-optimization framing behind the term "inner alignment", what is the base optimizer?
-options::
-- [x] The training process, such as gradient descent
-- A search process running inside the trained model
-- The developers who choose the training objective
-- The reward function used during training
-shuffle:: true
-
-#### Question: Choice
 id:: 2ec97b44-97bb-46c5-ab93-b0809d8a81d2
 content:: A developer writes a training objective that perfectly captures what they want. Which alignment problem could still remain?
 options::
@@ -71,6 +61,7 @@ options::
 - Both inner and outer alignment
 - Neither inner nor outer alignment
 shuffle:: true
+
 #### Question: Open
 id:: 95d4118f-1f6a-4dc1-98fe-d8e0f95ae31d
 content:: A lab plans to make its model safe mainly by improving the training signal: more careful human raters and better reward models. Using the outer/inner split, explain what this plan addresses and what risk it leaves.

@@ -33,10 +33,6 @@ options::
 - It can only repeat text it saw in training, not write new text
 shuffle:: true
 
-#### Question: FillBlank
-id:: 7a955e6a-5fad-4e3c-bc06-ee8b99c40369
-content:: A language model that has been through pretraining but not post-training is often called a {{base model|base|pretrained model}}.
-
 #### Question: Choice
 id:: dcdb80eb-fd32-4769-9064-9acbd5086ec7
 content:: In supervised fine-tuning of a language model, what is the model trained on?

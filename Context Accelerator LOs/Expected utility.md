@@ -33,20 +33,6 @@ options::
 - It depends on how risk-averse the agent is
 shuffle:: true
 
-#### Question: FillBlank
-id:: 5030b48f-1bc5-4660-8749-a9fe1716d557
-content:: A gamble gives a 25% chance of an outcome with utility 8 and a 75% chance of an outcome with utility 0. Its expected utility is {{2|2.0}}.
-
-#### Question: Choice
-id:: 29e88a59-b563-4b65-a310-9b150c37a9b1
-content:: An expected utility maximizer has a choice between option A, a sure outcome with utility 10, and option B, a 1% chance of utility 2,000 and a 99% chance of utility 0. Which does it choose?
-options::
-- [x] B, because its expected utility is 20
-- A, because its most likely outcome is better
-- A, because it avoids the risk of getting nothing
-- Neither; it is indifferent between them
-shuffle:: true
-
 #### Question: Open
 id:: 404dc164-495d-4fa2-b180-8cb36429f0a6
 content:: A person prefers a sure $50 to a 50% chance of $100 (and otherwise nothing). How can this choice fit expected utility maximization, even though both options have the same expected amount of money?
@@ -96,7 +82,9 @@ shuffle:: true
 id:: ba47a483-5cfb-4f80-9e95-fdb8f2b4871a
 content:: In expected utility theory as used to model an AI agent, where do the probabilities in the agent's calculation come from?
 options::
+- [x] The agent's own beliefs
 - Frequencies measured in past trials
+- The true physical chances
 - Numbers set by its designers
 shuffle:: true
 

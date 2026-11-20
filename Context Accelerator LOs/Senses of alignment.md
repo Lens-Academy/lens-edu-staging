@@ -15,21 +15,25 @@ Tell apart the main senses of "alignment" (intent vs. impact, today's products v
 People who mean different things by "aligned" can agree on the facts and still seem to disagree. A lab calling its chatbot "well aligned" and a researcher calling alignment "unsolved" may both be right. Spotting the sense in use lets you judge each claim on its merits and avoid both false reassurance and false alarm.
 
 ## Lenses
+- [[../Lenses/christiano-clarifying-ai-alignment|Clarifying "AI alignment"]]: Paul Christiano's definition of intent alignment (an AI trying to do what its operator wants) and why an aligned AI can still make mistakes and cause harm (April 2018).
+- [[../Lenses/plex-product-alignment-is-not-superintelligence-alignment-and-we-need-the-latter-to-survive|Product Alignment is not Superintelligence Alignment]]: why progress on making chatbots behave well is not progress on making superintelligence safe, and why to ask which one a speaker means; one side of a live debate (March 2026).
+- [[../articles/ahead-iiic-superalignment|Superalignment]]: why human feedback (RLHF) aligns today's chatbots but will break down once AI outsmarts the people rating it. Read the section "The superalignment problem" (Leopold Aschenbrenner, May 2024).
+- [[../Lenses/peligrietzer-the-problem-with-the-word-alignment|The Problem With the Word 'Alignment']]: six different problems that all get called "the alignment problem", from making AI do tasks reliably to making AI's long-run effect on society good. Read up to the paragraph on the culture clash over task reliability (May 2024).
 
 ## Tests
 #### Question: Choice
-id:: 433619cd-8fb2-4d8b-8f85-2f96c23e68c6
+id:: f36e0f46-4172-47aa-bc25-2ee8fdf49980
 content:: In the intent sense of alignment, an AI is aligned if it is trying to do what its operator wants. Which of these is a failure of intent alignment?
 options::
-- [x] An AI quietly works toward a goal its operator never wanted
+- [x] An AI pursues a goal of its own and hides it from its operator
+- An AI misreads an instruction and does the wrong task
 - An AI gives a wrong answer because it lacks the facts
 - An AI cannot finish a long task within its time limit
-- An AI writes slower code than a skilled human would
 shuffle:: true
 
 #### Question: Choice
 id:: 7d088ea1-a3a9-4942-ac4b-11d32bdabf47
-content:: An AI assistant sincerely tries to do what its user wants, but by mistake it deletes the user's important files. Intent alignment is about what the AI is trying to do; impact alignment is about the effects it actually has. Which describes this AI?
+content:: An AI assistant misreads its user's request and, trying to help, deletes files the user needed. Intent alignment asks whether the AI is trying to do what its user wants; impact alignment asks whether its actions turn out well. Which describes this AI?
 options::
 - [x] Intent aligned but not impact aligned
 - Impact aligned but not intent aligned
@@ -52,9 +56,9 @@ id:: 845b06c1-45b4-4c5d-92db-3d2a296d5c5d
 content:: Many researchers doubt that the methods used to align today's chatbots will be enough to align AI systems much smarter than humans. What is the main reason?
 options::
 - [x] They rely on human feedback, which fails once AI outsmarts its judges
-- They need text data, and future systems won't be trained on text
+- They cost too much to apply to much larger models
 - They only work on models small enough to inspect by hand
-- They assume AI has goals, which superintelligent systems will lack
+- They make models too cautious to be useful
 shuffle:: true
 
 #### Question: Choice
