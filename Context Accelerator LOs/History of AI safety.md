@@ -16,6 +16,10 @@ Outline the main stages in the history of AI safety, from early warnings through
 Today's AI safety organisations, funders, research agendas and feuds grew out of a short and specific history. Knowing it helps you see why groups trust or distrust each other, why some safety-minded people work at AI companies, and why political attention to the field has risen and fallen.
 
 ## Lenses
+- [From Turing's Speculations to an Academic Discipline: A History of AI Existential Safety (The Era of Global Risk, Open Book Publishers)](https://books.openbookpublishers.com/10.11647/obp.0336/ch9.xhtml): a CSER history of the field from I. J. Good's intelligence explosion through Yudkowsky's Singularity Institute and Bostrom's *Superintelligence* to the turn towards experiments on real ML systems; read "Early ideas", "The beginning of formal work on AI existential safety" and "Interlude: The deep learning revolution" (August 2023).
+- [[../Lenses/AICF - Ngo - A retrospective of AI alignment|A retrospective of AI alignment]]: one insider's critical account of how the early rationalists, Silicon Valley and effective altruism shaped the field, and how safety-minded people ended up helping found OpenAI and fuel the race; read the opening and "Orienting Towards Prestige" (August 2026).
+- [[../Lenses/AI Chronicles - Torchbearer|AI Chronicles]]: an advocacy timeline of AI warnings and events; skim the entries from 2014 to 2023, from *Superintelligence* and the founding of OpenAI and Anthropic to ChatGPT, Hinton's resignation, the extinction-risk statement and the Bletchley Declaration.
+- [Statement from the listed authors of Stochastic Parrots on the "AI pause" letter (DAIR)](https://www.dair-institute.org/blog/letter-statement-March2023/): leading AI-ethics researchers argue that talk of hypothetical AI risk distracts from present harms, inflates AI hype and serves company power (March 2023).
 
 ## Tests
 #### Question: FillBlank
@@ -28,18 +32,18 @@ content:: In 1960, Norbert Wiener warned that if we use a machine we can't effec
 options::
 - [x] Making sure an AI system's goals match what its designers intend
 - Stopping criminals from using AI systems to plan attacks
-- Finding out which parts of a neural network store which facts
-- Limiting how much computing power AI developers can use
+- Making sure AI systems give accurate, truthful answers
+- Preventing automation from taking people's jobs
 shuffle:: true
 
 #### Question: Choice
-id:: fd491e4a-811a-49b5-babf-dce2192a8302
-content:: When Eliezer Yudkowsky co-founded the Singularity Institute (now the Machine Intelligence Research Institute, MIRI) in 2000, what was its aim?
+id:: 9de1fd7c-de96-46bb-b568-38403e079b46
+content:: Eliezer Yudkowsky co-founded the Singularity Institute (now the Machine Intelligence Research Institute, MIRI) in 2000. How did its aim change over its first several years?
 options::
-- [x] To speed up the development of advanced AI
-- To campaign for a ban on advanced AI research
-- To study the risks advanced AI poses to humanity
-- To build tools for detecting deception in AI systems
+- [x] It began by trying to speed up advanced AI, then turned to how to make it safe
+- It began by studying AI's effects on jobs, then turned to the risk of human extinction
+- It began by campaigning to ban AI research, then turned to building safe AI itself
+- It began by building AI products for companies, then turned to research on AI ethics
 shuffle:: true
 
 #### Question: Choice
@@ -67,7 +71,7 @@ id:: a89c906f-39bd-4792-ab0b-9c4aa98cc0ab
 content:: How did the main style of AI safety research change from the mid-2010s onwards?
 options::
 - [x] From mathematical work on idealised agents to experiments on real machine learning models
-- From experiments on real machine learning models to mathematical work on idealised agents
+- From studying risks from narrow AI tools to studying risks from general AI
 - From research inside AI companies to research in universities and nonprofits
 - From studying human misuse of AI to studying accidents in physical robots
 shuffle:: true

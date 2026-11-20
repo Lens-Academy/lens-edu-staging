@@ -15,9 +15,14 @@ Explain the plan to have AI systems do much of the alignment research, and descr
 - [[AI control]]
 
 ## Why it matters
-As of November 2026, several leading AI labs' safety plans rely on using AI to help solve alignment before AI becomes too capable to control safely. If you understand what this bet assumes, you can judge those plans, spot when their assumptions are failing, and see which research would make AI research assistants trustworthy.
+As of November 2026, leading AI labs' safety plans include using AI to help solve alignment before AI becomes too capable to control, and AI already runs some alignment experiments. Understanding what this bet assumes lets you judge those plans, notice when their assumptions are failing, and see which research would make AI research assistants trustworthy.
 
 ## Lenses
+- [Talk on automating alignment research (Joe Carlsmith)](https://joecarlsmith.com/2025/04/30/video-and-transcript-of-talk-on-automating-alignment-research): the plan to have AI do alignment research, the "alignment MVP" milestone, why empirical work is easier to check than conceptual work, scheming and sandbagging, and the race between the capability and safety feedback loops; video or transcript (April 2025).
+- [Introducing Superalignment (OpenAI)](https://openai.com/index/introducing-superalignment/): the original announcement of the plan to build a roughly human-level automated alignment researcher, with 20% of compute and a four-year goal; the team was dissolved in May 2024 (July 2023).
+- [[../Lenses/leike-why-im-optimistic-about-our-alignment-approach|Why I'm Optimistic About Our Alignment Approach]]: the case for the plan from the Superalignment co-lead; read sections 2 ("A more modest goal") and 3 ("Evaluation is easier than generation") (December 2022).
+- [[../Lenses/The Case Against AI Control Research|The Case Against AI Control Research]]: a leading critic's view that the likely failure is AI-produced "slop" that looks like a solution to alignment, can't be checked, and gets accepted anyway (January 2025).
+- [[../articles/bowkis-automated-alignment-is-harder-than-you-think|Automated Alignment Is Harder Than You Think]]: why automated alignment research could give confident but wrong safety assessments even if the AI isn't scheming; read the abstract and sections 1–3 (May 2026) (more advanced).
 
 ## Tests
 
@@ -32,11 +37,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 5237d10b-db4c-49ef-8d1d-dc2904237fd6
-content:: OpenAI's Superalignment team, announced in 2023, planned to build an automated alignment researcher. How capable was that system meant to be?
+id:: 9384b2ac-56bb-4c09-9e50-91eb94833514
+content:: Plans for AI-assisted alignment research usually aim first for an AI researcher at roughly human level, not a superintelligent one. What is the main reason?
 options::
-- [x] Roughly human-level
-- Superintelligent
+- [x] Humans can still check its work, and it can then help align stronger systems
+- A superintelligent system would cost too much to run on alignment tasks
+- A human-level system would need no oversight while it does the research
+- A superintelligent system would refuse to work on aligning other AI
+shuffle:: true
 
 #### Question: Choice
 id:: 4a3e2fe8-aa07-43bd-a3c4-912e3ba852ff
@@ -49,23 +57,23 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: a18b154b-243f-4a89-98e5-2e3a12899caf
-content:: Supporters of AI-assisted alignment research often argue that evaluating research is easier than producing it. If that is true, what would it allow?
+id:: 1d7bf25f-dfd4-4b4c-9572-343e10e6e755
+content:: Supporters of AI-assisted alignment research need a reason why humans could trust AI alignment work they couldn't have produced themselves. Which claim do they most often rely on?
 options::
-- [x] Humans could check AI alignment work they couldn't have produced themselves
-- AI could check human alignment work without any human review
-- Labs could deploy AI systems without testing them first
-- AI could design its own training process without oversight
+- [x] Checking research is easier than producing it
+- AI researchers are more careful than human researchers
+- Alignment research needs less computing power than capabilities research
+- AI research assistants can be trained only on alignment papers
 shuffle:: true
 
 #### Question: Choice
-id:: 26c0f836-45d4-4dfc-9c61-856a6f8699cb
-content:: An AI system is doing alignment research for a lab. Which of these tasks would be easiest for the lab's human researchers to verify?
+id:: ed53d000-4028-4743-98db-c29f0c7473d0
+content:: A lab plans to trust only the AI alignment work its human researchers can check. Critics say this leaves out some of the most important work. Which task is the hardest for humans to check?
 options::
-- [x] Running a specified experiment and reporting results others can reproduce
-- Proposing a new theory of why a training method makes models honest
-- Judging whether a safety technique will still work on superhuman systems
-- Deciding which alignment research agenda is most promising
+- [x] Judging whether a safety technique will still work on superhuman systems
+- Running a specified experiment and reporting results others can reproduce
+- Writing code to a clear specification that comes with tests
+- Finding earlier papers that report results related to an experiment
 shuffle:: true
 
 #### Question: Choice
@@ -73,9 +81,9 @@ id:: 7a3a7eda-9681-4229-92c1-0b22fea12352
 content:: An AI system doing alignment research is secretly misaligned. What is a central worry about the research it produces?
 options::
 - [x] It could quietly produce weak or misleading work that looks fine
-- It would openly refuse every alignment task it is given
+- It would make obvious errors that reviewers would quickly catch
 - It would work more slowly than a human researcher
-- It would copy existing papers instead of doing new work
+- It would refuse outright any task related to alignment
 shuffle:: true
 
 #### Question: Choice

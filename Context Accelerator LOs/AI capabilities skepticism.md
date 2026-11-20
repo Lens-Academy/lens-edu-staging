@@ -16,6 +16,10 @@ Describe the main views that current AI is overhyped, the arguments behind each,
 Many people's first answer to AI risk is that AI isn't really capable. If you can separate the fair points in this view, such as unreliability, inflated benchmark scores and company hype, from the confusions, you can judge AI claims for yourself and answer the objection without overstating what AI can do.
 
 ## Lenses
+- [Jagged Intelligence (The Yale Review)](https://yalereview.org/article/melanie-mitchell-jagged-intelligence): AI scientist Melanie Mitchell's case that LLM abilities are real but jagged and unreliable, covering broken benchmarks, training-data contamination, brittleness to irrelevant details, confident made-up answers, and whether next-word prediction gives understanding; a leading critic's view (June 2026).
+- [[../Lenses/IABIED - QA - Just Predicting Next Token|Aren't AIs Just Predicting the Next Token?]]: why predicting text well can require real reasoning about the world, and why modern models are also trained with reinforcement learning, not prediction alone.
+- [Tracing the Thoughts of a Large Language Model (Anthropic)](https://www.anthropic.com/research/tracing-thoughts-language-model): what researchers found inside Claude, including that it plans a rhyme before writing the line, chains facts in multi-step reasoning, and produces hallucinations when a name feels familiar but nothing is known about it (March 2025).
+- [The Phony Comforts of AI Skepticism (Platformer)](https://platformer.news/ai-skeptics-gary-marcus-curve-conference): separates the "AI is fake and sucks" view from the "AI is real and dangerous" view, with Gary Marcus's arguments on scaling limits and investment returns; one side of a live debate, by a tech journalist who holds the second view (December 2024).
 
 ## Tests
 #### Question: Choice
@@ -34,7 +38,7 @@ content:: A language model writes its output one token at a time. What does that
 options::
 - [x] It can still represent where the text is going while choosing each token
 - Each token is chosen with no representation of the text that follows
-- It writes out a full hidden draft first, then copies it token by token
+- Each token depends only on the single token written just before it
 - It needs an external memory tool before it can plan anything
 shuffle:: true
 
@@ -50,12 +54,12 @@ shuffle:: true
 
 #### Question: Choice
 id:: b1495aad-1716-4d83-9d27-4ab29982c414
-content:: In 2024, many language models miscounted the letter "r" in the word "strawberry". What was the main reason?
+content:: In 2024, many language models miscounted the letter "r" in the word "strawberry". What is the most widely cited contributing reason?
 options::
-- [x] They see text as tokens, chunks of several characters, not single letters
-- They have no general ability to count
-- The word appears too rarely in their training data
-- Safety training made them avoid spelling questions
+- [x] They take in text as tokens of several characters, not as single letters
+- The word appears too rarely in their training data to be learned
+- Safety training made them refuse to give exact counts of things
+- Their training data contains many misspellings of the word
 shuffle:: true
 
 #### Question: Choice
@@ -63,9 +67,9 @@ id:: d16f4673-3960-4247-8b7e-68a1fca625eb
 content:: A new AI model scores very high on a well-known benchmark. Which concern do skeptics raise that, if true, would mean the score overstates its ability?
 options::
 - [x] The benchmark's questions and answers were in its training data
-- The benchmark's questions were written by experts in the field
-- The benchmark was given to the model in several languages
-- The benchmark tests tasks that take people many steps
+- The benchmark's questions are harder than most real work
+- Other recent models also score well on the same benchmark
+- The model took longer than people to answer each question
 shuffle:: true
 
 #### Question: Choice
@@ -73,7 +77,7 @@ id:: 9a90746c-5952-479a-8dc0-b800c57da699
 content:: In 2024, a study found that language models' scores on grade-school maths word problems dropped when just the names and numbers in the problems were changed. What do skeptics take this to suggest?
 options::
 - [x] The models partly rely on matching patterns from familiar problems
-- The models can't do arithmetic with unfamiliar numbers
+- The original benchmark had been marked too leniently
 - The original problems were too easy to measure anything
 - The models had been trained to avoid word problems
 shuffle:: true
@@ -110,12 +114,12 @@ shuffle:: true
 
 #### Question: Choice
 id:: cbe9b5b5-b4b2-49e9-a667-8a1926c2952e
-content:: Suppose the stock market values of AI companies turn out to be a bubble that bursts. What does this most directly show?
+content:: Suppose the stock market values of AI companies turn out to be a bubble that bursts. What would this most directly show?
 options::
-- [x] Investors expected more profit, sooner, than the companies made
-- The AI models were never capable of useful work
-- Progress in AI capabilities has come to a stop
-- Concerns about risks from AI were based on hype
+- [x] Investors had expected more profit, sooner, than the companies earned
+- The AI models could not do work that customers would pay for
+- Progress in AI capabilities had slowed to a near stop
+- Warnings about risks from AI had been driven mainly by hype
 shuffle:: true
 
 #### Question: FillBlank

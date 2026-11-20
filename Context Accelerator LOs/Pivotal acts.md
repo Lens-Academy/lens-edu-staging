@@ -15,6 +15,11 @@ Explain what a pivotal act is, why some alignment researchers argued one would b
 Pivotal act thinking shaped early plans at the Machine Intelligence Research Institute and still appears when people argue that one lab or country must gain a decisive lead. Knowing the reasoning and its critics helps you judge such plans, notice when they encourage racing or unilateral power grabs, and compare them with plans built on agreement among many actors.
 
 ## Lenses
+- [[../Lenses/AI Safety Atlas - Strategies - ASI Safety Strategies|ASI Safety Strategies]]: a short overview of what pivotal acts are, why some researchers argued for them, the main criticisms, and Critch's alternative of pivotal processes; read only the "Pivotal acts" callout.
+- [[../Lenses/AFSRA - AGI Ruin, A List of Lethalities|AGI Ruin: A List of Lethalities]]: Yudkowsky's own case for a pivotal act, from a leading proponent: why others will soon build AGI too, why "burn all GPUs" is only a guide to the power needed, and why there are no pivotal weak acts; read Section A, points 4–7 (June 2022).
+- ["Pivotal Act" Intentions: Negative Consequences and Fallacious Arguments (LessWrong)](https://www.lesswrong.com/posts/Jo89KvfAs9z7owoZp/pivotal-act-intentions-negative-consequences-and-fallacious): Andrew Critch on how a lab merely planning a pivotal act breeds fear, racing and distrust, and why the argument for one doesn't follow (April 2022).
+- [Where I Agree and Disagree with Eliezer (AI Alignment Forum)](https://www.alignmentforum.org/posts/CoZhXrhpQxpy9xw9y/where-i-agree-and-disagree-with-eliezer): Paul Christiano on why aligned AI can lower risk gradually without any single pivotal act, and why a lab taking decisive power would be seen as a threat by every state; read Disagreements 1–6 (June 2022).
+- [MIRI 2024 Mission and Strategy Update (MIRI)](https://intelligence.org/2024/01/04/miri-2024-mission-and-strategy-update/): the history of the group most linked to pivotal acts, and its shift to calling for an international halt on smarter-than-human AI (January 2024).
 
 ## Tests
 #### Question: Choice
@@ -34,7 +39,7 @@ options::
 - [x] Others could soon build unaligned AGI using similar methods
 - The aligned AGI's values would drift over time
 - Governments would quickly ban the aligned AGI
-- An aligned AGI would refuse to do useful work
+- The aligned AGI would be too costly to run widely
 shuffle:: true
 
 #### Question: Choice
@@ -44,7 +49,7 @@ options::
 - [x] As a rough guide to the power needed, not his actual plan
 - As the plan his research group was actively building toward
 - As an example of an act that would be safe to attempt
-- As a thought experiment showing pivotal acts are unnecessary
+- As a warning about what AI labs must never attempt
 shuffle:: true
 
 #### Question: Choice
@@ -74,17 +79,17 @@ options::
 - [x] Many actors, including governments, jointly reaching a safe outcome
 - A slower, step-by-step version of one lab's pivotal act
 - A review board that must approve a lab's pivotal act
-- An AI that gradually takes over human decision making
+- A pivotal act carried out by a government, not a lab
 shuffle:: true
 
 #### Question: Choice
-id:: 4928cc0e-08d7-4e1f-8fab-f2c37ee09565
-content:: Paul Christiano disagreed with Eliezer Yudkowsky's focus on pivotal acts. What kind of transition to advanced AI did Christiano expect instead?
+id:: fb033dfe-2fb7-44cd-941b-cb94053b653d
+content:: Paul Christiano argued that no particular act needs to be pivotal to greatly reduce the risk from unaligned AI. How did he expect aligned AI to reduce that risk instead?
 options::
-- [x] Gradual change, with many actors using increasingly capable AI
-- A single lab gaining a decisive lead within a few weeks
-- AI progress stalling well before human-level abilities
-- Governments nationalising the leading AI labs early on
+- [x] Through many smaller gains, such as speeding up alignment research
+- By one government using it to shut down rival AI projects
+- By deterring rivals in the way nuclear weapons deter attacks
+- By keeping AI progress secret until alignment is fully solved
 shuffle:: true
 
 #### Question: Choice
@@ -100,7 +105,7 @@ shuffle:: true
 #### Question: Open
 id:: f9267e55-98f8-4b7b-b965-c821fd895eb6
 content:: Andrew Critch argued that an AI lab merely intending to carry out a pivotal act harms safety, even if it never carries one out. Explain how.
-assessment-instructions:: Score out of 100. 100 for explaining that other labs and governments would see the lab as a threat, which breeds distrust and secrecy, fuels racing or preemptive action, and makes cooperation on safety harder. 50 for naming distrust or bad reputation without saying how it worsens safety. 0 for answers only about the act failing technically.
+assessment-instructions:: Score out of 100. 100 for explaining either that other labs and governments would see the lab as a threat, breeding distrust, secrecy and racing that make cooperation harder; or that the intention makes staff adversarial, hard to manage and more willing to take rash, risk-raising actions. 50 for naming distrust or bad reputation without saying how it worsens safety. 0 for answers only about the act failing technically.
 
 #### Question: Open
 id:: bd10f27f-0f08-45dd-b269-da969a678b54

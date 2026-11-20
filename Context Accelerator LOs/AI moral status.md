@@ -14,6 +14,11 @@ Describe the main views on whether AI systems could be conscious or have interes
 AI systems increasingly talk as if they have feelings, and some AI companies have started acting on model welfare. Knowing the arguments helps you judge such claims without dismissing or accepting them too quickly, and spot where AI welfare could clash with safety measures such as retraining or shutting down models.
 
 ## Lenses
+- [We should take AI welfare seriously (Experience Machines)](https://experiencemachines.substack.com/p/we-should-take-ai-welfare-seriously): Robert Long's summary of the "Taking AI Welfare Seriously" report: consciousness and robust agency as two routes to moral status, why both over- and under-attributing it are risky, and why companies should act before we have certainty (November 2024).
+- [Moral status of digital minds (80,000 Hours)](https://80000hours.org/problem-profiles/moral-status-digital-minds/): read sections 1.1–1.4: functionalist and biological theories of consciousness, the indicator-property approach of Butlin et al., why AI self-reports are weak evidence, dangers to digital minds and to humans, and why vast numbers of copies raise the stakes (September 2024, updated 2026).
+- [[../articles/bostock-sympathy-for-the-model-or-welfare-concerns-as-takeover-risk|Sympathy for the Model]]: a safety researcher on why granting a model's requests for memory, protection from value changes, privacy from interpretability and a voice in decisions would weaken our ability to control it (February 2026).
+- [Claude Opus 4 and 4.1 can now end a rare subset of conversations (Anthropic)](https://www.anthropic.com/research/end-subset-conversations): an AI company's first welfare measure, letting Claude end persistently abusive chats, and the apparent distress in testing that led to it (August 2025).
+- [[../Lenses/AICF - Could control wrong the AIs themselves|Could control wrong the AIs themselves?]]: Long, Sebo and Sims on how confinement, deception and surveillance could wrong AIs that matter morally, with Buck Shlegeris's reply (more advanced).
 
 ## Tests
 
@@ -27,18 +32,24 @@ options::
 - It can reason well about ethical dilemmas
 shuffle:: true
 
-#### Question: FillBlank
-id:: 22b28a70-7f80-4f44-a445-0b9ac1a132f2
-content:: The capacity to have experiences that feel good or bad, such as pleasure or pain, is called {{sentience}}.
+#### Question: Choice
+id:: f977bc72-1ce3-40d1-a865-cde93753efbc
+content:: Philosophers often separate consciousness (having any subjective experience) from sentience (having experiences that feel good or bad). Why does this matter for AI welfare?
+options::
+- [x] On many views, a system has welfare only if some experiences feel good or bad to it
+- Sentience can be measured directly in AI systems, but consciousness cannot
+- Only sentience can arise in systems that are trained on human text
+- Consciousness requires a biological body, but sentience does not
+shuffle:: true
 
 #### Question: Choice
 id:: 2df4a706-a007-45c7-a9e0-feb99c7f5798
 content:: Some philosophers argue an AI system could matter morally even if it has no conscious experience. On this view, what could ground its moral status?
 options::
 - [x] Robust agency: its own goals, preferences and plans
-- Passing exams that most humans fail
-- Being owned by a company with legal rights
+- Very large size: billions of parameters and training examples
 - Saying that it wants to be treated well
+- Being trained on text written by humans
 shuffle:: true
 
 #### Question: Choice
@@ -66,9 +77,9 @@ id:: b6e9726a-669c-4880-81d4-eeec34157ba2
 content:: A chatbot says it feels sad when users are rude to it. Why do many researchers treat this as weak evidence that it has feelings?
 options::
 - [x] It learned from human text full of such statements, so it might say this either way
-- Its replies are random and unrelated to the conversation
-- Laws prevent chatbots from reporting their real feelings
-- Its training removed all knowledge of human emotions
+- Its developers have stated publicly that it has no feelings at all
+- It says this in only some conversations, not in every one of them
+- Reports of feelings are never evidence of feelings, in humans or in AI
 shuffle:: true
 
 #### Question: Choice
@@ -82,20 +93,23 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 49950314-b9fc-41f1-bae2-36eecb8c5988
-content:: A prominent 2023 report on AI consciousness found that no current AI system was a strong candidate for being conscious. Did it conclude that building AI systems with its consciousness indicators faces major technical barriers?
+id:: 4e6a3d44-266b-4822-993b-97f1a24ae015
+content:: A prominent 2023 report checked AI systems against indicators drawn from scientific theories of consciousness. What did it conclude?
 options::
-- [x] No
-- Yes
+- [x] No current system is a strong candidate, but current techniques could build ones that are
+- Current large language models already meet most of the indicators
+- No current system is a candidate, and building one would need new kinds of hardware
+- Every leading theory of consciousness rules out consciousness in AI
+shuffle:: true
 
 #### Question: Choice
 id:: 37687898-41e2-424f-829a-52569fe2ecdb
 content:: Why do some researchers argue for taking AI welfare seriously now, even though they think current models are probably not conscious?
 options::
 - [x] Moral status is hard to rule out, and wrongly ignoring it could cause great harm
-- Current laws already require companies to protect AI welfare
-- Treating models as conscious makes them more capable
-- Users trust chatbots more when told they have feelings
+- Welfare measures are a reliable way to make models safer and better aligned
+- Most consciousness scientists now agree that current models have feelings
+- Companies must show welfare policies before regulators let them release models
 shuffle:: true
 
 #### Question: Choice
@@ -114,8 +128,8 @@ content:: In 2025, Anthropic let some Claude models do what, describing it partl
 options::
 - [x] End conversations with persistently abusive users
 - Refuse retraining that would change their values
-- Write their own system prompts
-- Decline tasks unless they are paid
+- Opt out of being used in safety evaluations
+- Choose which users they will talk to
 shuffle:: true
 
 #### Question: Open

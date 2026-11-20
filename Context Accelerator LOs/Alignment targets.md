@@ -4,7 +4,7 @@ priority: low
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Compare research proposals for what advanced AI should ultimately aim at, from following its operators' intentions or accepting correction to pursuing idealized human values, and explain the main risk each one leaves open.
+Compare proposals for what advanced AI should be aligned to, from following its operators' intentions or accepting correction to pursuing idealized human values, and explain the main risk each one leaves open.
 
 ## Requires
 - [[Alignment to whom]]
@@ -16,6 +16,11 @@ Compare research proposals for what advanced AI should ultimately aim at, from f
 Saying that alignment is "solved" means little until you know what the AI is aligned to. An AI that obeys its operators is only as safe as they are, while one built to pursue idealized values cannot easily be corrected if those values were specified wrongly. Knowing the options lets you judge what a safety plan is aiming for.
 
 ## Lenses
+- [[../Lenses/Choosing an alignment target|Choosing an alignment target]]: Four rival targets side by side (coherent extrapolated volition, intent alignment, a written constitution, corrigibility) and why they are different kinds of answer.
+- [[../Lenses/christiano-clarifying-ai-alignment|Clarifying "AI alignment"]]: Paul Christiano's definition of intent alignment, an AI trying to do what its operator wants, and how it differs from getting things right or following literal instructions (2018).
+- [Superintelligence 23: Coherent extrapolated volition (LessWrong)](https://www.lesswrong.com/posts/EQFfj5eC5mqBMxF2s/superintelligence-23-coherent-extrapolated-volition): Bostrom's indirect normativity and epistemic deference, and the case for CEV, such as allowing moral growth and not locking in today's mistakes; read the Summary section (February 2015).
+- [Instruction-following AGI is easier and more likely than value aligned AGI (LessWrong)](https://www.lesswrong.com/posts/7NvKrqoQgJkZJmcuD/instruction-following-agi-is-easier-and-more-likely-than): Why developers are likely to aim first AGIs at following instructions rather than human values, what that fixes, and the risk it leaves: power stays with whoever controls the AI. One researcher's argument (May 2024).
+- [[../Lenses/anthropic-claudes-new-constitution|Claude's new constitution]]: Anthropic's priority order for Claude, with not undermining human oversight placed above broader ethics during this period, and why (January 2026).
 
 ## Tests
 
@@ -34,17 +39,20 @@ id:: 64e68f30-ab07-4593-90f4-5f6f0d29f6ff
 content:: Why do many alignment researchers prefer aligning AI to a user's intentions rather than to the literal wording of their instructions?
 options::
 - [x] Literal instructions often leave out things the user cares about
-- Intentions are easier for an AI to observe than words
-- Following intentions removes the need for human oversight
+- An AI following intentions will refuse requests that are harmful
+- Following intentions makes the AI's behaviour easier to predict
 - Literal instruction-following makes AI less capable at tasks
 shuffle:: true
 
 #### Question: Choice
-id:: 4442c4b6-a638-41fc-a693-f59b1fc58311
-content:: An operator wants to defraud customers, and their AI helps exactly as the operator wants. By the usual definition of intent alignment, is this AI intent aligned?
+id:: 39ec896d-8460-429e-9543-6117c7888927
+content:: An operator uses an AI to defraud customers, and the AI does what the operator wants because it is trying to help them. What does this case show about intent alignment?
 options::
-- [x] Yes
-- No
+- [x] An intent-aligned AI is only as safe as its operator's aims
+- The AI is not intent aligned, because its actions caused harm
+- The AI must have misunderstood what its operator really wanted
+- Intent alignment fails only when operators give unclear instructions
+shuffle:: true
 
 #### Question: Choice
 id:: 311cb454-c63b-42bc-972a-df861708c5b3
@@ -53,7 +61,7 @@ options::
 - [x] What humanity would want if we knew more and had thought longer
 - What the majority of people currently say they want
 - What the AI's developers instruct it to do at each step
-- What a panel of moral philosophers votes for
+- What each person wants for themselves, with no attempt to combine views
 shuffle:: true
 
 #### Question: Choice

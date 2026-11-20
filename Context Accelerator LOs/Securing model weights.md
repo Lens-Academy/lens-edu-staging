@@ -15,6 +15,10 @@ Explain why stolen model weights undo other safeguards, describe the main ways w
 Whoever steals a frontier model's weights can run it without the developer's filters, monitoring or safety training, and without paying to train it. Knowing how exposed weights are helps you judge whether other safeguards, chip export controls and plans to slow down for safety can actually hold.
 
 ## Lenses
+- [[../Lenses/AI Safety Atlas - Strategies - Misuse Prevention Strategies|Misuse Prevention Strategies]]: why stolen weights make every API safeguard irrelevant, defence in depth, the attacker tiers from amateurs to top nation-states, and models copying themselves out. Read only the "Internal Access Controls" section, and open its two optional callouts on security levels and self-exfiltration.
+- [A Playbook for Securing AI Model Weights (RAND)](https://www.rand.org/pubs/research_briefs/RBA2849-1.html): the standard framework. It covers what an attacker gains from weights, examples from its 38 attack vectors (phishing, supply chain, physical access), security levels SL1–SL5, labs' estimates of how long each level takes, and measures such as rate-limiting outputs (November 2024).
+- [Security: Datacenter & Model Weight (FAR.AI, Lisa Thiergart)](https://www.far.ai/event-recordings/lisa-thiergart-security-datacenter-model-weight): transcript of a talk by a co-lead of the SL5 Task Force. Her estimate that most frontier labs are around SL2–SL3, why stolen weights lose their safety fine-tuning, insider and supply-chain threats, and why SL5 is so hard (May 2025).
+- [IIIb. Lock Down the Labs: Security for AGI (Situational Awareness)](https://situational-awareness.ai/lock-down-the-labs/): the national-security case that labs have "startup-level" security against state espionage. It argues that theft would erase a US lead that chip export controls protect, and that a secure lead is what buys time for safety. Written from a US-vs-China racing viewpoint (June 2024).
 
 ## Tests
 
@@ -24,7 +28,7 @@ content:: An AI company's API blocks requests for bioweapons help with a filter 
 options::
 - [x] The thief can run the model without it
 - The filter stays built into the copied weights
-- The filter works whenever the copy runs on similar chips
+- The copy still has to send prompts through the company's servers
 - The company can switch the filter on remotely
 shuffle:: true
 
@@ -42,30 +46,30 @@ shuffle:: true
 id:: 3edb5f28-eb88-44c1-a7df-d0826590352f
 content:: The US restricts exports of advanced AI chips to China. Why could theft of a US frontier model's weights undercut this policy?
 options::
-- [x] Running a trained model needs far less compute than training it
+- [x] The thief skips training, which needs far more chips than running the model
 - Stolen weights contain the designs of the chips that trained them
 - Stolen weights can run on ordinary computers with no AI chips at all
 - Stolen weights let the thief manufacture AI chips more cheaply
 shuffle:: true
 
 #### Question: Choice
-id:: dc88b789-c2dc-473b-abff-1ea5ac662e21
-content:: A 2024 RAND report on securing AI model weights assessed the security of leading AI companies. Which best matches its conclusion?
+id:: 2301720d-e51b-4eaa-9680-f950d3deb68e
+content:: Going by public statements from AI companies and security researchers up to 2026, how well are leading AI companies' model weights protected?
 options::
-- [x] Likely to stop many criminal hackers, but not top state operations
-- Already strong enough to stop top state operations
+- [x] Built to stop skilled criminal groups, not the most capable states
+- Strong enough to stop even the most capable states
 - Too weak to stop even amateur hackers
-- Impossible to judge, since companies share no security details
+- Strong against state hackers but weak against criminal groups
 shuffle:: true
 
 #### Question: Choice
-id:: 627fa524-a04c-4e51-aa5c-979ebe545d2a
-content:: Which of these is an insider threat to an AI company's model weights?
+id:: c60534af-8a00-4f66-8752-169ad0f5616a
+content:: An employee with access to a frontier model's weights is bribed by a foreign intelligence agency. Why is this kind of threat especially hard to defend against?
 options::
-- [x] An engineer with access copies the weights to a personal drive
-- A foreign hacking group exploits a flaw in the company's firewall
-- A widely used software library is altered to include a backdoor
-- An attacker sends staff fake login pages to steal passwords
+- [x] The employee already has legitimate access, so firewalls and outside defences don't stop them
+- The employee can legally take copies of models they helped build
+- Companies are not allowed to log what their staff access
+- The employee can rebuild the weights from memory of the training code
 shuffle:: true
 
 #### Question: Choice
@@ -83,24 +87,30 @@ id:: 128b9d3f-0ae8-4b05-8ca8-7cf05e9d6743
 content:: Besides human attackers, what other route for weights leaving an AI company do some safety researchers plan for?
 options::
 - [x] The model itself copying its weights to outside servers
-- Users rebuilding the weights from a few chat replies
-- Regulators publishing weights they collect for audits
+- Rivals recovering the exact weights through distillation
+- Older open-weight models revealing a newer model's weights
 - Cloud backups copying weights to public storage by default
 shuffle:: true
 
 #### Question: Choice
-id:: 47f122c6-ce38-4cda-be97-f4aeab1f70fc
-content:: A rival company trains its own model on millions of answers collected from another company's model through its public API (distillation). Does the rival now have the original model's weights?
+id:: dd8df748-cce0-46f4-a005-e10d8d5d764d
+content:: A rival company trains its own model on millions of answers collected from another company's model through its public API (distillation). What does the rival most likely end up with?
 options::
-- [x] No
-- Yes
+- [x] Its own model that copies some of the original's abilities
+- An exact copy of the original model's weights
+- The original model's training data
+- Nothing useful, since answers reveal nothing about a model
+shuffle:: true
 
 #### Question: Choice
-id:: b093543e-4c95-49fa-8812-c423458f1f40
-content:: In frontier safety frameworks such as Anthropic's Responsible Scaling Policy, do the required measures for protecting model weights increase as models reach higher capability levels?
+id:: f98cfbfb-7a4a-4ff9-847b-5299bbc7b626
+content:: Security researchers and at least one AI company have argued that protecting frontier model weights against the most capable nation states will need government help. Why?
 options::
-- [x] Yes
-- No
+- [x] Stopping such attackers likely needs capabilities only states have, such as counter-intelligence
+- Companies are legally banned from defending against foreign governments
+- Governments already hold copies of every frontier model's weights
+- Only governments can afford basic measures such as encryption
+shuffle:: true
 
 #### Question: Choice
 id:: 3ac29a66-064c-4f6d-93e6-2dcff4095f8f

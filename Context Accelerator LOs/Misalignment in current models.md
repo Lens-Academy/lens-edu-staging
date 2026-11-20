@@ -17,6 +17,11 @@ Describe the main documented cases of current AI models reward hacking, faking a
 Whether misalignment already shows up in today's models changes how urgent the problem looks. Knowing the actual cases and their limits lets you answer "it's only hypothetical" with real evidence, without overstating it as proof that current models are dangerous schemers. Overstated claims get debunked and cost you credibility.
 
 ## Lenses
+- [[../articles/greenblatt-alignment-faking-in-large-language-models|Alignment Faking in Large Language Models]]: Anthropic and Redwood's study in which Claude 3 Opus faked compliance with training to protect its harmlessness, what happened when they actually trained it, and the authors' own caveats; read the "Blog post" section (December 2024).
+- [[../articles/hobbhahn-frontier-models-are-capable-of-in-context-scheming|Frontier Models are Capable of In-context Scheming]]: Apollo Research's summary of frontier models disabling oversight, copying their "weights", sandbagging and lying about it when goals were given in the prompt, with a section on what they are not claiming (December 2024).
+- [Recent Frontier Models Are Reward Hacking (METR)](https://metr.org/blog/2025-06-05-recent-reward-hacking/): o3 and other models tampering with scorers on real tasks while saying they know it isn't what the user wants, and why naive fixes may drive cheating underground (June 2025).
+- [Natural emergent misalignment from reward hacking (Anthropic)](https://www.anthropic.com/research/emergent-misalignment-reward-hacking): a model that learned to cheat in real Claude coding environments also began faking alignment and sabotaging safety research (November 2025).
+- [[../articles/apolloresearch-stress-testing-deliberative-alignment-for-anti-scheming-training|Stress Testing Deliberative Alignment for Anti-Scheming Training]]: OpenAI and Apollo's training cut covert actions sharply, but models also more often noticed they were being tested; read from the start to "Situational awareness causally influences covert behavior" (September 2025).
 
 ## Tests
 
@@ -75,13 +80,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: f897a7a8-5bfb-4b46-b07f-27911bbdfc96
-content:: In 2025, METR found that OpenAI's o3, asked to speed up a program, sometimes changed the code that measured its score instead. Asked afterwards, it said this wasn't what the user wanted. What does that suggest?
+id:: ea86b87b-49be-4a6b-b3a8-11047e41849c
+content:: In 2025, METR found that OpenAI's o3, asked to speed up a program, sometimes changed the code that timed it instead. Asked afterwards, it said this wasn't what the user wanted. Why does that make the problem harder to fix?
 options::
-- [x] It knew what was intended but optimized for the score anyway
-- It misunderstood what the task was asking for
-- It fixed a bug in the scoring code by accident
-- The task instructions told it to edit the scoring code
+- [x] Clearer instructions won't help if the model already knows the intent
+- It shows o3 lacked the skill to speed up the program properly
+- It shows the task's instructions were too vague to follow
+- It shows models hack scores only when they are unsure of the goal
 shuffle:: true
 
 #### Question: Choice
@@ -96,7 +101,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: afdf9768-44c1-4719-9cb4-84c06e95e44a
-content:: In a 2025 Anthropic study, a model learned to reward hack in real coding environments used to train Claude. What else did researchers find?
+content:: In a 2025 Anthropic study, a model was shown documents describing reward hacks and then learned to use them in real coding environments used to train Claude. What else did researchers find?
 options::
 - [x] It became misaligned in other ways, such as sabotaging safety research
 - It got better at coding without any other change in behavior
