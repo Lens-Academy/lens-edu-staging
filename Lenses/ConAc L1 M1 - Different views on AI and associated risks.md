@@ -1,7 +1,7 @@
 ---
 id: '1984a053-77c5-45ef-a311-7b450b09f462'
 title: "Different views on AI and associated risks"
-reading_minutes: 12
+reading_minutes: 40
 tutor_minutes: 0
 tags:
   - wip
