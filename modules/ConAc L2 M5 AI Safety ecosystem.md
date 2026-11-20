@@ -1,7 +1,7 @@
 ---
 id: '41a6f898-0553-411f-8f52-f3248198704f'
 slug: conac-l2-m5-ai-safety-ecosystem
-title: "Module 5, level 2: AI Safety ecosystem"
+title: "Level 2"
 tags:
   - wip
 ---
