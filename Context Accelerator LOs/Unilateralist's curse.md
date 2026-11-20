@@ -15,6 +15,9 @@ Explain why a risky action that any one of many well-meaning actors can take alo
 Many choices in AI risk, like publishing a dangerous finding or releasing model weights, can be made by any one of many people or labs. If each acts on their own judgment, the most optimistic one sets the outcome. Knowing this helps you weigh others' restraint and coordinate before acting alone.
 
 ## Lenses
+- [[../Lenses/aaron-scher-the-unilateralists-curse-an-explanation|The Unilateralist's Curse, An Explanation]]: when the curse arises, why well-meaning actors with noisy estimates are enough, AI safety examples, and practical responses: find out why others hold back, decide jointly, defer, and treat others' restraint as evidence (June 2022).
+- [Horsepox synthesis: A case of the unilateralist's curse? (Bulletin of the Atomic Scientists)](https://thebulletin.org/2018/02/horsepox-synthesis-a-case-of-the-unilateralists-curse/): a real case where one team went ahead with research most peers thought too risky, and norms like "no-undercut" consultation so one permissive funder, journal or regulator can't decide for all (February 2018).
+- [The Unilateralist's Curse and the Case for a Principle of Conformity (Bostrom, Douglas & Sandberg)](https://nickbostrom.com/papers/unilateralist.pdf): the original paper; read sections 1–3 for the model, the reversed "spoiler" case where one veto decides, and three fixes: collective deliberation, adjusting your own estimate for others' restraint, and deferring in action (2016) (more advanced).
 
 ## Tests
 #### Question: Choice
@@ -22,8 +25,8 @@ id:: f2e3af71-7c33-4fb4-be65-9e9a38872d5f
 content:: What produces the unilateralist's curse?
 options::
 - [x] Random errors in estimates, with the most optimistic actor deciding
-- Actors putting their own gain ahead of the common good
-- Actors lacking information about the action's likely effects
+- Actors putting their own gain ahead of the common good of everyone
+- Actors systematically overestimating the benefits of taking the action
 - Actors copying each other's decisions instead of judging for themselves
 shuffle:: true
 
@@ -35,13 +38,13 @@ options::
 - Yes, the effect comes from a bias toward acting
 
 #### Question: Choice
-id:: 5ed99e69-5de9-43db-bcf7-10a80e0d8ecd
-content:: Five labs can each release a harmful tool alone. Each, independently, has a 10% chance of wrongly judging the release beneficial. Roughly how likely is it that at least one lab releases it?
+id:: af591887-7ab7-45c9-acc6-2ff72e23970d
+content:: More and more labs become able to release a harmful tool alone. Each is as careful as before, with the same small chance of wrongly judging the release beneficial. What happens to the chance that someone releases it?
 options::
-- [x] About 40%
-- About 10%
-- About 20%
-- About 50%
+- [x] It rises with each lab that gains the ability
+- It stays the same, since no lab is less careful
+- It falls, since more labs means more chances someone objects
+- It rises only if the new labs are less careful
 shuffle:: true
 
 #### Question: Choice
@@ -51,7 +54,7 @@ options::
 - [x] Any of several groups can publish a dangerous method
 - One company's board votes on releasing its model
 - Several labs release models competing for the same users
-- A researcher repeats an experiment to reduce random error
+- Several labs can release only if all of them agree
 shuffle:: true
 
 #### Question: Choice
@@ -76,7 +79,7 @@ id:: 93969877-8873-4db0-8750-ba60d44b4e51
 content:: Does the unilateralist's curse argument imply that you should drop an action as soon as any one other actor disagrees?
 options::
 - [x] No, it calls for weighing the group's views as a whole
-- Yes, any disagreement shows the action is harmful
+- Yes, deferring to the most cautious actor removes the problem
 
 #### Question: Choice
 id:: a1030beb-b726-4b2b-98e8-cb7bf8d079cb

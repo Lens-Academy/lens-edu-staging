@@ -12,7 +12,7 @@ Explain how AI companies' safety frameworks link required safeguards to dangerou
 ## Helpful first
 
 ## Why it matters
-Safety frameworks and voluntary pledges are how frontier AI companies say they will manage catastrophic risks, and so far governments have mostly relied on them. Knowing how they work and where they can fail helps you judge a company's safety claims and see what binding rules would need to add.
+Safety frameworks and voluntary pledges are how frontier AI companies say they will manage catastrophic risks. Governments mostly rely on them; a few laws, such as California's SB 53, now require large developers to publish and follow one. Knowing how they work and where they fail helps you judge companies' safety claims and what binding rules must add.
 
 ## Lenses
 - [[../Lenses/AI Safety Atlas - Evaluations - Evaluation Frameworks|Evaluation Frameworks]]: how Anthropic, OpenAI and Google DeepMind use evaluations as gates for scaling.
@@ -53,18 +53,28 @@ content:: In February 2026, version 3.0 of Anthropic's Responsible Scaling Polic
 options::
 - [x] A pause by one company does little if competitors keep going
 - Its models had been shown to be aligned, so pauses were unneeded
-- US law had come to forbid companies from pausing AI work
-- Its evaluations could no longer tell when thresholds were crossed
+- Governments had promised to impose any needed pause themselves
+- Outside auditors had judged its safeguards enough to rule out catastrophe
+shuffle:: true
+
+#### Question: Choice
+id:: 6c96d4bd-2cbb-47de-a9f5-b5001f5bca86
+content:: Meta's 2025 frontier AI framework said it would stop developing a model judged to pose critical risk. How did Meta change this rule when it revised the framework in April 2026?
+options::
+- [x] It allowed development to go on with mitigations in place
+- It handed the decision to stop to an outside safety institute
+- It extended the stop rule to models posing only high risk
+- It replaced the stop rule with a cap on training compute
 shuffle:: true
 
 #### Question: Choice
 id:: b8440201-7af1-4a6f-a7c9-096f34e347bb
 content:: At the AI Seoul Summit in May 2024, frontier AI companies signed the Frontier AI Safety Commitments. What did they commit to?
 options::
-- [x] Publish safety frameworks and not deploy a model if risks can't be kept below thresholds
-- Submit every new model to the UK AI Safety Institute for approval before release
-- Stop training any model above an agreed compute limit until 2026
-- Give the summit's host governments access to their models' weights
+- [x] Publish safety frameworks and not develop or deploy a model if risks can't be kept below thresholds
+- Submit every new model to the UK AI Safety Institute for approval before it is released to the public
+- Stop training any model above an agreed compute limit until an international treaty was in place
+- Give the summit's host governments access to the weights of their most capable models
 shuffle:: true
 
 #### Question: Choice

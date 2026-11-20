@@ -12,35 +12,39 @@ Name the main funders of AI safety work, give a rough size for their spending ne
 - [[Effective altruism]]
 
 ## Why it matters
-Funders decide which projects and people get to work on AI safety. Knowing who they are and how grants work helps you apply for support, spot gaps and see whose priorities shape the field. The small size of safety funding next to capabilities spending shows how thinly the field is stretched.
+Funders decide which projects and people get to work on AI safety. Knowing who they are and how grants work helps you apply for support, spot gaps and see whose priorities shape the field. Safety funding is growing fast, partly from AI-company wealth, but it is still well under 1% of what companies spend building more capable AI.
 
 ## Lenses
+- [We're urgently scaling our work on AI and biosecurity (Coefficient Giving)](https://coefficientgiving.substack.com/p/were-urgently-scaling-our-work-on): the largest philanthropic funder of AI safety on its own spending ($168m in 2024, $351m in 2025, on track for over $1bn in 2026) and how it is speeding up its grantmaking (September 2026).
+- [AI Safety Funder Bulletin (Manifund)](https://manifund.org/ais-funder-bulletin): a current directory of AI safety funders; read the "At a glance" table, then the profiles of Coefficient Giving, the Survival and Flourishing Fund, the Transformative AI Fund (formerly the Long-Term Future Fund), Manifund and the Astralis Foundation, for regranting, grants to individuals and funders that refuse AI company money (November 2026).
+- [Career Transition Grants (BlueDot Impact)](https://bluedot.org/programs/career-transition-grant): how a career-transition grant works in practice: $20k–$200k to work full-time on moving into AI safety for an agreed period, who qualifies and how applications are judged (2026).
+- [An Overview of the AI Safety Funding Situation (LessWrong)](https://www.lesswrong.com/posts/WGpFFJo2uFe5ssgEb/an-overview-of-the-ai-safety-funding-situation): Stephen McAleese's history of the main funders up to 2024, including the FTX Future Fund's collapse in 2022, the Long-Term Future Fund and how AI companies pay for their own safety teams; its figures are now well out of date (July 2023, updated January 2025).
 
 ## Tests
 
 #### Question: Choice
 id:: 7498e12e-2cf7-4c3f-ab68-c55853f23af9
-content:: As of 2025, which philanthropic funder had given the most money to AI safety work outside AI companies?
+content:: In 2025 and 2026, which philanthropic funder gave the most money to AI safety work outside AI companies?
 options::
 - [x] Coefficient Giving (formerly Open Philanthropy)
-- The Bill & Melinda Gates Foundation
-- The Wellcome Trust
-- The MacArthur Foundation
+- The Survival and Flourishing Fund (backed by Jaan Tallinn)
+- Longview Philanthropy
+- Schmidt Sciences (backed by Eric Schmidt)
 shuffle:: true
 
 #### Question: Choice
-id:: 3c494365-a689-438f-a1d0-91c2ab28478b
-content:: Roughly how much did philanthropic funders, all together, give to AI safety work in 2025?
+id:: aa33ada9-c607-411a-be60-62ea9a10a76e
+content:: As of late 2026, roughly how much were philanthropic funders, all together, expected to give to AI safety work in 2026?
 options::
-- [x] Between $100 million and $1 billion
-- About $10 million
-- Between $5 billion and $10 billion
-- Over $50 billion
+- [x] Between $1 billion and $3 billion
+- About $50 million
+- Between $10 billion and $20 billion
+- Over $100 billion
 shuffle:: true
 
 #### Question: Choice
 id:: d95c34d7-0f06-4996-8bfc-e942b6add04e
-content:: In 2025, how did philanthropic spending on AI safety compare with what large tech companies spent on building more capable AI, including data centres?
+content:: In 2026, how did philanthropic spending on AI safety compare with what large tech companies spent on building more capable AI, including data centres?
 options::
 - [x] It was well under 1% of it
 - It was about 10% of it
@@ -62,16 +66,16 @@ options::
 - [x] Living costs for a set period while the person upskills or tries safety work
 - A bonus paid once the person has been hired into a safety job
 - A loan the person repays from a later safety salary
-- Fees an AI company charges for access to its models
+- A salary top-up for people already in safety roles at AI companies
 shuffle:: true
 
 #### Question: Choice
-id:: ecb6f062-3ddf-48b5-b2f3-385ffd55c49c
-content:: Which of these is a fund that makes grants to individuals for AI safety projects and upskilling?
+id:: 65b838fd-2766-4999-b0ed-db39ef2d8367
+content:: As of late 2026, which of these is a fund that makes small grants to individuals and early-stage projects working on AI safety?
 options::
-- [x] The Long-Term Future Fund
+- [x] The Transformative AI Fund (successor to the Long-Term Future Fund)
 - The Alignment Forum
-- The Frontier Model Forum's member board
+- The AI Safety Index
 - Metaculus
 shuffle:: true
 
@@ -90,9 +94,19 @@ id:: 86c4a513-cd90-4731-b008-849eb61c2f22
 content:: Why do some organizations that evaluate or criticize frontier AI companies decline funding from those companies?
 options::
 - [x] To stay independent of the companies they assess
-- Because company grants cannot legally pay salaries
-- Because company grants are taxed more heavily than philanthropic ones
+- Because company grants are usually too small to be worth applying for
+- Because philanthropic funders forbid their grantees from taking company money
 - Because companies only fund research on capabilities
+shuffle:: true
+
+#### Question: Choice
+id:: 8e6a1739-fecb-485e-a604-0432265062eb
+content:: As of 2026, much of the expected growth in philanthropic funding for AI safety comes from which source?
+options::
+- [x] Wealth created by AI companies, such as OpenAI's foundation and Anthropic staff equity
+- Government science budgets passed on to charities as grants
+- Small donations from the public through crowdfunding sites
+- Fines and legal settlements paid by AI companies
 shuffle:: true
 
 #### Question: FillBlank

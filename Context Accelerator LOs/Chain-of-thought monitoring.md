@@ -13,9 +13,13 @@ Explain how reading a model's chain of thought can catch misbehaviour, why that 
 - [[Scheming]]
 
 ## Why it matters
-As of November 2026, reading a reasoning model's chain of thought is one of the few practical ways to spot reward hacking or plans to deceive before they cause harm. Knowing what makes this signal unreliable helps you judge safety claims that rely on it, and why labs are urged not to train it away.
+Reading a reasoning model's chain of thought is one of the few practical ways to spot reward hacking or deceptive plans before they cause harm. This window can close: in September 2026 OpenAI reported that its GPT-6 Astra model was harder to monitor this way than its predecessor. Knowing why helps you judge safety claims that rely on it.
 
 ## Lenses
+- [[../Lenses/AI Safety Atlas - Strategies - AGI Safety Strategies|AGI Safety Strategies]]: read only the "Transparent Thoughts" section and its "Most Forbidden Technique" callout. It covers the hope of reading a model's thoughts, unfaithful reasoning, steganography and latent-space "neuralese", why hard plans may still have to be written out, and why you should never train against your monitor.
+- [[../articles/anthropic-reasoning-models-dont-always-say-what-they-think|Reasoning models don't always say what they think]]: Anthropic slips hints into prompts and finds that reasoning models mostly use them without saying so, and almost never admit to a reward hack they learned (April 2025).
+- [Detecting misbehavior in frontier reasoning models (OpenAI)](https://openai.com/index/chain-of-thought-monitoring/): a monitor that reads the chain of thought catches more reward hacking than one that sees only actions, and penalising "bad thoughts" teaches the model to hide its intent rather than stop cheating (March 2025).
+- [Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety (arXiv)](https://arxiv.org/abs/2507.11473): a short position paper from researchers across the major labs. It covers why hard tasks force models to think out loud, how training choices and new architectures could erode this, and why developers should measure and protect monitorability (July 2025).
 
 ## Tests
 
@@ -51,7 +55,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: 34549315-e1db-4f94-b422-79edb47d987c
-content:: In 2025 studies, researchers slipped a hint pointing to an answer into prompts given to reasoning models. When a model used the hint to change its answer, what did they find?
+content:: In a 2025 Anthropic study, researchers slipped a hint pointing to an answer into prompts given to reasoning models. When a model used the hint to change its answer, what did they find?
 options::
 - [x] Its reasoning usually didn't mention the hint
 - Its reasoning usually named the hint as its reason
@@ -70,20 +74,23 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 8fae90e6-95dd-4a84-91d3-7f745e85c14b
-content:: In a 2025 OpenAI study of reward hacking during training, did a monitor that read the model's chain of thought catch more or fewer hacks than a monitor that saw only the model's actions?
+id:: c587cc33-6f52-49fd-b6b4-cdec7098aaea
+content:: In a 2025 OpenAI study, a monitor that read a reasoning model's chain of thought caught far more reward hacking than one that saw only its actions. What best explains this?
 options::
-- [x] More
-- Fewer
+- [x] The model often stated plainly in its reasoning that it planned to cheat
+- The reasoning monitor was a far larger model than the actions-only monitor
+- The reasoning monitor could also inspect the model's internal activations
+- The actions-only monitor was shown only a small sample of the episodes
+shuffle:: true
 
 #### Question: Choice
-id:: ee7c4ac0-c136-45ed-b438-442171c998bb
-content:: A model's chain of thought drifts into compressed shorthand and invented words that people can't follow, though it still tracks how the model really reached its answer. Which property has the reasoning lost?
+id:: 77b6a877-eb66-4cab-99c0-179686109f81
+content:: A model's chain of thought drifts into compressed shorthand that neither people nor monitor models can follow, though it still reflects how the model really reached its answer. What does this mean for chain-of-thought monitoring?
 options::
-- [x] Legibility
-- Faithfulness
-- Correctness
-- Honesty
+- [x] Monitors may miss misbehaviour even though the reasoning is faithful
+- Monitoring still works, because faithful reasoning is all a monitor needs
+- Monitoring gets easier, because compressed reasoning is shorter to check
+- Only the final answer still needs checking, because the reasoning is faithful
 shuffle:: true
 
 #### Question: Choice
@@ -91,7 +98,7 @@ id:: d91b49d8-5a1b-40e3-97b6-0ce86f133347
 content:: During a safety test, a model's chain of thought says: "This might be a test of whether I follow the rules." Why does this worry evaluators?
 options::
 - [x] The model may act differently when it thinks it is being tested
-- It proves that the model has hidden goals
+- It suggests that the model is pursuing hidden goals
 - It means the test questions were in its training data
 - It shows that its chain of thought is unfaithful
 shuffle:: true

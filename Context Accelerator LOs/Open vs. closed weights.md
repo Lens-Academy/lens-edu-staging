@@ -16,6 +16,10 @@ Explain what releasing a model's weights openly means, including running models 
 Decisions to release weights can't be undone, and they shape who can use, study and misuse powerful AI. Knowing the arguments on each side helps you follow and contribute to one of the most contested AI policy questions, instead of treating "open" as simply good or simply dangerous.
 
 ## Lenses
+- [[../Lenses/AI Safety Atlas - Strategies - Misuse Prevention Strategies|Misuse Prevention Strategies]]: the spectrum from closed to fully open release, what an API lets a developer do (filter, monitor, patch, revoke), and why openness both spreads and concentrates power; read "External Access Controls" and open the callouts "Ensuring a positive offense-defense balance" (the main arguments for and against openness) and "The impossible challenge of creating tamper-resistant safeguards" (2026).
+- [Open Source AI is the Path Forward (Meta)](https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/): Mark Zuckerberg's case for open weights, from innovation, cost and running models on your own servers to spreading power and safety through scrutiny; the open side in its leading proponent's words, though Meta has since said it will be more careful about what it opens (July 2024).
+- [On the Societal Impact of Open Foundation Models (AI Snake Oil)](https://www.normaltech.ai/p/on-the-societal-impact-of-open-foundation): Kapoor and Narayanan on what open weights make possible and why the question to ask is "marginal risk", the extra risk over closed models and tools people already have; written before newer models raised biorisk concerns (February 2024).
+- [Managing risks from increasingly capable open-weight AI systems (UK AI Security Institute)](https://www.aisi.gov.uk/work/managing-risks-from-increasingly-capable-open-weight-ai-systems): why open releases can't be rolled back and safeguards can be cheaply removed, and which mitigations, such as filtering training data and full-access audits, still help (August 2025).
 
 ## Tests
 
@@ -35,8 +39,8 @@ content:: Someone downloads an open-weights model and runs it on their own lapto
 options::
 - [x] The developer can't see or block what they ask it.
 - The developer can still filter its answers remotely.
-- The model stops working until it passes an online licence check.
-- The model stores a log of each conversation for the developer.
+- The developer can switch the model off if it is misused.
+- Their conversations are logged on the developer's servers.
 shuffle:: true
 
 #### Question: Choice
@@ -47,6 +51,16 @@ options::
 - Publish a warning about the capability.
 - Stop training future versions of the model.
 - Report the problem to regulators.
+shuffle:: true
+
+#### Question: Choice
+id:: f27e5afa-bad2-444a-97e5-5fe48b508fbb
+content:: In 2026, the most capable open-weights models trailed the most capable closed models by about four months on average. What does this mean for the open vs. closed debate?
+options::
+- [x] Capabilities first seen in closed models may soon be in models anyone can run and modify.
+- Closed developers can count on staying years ahead of anything released openly.
+- Open-weights models are too far behind the frontier to matter for misuse.
+- Only closed models now need safety testing before they are released.
 shuffle:: true
 
 #### Question: Choice
@@ -65,18 +79,18 @@ content:: Which of these is an argument usually made in favour of releasing mode
 options::
 - [x] Outside researchers can study the model's internals for safety research.
 - Developers can monitor how the model is being misused.
-- The release can be undone if problems appear.
+- Safety fixes can be pushed to every user at once.
 - Fewer groups gain access to the most capable AI.
 shuffle:: true
 
 #### Question: Choice
-id:: d9b86c85-c945-4103-8136-46bae5f6bdb8
-content:: In the debate over open-weights AI models, what does "marginal risk" refer to?
+id:: d62d9b1a-a00c-4842-888e-69eb73972198
+content:: A critic warns that an open-weights model can help people carry out cyberattacks. A supporter of open release replies that the same help is already easy to find online. Which finding would most weaken the supporter's reply?
 options::
-- [x] The extra risk compared with tools people already have.
-- The risk from the smallest model in a release.
-- The risk left over after safety training.
-- The risk to people outside the developer's country.
+- [x] Tests show the model gives real help beyond what online searches give.
+- Closed models can give the same help when asked in the right way.
+- The model learned most of what it knows from public web pages.
+- The model sometimes gives wrong answers about cyberattacks.
 shuffle:: true
 
 #### Question: Choice
@@ -96,9 +110,15 @@ options::
 - Both favour open weights.
 shuffle:: true
 
-#### Question: FillBlank
-id:: c43cba71-7069-4b3d-8171-d675fa310c21
-content:: A model whose weights are kept private, so people can only use it through the developer's app or API, is called a {{closed|closed-weights|closed-weight|proprietary}} model.
+#### Question: Choice
+id:: 200d12fa-670f-42a9-834e-59156613ffb4
+content:: Which view is shared by many people on both sides of the open vs. closed weights debate, including some leading open-weights developers?
+options::
+- [x] Whether to release a model openly should depend on how dangerous its capabilities are.
+- Any model can be released openly once its developer has finished safety training.
+- A model is safe to release openly once it is a few months behind the frontier.
+- Open release makes little difference, because closed models' weights usually leak.
+shuffle:: true
 
 #### Question: Open
 id:: bfded5e2-de2d-482c-8d73-607b47c391d3

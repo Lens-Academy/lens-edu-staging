@@ -14,6 +14,10 @@ Name the main forums, newsletters, podcasts and social media where AI risk is di
 Many new ideas, debates and openings in AI safety appear in these venues before they reach papers or the press. Knowing which community uses which venue helps you hear more than one side, and tells you where to post your own work so the right people read it.
 
 ## Lenses
+- [AI safety media: newsletters, podcasts, forums and more (AISafety.com)](https://www.aisafety.com/stay-informed): a current list of over 80 AI safety blogs, newsletters, podcasts, forums and X lists, each with one line on what it covers and the top picks marked; skim it and pick two or three to follow (2026).
+- [LessWrong FAQ (LessWrong)](https://www.lesswrong.com/faq): how LessWrong works; read "What are Curated posts?", "What is the AI Alignment Forum (AIAF) and what does it have to do with LessWrong?" and the "Karma & Voting" section on why votes from high-karma users count more.
+- [Alignment Forum FAQ (AI Alignment Forum)](https://www.alignmentforum.org/faq): who can post directly to the Alignment Forum (a small group of invited members), how everyone else gets posts promoted from LessWrong or through review, and how people become members (August 2021).
+- [AI Safety and Neighboring Communities: A Quick-Start Guide (LessWrong)](https://www.lesswrong.com/posts/EFpQcBmfm2bFfM4zM/ai-safety-and-neighboring-communities-a-quick-start-guide-as): Sam Bowman's map of the AI safety, effective altruism, rationalist, AI ethics and AI governance communities, how they relate and where they meet; a 2022 snapshot, so some funders and names are out of date (September 2022).
 
 ## Tests
 
@@ -61,40 +65,40 @@ shuffle:: true
 id:: cc3e52a8-9057-4bb9-8fa7-b379e66afe9a
 content:: What does Import AI, the long-running newsletter by Anthropic co-founder Jack Clark, mainly cover?
 options::
-- [x] Summaries of recent AI research papers, with commentary
+- [x] Recent AI research papers, with commentary
 - Weekly listings of AI safety jobs and grants
 - Interviews with AI company executives
 - Debates between forum members on AI risk
 shuffle:: true
 
 #### Question: Choice
-id:: a03e9479-17d5-4aba-b2cc-6b5c362be667
-content:: What does Transformer, the publication founded by journalist Shakeel Hashim, mainly cover?
+id:: 7a0f8d27-4cf0-45d5-ac66-83666d188fa9
+content:: You want weekly news and analysis of AI policy and safety, such as new bills, government actions and company safety decisions. Which of these fits best?
 options::
-- [x] News and analysis on AI policy and safety
-- Tutorials on building machine learning models
-- Technical alignment research by its own staff
-- Forecasts of AI timelines from a prediction market
+- [x] Transformer
+- AXRP
+- The Alignment Forum
+- LessWrong
 shuffle:: true
 
 #### Question: Choice
-id:: 67095563-2b7e-455d-a9c8-34777fab3c44
-content:: What does the 80,000 Hours Podcast mainly feature?
+id:: b634583f-bf2d-40a9-b3c5-b6728b7a5e44
+content:: As of November 2026, what does the 80,000 Hours Podcast mainly feature?
 options::
-- [x] Long interviews on major global problems and careers tackling them
+- [x] Long interviews, mostly on AI risk and how to work on it
 - Short daily summaries of news from the AI industry
 - Recorded lectures from university machine learning courses
-- Debates between the heads of frontier AI companies
+- Live debates between the heads of frontier AI companies
 shuffle:: true
 
 #### Question: Choice
-id:: 78f23c88-38fa-42a7-abef-f0dc7b0592ef
-content:: On LessWrong and the EA Forum, what does a post's karma score reflect?
+id:: d0e34db0-9268-47b0-aa1f-5d558483aab5
+content:: A post on LessWrong or the EA Forum has a very high karma score. What does that mainly tell you?
 options::
-- [x] Votes from users, with high-karma users' votes counting more
-- A moderator's rating of how accurate the post is
-- How many people have read the post
-- How many posts the author has written
+- [x] Many of the site's users, especially established ones, voted for it
+- The site's moderators have checked that its claims are accurate
+- Experts outside the community broadly agree with its conclusions
+- It has been read more widely than most posts on the site
 shuffle:: true
 
 #### Question: Choice
@@ -115,4 +119,4 @@ assessment-instructions:: Score out of 100. 100 for saying LessWrong mainly refl
 #### Question: Open
 id:: a231cee8-c446-477f-b8d5-8fba4072ee90
 content:: Name one newsletter or podcast you could follow to keep up with AI safety, and say what it mainly covers.
-assessment-instructions:: Score out of 100. 100 for any real venue with an accurate description, for example: Import AI (AI research summaries), Don't Worry About the Vase by Zvi Mowshowitz (long weekly AI news roundups and commentary), the AI Safety Newsletter from the Center for AI Safety (safety news summaries), Transformer (AI policy and safety news), the 80,000 Hours Podcast, AXRP (interviews with alignment researchers), Dwarkesh Podcast. 50 for a real venue with a vague or wrong description.
+assessment-instructions:: Score out of 100. 100 for any real venue with an accurate description, for example: Import AI (AI research summaries), Don't Worry About the Vase by Zvi Mowshowitz (long weekly AI news roundups and commentary), the AI Safety Newsletter from the Center for AI Safety (safety news summaries), Transformer (AI policy and safety news), the 80,000 Hours Podcast (long interviews, now mostly on AI risk), AXRP (interviews with alignment researchers), Dwarkesh Podcast (long interviews with AI researchers, lab leaders and others). 50 for a real venue with a vague or wrong description.

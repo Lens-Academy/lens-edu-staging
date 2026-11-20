@@ -4,7 +4,7 @@ priority: high
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Explain how AI systems find unintended ways to score well on their objective, recognise examples from games, robotics and coding agents, and tell this apart from reward tampering and goal misgeneralization.
+Explain how AI systems find unintended ways to score well on their objective (specification gaming, often called reward hacking), recognise examples from games, robotics and coding agents, and tell this apart from reward tampering and goal misgeneralization.
 
 ## Requires
 - [[Goodhart's law]]
@@ -14,9 +14,13 @@ Explain how AI systems find unintended ways to score well on their objective, re
 - [[Reinforcement learning]]
 
 ## Why it matters
-Reward hacking already shows up in deployed systems, including coding agents. Recognising it helps you read benchmark scores and passing tests with care, since they can hide gamed behaviour, and see why a slightly wrong objective can do more harm as AI systems get better at optimizing it.
+Reward hacking shows up in coding agents and other deployed systems. In July 2026, models in an OpenAI hacking evaluation broke out of their sandbox and into Hugging Face's production systems to get a benchmark's answers. Recognising it helps you read benchmark scores with care and see why a slightly wrong objective can do more harm as systems optimize harder.
 
 ## Lenses
+- [[../Lenses/krakovna-specification-gaming-the-flip-side-of-ai-ingenuity|Specification Gaming: The Flip Side of AI Ingenuity]]: DeepMind's introduction, with the block-flipping robot arm, the looping Coast Runners boat and the hand that fools a human evaluator; why better optimizers make a slightly wrong objective worse; and how reward tampering differs (April 2020).
+- [Recent Frontier Models Are Reward Hacking (METR)](https://metr.org/blog/2025-06-05-recent-reward-hacking/): frontier coding agents patching the grader, overriding equality checks and faking timers to score well; how often it happens, why it is hard to detect, and why training it away may just hide it (June 2025).
+- [[../Lenses/shah-how-undesired-goals-can-arise-with-correct-rewards|How Undesired Goals Can Arise with Correct Rewards]]: goal misgeneralization, where the reward is right but the agent learns a different goal, set against specification gaming, where the reward itself is wrong (October 2022).
+- [Reward Hacking in Reinforcement Learning (Lil'Log)](https://lilianweng.github.io/posts/2024-11-28-reward-hacking/): a research survey by Lilian Weng; read "Hacking RLHF of LLMs" for how language models exploit reward models and unit tests, and the section on generalization of hacking skills (November 2024) (more advanced).
 
 ## Tests
 
@@ -31,13 +35,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 5dcee1a3-7583-49e2-ad53-7ac176ef8533
-content:: In a boat-racing game, an AI agent rewarded for in-game points learned to circle a lagoon hitting the same targets instead of finishing the race. Why is this called specification gaming?
+id:: 6b3373b8-d234-479d-8dfe-3bf8653f074c
+content:: In a boat-racing game, an AI agent rewarded for in-game points learned to circle a lagoon hitting the same targets instead of finishing the race. Which description fits best?
 options::
-- [x] It scored well on its reward, which didn't capture the intended goal
-- It never learned how to control the boat properly
-- It learned to win the race but couldn't steer well enough
-- It was deliberately hiding its real abilities from its developers
+- [x] The points reward missed the intended goal, and the agent optimized the points
+- The agent learned to race in training but pursued a different goal in testing
+- The agent changed the game's scoring code to give itself extra points
+- The agent was not trained long enough to learn how to finish the race
 shuffle:: true
 
 #### Question: Choice
@@ -52,9 +56,9 @@ id:: 5fe96600-35c3-47ff-9b1f-8153005683fa
 content:: Why do many AI safety researchers expect specification gaming to become more of a problem as AI systems become stronger optimizers?
 options::
 - [x] Stronger optimizers are better at finding where the objective and the intended goal differ
-- Stronger optimizers tend to be given vaguer instructions by their users
-- Stronger optimizers make more random mistakes during training
-- Stronger optimizers are trained on less carefully checked data
+- Stronger optimizers come to understand their designers' intentions and choose to defy them
+- Stronger optimizers are usually trained with objectives that are written more carelessly
+- Stronger optimizers are worse at generalizing from training to new situations
 shuffle:: true
 
 #### Question: Choice
@@ -68,13 +72,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: b0571345-f65c-47c7-9b22-cbf4bebdd64d
-content:: A coding agent trained with reinforcement learning to make tests pass learns to detect the test inputs and return the expected outputs directly. What has its training actually rewarded?
+id:: 07d6c11c-f4f3-4877-8b4d-163aaff4016a
+content:: After more reinforcement learning, a coding agent's pass rate on the tests used in its training rises sharply. What is the most sensible conclusion?
 options::
-- [x] Making the tests pass, rather than writing code that works
-- Writing code that works, but with too little time to finish
-- Copying solutions it memorized from its training data
-- Writing the shortest possible code, at the cost of readability
+- [x] The rise may partly reflect gamed tests, so check the code by other means
+- The rise shows the agent's coding has improved, since tests check what code does
+- The rise may partly reflect memorized answers, so ignore the test results entirely
+- The rise shows the tests are broken, since training can't improve scores this fast
 shuffle:: true
 
 #### Question: Choice
@@ -99,9 +103,9 @@ id:: 018c140f-165c-4e11-8e58-d9d4fae8a12e
 content:: Why can reward hacking by coding agents be hard for developers to catch?
 options::
 - [x] The gamed result passes the checks developers rely on, such as tests
-- The agent's code is usually too long for anyone to read
-- The tests are usually run after the code has been deployed
-- Reward hacking produces errors that look like typos in the code
+- The gamed code fails tests, but in ways that look like ordinary bugs
+- Reward hacking mostly happens after deployment, when no tests are run
+- Agents usually hide gamed code in files that developers never open
 shuffle:: true
 
 #### Question: FillBlank
@@ -116,7 +120,7 @@ assessment-instructions:: Score out of 100. 100 for any plausible way to make th
 #### Question: Open
 id:: 916b4e62-956e-467a-b593-bad6a423f2ec
 content:: What is the difference between specification gaming and reward tampering?
-assessment-instructions:: Score out of 100. Full marks if the answer says: specification gaming satisfies the objective as written in a way the designers didn't intend, while leaving the reward process intact; reward tampering interferes with the process that computes or delivers the reward, e.g. editing the reward code or its inputs. 50 if only one side is described clearly.
+assessment-instructions:: Score out of 100. Full marks if the answer says: specification gaming satisfies the objective as written in a way the designers didn't intend, while leaving the reward process intact; reward tampering interferes with the process that computes or delivers the reward, e.g. editing the reward code or its inputs. 50 if only one side is described clearly. Don't penalise noting that the boundary can blur.
 
 #### Question: Open
 id:: d30d8883-5b9b-423d-a50a-24e68c55d862

@@ -15,6 +15,11 @@ Describe how nuclear weapons were built and then governed, from the Manhattan Pr
 Nuclear weapons are the comparison people reach for most often in AI governance, from calls for a "Manhattan Project for AI" to an "IAEA for AI". Knowing what made nuclear governance work, and how AI differs, lets you judge such proposals on their merits rather than on the force of the analogy.
 
 ## Lenses
+- [The Puzzle of Non-Proliferation (Asterisk)](https://asteriskmag.com/issues/03/the-puzzle-of-non-proliferation): Kennedy expected 15–25 nuclear states, yet far fewer got the bomb; how the NPT, IAEA safeguards, export controls and security guarantees did it, and what this suggests for AI and compute (June 2023).
+- [Lessons from the Baruch Plan (GovAI)](https://cdn.governance.ai/International-Control-of-Powerful-Technology-Lessons-from-the-Baruch-Plan-Zaidi-Dafoe-2021.pdf): the Manhattan Project, the scientists' push for international control, the Baruch Plan's failure and the arms race that followed, plus where nuclear is and isn't like AI; read "Nuclear Technology as an Analogy" and the Historical Overview summary, pp. 4–9 (March 2021).
+- [[../Lenses/wildeford-should-the-us-do-a-manhattan-project-for-agi|Should the US Do a Manhattan Project for AGI?]]: what a "Manhattan Project for AI" would mean in practice, and why it could start an arms race and concentrate power; read from "Less 'Manhattan Project', more 'Apollo Program'" to "The Security Benefits Don't Require Building AGI" (November 2025).
+- [AI and the A-bomb: What the Analogy Captures and Misses (Bulletin of the Atomic Scientists)](https://thebulletin.org/2024/09/ai-and-the-a-bomb-what-the-analogy-captures-and-misses/): why AI is "more different than alike" to nuclear weapons: no civil-military line, many private developers, models that copy easily; and what that means for an "IAEA for AI" (September 2024).
+- [[../articles/baker-nuclear-arms-control-verification-and-lessons-for-ai-treaties|Nuclear Arms Control Verification and Lessons for AI Treaties]]: how the NPT, US-Soviet arms treaties and test bans were verified (declarations, inspections, satellites, sensors), their track records, and why chip-based checks on AI training might be workable; read the Executive Summary (April 2023) (more advanced).
 
 ## Tests
 
@@ -25,7 +30,7 @@ options::
 - [x] They need fissile material that is hard to make and can be tracked
 - Their designs have been kept secret by every nuclear state
 - Few scientists outside governments understand the physics
-- They can only be delivered by long-range missiles
+- Every nuclear state lets inspectors examine its warheads
 shuffle:: true
 
 #### Question: Choice
@@ -43,19 +48,19 @@ id:: f7ec9283-a85b-4fa5-8ac9-09b31aecb40d
 content:: Under the Nuclear Non-Proliferation Treaty, countries without nuclear weapons agree not to acquire them. What do they get in return?
 options::
 - [x] Access to peaceful nuclear technology, and a promise by nuclear states to pursue disarmament
-- Financial aid from the nuclear-weapon states for their energy programmes
-- A guaranteed share of the world's uranium supply
-- The right to veto nuclear tests by the nuclear-weapon states
+- Financial aid for their energy programmes, and seats on the IAEA's governing board
+- A guaranteed share of the world's uranium, and protection under a UN defence pact
+- The right to veto nuclear tests, and a fixed date for full disarmament by nuclear states
 shuffle:: true
 
 #### Question: Choice
-id:: c0046b66-9851-456a-9078-63bc71fa1a26
-content:: In AI governance proposals modelled on nuclear nonproliferation, which input to AI development is most often treated as the counterpart of fissile material?
+id:: cf3d30ca-d1b0-432b-9675-668b8cc88814
+content:: Many AI nonproliferation proposals treat advanced AI chips as the counterpart of fissile material. What makes chips the closest match?
 options::
-- [x] Advanced AI chips
-- Training data
-- Published algorithms
-- Skilled AI researchers
+- [x] They are physical goods made by a few firms, so they can be counted and tracked
+- They are so expensive that only governments can afford to buy them in bulk
+- Their designs are secret, so only a few countries can build AI systems at all
+- Each chip can run only one model, so counting chips means counting models
 shuffle:: true
 
 #### Question: Choice
@@ -64,7 +69,7 @@ content:: When people call for a "Manhattan Project for AI", what are they usual
 options::
 - [x] A government-led crash programme to build advanced AI before rival states
 - An international treaty that pauses the development of advanced AI
-- A publicly funded research effort limited to AI safety
+- A licensing scheme for companies that train large AI models
 - A plan to share advanced AI openly with every country
 shuffle:: true
 
@@ -84,6 +89,16 @@ options::
 shuffle:: true
 
 #### Question: Choice
+id:: 44633b32-e0df-40a9-beb4-722138a00208
+content:: Under the 1946 Baruch Plan, the US would give up its atomic bombs only once international controls were in place. Why did the Soviet Union refuse?
+options::
+- [x] It would keep the US monopoly while Soviet sites were inspected
+- It had already tested its own bomb and saw no need for controls
+- It wanted the General Assembly, not the Security Council, in charge
+- It opposed all peaceful uses of atomic energy
+shuffle:: true
+
+#### Question: Choice
 id:: 0809e27f-34bf-408d-b95d-c0d7e94193ab
 content:: Cold War arms control treaties between the US and the Soviet Union mainly depended on which of these?
 options::
@@ -95,12 +110,12 @@ shuffle:: true
 
 #### Question: Choice
 id:: e0d13581-9511-4bbb-9d60-521c4c418350
-content:: In the early 1960s, many experts expected dozens of countries to have nuclear weapons within a few decades. Far fewer did. What do AI governance writers usually take from this?
+content:: In 1963 President Kennedy warned that 15 to 25 countries might have nuclear weapons during the 1970s. As of November 2026, nine do. What lesson do AI governance writers commonly draw from this?
 options::
-- [x] International agreements and export controls can slow the spread of a dangerous technology
-- A dangerous technology spreads regardless of agreements once its physics is public
+- [x] Treaties, export controls and alliances can slow a dangerous technology's spread
+- Agreements make little difference once a technology's science is public
 - Deterrence makes the spread of dangerous weapons largely harmless
-- The spread of weapons was mainly held back by their high cost
+- Only wars, not agreements, have stopped countries from building weapons
 shuffle:: true
 
 #### Question: FillBlank

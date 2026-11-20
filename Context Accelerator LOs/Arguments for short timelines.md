@@ -4,7 +4,7 @@ priority: medium
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Explain the main arguments that AGI could arrive within a few years, from capability and compute trends to automated AI research, and say what each argument assumes.
+Explain the main arguments that AGI could arrive within a few years, from capability and compute trends to evidence that AI is already speeding up AI research, and say what each argument assumes.
 
 ## Requires
 - [[Timeline forecasts]]
@@ -14,9 +14,12 @@ Explain the main arguments that AGI could arrive within a few years, from capabi
 - [[Automated AI research]]
 
 ## Why it matters
-Many people assume AGI is decades away. If it could come within a few years, safety work, policy and career plans would need to move much faster. Knowing the strongest case for short timelines, and what it rests on, lets you weigh it against the case for long timelines rather than dismiss it out of hand.
+Forecasts have moved much earlier. As of November 2026, some forecasters close to the AI labs expect AI better than top human AI researchers during 2027, partly because AI is already speeding up AI research. AI researchers surveyed in late 2024 gave 50% odds of human-level AI by 2042. Knowing what the short-timelines case rests on lets you weigh it.
 
 ## Lenses
+- [The case for AGI by 2030 (80,000 Hours)](https://80000hours.org/agi/guide/when-will-agi-arrive/): Benjamin Todd's case that AGI is plausible by 2030, from compute growth, reasoning models, agents and task-length trends to AI speeding up AI research, plus the case against and why progress may slow after about 2030 if AGI hasn't arrived (updated October 2026).
+- [What the hell happened with AGI timelines in 2026? (80,000 Hours Podcast)](https://80000hours.org/podcast/episodes/2026-agi-timelines/): Rob Wiblin on the 2026 evidence for shorter timelines and its limits; listen to or read 00:09:54–00:23:02, on the METR task-length graph, the capability jump, and AI starting to build itself (August 2026).
+- [[../Lenses/AIF - AI Futures Model Dec 2025|AI Futures Model]]: the AI 2027 team's quantitative model of when coding and AI research get automated, and which assumptions drive it (December 2025) (more advanced).
 
 ## Tests
 
@@ -31,13 +34,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 78719448-ab11-4a87-a755-8560196fc74e
-content:: Suppose AI agents can complete tasks that take a human 2 hours, and this task length doubles every 7 months. If the trend holds, about when could they complete 40-hour (one work week) tasks?
+id:: 9473bd42-671a-4762-9c11-7ebec47df2ba
+content:: In November 2026 METR, an independent evaluator, published an assessment of how fast Anthropic is improving its AI models. What did it find?
 options::
-- [x] In about 2.5 years
-- In about 1 year
-- In about 6 years
-- In about 12 years
+- [x] About twice its 2024-25 pace, with most of the speed-up put down to Anthropic's own use of AI
+- About its 2024-25 pace, since gains from using AI were offset by shortages of compute
+- About twice its 2024-25 pace, with most of the speed-up put down to more training compute
+- About ten times its 2024-25 pace, with AI now doing nearly all of the research
 shuffle:: true
 
 #### Question: Choice
@@ -52,7 +55,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: ca1de943-c179-45ff-8833-c8816196af61
-content:: In the argument that automated AI research could shorten AGI timelines, what must AI be able to do for the speed-up to begin?
+content:: In the argument that automated AI research could shorten AGI timelines, what must AI be able to do for the speed-up to become large?
 options::
 - [x] Do a large share of AI research work, such as coding and running experiments
 - Match top humans across most cognitive tasks
@@ -81,18 +84,24 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 1d2cd682-dc1f-4ac2-a826-773b8d8eeaa9
-content:: Do most arguments for AGI within a few years depend on a new scientific breakthrough beyond current AI methods?
+id:: 9b6bc151-aff8-4b6a-a022-7e527dcf14fc
+content:: What do most arguments for AGI within a few years assume about how it will be built?
 options::
-- Yes
-- [x] No
+- [x] Scaling up and refining current AI methods will be enough
+- A fundamentally new AI architecture will be invented first
+- Governments will fund a large crash programme to build it
+- Quantum computers will supply the extra compute needed
+shuffle:: true
 
 #### Question: Choice
-id:: af62de0b-2872-4162-8add-65a92e519008
-content:: As of November 2026, have Metaculus community forecasts of when general AI will arrive moved earlier or later since 2020?
+id:: cbf7c48f-a1de-4476-a710-fce6c293c03f
+content:: As of late 2026, how do forecasts of when AI will match or beat humans at most work compare between forecasters close to the AI labs and surveys of AI researchers?
 options::
-- [x] Earlier
-- Later
+- [x] Lab-adjacent forecasters mostly say within a few years; surveyed researchers say around the 2040s
+- Surveyed researchers mostly say within a few years; lab-adjacent forecasters say around the 2040s
+- Both groups now give a similar date, around 2030
+- Both groups have moved their dates later since 2024
+shuffle:: true
 
 #### Question: FillBlank
 id:: 942d4df0-8a0a-4be2-bb36-15253d892677
@@ -101,7 +110,7 @@ content:: Epoch AI estimated in 2024 that the training compute of frontier AI mo
 #### Question: Open
 id:: 7ed511b3-675e-4779-9092-b64740e45c2c
 content:: A friend says: "AGI is decades away; today's AI is just fancy autocomplete." In two or three sentences, give the main points someone who expects short timelines would reply with.
-assessment-instructions:: Score out of 100. 100 for any two relevant points: fast measured capability gains (benchmarks, task-length trend, agents doing real coding work); continued growth in compute and investment with scaling; AI automating AI research and speeding it up; forecasters' timelines moving earlier. 50 for one point. 0 for points that only restate that AI is impressive.
+assessment-instructions:: Score out of 100. 100 for any two relevant points: fast measured capability gains (benchmarks, task-length trend, agents doing real coding work); continued growth in compute and investment; AI already measurably speeding up AI research, which could compound; forecasters' timelines moving earlier. 50 for one point. 0 for points that only restate that AI is impressive.
 
 #### Question: Open
 id:: 7e84e7b1-0edd-417a-bf25-f89ac94eebfc

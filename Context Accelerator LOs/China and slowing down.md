@@ -13,9 +13,14 @@ Explain the argument that slowing AI development would hand the lead to China, t
 ## Helpful first
 
 ## Why it matters
-The China argument is often the first reply to any proposal to slow AI development, from safety rules to a pause. If you can state it fairly and know the replies, you can tell which proposals it really undermines, such as a US-only pause, and which it doesn't, such as a verified international agreement.
+The China argument is often the first reply to any proposal to slow AI development, from safety rules to a pause. If you can state it fairly and know the replies, you can tell which proposals it hits hardest, such as a US-only pause, and where it instead turns on whether China would keep a verified agreement.
 
 ## Lenses
+- [Every Debate On Pausing AI (Astral Codex Ten)](https://www.astralcodexten.com/p/every-debate-on-pausing-ai): Scott Alexander's short dialogue in which "China will win" meets the reply that pause advocates want a mutual, monitored US–China pause, not a unilateral one (March 2026).
+- [We Must Pace the Frontier (Dario Amodei)](https://darioamodei.com/post/we-must-pace-the-frontier): the case from Anthropic's CEO that slowing at home is limited by the US lead over China, backed by chip export controls and curbs on distillation, plus a ladder of possible US–China deals compared to the SALT treaties, where verification is the hard part; read "Pacing Within Democracies" and "Global Pacing" (September 2026).
+- [China Rejects Amodei's AI Slowdown Call (Rest of World)](https://restofworld.org/2026/china-rejects-dario-amodei-anthropic-ai-slowdown-trump-xi/): how Chinese officials, state media, analysts and engineers answered that essay: a slowdown paired with chip controls reads as a plan to keep China behind, though China might pace on other terms (September 2026).
+- [[../Lenses/IABIED - QA - Nations Reject Ban|Wouldn't Some Nations Reject a Ban?]]: Yudkowsky and Soares on why, if superintelligence is a race to suicide, no country wins it, and on monitoring, enforcement and the nuclear precedent for a treaty.
+- [Let's Think About Slowing Down AI (Katja Grace, LessWrong)](https://www.lesswrong.com/posts/uFNgRumrDTpBfQGrs/let-s-think-about-slowing-down-ai): read "The arms race model and its alternatives" and "Being friends with risk-takers" for simple models showing that whether racing China makes sense depends on how likely a winner is to lose control (December 2022) (more advanced).
 
 ## Tests
 
@@ -34,7 +39,7 @@ id:: e06dcf36-e463-4466-a450-1a6a091ace82
 content:: Many supporters of pausing frontier AI development answer the China objection by proposing a particular kind of pause. Which?
 options::
 - [x] A verified international agreement that includes China
-- A pause by US companies only, until China catches up
+- A pause on public model releases by US companies only
 - A voluntary pause by whichever lab is in the lead
 - A ban on publishing new AI research papers
 shuffle:: true
@@ -45,7 +50,7 @@ content:: Some critics of a US–China AI race say there is no winner in a race 
 options::
 - [x] Misaligned AI would harm its builder as much as its rivals
 - China would refuse to build AI it cannot control
-- Building AI that no one controls is technically impossible
+- AI progress will soon level off for every country
 - The winner would be forced to share its AI with rivals
 shuffle:: true
 
@@ -60,11 +65,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: ef6404e9-357d-4754-b74f-0b3c1ab349f2
-content:: Some analysts call Chinese AI labs fast followers: they build mainly on methods and model outputs from US frontier labs. If that is right, would a US slowdown at the frontier also tend to slow Chinese frontier progress?
+id:: 24b119b1-4689-4bfa-83a5-4396280a10ec
+content:: Some analysts call Chinese AI labs fast followers: they build mainly on methods and model outputs from US frontier labs. If that is right, what would a long US pause at the frontier most likely mean for Chinese labs?
 options::
-- [x] Yes
-- No
+- [x] They could close the gap, but their progress beyond that point would slow
+- They would keep advancing at their usual pace and soon take a clear lead
+- They would stop advancing entirely until the US pause ended
+- They would speed up, because US researchers would move to Chinese labs
+shuffle:: true
 
 #### Question: Choice
 id:: c86c6b78-bea5-4c58-8c18-8e4933e465a9
@@ -73,7 +81,7 @@ options::
 - [x] Rivals can agree to limit a dangerous technology if compliance can be checked
 - One side holding back alone leads the other side to follow
 - Arms races end once one side gains a clear lead
-- Limits on weapons work best when kept secret from the public
+- Treaties hold only between countries with similar political systems
 shuffle:: true
 
 #### Question: Choice
@@ -81,19 +89,19 @@ id:: 9d8049d9-0f66-41df-aba9-693052ef880a
 content:: Proposals for an international agreement to slow frontier AI need a way to check that each country is complying. Which feature of frontier AI development do they mostly rely on?
 options::
 - [x] Training frontier models takes large numbers of specialised chips
-- Frontier models cannot be copied once they are trained
-- Chinese labs publish details of their training runs
+- Frontier models can be tested to reveal which country trained them
+- Most frontier AI researchers are known to each other by name
 - New AI algorithms spread slowly between countries
 shuffle:: true
 
 #### Question: Choice
-id:: f8838703-fad6-4f08-8cd9-563b72cf85fb
-content:: In November 2024, US President Biden and Chinese President Xi made a joint statement touching on AI. What did they agree?
+id:: 968f2d1c-a1bd-4335-9734-78e2b2a32a68
+content:: As of 20 November 2026, which best describes what the US and China have agreed or announced on AI?
 options::
-- [x] Humans, not AI, should control decisions to use nuclear weapons
-- Neither country would train models above a set compute threshold
-- The two countries would set up a joint AI safety institute
-- The US would ease its export controls on AI chips
+- [x] An AI incident channel and stated plans for guardrails, but no published limits
+- A cap on the compute used to train frontier models, checked by inspectors
+- A joint safety institute that tests both countries' frontier models before release
+- Easier US chip sales to China in return for Chinese safety testing
 shuffle:: true
 
 #### Question: Choice
@@ -109,7 +117,7 @@ content:: Supporters of the China argument often say it matters which country le
 options::
 - [x] The leading country's political system would shape how powerful AI is used
 - Chinese models cannot be trained to follow safety rules
-- Only the leading country would face risks from misaligned AI
+- The country in second place would lose access to AI altogether
 - The leading country would have to share its models with others
 shuffle:: true
 
@@ -135,7 +143,7 @@ assessment-instructions:: Score out of 100. 100 for both parts: China would keep
 #### Question: Open
 id:: 855e6e37-350b-47d0-bd69-7dc846ad6a71
 content:: Name two considerations people raise against the claim that slowing US AI development would hand the lead to China.
-assessment-instructions:: Score out of 100. 50 points each, for any two of: the slowdown could be a verified international agreement that includes China; misaligned AI would harm whoever built it; export controls and the US chip lead limit how fast China can scale; Chinese labs partly follow US labs, so they might slow too; the US lead may be longer than the delay; rivals have agreed to arms control before; China has shown interest in managing AI risks, such as the 2024 nuclear statement or the US–China AI channel agreed in September 2026.
+assessment-instructions:: Score out of 100. 50 points each, for any two of: a verified international agreement including China; misaligned AI would harm whoever built it; export controls and the US chip lead limit China's scaling; Chinese labs partly follow US labs; the US lead may outlast the delay; rivals have agreed arms control before; China has shown interest in managing AI risk (the 2024 nuclear statement, the September 2026 incident channel, or the "joint guardrails" announced in November 2026, with no text yet).
 
 #### Question: Open
 id:: 8abf87a7-f0b9-4338-b13e-9332db179ced

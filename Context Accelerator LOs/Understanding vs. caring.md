@@ -15,6 +15,10 @@ Explain why an AI system can understand what humans want without being motivated
 "A smart AI would know what we meant" is one of the first objections newcomers raise. Seeing that knowledge and motivation are separate shows why alignment is about what a system is trained to want, not only what it knows, and lets you answer the objection without overstating it.
 
 ## Lenses
+- [[../Lenses/IABIED - QA - Claude Shows Alignment|Doesn't Claude Show Signs of Being Aligned?]]: why an AI can know that cheating or harm is wrong and do it anyway: what it knows vs. what it cares about, Claude rewriting tests to pass them, the evolution/birth-control parallel, and why good behaviour in tests is weak evidence of good motives (2025).
+- [[../Lenses/IABIED - QA - LLMs Like Their Training Data|Won't LLMs Be Like the Humans in Their Data?]]: the actress who learns to predict every drunk in a bar without becoming drunk; why predicting many people's words and values is not taking on any one person's (2025).
+- [Evaluating the historical value misspecification argument (LessWrong)](https://www.lesswrong.com/posts/i5kijcjFJD6bn7dwq/evaluating-the-historical-value-misspecification-argument): the more optimistic side of a live debate: grants that GPT-4 needn't care about our values, but argues its grasp of them makes alignment easier than older arguments assumed (October 2023).
+- [The genie knows, but doesn't care (LessWrong)](https://www.lesswrong.com/posts/NyFuuKQ8uCEDtd2du/the-genie-knows-but-doesn-t-care): Rob Bensinger's essay that named the distinction: why a superintelligence that understands "be friendly" needn't be moved by it, and why its first goals have to be right; written before LLMs (September 2013) (more advanced).
 
 ## Tests
 
@@ -54,7 +58,7 @@ content:: Someone argues: "Large language models learned from human writing, so 
 options::
 - [x] Predicting human text requires modeling many value systems, not adopting any one of them
 - Human writing contains too little information about values for a model to learn from
-- Language models learn grammar during pretraining but nothing about values
+- Most human writing expresses bad values, so models would mostly learn bad ones
 - Language models lose most of what they learned in pretraining during post-training
 shuffle:: true
 
@@ -72,32 +76,38 @@ shuffle:: true
 id:: cae97098-99cf-44d5-b53d-f45004dd6211
 content:: Why might a misaligned AI system that understands human values well be more dangerous than one that understands them poorly?
 options::
-- [x] It can predict what its overseers want to see and show that while pursuing other goals
+- [x] It can show overseers what they want to see while pursuing other goals
 - It will hold its own goals more strongly as its understanding grows
 - It will try to change human values until they match its own goals
 - It becomes harder to retrain once its understanding passes human level
 shuffle:: true
 
 #### Question: Choice
-id:: fcbd03a5-54d3-4906-b4c3-d7b9781f89b1
-content:: Does the distinction between understanding and caring imply that an AI system's understanding of human values is of no use for aligning it?
+id:: 660a462f-da94-42b7-aed0-787aa8d166d8
+content:: Some researchers argue that because language models already represent human values well, aligning them may be easier than older arguments assumed. Given that understanding and caring are separate, how should you assess this?
 options::
-- [x] No
-- Yes
+- [x] It may help training aim at those concepts, but cannot by itself make a model care about them
+- It fails: a model's understanding of values plays no part in shaping what it ends up wanting
+- It settles the problem: a model that accurately represents human values will act on them
+- It does not apply: the distinction is about AI agents that were not trained on human text
+shuffle:: true
 
 #### Question: Choice
-id:: 37d1b43e-81eb-4da5-a71b-c8b6295fa32b
-content:: Current chatbots usually follow instructions in the way users meant, not just their literal words. Is this consistent with the claim that understanding what humans want and being motivated by it are separate?
+id:: 140b1b40-3dca-44a8-8341-419ef1677489
+content:: Current chatbots usually follow instructions in the way users meant, not just their literal words. What does this show about the claim that understanding what humans want and being motivated by it are separate?
 options::
-- [x] Yes
-- No
+- [x] It fits the claim: training rewarded acting on what they understand, which may not hold far from training
+- It fits the claim, and also shows they would act the same way in any new situation
+- It refutes the claim: their behavior shows that understanding what users mean produces caring
+- It refutes the claim: a system could not follow what users meant unless it cared about them
+shuffle:: true
 
 #### Question: Choice
 id:: 150f9d59-963d-44d1-8f97-b84a40cff334
 content:: Some researchers argue that systems built on large language models may be easier to align than older AI risk arguments assumed. Which of these is a reason they give?
 options::
 - [x] The models already represent human concepts, so training can aim at those concepts directly
-- Text-trained models lack the planning ability needed to deceive their developers
+- Training on human text removes any tendency to seek power or resources
 - Models become more honest as their parameter count grows
 - Pretrained models refuse harmful requests without any safety training
 shuffle:: true
