@@ -107,6 +107,7 @@ We don't know how long these improvements will continue, but for now, the world'
 What’s important for us is that the race to scale has had a number of important consequences.
 
 #### Article
+source:: [[../articles/intelligence-deep-dive-two-the-scaling-era]]
 from:: First, the extreme compute resources required
 to:: capable of developing frontier AI models.
 
