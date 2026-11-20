@@ -39,8 +39,6 @@ content:: \### Extinction doctrine
 
 #### Text
 content::
-\## Extinction doctrine
-
 In *Deadly by Default*, Duncan Sabien of the Machine Intelligence Research Institute (MIRI) explains why developing superintelligent AI could lead to human extinction even without anyone intending harm.
 
 #### Article
