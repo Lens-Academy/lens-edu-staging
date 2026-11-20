@@ -1,7 +1,7 @@
 ---
 id: 'e2f1aad9-181e-441f-a036-26f4682ef417'
 slug: conac-m3-understanding-the-problem
-title: "Module 3: Understanding the problem"
+title: "Level 1: Understanding the problem"
 tags:
   - wip
 ---
