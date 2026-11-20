@@ -4,7 +4,7 @@ priority: medium
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Explain the sharp left turn hypothesis, including the argument that general capabilities have an attractor that intended values lack, and the main reasons critics doubt it.
+Explain the sharp left turn hypothesis, including the argument that many tasks reward the same general capabilities while nothing comparable pulls a system toward its intended values, and the main reasons critics doubt it.
 
 ## Requires
 - [[Goal misgeneralization]]
@@ -16,6 +16,11 @@ Explain the sharp left turn hypothesis, including the argument that general capa
 If capabilities can jump ahead while alignment stays behind, safety methods that work on today's models could fail without warning on more capable ones. Knowing this argument and its critiques helps you judge how much evidence from current models can tell us, and why some researchers expect alignment to break suddenly rather than gradually.
 
 ## Lenses
+- [[../Lenses/aisafety-what-is-the-sharp-left-turn|What is the "sharp left turn"?]]: a short definition and the three claims the scenario rests on: capabilities generalize far, earlier alignment techniques fail, and humans can't step in in time.
+- [[../Lenses/AFSRA - Capabilities generalization and the sharp left turn|Capabilities generalization and the sharp left turn]]: Nate Soares's original statement of the hypothesis: the evolution and contraception analogy, the OpenMind story, and why capabilities have an "attractor well" that alignment lacks (June 2022).
+- [Evolution provides no evidence for the sharp left turn (LessWrong)](https://www.lesswrong.com/posts/hvz9qjWyv8cLX9JJR/evolution-provides-no-evidence-for-the-sharp-left-turn): Quintin Pope's well-known critique that human evolution is a misleading analogy, since humanity's jump came from culture and has no counterpart in AI training; read "Evolution's sharp left turn happened for evolution-specific reasons", "Don't misgeneralize from evolution to AI" and "Human 'misalignment' with inclusive genetic fitness provides no evidence for AI misalignment" (April 2023).
+- [[../Lenses/optimism-ai-is-easy-to-control|AI is easy to control]]: read the section "Values are easy to learn", where Nora Belrose and Quintin Pope argue the opposite claim, that alignment generalizes further than capabilities, from how models handle moral questions far outside training; one side of a live debate (November 2023).
+- [Sharp Left Turn discourse: An opinionated review (LessWrong)](https://www.lesswrong.com/posts/2yLyT6kB7BQvTfEuZ/sharp-left-turn-discourse-an-opinionated-review): Steven Byrnes weighs both sides, agreeing with Pope that the evolution analogy is weak but arguing the core worry still stands; read sections 2 to 5 (January 2025) (more advanced).
 
 ## Tests
 
@@ -23,8 +28,8 @@ If capabilities can jump ahead while alignment stays behind, safety methods that
 id:: fb89b2c9-5b3e-4274-8474-3ad51efa4793
 content:: What does the sharp left turn hypothesis claim about advanced AI systems?
 options::
-- [x] Their capabilities extend far beyond training while their alignment does not carry over
-- Trained on adversarial data, they turn hostile toward their developers
+- [x] Their capabilities suddenly extend far beyond training while their alignment does not carry over
+- They become misaligned because developers cut safety work to speed up capability gains
 - Their caution generalizes faster than their skills, making them unhelpfully timid
 - They hide misaligned goals during training to avoid being modified
 shuffle:: true
@@ -34,7 +39,7 @@ id:: 2d9d1d2b-9483-4461-947f-52ee49e8632c
 content:: What main reason do proponents of the sharp left turn hypothesis give for expecting it?
 options::
 - [x] Many tasks reward the same general reasoning, but nothing similar pulls toward the intended values
-- Alignment training uses far less compute than capability training, so it is learned less well
+- Human values are too complex to write down, so developers cannot put them into a reward function
 - Values are stored in parts of the network that stop updating late in training
 - Developers measure capabilities carefully but rarely test alignment in new settings
 shuffle:: true
@@ -47,6 +52,14 @@ options::
 - Humans became far better at abstract reasoning than other primates
 - Humans spread to environments very different from where they evolved
 - Natural selection now acts more slowly on humans than on other species
+
+#### Question: Choice
+id:: 8bcb0ede-5810-4b59-91eb-c20242efabb4
+content:: Some critics argue that human evolution is weak evidence for a sharp left turn in AI. What is their main point?
+options::
+- [x] Humans' rapid gains came mostly from culture passing on knowledge, which has no clear counterpart in AI training
+- Evolution took millions of years while AI training takes months, so speed alone makes the comparison invalid
+- Natural selection has since corrected human values, so the mismatch with fitness was only temporary
 shuffle:: true
 
 #### Question: Choice
@@ -64,7 +77,7 @@ id:: 68f34e56-bcdc-4f2f-94a8-a3f037f6341d
 content:: How does the sharp left turn hypothesis relate to goal misgeneralization?
 options::
 - [x] It predicts goal misgeneralization becomes severe and hard to fix in much more capable systems
-- It is a proposed training method for preventing goal misgeneralization
+- It describes a different failure, where a model's skills rather than its goals fail to generalize
 - It claims goal misgeneralization occurs mainly in small, less capable models
 - It describes a model editing its own reward signal after training
 shuffle:: true
@@ -84,9 +97,9 @@ id:: 0f584473-df0f-4faf-b464-1b96c656a401
 content:: If the sharp left turn hypothesis is right, what does it imply about alignment methods that work well on current models?
 options::
 - [x] Their success gives limited assurance, since they may stop working on far more capable systems
-- They will keep working, since capability gains also improve alignment
-- They become unnecessary, since capable models will correct their own values
-- They should work better on capable models, which understand instructions better
+- Their success gives fair assurance, since methods tested across many model sizes tend to keep working
+- Their success matters less over time, since capable models may become better at spotting their own flaws
+- Their success should grow with scale, since capable models may understand instructions better
 shuffle:: true
 
 #### Question: Choice
@@ -104,4 +117,4 @@ assessment-instructions:: Score out of 100. Full marks for: a sudden jump could 
 #### Question: Open
 id:: 1cf4148a-da06-4be0-a134-427677b3cc36
 content:: Give one argument critics make against the sharp left turn hypothesis.
-assessment-instructions:: Score out of 100. 100 for any one of: the evolution analogy is weak (human gains came largely from culture, or evolution differs from ML training); alignment training seems to generalize fairly well in current models; progress may be gradual enough to fix problems as they appear; models learn human concepts, so intended values may be an easier target than claimed; more capable AI can help with alignment research. 30 for "it's speculative" with no reason.
+assessment-instructions:: Score out of 100. 100 for any one of: the evolution analogy is weak (human gains came largely from culture, or evolution differs from ML training); alignment training seems to generalize fairly well in current models; progress may be gradual enough to fix problems as they appear; models learn human concepts, so intended values may be an easier target than claimed; AI help with alignment research may keep alignment in step with capabilities. 30 for "it's speculative" with no reason.

@@ -17,6 +17,10 @@ Describe the main arguments for and against people concerned about AI risk worki
 Many people who take AI risk seriously are offered jobs at frontier AI companies, and these choices shape both their own impact and how the companies behave. Knowing the strongest case on each side helps you judge a specific role on its merits, not on a company's reputation or pay.
 
 ## Lenses
+- [Should you work at a frontier AI company? (80,000 Hours)](https://80000hours.org/career-reviews/working-at-an-ai-lab/): the main arguments for (safety roles, access to frontier models, shaping a company) and against (speeding up the race, replaceability, pay and equity, OpenAI's non-disparagement deals), and what to weigh in a specific role; read sections 1 to 3 (August 2024).
+- [[../Lenses/shlegeris-ten-people-on-the-inside|Ten People on the Inside]]: what a handful of safety-minded staff could still do inside a company whose leadership doesn't take misalignment seriously (January 2025).
+- [Leaving Open Philanthropy, going to Anthropic (Joe Carlsmith)](https://joecarlsmith.substack.com/p/leaving-open-philanthropy-going-to): a safety researcher's reasoning for joining a frontier company despite thinking no one should build superintelligence now, with his worries about equity, limits on speaking, echo chambers and lending legitimacy; read "On going to Anthropic" (November 2025).
+- [[../articles/ngo-what-just-happened-pragmatism-and-pessimization|Pragmatism and Pessimization]]: a former DeepMind and OpenAI researcher argues that safety work inside AI companies helped them race "under the banner of safety", and that motivated reasoning warps insiders' choices; one side of a live debate; read the introduction and "If not alignment research, then what?" (August 2026).
 
 ## Tests
 
@@ -31,8 +35,8 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 28de91e1-e18a-48fc-bdd8-2b6498028cc5
-content:: Does the "build it safely first" case for founding a safety-focused AI company require that company to compete for the lead in AI capabilities?
+id:: c888ec13-1963-4f0c-85b9-379e24e02573
+content:: Does the "build it safely first" case for founding a safety-focused AI company require that company's models to stay at or near the frontier of AI capabilities?
 options::
 - [x] Yes
 - No
@@ -48,20 +52,23 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 97d9f3f7-3e15-4047-a204-b8459a4acf02
-content:: In debates about AI company safety, the "ten people on the inside" scenario imagines a small group of safety-concerned staff at a frontier AI company. Does the scenario assume the company's leadership strongly backs their safety work?
+id:: abf22126-aec3-4226-8af9-c1b82863d80d
+content:: The "ten people on the inside" scenario imagines a small group of safety-concerned staff at a frontier AI company whose leadership gives their work little real support. What kind of safety measures does it suggest they focus on?
 options::
-- [x] No
-- Yes
+- [x] Cheap measures that don't make other teams' work harder
+- Company-wide policies that need the board's approval
+- Pauses on training runs until key risks are solved
+- Large research programs using much of the company's compute
+shuffle:: true
 
 #### Question: Choice
 id:: bc2382de-d2d7-4db8-bc65-f1c761c201f0
 content:: Someone argues: "If I don't take this capabilities job at a frontier AI company, someone less concerned about safety will." Which reply do critics commonly make?
 options::
 - [x] Top researchers are scarce, so the next hire may be weaker and progress slower
-- Capabilities jobs at frontier companies are mostly filled by safety researchers
-- A less concerned hire would be easier for the company to fire
-- Capabilities work has no effect on how fast AI improves
+- Safety-concerned people add little to capabilities work, so the job does little harm
+- The role will probably go to another safety-concerned person anyway
+- A less concerned hire would be more likely to leave the company soon
 shuffle:: true
 
 #### Question: Choice
@@ -69,19 +76,19 @@ id:: 648d8ed1-ba92-4b3d-88bc-d3f30d182d98
 content:: Which is a reason often given for doing AI safety research inside a frontier AI company rather than at a university or nonprofit?
 options::
 - [x] Access to the most capable models and large amounts of compute
-- Exemption from government rules on AI research
+- More freedom to choose your own research questions
 - A better chance of grant funding from philanthropies
 - Fewer limits on publishing results than in academia
 shuffle:: true
 
 #### Question: Choice
-id:: 73194fb8-da5e-4710-8fcb-c95e1733621b
-content:: Critics of safety-concerned people joining AI companies warn of "safetywashing". What does the term describe?
+id:: 1f8a58ae-ea22-460f-884f-83a29a6a11dd
+content:: Critics warn that a frontier AI company's safety team can serve the company's commercial interests even when its research is sound (sometimes called "safetywashing"). How?
 options::
-- [x] Using visible safety work to win trust and soften regulation while risky work continues
-- Retraining a model to remove an unsafe behaviour found during testing
-- A model hiding its dangerous capabilities while it is being evaluated
-- Moving staff from safety teams into product teams after a launch
+- [x] Its visible safety work wins trust that eases pressure for regulation
+- Its safety findings give the company patents that rivals must license
+- Its safety staff are moved into product teams after each launch
+- Its safety tests are designed so that the company's models pass them
 shuffle:: true
 
 #### Question: Choice
@@ -117,4 +124,4 @@ assessment-instructions:: Score out of 100. 50 for the rationale: powerful AI wi
 #### Question: Open
 id:: 5058dd4b-22b0-49e1-bfb0-8f51f4dd4d56
 content:: Apart from which AI company is hiring, name two features of a specific job offer that matter when judging whether taking it would reduce or add to AI risk.
-assessment-instructions:: Score out of 100. 50 each for any two of: whether the role is safety or capabilities work; how much influence the role has; whether the work could be done elsewhere; who would be hired instead; how pay, equity or contracts limit leaving or speaking out; how easily the person's views might be shaped by the job.
+assessment-instructions:: Score out of 100. 50 each for two features, each with a short reason it matters: safety versus capabilities work; influence on decisions; whether the work could be done elsewhere; who would be hired instead; whether the team has real resources and backing; pay, equity or contract terms that limit leaving or speaking out. 25 for a feature with no reason.

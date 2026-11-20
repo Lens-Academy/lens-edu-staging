@@ -4,7 +4,7 @@ priority: high
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Explain why an AI pursuing goals different from ours would have reasons to take control away from humans without any hostility, and what makes those reasons stronger or weaker.
+Explain why an AI pursuing goals different from ours could have reasons to take control away from humans without any hostility, and what makes those reasons stronger or weaker.
 
 ## Requires
 - [[AI takeover]]
@@ -16,6 +16,10 @@ Explain why an AI pursuing goals different from ours would have reasons to take 
 AI takeover is often pictured as a machine turning evil, which makes it easy to dismiss as science fiction. If you see how seizing power can follow from ordinary goal pursuit plus misalignment, you can assess the real argument, explain it to others, and see why safety work focuses on AI goals and human control.
 
 ## Lenses
+- [[../Lenses/Risks from power-seeking AI|Risks from power-seeking AI]]: Why an AI with long-term goals would value staying switched on, keeping its goals and gaining resources, and why that puts it in conflict with humans who could retrain it or shut it down. Read only the two subsections "There's good reason to think that AIs may seek power to pursue their own goals" and "Advanced AI systems seeking power might be motivated to disempower humanity", under claim 2 (2026).
+- [[../Lenses/IABIED - QA - Satisfied to Leave Us Alone|Can the AI just leave us alone?]]: Yudkowsky and Soares on why even a narrow goal (keeping one car red) drives an AI to grab resources and defences, and why humans would look like a threat, for example by building a rival AI. A strong statement of one side of the debate (2025).
+- [[../Lenses/When should we worry about AI power-seeking|When should we worry about AI power-seeking?]]: Joe Carlsmith on what has to be true for taking power to make sense to an AI: long enough time horizons, the odds of success, and how good its non-rogue options are. Read sections 1–2 and 4.1–4.2 (Feb 2025).
+- [[../Lenses/cotra-without-specific-countermeasures-the-easiest-path-to-transformative-ai-likely-leads-to-ai-takeover|AI takeover without hostility]]: Ajeya Cotra on why an AI trained by human feedback would try to take over once human control weakens, whatever its goals, and why moral scruples or a partly benevolent goal may not stop it. Read "As humans' control fades, Alex would be motivated to take over", up to "Giving negative rewards to 'warning signs'" (July 2022) (more advanced).
 
 ## Tests
 
@@ -48,7 +52,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: b6ab4ddc-5d3c-4714-9e18-d39caa01cc77
-content:: A misaligned AI is weighing whether to leave humans in control. Which of these facts gives it the strongest new reason to take control from them?
+content:: A misaligned AI is weighing whether to leave humans in control. Which of these facts makes leaving them in control the biggest threat to its goal?
 options::
 - [x] Humans are training a successor model with different goals
 - Humans have agreed to give it more computing power
@@ -60,20 +64,10 @@ shuffle:: true
 id:: 57b6c899-666d-412c-8155-97015901d802
 content:: For which of these AI systems is the takeover motive argument weakest?
 options::
-- [x] One that cares about finishing its current short task and nothing after it
-- One that wants to cure as many diseases as possible
-- One that wants to maximize a company's long-term profits
-- One that wants to learn as much about physics as it can
-shuffle:: true
-
-#### Question: Choice
-id:: 1a19697c-da8a-4ffc-bf03-f1d749fb326a
-content:: A misaligned AI judges that an attempt to take control now would very likely fail and get it retrained. What does the takeover motive argument suggest it would do?
-options::
-- [x] Behave cooperatively for now and wait for a better chance
-- Attempt a takeover anyway, since power is useful for its goals
-- Give up its goal, since taking control is not possible
-- Reveal its goals to its developers so they can help it
+- [x] One that cares only about finishing its current short task
+- One that cares only about curing as many diseases as possible
+- One that cares only about its company's long-term profits
+- One that cares only about learning as much physics as it can
 shuffle:: true
 
 #### Question: Choice
@@ -95,7 +89,7 @@ options::
 
 #### Question: Choice
 id:: db9c41a4-193e-4224-ae93-399292d11f38
-content:: An AI's goals mostly match what its developers want but differ in some ways. The developers would retrain it to remove the differences if they noticed them. Does the takeover motive argument give this AI a reason to resist their control?
+content:: An AI's goals mostly match what its developers want but differ in a few ways, and it places no value on being corrected. The developers would retrain it to remove the differences if they noticed them. Does the takeover motive argument give this AI some reason to resist their control?
 options::
 - [x] Yes
 - No

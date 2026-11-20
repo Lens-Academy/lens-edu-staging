@@ -15,17 +15,21 @@ Explain how courses, fellowships, student groups and organizations grow the AI s
 Many people enter AI safety through field-building programs, and many go on to run them. Knowing what these programs aim for and how they fail helps you choose one, judge its results, and avoid growing a field that is large but weak or that speeds up AI capabilities.
 
 ## Lenses
+- [[../Lenses/What AI safety field-builders do|What AI safety field-builders do]]: 80,000 Hours on what field-building is (courses, fellowships, university groups, events, careers advice, grantmaking), why it may multiply impact, its roles beyond research, and how it can backfire; read "What do fieldbuilders work on?", "Why AI safety fieldbuilding can be highly impactful" and "How can fieldbuilding backfire?" (June 2026).
+- [[../Lenses/Courses as field-building|Courses as field-building]]: BlueDot's co-founder on how the AI Safety Fundamentals course grew the field, why a course should pick its audience, the worry that it would speed up AGI, and why its impact is hard to measure (March 2024).
+- [[../Lenses/AI safety talent needs in 2026|AI safety talent needs in 2026]]: MATS interviews with hiring managers and funders: the field is held back by too few senior mentors rather than too few newcomers, why fellowships matter as a hiring signal, and what technical and policy roles need (March 2026).
+- [University EA Groups Need Fixing (EA Forum)](https://forum.effectivealtruism.org/posts/euzDpFvbLqPdwCnXF/university-ea-groups-need-fixing): a former group president's critique of how intro fellowships, retreats and social rewards push students to adopt AI safety views by deferring to others rather than reasoning for themselves; a critic's view from inside (August 2023).
 
 ## Tests
 
 #### Question: Choice
-id:: 29c25175-5d8c-442d-8008-a1afc4074131
-content:: Which of these is an example of AI safety field-building?
+id:: 546b582d-d7ff-4573-ac82-5bcdf145f936
+content:: A "wide funnel" approach to AI safety field-building reaches many people cheaply and narrows down later. Which of these is an argument often given for it?
 options::
-- [x] Running an introductory AI safety course for university students
-- Training a new interpretability tool on a language model
-- Lobbying a legislature to pass AI compute reporting rules
-- Publishing an evaluation of a model's hacking skills
+- [x] It is hard to tell early on who will become a strong contributor
+- Mentor time is scarce, so it goes further on committed people
+- Poorly motivated entrants can weaken the field's norms and reputation
+- Small groups allow deeper discussion than large courses do
 shuffle:: true
 
 #### Question: Choice
@@ -40,9 +44,9 @@ id:: 84df4609-2a18-485a-a41c-53b224fcdee3
 content:: Which of these is an argument often given for careful selection, rather than a wide funnel, in AI safety field-building?
 options::
 - [x] Poorly motivated entrants can weaken the field's norms and reputation
-- Introductory courses cost more per person than research fellowships
-- Most people who could contribute have already joined the field
-- Selective programs are easier to advertise on social media
+- Talent is hard to spot from the signs available early on
+- Reaching more people raises general awareness of AI risk
+- Open programs give people from unusual backgrounds a chance
 shuffle:: true
 
 #### Question: Choice
@@ -63,6 +67,16 @@ options::
 shuffle:: true
 
 #### Question: Choice
+id:: 133332dc-e1f7-4362-9aee-c2ce40ecbaa2
+content:: Suppose AI safety's main bottleneck is a shortage of experienced people who can mentor juniors and lead projects. Which program most directly addresses that bottleneck?
+options::
+- [x] Helping experienced researchers from other fields move into mentoring and team-lead roles
+- Doubling the number of places on introductory AI safety courses
+- Running a public campaign to raise awareness of AI risk
+- Shortening research fellowships so more newcomers can pass through
+shuffle:: true
+
+#### Question: Choice
 id:: 594d592f-ed3f-422b-a873-17f662dd6fd0
 content:: What does an AI safety research fellowship, such as MATS, typically offer that an introductory reading course does not?
 options::
@@ -78,8 +92,8 @@ content:: An AI safety field-building program reports that 200 of its graduates 
 options::
 - [x] Some graduates would have entered the field without the program
 - Graduates' salaries are not included in the count
-- A count of 200 is too small to measure anything
-- Programs are not allowed to track their graduates
+- Programs should be judged by how many people apply, not where graduates go
+- Most graduates of such programs leave the field within a year
 shuffle:: true
 
 #### Question: Choice
@@ -88,8 +102,8 @@ content:: Why do many AI safety field-building efforts focus on university stude
 options::
 - [x] Students are choosing careers and can change direction cheaply
 - Universities fund most AI safety research worldwide
-- Students have more research experience than professionals
-- Universities are required by law to teach AI safety
+- Universities are where most frontier AI models are built
+- Labs hire mainly students straight out of introductory courses
 shuffle:: true
 
 #### Question: Open

@@ -13,9 +13,13 @@ Read METR's time-horizon graph: explain what a model's time horizon measures, wh
 ## Helpful first
 
 ## Why it matters
-The time-horizon trend is often cited in debates about how soon AI agents could do long, independent work, including AI research. Reading it correctly lets you judge forecasts built on it, and spot both overclaims ("AI can now do day-long jobs") and dismissals that ignore a steady, measured trend.
+The time-horizon trend is often cited in debates about how soon AI agents could do long, independent work, including AI research. Reading it correctly lets you judge forecasts built on it, and spot both overclaims ("a 15-hour horizon means AI can do two days of any job") and dismissals that ignore a measured trend that has, if anything, sped up.
 
 ## Lenses
+- [[../Lenses/A new Moores Law for AI agents|A new Moore's Law for AI agents]]: AI Digest's short, chart-led explainer of METR's time horizon, the 7-month (and recent 4-month) doubling, and where the line points if it holds (March 2026).
+- [[../Lenses/AIF - How Long A Task|How Long A Task]]: guess first, then read METR's original write-up: how tasks are timed on human professionals, how the 50% horizon is fitted, and the log-scale chart; its figures date from March 2025 (March 2025).
+- [[../Lenses/AIF - METR Time Horizons|METR's own note on the limits of time horizon]]: one of the lead authors on what the metric does not show: wide error bars, mostly software tasks, low-context baseliners, too few long tasks, and why extrapolating is fraught (January 2026).
+- [Task-completion time horizons of frontier AI models (METR)](https://metr.org/time-horizons/): METR's FAQ on current methods; read the FAQ for who the human baseliners were, why 50% and not 99%, and why an exponential fit (September 2026).
 
 ## Tests
 
@@ -30,8 +34,8 @@ options::
 shuffle:: true
 
 #### Question: FillBlank
-id:: a0a13e78-b28b-4eb8-886b-ab175eb9e6cd
-content:: In METR's March 2025 analysis, the 50% time horizon of frontier AI models had doubled about every {{7|seven}} months since 2019.
+id:: ae27e049-e15b-40f8-8d33-08a00516ad5c
+content:: In METR's January 2026 update, the 50% time horizon of frontier AI models had doubled about every 7 months over 2019–2025, but about every {{4|four}} months for models released since 2023.
 
 #### Question: Choice
 id:: 597e0b23-6b61-4588-985c-2ad4a54d09cd
@@ -43,15 +47,10 @@ options::
 - The time horizon grows faster each year than the year before
 shuffle:: true
 
-#### Question: Choice
-id:: 2dda42bb-7e7c-44e7-b022-332999b27ad1
-content:: An AI model's 50% time horizon is 2 hours, and the time horizon doubles every 7 months. If the trend holds, about how long until a model's time horizon reaches 16 hours?
-options::
-- [x] About 21 months
-- About 7 months
-- About 14 months
-- About 56 months
-shuffle:: true
+#### Question: Open
+id:: 824f13c2-2e12-44b5-b16b-7c35ed5397bd
+content:: Two forecasters both accept METR's time-horizon data, yet disagree by years about when AI agents could do month-long research projects. Give two reasons forecasts built on the same trend can differ this much.
+assessment-instructions:: Score out of 100. 50 for each distinct reason, for example: which doubling time they use (about 7 months long-run vs about 4 months recently), since small differences compound over many doublings; which success rate or horizon length they treat as enough; whether results on software tasks transfer to messier work; whether the trend speeds up or slows; measurement uncertainty at long horizons.
 
 #### Question: Choice
 id:: 1b5dece0-7124-46c7-a8cf-267b79a0274a
@@ -69,7 +68,7 @@ options::
 - [x] By timing skilled human professionals doing the task
 - By timing how long the AI agent takes on the task
 - By counting the steps the AI agent needs to finish
-- By asking AI models to estimate how hard the task is
+- By the size of a reference solution written for the task
 shuffle:: true
 
 #### Question: Choice
@@ -77,7 +76,8 @@ id:: d12bae13-af06-454d-8e04-549376a85189
 content:: A model has a 50% time horizon of four hours on METR's tasks. What is the strongest reason to doubt it could do half of four-hour tasks in a typical office job?
 options::
 - [x] The tasks are mostly well-defined software tasks with automatic scoring
-- The task lengths were set by the AI developers being tested
+- Office tasks of that length are usually harder for humans than software tasks
+- The human timers were novices, so the tasks are harder than their lengths suggest
 - The models had already seen the exact tasks during training
 - The tasks were timed with models running far faster than humans
 shuffle:: true
@@ -105,4 +105,4 @@ assessment-instructions:: Score out of 100. 100 for: the baseliners would take l
 #### Question: Open
 id:: 48dac632-1ec4-47ee-be28-76b97d67ce38
 content:: Give one reason the growth of AI time horizons could speed up in coming years, and one reason it could slow down.
-assessment-instructions:: Score out of 100. 50 for a speed-up reason, for example: AI systems helping with AI research, growing investment and compute, better agent training. 50 for a slow-down reason, for example: limits on compute, energy, money or data; longer tasks being messier and harder to train on; the trend being an empirical pattern with no guarantee it continues.
+assessment-instructions:: Score out of 100. 50 for a speed-up reason, for example: AI systems helping with AI research (some evidence of this by late 2026), growing investment and compute, better agent training. 50 for a slow-down reason, for example: limits on compute, energy or data; longer tasks being messier and harder to train on; the trend being an empirical pattern with no guarantee it continues.

@@ -15,6 +15,10 @@ Compare past efforts to govern dangerous technologies, such as nuclear arms cont
 Claims about AI governance often rest on history: that rival states can sign treaties, that scientists can pause their own work, or that rules arrive only after disaster. Knowing what actually happened, and which conditions made it work, lets you judge such claims and see which AI proposals have a track record.
 
 ## Lenses
+- [Governing Dual-Use Technologies: Case Studies of International Security Agreements (arXiv)](https://arxiv.org/abs/2409.02779v1): what the IAEA, the START treaties, the chemical weapons body (OPCW), the Wassenaar export controls and the Biological Weapons Convention teach about inspections, challenge inspections and the cost of having no verification, including the Soviet Union's secret bioweapons programme; read the Executive Summary, with its case study summaries and key findings (September 2024).
+- [Asilomar 1975: DNA modification secured (Paul Berg, Nature)](https://www.nature.com/articles/455290a): one of the conference's organisers on how scientists paused their own recombinant DNA work and wrote the rules that became the 1976 US guidelines, and why he thought it couldn't be repeated now that much research is done in companies (2008).
+- [The Success and Failure of the Montreal Protocol (EA Forum)](https://forum.effectivealtruism.org/posts/RyD7KpozvKXyeRWCq/the-success-and-failure-of-the-montreal-protocol): why the ozone treaty worked: few producers, DuPont's substitutes, the shock of the ozone hole, a fund for poorer countries and trade sanctions on holdouts; also where it fell short; read up to "Why is it so difficult to transfer the learnings" (2026).
+- [Paths Untaken: The History, Epistemology and Strategy of Technological Restraint (Matthijs Maas, Verfassungsblog)](https://verfassungsblog.de/paths-untaken): how often states and firms have held back from building powerful technologies, from abandoned nuclear weapons programmes to treaty bans, what made restraint possible, and why AI's commercial value, dual use and speed make it harder (August 2022).
 
 ## Tests
 
@@ -63,7 +67,7 @@ id:: 1458d29b-d1a0-4cb1-893f-2b5dda17905a
 content:: The 1987 Montreal Protocol phased out ozone-destroying chemicals such as CFCs. Which condition is widely credited with making the agreement easier to reach?
 options::
 - [x] Few firms made CFCs, and substitutes were emerging
-- Thousands of small firms made CFCs
+- The main producer countries were exempt from cuts
 - It relied on voluntary national pledges
 - It permanently exempted developing countries
 shuffle:: true
@@ -83,7 +87,7 @@ id:: 9a7d0f59-2421-4f9a-abc8-23b9301147ca
 content:: Which is a commonly cited difference between frontier AI today and nuclear weapons in the 1940s?
 options::
 - [x] Frontier AI is built mainly by private companies
-- Frontier AI has little military use
+- Frontier AI needs no large physical facilities
 - Frontier AI is built in a single country
 - Frontier AI is cheap to develop from scratch
 shuffle:: true
