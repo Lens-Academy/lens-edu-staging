@@ -28,10 +28,6 @@ id:: 16f16a71-535a-4ed7-a07f-ed59db261671
 content:: OpenAI was founded in 2015 as a nonprofit. What reason did its founders give for choosing that structure?
 assessment-instructions:: Score out of 100. 100 for: so that advanced AI (AGI) would be developed for the benefit of humanity as a whole rather than to make money for shareholders; or so it could pursue its mission free of the need for financial return. 50 for a vague answer about "doing good" with no contrast to profit. 0 for tax or legal convenience.
 
-#### Question: FillBlank
-id:: 57810b37-6010-4689-bbe7-d9f1a3580e06
-content:: OpenAI's stated mission is to ensure that artificial general intelligence benefits {{all of humanity|humanity|all humanity|everyone}}.
-
 #### Question: Choice
 id:: 9ea93520-db1d-482b-b205-fd4de95738a1
 content:: In 2019 OpenAI created a "capped-profit" company under its nonprofit. What was the main reason it gave?
@@ -121,6 +117,7 @@ shuffle:: true
 id:: 44aacc5e-6322-48a8-8720-edbac9cb7da9
 content:: What is OpenAI's Preparedness Framework meant to do?
 assessment-instructions:: Score out of 100. 100 for: track and test its models for dangerous capabilities (such as biological, chemical or cyber threats, or AI improving itself) and require safeguards, or hold back deployment, when a model crosses set risk thresholds. 50 for "a safety policy" or "testing models" without the idea of capability thresholds that trigger safeguards.
+
 #### Question: Choice
 id:: 653df571-c7af-40c6-9dcd-d238ad7c6e89
 content:: OpenAI's 2025 Preparedness Framework says OpenAI may adjust its safety requirements in one situation. Which?

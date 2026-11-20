@@ -75,16 +75,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 0f4084ce-46e7-4d72-a119-e7f858c4983d
-content:: Which observation is the main large-language-model-era challenge to the value complexity argument?
-options::
-- [x] Models trained on human data seem to model human values and common sense quite well
-- Models show that human values are simpler than philosophers had assumed
-- Models are trained on lists of rules written by ethicists
-- Models follow only explicit instructions, so they need no values
-shuffle:: true
-
-#### Question: Choice
 id:: cd2aad6f-2e1a-42f2-80b6-1e7da09657a2
 content:: The observation that large language models seem to model human values well mainly answers which part of the worry about giving AI good values?
 options::

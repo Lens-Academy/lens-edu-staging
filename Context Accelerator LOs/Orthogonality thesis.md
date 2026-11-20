@@ -95,10 +95,6 @@ options::
 - It gives a reason to expect AI to become superintelligent soon
 shuffle:: true
 
-#### Question: FillBlank
-id:: 90e4b96c-f832-42bd-addc-63c7187ff18b
-content:: The orthogonality thesis treats an agent's intelligence and its {{final goals|terminal goals|final goal|terminal goal|goals}} as two independent dimensions: in principle, almost any point on one can be combined with almost any point on the other.
-
 #### Question: Open
 id:: 7a15ef13-1155-4433-9597-6e49b3ae87ae
 content:: Using the orthogonality thesis as your example, explain the difference between claiming that a combination of intelligence and goals is possible and claiming that it is likely.

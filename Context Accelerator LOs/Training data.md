@@ -88,7 +88,6 @@ options::
 - [x] Tens of trillions
 - Hundreds of billions
 - Tens of billions
-- Tens of millions
 - Tens of quadrillions
 shuffle:: true
 
@@ -117,7 +116,6 @@ options::
 - Because US courts have banned training on unlicensed text
 - Because licensed text is cheaper than scraped web text
 - Because licensed text needs no quality filtering
-- To replace the need for fine-tuning data
 shuffle:: true
 
 #### Question: Open

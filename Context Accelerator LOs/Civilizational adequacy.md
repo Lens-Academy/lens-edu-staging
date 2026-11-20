@@ -91,6 +91,7 @@ options::
 - [x] Measures that would lower risk are known, but decision-makers won't adopt them.
 - Alignment is already solved, so only rolling out the fix remains.
 - Safety research is underfunded, so more grants are what's most needed.
+- The public opposes regulation, so politicians can't act on it.
 shuffle:: true
 
 #### Question: Open

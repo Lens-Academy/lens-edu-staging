@@ -82,7 +82,6 @@ options::
 - Training that same small model from scratch on all its training data
 - Running one of the largest frontier models at full size and speed
 - Training a frontier model with large-scale reinforcement learning
-- Pretraining a mid-sized model on a large share of the web
 shuffle:: true
 
 #### Question: Choice
@@ -104,7 +103,3 @@ assessment-instructions:: Score out of 100. 100 for explaining that the costly, 
 id:: ce844be9-f4ce-4649-94b4-b9f24909a15c
 content:: Some models can be made more capable by letting them spend more compute while answering, for example by reasoning for longer. Why does this weaken rules that flag risky models by the compute used to train them?
 assessment-instructions:: Score out of 100. 100 for explaining that capability can grow through extra inference compute without any more training, so a model below a training-compute threshold may still become as capable as models above it, and the threshold misses this. 50 for a vague answer that training compute doesn't capture everything, without saying why.
-
-#### Question: FillBlank
-id:: a9a1d8c7-ec39-43ed-bb6e-0a2fbefd36b4
-content:: Running an already trained model to produce outputs, such as answering a question, is called {{inference}}.

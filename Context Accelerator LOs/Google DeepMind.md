@@ -116,6 +116,8 @@ options::
 - Around 2045, after several more scientific breakthroughs
 - Not this century, since today's methods cannot reach it
 shuffle:: true
+
+#### Question: Choice
 id:: 6834ee28-5280-4f7e-95e1-13928c741792
 content:: In February 2025, Google revised its AI principles in a post co-written by Demis Hassabis. Did the revision add or remove a pledge not to pursue AI for weapons?
 options::

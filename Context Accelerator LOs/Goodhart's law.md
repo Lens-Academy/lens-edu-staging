@@ -99,10 +99,6 @@ options::
 - It stays flat while the proxy reward rises.
 shuffle:: true
 
-#### Question: FillBlank
-id:: ec3e9c47-792e-47ba-b5f6-f2f6e302cbb7
-content:: Goodhart's law is often summarized as: "When a measure becomes a {{target}}, it ceases to be a good measure."
-
 #### Question: Open
 id:: d634a995-0646-4305-aa1d-2a1d597ac12f
 content:: A customer support team, human or AI, is rewarded for short average call times. Using Goodhart's law, describe one way this could go wrong as the pressure to cut call times increases.

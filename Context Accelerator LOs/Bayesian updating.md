@@ -56,16 +56,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: d26adbd4-baf2-47c0-bd65-f4ea662e9948
-content:: Two independent pieces of evidence each have a likelihood ratio of 2 in favour of a hypothesis. Taken together, by what factor do they multiply its odds?
-options::
-- [x] 4
-- 2
-- 3
-- 8
-shuffle:: true
-
-#### Question: Choice
 id:: bb97397e-d194-4809-b91e-65318f6d2cee
 content:: Three news articles report the same AI incident, all based on a single company press release. Compared with reading one article, how much extra evidence do the other two give you?
 options::
