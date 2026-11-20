@@ -7,6 +7,7 @@ title: Quarterly Career Stage Survey
 
 #### Text
 content:: Hi, it's Lens! This is a quarterly 4 minute survey we conduct to know where you're now in AI safety, and what actually helped. Your answer will help us to prioritize and offer better support.
+
 #### Text
 content:: **Where you are now**
 
