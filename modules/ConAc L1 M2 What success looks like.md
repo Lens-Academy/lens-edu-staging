@@ -9,4 +9,4 @@ tags:
 slug:: m2-overview
 
 ## Lens:
-source:: [[../Lenses/ConAc M2 - In this module]]
+source:: [[../Lenses/ConAc L1 M2 - In this module]]
