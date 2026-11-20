@@ -101,20 +101,6 @@ options::
 - They were guaranteed to find the best solution
 shuffle:: true
 
-#### Question: Choice
-id:: 58c0fdcb-2592-45ce-98fd-49e3a02ee4bb
-content:: Was the idea of neural networks with several layers of units first proposed in the 2010s?
-options::
-- Yes
-- [x] No
-
-#### Question: Choice
-id:: a6375e30-242b-4a1a-80ca-76f537580003
-content:: Are large language models, such as the ones behind ChatGPT and Claude, a kind of neural network?
-options::
-- [x] Yes
-- No
-
 #### Question: Open
 id:: 131b889f-9f94-412c-bfd6-bd6306afd870
 content:: Neural networks were studied for decades before they became the leading approach in AI in the 2010s. Why did they take over only then?

@@ -56,6 +56,7 @@ shuffle:: true
 id:: 3b8e8f15-1782-4745-a815-27131efc0f84
 content:: The "tool AI" proposal is to build AI that lays out options for humans to act on, instead of agents that act on their own. Which of these is a common objection to it?
 options::
+- [x] Agents are more useful, so competitors would build them anyway
 - Tools need far more computing power than agents doing the same task
 - A system that only suggests options cannot be safety-tested before release
 - Regulators would have no legal way to tell tools and agents apart
@@ -70,13 +71,6 @@ options::
 - The AI would forget what it learned in earlier episodes
 - Rewards limited to one episode are too weak a signal to train a capable model
 shuffle:: true
-
-#### Question: Choice
-id:: 9b482974-bf66-42d5-b89d-01c5294c8493
-content:: A developer trains an AI with rewards that depend only on what happens within each episode. Does this guarantee that the trained AI does not care about what happens after the episode?
-options::
-- [x] No, an AI with longer-term goals could also score well on these rewards
-- Yes, the reward determines which goals the AI ends up with
 
 #### Question: Choice
 id:: 0ec08a5b-2abb-484f-b7e7-ff5c134413b0
