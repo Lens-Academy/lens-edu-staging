@@ -125,10 +125,10 @@ shuffle:: true
 id:: efd90891-a009-49fb-a7f6-8b54b5e4f070
 content:: People who expect superintelligence to be very powerful often compare humans with chimpanzees. What is the point of this comparison?
 options::
-- [x] A modest difference in brains led to a huge difference in power
+- [x] A brain of similar design, but larger, led to a huge gap in power
 - Chimpanzees show that intelligence stops helping beyond a certain level
 - Humans and chimpanzees share most of their DNA, so minds are similar
-- Brain size alone sets how much power a species has
+- Physical strength matters more than intelligence for a species' power
 shuffle:: true
 
 #### Question: Open

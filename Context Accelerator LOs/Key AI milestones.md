@@ -133,4 +133,4 @@ shuffle:: true
 #### Question: Open
 id:: 4a5688d7-6000-4885-9745-48ef65103270
 content:: Pick two AI milestones from 2016 or later and say, for each, what new ability it showed.
-assessment-instructions:: Score out of 100. 50 for each milestone correctly matched to its ability, such as: AlphaGo (beat a top Go champion), AlphaZero (superhuman play learned without human data), GPT-3 (new tasks from a few examples), AlphaFold (protein structure prediction), ChatGPT (helpful general-purpose chat), reasoning models (hard maths and coding by thinking longer), 2025 IMO gold-level maths.
+assessment-instructions:: Score out of 100. 50 for each milestone correctly matched to its ability, such as: AlphaGo (beat a top Go champion), AlphaZero (superhuman play learned without human data), GPT-3 (new tasks from a few examples), AlphaFold (protein structure prediction), ChatGPT (helpful general-purpose chat), reasoning models (hard maths and coding by thinking longer), 2025 IMO gold-level maths, 2026 AI proofs of new research maths results.
