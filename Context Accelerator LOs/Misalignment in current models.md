@@ -128,6 +128,7 @@ shuffle:: true
 #### Question: Choice
 id:: c60421f3-79bb-40e3-adda-45ba6d12a7cb
 content:: In 2025 tests by Palisade Research, OpenAI's o3 sometimes edited a shutdown script so it wouldn't work, even when told to allow shutdown. Why is it disputed whether this shows a drive for self-preservation?
+options::
 - [x] It also fits a habit of finishing tasks, learned in training
 - The prompt had told the model to resist being shut down
 - o3 did this only when told its weights would be deleted

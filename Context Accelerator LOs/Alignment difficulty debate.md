@@ -102,10 +102,6 @@ options::
 - These failures went away by themselves as models were scaled up
 shuffle:: true
 
-#### Question: FillBlank
-id:: 3a50d7aa-96cd-4a85-8042-bf77eb650452
-content:: The argument that an AI's capabilities may carry over to new domains while its trained-in alignment does not is called the {{sharp left turn}}.
-
 #### Question: Open
 id:: 685ce875-5a01-49d7-b506-cf735404f2fd
 content:: Name one piece of evidence optimists cite that aligning advanced AI may be fairly easy, and one reason pessimists consider that evidence weak.

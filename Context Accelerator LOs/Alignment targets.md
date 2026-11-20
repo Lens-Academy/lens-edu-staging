@@ -75,13 +75,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 0ce0eaca-7f3a-4858-92c0-61b97943038b
-content:: Does the indirect normativity approach to AI goals require its designers to know the correct moral theory in advance?
-options::
-- Yes
-- [x] No
-
-#### Question: Choice
 id:: 8da0794c-a15e-4b28-9ca2-badde75b7371
 content:: An AI is fully corrigible: it accepts correction and shutdown from its operators, but has no strong values of its own. What is the main risk of this alignment target?
 options::
@@ -120,10 +113,6 @@ options::
 - Literal instruction-following
 - Ambitious value learning
 shuffle:: true
-
-#### Question: FillBlank
-id:: 787f4378-9b29-4dc1-87b4-f0898e3b12fa
-content:: Eliezer Yudkowsky's proposal that AI should pursue what humanity would want "if we knew more, thought faster, were more the people we wished we were" is called coherent extrapolated {{volition}}.
 
 #### Question: Open
 id:: f2ace7a6-0372-49d4-a349-2a09faff07f3

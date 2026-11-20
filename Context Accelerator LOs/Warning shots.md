@@ -36,13 +36,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 5c6d8760-109c-421b-a789-c529cbcf644a
-content:: If AI capabilities jump suddenly instead of improving gradually, does a useful AI warning shot become more likely or less likely?
-options::
-- [x] Less likely
-- More likely
-
-#### Question: Choice
 id:: f47f4134-3e78-4e2d-befe-8f9a6a8b45c5
 content:: Why might a misaligned AI that is able to cause a catastrophe produce no smaller warning incidents first?
 options::
