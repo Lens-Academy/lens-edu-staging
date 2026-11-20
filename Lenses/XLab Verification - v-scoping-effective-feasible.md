@@ -20,7 +20,7 @@ content::
 The 1963 treaty banned nuclear tests in the atmosphere, in space, and underwater, but not underground. The reason is pure verification design. Atmospheric tests could be detected worldwide by existing means, monitoring stations picking up radioactive debris and, later, satellites and seismic arrays, without any inspection inside the other country. Underground tests could not be reliably distinguished from earthquakes at the time and would have required on-site inspection the Soviets would not grant. So the treaty covered exactly the environments that national technical means could police and left out the one they could not.
 :::
 
-In the following exercise, you will develop intuitions with this effectiveness-feasibility tradeoff framework in the context of ASI development. Should governments agree to a more moderate slow-down or a more drastic pause? Should you compromise ambition or real-world enforceability?
+In the following exercise, you will develop intuitions with this effectiveness-feasibility tradeoff framework in the context of artificial superintelligence (ASI) development. Should governments agree to a more moderate slow-down or a more drastic pause? Should you compromise ambition or real-world enforceability?
 
 Sort the following policy buckets on the feasibility x effectiveness matrix.
 
@@ -57,7 +57,7 @@ Two corners of the matrix are empty by construction. High effectiveness at high 
 Eleven policy buckets, from the least demanding ask to the most. Open each one before you sort.
 
 :::callout {title="1. Self-governance (status quo)" tone="neutral" collapse="closed"}
-Voluntary lab commitments such as RSPs and safety frameworks; no external enforcement, and race dynamics persist.
+Voluntary lab commitments such as responsible scaling policies (RSPs) and safety frameworks; no external enforcement, and race dynamics persist.
 
 **Historical parallel: Asilomar, 1975.** Molecular biologists voluntarily paused recombinant DNA experiments and wrote their own safety guidelines at the Asilomar conference. Self-governance worked for a while because the research community was small and shared norms, but it later hardened into formal NIH rules. The AI parallel: lab commitments can precede regulation, but they historically survive only until commercial pressure or new entrants arrive.
 :::
