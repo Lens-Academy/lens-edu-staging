@@ -14,9 +14,14 @@ Describe the main stories of how humanity could get safely through the transitio
 - [[AI governance]]
 
 ## Why it matters
-Many actions sound helpful but only reduce risk if they fit a story that ends safely. With a theory of victory in mind, you can ask what a project needs in order to matter, spot plans with missing steps, and see where your own work could make a difference.
+Many actions sound helpful but only reduce risk if they fit a story that ends safely. With such a story in mind (sometimes called a theory of victory), you can ask what a project needs in order to matter, spot plans with missing steps, and see where your own work could make a difference.
 
 ## Lenses
+- [Key paths, plans and strategies to AI safety success (BlueDot Impact)](https://blog.bluedot.org/p/ai-safety-paths-plans-and-strategies): a short map of the main stories for AI safety success, from international pauses and deterrence to careful actors racing ahead and societal resilience, with what each needs to go right (June 2025).
+- [[../articles/katzke-ai-governance-needs-a-theory-of-victory|AI governance needs a theory of victory]]: what a theory of victory is (an endgame plus a strategy to reach it), tests for a good one, and three candidates: a moratorium, an "AI Leviathan" and defensive acceleration; the nuclear case study can be skipped (June 2024).
+- [[../Lenses/Two Camps, Two Theories of Victory|Two Camps, Two Theories of Victory]]: one author's opinionated map of the two main camps, "win the race and automate alignment" versus "ban superintelligence by treaty", with the assumptions each needs to hold and a quick tour of other theories (May 2026).
+- [[../Lenses/greenblatt-plans-a-b-c-and-d-for-misalignment-risk|Plans A, B, C, and D for misalignment risk]]: Redwood Research's Ryan Greenblatt on the best plan for each level of political will, from a long international slowdown (Plan A) to a small safety team inside a reckless company (Plan D) (October 2025).
+- [[../Lenses/AI Safety Atlas - Strategies - ASI Safety Strategies|ASI Safety Strategies]]: read the sections "Automate Alignment Research" (OpenAI's 2023 Superalignment plan and what it depends on) and "Deterrence" (Mutual Assured AI Malfunction and its weak points) (2026).
 
 ## Tests
 
@@ -25,6 +30,8 @@ id:: e07c7007-a725-4c1a-aa46-f7479860b2d2
 content:: What makes something a theory of victory for AI risk, rather than a list of useful projects?
 options::
 - [x] It traces a path from today to a stable, safe outcome
+- It ranks interventions by how much risk each one removes
+- It rests on a careful estimate of how likely catastrophe is
 - It focuses on the single most likely way AI could fail
 - It is endorsed by a major AI company or government
 - It gives a probability that AI causes human extinction
@@ -70,43 +77,33 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 538ee11e-d0d4-4019-be07-439df8e44b75
-content:: In Redwood Research's plans for misalignment risk, which situation does Plan D describe?
+id:: 9b0e5afc-4213-4c31-8bb1-ebbae21a240d
+content:: Many AI safety plans call for strong information security at AI companies, to stop model weights being stolen. In a theory of victory where careful developers use their lead to make AI safe, what does this mainly contribute?
 options::
-- [x] A small safety team inside a leading company that gives safety little priority
-- An AI company that pauses until alignment is solved
-- A world where alignment turned out to be easy
-- A plan to use an aligned AI to stop all rival projects
-shuffle:: true
-
-#### Question: Choice
-id:: a7ec37b9-286a-4912-b5e4-56435188a595
-content:: Holden Karnofsky's 2023 playbook for reducing AI risk, focused on misaligned AI, names a few main kinds of intervention. Which of these is one of them?
-options::
-- [x] Information security to stop model weights being stolen
-- A pivotal act carried out by the first aligned AI
-- A permanent worldwide ban on advanced AI research
-- Nationalising every frontier AI company
+- [x] It stops rivals skipping ahead by copying the careful developers' models
+- It makes models less likely to pursue goals their developers didn't intend
+- It lets outside researchers check models for dangerous capabilities
+- It shows the public that AI companies take safety seriously
 shuffle:: true
 
 #### Question: Choice
 id:: 5ebb3700-31bf-4ec1-9672-42902bc4fc9b
-content:: OpenAI's 2023 superalignment plan aimed to have AI systems do much of the alignment research for more powerful AI. What does this plan most depend on?
+content:: OpenAI's 2023 superalignment plan (its team was disbanded in 2024) aimed to have AI systems do much of the alignment research for more powerful AI. Plans like this are still common. What do they most depend on?
 options::
 - [x] Being able to trust or control AIs that are good at research
-- Pausing AI training until humans solve alignment themselves
-- AI progress staying slow for several decades
+- Keeping the alignment methods secret from rival companies
+- Human researchers checking every AI result by hand
 - Governments agreeing on a global limit on training compute
 shuffle:: true
 
 #### Question: Choice
-id:: 07b71884-8941-4bb0-80f6-8b69386b04ab
-content:: The 2025 paper "Superintelligence Strategy" proposes Mutual Assured AI Malfunction (MAIM). In this theory of victory, what mainly keeps any one state from racing to dominance?
+id:: c1cd868a-e84d-4522-ac11-a87a8e296af0
+content:: The 2025 paper "Superintelligence Strategy" proposes MAIM: states are deterred from racing to AI dominance because rivals would sabotage any project that tries. For this deterrence to work, which of these must hold?
 options::
-- [x] Rivals' threat to sabotage AI projects that seek dominance
-- A single international lab that builds AI for all countries
-- Companies sharing their alignment research openly
-- An aligned AI that disables other countries' AI projects
+- [x] States can watch rivals' AI projects closely enough to spot a bid for dominance
+- Alignment is solved before any state gets close to superintelligence
+- All frontier AI development moves into one international lab
+- AI companies share their alignment research openly with each other
 shuffle:: true
 
 #### Question: Open

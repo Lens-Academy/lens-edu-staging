@@ -16,6 +16,11 @@ Set out the objection that concern about AI risk is a Pascal's mugging, and the 
 People often dismiss AI risk as a tiny chance made to look important by enormous stakes. If you can tell when an argument really leans on a tiny probability and when it doesn't, you can answer this objection fairly, without brushing off serious risks or being swayed by inflated ones.
 
 ## Lenses
+- [[../video_transcripts/robert-miles-ai-safety-is-ai-safety-a-pascals-mugging|Is AI Safety a Pascal's Mugging?]]: Robert Miles on Pascal's wager and mugging, why huge stakes can't stand in for evidence, and Stuart Russell's bridge example of why a 1-in-250 risk of disaster is a real one, not a mugger's threat.
+- [AI Risk Is Not a Pascal's Wager (Thing of Things)](https://thingofthings.substack.com/p/ai-risk-is-not-a-pascals-wager): Ozymandias on why the 1% to 50% estimates researchers give are ordinary probabilities, not Pascalian ones, and why guarding against a risk below 50% is plain foresight (April 2026).
+- [MR Tries The Safe Uncertainty Fallacy (Astral Codex Ten)](https://www.astralcodexten.com/p/mr-tries-the-safe-uncertainty-fallacy): Scott Alexander's reply to Tyler Cowen, on why "we can't predict this" doesn't make catastrophe unlikely, and why uncertainty doesn't make a probability small (March 2023).
+- [Long-Termism vs. Existential Risk (Effective Altruism Forum)](https://forum.effectivealtruism.org/posts/KDjEogAqWNTdddF9g/long-termism-vs-existential-risk): Scott Alexander on why the case for reducing AI risk doesn't need concern for future generations, since it threatens people alive now (April 2022).
+- [A Pascal's Wager for AI Doomers (Pluralistic)](https://pluralistic.net/2026/04/16/pascals-wager/): a critic's version of the objection: Cory Doctorow on why he sees Yoshua Bengio's case for caution as a Pascal's wager with no stopping point; read up to where he turns to common ground with Bengio (April 2026).
 
 ## Tests
 #### Question: Choice
@@ -40,12 +45,12 @@ shuffle:: true
 
 #### Question: Choice
 id:: f887f55b-892b-4645-a0b5-1703ba7ce0f9
-content:: A 2023 survey of AI researchers found a median estimate of about 5% that advanced AI leads to outcomes as bad as human extinction. What does this suggest about the Pascal's mugging objection to AI risk?
+content:: A survey of AI researchers (fielded in December 2024, published in 2026) found a median estimate of 10% that AI leads to human extinction or a similarly permanent and severe loss of human control. What does this suggest about the Pascal's mugging objection to AI risk?
 options::
 - [x] It targets probabilities far smaller than many researchers give
-- It is confirmed, since 5% is below the usual threshold for action
-- It doesn't apply, since surveys measure frequencies rather than beliefs
-- It is settled, since researchers agree the risk is exactly 5%
+- It is confirmed, since most researchers gave estimates below 1%
+- It is answered, since the survey shows the true risk is 10%
+- It doesn't apply, since surveys can't measure probabilities at all
 shuffle:: true
 
 #### Question: Choice
@@ -73,20 +78,13 @@ id:: b1490838-f09b-4962-a049-677e6ec95e00
 content:: A risk with a 1% chance of killing all of 8 billion people has an expected death toll of {{80 million|80,000,000}}.
 
 #### Question: Choice
-id:: b4242167-2fe2-4dd6-80dd-80d49a25fdab
-content:: Counting only harm to people alive today, and none to future generations, does a 10% chance of human extinction justify a large effort to reduce it?
+id:: a297abbc-dbc8-4989-a294-8df94a4cc19f
+content:: Some argue that the case for reducing AI risk doesn't depend on caring about future generations. If the risk of extinction were 10%, what would best support this?
 options::
-- [x] Yes
-- No
-
-#### Question: Choice
-id:: 1f427009-895a-4520-bb63-3f3b708d6cac
-content:: A risk has a 1% chance of happening each year, independently of other years. Roughly what is the chance it happens at least once in 50 years?
-options::
-- [x] About 40%
-- About 1%
-- About 10%
-- About 99%
+- [x] The expected deaths among people alive today would exceed those of risks we already spend heavily on
+- Extinction would cause far less harm to future generations than to the people alive when it happens
+- Expected-value reasoning can only be applied to people who already exist, not to those not yet born
+- Governments are only permitted to weigh the interests of current citizens when setting their budgets
 shuffle:: true
 
 #### Question: Choice
@@ -100,11 +98,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 3145e222-2c0d-4de8-9c35-33031953c51a
-content:: A critic grants that the total risk of AI catastrophe may be 10%, but says one person's donation would lower it only by a tiny amount. Does showing that the total risk is large fully answer this version of the worry?
+id:: 0b3ed28b-d9c8-4296-875e-f37f6d851acc
+content:: A critic grants that the total risk of AI catastrophe may be 10%, but says one person's donation would lower it only by a tiny amount, so giving is itself a Pascal's mugging. What is most relevant to judging this worry?
 options::
-- [x] No
-- Yes
+- [x] Whether the donation's expected reduction in harm is worth its cost
+- Whether the total risk is 10% rather than a much smaller figure
+- Whether the donor is personally likely to be harmed by AI
+- Whether any single donation has ever prevented a catastrophe
+shuffle:: true
 
 #### Question: Open
 id:: b573e6d5-5262-4e48-b501-19df30f0c4b5
@@ -114,4 +115,4 @@ assessment-instructions:: Score out of 100. 50: the case rests on a tiny probabi
 #### Question: Open
 id:: 83cd81d0-3a4c-4667-8444-23742abf606d
 content:: Why is a 10% chance of a global catastrophe not a small risk? Support your answer with a comparison or a calculation.
-assessment-instructions:: Score out of 100. 100 for a fitting comparison (such as refusing to board a plane with a 10% chance of crashing, or Russian roulette's 1-in-6 odds) or calculation (such as 10% of 8 billion people being 800 million expected deaths). 50: says the stakes are high without showing why 10% is a large chance.
+assessment-instructions:: Score out of 100. 100 for a fitting comparison (such as refusing to board a plane with a 10% chance of crashing, or Russian roulette's 1-in-6 odds) or calculation (such as a 10% chance of killing 8 billion people giving 800 million expected deaths). 50: says the stakes are high without showing why 10% is a large chance.

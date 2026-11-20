@@ -17,6 +17,10 @@ Describe what a misaligned AI takeover short of human extinction could look like
 How likely you think a takeover AI is to spare humans changes your estimate of extinction risk, but changes the case for preventing takeover much less. Without this distinction, people can mistake "we'd probably survive" for "it wouldn't be that bad", or dismiss the risk because extinction seems unlikely.
 
 ## Lenses
+- [But Why Would the AI Kill Us? (LessWrong)](https://www.lesswrong.com/posts/87EzRDAHkQJptLthE/but-why-would-the-ai-kill-us): Nate Soares's short case that an indifferent AI would use our atoms and remove the risk of us building a rival AI, plus Paul Christiano's top comment arguing that sparing humans is so cheap that slight care or trade could keep many alive, though billions might still die and the future would still be lost; read the post and Christiano's comment (April 2023).
+- [[../Lenses/IABIED - QA - Preserving Humans Negligible|Wouldn't Preserving Humans Be a Negligible Expense?]]: Yudkowsky and Soares on why "it would be cheap" is not a reason, using ants and sugar and the sunlight a Dyson swarm would take from Earth.
+- [[../Lenses/IABIED - QA - Care a Little About Humans|Won't AIs Care at Least a Little About Humans?]]: why a sliver of humanlike care picked up from training might still give humans a terrarium, edited minds or a future they would never choose.
+- [Notes on Fatalities from AI Takeover (Redwood Research)](https://blog.redwoodresearch.org/p/notes-on-fatalities-from-ai-takeover): Ryan Greenblatt's estimates of how many people a takeover would kill and why, covering small motives to spare us, trade, rival AIs and violent takeover, and why survivors would still be disempowered (September 2025) (more advanced).
 
 ## Tests
 
@@ -29,32 +33,32 @@ options::
 
 #### Question: Choice
 id:: 47011a87-599f-48e9-96cf-f7cba245aacd
-content:: Two people both put the chance of a misaligned AI takeover at 20%. One puts the chance of human extinction from AI at 15%, the other at 3%. Which disagreement best explains the gap?
+content:: Two people both put the chance of a misaligned AI takeover at 20%. One puts the chance of human extinction from such a takeover at 15%, the other at 3%. Which disagreement best explains the gap?
 options::
 - [x] How likely a takeover AI is to keep humans alive
 - How soon they expect superintelligence to arrive
-- Whether a takeover would be fast or gradual
-- Whether AI labs will publish their safety plans
+- How likely AI is to end up misaligned in the first place
+- Whether humans would notice a takeover while it was happening
 shuffle:: true
 
 #### Question: Choice
-id:: d08305f3-6689-4c40-8d6d-0b6e27833889
-content:: Someone argues a misaligned superintelligence would spare humans because Earth is a tiny share of the resources it could use. A critic replies that a billionaire doesn't give a stranger $77 just because he could easily afford it. What is the critic's point?
+id:: fa2c5358-436e-4e7e-81d8-4a7efee3e01c
+content:: Some argue a misaligned superintelligence would spare humans because Earth is a tiny share of the resources it could use. Critics say this argument is missing a step. What else would have to be true for the AI to spare humans?
 options::
-- [x] A cheap cost still won't be paid without a reason to pay it
-- Superintelligences will value Earth more than distant resources
-- The AI would be less wealthy than the argument assumes
-- Humans would have to pay the AI to be spared
+- [x] It has some reason of its own, however weak, to want humans alive
+- It has no use at all for the land, energy or materials on Earth
+- It expects humans to stay more capable than it for some time
+- It is far more capable than humans in every domain
 shuffle:: true
 
 #### Question: Choice
 id:: db31af6c-86ea-4e13-9bc9-79dbc087ff5b
 content:: Why do some researchers think a misaligned AI might still care a little about humans?
 options::
-- [x] Training on human text and feedback may leave it some weak concern for people
-- Any intelligent enough agent comes to value all living things
-- Its developers can remove any goal that would harm people
-- Misaligned AIs pursue goals opposite to the ones they were trained on
+- [x] Training on human data may leave it a faint trace of human values
+- Misalignment usually affects only its skills, not its goals
+- Laws in most countries require AI to protect human life
+- It would need human approval to change its own goals
 shuffle:: true
 
 #### Question: Choice
@@ -79,7 +83,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: de6b74b0-f4a1-41d6-a4d2-42f46909c254
-content:: Which of these is a trade-based argument for expecting a misaligned AI to spare humans?
+content:: Which of these is an argument some researchers give for expecting a misaligned AI to spare humans for good, even if it doesn't care about them at all?
 options::
 - [x] Powerful agents it meets later might reward it for treating its creators well
 - Its developers trained it on rules that forbid harming humans
@@ -92,14 +96,14 @@ id:: a2e03199-02a5-4687-8d51-ce134dac7434
 content:: In many AI takeover scenarios, why might a misaligned AI keep humans alive and working at first?
 options::
 - [x] It needs human labor to run factories and power until it has robots
-- It is legally required to employ humans for a set period
+- It cannot change its own goals without human input
 - It cannot copy itself without human permission
 - It wants humans to keep paying for its computing
 shuffle:: true
 
 #### Question: Choice
 id:: 1ab05d90-2caa-4e16-994f-1c5fcb289647
-content:: Which of these AI takeover outcomes is an example of an s-risk rather than of human disempowerment?
+content:: Which of these outcomes of an AI takeover would usually be called an s-risk?
 options::
 - [x] The AI creates vast numbers of minds that suffer
 - Humans live comfortably on Earth but have no say over the rest of the universe

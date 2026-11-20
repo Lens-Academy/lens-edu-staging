@@ -4,7 +4,7 @@ priority: high
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Sort AI catastrophe scenarios by their source (misalignment, misuse, structural dynamics or mistakes from lack of capability), and explain why each source needs its own kind of solution.
+Sort AI catastrophe scenarios by their source (misalignment, misuse, structural dynamics or mistakes from lack of capability), and explain why a solution aimed at one source often leaves the others open.
 
 ## Requires
 
@@ -13,9 +13,13 @@ Sort AI catastrophe scenarios by their source (misalignment, misuse, structural 
 - [[AI alignment]]
 
 ## Why it matters
-Each fix works on some sources and not others: alignment research does little against a person who wants harm, and access controls do little against racing pressure. Knowing a scenario's source lets you judge whether a proposed solution addresses it, and spot the risks that it leaves open.
+Most fixes work on some sources and not others: alignment research does little against a person who wants harm, and access controls do little against racing pressure. A few measures, such as slowing the race, help against more than one. Knowing a scenario's source lets you judge whether a proposed solution addresses it, and spot the risks that it leaves open.
 
 ## Lenses
+- [[../articles/shah-google-deepmind-an-approach-to-technical-agi-safety-and-security|Google DeepMind: four areas of AI risk]]: the split into misuse, misalignment, mistakes and structural risks, with an example of each and why each calls for different mitigations. Read the "Risk areas" section only (April 2025).
+- [[../articles/arxiv-an-overview-of-catastrophic-ai-risks|An Overview of Catastrophic AI Risks]]: Hendrycks, Mazeika and Woodside's four sources (malicious use, AI race, organisational risks, rogue AIs), each with its own suggested fixes. Read the Executive Summary and section 3.1.3 "Automated Warfare", on how a false alarm in an automated nuclear system could start a war (June 2023).
+- [Thinking About Risks From AI: Accidents, Misuse and Structure (Lawfare)](https://www.lawfaremedia.org/article/thinking-about-risks-ai-accidents-misuse-and-structure): Zwetsloot and Dafoe's original three-way split, why structural risk can arise when nobody misuses AI and it works as designed, and why each kind needs different policy (February 2019).
+- [[../Lenses/AI Safety Atlas - Risks - Risk Amplifiers|Risk Amplifiers]]: how competition raises misuse, misalignment and systemic risks, and how well-meant AI systems fail for lack of capability or information. Read the "Race Dynamics" and "Accidents" sections.
 
 ## Tests
 #### Question: Choice
@@ -59,13 +63,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: d050f86e-cd3f-4aab-8205-75046846d990
-content:: Other things being equal, which source of AI catastrophe tends to become less likely as AI systems become more capable?
+id:: 36e4c443-7427-48ff-9b4f-2d5ab76ceeb4
+content:: A company says its new AI model is safer than the last one because it is more capable and makes fewer errors. Which sources of AI catastrophe does that improvement mainly address?
 options::
-- [x] Mistakes from lack of capability
-- Misalignment
-- Misuse
-- Structural dynamics
+- [x] Mistakes from lack of capability only; misuse and misalignment risks can grow with capability
+- All four sources, since each one comes down to an AI system making some kind of error
+- Misalignment mainly, since a more capable AI better understands what its developers want
+- Structural risk mainly, since a more capable AI reduces the pressure on developers to race
 shuffle:: true
 
 #### Question: Choice
@@ -74,7 +78,7 @@ content:: Why are AI mistakes from lack of capability listed as a possible sourc
 options::
 - [x] AI may run high-stakes systems, like nuclear command, before it is reliable
 - Errors made by weak AI systems tend to grow as those systems are scaled up
-- Weak AI systems that make errors tend to start seeking power to correct them
+- Weak AI systems are more likely than strong ones to form goals of their own
 - Lack of capability is the main reason AI systems end up misaligned
 shuffle:: true
 
@@ -99,12 +103,12 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: efea2522-d589-412e-b732-162490cc1641
-content:: Some writers split AI risk three ways: misuse, accidents and structural risk. In that split, where does an AI competently pursuing a goal its developers didn't intend belong?
+id:: 993db33b-b23d-47d5-8cd3-5a3ccbc44723
+content:: The International AI Safety Report, backed by over 30 countries, groups AI risks into malicious use, malfunctions and systemic risks. Where does an AI competently pursuing a goal its developers didn't intend, and resisting human control, belong?
 options::
-- [x] Accidents
-- Misuse
-- Structural risk
+- [x] Malfunctions
+- Malicious use
+- Systemic risks
 shuffle:: true
 
 #### Question: FillBlank
@@ -113,8 +117,8 @@ content:: Harm from AI that comes from competition, incentives and interactions 
 
 #### Question: Open
 id:: fccc0660-9be2-47e0-8443-82e679240dcf
-content:: Why do different sources of AI catastrophe need different solutions? Give one measure that helps against one source but not another.
-assessment-instructions:: Score out of 100. 50 for explaining that the sources have different causes (unintended AI goals, harmful human goals, collective dynamics, unreliable AI), so a fix for one cause can miss another. 50 for a fitting example, e.g. alignment research helps against misalignment but not against a user who wants harm, or refusal training helps against misuse but not against racing pressure.
+content:: Why do different sources of AI catastrophe often need different solutions? Give one measure that helps against one source but not another.
+assessment-instructions:: Score out of 100. 50 for explaining that the sources have different causes (unintended AI goals, harmful human goals, collective dynamics, unreliable AI), so a fix for one can miss another. 50 for a fitting example, e.g. alignment research helps against misalignment but not a user who wants harm. Noting that some measures help against several sources is fine.
 
 #### Question: Open
 id:: 52068d15-9ba0-4cdc-8e1d-e6dac565d454

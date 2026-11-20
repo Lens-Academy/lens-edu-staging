@@ -17,6 +17,11 @@ Explain how safety research and safety-motivated AI companies can also speed up 
 Choosing which safety work to do, fund or join means weighing its benefits against any speedup it gives to capabilities, which can shorten the time left for safety. Without this, you may back projects that mostly feed the race they aim to make safer, or reject useful work over small speedups that would have happened anyway.
 
 ## Lenses
+- [Thoughts on the impact of RLHF research (LessWrong)](https://www.lesswrong.com/posts/vwu4kegAEZTBtpT6p/thoughts-on-the-impact-of-rlhf-research): Paul Christiano, a main developer of RLHF, weighs whether it was good for safety: the case for, the case against (more useful models, more investment, false confidence), and why he thinks others would have built it anyway (January 2023).
+- [[../Lenses/AICF - Ngo - Pragmatism and pessimization|Richard Ngo: Pragmatism and pessimization]]: a former OpenAI and DeepMind researcher argues that safety-branded work on RLHF and scaling helped start the chatbot boom and the race, and that "someone else would do it" and overhang arguments were rationalisations; one side of a live debate. Read the "OpenAI" section (August 2026).
+- [[../Lenses/anthropic-core-views-on-ai-safety-when-why-what-and-how|Anthropic's Core Views on AI Safety]]: Anthropic's own case for why safety research needs frontier models, the trade-off it accepts, and why it counts RLHF as safety work. Read "The role of frontier models in empirical safety" and "The three types of AI research at Anthropic" (March 2023).
+- [[../articles/oesterheld-a-simple-argument-about-capabilities-externalities-versus-opportunity-costs|Capabilities externalities versus opportunity costs]]: Caspar Oesterheld argues that for a typical safety project the speedup it gives capabilities is smaller than the cost of not doing other safety work, and says when that argument fails (September 2026).
+- [The bitter lesson for AI safety research (AI Alignment Forum)](https://www.alignmentforum.org/posts/afiyFjiNyubqvuFHM/the-bitter-lesson-for-ai-safety-research): the authors of the "Safetywashing" paper find that about half of safety benchmarks rise with general capability, and argue for work that makes safety progress separately from capabilities (August 2024).
 
 ## Tests
 
@@ -37,7 +42,7 @@ options::
 - [x] It made chatbots much more useful, drawing more investment into AI
 - It let models learn from images and audio as well as text
 - It removed the need for large pretraining runs on internet text
-- It was used to train models to perform better on hacking tasks
+- It cut the compute needed to train frontier models many times over
 shuffle:: true
 
 #### Question: Choice
@@ -58,20 +63,23 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: c107b3a2-8c12-4c71-ac44-825a4bc95745
-content:: Researchers found that scores on many AI safety benchmarks rise closely with general capabilities across models. Does a rising score on such a benchmark show progress on safety specifically?
+id:: eb8afb31-ba85-44cc-a19f-b8fde66b369a
+content:: Researchers found that scores on many AI safety benchmarks rise closely with general capabilities and training compute. What does this suggest about a project that raises those scores?
 options::
-- [x] No
-- Yes
+- [x] Its gains may be capabilities progress presented as safety progress
+- It shows that more capable models will also be the safer ones
+- It shows that safety research has no capabilities externalities
+- It shows that these benchmarks were written by capabilities teams
+shuffle:: true
 
 #### Question: Choice
-id:: 22b08526-4c74-4b28-8826-1ca268f835ec
-content:: A researcher wants to estimate how much a safety project would speed up AI capabilities. Which question is most relevant?
+id:: 7c7a9f45-b0f0-4b2a-afdd-918cccec9604
+content:: A safety project leads to a capability advance. Which fact would most reduce how much the project actually sped up AI progress?
 options::
-- [x] Would others have made the same capability advance soon anyway?
-- Is the project led by people who care about safety?
-- Will the project's results be easy to explain to the public?
-- Does the project use more compute than typical safety work?
+- [x] Several other teams were close to finding the same advance
+- The researchers involved were motivated mainly by safety
+- The advance was first published at a safety workshop
+- The project's stated goal was to make models safer
 shuffle:: true
 
 #### Question: Choice
@@ -88,20 +96,20 @@ shuffle:: true
 id:: 93547aa1-bcb9-4981-a8cc-e155097f26a9
 content:: Which of these safety projects is most likely to speed up AI capabilities?
 options::
-- [x] Interpretability work that reveals a more efficient way to train models
+- [x] A method that makes models follow complex instructions more reliably
 - A policy proposal for licensing the companies that train frontier models
 - A study measuring how often models mislead the people evaluating them
 - A security plan for protecting model weights from theft by hackers
 shuffle:: true
 
 #### Question: Choice
-id:: ad0b5be1-b0f1-45fb-ab1e-0388ba112c27
-content:: A safety researcher finds a result that also reveals a way to make AI models more capable. What safety-related reason might they have for not publishing it?
+id:: b2b18150-d1be-4219-8301-08a4d8784751
+content:: A safety researcher's result would help other safety researchers but also reveals a way to make AI models more capable. Which consideration favours publishing it anyway?
 options::
-- [x] Publishing could speed up capabilities work at other AI labs
-- Publishing could reveal personal data used to train the model
-- Safety journals usually reject papers that contain capability results
-- Publishing could let regulators restrict their own lab's models
+- [x] Others may find the trick soon, and withholding also slows safety work
+- Capability tricks that appear in safety papers are rarely used by labs
+- Peer review would catch any danger in the trick before labs could use it
+- Most AI labs have agreed not to use capability results from safety papers
 shuffle:: true
 
 #### Question: Open

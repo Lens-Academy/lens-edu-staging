@@ -17,6 +17,9 @@ Describe where the US and China each stand in AI as of November 2026: who leads 
 Many arguments in AI policy, from export controls to slowing down, rest on claims about how close China is. Knowing the actual state of chips, talent and models lets you check those claims instead of accepting "China is about to win" or "China is years behind" at face value.
 
 ## Lenses
+- [Competing AI strategies for the US and China (Brookings)](https://www.brookings.edu/articles/competing-ai-strategies-for-the-us-and-china/): Kyle Chan's testimony to Congress on where each country leads (US: compute and frontier models; China: efficiency, open-weight models, deployment, power build-out, chip self-sufficiency) and what Beijing is aiming for; read up to "How America can win in AI" (April 2026).
+- [[../Lenses/AIF - China Compute and Frontier Lag|China Compute and Frontier Lag]]: two Epoch analyses: why chipmaking limits and weak software keep Chinese AI compute behind for years, and how many months Chinese models have trailed the US frontier.
+- [Who's Ahead in the Global AI Talent Race? (Carnegie Endowment)](https://carnegieendowment.org/features/whos-ahead-in-the-global-ai-talent-race): where the top NeurIPS researchers did their first degree and where they now work, and how that changed from 2022 to 2025 (September 2026).
 
 ## Tests
 
@@ -57,7 +60,7 @@ options::
 - [x] Chinese models are several months behind
 - Chinese models are several years behind
 - Chinese models are ahead on most major benchmarks
-- The lead switches back and forth every few weeks
+- Chinese models are behind on text but well ahead on coding and agents
 shuffle:: true
 
 #### Question: Choice
@@ -66,28 +69,28 @@ content:: Why did DeepSeek-R1, a Chinese model released in January 2025, surpris
 options::
 - [x] It came close to top US reasoning models at a low reported cost
 - It was trained on Huawei chips instead of Nvidia ones
-- It was the first large language model released with open weights
-- It was built by China's military rather than a company
+- It clearly beat the best US models on most benchmarks
+- It was the first model trained to reason step by step before answering
 shuffle:: true
 
 #### Question: Choice
 id:: ffe3f414-c058-472a-bff6-fbaf9d833c48
-content:: How do leading Chinese AI developers such as DeepSeek and Alibaba mostly release their strongest models, compared with leading US companies?
+content:: Many leading Chinese AI developers, DeepSeek among them, release their models differently from most leading US companies. How?
 options::
-- [x] With weights anyone can download, unlike most leading US companies
-- Through an API, just like most leading US companies
-- Only to users inside China, through approved apps
-- Not at all; they keep them for government use
+- [x] With weights anyone can download and run on their own hardware
+- Through an API only, with the weights kept secret
+- Only to users inside China, through government-approved apps
+- Only to Chinese companies and universities, under licence
 shuffle:: true
 
 #### Question: Choice
-id:: 19cdf1d5-961b-4430-9e61-67de8effb458
-content:: Studies of authors at NeurIPS, a leading AI research conference, looked at where top AI researchers did their undergraduate degrees. What did they find about China?
+id:: 4b0d9885-4269-44f9-9443-ccfa2ef1b123
+content:: A 2026 study traced the careers of top AI researchers who wrote papers for NeurIPS 2025, a leading AI conference. What did it find about researchers who did their first degree in China?
 options::
-- [x] It produced the largest share, and many of them work in the US
-- It produced the largest share, and most of them work in Europe
-- It produced a smaller share than India or Europe
-- It produced few, as most Chinese researchers start their studies abroad
+- [x] They were the largest group, and most of them now work in China
+- They were the largest group, but most of them now work in the US
+- They were a smaller group than those who studied in the US
+- They were the largest group, but most of them now work in Europe
 shuffle:: true
 
 #### Question: Choice
@@ -102,7 +105,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: 4a94f41c-f343-42ea-b947-c8dfb70451ad
-content:: Nvidia and some US officials have argued for letting Nvidia sell some less advanced AI chips to China. What is their main argument?
+content:: In December 2025 the US decided to let Nvidia sell its H200 chips, which are less advanced than its newest Blackwell chips, to approved Chinese buyers. Nvidia and some US officials had argued for this. What was their main argument?
 options::
 - [x] It keeps Chinese developers dependent on US technology
 - It slows Chinese AI progress by flooding the market

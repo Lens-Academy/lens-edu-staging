@@ -28,8 +28,8 @@ id:: 18e37e4a-721d-4b96-98de-8cdb6606616c
 content:: In the first-critical-try argument about AI alignment, what makes an attempt the "critical" one?
 options::
 - [x] It is the first system that could cause unrecoverable harm if misaligned
-- It is the first machine learning model a lab tries to align
-- It is the first model a given company releases to the public
+- It is the first system to beat human experts on most benchmarks
+- It is the first model a lab tests for dangerous capabilities
 - It is the first model trained above a legal compute threshold
 shuffle:: true
 
@@ -62,11 +62,11 @@ shuffle:: true
 
 #### Question: Choice
 id:: 1c1621de-180c-4fc7-9cd4-736e6951c242
-content:: Some critics expect that before any AI could overpower humanity, weaker AI systems would already have caused smaller harms or sped up research. How does this bear on the first-critical-try argument?
+content:: Some critics expect that before any AI could overpower humanity, weaker AI systems will cause smaller, visible harms and speed up research, including alignment research. How does this bear on the first-critical-try argument?
 options::
-- [x] It suggests more warning and help may come before the critical point
+- [x] There may be more warning, and more AI help with alignment, before the critical point
 - It shows a critical point will not arrive within this century
-- It means the critical point will arrive sooner than expected
+- It shows there will never be a critical point at all
 - It shows that today's weaker systems are already aligned
 shuffle:: true
 
@@ -97,7 +97,7 @@ options::
 - [x] If the scaled model is misaligned, there may be no chance to notice and fix it
 - Sandbox tests make the model less capable than it will be in use
 - Training away misbehaviour makes models refuse more useful tasks
-- Scaling a model up 100 times costs too much to be worth doing
+- Misbehaviour in the small model proves the scaled model will be misaligned
 shuffle:: true
 
 #### Question: Open

@@ -13,9 +13,13 @@ Tell your independent impression apart from your all-things-considered view, use
 - [[Scout mindset]]
 
 ## Why it matters
-AI safety is a young field where experts disagree sharply. If you mostly defer, you tend to adopt the views of the first group you meet and can't spot errors or choose good work; if you trust only your own impressions, you ignore people who know more. Knowing which to use when avoids both mistakes.
+AI safety is a young field where experts disagree sharply. If you only defer, you risk adopting the views of whichever group you meet first, and you will struggle to spot errors or judge which work is promising. If you trust only your own impressions, you ignore people who know more. Knowing which to use when avoids both mistakes.
 
 ## Lenses
+- [Independent impressions (EA Forum)](https://forum.effectivealtruism.org/posts/2WS3i7eY4CdLH99eg/independent-impressions): Michael Aird's short definition of your independent impression versus your all-things-considered belief, why to report the first and act on the second (September 2021).
+- [How I Formed My Own Views About AI Safety (LessWrong)](https://www.lesswrong.com/posts/JZrN4ckaCfd6J37cG/how-i-formed-my-own-views-about-ai-safety): Neel Nanda on what an inside view on AI safety is, who needs one (researchers more than most), when deferring is fine, and how he built his own by talking to researchers and finding cruxes (February 2022).
+- [Concrete Advice for Forming Inside Views on AI Safety (LessWrong)](https://www.lesswrong.com/posts/LbSWMfbAHQnFpApQ7/concrete-advice-for-forming-inside-views-on-ai-safety): Nanda's step-by-step method: break the case for AI risk into claims you can doubt, understand a view before judging it, and aim for views in your own area rather than on everything (August 2022).
+- [Deferring (EA Forum)](https://forum.effectivealtruism.org/posts/LKdhv9a478o9ngbcY/deferring): Owen Cotton-Barratt on why deferring is useful, how it goes wrong, how chains of deference hide how few independent sources a view has, and when to defer; read from "Why deferring is useful" to the end of "When & how to defer" (May 2022).
 
 ## Tests
 
@@ -66,7 +70,7 @@ options::
 - [x] A researcher choosing which alignment agenda to work on
 - A voter deciding how much AI policy matters to them
 - A donor giving a small yearly sum to an AI safety charity
-- A reader deciding which AI risk book to start with
+- A journalist writing one news story about a new AI safety report
 shuffle:: true
 
 #### Question: Choice
@@ -83,10 +87,10 @@ shuffle:: true
 id:: 5a88d608-7ecc-4379-8888-a7350e0935c3
 content:: After months of study, Sam's impression is that a key alignment problem is easy, while most experts think it is hard. Which view should Sam use when deciding on his career?
 options::
-- [x] His all-things-considered view, which also weighs the experts' views
-- His impression, since he has studied the problem himself
-- The experts' view, setting his impression aside
-- Whichever of the two views is more optimistic
+- [x] His all-things-considered view
+- His independent impression, since he has studied the problem himself
+- The experts' view, since they have studied it for longer than he has
+- Whichever of the two views he holds with more confidence
 shuffle:: true
 
 #### Question: Choice
@@ -109,9 +113,15 @@ options::
 - Adopt the most recently published estimate
 shuffle:: true
 
-#### Question: FillBlank
-id:: 98a37545-5e41-49d6-8b24-3283f89ac5fd
-content:: The view you hold from your own reasoning, before updating on what other people believe, is called your independent {{impression|impressions}}.
+#### Question: Choice
+id:: b8acd0d5-af19-4647-b795-0800a5f4c68f
+content:: You want to defer to experts on how likely AI is to cause human extinction. What makes this harder than deferring to experts on a settled scientific question?
+options::
+- [x] Groups with relevant expertise give very different estimates
+- Very few experts have ever given a numerical estimate
+- Experts broadly agree, but only AI company staff are allowed to say so
+- Experts agree on the risk but not on what it should be called
+shuffle:: true
 
 #### Question: Open
 id:: d22b30db-c584-41be-814d-4a3e2f4094d9

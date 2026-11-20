@@ -15,6 +15,9 @@ Tell apart terminal goals, pursued for their own sake, from instrumental goals, 
 Several central arguments about AI risk rest on this distinction. Instrumental convergence says very different terminal goals call for similar instrumental ones, and the orthogonality thesis is a claim about terminal goals. Without the distinction, it is easy to misread what these arguments claim, or to guess an AI system's aims from a single behaviour.
 
 ## Lenses
+- [[../Lenses/IABIED - QA - Terminal and Instrumental Goals|Terminal Goals and Instrumental Goals]]: a short definition of the two kinds of goal, and why very different terminal goals call for the same means ("you can't fetch the coffee if you're dead") (2025).
+- [[../Lenses/AFSRA - Why Would AI Want to do Bad Things - Instrumental Convergence|Why Would AI Want to do Bad Things?]]: Rob Miles's 11-minute video on terminal versus instrumental goals, with examples from chess and money, and why a paperclip maximizer would refuse to have its goal changed to stamps.
+- [[../Lenses/yudkowsky-terminal-values-and-instrumental-values|Terminal Values and Instrumental Values]]: the classic post on means and ends, showing that instrumental goals depend on what you believe and get dropped when circumstances change (the chocolate-and-earthquake example); the formal middle section can be skimmed (2007).
 
 ## Tests
 
@@ -29,11 +32,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 3de97461-20dc-4614-bd1a-a3553053df06
-content:: Is whether a goal counts as terminal or instrumental a fact about the goal itself, or about the role it plays for a particular agent?
+id:: fffd82a4-90b0-4611-bc9c-5f3d99a5a0f0
+content:: Ana runs every day because she enjoys running. Ben runs every day only to stay healthy. For whom is running a terminal goal?
 options::
-- [x] The role it plays for a particular agent
-- A fact about the goal itself
+- [x] Ana only
+- Ben only
+- Both of them
+- Neither of them
+shuffle:: true
 
 #### Question: Choice
 id:: 7c37bc36-3b9c-4ae4-9938-bcb02e39f6dd
@@ -41,8 +47,18 @@ content:: A cleaning robot collects batteries purely as a means to keep cleaning
 options::
 - [x] Stop collecting batteries
 - Keep collecting batteries as before
-- Stop cleaning
-- Collect batteries more often
+- Keep collecting batteries, but less often
+- Collect batteries in place of cleaning
+shuffle:: true
+
+#### Question: Choice
+id:: 7b48ff55-a1b8-4cb9-a6a7-12c5354e9c9e
+content:: An AI agent's terminal goal is to keep a server running. Believing that nightly restarts prevent crashes, it restarts the server every night. It then learns the restarts cause crashes. Which goal should change?
+options::
+- [x] Its goal of restarting the server nightly
+- Its goal of keeping the server running
+- Both of these goals
+- Neither, since its goals were fixed in training
 shuffle:: true
 
 #### Question: Open
@@ -86,8 +102,8 @@ content:: Explain the difference between a terminal goal and an instrumental goa
 assessment-instructions:: Score out of 100. 100 for stating that a terminal goal is pursued for its own sake and an instrumental goal as a means to another goal, with a plausible example where the instrumental goal serves the terminal one (e.g. earning a degree to get a job one enjoys). 60 for correct definitions without a fitting example, or examples that don't connect.
 
 #### Question: Choice
-id:: f3879d67-7d2c-4c65-a441-a516956bb5ee
-content:: Does calling one of an agent's goals "terminal" mean that the agent spends most of its effort on that goal?
+id:: f7791930-493a-4b8d-85ec-7f2044fafcc9
+content:: An AI agent spends most of its effort acquiring computing power. Does this show that acquiring computing power is one of its terminal goals?
 options::
 - [x] No
 - Yes

@@ -15,6 +15,10 @@ Describe the main federal US approaches to AI since 2025, including recent execu
 Most frontier AI labs are based in the US, so US rules shape how the most capable systems are built and tested. Knowing which rules are binding, which are voluntary, and who can override whom helps you judge new proposals and see where advocacy can change outcomes.
 
 ## Lenses
+- [Regulation of artificial intelligence in the United States (Wikipedia)](https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence_in_the_United_States): the plain facts in order: Biden's order revoked, the failed 10-year moratorium on state laws, CAISI, the December 2025 order, the March 2026 framework for Congress; read from "In January 2025, President Donald Trump revoked..." to the end of the federal material (November 2026).
+- [The Most Likely Outcomes of Trump's Order Targeting State AI Laws (Carnegie Endowment)](https://carnegieendowment.org/emissary/2025/12/ai-trump-order-state-law-what-to-know?lang=en): what the December 2025 order tells the Justice Department and other agencies to do, why it can't override state law by itself, and the case for and against preemption (December 2025).
+- [[../Lenses/phillips-robins-with-the-raise-act-new-york-aligns-with-california-on-frontier-ai-laws|RAISE Act and SB 53]]: what California's and New York's frontier AI laws require, and why Congress, not the president, is the likely route to preempting them (February 2026).
+- [How does Trump's White House AI accord work? (Al Jazeera)](https://www.aljazeera.com/news/2026/9/30/how-does-trumps-white-house-ai-accord-work): who signed the voluntary September 2026 accord, what it commits them to, why it has no penalties, and the new order on the term "super intelligence" (September 2026).
 
 ## Tests
 
@@ -75,16 +79,16 @@ content:: When a valid federal law overrides state laws on the same subject, thi
 #### Question: Open
 id:: b1960b82-cbba-4499-9978-3cb19df10743
 content:: Why can't a US president's executive order, on its own, override a state's AI law? What would be needed instead?
-assessment-instructions:: Score out of 100. 50 for explaining that an executive order directs the federal executive branch and has no power of its own to cancel state law; preemption comes from the Constitution or from statutes passed by Congress. 50 for naming what is needed: Congress passing a preempting law, or a court ruling the state law invalid (for example as unconstitutional or preempted by an existing federal law).
+assessment-instructions:: Score out of 100. 50 for explaining that an executive order directs the federal executive branch and has no power of its own to cancel state law; preemption comes from the Constitution or from statutes passed by Congress. 50 for naming what is needed: Congress passing a preempting law, a federal agency rule made under powers Congress granted, or a court ruling the state law invalid (for example as unconstitutional or preempted by an existing federal law).
 
 #### Question: Choice
-id:: 7f8a84ea-f9ab-41fa-a968-c3739da62483
-content:: In April 2026, the AI company xAI sued to block Colorado's AI Act. What did the US Justice Department's AI Litigation Task Force do?
+id:: a85ba7ed-f6ee-40b2-8d1b-94af3d4bbc47
+content:: As of November 2026, which best describes the federal effort to override state AI laws?
 options::
-- [x] It joined the lawsuit against Colorado, and the law's enforcement was blocked
-- It defended Colorado's law, and the court upheld it
-- It stayed out, saying state AI laws were a matter for states
-- It sued xAI for breaking federal consumer protection law
+- [x] It relies on an executive order and lawsuits; Congress has passed no preemption law
+- It relies on a 2026 act of Congress that overrides state laws on model development
+- It relies on a 2026 Supreme Court ruling that states cannot regulate frontier AI
+- It relies on a deal in which states agreed to pause their AI laws until 2030
 shuffle:: true
 
 #### Question: Choice
@@ -111,10 +115,10 @@ shuffle:: true
 id:: e6de04d7-e527-453f-8828-84ff17ef9437
 content:: In September 2026, leaders of several frontier AI companies signed the White House Accord on Super Intelligence. How are its commitments enforced?
 options::
-- [x] By the companies themselves, with no legal penalties for breaking them
-- By a new federal agency that can fine companies
-- By the Center for AI Standards and Innovation, which approves each release
-- By state attorneys general under consumer protection law
+- [x] They are voluntary, with no legal penalties for breaking them
+- A new federal agency can fine companies that break them
+- The Center for AI Standards and Innovation must approve each release
+- State attorneys general enforce them under consumer protection law
 shuffle:: true
 
 #### Question: Choice

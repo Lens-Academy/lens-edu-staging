@@ -37,9 +37,9 @@ id:: 988b309a-e465-4fc6-bea0-739737143f3d
 content:: A policy group's theory of change includes the step "Government passes and enforces rules on frontier AI training." What is the main weakness of this step?
 options::
 - [x] It merges two outcomes, hiding the risk that rules pass but go unenforced.
-- It names an actor, which makes the theory of change too narrow to use.
+- It depends on a government's choices, which a theory of change should leave out.
 - It describes an outcome when it should describe one of the group's activities.
-- It is too specific to measure, so progress on it can't be tracked.
+- It is a final goal, so it belongs at the end of the chain, not in the middle.
 shuffle:: true
 
 #### Question: Choice
@@ -47,9 +47,9 @@ id:: 45074778-17d3-4b59-b170-2a21c810c65f
 content:: A research group's theory of change ends with the step "Our interpretability papers are widely cited." What is its main problem?
 options::
 - [x] It stops before the outcome that matters, such as lower risk from AI.
-- It ends in a measurable result, which a theory of change should avoid.
-- It has too few activities for the group to stay focused.
-- It relies on evidence about citations rather than on stated assumptions.
+- It depends on other researchers' choices, which the group can't control.
+- It sets a bar too high for a single research group to reach.
+- It is hard to measure, so the group can't tell whether it is on track.
 shuffle:: true
 
 #### Question: Choice
@@ -83,18 +83,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: cdfdf808-c47d-4632-995f-1c2c8e62dd12
-content:: If each step of a theory of change is clearly stated, does that show the action is likely to work?
+id:: 0cb271cb-e552-4ba1-b648-e90312e06612
+content:: A theory of change says "Train AI governance researchers → AI policy improves." A reviewer splits the arrow into four steps that must all happen, each judged 80% likely and independent of the others. What does this imply about the plan as a whole?
 options::
-- [x] No
-- Yes
-
-#### Question: Choice
-id:: 10d7ea27-469c-486a-9557-3f00882ee4db
-content:: A theory of change says "Train AI governance researchers → AI policy improves." A reviewer splits the arrow into four steps that must all happen, each judged 80% likely and independent of the others. Is the plan's overall chance now estimated below 50%?
-options::
-- [x] Yes
-- No
+- [x] It is less likely to work than any one of its steps.
+- It is about 80% likely to work, like a typical step.
+- It is more than 80% likely to work, since there are four chances to make progress.
+- Nothing, until we know which of the four steps comes first.
+shuffle:: true
 
 #### Question: Choice
 id:: c695a8e0-abeb-4de2-97a1-b348f42a084b
