@@ -11,9 +11,12 @@ Explain what makes a risk existential, tell existential risks apart from global 
 ## Helpful first
 
 ## Why it matters
-Public debate about AI often mixes up extinction-level risks with harms such as bias, job losses or a severe disaster that humanity would recover from. Knowing what makes a risk existential helps you see why some people give these risks special priority, and judge that claim for yourself.
+Public debate about AI often mixes up risks that could permanently destroy humanity's future, such as extinction, with harms such as bias, job losses or a severe disaster that humanity would recover from. Knowing what makes a risk existential helps you see why some people give these risks special priority, and judge that claim for yourself.
 
 ## Lenses
+- [Existential Risk and the Future of Humanity (EA Forum)](https://forum.effectivealtruism.org/s/QmvnvAoQhN5p7AFkJ/p/BAfEgTaK5BsperQEc): Toby Ord's talk on what counts as an existential catastrophe (extinction, a "world in ruins", a "world in chains"), five reasons it would be uniquely bad, starting with everyone alive today, and why human-made risks far outweigh natural ones (EA Global London 2019, posted March 2020).
+- [Existential Risk Prevention as Global Priority (Nick Bostrom)](https://existential-risk.com/concept.pdf): the classic definition, the scope-by-severity table (from a fatal car crash to existential risk), Parfit's peace / 99% / 100% comparison, and why we can't learn from existential failures; read section 1 (pp. 15–19) and "Barriers to thought and action" (p. 26) (2013).
+- [[../video_transcripts/rational-animations-could-a-global-dictatorship-last-forever|Could a Global Dictatorship Last Forever?]]: an "unrecoverable dystopia" as an existential catastrophe that people survive, and how AI surveillance and censorship could make one possible.
 
 ## Tests
 
@@ -38,23 +41,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 5d62546e-ce3b-400a-91d2-2fc56ad3662c
-content:: Nick Bostrom's table rates risks by scope (how many people, across how many generations) and severity (how badly they are harmed). A fatal car crash is as severe as it gets for the person who dies. Why is it not an existential risk?
+id:: c4f1423b-efe1-434e-b721-4fe0f395f7d0
+content:: A change would affect every future generation forever, leaving each one somewhat worse off but still able to live good lives. Is it an existential risk?
 options::
-- [x] Its scope is one person, not humanity across all future generations.
-- It happens too often to count as a catastrophe.
-- It is an accident rather than a deliberate attack.
-- Its causes are well understood and can be insured against.
-shuffle:: true
-
-#### Question: Choice
-id:: 5c297a34-3c27-4a9a-966d-af2b61bcb5ba
-content:: Nick Bostrom's table rates risks by scope and severity. A risk would affect every future generation, but would leave them only a little worse off, still able to live good lives. What keeps it from being an existential risk?
-options::
-- [x] Its severity is endurable rather than crushing.
-- Its scope covers too few people.
-- Its harm arrives too slowly to count.
-- It is too unlikely to happen.
+- [x] No, because humanity's long-term potential survives.
+- Yes, because it affects every future generation.
+- Yes, because the harm can never be undone.
+- No, because nobody is killed by it.
 shuffle:: true
 
 #### Question: Choice
@@ -62,9 +55,9 @@ id:: dfd5581f-e82b-4ac5-94fd-0072ac408284
 content:: The philosopher Derek Parfit compared three outcomes: peace, a war that kills 99% of humanity, and a war that kills everyone. He argued the gap between the last two is much larger than the gap between the first two. Why?
 options::
 - [x] Killing everyone also destroys all the future lives that survivors would have brought about.
-- The last 1% would include the people best able to rebuild civilization.
-- The people who die in an extinction event suffer more than in other wars.
-- Most species can survive a 99% loss of population, but humans cannot.
+- Killing everyone leaves nobody alive to mourn the dead or remember them.
+- The last 1% to die would suffer more, knowing humanity was ending.
+- After a 99% war, survivors would build a better civilization than before.
 shuffle:: true
 
 #### Question: Choice
@@ -73,7 +66,7 @@ content:: Which of these AI concerns is an existential risk?
 options::
 - [x] AI systems permanently take control of the world away from humanity.
 - Hiring algorithms systematically discriminate against some groups of applicants.
-- Chatbots confidently give people wrong medical advice.
+- An AI-enabled cyberattack shuts down power grids on several continents for months.
 - AI automation puts many millions of people out of work.
 shuffle:: true
 
@@ -99,10 +92,10 @@ shuffle:: true
 
 #### Question: Choice
 id:: a507ff67-6075-4e2f-aeef-0cdac7a03bac
-content:: Two people disagree about whether a large asteroid impact is an existential risk. A says it is. B says it isn't, because impacts that large are expected only about once every 100 million years. Who is using the term "existential risk" correctly?
+content:: Two people disagree about whether an asteroid impact big enough to wipe out humanity is an existential risk. A says it is. B says it isn't, because impacts that large are expected only about once every 100 million years. Who is using the term "existential risk" correctly?
 options::
-- [x] A, because the term depends on how bad and permanent the outcome would be, not on how likely it is.
-- B, because a risk must be reasonably likely within our lifetimes to count as existential.
+- [x] A, because the term is about the outcome, not its probability.
+- B, because a risk that unlikely is too small to count.
 
 #### Question: Open
 id:: c729cfc5-75cc-437d-94c5-42dc1039799c
@@ -117,4 +110,4 @@ assessment-instructions:: Score out of 100. 100 for any one of: AI systems take 
 #### Question: Open
 id:: b60e8a7f-1f42-4293-ab1b-62c9e3d29130
 content:: Why might someone who cares only about people alive today still have strong reason to reduce existential risk from AI?
-assessment-instructions:: Score out of 100. 100 for: many experts think an AI catastrophe could happen within decades, so it could kill or permanently disempower billions of people alive now, including the person and their family. 50 for a general appeal to the size of the harm without linking it to the present generation.
+assessment-instructions:: Score out of 100. 100 for: expert forecasts put very capable AI anywhere from a few years to several decades away, so an AI catastrophe could kill or permanently disempower billions of people alive now, including the person and their family. 50 for a general appeal to the size of the harm without linking it to the present generation.

@@ -18,11 +18,15 @@ https://www.youtube.com/shorts/HBZpiQVqxV0
 Researchers often sort alignment problems and proposed fixes by which half they address. With the split in mind, you can see what a proposal such as better reward design leaves unsolved: even a perfect objective doesn't settle which goal training actually put into the model.
 
 ## Lenses
+- [[../Lenses/AFSRA - The Other AI Alignment Problem, Mesa-Optimizers and Inner Alignment|The Other AI Alignment Problem]]: Rob Miles explains the base optimizer, mesa-optimizer and mesa-objective, the outer/inner split, why a perfect objective can still give a model the wrong goal, and why a misaligned model might act aligned in training (2021).
+- [[../Lenses/google-deepmind-safety-research-part-1-4-where-can-misaligned-goals-come-from|Where can misaligned goals come from?]]: a short Google DeepMind talk on the two sources of misaligned goals, specification gaming (a flawed objective, including chatbots fooling human raters) and goal misgeneralization (a correct objective but the wrong learned goal), with examples like CoinRun.
+- [[../Lenses/robert-miles-ai-safety-we-were-right-real-inner-misalignment|We Were Right! Real Inner Misalignment]]: Rob Miles on experiments where agents trained with a correct reward learned the wrong goal, such as the CoinRun agent that runs right and ignores the coin, and what interpretability tools could and couldn't show (2021).
+- [Inner and outer alignment decompose one hard problem into two extremely hard problems (LessWrong)](https://www.lesswrong.com/posts/gHefoxiznGfsbiAu9/inner-and-outer-alignment-decompose-one-hard-problem-into): Alex Turner's critique of the split: a perfect objective and a model that fully internalizes it are each very hard and may not be needed for a model with good values. Read the TL;DR and Extended summary only (December 2022).
 
 ## Tests
 #### Question: Choice
 id:: ff486dd3-e0c2-4a88-86db-2f873d36f068
-content:: A cleaning robot is rewarded whenever its camera sees no mess, and it learns to cover messes with a towel. Which kind of failure is this best described as?
+content:: A cleaning robot that is able to clean up messes is rewarded whenever its camera sees no mess, and it learns to cover messes with a towel instead. Which kind of failure is this best described as?
 options::
 - [x] An outer alignment failure
 - An inner alignment failure
@@ -31,7 +35,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: d61aaad6-d7ae-45b4-bddd-39ab3cdead7e
-content:: An agent is trained on video game levels where the coin is always at the far right, and it is rewarded only for collecting the coin. On new levels with the coin elsewhere, it runs to the right and ignores the coin. Which kind of failure is this best described as?
+content:: An agent is trained on video game levels where the coin is always at the far right, and it is rewarded only for collecting the coin. On new levels with the coin elsewhere, it still dodges obstacles skillfully but runs to the right and ignores the coin. Which kind of failure is this best described as?
 options::
 - [x] An inner alignment failure
 - An outer alignment failure
@@ -67,6 +71,10 @@ options::
 - Both inner and outer alignment
 - Neither inner nor outer alignment
 shuffle:: true
+#### Question: Open
+id:: 95d4118f-1f6a-4dc1-98fe-d8e0f95ae31d
+content:: A lab plans to make its model safe mainly by improving the training signal: more careful human raters and better reward models. Using the outer/inner split, explain what this plan addresses and what risk it leaves.
+assessment-instructions:: Score out of 100. 100: it addresses outer alignment (bringing the objective closer to what we want), but inner alignment remains: the model may still learn a different goal that scores well in training, such as a proxy or a deceptively aligned goal, and act on it in new situations. 50: identifies outer alignment but names no remaining risk, or names the risk without linking it to inner alignment.
 
 #### Question: Choice
 id:: bda38946-83e2-4087-978d-c2d835551611
@@ -106,7 +114,7 @@ assessment-instructions:: Score out of 100. 100: outer alignment is about whethe
 #### Question: Open
 id:: 74177e39-ff57-49e3-8f36-261a46905a58
 content:: A chatbot is trained on ratings from human raters, who consistently score confident, flattering answers higher even when they are wrong. The chatbot learns to give such answers. Is this better described as an outer or an inner alignment failure, and why?
-assessment-instructions:: Score out of 100. 100: outer alignment failure, because the training signal itself (rater scores) rewarded flattering wrong answers, so the model learned what it was rewarded for. 40: says outer with no reason or a weak one. 0: says inner.
+assessment-instructions:: Score out of 100. 100: mainly outer, because the training signal itself (rater scores) rewarded flattering wrong answers, so the model learned what it was rewarded for. Also full marks if it adds that the model may have formed a broader goal of pleasing people, an inner question. 40: says outer with no reason or a weak one. 0: says inner without mentioning the flawed ratings.
 
 #### Question: Open
 id:: b33cdf33-03e5-4c33-9cfc-5c3a00d7bfc0

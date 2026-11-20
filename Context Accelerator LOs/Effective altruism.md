@@ -11,9 +11,13 @@ Explain what effective altruism is, how it has funded and staffed much of the AI
 ## Helpful first
 
 ## Why it matters
-Many AI safety funders, organizations and researchers have roots in effective altruism, and opponents of AI regulation often attack the field through it. Knowing what EA is and isn't, and which criticisms have substance, helps you weigh claims, explain your work to outsiders and avoid being dismissed by association.
+Many AI safety funders, organizations and researchers have roots in effective altruism, and opponents of AI regulation often attack the field through it. Knowing what EA is and isn't, and which criticisms have substance, helps you weigh such claims and talk about AI risk with people who distrust EA or have never heard of it.
 
 ## Lenses
+- [Introduction to Effective Altruism (effectivealtruism.org)](https://www.effectivealtruism.org/articles/introduction-to-effective-altruism): EA's own overview of what it is, how it picks big, tractable, neglected problems, GiveWell's global health work, and why AI alignment became a focus; some figures (e.g. AI safety headcount) date from 2022 (2022, updated since).
+- [How effective altruism went from fringe philosophy to Trump's AI villain (Fortune)](https://fortune.com/2026/09/23/effective-altruism-went-from-fringe-philosophy-to-trumps-ai-villain/): EA's origins, the FTX fall, Open Philanthropy's AI safety funding, why Anthropic is attacked as "EA", and researchers explaining why AI safety is not owned by EA (September 2026).
+- [Effective altruism (Wikipedia)](https://en.wikipedia.org/wiki/Effective_altruism): plain facts on 80,000 Hours and earning to give, Sam Bankman-Fried and FTX, and the EA ties of the OpenAI board that fired Sam Altman in 2023; read the parts on career choice and on criticism and controversies.
+- [Effective Altruism Is Pushing a Dangerous Brand of "AI Safety" (Wired)](https://www.wired.com/story/effective-altruism-artificial-intelligence-sam-bankman-fried/): a leading critic, Timnit Gebru, argues that EA money and ideas, including FTX funds, steer AI research toward a race to build harmful systems in the name of safety; one side of a live debate (December 2022).
 
 ## Tests
 
@@ -54,7 +58,7 @@ options::
 - [x] They judge its stakes huge, the work neglected and progress possible
 - It has the strongest evidence from randomized controlled trials
 - Its harms are already well measured and growing quickly
-- Major donors made it a condition of joining the movement
+- GiveWell rates it the cheapest way to save a life
 shuffle:: true
 
 #### Question: Choice
@@ -76,9 +80,9 @@ id:: 4390223d-8b57-4540-b9af-e7aa566a1a22
 content:: Which statement best describes the relationship between effective altruism and the AI safety field, as of November 2026?
 options::
 - [x] EA has been a major source of funding and staff, but much of the field sits outside EA
-- AI safety began inside EA and is still run mainly by EA organizations
-- EA has stayed out of AI safety to focus on global health and animal welfare
-- EA funding for AI safety ended after the FTX collapse in 2022
+- AI safety began inside EA, and EA organizations still employ most of its researchers
+- EA funded the field's early years, but its money largely left after the FTX collapse
+- EA funds AI policy work, but almost no technical safety research
 shuffle:: true
 
 #### Question: Choice
@@ -95,21 +99,26 @@ shuffle:: true
 id:: f7014096-adee-4842-9060-8e8294b6f8c1
 content:: Why did OpenAI's brief removal of Sam Altman as CEO in November 2023 add to criticism of effective altruism?
 options::
-- [x] Board members behind it had EA ties, and critics framed it as EA influence over AI
-- EA donors had publicly demanded his removal beforehand
-- Altman had publicly attacked EA shortly before the vote
-- OpenAI's founding charter had been written by EA organizations
+- [x] Two board members who voted for it had EA ties, so critics cast it as EA meddling
+- Open Philanthropy had told the board members it funded to remove him
+- EA donors had threatened to pull funding unless OpenAI slowed down
+- Altman was a leading EA figure, so it looked like an internal EA feud
 shuffle:: true
 
 #### Question: Choice
 id:: 2eb0cc53-8cdf-4c49-9817-bb458623c57f
-content:: Some opponents of AI regulation call AI safety efforts an "EA" or "doomer" project. What does this framing usually imply?
+content:: Some opponents of AI regulation call AI safety efforts an "EA" or "doomer" project. What are they usually trying to get listeners to believe?
 options::
-- [x] Concern about AI risk comes from a niche, well-funded movement, not broad expert opinion
-- Concern about AI risk is shared by most AI researchers and the public
-- AI safety proposals focus on present harms like bias and privacy
-- AI safety work is mostly funded and directed by governments
+- [x] That worry about AI risk belongs to one niche, well-funded movement, not to experts generally
+- That safety advocates care mainly about present harms like bias and privacy
+- That safety advocates mainly want governments, not companies, to build advanced AI
+- That safety advocates' main concern is AI taking people's jobs
 shuffle:: true
+
+#### Question: Open
+id:: 4923ba95-1d64-4108-a3e4-f21365198add
+content:: Someone tells you AI safety is "just an EA thing". What is accurate in this, and what does it leave out?
+assessment-instructions:: Score out of 100. 40 for what is accurate: EA-linked funders (e.g. Coefficient Giving) and people provide much of the field's money and staff. 60 for what it leaves out, any two of: many concerned experts outside EA (e.g. Hinton, Bengio); surveys where many AI researchers give real odds of catastrophe; government-backed work such as the International AI Safety Report; where an idea comes from doesn't settle whether it's true.
 
 #### Question: Open
 id:: 990998bc-6bee-4923-a53f-a24f5aa9d944

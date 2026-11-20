@@ -15,6 +15,10 @@ Distinguish inside-view reasoning, from a case's details, from outside-view reas
 Many claims about AI timelines and risk are outside-view arguments, such as "past predictions of doom were wrong". If you can spot the reference class an argument relies on, you can ask whether AI really belongs in it, instead of being swayed by whichever comparison sounds most familiar.
 
 ## Lenses
+- [Beware the "inside view" (McKinsey Quarterly)](https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/daniel-kahneman-beware-the-inside-view): Daniel Kahneman's story of a textbook planned for two years that took eight, what the inside and outside views are, and why to start from a reference class's base rate and then adjust (November 2011).
+- [[../Lenses/U2 - Reference Classes And Their Denominators|Reference Classes And Their Denominators]]: Kokotajlo's Taboo "Outside View", on the original meaning (reference class forecasting), how analogy differs, the many other moves now called "outside view", and why choosing a class for AI is a claim you have to defend.
+- [AGI Catastrophe and Takeover: Some Reference Class-Based Priors (EA Forum)](https://forum.effectivealtruism.org/posts/MDNcMLQfxg2n9qXEZ/agi-catastrophe-and-takeover-some-reference-class-based): Zach Freitas-Groff builds six rival reference classes for AI (a new, more capable species, past technologies, powerful organisations, current AI and others), with the case for and against each and how far apart their answers are. Read the executive summary and the reference-class table (May 2023).
+- [AI existential risk probabilities are too unreliable to inform policy (AI as Normal Technology)](https://www.normaltech.ai/p/ai-existential-risk-probabilities): Arvind Narayanan and Sayash Kapoor, two prominent critics, argue that no proposed reference class (animal extinctions, industrial revolutions, mass-casualty accidents) addresses whether control of superintelligence could be lost. Read the section "Inductive probability estimation is unreliable due to the lack of a reference class" (July 2024).
 
 ## Tests
 
@@ -34,6 +38,8 @@ content:: Studies of the planning fallacy find that, compared with how long proj
 options::
 - [x] Too optimistic
 - Too pessimistic
+- About right on average, with errors in both directions
+shuffle:: true
 
 #### Question: FillBlank
 id:: 3f397ce1-f969-405a-b9c1-710e158977da
@@ -90,13 +96,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 8f16a362-ebde-409d-82a1-980cc1405971
-content:: In the forecasting debate phrase "reference class tennis", what happens?
+id:: da4ab9f5-a368-4e46-ba75-04a1b20c406c
+content:: One person says past predictions that a technology would doom us were wrong, so AI risk is overstated. Another says species that met a more capable species often fared badly. What is the most useful way to move this disagreement forward?
 options::
-- [x] Each side proposes a different reference class that favours its own conclusion
-- Forecasters alternate between inside and outside views until estimates agree
-- Two forecasters average their base rates to reach a shared estimate
-- A forecaster revises a base rate back and forth as news arrives
+- [x] Ask which features drive the outcome in each class, and whether AI has them
+- Prefer the class with more past cases, since a bigger sample is more reliable
+- Average the two base rates and treat the result as the answer
+- Go with the class that more people find familiar and intuitive
 shuffle:: true
 
 #### Question: Choice

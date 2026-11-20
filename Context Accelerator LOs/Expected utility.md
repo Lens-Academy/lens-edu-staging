@@ -16,6 +16,10 @@ Calculate an option's expected utility, explain how an expected utility maximize
 Many arguments about AI risk, including instrumental convergence, model an advanced AI as an expected utility maximizer. If you understand the model, you can follow those arguments and also spot where they rely on assumptions the model doesn't supply, such as what the utility function is about.
 
 ## Lenses
+- [Decision Theory FAQ (LessWrong)](https://www.lesswrong.com/posts/zEWJBFFMvQ835nq6h/decision-theory-faq): what expected utility is and how to calculate it, why utility need not track money, and the von Neumann–Morgenstern axioms and theorem; read sections 4.1, 8.2–8.4 and 8.6.3 (the Allais paradox) (February 2013).
+- [[../Lenses/yudkowsky-coherent-decisions-imply-consistent-utilities|Coherent Decisions Imply Consistent Utilities]]: why agents that don't shoot themselves in the foot behave as if maximizing expected utility, from money pumps to the Allais paradox; read "Why not circular preferences?", "Probabilities and expected utility" (up to "Probabilities summing to 1") and "The Allais Paradox" (2017).
+- [[../Lenses/shah-coherence-arguments-do-not-entail-goal-directed-behavior|Coherence Arguments Do Not Entail Goal-Directed Behavior]]: any behaviour can be described as maximizing some utility function, so the label alone doesn't imply goals, power-seeking or danger; an influential critique (2018).
+- [[../Lenses/katjagrace-coherence-arguments-imply-a-force-for-goal-directed-behavior|Coherence Arguments Imply a Force for Goal-Directed Behavior]]: a reply to Shah arguing that pressure toward coherence still pushes real agents toward goal-directedness; the other side of the debate (2021).
 
 ## Tests
 
@@ -69,21 +73,21 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 9b20f503-46be-4465-9601-64ee45b9ab55
-content:: Many people prefer a sure $1 million to a gamble giving 89% $1 million, 10% $5 million and 1% nothing. The same people prefer 10% $5 million (else nothing) to 11% $1 million (else nothing). Which axiom of expected utility theory does this pair of choices violate?
+id:: c1a26587-6080-4bd5-9f56-23a1aea9e3a8
+content:: Many people prefer a sure $1 million to a gamble giving 89% $1 million, 10% $5 million and 1% nothing. Many of the same people prefer 10% $5 million (else nothing) to 11% $1 million (else nothing). What does this pair of choices show?
 options::
-- [x] Independence
-- Completeness
-- Transitivity
-- Continuity
+- [x] No utilities for the money amounts make both choices maximize expected utility
+- Diminishing marginal utility of money explains both choices
+- These people always pick the option with the most expected money
+- These people always pick the option with the best possible outcome
 shuffle:: true
 
 #### Question: Choice
 id:: 199e6076-232d-44b7-860e-de69f45bb589
 content:: Why do some AI safety arguments expect advanced AI systems to behave like expected utility maximizers?
 options::
-- [x] Agents that break its axioms can be exploited, so capable agents may avoid doing so
-- Neural networks compute probability-weighted sums in their final layer
+- [x] Agents that break its axioms can be exploited, giving capable agents a reason to stop
+- The vNM theorem proves that any intelligent system satisfies its axioms
 - Developers usually write an explicit utility function into AI systems
 - A theorem proves that trained AI systems end up with stable goals
 shuffle:: true
@@ -92,10 +96,8 @@ shuffle:: true
 id:: ba47a483-5cfb-4f80-9e95-fdb8f2b4871a
 content:: In expected utility theory as used to model an AI agent, where do the probabilities in the agent's calculation come from?
 options::
-- [x] The agent's own degrees of belief, which may be mistaken
-- Long-run frequencies measured in past trials
-- The true physical chances of each outcome
-- Numbers set by the agent's designers
+- Frequencies measured in past trials
+- Numbers set by its designers
 shuffle:: true
 
 #### Question: Open

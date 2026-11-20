@@ -4,7 +4,7 @@ priority: medium
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Explain what existential security is, why it needs existential risk to stay low over the long run, and what kinds of change could get humanity there.
+Explain why a safe long-term future needs existential risk to fall and stay low, not just each danger to be survived in turn, and what kinds of change could achieve this (what Toby Ord calls existential security).
 
 ## Requires
 - [[Existential risk]]
@@ -15,22 +15,24 @@ Explain what existential security is, why it needs existential risk to stay low 
 If you can't picture success, it's easy to aim only at getting past the next danger while risk keeps adding up over time. Knowing that safety has to last helps you judge which work, including AI safety work, lowers risk in a lasting way.
 
 ## Lenses
+- [What is existential security? (EA Forum)](https://forum.effectivealtruism.org/posts/gugGJGdakND6HtbDx/what-is-existential-security): Toby Ord's idea of a state where existential risk is low and stays low, why small risks per century add up, and what kinds of work (institutions, norms, resilience) protect the future rather than handle one danger (September 2020).
+- [[../articles/katzke-ai-governance-needs-a-theory-of-victory|AI governance needs a theory of victory]]: existential security from AI as a goal to aim at, and three routes there (a moratorium, an "AI leviathan" with its lock-in danger, and defensive acceleration); read the Overview, Introduction and "Criteria for a theory of victory", then "Theories of victory for AI governance", skipping the nuclear case study (June 2024).
+- [High Risk, Low Reward (Practical Ethics blog)](https://blog.uehiro.ox.ac.uk/2023/06/guest-post-high-risk-low-reward-a-challenge-to-the-astronomical-value-of-existential-risk-mitigation/): the leading critic's case that if risk is high now and stays high, cutting today's risk is worth far less than it seems, unless a "time of perils" ends with risk staying low; one side of a live debate (June 2023).
 
 ## Tests
 
 #### Question: Choice
-id:: 501eef75-c60f-4fd3-930b-5b23a26316ca
-content:: Which of these best describes existential security?
+id:: ac4cb827-1f16-4c54-a26c-1a48b9b3b5e4
+content:: Which of these situations would do most to make humanity's long-term future safe?
 options::
-- [x] Existential risk is low and is expected to stay low over the long run
-- Humanity has got safely past its most dangerous current technology
-- The largest single existential risk has been solved for good
-- Humanity has settled on at least one other planet
+- [x] Total existential risk per century has fallen to a low level and is expected to stay there
+- Humanity has got safely past the most dangerous technology that exists today
+- The single largest existential risk has been removed for good
+- Humanity has a self-sustaining colony on another planet
 shuffle:: true
 
 #### Question: Choice
-id:: 3361474b-8e5e-4150-b016-e981568b45e5
-content:: Suppose the risk of existential catastrophe stayed at 1% per century for a million years. Roughly what would humanity's chance of surviving that whole period be?
+content:: Which of these aims to keep existential risk low in a lasting way, rather than handling one danger at a time?
 options::
 - [x] Close to zero
 - About 99%
@@ -57,12 +59,12 @@ shuffle:: true
 
 #### Question: Choice
 id:: 910674c2-f40e-4a40-880c-818fc050c0ec
-content:: An AI-backed world government becomes impossible to remove and stops moral and political progress for good, though extinction risk becomes very low. Why does this not count as existential security?
+content:: An AI-backed world government becomes impossible to remove and stops moral and political progress for good, though extinction risk becomes very low. Why would this still be a failure to secure humanity's long-term future?
 options::
 - [x] Permanently locking in a bad future is itself an existential catastrophe
-- Existential security requires there to be no world government
+- Any form of world government is itself an existential catastrophe
 - Risk from natural disasters such as supervolcanoes would still be high
-- Existential security concerns extinction, so this case is outside its scope
+- Extinction risk would rise again once the government eventually fell
 shuffle:: true
 
 #### Question: Choice
@@ -77,17 +79,17 @@ id:: b536c418-0700-4751-b268-737d4637d200
 content:: Some argue that safely building highly capable AI could help humanity reduce other existential risks afterwards. What is the main cost this argument has to weigh?
 options::
 - [x] The transition to highly capable AI is itself a major source of existential risk
-- Highly capable AI would raise the risk from asteroids and supervolcanoes
-- Reducing other risks would make highly capable AI less useful
-- Highly capable AI would slow down progress in medicine and science
+- Building highly capable AI would use money that could go to asteroid detection
+- Other existential risks are already too small to be worth reducing
+- Highly capable AI would make people too reliant on technology
 shuffle:: true
 
 #### Question: Choice
 id:: 63325119-271f-4795-aac3-e058b5175864
-content:: Some philosophers argue that if existential risk is high now and stays high in later centuries too, reducing today's risk is worth much less than it first seems. What is their reasoning?
+content:: One argument says that if existential risk is high now and stays high in later centuries too, reducing today's risk is worth much less than it first seems. What is the reasoning?
 options::
 - [x] Humanity would probably meet catastrophe soon anyway, so the future saved is short
-- High risk means that reducing it is not technically possible
+- When risk is high, most of it comes from causes humans cannot influence
 - Future people count for less than people alive today
 - Reducing risk today tends to raise risk in later centuries
 shuffle:: true

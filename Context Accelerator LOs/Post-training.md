@@ -4,7 +4,7 @@ priority: medium
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Describe how a pretrained base model is turned into an assistant through supervised fine-tuning, feedback-based training and safety training, and explain what post-training can and cannot change about a model.
+Describe how a pretrained base model is turned into an assistant through supervised fine-tuning, feedback-based training (including reinforcement learning on tasks with checkable answers) and safety training, and explain what post-training can and cannot change about a model.
 
 ## Requires
 - [[Pretraining]]
@@ -12,9 +12,14 @@ Describe how a pretrained base model is turned into an assistant through supervi
 ## Helpful first
 
 ## Why it matters
-Most of what AI developers currently do to make models helpful, honest and harmless happens in post-training. Knowing what it does and where it falls short helps you judge how much a well-behaved chatbot tells you about its safety, and why jailbreaks and further fine-tuning can undo safety training.
+Most of what AI developers currently do to make models helpful, honest and harmless happens in post-training, and post-training now also adds major capabilities such as stronger reasoning. Knowing what it does and where it falls short helps you judge how much a well-behaved chatbot tells you about its safety, and why jailbreaks and further fine-tuning can undo safety training.
 
 ## Lenses
+- [Intro to Large Language Models (Andrej Karpathy, YouTube)](https://www.youtube.com/watch?v=zjkBMFhNj_g): how a pretrained "document generator" becomes an assistant by fine-tuning on a much smaller set of high-quality example conversations, then on human comparisons (RLHF), and how jailbreaks get around the result; watch 14:14–25:43 and 46:14–51:30 (November 2023).
+- [[../articles/ai-security-institute-frontier-ai-trends-report|Frontier AI Trends Report: Safeguards]]: the UK AI Security Institute found universal jailbreaks in every system it tested, and found that refusal training is cheaply removed from open-weight models; read section 4, "Safeguards", up to "More capable models do not necessarily have better safeguards" (December 2025).
+- [Safety Risks from Customizing Foundation Models via Fine-Tuning (Stanford HAI)](https://hai.stanford.edu/policy/policy-brief-safety-risks-customizing-foundation-models-fine-tuning): fine-tuning on about 10 harmful examples, for under $0.20, undid the safety training of GPT-3.5 Turbo and Llama-2-Chat, and even harmless fine-tuning weakened it (January 2024).
+- [[../articles/cotra-why-ai-alignment-could-be-hard-with-modern-deep-learning|Why AI Alignment Could Be Hard with Modern Deep Learning]]: why training a model on human approval can produce a "Sycophant" or "Schemer" that looks just like the model you wanted; read the young-businessperson analogy and "How alignment issues could arise with deep learning" (September 2021).
+- [[../Lenses/AI Safety Atlas - Specification Gaming - Learning from Feedback|Learning from Feedback]]: the RLHF pipeline, Constitutional AI and their open problems in more depth; the "Limitations" part and the "Instruction tuning vs alignment" box explain why an instruction-tuned model isn't thereby aligned (more advanced).
 
 ## Tests
 
@@ -25,7 +30,7 @@ options::
 - [x] It was trained to continue text, not to respond to requests
 - It has not learned enough about poetry during pretraining
 - Its safety training blocks most creative requests
-- It can answer questions but cannot process commands
+- It can only repeat text it saw in training, not write new text
 shuffle:: true
 
 #### Question: FillBlank
@@ -43,22 +48,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 5d386bdf-bea0-4b8d-98c0-eb1bb11c4370
-content:: In the usual pipeline for building a chat assistant from a language model, in what order are these stages done?
+id:: 91b50be5-fab0-4f8d-a6b8-8c677611de48
+content:: Since 2024, AI developers have greatly scaled up reinforcement learning during post-training, rewarding models for correct answers on tasks that can be checked automatically, such as maths and coding problems. What has this mainly done?
 options::
-- [x] Pretraining, then supervised fine-tuning, then feedback-based training
-- Supervised fine-tuning, then pretraining, then feedback-based training
-- Pretraining, then feedback-based training, then supervised fine-tuning
-- Feedback-based training, then pretraining, then supervised fine-tuning
-shuffle:: true
-
-#### Question: Choice
-id:: ac1d3ec6-b3b7-4842-80e1-6cdd4fbb2796
-content:: Does the post-training of a large language model typically use more or less training data than its pretraining?
-options::
-- [x] Far less
-- Far more
-- About the same amount
+- [x] Added major capabilities, such as stronger multi-step reasoning
+- Replaced pretraining as the main source of the model's knowledge
+- Made models refuse far more requests, with little effect on ability
+- Changed the style of answers while leaving their quality the same
 shuffle:: true
 
 #### Question: Choice
@@ -67,8 +63,8 @@ content:: A model was safety-trained to refuse requests for help making weapons.
 options::
 - [x] Safety training changed its usual responses but left the capability in place
 - The model never had the knowledge needed to help
-- The developers skipped safety training for this model
-- The prompt temporarily gave the model new knowledge
+- Safety training erased the knowledge, and the prompt supplied it again
+- The model's safety training had worn off with use since release
 shuffle:: true
 
 #### Question: Choice

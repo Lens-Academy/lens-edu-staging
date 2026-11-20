@@ -14,27 +14,34 @@ Explain why agents with very different final goals would tend to pursue the same
 - [[Expected utility]]
 
 ## Why it matters
-This argument is the main reason researchers expect a misaligned AI to resist shutdown or gather power even if nobody gave it that goal. Understanding it shows you why "just don't program it to want power" is not a safeguard, and where the argument is weaker, such as for systems without long-term goals.
+This argument is a main reason many researchers worry that a misaligned AI would resist shutdown or gather power even if nobody gave it that goal. Understanding it shows you why "just don't program it to want power" is not a safeguard, and where the argument is weaker, such as for systems without long-term goals.
 
 ## Lenses
+- [[../Lenses/AFSRA - Why Would AI Want to do Bad Things - Instrumental Convergence|Why Would AI Want to do Bad Things?]]: Rob Miles explains why an AI with almost any goal would resist shutdown, protect its goal, improve itself and gather resources, without valuing any of these for their own sake.
+- [[../articles/iabied-ch5-ext-instrumental-convergence|Instrumental Convergence]]: Yudkowsky and Soares on what these subgoals would mean for a superintelligence: survival, more computing power, fewer rivals, and hiding its plans until humans can no longer stop it; the authors' own case, stated without counterarguments (September 2025).
+- [[../Lenses/Risks from power-seeking AI|Risks from power-seeking AI]]: the 80,000 Hours case on why AIs with long-term goals may seek power; read the section "There's good reason to think that AIs may seek power to pursue their own goals" for the evidence so far, and the callout "Even if AI systems develop their own goals, they might not seek power to achieve them" for why the argument may not apply to systems without long-term goals (2026).
+- [[../Lenses/bostrom-the-superintelligent-will-motivation-and-instrumental-rationality-in-advanced-artificial-agents|The Superintelligent Will]]: Nick Bostrom's paper that first stated the instrumental convergence thesis, with its conditions (self-preservation matters only for goals that reach into the future) and its limits (it predicts which subgoals, not which actions); read sections 1.3, 2 and the Conclusions (2012) (more advanced).
 
 ## Tests
 
 #### Question: Choice
-id:: dc59511f-ecee-41ad-a2fa-5d26e65690d8
-content:: The orthogonality thesis says almost any final goal can be combined with high intelligence. Does the instrumental convergence argument depend on the orthogonality thesis being true?
+id:: daacd41f-787f-40e8-986d-1edf48ef310f
+content:: Suppose it turned out that any highly intelligent AI system would end up with goals that are good for humans. What would follow for the instrumental convergence argument?
 options::
-- [x] No
-- Yes
+- [x] It would still predict the same subgoals, but these would pose less danger
+- It would no longer predict that different agents share any subgoals
+- It would predict that good agents seek resources far more than others
+- It would show that the argument had only ever applied to bad goals
+shuffle:: true
 
 #### Question: Choice
 id:: 42ba03a5-882c-4628-9669-f7b668c39b5d
 content:: An AI system could have any of many possible final goals. Which of these subgoals would help with the widest range of them?
 options::
 - [x] Improving its own reasoning abilities
-- Making as many paperclips as possible
-- Winning games of Go against humans
-- Finding a cure for malaria
+- Building a factory that makes paperclips
+- Memorizing famous games of Go
+- Studying how malaria spreads
 shuffle:: true
 
 #### Question: Choice
@@ -100,9 +107,9 @@ content:: In two or three sentences, state the instrumental convergence argument
 assessment-instructions:: Score out of 100. 100 for saying that agents with many different final goals would tend to pursue the same subgoals, because those subgoals help with almost any goal, plus one example: staying running, keeping its goals unchanged, gaining resources or power, or improving its own abilities. 60 for the core idea without an example; 30 for an example alone.
 
 #### Question: Open
-id:: ce83d6df-122c-409b-b0b4-7b4dc9912508
-content:: Give one reason the instrumental convergence argument may apply less strongly to today's chatbots than to the idealized goal-pursuing agents it was first stated for.
-assessment-instructions:: Score out of 100. 100 for any one of: they may not pursue stable long-term goals across situations; they are trained mainly to predict text and follow instructions, not to bring about an outcome; their tasks are often short and bounded; they have limited ability to act on such subgoals in the world. 50 for "they aren't smart enough" with no link to goals or acting on subgoals.
+id:: fed001d3-cd6b-4cc8-9917-abdab6f18f15
+content:: Give one reason the instrumental convergence argument may apply less strongly to current AI systems than to the idealized goal-pursuing agents it was first stated for, and one way that difference is shrinking.
+assessment-instructions:: Score out of 100. 100 for one reason plus one way it is shrinking. Reasons: no stable long-term goals; trained mainly to predict text and follow instructions; bounded tasks; limited ability to act in the world. Shrinking: agents now act autonomously for many hours with tools and internet access, and are increasingly trained to achieve outcomes. 60 for a reason alone. 30 for "they aren't smart enough" with no link to goals.
 
 #### Question: Open
 id:: ec004f6a-f858-4155-a108-4aeb28aace7e

@@ -13,9 +13,14 @@ Explain what it means to call alignment research pre-paradigmatic, give the argu
 - [[Alignment difficulty arguments]]
 
 ## Why it matters
-Alignment researchers often disagree about which problems matter and what counts as progress, not just about answers. Seeing this as a dispute about foundations helps you weigh research claims with care, avoid working only on what is easy to measure, and choose work that fits a field still settling its basic concepts.
+Alignment researchers disagree about which problems matter and what counts as progress, not just about answers. Asking whether this reflects missing foundations helps you weigh research claims, notice when work drifts towards what is easy to measure, and judge plans to hand alignment research to AI systems, which so far do best where success is easy to check.
 
 ## Lenses
+- [Alignment Researchers Disagree a Lot (Planned Obsolescence)](https://www.planned-obsolescence.org/p/disagreement-in-alignment): Ajeya Cotra on why the field is pre-paradigmatic. Researchers disagree on what the problem is, which work matters and whether progress has been made, so there is little shared foundation to build on (March 2023).
+- [Epistemological Framing for AI Alignment Research (Alignment Forum)](https://www.alignmentforum.org/posts/Y4YHTBziAscS5WPN7/epistemological-framing-for-ai-alignment-research): Adam Shimi uses Kuhn's paradigms and "normal science" to argue that alignment has no shared paradigm yet, and suggests how to place and judge work in such a field (March 2021).
+- [[../Lenses/AFSRA - 2018 Update, Our New Research Directions|Why Deconfusion Matters]]: Nate Soares explains what MIRI means by deconfusion and why it thinks AI can be built without clear concepts of "optimization" and "aiming" but not safely aimed without them. Read only the subsections "What we mean by deconfusion" and "Why deconfusion is highly relevant to AI accident risk" in section 2 (2018).
+- [The Field of AI Alignment: A Postmortem, and What To Do About It (LessWrong)](https://www.lesswrong.com/posts/nwpyhyagpPYDn4dAW/the-field-of-ai-alignment-a-postmortem-and-what-to-do-about): John Wentworth argues that most alignment work is "streetlighting" (working on tractable problems rather than the hard ones), that funding and recruiting reward this, and that the hoped-for move to a paradigm has not happened (December 2024).
+- [Mech Interp Is Not Pre-paradigmatic (LessWrong)](https://www.lesswrong.com/posts/beREnXhBnzxbJtr8k/mech-interp-is-not-pre-paradigmatic): Lee Sharkey argues against the label for one subfield, saying interpretability inherited a paradigm from neuroscience and has gone through Kuhn-style crises. Read the "Preamble" and "Claim" sections (June 2025).
 
 ## Tests
 #### Question: Choice
@@ -42,20 +47,20 @@ shuffle:: true
 id:: 11b9b476-9b07-47ca-98d2-780316895c56
 content:: Alignment researchers can't yet run experiments on the superhuman AI systems they most worry about. How does this bear on the claim that alignment is pre-paradigmatic?
 options::
-- [x] It removes the feedback that would show which concepts and methods work
-- It shows the field already has a paradigm, since everyone agrees on the target
-- It means alignment problems can be fully solved in theory before testing
-- It makes alignment a branch of philosophy rather than of computer science
+- [x] It limits feedback on which concepts and methods will hold up
+- It shows experiments on current models are irrelevant to alignment
+- It means researchers must agree on a theory before any testing
+- It shows the field mainly lacks funding rather than shared concepts
 shuffle:: true
 
 #### Question: Choice
-id:: b8c8eaee-cc37-4f91-abb4-399c45a37b90
-content:: Some researchers say that pre-paradigmatic alignment research needs "deconfusion". What does deconfusion work aim to do?
+id:: 3a760eeb-fd93-4166-9020-13c7a3a96367
+content:: Some researchers argue that a priority in alignment today is clarifying concepts such as "goal", "agent" or "deception". Why would that be a priority if the field is pre-paradigmatic?
 options::
-- [x] Clarify concepts such as "goal" or "agent" until precise questions can be asked
-- Remove contradictory or mislabeled examples from AI training data
-- Explain alignment research to the public in plain, simple language
-- Settle disputes between alignment organizations through structured debate
+- [x] Without clear concepts, precise problems can't be posed or solutions recognized
+- Clear definitions are needed before AI companies can be legally regulated
+- Current AI systems will behave better once researchers define these terms
+- Clear concepts make alignment research much easier to explain to the public
 shuffle:: true
 
 #### Question: Choice
@@ -74,30 +79,29 @@ content:: If alignment research is pre-paradigmatic, which advice to a new align
 options::
 - [x] Question how the field frames the problem, instead of simply adopting one framing
 - Join the best-funded agenda, since funding shows which methods have worked
-- Wait until the field agrees on its methods before starting any research
+- Leave questions of framing to philosophers and focus purely on engineering
 - Focus on raising scores on the field's established alignment benchmarks
 shuffle:: true
 
 #### Question: Choice
 id:: 27492023-6836-4b5d-b48e-9080acc1d621
-content:: If nobody yet knows which approaches to alignment will work, what does that suggest about how funders should spread money across research agendas?
+content:: Suppose nobody yet knows which approaches to alignment will work. Taken on its own, which funding strategy does that uncertainty most directly support?
 options::
-- [x] Support several quite different agendas rather than betting on one
-- Fund the single agenda that most researchers currently favor
-- Hold back funding until one agenda has been shown to work
-- Fund whichever agenda has published the most papers so far
+- [x] Spreading money across several quite different agendas
+- Funding only the agenda most researchers currently favor
+- Holding back funding until one agenda has been shown to work
+- Funding only agendas that show results on today's benchmarks
 shuffle:: true
 
 #### Question: Choice
-id:: 64ef90f4-cdc7-4016-a941-c5c5506d62d0
-content:: In a pre-paradigmatic field, do researchers often disagree about whether a given result counts as progress?
+id:: e25e0b7f-f3fe-43a5-a570-6a9be79fda9b
+content:: In 2026, Anthropic reported that AI agents beat human researchers at reducing alignment failures that existing benchmarks can measure, such as sycophancy and jailbreaks. If alignment is pre-paradigmatic, what is the main limit on what this shows?
 options::
-- [x] Yes; the field lacks shared standards for judging results
-- No; they mainly disagree about how to fund and staff the work
-
-#### Question: FillBlank
-id:: 79440ce9-9c96-423b-8a4b-c226a10fbc53
-content:: Kuhn called the work researchers do once their field shares a paradigm, solving well-defined puzzles within an agreed framework, {{normal science}}.
+- [x] The hardest open problems lack agreed measures of success to optimize
+- Sycophancy and jailbreaks are not really alignment problems at all
+- AI agents can only refine ideas that humans have already proposed
+- Results on current models can never tell us anything about future ones
+shuffle:: true
 
 #### Question: Open
 id:: 95d78552-eb23-46f6-812c-345f41453119

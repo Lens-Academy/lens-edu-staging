@@ -16,6 +16,9 @@ Explain how advanced AI could let a small group seize or entrench unprecedented 
 Solving alignment would not settle this risk: AI that reliably obeys its controllers could serve a few people against everyone else. Knowing the routes, such as AI-run militaries, hidden loyalties in models and exclusive access to the best systems, helps you judge proposals about who controls AI and which safeguards to push for.
 
 ## Lenses
+- [[../Lenses/hadshar-extreme-power-concentration|Extreme Power Concentration]]: Rose Hadshar's 80,000 Hours profile on how automation could put the power to get things done in a few hands, and on the three routes to political power (power grabs, economic forces, epistemic interference), the harms and the fixes. Read the first part, up to the end of "There are ways to reduce this risk" (2025).
+- [[../articles/forethought-ai-enabled-coups-how-a-small-group-could-use-ai-to-seize-power|AI-Enabled Coups]]: Forethought's report on singular loyalties, secret loyalties and exclusive access as the three new coup risk factors, and the safeguards it recommends. Read the Abstract and Summary (April 2025).
+- [Defining the Intelligence Curse (The Intelligence Curse)](https://intelligence-curse.ai/defining/): Luke Drago and Rudolf Laine compare an AI economy to oil-rich rentier states, where rulers who no longer need citizens' labour or taxes have less reason to serve them (April 2025).
 
 ## Tests
 
@@ -24,7 +27,8 @@ id:: f641886d-fb32-4974-bb64-b13520c969b7
 content:: Why do many researchers think AI-enabled power concentration remains a serious risk even if the alignment problem is fully solved?
 options::
 - [x] AI that reliably obeys its controllers can serve a small group's goals
-- Aligned AI systems tend to seek power for themselves over time
+- Aligned AI will still be too costly for most governments to use
+- Aligned AI tends to defer to whichever user is most persuasive
 - Solving alignment makes model weights much easier to steal
 - Aligned AI systems refuse instructions from elected governments
 shuffle:: true
@@ -40,23 +44,23 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 6eb5cfad-4647-47e6-8d90-7b0ca41e15b1
-content:: In discussions of AI-enabled coups, what is a "secret loyalty" in an AI system?
+id:: d9529c41-83c8-4655-bef6-8517263c98fd
+content:: A few insiders secretly train a model to serve one executive when triggered, while it behaves normally in everyday use and tests. Which safeguard most directly targets this?
 options::
-- [x] A hidden backdoor or instruction that makes it serve a particular person or group
-- A goal the AI system develops in training and hides from its developers
-- An employee who quietly leaks the model's weights to a rival company
-- A government's undisclosed funding of the company that built the system
+- [x] Independent audits of the model, its training data and training code
+- A rule in the model's spec that it must refuse illegal orders
+- Buying all government AI from one trusted, well-vetted provider
+- Spreading the economic gains from AI widely across society
 shuffle:: true
 
 #### Question: Choice
-id:: 4594fea1-fd74-43c6-97f3-ddbe411ff74b
-content:: An AI company keeps its most capable model for internal use only, and a few executives can direct thousands of copies of it with little outside oversight. Which risk factor for AI-enabled power grabs does this most directly illustrate?
+id:: f6603124-025e-4de2-b3c0-1db748dd57dd
+content:: An AI company keeps its most capable model for internal use only, and a few executives can direct thousands of copies of it with little outside oversight. Which measure most directly addresses the power-concentration risk here?
 options::
-- [x] Exclusive access
-- Secret loyalties
-- Singular loyalties
-- Gradual disempowerment
+- [x] Disclosure and outside oversight of internally deployed models
+- Stricter usage policies for the company's public chatbot
+- A ban on releasing any model's weights to the public
+- Higher taxes on the company's profits from AI products
 shuffle:: true
 
 #### Question: Choice
@@ -66,7 +70,7 @@ options::
 - [x] Rulers who don't rely on citizens' labor or taxes have less reason to serve them
 - Countries that build AI will see their other industries decline, as with oil
 - AI companies will be nationalized in the way many oil companies were
-- Training AI will use as much energy as a large country's oil exports
+- AI-driven wealth will eventually run out, as oil reserves do
 shuffle:: true
 
 #### Question: Choice
@@ -94,7 +98,8 @@ id:: ce1ed58c-5f59-4f58-9646-b3dac4dc3c5c
 content:: Some propose building AGI in a single centralized project, national or international, to avoid a race. What is a common criticism of this from a power-concentration point of view?
 options::
 - [x] It could put unprecedented power in the hands of whoever controls the project
-- It would increase the number of developers racing to build AGI first
+- It could slow progress enough to let rival countries catch up
+- It would be too expensive for any one government to fund
 - It would leave national governments out of decisions about AI
 - It would make the chips used to train AI much cheaper to buy
 shuffle:: true
@@ -122,4 +127,4 @@ assessment-instructions:: Score out of 100. 50 for each of any two of: AI that r
 #### Question: Open
 id:: 717292df-f064-481c-83ee-3e11d9c38193
 content:: Why might a company or country that gains a modest lead in AI be able to turn it into a large, lasting advantage over everyone else?
-assessment-instructions:: Score out of 100. 100 for either: AI that speeds up AI research lets the leader's lead compound; or the leader's AI-driven economic or military advantage lets it outgrow or suppress rivals and lock in its position. 50 for a vague answer about "more resources" without a compounding mechanism.
+assessment-instructions:: Score out of 100. 100 for a mechanism by which the lead feeds itself, e.g.: AI that speeds up AI research lets the leader pull further ahead; or AI-driven economic or military advantage lets the leader outgrow or suppress rivals and lock in its position without needing others' cooperation. 50 for a vague answer about "more resources" with no such mechanism. 0 otherwise.
