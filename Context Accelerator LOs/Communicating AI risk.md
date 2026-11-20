@@ -4,7 +4,7 @@ priority: high
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Explain AI risk to different audiences: find the step a listener doubts and answer that, ask questions and listen one to one, sound calibrated rather than apocalyptic, and judge how framing affects who joins a coalition.
+Explain AI risk to different audiences: find the step a listener doubts and answer that, ask questions and listen one to one, say how confident you are without overstating certainty, and judge how framing affects who joins a coalition.
 
 ## Requires
 
@@ -15,6 +15,11 @@ Explain AI risk to different audiences: find the step a listener doubts and answ
 Arguments that convince you may not convince a colleague, a policymaker or your uncle. If you recite the whole case when someone doubts one step, or sound certain of doom, they may dismiss the issue and the people raising it. Knowing what tends to work helps you change minds and find allies who start from different concerns.
 
 ## Lenses
+- [How to be convincing when talking to people about existential threat from AI (LessWrong)](https://www.lesswrong.com/posts/QoMwFosibKffC4vxA/how-to-be-convincing-when-talking-to-people-about): one to one, first work out what the other person already thinks and what they are missing, be honest about your uncertainty, and answer their question rather than reciting the whole case (November 2025).
+- [How to talk about AI safety (Center for AI Safety)](https://safe.ai/act/talk): start from shared values, use plain words instead of "existential risk" or "alignment", avoid hyperbole, link to worries people already have like jobs or bias, and leave people with something hopeful to do.
+- [[../Lenses/Mistakes the AI safety movement has made|Mistakes the AI safety movement has made]]: 17 experts on how AI safety has put people off; read the last two paragraphs of "Too insular" (jargon like "p(doom)" and culty vibes) and "Bad messaging" (sounding too extreme, and why polarisation stalls action) (May 2024).
+- [What We Learned from Briefing 140+ Lawmakers on the Threat from AI (ControlAI)](https://controlai.org/blog/briefing-140-lawmakers-on-ai): first-hand lessons from briefing UK parliamentarians: give them a concrete next step, keep the same message for every party, and show competence rather than confidence; read "Part II: Reflections on Advocacy in Practice" (February 2026).
+- [Current AI risks more alarming than apocalyptic future scenarios (University of Zurich)](https://news.uzh.ch/en/articles/media/2025/fear-of-ki-risks.html): short summary of experiments with over 10,000 people in the US and UK finding that reading about extinction risk did not reduce concern about present AI harms (April 2025).
 
 ## Tests
 
@@ -23,9 +28,9 @@ id:: 17a9bf12-5220-4892-a9ad-3aa54769fdee
 content:: A friend agrees that AI is improving fast but says, "We could just switch it off if it misbehaves." What is usually the most useful next move?
 options::
 - [x] Ask how they picture switching it off, then discuss why that might fail
-- Walk them through the whole case for AI risk from the start
-- Tell them that many leading AI scientists think otherwise
-- Drop it and talk about present-day AI harms instead
+- Walk them through the whole case for AI risk from the very beginning
+- Tell them that many leading AI scientists disagree with them on this
+- Agree for now, and move the conversation on to present-day AI harms
 shuffle:: true
 
 #### Question: Choice
@@ -40,7 +45,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: 36b38f94-c9ae-447d-b7fb-b4a44b394e03
-content:: According to research on fear appeals, such as the extended parallel process model, when does a frightening message about a risk tend to lead to denial or fatalism rather than action?
+content:: According to research on fear appeals, when does a frightening message about a risk tend to lead to denial or fatalism rather than action?
 options::
 - [x] When people don't believe anything effective can be done about it
 - When the risk is described with numbers rather than stories
@@ -49,11 +54,11 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 0ab1f315-0e53-43f4-9d2a-50b3e0366da4
-content:: Which habit is most likely to make someone raising AI risk sound like a member of a doomsday cult?
+id:: 40087351-b99a-4672-861c-e662decbf897
+content:: Which habit is most likely to make listeners dismiss someone raising AI risk as a doom-monger rather than take them seriously?
 options::
-- [x] Speaking as if catastrophe is settled and naming a year for it
-- Saying how confident they are and explaining why
+- [x] Talking as if catastrophe is certain and its date already known
+- Saying they think serious risks could arrive within a few years, and why
 - Mentioning that leading AI researchers share the concern
 - Admitting which parts of the argument they're unsure about
 shuffle:: true
@@ -64,8 +69,8 @@ content:: Why might terms like "p(doom)", "foom" or "paperclip maximiser" backfi
 options::
 - [x] Insider slang can make the concern sound like a subculture's private belief
 - The terms are technically inaccurate descriptions of AI risk
-- Newcomers usually know these terms and find them patronising
-- The terms describe present-day harms rather than future risks
+- The terms make the risk sound more certain than most experts think it is
+- The terms come from AI companies' marketing, so they sound like hype
 shuffle:: true
 
 #### Question: Choice
@@ -83,9 +88,9 @@ id:: 07618f57-2d4a-4cad-a7c6-5deca6a4bc41
 content:: Many people working on AI risk worry about the issue becoming tied to one political party, as climate change did in the US. What is the main concern?
 options::
 - [x] Supporters of other parties may oppose it because of who backs it
-- Parties can't legally propose laws on technical subjects
+- AI companies would refuse to cooperate with that party's government
 - A party link would mean less media coverage of the issue
-- Voters of that party would lose interest in the issue
+- The party would shift the focus from catastrophe to present harms
 shuffle:: true
 
 #### Question: Choice
@@ -105,7 +110,7 @@ options::
 - [x] Ask about the voter's own experiences and listen without judging
 - Present the strongest statistics for their side in a few minutes
 - Leave written material and follow up by email later
-- Debate the voter until they concede a point
+- Correct the voter's mistaken beliefs one by one
 shuffle:: true
 
 #### Question: Choice
@@ -123,9 +128,9 @@ id:: e5e1f977-6cec-47d0-baf3-57189e5c2d86
 content:: A sceptic says warnings about AI extinction risk are just AI companies hyping their products. Which fact most directly answers this?
 options::
 - [x] Many who warn, such as Yoshua Bengio, are academics rather than company staff
-- AI companies already spend heavily on advertising
-- Some AI products have failed commercially
-- AI companies have published safety policies
+- AI company leaders have also signed statements warning of extinction risk
+- Present-day AI already causes real harms such as biased decisions
+- AI products are already used by hundreds of millions of people
 shuffle:: true
 
 #### Question: Open
@@ -136,13 +141,9 @@ assessment-instructions:: Score out of 100. 100 for any one of: it shows which s
 #### Question: Open
 id:: 73fb75e1-fc05-4fea-9715-eab90017e741
 content:: Name two things you can do to avoid sounding alarmist when raising AI risk with a colleague.
-assessment-instructions:: Score out of 100. 50 points each for any two of: state your uncertainty honestly; acknowledge the strongest objections; avoid insider jargon; point to credible mainstream sources or experts; mention what can be done; keep a calm tone; listen and ask questions; avoid confident dates for catastrophe. 50 for only one valid item.
+assessment-instructions:: Score out of 100. 50 points each for any two of: state your uncertainty honestly; acknowledge the strongest objections; avoid insider jargon; point to credible mainstream sources or experts; mention what can be done; keep a calm tone; listen and ask questions; don't claim more certainty than you have, about outcomes or dates. 50 for only one valid item.
 
 #### Question: Open
 id:: 86caa129-153a-49a3-b57a-52abe665a6ac
 content:: Someone asks, "If AI is so dangerous, why are companies building it?" Give a short, accurate answer.
-assessment-instructions:: Score out of 100. 100 for any one of these, briefly explained: competition, as each company fears a rival will build it first; very large expected profits; leaders believe they can make it safe, or that it is better they build it than less careful rivals; some leaders doubt the risk is serious. 50 for "money" or "competition" with no explanation.
-
-#### Question: FillBlank
-id:: 2b10ca93-ff8d-4753-999f-ace8e9a6c4fb
-content:: In a disagreement, a {{crux}} is a point which, if you changed your mind about it, would change your overall view.
+assessment-instructions:: Score out of 100. 100 for any one of these, briefly explained: they expect large benefits, such as faster medical and scientific progress; competition, as each company fears a rival will build it first; very large expected profits; leaders believe they can make it safe, or that it is better they build it than less careful rivals; some leaders doubt the risk is serious. 50 for "money" or "competition" with no explanation.
