@@ -21,5 +21,6 @@ tags:
 # LO: [[../Context Accelerator LOs/Automated AI research]]
 # LO: [[../Context Accelerator LOs/Takeoff speed debate]]
 # LO: [[../Context Accelerator LOs/Timeline forecasts]]
+# LO: [[../Context Accelerator LOs/AI as normal technology]]
 # LO: [[../Context Accelerator LOs/Terminal and instrumental goals]]
 # LO: [[../Context Accelerator LOs/Utility functions]]
