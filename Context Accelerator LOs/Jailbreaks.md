@@ -82,13 +82,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: cdfdba76-0dcb-4b6e-b61c-4228ad65b279
-content:: "Many-shot jailbreaking" fills a prompt with hundreds of fake dialogues in which an assistant answers harmful questions. Which change in models made this attack possible?
+id:: 0fcfbf3d-7609-4396-b56b-724000e758f3
+content:: "Many-shot jailbreaking" fills a prompt with hundreds of fake dialogues in which an assistant answers harmful questions. It only became possible once models could read very long prompts. What general lesson does this suggest?
 options::
-- [x] Longer context windows
-- Smaller model sizes
-- Stronger refusal training
-- Cheaper prices per token
+- [x] New abilities can open new ways around a model's safety training
+- Jailbreaks only work on models that can read long prompts
+- Longer prompts make models worse at following instructions
+- Safety training stops jailbreaks once a model is large enough
 shuffle:: true
 
 #### Question: Choice

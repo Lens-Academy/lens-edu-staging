@@ -106,9 +106,9 @@ id:: 23409970-f322-4b37-9840-0eae58552cc0
 content:: Which is a common reply to the argument that slow real-world experiments would hold back a superintelligent AI?
 options::
 - [x] It could design more informative experiments and run many in parallel
-- It could learn everything it needs from text already online
-- Physical experiments would become cheap as soon as it existed
-- It could skip testing because its predictions would be certain
+- Most scientific progress so far has come without any experiments
+- Experiments are needed only in medicine, not in other sciences
+- Clinical trials are already fast enough that no speedup is needed
 shuffle:: true
 
 #### Question: Choice

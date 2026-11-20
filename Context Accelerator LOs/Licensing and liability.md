@@ -77,8 +77,8 @@ content:: A common criticism of licensing frontier AI is that it could do which 
 options::
 - [x] Entrench large incumbents by raising barriers to new entrants
 - Make developers pay for harms caused by other companies
-- Force developers to open-source their most capable models
-- Remove government oversight of how AI is deployed
+- Make developers pay for harms they could not have foreseen
+- Act only after harm has already happened
 shuffle:: true
 
 #### Question: Choice

@@ -101,13 +101,23 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: dc476734-55ea-4317-ad33-986a8db3799f
-content:: In July 2025, experimental AI models from Google DeepMind and OpenAI attempted the International Mathematical Olympiad, writing their proofs in ordinary language. What did they achieve?
+id:: 47dfb66c-e659-4e20-ab95-d37c415375f3
+content:: In 2024, DeepMind's specialised maths systems reached silver-medal level at the International Mathematical Olympiad, but only after the problems were translated into a formal proof language, and with days of computing. What changed at the 2025 Olympiad?
 options::
-- [x] Gold-medal-level scores, solving five of the six problems
-- Bronze-medal-level scores, solving two of the six problems
-- Perfect scores, beating every human contestant
-- Failing scores, with no problem fully solved
+- [x] Language models reached gold level, writing ordinary-language proofs within the time limit
+- AI systems stayed at silver level, but finished within the time limit
+- AI systems scored lower once they had to write ordinary-language proofs
+- AI systems solved all six problems, beating every human contestant
+shuffle:: true
+
+#### Question: Choice
+id:: acf551f0-f416-442e-a94d-2d0df76a3aa8
+content:: The 2025 Olympiad problems already had known answers. As of November 2026, what kind of maths result had AI systems produced during 2026?
+options::
+- [x] New proofs of results on long-open research problems
+- Only olympiad-level solutions, with no new research results
+- New claims no one could check, as none came with formal proofs
+- Copies of known proofs, found by searching published papers
 shuffle:: true
 
 #### Question: Choice
