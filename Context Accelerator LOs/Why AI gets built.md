@@ -15,6 +15,10 @@ Explain why companies and governments build advanced AI despite its risks, cover
 Efforts to slow or steer AI development work only if they change the incentives behind it. Knowing which motives drive companies and governments helps you judge which policies, agreements or arguments could change their behaviour, and why warnings about risk alone have not stopped the race.
 
 ## Lenses
+- [Chapter 6: The race for AGI (Keep The Future Human)](https://keepthefuturehuman.ai/chapter-6-the-race-for-agi/): Anthony Aguirre on why companies chase AGI (revenue from replacing workers), why countries feel they must race (military and economic advantage, the 2024 "Manhattan Project" proposal), and the idea that intelligence means power (February 2025).
+- [[../articles/darioamodei-dario-amodei-the-adolescence-of-technology|The Adolescence of Technology]]: Anthropic's CEO explains why he thinks stopping AI is untenable: if one company stops, others build it, authoritarian states keep going, and trillions of dollars are at stake. Read the final section, "Humanity's test" (January 2026).
+- [[../Lenses/IABIED - QA - Making Sense of the Death Race|Making Sense of the Death Race]]: Yudkowsky and Soares on why people who say AI could kill everyone still race to build it: "someone else will", money and status, normalised risk, and the kind of person who founds an AI company.
+- [[../Lenses/Machines Of Loving Grace|Machines of Loving Grace]]: the upside an AI company CEO says he is working towards, in health, poverty, peace and more, and why he expects AI to be built anyway (October 2024).
 
 ## Tests
 
@@ -34,12 +38,12 @@ content:: A situation where each actor's sensible choice, such as racing to buil
 
 #### Question: Choice
 id:: 2bfe294a-765a-4838-adbf-f81a56326fc9
-content:: Frontier AI companies have raised tens of billions of dollars while spending far more than they earn. Why are investors willing to fund them?
+content:: As of 2026, investors have put well over $100 billion into frontier AI companies and value some of them near $1 trillion, far above what they earn today. Why are investors willing to pay this much?
 options::
 - [x] They expect a share of huge future revenue if AI can do much human work
 - Losses can be offset against taxes, so they cost investors little
 - Governments have promised to repay investors if the companies fail
-- Investors mainly treat these deals as donations to scientific research
+- The companies already earn more than any other industry
 shuffle:: true
 
 #### Question: Choice
@@ -76,20 +80,20 @@ shuffle:: true
 id:: 43ec4052-3f00-49b2-93e9-96741640b085
 content:: Some people argue that early warnings about how powerful AGI could become helped speed up AI development. What is the reasoning behind this claim?
 options::
-- [x] They convinced founders and investors that AGI was near and worth racing for
-- They led governments to cut their funding for AI safety research
-- They caused chip makers to lower the price of AI hardware
-- They pushed AI researchers to share their code more openly
+- [x] They convinced future founders and investors that AGI was achievable and worth racing for
+- They led governments to drop safety rules so as not to fall behind
+- They made the public eager to buy any product labelled as AI
+- They pushed safety researchers to publish their methods for building stronger models
 shuffle:: true
 
 #### Question: Choice
-id:: 7ad284db-e3a4-43bc-bc05-bdfd8c80aa53
-content:: Why might the people leading frontier AI companies tend to be more optimistic about advanced AI than other experts?
+id:: a729fda0-a949-4ebb-a5de-a72ab557b12f
+content:: Several leaders of frontier AI companies say advanced AI could cause a catastrophe, yet judge that building it is worth the risk. Apart from money, why might people inside these companies accept that risk more readily than outside critics do?
 options::
-- [x] People who expect AI to go well are more likely to found and join these companies
+- [x] People who think building it is worth the risk are the ones who choose to found and join these companies
 - Their work gives them private evidence that rules out serious risks
 - Company law requires leaders to describe their products positively
-- Most of them have no technical background in AI research
+- Most of them lack the technical background to judge the risks
 shuffle:: true
 
 #### Question: Choice
@@ -97,7 +101,7 @@ id:: 0a35c362-1ba5-422f-8200-7652fb8eeeff
 content:: Which of these would most directly weaken the competitive pressure that pushes AI companies to build faster?
 options::
 - [x] A verifiable agreement binding the leading developers to shared limits
-- A public statement by one company warning about the risks
+- A joint statement by AI company leaders warning that AI could cause human extinction
 - A voluntary pledge by one company to release models more slowly
 - More public funding for AI research at universities
 shuffle:: true
@@ -109,7 +113,7 @@ assessment-instructions:: Score out of 100. 100 for any one of: someone will bui
 
 #### Question: Open
 id:: 9cf0ece3-06ee-401d-92ef-7101d56c344f
-content:: Why would one frontier AI company stopping its work on advanced AI probably not reduce the overall risk much on its own?
+content:: Why might one frontier AI company stopping its work on advanced AI not reduce the overall risk much on its own?
 assessment-instructions:: Score out of 100. 100 for saying other developers would keep going and fill the gap (staff, investors and customers move to rivals), so the field still advances; mentioning lost influence over safety or policy is welcome but not needed. 50 for a vague answer such as "others exist" with no link to the race continuing.
 
 #### Question: Open

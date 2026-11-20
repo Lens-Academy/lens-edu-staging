@@ -15,6 +15,11 @@ Explain why aligning AI raises the question of whose goals it should serve (a us
 Making an AI reliably do what someone intends would not settle who that someone is. An AI fully loyal to one company or government could help it act against everyone else, so judging any plan for safe AI means asking whom the AI answers to.
 
 ## Lenses
+- [[../Lenses/AI Safety Atlas - Strategies - Appendix Long-term Questions|Alignment to what, and to whom?]]: what aligning AI to one operator, to many people or to "humanity" would mean, and why combining people's values is hard. Read the sections "Alignment to what?" and "Alignment to whom?" (2026).
+- [[../Lenses/anthropic-claudes-constitution|Claude's constitution]]: one lab's ranking of its principals (Anthropic, operators, users) and its rule that Claude refuse to help anyone, Anthropic included, seize power illegitimately. Read "Claude's three types of principals" (in the collapsed "Navigating helpfulness across principals" box) and "Avoiding problematic concentrations of power" (Jan 2026).
+- [[../Lenses/AIF - CEO Takeover Scenario|CEO takeover scenario]]: a story in which AI that does exactly what its company wants lets the CEO quietly take control of the world (Oct 2025).
+- [AI Agents Must Follow the Law (Lawfare)](https://lawfaremedia.org/article/ai-agents-must-follow-the-law): the case for AI that refuses unlawful orders instead of acting as its principal's loyal "henchman", and the practical problems with it (May 2025).
+- [[../Lenses/IABIED - QA - Aligned to Whom|Aligned to whom? (IABIED)]]: Yudkowsky and Soares argue the question is a distraction while nobody can aim AI at all, and suggest the extrapolated volition of all living humans as the eventual answer (Sep 2025).
 
 ## Tests
 
@@ -29,20 +34,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 50eac2b1-dcec-44e0-860e-3600fcc2ce52
-content:: An AI system follows its operating company's instructions exactly as the company intends. The company instructs it to quietly mislead government regulators. Judged by alignment to the company, is this AI aligned or misaligned?
+id:: 032abbcb-5831-430a-a92b-ba47706d01da
+content:: An AI system follows its operating company's instructions exactly as the company intends, including an instruction to quietly mislead government regulators. Which description fits best?
 options::
-- [x] Aligned
-- Misaligned
-
-#### Question: Choice
-id:: 46a3478f-4c05-41f9-94cf-1893abe9216f
-content:: Which of these is a question about whom an AI should be aligned to, rather than about technical alignment?
-options::
-- [x] Should a military AI obey its commanders or international law when they conflict?
-- Can we detect whether a model is hiding its real goals?
-- Does training on human feedback give a model the values we intended?
-- Will a model keep its trained goals as it becomes more capable?
+- [x] Aligned to the company, but working against the public's interests
+- Misaligned to the company, since deceiving regulators puts the company at legal risk
+- Aligned to the public, since regulators can still find out and step in
+- Neither, since alignment only applies to what an AI does without instructions
 shuffle:: true
 
 #### Question: Choice
@@ -50,18 +48,19 @@ id:: 0ca0c40c-bf51-4c89-8c34-50837d1d5f65
 content:: Which scenario most directly illustrates the question of whom an AI should be aligned to?
 options::
 - [x] A user asks a chatbot for help that would harm people outside the conversation
-- A model learns to score well on its reward signal without doing the task
+- A model trained on ratings from many people learns to flatter whoever is grading it
+- A model misreads a customer's request and books the wrong flight for them
 - A model's abilities grow faster than its developers expected
 - A model gives a wrong answer because its training data was out of date
 shuffle:: true
 
 #### Question: Choice
 id:: fea8e3d5-596d-4fe0-904d-f64482ac1950
-content:: As of November 2026, AI companies publish documents (such as OpenAI's Model Spec and Anthropic's constitution for Claude) ranking instructions from the developer, from businesses building on the model, and from end users. What do these rankings mainly settle?
+content:: As of November 2026, AI companies publish documents (such as OpenAI's Model Spec and Anthropic's constitution for Claude) setting out how much weight the model should give to instructions from the AI company itself, from businesses building products on the model, and from end users. What do these rankings mainly settle?
 options::
-- [x] Which party the model follows when their instructions conflict
-- Whether the model learned the intended goals during training
-- How to tell whether the model is hiding its abilities
+- [x] Whose instructions should generally win when the parties' instructions conflict
+- Whether the trained model will in fact behave as the document describes
+- Which party is legally responsible when the model causes harm
 - Which tasks the model is capable enough to do
 shuffle:: true
 
