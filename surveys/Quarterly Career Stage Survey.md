@@ -128,7 +128,7 @@ max-chars:: 1500
 
 #### Question: Choice
 id:: ecf61e73-e057-41d9-9b85-1605edf6b8af
-content:: Compared with your best available alternative at the time, how influential was Lens in getting you to this stage?
+content:: Compared with your best available alternative at the time, how influential was Lens in getting you to {--{"author":"Mark's AI","timestamp":1795166283476}@@this stage?--}{++{"author":"Mark's AI","timestamp":1795166283476}@@where you are now in AI safety?++}
 description:: Your best alternative might have been self-study or another programme.
 optional:: true
 options::
@@ -149,6 +149,39 @@ options::
 - By 1–3 months
 - By 4–6 months
 - By more than 6 months, or I wouldn't be here without Lens
+
+#### Question: Choice
+id:: 420f1bf0-bef3-4b2a-9309-72d2c3bb9f65
+content:: What, if anything, is most holding you back from (more) work in AI safety? Pick up to 3.
+multi:: true
+options::
+- Money or financial runway
+- Skills or experience
+- Research experience or published work
+- Understanding of AI safety agendas and strategy
+- Connections in the field
+- Knowing which opportunities exist
+- Credentials
+- I apply but don't get in
+- Location or visa
+- Time (work, study or family)
+- Unsure which path fits me
+- Nothing significant
+
+#### Page
+
+#### Text
+content:: **Last details**
+
+#### Question: Choice
+id:: fa424f1e-1c0a-45f8-808a-9eb5dd3376d9
+content:: We sometimes share what our alumni go on to do, with funders, on our website and on LinkedIn. Which of these are you happy with? Pick all that apply.
+multi:: true
+options::
+- You can quote my answers with my name
+- You can quote my answers anonymously
+- You can contact me about featuring my story (e.g. in a LinkedIn post)
+- None of these, keep my answers internal
 
 #### Question: Open
 id:: 1ed3e65b-6bdb-490f-9530-f6547ab4f9f6
