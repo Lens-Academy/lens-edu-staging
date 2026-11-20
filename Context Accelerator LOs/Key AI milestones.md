@@ -75,10 +75,6 @@ options::
 - Simulating every chemical reaction inside a living cell
 shuffle:: true
 
-#### Question: FillBlank
-id:: ef881bdc-2cf8-48c6-ba02-77ff73f787c6
-content:: OpenAI released ChatGPT to the public in November {{2022}}.
-
 #### Question: Choice
 id:: 875b6993-1ae2-47ff-af38-8b4856d83caf
 content:: OpenAI built ChatGPT on top of its GPT-3.5 language model. What was the main extra step that turned the model into a useful chat assistant?
