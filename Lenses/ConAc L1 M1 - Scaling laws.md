@@ -96,6 +96,7 @@ If you want to explore this distinction further, [Power Laws Are Not Enough](htt
 #### End Callout
 
 #### ++}Text
+content::
 {--{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795205143352}@@TBD--}{++{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795205143352}@@But whatever the limitations of scaling laws, AI companies are investing billions of dollars in larger models, more powerful computing infrastructure, and new ways to use computation during training and inference.
 
 We don't know how long these improvements will continue, but for now, the world's leading AI labs are betting enormous resources that the next increase in scale will be worth it.

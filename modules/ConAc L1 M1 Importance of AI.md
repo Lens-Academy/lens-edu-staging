@@ -37,9 +37,3 @@ slug:: m1-4-ai-timelines
 
 ## Lens:
 source:: [[../Lenses/ConAc L1 M1 - AI timelines]]
-
-# Submodule: 1.5 Why people disagree
-slug:: m1-5-why-people-disagree
-
-## Lens:
-source:: [[../Lenses/ConAc L1 M1 - Why people disagree]]
