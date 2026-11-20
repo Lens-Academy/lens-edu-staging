@@ -8,9 +8,6 @@ tags:
 ---
 
 #### Text
-content:: \## what examples of these points of view look like
-
-#### Text
 content:: \### Dominance doctrine
 
 #### Text
