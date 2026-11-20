@@ -41,10 +41,9 @@ collapse:: closed
 source:: [[../articles/villalobos-scaling-laws-literature-review]]
 from:: The term “scaling laws” in deep learning
 to:: (like model size, width, or training compute).
+
 #### Text
 content::
-The term “scaling laws” in deep learning refers to relations between functional properties of interest (usually the test loss or some performance metric for fine-tuning tasks) and properties of the architecture or optimization process (like model size, width, or training compute).
-
 When you're training an AI model, you give it some data, let it learn, and then test how well it does on something it hasn't seen before. Naturally, you wonder: what would happen if you made the model twice as large? Or gave it ten times more data? Would it become twice as good? A little better? Would it make any difference at all?
 
 You could run the experiments and find out. And when researchers did, they discovered the models' prediction errors often decreased in remarkably regular ways. Regular enough that you could fit a simple mathematical equation to the results. And once you had that equation, you could make predictions about models you hadn't even built yet.
