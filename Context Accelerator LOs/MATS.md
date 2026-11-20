@@ -99,12 +99,12 @@ shuffle:: true
 
 #### Question: Choice
 id:: 2d4e169c-118c-4d8e-9e08-5c486cb9a7f9
-content:: Which of these is a common next step for people who complete the MATS fellowship?
+content:: Which of these is the most common next step for people who complete the MATS fellowship?
 options::
-- [x] Joining AI safety teams or founding new safety organisations
+- [x] Working in AI safety or security, or founding a new safety organisation
 - Serving a required two-year work period at MATS
 - Receiving a PhD from a MATS partner university
-- Moving into AI capabilities roles at the same lab as their mentor
+- Returning to careers unrelated to AI
 shuffle:: true
 
 #### Question: FillBlank

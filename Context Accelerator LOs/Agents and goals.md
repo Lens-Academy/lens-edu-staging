@@ -123,3 +123,8 @@ assessment-instructions:: Score out of 100. 100 for saying you must check whethe
 id:: 88a327ba-7f2c-44ed-abac-bfe8f927d446
 content:: Why is it useful to describe a chess engine as "trying to win", even though it has no wishes in a human sense?
 assessment-instructions:: Score out of 100. 100 for saying the description predicts its behavior well: knowing its goal lets you predict it will make strong moves, even ones you can't foresee in detail. 50 for "it is programmed to win" without the point about prediction.
+
+#### Question: Open
+id:: b6db9d32-d439-4fe2-b3e9-e33b63e0587e
+content:: What could you observe that would show an AI system is pursuing a goal, rather than following a fixed procedure? Give an example.
+assessment-instructions:: Score out of 100. 100 for saying that when conditions change or something blocks it, it changes its actions and still reaches the same outcome, with a concrete example (e.g. a tool fails, so it tries another way to finish the task). 50 for the idea without an example, or an example without saying the outcome stays the same while the actions change.

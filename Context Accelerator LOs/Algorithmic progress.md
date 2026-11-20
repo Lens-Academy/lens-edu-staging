@@ -81,15 +81,15 @@ id:: 60bf1a85-949d-463b-8864-2ac033de1446
 content:: Between 2023 and 2025, how did the price of using a language model at a fixed level of performance, such as GPT-4's level at its 2023 launch, change?
 options::
 - [x] It fell many times over each year
-- It fell by about a tenth each year
+- It fell by about 10% each year
 - It stayed roughly the same
 - It rose as demand for AI chips grew
 shuffle:: true
 
 #### Question: Open
-id:: d940036a-78b3-45a1-91da-d617aacd3fb8
-content:: Why are paradigm leaps in AI algorithms harder to forecast than steady efficiency gains?
-assessment-instructions:: Score out of 100. 100 for saying that steady gains follow a fairly regular trend that can be extended, while paradigm leaps are rare and irregular, so their timing and size can't be read from a trend. 50 for only one half (e.g. "leaps are rare" or "leaps are unpredictable") without the contrast with a measurable trend.
+id:: f0f2acf3-5c2c-4313-8278-48cd6915ff8c
+content:: Forecasters often predict when AI will reach a capability by extending the trend of steady algorithmic efficiency gains. Why could a paradigm leap like the transformer make such a forecast badly wrong, and what does that imply for how such forecasts should be stated?
+assessment-instructions:: Score out of 100. 100 for both: (1) a leap is a large, sudden jump a smooth trend doesn't project, and too few leaps have happened to estimate how often they come or how big they are, so a capability could arrive much earlier than the trend says; (2) so such forecasts need wide uncertainty, not a single date. 50 for only one.
 
 #### Question: Open
 id:: ed9069c0-d59c-4145-a734-db34b8e6db04
@@ -98,5 +98,5 @@ assessment-instructions:: Score out of 100. 100 for saying that algorithmic prog
 
 #### Question: Open
 id:: 8242631b-9c3d-44ff-8ed0-79de88d2039b
-content:: In December 2024 DeepSeek reported that the final training run of its V3 model cost about $6 million, far below estimates for similar US models. Give one reason this figure understates what it cost to develop the model.
+content:: In December 2024 DeepSeek reported that the final training run of its V3 model cost about $5.6 million in rented chip time, far below estimates for similar US models. Give one reason this figure understates what it cost to develop the model.
 assessment-instructions:: Score out of 100. 100 for any one of: it leaves out earlier research and experimental training runs; it leaves out buying or owning the chips and data centers; it leaves out staff salaries; it leaves out data costs. 0 for answers saying the figure was simply false without a reason.

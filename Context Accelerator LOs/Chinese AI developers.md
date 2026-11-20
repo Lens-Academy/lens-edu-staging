@@ -15,6 +15,9 @@ Name the leading Chinese AI developers, describe how far their best models trail
 Arguments about racing, chip export controls and international agreements often rest on claims about how close China is in AI. Knowing which Chinese developers lead, how far behind they are and how openly they release models lets you check those claims instead of relying on alarm or dismissal.
 
 ## Lenses
+- [What to Know About Chinese AI Models (CSIS)](https://www.csis.org/analysis/what-know-about-chinese-ai-models): who the leading Chinese developers are (DeepSeek, Alibaba's Qwen, Moonshot, Z.ai, MiniMax), how far behind they are, why their models are cheap, and why they release open weights (July 2026).
+- [[../Lenses/AIF - China Compute and Frontier Lag|China Compute and Frontier Lag]]: two Epoch AI analyses. Chip manufacturing limits, export controls and Huawei's weaker software keep Chinese developers on Nvidia chips, and Chinese models have trailed the US frontier by 4 to 14 months since 2023, about the same as the gap between open-weight and closed models (2025–26; the 7-month average is weighted by an early catch-up period, and recent gaps are shorter).
+- [On DeepSeek and Export Controls (Dario Amodei)](https://darioamodei.com/post/on-deepseek-and-export-controls): why DeepSeek-V3 and R1 surprised the US, what the "$6M" training figure leaves out, and the case that chip export controls decide whether China keeps up; the argument for controls, from Anthropic's CEO (January 2025).
 
 ## Tests
 
@@ -45,12 +48,12 @@ shuffle:: true
 
 #### Question: Choice
 id:: b2c38fbb-9849-4fb8-9744-0282d4215c4b
-content:: As of late 2025, roughly how far behind the best US models did most independent estimates put the best Chinese models?
+content:: During 2025 and 2026, roughly how far behind the best US models did most independent estimates put the best Chinese models?
 options::
 - [x] Several months to about a year
-- Three to five years
-- More than a decade
-- Chinese models were about a year ahead
+- About two to three years
+- About five years or more
+- Not behind: Chinese models led on most measures
 shuffle:: true
 
 #### Question: Choice
@@ -60,7 +63,7 @@ options::
 - [x] Limited access to the most advanced AI chips
 - A shortage of skilled AI researchers in China
 - Too little Chinese-language text to train on
-- Chinese laws that cap the size of trained models
+- The high cost of electricity for data centres in China
 shuffle:: true
 
 #### Question: Choice
@@ -75,7 +78,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: 821f40ce-3fb8-44ff-82f8-b7b804fa1fe0
-content:: DeepSeek reported that the final training run of its V3 model cost about $6 million. Why do many analysts say this understates what it cost to build the model?
+content:: DeepSeek reported that the final training run of its V3 model cost about $5.6 million in rented computing time. Why do many analysts say this understates what it cost to build the model?
 options::
 - [x] It covers the final run, not earlier experiments, staff or buying the chips
 - It was quoted in yuan, so the dollar cost was about seven times higher
@@ -97,10 +100,10 @@ shuffle:: true
 id:: 139c7ef0-7496-47a6-87a4-e651828e3da6
 content:: Under Chinese regulations, what must a developer do before offering a generative AI chatbot to the public in China?
 options::
-- [x] File it with regulators and pass checks that include politically sensitive topics
-- Publish the model's weights so government researchers can inspect them
-- Show that the model outperforms a government-run reference model
-- Get approval for the model from US export authorities
+- [x] File it with regulators and pass content checks, including on political topics
+- Publish its weights so that government researchers can inspect them
+- Show that it outperforms a government-run reference model on tests
+- Limit it to business customers until it has run safely for a year
 shuffle:: true
 
 #### Question: Open
@@ -110,5 +113,5 @@ assessment-instructions:: Score out of 100. 100 for any one of: anyone can downl
 
 #### Question: Open
 id:: 850d5308-2a94-403e-b271-3bf46d34b84d
-content:: Some argue the US must race to stay ahead of China in AI. Using what you know about Chinese AI developers, give one fact that supporters of this argument point to, and one that critics point to.
-assessment-instructions:: Score out of 100. 50 for a supporter's fact, such as: the best Chinese models trail by months, not years; DeepSeek quickly matched leading US models; Chinese labs release capable open weights. 50 for a critic's fact, such as: Chinese labs still trail and are held back by chip export controls; Chinese rules already restrict model releases; racing raises risks for everyone.
+content:: Some argue the US must race to stay ahead of China in AI. Give one fact about Chinese AI developers that supporters of this argument point to, and one that critics point to.
+assessment-instructions:: Score out of 100. 50 for a supporter's fact, such as: the best Chinese models trail by months, not years; DeepSeek quickly matched leading US models at low reported cost; Chinese labs spread capable open weights worldwide. 50 for a critic's fact, such as: Chinese labs still trail and say chip access holds them back; the gap had not closed by late 2026 and had widened on some measures; Chinese regulators already control which chatbots reach the public. Give 25 instead of 50 for a general argument (e.g. "racing raises risks") with no fact about Chinese developers.

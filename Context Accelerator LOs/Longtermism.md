@@ -46,19 +46,22 @@ shuffle:: true
 
 #### Question: Choice
 id:: 6a0900c9-a4cb-4fac-a3d2-8f18e1b841b1
-content:: Philosopher Derek Parfit compared a war that kills 99% of humanity with one that kills everyone. On a longtermist view, is the gap between these outcomes much bigger than the extra 1% of deaths suggests?
+content:: Philosopher Derek Parfit compared peace, a war that kills 99% of humanity, and a war that kills everyone. He judged the gap between the last two much greater than the gap between the first two. Why?
 options::
-- [x] Yes: extinction also removes the chance of a long future
-- No: how bad each outcome is tracks the number of deaths
+- [x] Extinction would also destroy all the future lives humanity could otherwise go on to have
+- The last 1% to die would suffer more than those killed earlier in the war
+- Those killed in an extinction event would each be harmed more than other victims
+- A war killing everyone is far more likely than one killing 99%
+shuffle:: true
 
 #### Question: Choice
 id:: 757aeb14-c1dc-4650-ac0e-e8dbe5f1a780
 content:: What does Holden Karnofsky's "most important century" hypothesis claim?
 options::
-- [x] Advanced AI may make this century decisive for humanity's long-run future
-- Population and economic growth will peak this century, then decline
-- Climate change makes this century decisive for whether humanity survives
-- Humanity is more likely than not to go extinct within this century
+- [x] AI that can automate scientific progress may arrive this century and set humanity's long-run course
+- AI will boost growth this century about as much as electricity did in the last one
+- AI makes it more likely than not that humanity goes extinct this century
+- AI's biggest effects on humanity will come only in later centuries, once it matures
 shuffle:: true
 
 #### Question: Choice
@@ -81,9 +84,10 @@ options::
 - It assumes we can predict the far future with confidence
 shuffle:: true
 
-#### Question: FillBlank
-id:: c719f49e-91d6-48f3-878c-07ffc59eccc4
-content:: *What We Owe the Future* (2022), a widely read book arguing for longtermism, was written by philosopher {{Will MacAskill|William MacAskill|MacAskill}}.
+#### Question: Open
+id:: 295e476e-7a6c-4bc0-b39d-8a6193a74a98
+content:: The "fanaticism" objection says longtermism lets tiny chances of huge payoffs outweigh everything else. Does this objection undermine the case for working to reduce AI risk? Briefly explain.
+assessment-instructions:: Score out of 100. 100 for: it depends on the size of the risk; if it is a few percent or more (surveyed AI researchers' 2024 median was 10%), the case doesn't rest on tiny probabilities, so the objection bites much less. 50 for saying the risk isn't tiny without noting it depends on the estimate. 20 for a bare yes or no.
 
 #### Question: Open
 id:: 2b3ac26d-a0f9-47dd-9fef-07165dfba667
@@ -93,7 +97,7 @@ assessment-instructions:: Score out of 100. 100 for: if humanity survives, the f
 #### Question: Open
 id:: 1e18c06d-4394-4d8b-8d98-66d8e38d69a1
 content:: Someone says: "I'm not a longtermist, so AI existential risk isn't my concern." Give one reason this doesn't follow.
-assessment-instructions:: Score out of 100. 100 for any one of: if the risk is substantial within decades, it threatens people alive today, including them and their family; ordinary cost-benefit reasoning supports paying to reduce even a modest chance of mass death; many moral views besides longtermism care about catastrophe. 40 for saying AI is dangerous without linking it to present people or other moral views.
+assessment-instructions:: Score out of 100. 100 for any one of: if the risk could arrive within years or decades (forecasts span both), it threatens people alive today, including them and their family; ordinary cost-benefit reasoning supports paying to reduce even a modest chance of mass death; many moral views besides longtermism care about catastrophe. 40 for saying AI is dangerous without linking it to present people or other moral views.
 
 #### Question: Open
 id:: 79f3934a-8c34-4f94-873a-5c959dd94712

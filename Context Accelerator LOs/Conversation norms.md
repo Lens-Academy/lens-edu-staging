@@ -76,24 +76,7 @@ options::
 - [x] Wide access to AI matters more than a small added risk of misuse
 - Open weights let others remove the model's safety training
 - The model can give serious help in making biological weapons
-- Closed models tend to be copied by others within a year
-shuffle:: true
-
-#### Question: Choice
-id:: 584200fc-4c9e-40ca-ac04-6a25571cc830
-content:: Mia and Leo agree that a pause on frontier AI would be justified if the chance of catastrophe were above 1%. Mia puts the chance at 10%; Leo puts it at 0.1%. Is their disagreement about the pause mainly about facts?
-options::
-- [x] Yes
-- No
-
-#### Question: Choice
-id:: bad00bb8-e990-49fa-9937-38622786f9c9
-content:: Which of these behaviours suggests someone is arguing to win rather than to find the truth?
-options::
-- [x] They avoid saying what evidence would change their mind
-- They ask you to explain your reasoning in more detail
-- They point out a mistake in your argument
-- They admit that one of your points is strong
+- Another lab will openly release a similar model within a year
 shuffle:: true
 
 #### Question: FillBlank
@@ -101,9 +84,9 @@ id:: 7a0aef57-a253-4827-bfe9-5de4a954cae8
 content:: Restating someone's view in a weaker form so that it is easier to attack is called a {{strawman|straw man}}.
 
 #### Question: Open
-id:: 5e9f4dfb-9380-4207-b252-692fc2ff6013
-content:: Why might steelmanning a view get you closer to the truth than arguing against the version of it you first heard?
-assessment-instructions:: Score out of 100. 100 for any one of: the strongest version is the one most worth testing, so refuting a weak version leaves the real reasons untested; it lets you find out whether you are wrong; the other person is more likely to engage with your reply. 50 for only saying it is fairer or more polite.
+id:: df7bf729-e46c-4dc4-9c54-2bff25c30efa
+content:: Steelmanning means restating a view in the strongest form you can. Give one way this can help you find the truth, and one way it can mislead you.
+assessment-instructions:: Score out of 100. 50 for a benefit, e.g. refuting a weak version leaves the real reasons untested; testing the strongest case shows whether you might be wrong. 50 for a risk, e.g. the "stronger" version may not be what its holders believe, so you miss their real reasons; what seems strongest to you may not be strongest. 25 for "fairer" or "more polite" alone.
 
 #### Question: Open
 id:: 3b0d0ea5-cac0-4a24-a31d-419ef6235cbc
@@ -111,6 +94,6 @@ content:: Two people disagree about whether an AI lab should publish its researc
 assessment-instructions:: Score out of 100. 100 for one factual question that evidence could settle (e.g. would publishing speed up dangerous capabilities?) and one value question about what matters (e.g. how much should openness count against risk?). 50 if only one of the two is the right kind.
 
 #### Question: Open
-id:: d3400d3c-02e1-4a7b-86fe-68a21ca7c7e1
-content:: Pick a view about AI risk that you disagree with, and steelman it in two or three sentences.
-assessment-instructions:: Score out of 100. 100 for a clear view stated with strong reasons that its holders would accept as their own, with no mockery or weakened version. 50 if the view is stated fairly but its reasons are thin. 0 for a strawman.
+id:: 6072ec87-0877-4786-acfd-6a120a81e42f
+content:: Pick a view about AI risk that you disagree with. In two or three sentences, state it as its holders would, so that they would accept your account as their own.
+assessment-instructions:: Score out of 100. 100 for a clear view stated with the reasons its holders actually give, in terms they would accept, with no mockery or weakening. 50 if the view is stated fairly but its reasons are thin, or are the writer's own improvements rather than its holders' reasons. 0 for a strawman.

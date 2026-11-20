@@ -48,8 +48,8 @@ id:: c8d3c2f2-7983-4a24-9f79-7144cc38051d
 content:: A lab finds its model solves hard problems better after reinforcement learning that rewards task success. Why do some see this as a push toward agentic AI?
 options::
 - [x] Rewarding success selects for strategies that pursue outcomes over many steps.
-- Reinforcement learning makes models smaller and cheaper to deploy.
-- Reinforcement learning removes the need for human oversight in training.
+- Reinforcement learning gives models a longer memory for past conversations.
+- Reinforcement learning makes models follow each written instruction more literally.
 - Rewarding success makes models copy human-written answers more closely.
 shuffle:: true
 
@@ -78,24 +78,30 @@ id:: 9df81023-be2f-4ccb-8834-9242f7c87c68
 content:: What does Eric Drexler's "Comprehensive AI Services" (CAIS) proposal claim?
 options::
 - [x] Superhuman capability could come from many bounded AI services, not one general agent.
-- Advanced AI should be one general agent overseen by a committee of humans.
-- AI services should be sold to governments rather than to companies.
-- Superintelligence will emerge from connecting human brains to AI services.
+- Superhuman capability will most likely come from one general agent that improves itself.
+- AI services must stay below human level in every field to remain safe.
+- General agents should be built first and then split into narrow services.
 shuffle:: true
 
 #### Question: Choice
-id:: e7b707fa-f1b3-4d53-bd92-8a9f93594d90
-content:: Tool AI proposals aim to reduce the risk of AI pursuing its own goals. Would keeping AI tool-like also remove the risk of people misusing it?
+id:: d9db81ff-678e-4b61-a2b5-aa9401b4cbf5
+content:: A lab commits to building only tool-like AI that advises while humans decide and act. Which risk does this commitment do least to reduce?
 options::
-- Yes
-- [x] No
+- [x] People using the AI's advice to plan a cyberattack
+- The AI resisting being shut down or corrected
+- The AI gathering resources to pursue its own goals
+- The AI misleading its overseers to reach its own goals
+shuffle:: true
 
 #### Question: Choice
-id:: c6b98a89-13a3-4dc9-87c6-4ed107fc9cf1
-content:: The economic argument for agentic AI says agents will be deployed because they are more useful than tools. If agents proved much less reliable than tool-style AI, would that weaken this argument?
+id:: dd485690-9c93-442a-aed1-3e1da27c8356
+content:: Critics of the economic argument for agentic AI point out that agents often fail on long tasks. What is the strongest reply from those who expect agents to win out?
 options::
-- [x] Yes
-- No
+- [x] The length of tasks agents can complete has been doubling every few months.
+- Tool-style AI fails more often than agents on every kind of task.
+- Firms will deploy agents whatever the cost, even if most tasks fail.
+- Reliability matters little, because customers rarely check the results.
+shuffle:: true
 
 #### Question: Open
 id:: 3a93acb1-4818-494a-9311-87aa5ab8aabc

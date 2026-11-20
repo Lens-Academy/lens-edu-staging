@@ -90,7 +90,7 @@ options::
 - [x] Other major AI labs credibly pausing too
 - Their models first passing a third-party safety audit
 - A majority of their employees voting for it
-- Their investors agreeing to forgo future profits
+- Governments first passing binding AI safety laws
 shuffle:: true
 
 #### Question: Choice
@@ -109,8 +109,8 @@ content:: Local campaigns against new data centres grew sharply in 2025. What ma
 options::
 - [x] Local concerns such as power use, water use and noise
 - Fear of human extinction from superintelligent AI
-- Opposition to foreign ownership of AI companies
-- Support for a global treaty pausing AI development
+- Privacy concerns about personal data stored on site
+- Worry that AI chatbots will be used in local schools
 shuffle:: true
 
 #### Question: Open
@@ -119,9 +119,9 @@ content:: Name one group campaigning on AI risk, and describe its main demand an
 assessment-instructions:: Score out of 100. 100 for a correct group, demand and tactic, e.g. PauseAI (international treaty pausing the most powerful AI until safe; peaceful protests, lobbying, open letters), ControlAI (prohibit superintelligence, binding regulation; briefing lawmakers, getting public backing from parliamentarians), Stop AI (permanent ban on AGI; civil disobedience, blockades). 50 if the demand or tactic is missing or wrong.
 
 #### Question: Open
-id:: a4e0ebbf-041e-46d5-bd54-0783e1414a54
-content:: In advocacy, what is the difference between an "inside game" and an "outside game" strategy? Give one example tactic for each.
-assessment-instructions:: Score out of 100. Inside game: working through institutions and decision-makers, e.g. briefing or lobbying lawmakers, drafting policy, giving evidence. Outside game: building pressure from outside, e.g. protests, marches, public campaigns, civil disobedience. 50 for a correct distinction without valid examples, or examples without the distinction.
+id:: 40e4f4d4-f8ed-46b8-acda-93d19fc1ed70
+content:: Some campaigns work mainly through decision-makers ("inside game"); others build pressure from outside ("outside game"). Which of ControlAI and Stop AI is the clearer example of each, and why?
+assessment-instructions:: Score out of 100. ControlAI is mainly inside game: it briefs lawmakers and asks them to back its campaign publicly. Stop AI is mainly outside game: it uses protests and civil disobedience such as blockading OpenAI's offices. 100 for both placed correctly with a tactic for each. 50 if both are placed correctly with no reasons, or only one is placed and explained.
 
 #### Question: Open
 id:: 41c8ac1e-03af-40dd-bfda-ac138a4c1386

@@ -42,28 +42,18 @@ options::
 shuffle:: true
 
 #### Question: Open
-id:: df0dc824-5ac6-4f7d-bbb1-5a213dbcc928
-content:: MAIM deterrence describes an escalation ladder of ways a state could interfere with a rival's AI project. Name one step on that ladder.
-assessment-instructions:: Score out of 100. 100 for any one of: espionage or intelligence gathering on the project; insiders tampering with model weights or training runs; cyberattacks on training runs or datacenters; attacks on datacenter power supply; physical or military strikes on datacenters. 30 for a vague answer such as "attack them" with no specific means.
+id:: 0c70e4a1-7b5e-4d7a-b834-eef6b45683dc
+content:: Under MAIM deterrence, a state's ways of interfering with a rival's AI project range from covert to openly military. Give one covert and one overt example, and explain why the overt end of this range matters for whether MAIM keeps the peace.
+assessment-instructions:: Score out of 100. 100 for a covert example (espionage, insiders tampering with the project, covert cyber sabotage), an overt one (open cyberattacks on datacenters or their power, military strikes on datacenters), and explaining that overt attacks make the threat credible but are visible acts of war that risk retaliation and wider escalation. 60 for both examples without the explanation. 30 for one example only.
 
 #### Question: Choice
-id:: 28605ff8-f36d-4b29-bd09-4600c3c98fc0
-content:: The paper "Superintelligence Strategy" pairs MAIM deterrence with two other pillars. What are they?
+id:: a8a02a90-073c-4d29-b884-2126423890d4
+content:: Supporters of MAIM deterrence suggest building large AI datacenters far from cities. What does this suggestion show about how MAIM is meant to work?
 options::
-- [x] Nonproliferation and competitiveness
-- Alignment research and interpretability
-- A global pause and an international treaty
-- Open-source release and public transparency
-shuffle:: true
-
-#### Question: Choice
-id:: 19e97391-3344-4cd5-9fca-fe67118f41c4
-content:: Supporters of MAIM deterrence suggest building large AI datacenters far from cities. What is the main reason?
-options::
-- [x] So that strikes on them would not cause mass civilian casualties
-- So that they are harder to spot with satellites
-- So that foreign spies find it harder to reach them
-- So that land and cooling for them cost less
+- [x] It relies on datacenters staying open to attack, and aims to limit the harm of strikes
+- It relies on datacenters being well hidden, so that rivals cannot find them to strike
+- It relies on a treaty banning strikes, so location mainly affects cost and cooling
+- It relies on distance to keep foreign spies and saboteurs away from the projects
 shuffle:: true
 
 #### Question: Open
@@ -76,9 +66,9 @@ id:: 4c8986d3-6924-4229-a194-9fb40ff7ae7a
 content:: Some critics argue MAIM deterrence could make war between rival states more likely. What is the reasoning behind this critique?
 options::
 - [x] A state that fears its rival is close to superintelligence feels pressure to strike first
-- It bans military uses of AI, which states will refuse to accept
-- It requires each state to build its own superintelligence quickly
-- Datacenters placed far from cities are cheaper and easier to attack
+- It requires states to pause AI development, and states will fight rather than accept that
+- It hands control of frontier AI to an international body that major powers distrust
+- It requires states to share their best AI models, which exposes their military secrets
 shuffle:: true
 
 #### Question: Choice
@@ -87,16 +77,19 @@ content:: Which assumption does MAIM deterrence depend on most directly?
 options::
 - [x] Rival states can reliably sabotage each other's frontier AI projects
 - Superintelligence will be built by private companies, not governments
-- The technical problem of aligning AI has already been solved
+- Superintelligence would be safe as long as a single state controls it
 - Major powers will agree to a binding treaty on AI development
 shuffle:: true
 
 #### Question: Choice
-id:: c8758865-4104-4075-b569-ab54188611d3
-content:: Do the authors of "Superintelligence Strategy" present MAIM deterrence as a regime that states must deliberately set up, or as a situation that largely exists already?
+id:: 398eb0ed-fb98-4faf-9a1b-bffab7e42a52
+content:: How do the authors of "Superintelligence Strategy" present MAIM deterrence?
 options::
-- [x] A situation that largely exists already
-- A regime that states must deliberately set up
+- [x] As a standoff that largely exists by default, which states must work to keep stable
+- As a treaty regime that only applies once states sign and ratify it
+- As a last resort for after a rival has already built superintelligence
+- As a system run by an international agency that polices AI projects
+shuffle:: true
 
 #### Question: Choice
 id:: 6fc532e7-49b6-4f9d-9bed-2831fd427a62

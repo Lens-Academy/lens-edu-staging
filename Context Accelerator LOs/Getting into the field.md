@@ -12,9 +12,13 @@ Choose practical first steps into AI safety work and explain why doing and shari
 - [[AI safety career paths]]
 
 ## Why it matters
-Many capable people apply to a few oversubscribed programmes, get rejected and stop. Shared projects, contacts and mentors give employers evidence of your skill and open routes that applications alone don't, so you can start contributing sooner.
+Many capable people apply to a few oversubscribed programmes, get rejected and stop. Shared projects, contacts and mentors give employers evidence of your skill and open routes that applications alone don't. Starting sooner may matter a lot: serious forecasts of transformative AI now range from a few years to decades away.
 
 ## Lenses
+- [[../Lenses/pauliina-stop-applying-and-get-to-work|Stop Applying and Get to Work]]: why applying and reapplying to oversubscribed fellowships can become signalling rather than building skill, and a three-step alternative: pick an intervention, find who works on it, offer concrete help (November 2025).
+- [AGI safety career advice (LessWrong)](https://www.lesswrong.com/posts/ho63vCb2MNFijinzY/agi-safety-career-advice): Richard Ngo on fast-feedback projects, agency, gaps nobody has got round to, finding mentors and pitching yourself to organisations; read "General mindset" and the high-level advice at the start of the alignment and governance sections (May 2023).
+- [[../video_transcripts/robertmiles-ai-safety-career-advice-and-so-can-you|AI Safety Career Advice (Rob Miles)]]: from "So, how do you actually do the training montage?" to the end: replicating papers, publishing often and seeking feedback, trying a path rather than deciding everything first, and free career advising.
+- [Advice for Sending Cold Messages to Busy People (EA Forum)](https://forum.effectivealtruism.org/posts/oKCAytGYKx9dcdBQC/advice-for-sending-cold-messages-to-busy-people-at-eag): Neel Nanda and Jemima on writing a short, specific message to a busy researcher, with evidence of what you've done and one concrete question (June 2025).
 
 ## Tests
 
@@ -23,9 +27,9 @@ id:: 30a55f25-bb12-44df-907a-4a6f42c54e8f
 content:: Someone has been rejected by five AI safety fellowships. Which next step is most likely to improve their chances of getting into the field?
 options::
 - [x] Do a small safety research project and publish the write-up
-- Reapply next round with the same applications reworded
-- Finish a relevant master's degree before trying anything else
-- Read more introductory material before contacting anyone
+- Apply to ten more fellowships with similar materials
+- Take another online course and add the certificate to their CV
+- Wait a year and reapply with more experience from their current job
 shuffle:: true
 
 #### Question: Choice
@@ -33,9 +37,9 @@ id:: b1a520d3-71fe-451e-8c88-04ccfda4a83c
 content:: Why does a publicly shared independent project help someone get hired in AI safety?
 options::
 - [x] It gives employers direct evidence of the person's skill and judgment
-- It counts as a formal qualification on job applications
-- It shows the person has finished the standard reading lists
-- It lets the person skip the interview stage
+- It shows commitment to the cause, which employers weigh above skill
+- Employers mainly hire people whose posts get the most upvotes
+- It replaces the need for references from past employers
 shuffle:: true
 
 #### Question: Choice
@@ -45,7 +49,7 @@ options::
 - [x] A useful problem that few people are working on, even if unglamorous
 - The most popular research agenda, where most researchers already work
 - A problem a major lab has just announced it is tackling
-- Whichever problem carries the most prestige among researchers
+- The problem with the most prestige among researchers
 shuffle:: true
 
 #### Question: Choice
@@ -54,36 +58,19 @@ content:: At an AI safety or effective altruism conference, which use of time us
 options::
 - [x] One-on-one meetings with people working on questions they care about
 - Attending as many talks as possible
-- Handing out CVs at organisation stalls
-- Staying with people they already know
-shuffle:: true
-
-#### Question: Choice
-id:: 2989c549-8f52-4551-9ffc-0b7286b5de3e
-content:: A newcomer to AI safety wants advice from a busy researcher they haven't met. Which message is most likely to get a reply?
-options::
-- [x] A short note on the researcher's work with one specific question
-- A long note describing their full background and career goals
-- A request for an hour-long call about getting into the field
-- A general request copied to dozens of researchers at once
-shuffle:: true
-
-#### Question: Choice
-id:: b96d3236-1730-4c34-97ae-e7252ec3d28e
-content:: Which of these is an example of "not waiting for permission" when getting into AI safety?
-options::
-- [x] Replicating a published interpretability result and posting the code
-- Holding off on research until a fellowship accepts you
-- Asking an organisation which books to read before applying
-- Starting a second degree before attempting any safety work
+- Spending most of the day at the careers fair with recruiters
+- Joining the large group socials to meet as many people as possible
 shuffle:: true
 
 #### Question: Choice
 id:: 079feb3c-38e7-47d0-b69d-b319327fc0c7
-content:: A newcomer has a rough but working write-up of an AI safety project. What does common advice in the field suggest they do?
+content:: A newcomer has a rough but working write-up of a small AI safety project. What is usually the best next step?
 options::
-- [x] Share it now and ask for feedback
-- Keep it private until it is polished
+- [x] Share it with a few people in the field and ask for feedback
+- Spend another two months polishing it before showing anyone
+- Hold it back until they can submit it to a major ML conference
+- Wait until a fellowship accepts them so a mentor can review it first
+shuffle:: true
 
 #### Question: Choice
 id:: 2766a98d-3363-4589-b15f-442fe8c8b2be
@@ -99,10 +86,10 @@ shuffle:: true
 id:: 7508a16a-d99a-4bab-91a8-8c73976510dd
 content:: Which of these is a programme that pairs newcomers with mentors for AI safety research?
 options::
-- [x] MATS (ML Alignment & Theory Scholars)
-- LessWrong
-- Metaculus
-- arXiv
+- [x] MATS
+- METR
+- Alignment Forum
+- Coefficient Giving
 shuffle:: true
 
 #### Question: Choice
@@ -110,9 +97,9 @@ id:: 00805aa8-d5f7-4559-9289-bc546e7050b1
 content:: Someone plans to master machine learning fully before trying any AI safety work. What is the main problem with this plan?
 options::
 - [x] It delays the projects and feedback that show which skills they need
-- Machine learning knowledge is rarely useful for AI safety work
-- AI safety organisations tend to avoid hiring machine learning specialists
-- Machine learning changes too slowly for the effort to pay off
+- Employers in the field only accept machine learning skills from a degree
+- Most safety organisations now hire only for non-technical roles
+- Self-taught machine learning is too shallow to be useful for safety work
 shuffle:: true
 
 #### Question: Open

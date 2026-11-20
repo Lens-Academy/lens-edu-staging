@@ -78,7 +78,7 @@ content:: If 1,000 copies of a human-level AI each think 10 times faster than a 
 #### Question: Open
 id:: 19b22821-050b-4343-ae48-c17d885e47a0
 content:: Name two advantages digital minds could have over humans that don't depend on being smarter than humans, and say briefly how each could help AI outcompete people.
-assessment-instructions:: Score out of 100. 50 for each of two advantages with a plausible effect, from: speed, copying, large numbers of copies, sharing what copies learn, no sleep or fatigue, no lifespan, easily expanded hardware or memory, easy coordination between copies. 25 for an advantage named without its effect. 0 for "smarter" or "more intelligent".
+assessment-instructions:: Score out of 100. 50 for each of two advantages with a plausible effect, such as: speed, running many copies, sharing what copies learn, no sleep or fatigue, no lifespan, easily expanded hardware or memory, easy coordination between copies. 25 for an advantage named without its effect. 0 for "smarter" or "more intelligent".
 
 #### Question: Open
 id:: b06d9d1a-23cb-40d0-b53d-509ee8a64647

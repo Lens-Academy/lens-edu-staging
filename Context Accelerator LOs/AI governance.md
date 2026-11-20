@@ -117,7 +117,7 @@ shuffle:: true
 id:: 292723fd-2658-4419-8a3b-9d2c7022941e
 content:: Why do many people argue that national AI laws alone may not be enough to manage risks from advanced AI?
 options::
-- [x] Countries fear falling behind rivals, and development can move abroad
+- [x] Countries fear falling behind rivals if they act alone
 - Courts in most countries have struck down national AI laws
 - National laws can cover AI products but not AI research
 - Most countries lack any agency able to enforce national laws
@@ -125,7 +125,7 @@ shuffle:: true
 
 #### Question: FillBlank
 id:: c291ab59-dfd2-4e4a-b7ae-bf3281f41cbe
-content:: Governing AI by controlling access to AI chips and data centers is called {{compute governance}}.
+content:: Governing AI by controlling access to AI chips and data centers is called {{compute governance|governance of compute}}.
 
 #### Question: Open
 id:: e8767d6c-de89-4fc1-8ca4-8f1a1d54c47d

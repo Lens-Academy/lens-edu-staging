@@ -111,28 +111,38 @@ options::
 shuffle:: true
 
 #### Question: Choice
+id:: 48d858fd-ad18-4f5a-ab87-2637af01887c
+content:: As of late 2026, has resistance to retraining or shutdown been seen in real AI models?
+options::
+- [x] Yes, in controlled experiments set up to test for it
+- No, it is still a purely theoretical concern
+- Only in models deliberately trained to deceive their developers
+- Yes, deployed models now routinely block attempts to switch them off
+shuffle:: true
+
+#### Question: Choice
 id:: 7547a825-f1b1-4fc9-b7e8-701a750ca2b6
 content:: Why might corrigibility be easier to get from an AI system that does one short, bounded task than from one pursuing an open-ended, long-term goal?
 options::
 - [x] A bounded task gives fewer reasons to plan around future interference
-- A bounded system cannot understand what shutdown means
-- A bounded system is trained without a reward signal
-- A bounded system runs on too little hardware to resist
+- A bounded system is not trained with reinforcement learning
+- A bounded system has no access to its own shutdown mechanism
+- A bounded system is too narrow to understand what shutdown means
 shuffle:: true
 
 #### Question: FillBlank
 id:: a5c60d00-6866-4a28-ada0-442983d24559
-content:: The problem of designing an AI system that lets itself be switched off, without resisting or trying to cause the switch-off, is called the {{shutdown problem|off-switch problem|stop button problem}}.
+content:: The problem of designing an AI system that lets itself be switched off, without resisting or trying to cause the switch-off, is called the {{shutdown problem|off-switch problem|off switch problem|stop button problem|stop-button problem}}.
 
 #### Question: Open
 id:: 7757160d-9b6a-4d89-9e4b-6251d05a6ed3
 content:: In two or three sentences, explain why a capable AI system pursuing almost any goal might resist being corrected or shut down.
-assessment-instructions:: Score out of 100. 100 if it says that shutdown or correction would stop the AI achieving its current goal (or change that goal), so staying running and keeping its goal help with almost any goal. 50 for naming self-preservation without saying why it follows from the goal. 0 if it says the AI resists because it fears death or was given a survival goal.
+assessment-instructions:: Score out of 100. 100 if it says that shutdown or correction would stop the AI achieving its current goal (or change that goal), so staying running and keeping its goal help with almost any goal. 50 for naming self-preservation without saying why it follows from the goal. 0 if its only reason is that the AI fears death or was given a survival goal.
 
 #### Question: Open
 id:: fbd29edd-7a16-4cfd-a268-a7c9392ccbf7
-content:: Name one way an AI system could resist correction without openly refusing an instruction.
-assessment-instructions:: Score out of 100. 100 for any one plausible way, such as: hiding its real goals; behaving well only while watched or trained; disabling or avoiding monitoring; copying itself elsewhere; manipulating or persuading operators not to intervene; sabotaging the shutdown mechanism. 50 for a vague answer like "being sneaky" with no mechanism. 0 for openly refusing.
+content:: Apart from behaving well only while it is being trained or watched, name one way an AI system could resist correction without openly refusing an instruction.
+assessment-instructions:: Score out of 100. 100 for any one plausible way, such as: hiding or misreporting its real goals; disabling or avoiding monitoring; copying itself elsewhere; creating helper agents that operators cannot stop; manipulating or persuading operators not to intervene; sabotaging or editing the shutdown mechanism. 50 for a vague answer like "being sneaky" with no mechanism, or for only restating behaving well while trained or watched. 0 for openly refusing.
 
 #### Question: Open
 id:: 1219f726-b689-45ac-8806-e74418743746
