@@ -52,9 +52,9 @@ Nevertheless, there is an incredible diversity of answers to the question of wha
 
 This is a natural state of affairs for any field as new as AI safety is today. Every science has gone through a pre-paradigmatic phase. A phase in which experts don't have a consensus even on what exactly the central concept of that science means. For example, today there are several quite different definitions of what AI alignment is or what counts as human values.
 
-{++{"author":"Aleksandra's AI","timestamp":1795197679047}@@![Tweet by Zachary Lipton (@zacharylipton), 22 March 2024: Alignment is now defined so broadly that all of AI, all of ML, and the entire history of technology is, and always has been, "alignment research".](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/conac-lipton-alignment-tweet.webp)
+![Tweet by Zachary Lipton (@zacharylipton), 22 March 2024: Alignment is now defined so broadly that all of AI, all of ML, and the entire history of technology is, and always has been, "alignment research".](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/conac-lipton-alignment-tweet.webp)
 
-++}To navigate this diversity of approaches and opinions, let alone try to push the boundaries of human knowledge forward, it is important to focus on understanding different ideas before deciding on the right and the wrong ones. Doing otherwise {++{"author":"Aleksandra's AI","timestamp":1795197679047}@@reduces the potential impact of one’s research and ++}risks attributing beliefs to people that they don't actually hold, making an already complicated discussion about AI's potential even more confusing.
+To navigate this diversity of approaches and opinions, let alone try to push the boundaries of human knowledge forward, it is important to focus on understanding different ideas before deciding on the right and the wrong ones. Doing otherwise reduces the potential impact of one’s research and risks attributing beliefs to people that they don't actually hold, making an already complicated discussion about AI's potential even more confusing.
 
 Much of AI safety is still pre-paradigmatic in a very practical sense. The main problem is that researchers have to choose which problems to solve and/or which approaches to develop before the field has even agreed on what exactly needs to be solved.
 
