@@ -47,10 +47,6 @@ options::
 - It was unnecessary, because alignment research was close to a solution
 shuffle:: true
 
-#### Question: FillBlank
-id:: c780f9a8-d723-4c33-9f9b-e723db16a082
-content:: The worry that chips and computing power keep piling up during a pause on AI training, so that capabilities could jump suddenly once it ends, is called a {{hardware overhang|compute overhang}}.
-
 #### Question: Choice
 id:: 270a7902-8b6d-447f-baed-e0dc5d072c65
 content:: Critics of a pause on frontier AI training worry that computing power would keep accumulating during it, so capabilities could jump when it ends. Which addition to a pause is most directly aimed at this worry?

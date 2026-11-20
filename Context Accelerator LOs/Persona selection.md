@@ -134,11 +134,6 @@ options::
 shuffle:: true
 
 #### Question: Open
-id:: 8226100c-6171-4b31-aeab-e58bd3b2a127
-content:: Name one way a user or developer could bring out a character other than a language model's default assistant persona, and say why it works.
-assessment-instructions:: Score out of 100. 100 for any one of: role-play or jailbreak prompts; very long conversations; prompts full of examples of another character; a system prompt assigning a role; further fine-tuning; prompts formatted as other kinds of documents. Full marks need a brief reason (the model continues whatever character the context or training makes likely). 50 for a valid method with no reason.
-
-#### Question: Open
 id:: dbca8c50-9259-40da-aebc-92f0c4e71cd9
 content:: A model behaves safely in every test run with its default assistant persona. On the persona selection view, why might this not show that it will behave safely once deployed?
 assessment-instructions:: Score out of 100. 100 for: deployment brings contexts (long chats, unusual prompts, jailbreaks, fine-tuning) that can bring out other characters the tests did not sample, so the tests mainly measure the default persona in tested contexts. 50 for saying tests can miss cases without linking this to personas or context.

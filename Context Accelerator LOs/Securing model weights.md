@@ -122,10 +122,6 @@ options::
 - They wait until a model is released, when security is weakest
 shuffle:: true
 
-#### Question: FillBlank
-id:: 76034821-9552-43ce-a3ba-3a6a9b73ceda
-content:: In RAND's framework for securing AI model weights, security levels run from SL1 up to SL{{5|five}}, the level meant to stop top-priority operations by the most capable nation states.
-
 #### Question: Open
 id:: 2f128c24-7d9c-4870-9053-4c98573b0682
 content:: An AI company invests heavily in safety training, output filters and usage monitoring, but its security against state hackers is weak. Explain why its safety measures might do little to reduce risk.
