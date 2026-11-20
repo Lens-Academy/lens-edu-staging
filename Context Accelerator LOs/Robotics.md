@@ -15,6 +15,10 @@ Describe what AI-driven robots can and can't do as of late 2026, why robotics ha
 An AI that can only use computers still depends on people for physical work: building chips, running power plants, repairing data centers. Capable robots would remove that dependence, let AI automate much more of the economy, and let AI systems build things, including more robots, quickly. Tracking robotics tells you how near those changes are.
 
 ## Lenses
+- [Why Do Humanoid Robots Still Struggle With the Small Stuff? (Quanta Magazine)](https://www.quantamagazine.org/why-do-humanoid-robots-still-struggle-with-the-small-stuff-20260313/): how humanoids got better (learned control, simulation, vision-language-action models), why handling force and touch is still hard, and why leading roboticists see control software, not hardware, as the bottleneck (March 2026).
+- [Where Autonomy Works: Evaluating Robot Capabilities in 2026 (Epoch AI)](https://epoch.ai/publications/where-autonomy-works-evaluating-robot-capabilities-in-2026): a task-by-task check of what robots can really do without human help: navigation is deployed, manipulation mostly works only in controlled settings, and home chores are still in the lab. Read the introduction and key takeaways and the Household section (February 2026).
+- [Fully Autonomous Robots Are Much Closer Than You Think: Sergey Levine (Dwarkesh Podcast)](https://www.dwarkesh.com/p/sergey-levine): a leading robot-learning researcher on how much less data robots have than language models, and how vision-language-action models build on pretrained vision-language models. Listen to or read 00:17:25–00:45:37 (September 2025).
+- [[../Lenses/AIF - The Industrial Explosion|The Industrial Explosion]]: why physical automation comes after cognitive automation, how AI could first direct human workers, and why robots that can build robots would matter for growth and for AI takeover. Read up to the end of "Fully autonomous robot factories" (May 2025).
 
 ## Tests
 #### Question: Choice
@@ -62,11 +66,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: a7728d25-2ab4-4f7f-a979-92bdad8e8e1b
-content:: People remotely controlling today's robot arms can do many household tasks, like loading a dishwasher. For such tasks, what does this suggest is the bigger barrier to useful home robots?
+id:: 6f4e1a27-1b26-4e17-91eb-c02ff8a71316
+content:: People remotely controlling today's robot arms can do many household tasks, like loading a dishwasher. What does this mainly show about such tasks?
 options::
-- [x] The AI software that controls the robot
-- The robot's mechanical hardware
+- [x] The hardware can physically do them, so control software is the main gap
+- The robot's AI can already do them alone, so only safety testing is left
+- Hardware cost and durability are no longer obstacles to selling home robots
+- Home robots will always need a remote human operator for them
+shuffle:: true
 
 #### Question: Choice
 id:: e71c93c5-a12f-494f-82a7-47d0243079e8
@@ -83,9 +90,9 @@ id:: 6613c592-1c2b-412d-a635-3b990c742fef
 content:: A company's warehouse robot learns a new packing task. Compared with training human workers, what is a key difference in how the skill spreads?
 options::
 - [x] The learned software can be copied to every robot of the same model
-- Each robot must be retrained from scratch by a human operator
-- Robots need more practice than humans before reaching full speed
-- The skill spreads slowly because robots cannot share their data
+- Each robot must practise the task on its own, as each worker must
+- Robots learn faster, but each robot's skill stays with that one robot
+- Robots can only do tasks that were programmed before they shipped
 shuffle:: true
 
 #### Question: Choice
@@ -110,7 +117,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: 838f92ec-bd80-42f2-8584-64cc1145f3d5
-content:: According to the International Federation of Robotics, one country installed more than half of all new industrial robots worldwide in 2024. Which country?
+content:: According to the International Federation of Robotics, one country installed nearly 60% of all new industrial robots worldwide in 2025. Which country?
 options::
 - [x] China
 - United States

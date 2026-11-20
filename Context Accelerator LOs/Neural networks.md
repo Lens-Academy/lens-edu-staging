@@ -12,9 +12,13 @@ Explain in plain terms what a neural network is, how it relates to deep learning
 ## Helpful first
 
 ## Why it matters
-As of November 2026, the leading AI systems, including chatbots such as ChatGPT and Claude, are neural networks. Their abilities come from billions of learned numbers rather than written rules, which is why developers can't simply read or edit what these systems will do, and why more data and compute keep making them more capable.
+As of November 2026, the leading AI systems, including chatbots such as ChatGPT and Claude, are neural networks. Their abilities come from billions, sometimes trillions, of learned numbers rather than written rules. That is why developers can't simply read or edit what these systems will do, and why more data and compute have kept making them more capable.
 
 ## Lenses
+- [[../Lenses/sanderson-but-what-is-a-neural-network|But what is a Neural Network?]]: what a neuron, a weight and a layer are, why layers might build edges into loops into digits, and how a simple network is just one function with 13,002 adjustable numbers; the "More Compact Notation" section and the bonus note can be skipped.
+- [Explained: Neural networks (MIT News)](https://news.mit.edu/2017/explained-neural-networks-deep-learning-0414): a short plain-language account of how neural networks are loosely modelled on the brain, what the "deep" in deep learning means, their history from the 1940s through decline and revival, and why their inner workings are hard to interpret (April 2017).
+- [Why the deep learning boom caught almost everyone by surprise (Understanding AI)](https://www.understandingai.org/p/why-the-deep-learning-boom-caught): how neural networks went from a "dusty artifact" to the core of AI once Fei-Fei Li's ImageNet data, Nvidia's GPUs and Hinton's much bigger network came together in 2012 (November 2024).
+- [Deep learning for AI (Hinton, LeCun and Bengio)](https://www.cs.toronto.edu/~hinton/absps/ACM21.pdf): three of the field's founders on learned representations versus hand-designed rules, why depth helps, and what made deep learning take off; read the first two sections, up to "Recent Advances" (July 2021). (more advanced)
 
 ## Tests
 
@@ -71,10 +75,20 @@ shuffle:: true
 id:: 41d3d59e-a40f-45b3-991e-d4c9504deb05
 content:: Why is it hard to tell what a trained neural network will do just by inspecting it?
 options::
-- [x] Its behavior is set by billions of learned, unlabeled numbers
+- [x] Its behavior is set by billions or more of learned, unlabeled numbers
 - Its code is too long for any one person to read
-- It rewrites its own code each time it runs
+- Its learned rules are stored in a code only computers can read
 - Its code is kept secret by the companies that make it
+shuffle:: true
+
+#### Question: Choice
+id:: c92187ad-07fd-4ab2-bfc3-9b56c9c65e37
+content:: A company finds that its chatbot sometimes gives harmful advice. What is the main way its developers try to fix this?
+options::
+- [x] Train it further on better examples, then test it again
+- Find and rewrite the line of code that gives that advice
+- Delete that advice from the network's list of stored answers
+- Switch off the one unit that produces that advice
 shuffle:: true
 
 #### Question: Choice
@@ -82,9 +96,9 @@ id:: 5f9de8d1-1fb9-432c-8c40-496e548a2b34
 content:: In the 2010s, neural networks overtook AI methods that relied on features hand-picked by experts. What advantage did neural networks have?
 options::
 - [x] They could learn useful features from data themselves
-- They needed far less training data
+- They came with built-in knowledge of each task
 - They were easier for people to interpret
-- They ran on cheaper hardware
+- They were guaranteed to find the best solution
 shuffle:: true
 
 #### Question: Choice

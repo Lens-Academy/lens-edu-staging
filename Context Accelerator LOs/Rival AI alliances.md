@@ -4,7 +4,7 @@ priority: low
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Describe what the US-led Pax Silica declaration and the China-led World AI Cooperation Organization (WAICO) each aim to do, and explain what their rival memberships suggest about AI governance splitting into blocs.
+Describe what the US-led Pax Silica declaration and the China-led World AI Cooperation Organization (WAICO) each aim to do, and explain what their memberships, both rival and overlapping, suggest about how far AI governance is splitting into blocs.
 
 ## Requires
 
@@ -16,6 +16,10 @@ Describe what the US-led Pax Silica declaration and the China-led World AI Coope
 Pax Silica and WAICO come up often in 2026 policy discussion. Knowing what each covers and who belongs helps you read news on chips and AI diplomacy, and judge whether a proposed international safety agreement could realistically include both the US and China.
 
 ## Lenses
+- [The State of AI Global Governance and Its Implications for the U.S.-China Summit (CSIS)](https://www.csis.org/analysis/state-ai-global-governance-and-its-implications-us-china-summit): Pax Silica and WAICO set side by side: what each does, who has joined, why Global South countries sign up with China, how middle powers like Kazakhstan hedge, and what the split means for US–China safety talks. Read "A Contest of AI Governance Architectures", "Beijing's International Offer", "The U.S. Approach", "Global Uptake: Who Is Joining What?" and "From the Bilateral Table to the Global Arena" (September 2026).
+- [China launches World AI body with Pakistan and Russia in, India out (WION)](https://www.wionews.com/world/xi-jinping-s-new-ai-bloc-china-launches-world-ai-body-with-pakistan-and-russia-in-india-out-1784480997641): news report on WAICO's signing in Shanghai: its 29 founding members, India's absence, its stated tie to the UN Charter, and analysts' views of Beijing's aims (July 2026).
+- [What Is Pax Silica? (Public Citizen)](https://www.citizen.org/article/what-is-pax-silica/): what the US-led supply-chain coalition covers (minerals, energy, chips, compute, logistics), who has signed it, and a critical view of its aims and its effects on partner countries (October 2026).
+- [Tough choices ahead as the US pushes a global AI divide (Bruegel)](https://www.bruegel.org/first-glance/tough-choices-ahead-us-pushes-global-artificial-intelligence-divide): a short argument that forcing allies to pick between US and Chinese AI may split chip ecosystems and push countries towards China's cheap open models (September 2026).
 
 ## Tests
 
@@ -40,21 +44,21 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 0dc1bee0-b8d8-43e6-ac98-b752f504d6a2
-content:: Which fact, as of November 2026, best supports the claim that AI governance is splitting into rival blocs?
+id:: 11d30bff-d7f2-4100-b2f3-cc6179108337
+content:: As of November 2026, Kazakhstan has signed both the US-led Pax Silica declaration and the China-led World AI Cooperation Organization (WAICO) agreement. What does this kind of overlap suggest about the split into AI blocs?
 options::
-- [x] The US is not a WAICO member, and China is not a Pax Silica signatory
-- Pax Silica and WAICO were both set up by UN General Assembly votes
-- WAICO members must follow export controls agreed under Pax Silica
-- Pax Silica and WAICO were founded at the same summit in Shanghai
+- [x] The blocs are real but not yet exclusive, and some countries hedge between them
+- The two groupings have agreed to align their rules, so the split has largely closed
+- The groupings cover unrelated topics, so they are not really rivals at all
+- Kazakhstan has left WAICO's founding group to join the US-led side
 shuffle:: true
 
 #### Question: Choice
-id:: 894b04cd-b8fd-4623-af0d-d7b7ffb1c1a4
-content:: Which of these countries was a founding member of the World AI Cooperation Organization (WAICO) in July 2026?
+id:: ad7d8b4f-b47a-467f-8acb-985cbd5c93fe
+content:: Which of these countries was one of the 29 founding members of the World AI Cooperation Organization (WAICO) in July 2026?
 options::
-- [x] Russia
-- United States
+- [x] Indonesia
+- India
 - Japan
 - Australia
 shuffle:: true

@@ -15,6 +15,9 @@ Describe the main schools of thought within AI safety, including catastrophist a
 Most claims about AI safety come from inside a camp, with its own beliefs about timelines, alignment difficulty and whether coordination can work. Knowing the camps lets you see which beliefs a proposal depends on, tell a careful version of a view from a naive one, and find where people really disagree.
 
 ## Lenses
+- [[../video_transcripts/far-ai-the-two-cultures-of-ai-safety-catastrophists-vs-uniformitarians-jesse-hoogland-timaeus|The Two Cultures of AI Safety]]: Jesse Hoogland (Timaeus) borrows geology's catastrophist vs uniformitarian split to map AI safety: the core crux (how discontinuous AI progress is), the research styles and communities on each side, the "pause" and "automate safety" meta-strategies, and what each camp is missing. Read from the start up to "So, where does that leave us".
+- [[../articles/katzke-ai-governance-needs-a-theory-of-victory|AI Governance Needs a Theory of Victory]]: Convergence Analysis compares three endgames: a global moratorium, an "AI leviathan" in the hands of one well-controlled actor, and defensive acceleration. For each it gives what it assumes, its risks (lock-in, coordination failure, offense outrunning defense) and why the right choice depends on timelines and alignment difficulty. Read the Overview and "Theories of victory for AI governance" (June 2024).
+- [My techno-optimism (Vitalik Buterin)](https://vitalik.eth.limo/general/2023/11/27/techno_optimism.html): the essay that named d/acc, arguing for speeding up defensive, decentralised technology and against both racing and handing control to a central AI authority. Read "d/acc: Defensive (or decentralization, or differential) acceleration", "Defense-favoring worlds help healthy and democratic governance thrive" and "So what are the paths forward for superintelligence?" (November 2023).
 
 ## Tests
 
@@ -22,7 +25,7 @@ Most claims about AI safety come from inside a camp, with its own beliefs about 
 id:: 0251c544-a42b-461f-af36-7256012c376b
 content:: In debates about how AI will go, what does a "uniformitarian" view expect?
 options::
-- [x] Change comes gradually, so society can learn and adjust as it goes
+- [x] AI progress will stay fairly continuous, without sudden large jumps
 - A sudden jump in capability could leave no time to fix mistakes
 - AI will spread evenly across countries and industries
 - AI's harms will fall on every group to the same degree
@@ -39,29 +42,32 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: b49aef85-72a9-49cf-9ee8-633ad2076633
-content:: Does a uniformitarian view of AI, which expects gradual change, imply that AI poses little risk of catastrophe?
+id:: 576d5dd5-25d7-40c7-b528-1b38e0b270df
+content:: Someone with a uniformitarian view expects AI progress to stay fairly smooth. Which concern fits that view best?
 options::
-- [x] No, a gradual path can still end in catastrophe
-- Yes, gradual change gives society time to fix problems as they arise
+- [x] Many small handovers of decisions to AI add up to a loss of human control, with no single crisis
+- A system improves itself far past human level within days
+- Safety research on today's models will tell us nothing about future ones
+- Alignment must be fully solved before the first human-level system is trained
+shuffle:: true
 
 #### Question: Choice
-id:: b6f48529-d9be-427d-9b02-92962cf7b7a0
-content:: Which of these best describes the "defense and diffusion" strategy for getting through the arrival of advanced AI?
+id:: fe173578-a2b5-40a3-8fa3-99d69997ac01
+content:: Some people argue that the most capable AI should spread widely rather than be held by one government or company, while defensive technologies such as biosecurity and cybersecurity are sped up. What is their main reason for preferring this to tight control?
 options::
-- [x] Spread capable AI widely while speeding up defensive technologies
-- Keep the most capable AI under one government or international body
-- Build one aligned superintelligence and let it secure the future
-- Halt frontier AI development through an international treaty
+- [x] Whoever alone holds the most capable AI could abuse that power, with no one able to check them
+- Wide access would slow AI progress, giving safety research more time
+- Open access lets regulators inspect each model before it is released
+- Defensive technologies can only be built with AI that everyone can use
 shuffle:: true
 
 #### Question: Choice
 id:: 4f897e37-f085-45fa-9377-1fca5524ac86
-content:: People who want the most capable AI kept under tight government control often object to the defense-and-diffusion strategy. What is their main worry about it?
+content:: Some people argue that capable AI should spread widely while defensive technologies are sped up. People who want the most capable AI kept under tight government control often object. What is their main worry?
 options::
 - [x] Small groups could use widely available AI to cause catastrophic harm
 - Spreading AI widely would slow down economic growth
-- Widely used models tend to become less capable over time
+- Spreading AI widely would raise the cost of running each model
 - Spreading AI widely would put too many jobs at risk at once
 shuffle:: true
 
@@ -86,18 +92,18 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 7d895d82-2c63-4997-9ee7-e72cd62be2b2
-content:: Which of these is a well-developed rather than a naive version of the defense-and-diffusion strategy?
+id:: f88f15d4-e188-40f3-8867-54993c6ff4e4
+content:: A plan aims to spread capable AI widely while speeding up defensive technologies. Critics worry it would hand dangerous capabilities to small groups. Which step answers that worry best?
 options::
 - [x] Strengthen defenses such as biosecurity before releasing capabilities that help attackers
-- Release each new model openly as soon as it has been trained
-- Let market competition decide which AI tools spread and which don't
-- Speed up AI progress across the board, since new technology tends to help
+- Release each new model openly as soon as it is trained, so defenders get it when attackers do
+- Let market competition decide which AI tools spread, since useful defensive tools will sell
+- Speed up AI progress across the board, so that defensive uses arrive sooner
 shuffle:: true
 
 #### Question: FillBlank
 id:: 9a761ab4-aec2-4cec-ae21-980462ee4b36
-content:: Vitalik Buterin's name for an approach that speeds up technologies favouring defense over attack, often linked to the defense and diffusion camp, is {{d/acc|defensive accelerationism|decentralized accelerationism}}.
+content:: Vitalik Buterin's name for an approach that speeds up technologies favouring defense over attack is {{d/acc|defensive accelerationism|defensive acceleration|decentralized accelerationism|decentralised accelerationism|democratic accelerationism|differential accelerationism}}.
 
 #### Question: Open
 id:: 5b0a6f69-1778-44be-bfdc-3a86d6317a36
@@ -107,9 +113,9 @@ assessment-instructions:: Score out of 100. 100 for any one of: international ra
 #### Question: Open
 id:: 7a790954-1f4e-463b-bb39-ec5ce05b1bf0
 content:: Explain how catastrophist and uniformitarian views of how AI will go differ, and give one way this difference changes which safety strategy someone favours.
-assessment-instructions:: Score out of 100. Contrast (60): catastrophists expect a sharp break, such as fast takeoff, with little chance to correct mistakes; uniformitarians expect gradual change with feedback along the way. Implication (40), any one of: catastrophists favour getting alignment right in advance, pauses or tight control; uniformitarians favour learning by iteration, adaptive rules or wide diffusion.
+assessment-instructions:: Score out of 100. Contrast (60): catastrophists expect one or more sharp breaks, such as an intelligence explosion, where lessons from earlier systems may stop applying; uniformitarians expect fairly continuous progress with feedback along the way. Implication (40), any one of: catastrophists favour getting alignment right in advance, pauses or tight control; uniformitarians favour iterative empirical work, evaluations, AI control or using trusted AI to help with safety research.
 
 #### Question: Open
 id:: 42bdac7d-ded0-4b05-bdf9-ddf6d7a78455
-content:: Pick one AI safety strategy: control by governments, handing over to aligned AI, or defense and diffusion. Name one belief it depends on that, if false, would most weaken it.
-assessment-instructions:: Score out of 100. 100 for a correct pairing, such as: control by governments needs coordination to work and control to stay accountable; handing over needs alignment solved in time by the leading developer; defense and diffusion needs defenses to keep pace with attacks. 50 if the belief is relevant but not central to the named strategy.
+content:: Pick one strategy for getting through the arrival of advanced AI: tight government control of the most capable AI, handing hard problems over to an AI the leading developer has aligned, or spreading AI widely while speeding up defensive technologies. Name one belief it depends on that, if false, would most weaken it.
+assessment-instructions:: Score out of 100. 100 for a belief central to the chosen strategy, with a word on why. Examples: government control needs governments to coordinate, internationally too, and to stay accountable; handing over needs the developer to align the AI, and check it can be trusted, before rivals overtake it; spreading AI widely needs defenses to keep pace with attacks. 50 if relevant but not central.

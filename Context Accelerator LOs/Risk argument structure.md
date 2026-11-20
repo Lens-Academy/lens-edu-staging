@@ -19,6 +19,10 @@ Lay out the main steps of the case that AI could cause an existential catastroph
 Debates about AI risk often go in circles because people attack different steps of the argument without saying so. If you can tell which step an objection targets, you can find where you actually disagree, weigh the objection fairly, and avoid treating a rebuttal of one step as a rebuttal of the whole case.
 
 ## Lenses
+- [[../Lenses/carlsmith-is-power-seeking-ai-an-existential-risk|Is Power-Seeking AI an Existential Risk?]]: Joe Carlsmith's six-step argument, each premise conditional on the ones before, and how multiplying his credences gives about 5%, with the biases of many-step estimates; read Section 1 (Introduction, to 1.1) and Section 8 (Probabilities) only (2021; his own estimate later rose above 10%).
+- [[../Lenses/Risks from power-seeking AI|Risks from power-seeking AI]]: 80,000 Hours' five-claim version of the case, then common objections ("they'll just be tools", "they won't be smarter than us", "a truly intelligent AI would be moral", "just unplug it") each answered at the claim it targets; read the opening list of claims and "What are the arguments against working on this problem?" (2026).
+- [[../Lenses/AFSRA - AGI ruin scenarios are likely (and disjunctive)|AGI ruin scenarios are likely (and disjunctive)]]: Nate Soares on why survival needs many things to go right at once, and why correlated steps can't simply be multiplied, from the pessimistic end of the debate (2022).
+- [Counterarguments to the basic AI x-risk case (AI Impacts)](https://aiimpacts.org/counterarguments-to-the-basic-ai-x-risk-case/): a critic's view, from Katja Grace. She sets out the case in three steps (goal-directed AI, bad goals, able to overpower us) and groups her objections by the step each attacks; read the outline of the basic case, then two or three counterarguments (August 2022).
 
 ## Tests
 
@@ -27,29 +31,19 @@ id:: 3b3aef25-983e-4add-9f4f-ee8790338235
 content:: An argument for AI risk is described as disjunctive. What does that mean?
 options::
 - [x] It offers several separate routes to catastrophe, any one of which is enough
-- Each of its premises must hold for the conclusion to follow
-- It relies on premises that are in tension with each other
-- It argues from historical analogies instead of from premises
-shuffle:: true
-
-#### Question: Choice
-id:: a7e2184f-1234-41e5-a650-80aad87be900
-content:: An argument for AI risk has five steps that must all hold. Someone gives each step an 80% chance and treats the steps as independent. Roughly what overall probability do they get?
-options::
-- [x] About 33%
-- About 80%
-- About 50%
-- About 4%
+- It has several steps, all of which must hold for catastrophe to follow
+- Its conclusion holds only if its steps are independent of each other
+- It describes one specific scenario in which AI causes catastrophe
 shuffle:: true
 
 #### Question: Choice
 id:: 91a564eb-e169-490a-98a1-4ed3fe245884
-content:: Critics of splitting the AI risk argument into many steps and multiplying their probabilities call this the "multiple-stage fallacy". What is their main worry?
+content:: Someone splits the case for AI risk into many steps that must all hold, gives each a moderate probability, and multiplies them to get a low overall risk. Critics call this the "multiple-stage fallacy". Which of these is one of their criticisms?
 options::
-- [x] Later steps get judged too unlikely, ignoring that earlier steps make them likelier
-- The method makes the overall risk look higher than it really is
-- Steps about future events can't be given probabilities at all
-- Risk advocates add extra steps to hide their weakest premises
+- [x] Each step should be judged assuming the earlier steps happened, which can make it much likelier
+- Each step should be judged on its own, ignoring whether the earlier steps happened
+- The method overstates the risk, since each extra step adds another chance of catastrophe
+- Steps about future events are too uncertain to be given probabilities at all
 shuffle:: true
 
 #### Question: Choice
@@ -93,21 +87,24 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 5e1af253-dc50-41e6-8d8f-c411827b3357
-content:: Suppose the objection "human-level AI is many decades away" is correct. What does it do to the case for existential risk from AI?
+id:: ec19d39d-34d1-4b41-85f7-fc47a41b4437
+content:: Forecasts of human-level AI range from a few years to several decades away. Suppose it turns out to be several decades away. What does this do to the case for existential risk from AI?
 options::
-- [x] It pushes the risk later but leaves the other steps of the argument intact
-- It shows that AI will not develop goals its developers didn't intend
-- It refutes the argument that misaligned AI would seek power
-- It shows that misuse is a larger risk than misalignment
+- [x] It leaves the goal and power-seeking steps intact, though more time could help us prepare
+- It shows the risk can safely be ignored until human-level AI is much closer
+- It mainly weakens the step that AI's goals will differ from what developers intended
+- It makes misuse, not misalignment, the main remaining route to catastrophe
 shuffle:: true
 
 #### Question: Choice
-id:: cef89111-47de-4ca3-aa6b-653c4f3baf7a
-content:: The instrumental convergence argument says agents with many different final goals would seek resources and self-preservation. In the AI risk argument, does this by itself show that an AI's goals will differ from what its developers intended?
+id:: 13d27b94-4084-47af-87e0-81b73488c5e8
+content:: The instrumental convergence argument says agents with many different final goals would seek resources and self-preservation. Which step of the case for AI risk does it mainly support?
 options::
-- [x] No
-- Yes
+- [x] That a misaligned AI would seek power and resist being shut down
+- That AI's goals will differ from what its developers intended
+- That highly capable AI will be built
+- That humans will fail to notice the problem in time
+shuffle:: true
 
 #### Question: Choice
 id:: 84317195-1e45-46a2-919a-ff96cf60e562

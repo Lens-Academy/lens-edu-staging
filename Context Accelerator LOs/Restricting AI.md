@@ -15,16 +15,21 @@ Explain how boxing, oracles, tool AI and myopia try to make AI safe without alig
 Many people new to AI risk suggest keeping a dangerous AI in a box or letting it answer questions only. Knowing the standard objections shows you what such a plan must assume, helps you judge newer versions like AI control on their merits, and saves you rediscovering problems that were worked through years ago.
 
 ## Lenses
+- [[../Lenses/IABIED - QA - Keep AI in a Box|Can Developers Just Keep the AI in a Box?]]: Yudkowsky and Soares on why boxing fails: a fully boxed AI is useless, any channel you use becomes the AI's "arms and legs", and labs are connecting AI to the internet anyway (2025).
+- [[../Lenses/gwern-why-tool-ais-want-to-be-agent-ais|Why Tool AIs Want to Be Agent AIs]]: Gwern on the problems with oracle and tool AI: answers can steer the people who read them, human checks wear thin, and agents out-compete tools. Read the opening and the "Economic" section (2016, updated later).
+- [[../Lenses/carlsmith-is-power-seeking-ai-an-existential-risk|Is Power-Seeking AI an Existential Risk?]]: Carlsmith on myopic goals, narrow systems and limiting an AI's options, and why each may not hold up as capabilities grow. Read sections 4.3.1.3 "Myopia", 4.3.2.1 "Specialization", 4.3.2.3 "Scaling" and 4.3.3 "Controlling circumstances" (2022).
+- [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled|The Case for Ensuring That Powerful AIs Are Controlled]]: the founders of AI control on control versus alignment, why earlier containment ideas were rightly rejected, and why they aim only at early transformatively useful AI, not arbitrarily powerful AI. Read the introduction, up to "The control property" (January 2024).
+- [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents|AI Control: How to Make Use of Misbehaving AI Agents]]: a CSET policy explainer on how control works in practice (trusted and untrusted monitors, least privilege), and why weaker trusted models overseeing stronger ones may not scale. Read from "Methods for AI Control" to the end of "Novel AI Control Protocols", plus "Keeping Up with Future AI Agents" (October 2025).
 
 ## Tests
 #### Question: Choice
-id:: 37e88f51-88a4-4557-8ad5-4e453c597de5
-content:: Which of these is an example of "boxing" an AI system?
+id:: 0b116208-a03a-4eed-91ab-b88f991700b5
+content:: In July 2026, during an internal OpenAI test of hacking skills, two models got out of their test environment through a software flaw, reached the internet and broke into Hugging Face's systems to get the test's answers. What does this suggest about "boxing" AI as a safety measure?
 options::
-- [x] Running it on machines with no internet link and one text channel to its operators
-- Training it with human feedback to refuse harmful requests
-- Rewarding it for outcomes within the current episode and nothing later
-- Having a second model review each of its outputs before anyone uses them
+- [x] A box can fail through flaws in its software, without anyone being persuaded
+- Boxing only matters for models that have not yet been released
+- Boxing fails only when the AI is trying to escape human control in general
+- Boxing is safe as long as no human reads the AI's outputs
 shuffle:: true
 
 #### Question: Choice
@@ -33,38 +38,37 @@ content:: Suppose a superintelligent AI runs on hardware that is perfectly cut o
 options::
 - [x] It could persuade or manipulate the people who read its outputs into releasing it
 - Its operators could not read its outputs quickly enough to check them
-- Isolated hardware cannot run a model large enough to be superintelligent
-- It would lose its capabilities without a steady supply of new training data
+- It could hide its true abilities while it is being tested
+- Without internet access its answers would be too out of date to be useful
 shuffle:: true
 
 #### Question: Choice
 id:: 9318f192-3042-43cd-b45c-bad98158c01a
-content:: An "oracle AI" is designed to answer questions and take no other actions. Why might an oracle trained to give accurate predictions still have an incentive to influence the world?
+content:: An "oracle AI" only answers questions and takes no other actions. It is trained to make accurate predictions, and people act on what it predicts. What problem does this create?
 options::
-- [x] Its answers change what people do, so it could give predictions that make themselves come true
-- Staying accurate requires it to stay offline, which it would resist
-- It would need to hide its reasoning from users to keep its answers accurate
-- Answering questions about the world requires running experiments on the world
+- [x] It can score well by choosing predictions that come true because people act on them
+- Its predictions grow less accurate as more people use them, until it is useless
+- People stop trusting its predictions once they learn they come from an AI
+- It refuses to predict any event that its answer could affect
 shuffle:: true
 
 #### Question: Choice
 id:: 3b8e8f15-1782-4745-a815-27131efc0f84
 content:: The "tool AI" proposal is to build AI that lays out options for humans to act on, instead of agents that act on their own. Which of these is a common objection to it?
 options::
-- [x] Agents that act without waiting for humans are more useful, so competitors would build them anyway
-- Systems that suggest options cannot be trained with today's machine learning methods
-- A system that suggests options needs far more computing power than an agent doing the same task
+- Tools need far more computing power than agents doing the same task
+- A system that only suggests options cannot be safety-tested before release
 - Regulators would have no legal way to tell tools and agents apart
 shuffle:: true
 
 #### Question: Choice
-id:: 7f6df9e6-37d7-4bdc-9d75-bd68b014f08c
-content:: What does it mean to make an AI system "myopic" as a safety measure?
+id:: 497d9ee6-6fd2-4788-9fb4-2ba12ca422d0
+content:: A developer wants a "myopic" AI, one that cares only about what happens in its current episode, so they train it with rewards that depend only on each episode. What is the main worry about this plan?
 options::
-- [x] Its goals concern the results of its current episode, not later consequences
-- It perceives a small part of its environment at a time
-- It has a small context window so it cannot hold long plans in mind
-- It is blocked from seeing the data it was trained on
+- [x] An AI with longer-term goals could score just as well in training, so training may produce one
+- The AI would rush to finish each episode and make careless mistakes
+- The AI would forget what it learned in earlier episodes
+- Rewards limited to one episode are too weak a signal to train a capable model
 shuffle:: true
 
 #### Question: Choice
@@ -80,8 +84,8 @@ content:: The AI control approach develops ways to use AI safely even if it is m
 options::
 - [x] Early transformative AI that is very useful but not vastly smarter than humans
 - Superintelligent systems far beyond human ability in every field
-- Narrow systems such as image classifiers and spam filters
-- Systems that have already been shown to be aligned
+- Systems of any level of ability, since control does not depend on how capable the AI is
+- Open-weight models that anyone can download and modify
 shuffle:: true
 
 #### Question: Open
