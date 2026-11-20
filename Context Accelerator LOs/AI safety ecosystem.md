@@ -15,6 +15,10 @@ Describe the main kinds of organization working on AI safety (independent resear
 Knowing who does what shows you where your skills could fit and who to contact. Without this map, newcomers often look only at the best-known AI companies and miss the smaller research groups, government roles, funders and advocacy groups that also need people.
 
 ## Lenses
+- [Field Map (AISafety.com)](https://www.aisafety.com/map): a directory of about 380 AI safety organisations with a one-line description of each. Filter by Empirical research, Governance, Funding and Advocacy, and look up METR, Redwood, FAR.AI, CAIS, Epoch, MIRI, Coefficient Giving, Encode, ControlAI and the UK and US institutes (live, checked November 2026).
+- [Should you work at a frontier AI company? (80,000 Hours)](https://80000hours.org/career-reviews/working-at-an-ai-lab/): the case for and against safety work inside AI companies, and the alternatives: government institutes, think tanks, nonprofits and academia. Read the first two sections and "Where might you work instead?" (updated 2024–25).
+- [AI Safety Institute (Wikipedia)](https://en.wikipedia.org/wiki/AI_Safety_Institute): the basic facts on government AI institutes: what they test, the international network, and the 2025 renames to the UK AI Security Institute and the US CAISI (2026).
+- [There Should Be More AI Safety Hubs (LessWrong)](https://www.lesswrong.com/posts/jXQ9hPL8RqkH5ybnt/there-should-be-more-ai-safety-hubs): where the field's people are concentrated (Berkeley and London, with spaces such as Constellation and LISA) and the costs of that concentration (July 2026).
 
 ## Tests
 
@@ -49,13 +53,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 30d1463b-7b57-4c20-8e32-c28d7f1fa098
-content:: Which of these is a safety team inside a frontier AI company?
+id:: cb84e711-d4ee-4562-acc5-a03b8717abe7
+content:: What kind of organization is the Center for AI Safety (CAIS)?
 options::
-- [x] Anthropic's Alignment Science team
-- The Center for AI Safety (CAIS)
-- The UK AI Security Institute
-- Redwood Research
+- [x] An independent nonprofit doing safety research and field-building
+- A US federal agency that tests frontier models before release
+- The safety division of a large frontier AI company
+- A UN body that coordinates international AI safety rules
 shuffle:: true
 
 #### Question: Choice
@@ -67,7 +71,7 @@ options::
 
 #### Question: Choice
 id:: 52ae7b25-ede1-46ef-853c-f7be12b1c879
-content:: What do groups such as PauseAI, ControlAI and Encode mainly do?
+content:: What do groups such as Encode, ControlAI and Americans for Responsible Innovation mainly do?
 options::
 - [x] Build public and political support for stronger rules on AI
 - Run dangerous-capability tests on models before release

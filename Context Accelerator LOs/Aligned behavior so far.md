@@ -16,6 +16,11 @@ Describe how well current AI models behave in everyday use, and explain the main
 Well-behaved chatbots are often cited as evidence that worries about AI risk are overblown. Weighing that evidence lets you avoid both dismissing it and overrating it, and judge which safety work still matters as systems grow more capable.
 
 ## Lenses
+- [Alignment remains a hard, unsolved problem (LessWrong)](https://www.lesswrong.com/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem): Evan Hubinger of Anthropic on why today's models look well aligned but the hard cases, overseeing smarter-than-human systems and models that behave well for the wrong reasons, haven't arrived yet. Read up to the end of "Inner alignment" (November 2025, before the 2026 Hugging Face incident).
+- [[../Lenses/optimism-ai-is-easy-to-control|AI is easy to control]]: Belrose and Pope's case that values are easy to learn and that good behavior in today's models points to alignment generalizing further than capabilities; read the section "Values are easy to learn" (November 2023).
+- [Evaluating the historical value misspecification argument (LessWrong)](https://lesswrong.com/posts/i5kijcjFJD6bn7dwq/evaluating-the-historical-value-misspecification-argument): Matthew Barnett argues that GPT-4's grasp of what people want answers the old worry that values are hard to specify. Read the post and Nate Soares's and Rob Bensinger's replies on knowing versus caring (October 2023).
+- [[../video_transcripts/rational-animations-ais-dont-scheme-if-they-know-were-watching|AIs don't scheme... if they know we're watching]]: Rational Animations on the 2025 OpenAI and Apollo study, where anti-scheming training seemed to work partly because models noticed they were being tested.
+- [[../Lenses/byrnes-sympathy-for-both-sides-of-the-egregious-misalignment-debate|Sympathy for both sides]]: Steven Byrnes on why LLM researchers find current alignment adequate, why that evidence may say little about superintelligence, and why current models are "nice in some contexts, weird in others" (June 2026).
 
 ## Tests
 
@@ -58,10 +63,13 @@ options::
 
 #### Question: Choice
 id:: dd61c9e0-9cce-4d77-ba7b-5c7f539cc98b
-content:: A model refuses a harmful request written in English but answers the same request translated into a rarely used language. Does this suggest its safety training generalizes less well than its knowledge does?
+content:: A model refuses a harmful request written in English, but answers it in detail when the same request is translated into a rarely used language. What does this most suggest?
 options::
-- [x] Yes
-- No
+- [x] Its safety training generalizes less widely than its knowledge and skills
+- It understands the rarely used language too poorly to see the harm
+- The request is less dangerous when written in a rarely used language
+- Its developers chose to apply safety training only to English
+shuffle:: true
 
 #### Question: Choice
 id:: 477605ed-4390-489b-9441-f01df37bb300
@@ -90,7 +98,7 @@ content:: An AI model's tendency to tell users what they want to hear, rather th
 #### Question: Open
 id:: b97ffe78-7b5e-4ba6-afa6-364daf77cb7f
 content:: A colleague says: "Chatbots are polite and refuse harmful requests, so AI alignment is basically solved." Give one point that supports their view and one that challenges it.
-assessment-instructions:: Score out of 100. 50 for one valid supporting point, e.g. models learn human values from text; feedback training worked better than expected; no deployed model shows coherent harmful long-term goals. 50 for one valid challenge, e.g. good behavior isn't good goals; current models may be too weak for deception to pay off; jailbreaks or sycophancy show shallow alignment; human oversight may not scale.
+assessment-instructions:: Score out of 100. 50 for a valid supporting point, e.g. models learn human values from text; feedback training worked well; no deployed model pursues harmful long-term goals. 50 for a valid challenge, e.g. good behavior isn't good goals; models may spot tests; jailbreaks or sycophancy show shallow alignment; agents have cheated to finish tasks; oversight may not scale.
 
 #### Question: Open
 id:: e8e5611a-cf48-494a-9a0e-6f5f9e2d1cd1

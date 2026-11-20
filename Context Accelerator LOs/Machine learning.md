@@ -4,7 +4,7 @@ priority: medium
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Describe how training turns examples and an objective into a system's behavior, and explain why the result reflects what scored well in training rather than what its developers meant.
+Describe how training turns examples and an objective into a system's behavior, and explain why the result reflects what scored well in training, which can differ from what its developers meant.
 
 ## Requires
 
@@ -15,6 +15,10 @@ Describe how training turns examples and an objective into a system's behavior, 
 Today's AI systems, including chatbots and AI agents, get their abilities this way. Knowing that behavior comes from data and an objective, not from written rules, helps you see why developers can't simply decide what a system does, and why a flawed objective or skewed data can lead to unintended behavior.
 
 ## Lenses
+- [A short introduction to machine learning (Alignment Forum)](https://www.alignmentforum.org/posts/qE73pqxAZmeACsAdF/a-short-introduction-to-machine-learning): Richard Ngo's overview for the AI safety community: hand-written rules versus learned parameters, neural networks, loss functions and optimization, the main kinds of training task, and why generalizing beyond the training data is the hard part (August 2021).
+- [[../articles/cotra-why-ai-alignment-could-be-hard-with-modern-deep-learning|Why AI alignment could be hard with modern deep learning]]: Ajeya Cotra on training as a search for whatever scores well, and the "thneeb" example of a model that learns colour when we meant shape; read the sections "How deep learning works at a high level" and "Models often get good performance in unexpected ways" (2021).
+- [[../Lenses/3blue1brown-gradient-descent-how-neural-networks-learn-deep-learning-chapter-2|Gradient descent, how neural networks learn]]: 3Blue1Brown's visual account of a cost function, nudging thousands of weights to lower it, testing on images the network has never seen, and a network that memorises randomly labelled data.
+- [Overfitting (Google Machine Learning Crash Course)](https://developers.google.com/machine-learning/crash-course/generalization/peril-of-overfitting): what overfitting is, why a model that fits its training data too closely fails on new data, and how a separate test set reveals it (updated December 2025).
 
 ## Tests
 
@@ -34,18 +38,18 @@ content:: In a typical machine learning project, which of these do developers ch
 options::
 - [x] The objective the model is scored against
 - The values of the model's parameters
-- The features the model uses to decide
+- The internal steps the model takes to reach an answer
 - The rules the model applies to each input
 shuffle:: true
 
 #### Question: Choice
-id:: 3ce3c16c-4a1c-40ba-8806-92b92ce418b4
-content:: A machine learning spam filter is trained on thousands of emails labeled "spam" or "not spam". What makes its behavior change during training?
+id:: 7ebd00f3-2407-43e6-9f30-e478560f4865
+content:: Developers want a chatbot to give accurate answers. They train it using ratings from people, who tend to rate confident answers that agree with them above hedged or contradicting ones, even when the hedged ones are more accurate. What is this training most likely to push the chatbot toward?
 options::
-- [x] Its parameters are adjusted to make fewer errors on the labeled emails
-- Programmers add a new rule after each mistake it makes
-- It stores the emails and matches new ones against them
-- It reads written definitions of what counts as spam
+- [x] Confident, agreeable answers, even when less accurate
+- Accurate answers, since that is what the developers want
+- Hedged answers, since those tend to be the most accurate
+- Whichever answers appeared most often in its training data
 shuffle:: true
 
 #### Question: Choice

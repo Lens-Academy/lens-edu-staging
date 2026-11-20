@@ -15,6 +15,9 @@ Describe what the MATS fellowship offers, who it is designed for, how its mentor
 MATS is one of the largest ways newcomers start doing AI safety research. Knowing what it offers and what it asks of fellows helps you judge whether to apply, prepare a strong research plan, and see where it fits among other routes into the field.
 
 ## Lenses
+- [MATS Winter 2027 program (MATS)](https://matsprogram.org/program/winter-2027): the official facts: 12 weeks full time in Berkeley or London, a $1,600-a-week stipend plus housing, the seven tracks including Policy & Governance, mentors from Anthropic, Google DeepMind, OpenAI, Redwood, UK AISI, RAND and others, the mid-program research plan, the 6–12 month extension and who is eligible. Read the overview and FAQ sections and skim the stream list (November 2026).
+- [MATS Winter 2023-24 Retrospective (LessWrong)](https://www.lesswrong.com/posts/Z87fSrxQb4yLXKcTk/mats-winter-2023-24-retrospective): MATS's own theory of change: mentor time is the scarce resource, so MATS takes on funding and logistics so mentors can train more people for existing safety teams, new organisations or independent work. Also covers the research plan (threat model, theory of change, project plan) and the extension. Read only Summary, Theory of Change, Mentorship, Milestone Assignments and Extension Phase. The numbers are from 2024 (May 2024).
+- [MATS 9 Retrospective & Advice (LessWrong)](https://www.lesswrong.com/posts/eFD3rozNCZKMe4rTs/mats-9-retrospective-and-advice): a recent fellow on what the program is really like: long days, working with busy mentors who are independent of MATS, research managers, weekly updates, the extension and the alumni network (May 2026).
 
 ## Tests
 
@@ -42,7 +45,7 @@ shuffle:: true
 id:: 160a3014-cf8f-49e0-bfd1-67b46b19ac60
 content:: Who typically mentors fellows in the MATS research program?
 options::
-- [x] Researchers at AI companies, safety nonprofits and government institutes
+- [x] Researchers at AI companies and AI safety organisations
 - Professors assigned by each fellow's home university
 - MATS staff who teach a shared fixed curriculum
 - Fellows who completed the previous MATS cohort
@@ -88,10 +91,10 @@ assessment-instructions:: Score out of 100. Full marks for saying it ties the pr
 id:: 7b122adf-ccc5-44ac-a70c-a59cd9ba1af8
 content:: Which of these applicants is the MATS research fellowship designed for?
 options::
-- [x] Someone ready to carry out a research project with a mentor's guidance
+- [x] Someone ready to do a mentored research project
 - Someone just starting to learn what AI risk is
 - A senior researcher looking to lead a team at an AI company
-- A student seeking course credit for machine learning classes
+- Only researchers with several published machine learning papers
 shuffle:: true
 
 #### Question: Choice

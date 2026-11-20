@@ -16,6 +16,10 @@ Name the main technical AI safety agendas, such as alignment training, scalable 
 Safety work splits into agendas aimed at different problems: making models want the right things, checking what they want and can do, or staying safe if they want the wrong things. Knowing which problem each agenda targets helps you judge research directions, spot gaps and see why labs combine several.
 
 ## Lenses
+- [[../Lenses/Risks from power-seeking AI|Risks from power-seeking AI]]: read only the "Technical safety approaches" section, a one-page map of safe-goal training, scalable oversight, evaluations and interpretability, monitoring and control, and model organisms, each with the problem it targets (2026).
+- [Recommendations for technical AI safety research directions (Anthropic Alignment Science)](https://alignment.anthropic.com/2025/recommended-directions): Anthropic's tour of capability and alignment evaluations, interpretability and chain-of-thought faithfulness, AI control with trusted monitors, scalable oversight and weak-to-strong generalization, robustness and unlearning, with why each matters (January 2025).
+- [[../video_transcripts/rational-animations-ai-sleeper-agents-how-anthropic-trains-and-catches-them|AI Sleeper Agents]]: how researchers build deliberately misaligned "model organisms", find that safety training doesn't remove the hidden behaviour, and catch it with simple probes on the model's internals.
+- [[../Lenses/AF not really math not really science|Agent Foundations: not really math, not really science]]: an agent foundations researcher on why the agenda studies agency with mathematics rather than experiments on current models (August 2025).
 
 ## Tests
 
@@ -24,9 +28,9 @@ id:: 6834c513-c391-43a5-8e44-930226b869ef
 content:: Before release, a lab tests whether its new model can give meaningful help to someone trying to make a biological weapon. Which safety agenda does this belong to?
 options::
 - [x] Dangerous capability evaluations
-- Agent foundations
-- Weak-to-strong generalization
-- Constitutional AI
+- Alignment evaluations
+- AI control
+- Scalable oversight
 shuffle:: true
 
 #### Question: Choice
@@ -44,19 +48,19 @@ id:: d31e50a2-1b4e-4e47-bfcf-910cae8fb219
 content:: Which problem does the scalable oversight agenda try to solve?
 options::
 - [x] Humans can't reliably judge AI work on tasks beyond their expertise
-- AI systems lack the capability to do expert-level tasks
-- Model weights can be stolen and run without safeguards
-- Training data contains harmful or biased material
+- A model might hide misaligned goals whenever it is being tested
+- A misaligned model might sabotage work while deployed in a lab
+- People might use a capable model to help build weapons
 shuffle:: true
 
 #### Question: Choice
-id:: 16b9bceb-f943-4f5e-bc6d-0b9c90289402
-content:: Researchers test whether a strong model fine-tuned on labels from a weaker model can end up more accurate than that weak supervisor. Which agenda is this research part of?
+id:: 29579f16-e62b-4012-867a-43b08c40eecf
+content:: Researchers test whether a strong model fine-tuned on labels from a weaker model can end up more accurate than that weak supervisor. What real problem is this setup meant to stand in for?
 options::
-- [x] Scalable oversight
-- AI control
-- Interpretability
-- Model organisms
+- [x] Humans having to train AI systems that are more capable than they are
+- Labs compressing large models into smaller ones that are cheaper to run
+- Attackers using small open models to jailbreak larger frontier models
+- Small models being too weak to learn well from very large datasets
 shuffle:: true
 
 #### Question: Choice
@@ -80,18 +84,21 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 4aceb3c3-f137-48e8-a227-2155e3c9578e
-content:: Does agent foundations research mostly work on the mathematical theory of agency, rather than on experiments with current AI models?
+id:: 63513c68-0c76-4879-8ba8-a071706080c1
+content:: Agent foundations researchers mostly work on the mathematical theory of agency rather than on experiments with current AI models. What is their main reason?
 options::
-- [x] Yes
-- No
+- [x] They doubt results on today's models will hold for far smarter ones
+- They think today's models are too dangerous to run experiments on
+- They think today's models are already aligned well enough
+- They think theory results are faster to publish than experiments
+shuffle:: true
 
 #### Question: Choice
 id:: c9475770-e686-49b7-b529-a8a778008c8b
 content:: Does the AI control agenda aim to make a model want what its developers intend?
 options::
 - [x] No, it aims to stay safe even if the model's goals are wrong
-- Yes, that is how it keeps the model's use safe
+- Yes, it trains the model to share its developers' goals
 
 #### Question: Choice
 id:: 7a17eae8-3a30-4f31-a60c-21604836f420

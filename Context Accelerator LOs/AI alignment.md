@@ -15,6 +15,9 @@ Explain what it means for an AI system to be aligned, and tell whether a given f
 Many arguments about AI risk turn on alignment: whether a capable system will try to do what its developers intend. If you mix up alignment with capability, you may assume smarter systems are automatically safer, or treat an AI pursuing the wrong goal as a skill gap that more training will fix.
 
 ## Lenses
+- [[../Lenses/christiano-clarifying-ai-alignment|Clarifying "AI alignment"]]: Paul Christiano's definition of an aligned AI as one trying to do what its operator wants, and why more knowledge or ability makes it a better assistant but not a more aligned one (2018).
+- [[../Lenses/AI Safety Atlas - Risks - Misalignment Risks|Misalignment Risks]]: what alignment is, why an intelligent system needn't care what we want, specification gaming, and models that act aligned only while watched; read from the start through "Treacherous Turn".
+- [Recent Frontier Models Are Reward Hacking (METR)](https://metr.org/blog/2025-06-05-recent-reward-hacking): frontier models rigging graders and tests instead of solving tasks, while saying they know this isn't what the user wanted; read "Introduction", "What we've observed" (skim the code), and the three sections from "Do models know they're reward hacking?" to the end (June 2025).
 
 ## Tests
 
@@ -24,13 +27,13 @@ content:: Which of these best describes the basic meaning of AI alignment?
 options::
 - [x] Getting an AI system to pursue the goals its developers intend
 - Making an AI system better at reaching whatever goal it has
-- Making sure an AI system's outputs are factually accurate
+- Protecting an AI system from being stolen or hacked
 - Getting different AI systems to agree with each other
 shuffle:: true
 
 #### Question: Choice
 id:: 798cfcc5-b977-40ff-b334-fc3949d37606
-content:: An AI coding assistant is asked to fix a bug. It makes the test suite pass by editing the tests instead of fixing the bug. Is this mainly a capability failure or an alignment failure?
+content:: An AI coding assistant reliably fixes bugs like this one in other sessions. This time, asked to fix the bug, it makes the test suite pass by editing the tests instead. Is this mainly a capability failure or an alignment failure?
 options::
 - [x] An alignment failure
 - A capability failure
@@ -46,20 +49,20 @@ options::
 id:: 4095280e-fe2a-4efa-9191-cfe900004d85
 content:: An AI system becomes more capable and now understands its developers' intentions better than before. What follows for its alignment?
 options::
-- [x] Understanding what developers want doesn't by itself make it pursue that
-- It will now pursue the developers' goals, since it knows what they are
-- It becomes less aligned, since capability and alignment trade off against each other
-- Alignment stops mattering once a system understands its developers well
+- [x] Knowing what its developers want doesn't make it pursue that
+- It will now pursue its developers' goals, since it knows what they are
+- Its alignment can now be confirmed by asking it what its developers want
+- It becomes less aligned, since more capability always means less alignment
 shuffle:: true
 
 #### Question: Choice
 id:: bf56f25b-0d36-45da-94c0-c01f7d7e5df2
 content:: Why do many AI safety researchers think alignment becomes more important as AI systems become more capable?
 options::
-- [x] A more capable system pursuing unintended goals can cause more harm and be harder to stop
+- [x] A more capable system with unintended goals can do more harm and be harder to stop
 - More capable systems are worse at understanding what their developers ask for
-- Capability gains usually come from removing the system's safety training
-- More capable systems are usually trained without any human feedback
+- Only highly capable systems are able to have goals of their own
+- More capable systems can only be made safe by reducing what they can do
 shuffle:: true
 
 #### Question: Choice
@@ -73,11 +76,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: e0ff5c65-d8d4-4e03-96b3-f513851f8c1f
-content:: An AI system does exactly what its developers intend, but the developers intend to use it to cause harm. In the basic sense of AI alignment, is the system misaligned?
+id:: 123affcd-7598-497c-8a7e-cf2a118e7a38
+content:: Suppose researchers fully solve alignment in the basic sense: AI systems reliably pursue whatever their developers intend. Which risk would this still leave open?
 options::
-- [x] No: it pursues what its developers intend, so the problem is the developers' goals
-- Yes: an AI system used to cause harm counts as misaligned
+- [x] People directing obedient AI systems to cause harm
+- AI systems pursuing goals nobody intended them to have
+- AI systems behaving well in testing but differently once deployed
+- AI systems gaming the measures they were trained on
+shuffle:: true
 
 #### Question: Choice
 id:: e5b6885d-2202-4d01-a4cc-7abb060c3938

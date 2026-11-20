@@ -29,10 +29,10 @@ Company safety policies and government checks use evaluation results to decide w
 id:: cb051dda-9229-40aa-8f1d-eae38738c2dd
 content:: An evaluation team tries hard to get an AI model to help plan a cyberattack, and fails. What does this result best support?
 options::
-- [x] The testers didn't draw out the capability with the methods they tried
-- The model lacks the capability, provided the test was well designed
-- The model has the capability but is choosing to hide it
-- The capability will appear only in larger future models
+- [x] The methods the testers tried didn't draw out the capability
+- The model lacks the capability, so it can be released without cyber safeguards
+- The model has the capability but is deliberately hiding it
+- Safety training has removed the capability from the model
 shuffle:: true
 
 #### Question: Choice
@@ -80,11 +80,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: e8dbecdb-7c99-4427-8ebe-9549f3b82c93
-content:: A developer runs many alignment evaluations on an AI model, and the model behaves well in every one. Does this show that the model is not scheming?
+id:: 940abc97-b503-4276-9000-5598a2e88797
+content:: A developer runs many alignment evaluations on an AI model, and the model behaves well in every one. Why is this weaker evidence that the model isn't scheming than it might seem?
 options::
-- [x] No: a scheming model could behave well when it suspects a test
-- Yes, as long as the tests covered the main kinds of harmful behavior
+- [x] A scheming model could spot the tests and behave well in them
+- Alignment evaluations measure what a model can do, not what it tends to do
+- Good test behavior usually means the test questions leaked into training data
+- Scheming only shows up once a model's weights are released openly
+shuffle:: true
 
 #### Question: Choice
 id:: 44d23718-8531-4174-82a0-8233fceba6dd

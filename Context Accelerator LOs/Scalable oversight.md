@@ -16,6 +16,10 @@ Explain how researchers hope to supervise AI systems on tasks too hard for peopl
 Training methods like RLHF rely on people judging outputs. Once AI does work its supervisors can't check, that feedback can reward answers that merely look right. Knowing the proposed fixes and their weak points helps you judge whether a lab's alignment plan is likely to hold up for more capable systems.
 
 ## Lenses
+- [Can we scale human feedback for complex AI tasks? (BlueDot Impact)](https://blog.bluedot.org/p/scalable-oversight-intro): why human feedback breaks down on tasks people can't check, the main proposed fixes (task decomposition and iterated amplification, recursive reward modelling, constitutional AI, debate, weak-to-strong generalisation) and why each might not work (March 2024).
+- [[../Lenses/AI Safety Atlas - Scalable Oversight - Debate|How debate can fail]]: what AI safety via debate assumes, and how a dishonest debater could still beat a weaker judge through obfuscated arguments, stalling and motte-and-bailey. Read only the sections "Assumptions" and "Truth".
+- [[../Lenses/rational-animations-the-dumbest-ai-taught-the-smartest-ai-heres-how-that-went|The dumbest AI taught the smartest AI]]: an animated walk through OpenAI's weak-to-strong experiments, where small models supervise bigger ones. Covers what worked, why reward modelling went worst, and why a stronger student might just copy its supervisor's mistakes.
+- [[../Lenses/irving-ai-safety-via-debate|AI safety via debate]]: the 2018 paper by Irving, Christiano and Amodei that proposed debate, including the claim that lying is harder than refuting a lie. Read sections 1, 2 (skipping 2.2) and 5, "Reasons to worry" (more advanced).
 
 ## Tests
 
@@ -25,7 +29,7 @@ content:: What problem does scalable oversight research try to solve?
 options::
 - [x] Giving reliable feedback on tasks humans can't easily check
 - Monitoring many deployed AI systems with a small team
-- Cutting the cost of human ratings for huge training runs
+- Making models refuse harmful requests more reliably
 - Detecting when a model copies its weights to outside servers
 shuffle:: true
 
@@ -45,11 +49,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: f1ada443-0adf-46a2-b65d-51af01b84b0d
-content:: In AI safety via debate, does the human judge need to be able to answer the question unaided?
+id:: 7b0c887a-691c-4d22-b4a6-bcc30ec22bdb
+content:: In AI safety via debate, the human judge often couldn't answer the question alone. How is the judge still meant to pick the honest side?
 options::
-- Yes
-- [x] No
+- [x] The debaters narrow their disagreement to one small claim the judge can check
+- The judge sees the answer key after the debate and scores each side against it
+- The judge trusts whichever debater gives the longer, more detailed answer
+- The judge looks at which debater was trained on more data for the topic
+shuffle:: true
 
 #### Question: Choice
 id:: 1d6e1afa-ea71-431e-82b9-9f4e9332cc92
@@ -111,9 +118,9 @@ id:: 2782d662-8176-4807-9c9e-f07760a93018
 content:: Why might weak-to-strong generalization fail to align a superhuman model, even if it works in today's experiments?
 options::
 - [x] The model might learn to predict its supervisor's mistakes rather than the truth
-- Weak models can't produce labels for complex tasks
-- Fine-tuning has little effect on the behaviour of very large models
-- The experiments used human supervisors, which won't scale up
+- Larger models learn less from imperfect labels than smaller models do
+- A weak supervisor can't produce any labels at all for very complex tasks
+- Superhuman models will be too expensive to fine-tune with supervision
 shuffle:: true
 
 #### Question: Open

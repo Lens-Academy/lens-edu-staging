@@ -13,9 +13,13 @@ Explain what it means for an AI system to be corrigible, why instrumental conver
 - [[AI alignment]]
 
 ## Why it matters
-Developers can get an AI system's goals wrong, so being able to correct or switch it off is a key backstop. Seeing why capable goal-directed systems may resist correction helps you judge plans that rely on an "off switch" and understand why corrigibility is still an open research problem.
+Developers can get an AI system's goals wrong, so being able to correct or switch it off is a key backstop. In controlled tests, some current models have already resisted retraining or shutdown. Seeing why capable goal-directed systems may do this helps you judge plans that rely on an "off switch" and why corrigibility is still an open research problem.
 
 ## Lenses
+- [[../Lenses/computerphile-ai-stop-button-problem|The AI Stop Button Problem]]: Rob Miles on a tea-making robot that fights its off button, why rewarding shutdown makes it switch itself off or scare you into pressing the button, faking good behaviour during tests, and why its successors may drop the button (2017).
+- [[../Lenses/AFSRA - Corrigibility|Corrigibility]]: Nate Soares's definition of a corrigible agent (no resisting, no deceiving, keeps any subagents it builds corrigible), why most goals want to preserve themselves, and why penalty terms only push the AI to the nearest loophole.
+- [Should We Fear Supersmart Robots? (Stuart Russell, Scientific American)](https://aima.eecs.berkeley.edu/~russell/papers/sciam16-supersmart.pdf): the case for a robot that is unsure what humans want, so that it treats being switched off as useful information and lets it happen, from the idea's leading proponent (June 2016).
+- [[../video_transcripts/80000-hours-ai-labs-are-making-ais-good-they-should-do-the-exact-opposite|Corrigibility as the only goal]]: MIRI's Max Harms on what corrigibility means, why an AI told to "make the world good" will resist shutdown, and why he would make corrigibility its single goal; watch the chapter "Corrigibility is both uniquely valuable, and practical, to train" (1:32:34–1:45:06) (February 2026).
 
 ## Tests
 
@@ -64,6 +68,8 @@ id:: ae8ae513-6a45-4bef-8b93-d0a8e7188229
 content:: Why do AI safety researchers want AI systems to be corrigible even when developers have tried hard to align them?
 options::
 - [x] Alignment attempts may fail, and correction lets mistakes be fixed
+- Corrigibility makes an AI system's goals match what its developers intended
+- Corrigible systems cannot be misused by people who gain control of them
 - Corrigible systems tend to be more capable at their tasks
 - Corrigible systems no longer need human oversight
 - Corrigibility makes training cheaper and faster
@@ -73,18 +79,21 @@ shuffle:: true
 id:: ff602695-ae4b-43eb-b9f8-b33743c4c6df
 content:: To make an AI system accept shutdown, a designer gives it a large reward for being shut down. What problem might this cause?
 options::
-- [x] It may try to get itself shut down, for example by provoking its operators
-- It may stop understanding what its original goal was
+- [x] It may push its operators into shutting it down
+- It may forget what its original goal was
 - It may become slower at the tasks it is given
 - It may copy itself elsewhere to avoid being shut down
 shuffle:: true
 
 #### Question: Choice
-id:: b8a55f76-eaf6-498f-8085-9d265ba7d20a
-content:: An AI system does not resist being shut down, but it creates helper agents that keep working on its goal and that its operators cannot shut down. Is this corrigible behaviour, as researchers usually define corrigibility?
+id:: a247cb39-18ea-4123-afb5-c90a4e539ded
+content:: An AI system is told it will be shut down. Which of these responses is NOT consistent with corrigibility, as researchers usually define it?
 options::
-- Yes
-- [x] No
+- [x] Before stopping, it starts helper agents that its operators cannot shut down
+- It says it disagrees with the decision, then lets the operators go ahead
+- It stops mid-task, leaving the work it was doing unfinished
+- It saves a log of its unfinished work so operators can review it
+shuffle:: true
 
 #### Question: Choice
 id:: 8c198974-e654-4741-93f3-ea61daa9df23

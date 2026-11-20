@@ -12,9 +12,14 @@ Explain what AI governance covers and compare its main levers, from company poli
 - [[Sources of AI catastrophe]]
 
 ## Why it matters
-Most proposals to reduce AI risk work through some governance lever. Knowing the levers lets you see which actors a proposal depends on, what it can and can't reach, and where it might fail, so you can judge proposals and choose where your own work fits.
+Many proposals to reduce AI risk work through some governance lever. Knowing the levers lets you see which actors a proposal depends on, what it can and can't reach, and where it might fail, so you can judge proposals and choose where your own work fits.
 
 ## Lenses
+- [[../Lenses/AI Safety Atlas - Governance - Governance Architectures|Governance Architectures]]: the three levels of AI governance (company, national, international), what each can reach and where each breaks down; read the opening overview, "Limitations" under Corporate Governance, and the National and International Governance sections up to "Policy Options" (2025).
+- [[../Lenses/AI Safety Atlas - Governance - Governance Problems|Governance Problems]]: why rules on specific uses fall short for general-purpose AI, and why governance aims at development inputs such as compute rather than only at deployment (2025).
+- [[../Lenses/AI Safety Atlas - Governance - Implementation|Implementation]]: how standards bodies, voluntary frameworks like NIST's, licensing and safety cases turn principles into enforceable rules; read the "AI Safety Standards" and "Ensuring Compliance" sections (2025).
+- [Tort Law Should Be the Centerpiece of AI Governance (Lawfare)](https://www.lawfaremedia.org/article/tort-law-should-be-the-centerpiece-of-ai-governance): the case for liability and mandatory insurance as the main lever, from its leading proponent, Gabriel Weil, with the limits he concedes (August 2024).
+- [Frontier AI Regulation: Managing Emerging Risks to Public Safety (arXiv)](https://arxiv.org/abs/2307.03718): the influential proposal for regulating frontier developers through standards, registration and reporting, and licensing; read the executive summary and section 1 (November 2023) (more advanced).
 
 ## Tests
 
@@ -29,18 +34,24 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 7ceabcd8-0f86-40bd-a0a4-65591f6c45c3
-content:: An AI company adopts an internal policy: it will pause training if a model passes certain dangerous-capability tests. No law requires this. Is the policy a form of AI governance?
+id:: 93abb862-1901-4788-acfc-7bf345684010
+content:: An AI company adopts a policy: it will pause training if a model passes certain dangerous-capability tests. No law requires this. What is the main weakness of this kind of governance?
 options::
-- [x] Yes
-- No
+- [x] The company can weaken or drop it if rivals race ahead
+- It covers only the models the company releases to the public
+- Such tests can only be run after a model is released
+- Regulators can overrule the policy whenever they like
+shuffle:: true
 
 #### Question: Choice
-id:: 89d1ad77-f7ca-4aec-9e1e-5a144b2c1a8e
-content:: Country A passes an AI law covering every company that sells AI products in Country A. A company trains and sells its models in Country B and nowhere else. Is the company legally bound by Country A's law?
+id:: 4858ff41-a446-4b77-9546-57c8a627dc97
+content:: The EU AI Act's rules for general-purpose AI models also cover companies based outside the EU if they offer their models in the EU. Why might these rules affect the models such a company offers in other countries too?
 options::
-- Yes
-- [x] No
+- [x] Keeping one version for all markets is often cheaper than keeping two
+- The Act's rules apply to the company's work in every country
+- Other countries' courts are required to enforce the EU's rules
+- Trade agreements require other countries to copy the EU's rules
+shuffle:: true
 
 #### Question: Choice
 id:: c969f348-cf7e-4828-a713-e2eb0bcd8b62
@@ -67,9 +78,9 @@ id:: f2e5fcd0-1563-47f8-9942-96bf2a432e9f
 content:: Why do many proposals for reducing catastrophic AI risk target the companies that train frontier models, rather than everyone who uses AI?
 options::
 - [x] Few companies train the most capable models, so rules there are easier to enforce
-- Users of AI are already covered by existing consumer protection law
-- Frontier developers asked governments to regulate them instead of their users
-- International law forbids governments from regulating individual AI users
+- Most AI users are covered by consumer law, so they need no new rules
+- AI users cannot be identified online, so no rules can reach them
+- International law forbids rules on individual users, so states must target companies
 shuffle:: true
 
 #### Question: Choice
@@ -87,8 +98,8 @@ id:: b789c032-ad98-4090-a780-06a7bc3171ec
 content:: Which of these is an example of AI governance by a non-government actor?
 options::
 - [x] An insurer refusing to cover an AI company unless it passes safety audits
-- A parliament passing a law on AI safety testing
-- A ministry setting rules for which AI tools agencies may buy
+- A national AI safety institute testing a model before its release
+- A trade ministry limiting exports of advanced AI chips to some countries
 - A regulator fining a company for selling an unsafe AI product
 shuffle:: true
 
@@ -96,10 +107,10 @@ shuffle:: true
 id:: 344607ef-4f60-4f5f-a0c3-7c9869500dc2
 content:: What role do technical standards, such as those from ISO or NIST, usually play in AI governance?
 options::
-- [x] They specify how to meet requirements, and laws or contracts can refer to them
-- They are binding laws adopted by international organizations
-- They are safety policies published by individual AI companies
-- They are treaties in which governments agree on AI safety rules
+- [x] Voluntary guidance on good practice, which laws or contracts can make required
+- Binding rules set by international bodies, which every member country must enforce
+- Safety policies that individual AI companies publish about their own models
+- Treaties in which governments agree on common safety rules for AI
 shuffle:: true
 
 #### Question: Choice

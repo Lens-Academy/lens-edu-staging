@@ -15,6 +15,10 @@ Describe what government AI safety institutes such as the UK AI Security Institu
 These institutes are the main way governments test frontier AI models themselves. Knowing what they can and can't do, and how political changes have shifted their focus, helps you judge claims that frontier AI is under government oversight and see where new powers or funding could make a difference.
 
 ## Lenses
+- [AI Safety Institute (Wikipedia)](https://en.wikipedia.org/wiki/AI_Safety_Institute): the plain facts on the UK, US and other institutes: their founding around the Bletchley summit, the 2025 renames to the AI Security Institute and CAISI, the international network, Inspect and early problems getting access to models; read the UK, US and international network sections (2026).
+- [Early lessons from evaluating frontier AI systems (UK AI Security Institute)](https://www.aisi.gov.uk/work/early-lessons-from-evaluating-frontier-ai-systems): the institute's own account of how it tests models before release, what access it needs from companies, how it reports results back to them and why a test is not a safety certificate (October 2024).
+- [Safety first? (Ada Lovelace Institute)](https://adalovelaceinstitute.org/blog/safety-first/): a critique of the voluntary model: the UK institute can't block a release, its access depends on companies agreeing, and the authors argue it needs legal powers to compel access (May 2024, before the renames).
+- [[../articles/ai-security-institute-frontier-ai-trends-report|Frontier AI Trends Report]]: what the UK AI Security Institute tests for and what it has found, from cyber and biology to loss-of-control capabilities like self-replication; read the Executive Summary through "Our testing approach" (December 2025).
 
 ## Tests
 
@@ -43,9 +47,9 @@ id:: 12005162-d364-4b0d-8769-99b9a06db99a
 content:: In June 2025 the US AI Safety Institute was renamed the Center for AI Standards and Innovation (CAISI). Which best describes its focus after the change?
 options::
 - [x] Industry standards, national security testing and US AI competitiveness
-- Binding safety licences for frontier AI developers
+- Binding safety licences, audits and penalties for frontier AI developers
 - Civil rights, bias and consumer harms from AI products
-- Funding alignment research at universities around the world
+- International AI treaties and funding for global safety research
 shuffle:: true
 
 #### Question: Choice
@@ -54,28 +58,28 @@ content:: Under the EU AI Act, what role does the European Commission's AI Offic
 options::
 - [x] Supervising and enforcing their obligations, including with fines
 - Advising member states, with no enforcement role of its own
-- Licensing every chatbot before it can be sold in the EU
-- Funding open-source models built by European companies
+- Approving each new model before it can be released in the EU
+- Testing models only when providers volunteer them
 shuffle:: true
 
 #### Question: Choice
 id:: 210d5dcd-6065-4c85-bf8b-b4ea388a25ae
-content:: In 2024 several governments formed the International Network of AI Safety Institutes. What is its main purpose?
+content:: In 2024 several governments formed the International Network of AI Safety Institutes, renamed in December 2025 the International Network for Advanced AI Measurement, Evaluation and Science. What is its main purpose?
 options::
-- [x] Sharing evaluation methods and research, and coordinating testing
+- [x] Building shared methods and science for evaluating advanced AI
 - Setting binding AI rules that member countries must adopt
 - Certifying AI models as safe across member countries
-- Pooling computing power to train a shared public model
+- Negotiating a treaty to limit frontier AI development
 shuffle:: true
 
 #### Question: Choice
-id:: 2d02c38b-77f6-46d2-9b6b-8ebeacdb46c9
-content:: The UK's AI Safety Institute released Inspect as open-source software in 2024. What is Inspect?
+id:: e4c8fdd3-d8cb-446a-af17-d2e46fa55583
+content:: When the UK or US government AI institute tests a company's model before release, what usually happens with the results?
 options::
-- [x] A framework for building and running AI model evaluations
-- A register of AI models approved for use in the UK
-- A tool for the public to report harmful AI incidents
-- A system for tracking where advanced AI chips are sold
+- [x] Most go only to the company and government, not the public
+- They are published in full alongside the model's release
+- The institute uses them to approve or block the release
+- The company must fix every problem found before release
 shuffle:: true
 
 #### Question: Choice
