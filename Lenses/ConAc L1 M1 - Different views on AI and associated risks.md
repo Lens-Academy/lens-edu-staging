@@ -134,7 +134,7 @@ collapse:: closed
 
 #### Text
 content::
-The main steps of the **dominance doctrine** argument, distilled from the paper's section on the doctrine. Where possible, we kept the authors' section headings.
+The core logic of the dominance doctrine, made of the subheadings of the paper’s section on the doctrine:
 
 - Automated AI R&D can yield an insurmountable lead in AI
 - Powerful AI can be leveraged into a decisive strategic advantage
