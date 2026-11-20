@@ -8,10 +8,16 @@ tags:
 ---
 
 #### Text
-content::
-\## Dominance doctrine
+content:: \## what examples of these points of view look like
 
-In *From AGI to Superintelligence: the Intelligence Explosion*, Leopold Aschenbrenner, a former OpenAI Superalignment researcher, argues that superintelligence could give its developers overwhelming military and economic power, making US leadership in the AI race a matter of national security.
+#### Text
+content:: \### Dominance doctrine
+
+#### Text
+content::
+In *From AGI to Superintelligence: the Intelligence Explosion* , Leopold Aschenbrenner, a former OpenAI Superalignment researcher, argues that superintelligence could give its developers overwhelming military and economic power, making US leadership in the AI race a matter of national security.
+
+
 
 #### Article
 source:: [[../articles/ahead-ii-from-agi-to-superintelligence-the-intelligence-explosion]]
@@ -27,6 +33,9 @@ to:: it will be hard for AI to do everything.
 source:: [[../articles/ahead-ii-from-agi-to-superintelligence-the-intelligence-explosion]]
 from:: In the intelligence explosion, explosive progress was
 to:: military production), we’d see an industrial explosion.
+
+#### Text
+content:: \### Extinction doctrine
 
 #### Text
 content::
@@ -52,12 +61,12 @@ from:: And this whole trap is sort of bowl-shaped
 to:: when it’s clear you should *apply* the brakes”
 
 #### Text
-content::
-\## Replacement doctrine
+content:: \### The replacement doctrine
 
-In *A guide to understanding AI as normal technology*, Princeton researchers Arvind Narayanan and Sayash Kapoor argue that AI should be understood as a powerful technology whose societal effects depend largely on how people and institutions adopt and use it.
+#### Text
+content:: In *A guide to understanding AI as normal technology*, Princeton researchers Arvind Narayanan and Sayash Kapoor argue that AI should be understood as a powerful technology whose societal effects depend largely on how people and institutions adopt and use it.
 
 #### Article
 source:: [[../articles/narayanan-a-guide-to-understanding-ai-as-normal-technology]]
 from:: There is a long causal chain between
-to:: prepare for whatever comes next.
+to:: prepare for whatever comes next.--}
