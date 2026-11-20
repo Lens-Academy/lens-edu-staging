@@ -64,4 +64,4 @@ content:: In *A guide to understanding AI as normal technology*, Princeton resea
 #### Article
 source:: [[../articles/narayanan-a-guide-to-understanding-ai-as-normal-technology]]
 from:: There is a long causal chain between
-to:: prepare for whatever comes next.--}
+to:: prepare for whatever comes next.
