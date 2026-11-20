@@ -4,16 +4,20 @@ priority: low
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Describe about ten key AI developments, from AlexNet in 2012 to today's reasoning models, say what new ability each showed, and recognise that recent progress came largely from training with more compute.
+Describe about ten key AI developments, from AlexNet in 2012 to the reasoning models and coding agents of the mid-2020s, say what new ability each showed, and recognise that recent progress came largely from training with more compute.
 
 ## Requires
 
 ## Helpful first
 
 ## Why it matters
-Arguments about AI risk often point to how quickly AI went from beating humans at Go to writing code and solving olympiad maths problems. Knowing these milestones lets you judge such claims of rapid progress, and seeing that more compute drove much of it helps you reason about where progress could go next.
+Arguments about AI risk often point to how quickly AI went from beating humans at Go to winning olympiad maths gold and, by 2026, proving new maths results and writing much of AI companies' code. Knowing these milestones lets you judge claims of rapid progress, and seeing that more compute drove much of it helps you reason about what comes next.
 
 ## Lenses
+- [[../Lenses/AI Safety Atlas - Capabilities - Current Capabilities|What AI can do today]]: AlphaGo's Move 37, MuZero learning without human data, the first reasoning model (o1), 2025 IMO gold and AlphaFold's Nobel; read the sections Games, Text Generation and Reasoning and Research (late 2025).
+- [Why the deep learning boom caught almost everyone by surprise (Understanding AI)](https://www.understandingai.org/p/why-the-deep-learning-boom-caught): how ImageNet, Nvidia's GPUs and a much bigger neural network came together in AlexNet's 2012 win (November 2024).
+- [When will AGI arrive? (80,000 Hours)](https://80000hours.org/agi/guide/when-will-agi-arrive/): what drove progress from GPT-2 to today: more pretraining compute, human feedback for chatbots, reasoning models trained with reinforcement learning, and longer thinking; read Section I, "What's driven recent AI progress?" (updated October 2026).
+- [The Bitter Lesson (Rich Sutton)](http://www.incompleteideas.net/IncIdeas/BitterLesson.html): the classic short essay arguing that 70 years of AI show general methods using more computation beat hand-built human knowledge (March 2019).
 
 ## Tests
 #### Question: Choice
@@ -21,7 +25,7 @@ id:: 0ac8c0e8-82d2-4a08-b303-51dc1e9f9965
 content:: In 2012 the neural network AlexNet won the ImageNet image-recognition competition. Why is this seen as a milestone?
 options::
 - [x] Deep neural networks trained on GPUs clearly beat other methods
-- It was the first computer to beat a world chess champion
+- It was the first time a neural network had been used on images
 - It was the first program to hold a convincing conversation
 - It showed hand-designed image features beat learned ones
 shuffle:: true
@@ -38,8 +42,8 @@ shuffle:: true
 
 #### Question: Open
 id:: 720e6d5c-89e0-4036-9bb7-ace782ece754
-content:: DeepMind's AlphaZero became stronger than any human at chess within a day of training. What does the way it was trained suggest about whether AI ability is capped at human level?
-assessment-instructions:: Score out of 100. 100: it learned from self-play with no human games, so human knowledge was not a ceiling; a system that can generate its own training signal can pass the best humans, and quickly. 50: says AI can exceed humans but doesn't connect this to training without human data. 0: says AI is limited to human level.
+content:: DeepMind's AlphaZero became stronger than any human at chess within hours of training. What does the way it was trained suggest about whether AI ability is capped at human level?
+assessment-instructions:: Score out of 100. 100: it learned from self-play with no human games, so human knowledge was not a ceiling; a system that can generate its own training signal can pass the best humans, and quickly. Credit noting this is easiest where results can be checked automatically, as in games. 50: says AI can exceed humans but doesn't connect this to training without human data. 0: says AI is limited to human level.
 
 #### Question: Choice
 id:: b32181e4-eb86-47aa-b2e0-283775db22b3

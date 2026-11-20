@@ -54,7 +54,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: 5aaf8f79-dc20-411c-92b8-ffdcee78c370
-content:: If AI models become able to speed up AI research a lot, why might AI companies keep their best models internal for longer?
+content:: AI models are starting to speed up AI research at some companies. As this grows, why might AI companies keep their best models internal for longer?
 options::
 - [x] Using them for the company's own research may be worth more than selling access
 - Serving a model to the public is becoming costlier than training it
@@ -69,7 +69,7 @@ options::
 - [x] Scrutiny from many outside users and researchers who might spot problems
 - Measurement of the model's scores on standard benchmarks
 - Training the model to follow the company's instructions
-- Review of the model by the company's own safety team
+- Testing whether the model is useful for the company's own work
 shuffle:: true
 
 #### Question: Choice

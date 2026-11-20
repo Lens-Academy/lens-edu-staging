@@ -102,11 +102,11 @@ assessment-instructions:: Score out of 100. Advantage, any one: more legitimacy;
 
 #### Question: Choice
 id:: fa6cac5f-7478-4570-a37d-4a0566f0e449
-content:: After the first AI Safety Summit in November 2023, the UK, the US and several other governments set up AI Safety Institutes. What is the main job of these institutes?
+content:: After the first AI Safety Summit in November 2023, the UK, the US and several other governments set up AI Safety Institutes. Several were renamed in 2025: the UK's became the AI Security Institute and the US's the Center for AI Standards and Innovation. What is the main job of these institutes?
 options::
 - [x] Testing advanced AI models and researching their risks
 - Issuing the licences companies need to train large models
-- Prosecuting companies that release unsafe AI models
+- Writing binding safety standards that AI companies must meet before release
 - Funding national AI companies to compete with rivals
 shuffle:: true
 

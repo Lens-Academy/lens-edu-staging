@@ -16,6 +16,10 @@ Explain what a large language model is and what it does when it generates text, 
 As of November 2026, the most capable AI systems, including the chatbots and agents that AI risk discussions focus on, are built on LLMs. Knowing how they work at a basic level helps you judge claims about what they can and can't do, and read later material on training, agents and alignment without being misled by the chat interface.
 
 ## Lenses
+- [[../video_transcripts/3blue1brown-large-language-models-explained-briefly|Large Language Models Explained Briefly]]: what an LLM computes (a probability for every possible next word), how a chatbot generates a reply word by word with some randomness, and how pretraining and human-feedback training set its billions of weights.
+- [How I use LLMs (Andrej Karpathy, YouTube)](https://www.youtube.com/watch?v=EWvNQjAaOHw): watch 2:54–18:03. Tokens, the context window as the model's working memory, the chat format, pretraining as a lossy compression of the internet, post-training into an assistant, and why a new chat starts from a blank context (February 2025).
+- [Large language models, explained with a minimum of math and jargon (Understanding AI)](https://www.understandingai.org/p/large-language-models-explained-with): read only the last two sections, "How language models are trained" and "The surprising performance of GPT-3". These cover how training on raw text needs no labels, and how scaling from GPT-1 to GPT-3 kept adding broad abilities (July 2023).
+- [[../Lenses/3blue1brown-transformers-the-tech-behind-llms-deep-learning-chapter-5|Transformers, the Tech Behind LLMs]]: a visual walk through tokens, embeddings, attention and sampling inside a GPT-style model, including context size. (more advanced)
 
 ## Tests
 
@@ -35,7 +39,7 @@ content:: Large language models read and write text as a sequence of small units
 
 #### Question: Choice
 id:: e3ee084d-30a4-498c-898d-28e20fa0e24f
-content:: When an LLM chatbot writes a long answer, how is the text produced?
+content:: When a typical LLM chatbot writes a long answer, how is the text produced?
 options::
 - [x] One small piece at a time, each piece fed back in to help pick the next
 - All at once in a single pass, then shown gradually for display
@@ -71,20 +75,23 @@ options::
 - [x] No
 
 #### Question: Choice
-id:: 7a1d83c6-e563-45b0-b982-6f773d9e3ba1
-content:: You send an LLM chatbot the exact same prompt in two fresh conversations, with no memory features turned on. Can the two replies be different?
+id:: 793a03d0-469b-484d-ab8d-d83a341044b3
+content:: You send an LLM chatbot the exact same prompt in two fresh conversations, with no memory features turned on, and get two different replies. What is the main reason?
 options::
-- [x] Yes
-- No
+- [x] Each next piece of text is picked at random from the likely options, so the same prompt can lead to different replies
+- The model learned from the first conversation and changed its weights before the second one
+- The model can see the first conversation and avoids repeating itself
+- The developers program the chatbot to rephrase its answer whenever a question is asked a second time
+shuffle:: true
 
 #### Question: Choice
 id:: f8e3b8ba-e88c-4635-9c22-aa8f71154f3c
 content:: Which development best explains why LLMs became the leading route toward general-purpose AI between about 2018 and 2023?
 options::
 - [x] Training the same kind of model with more data and compute kept improving its broad abilities
-- Researchers hand-coded grammar and world knowledge into each new model
-- Each new model combined many specialized systems, one built for each task
-- Chatbots began running a web search for every answer they gave
+- Researchers hand-coded more grammar rules and world knowledge into each new model they built
+- Each new model joined together many specialized systems, with a separate one trained for each task
+- A new kind of model design replaced the earlier one every year, each built from scratch for language
 shuffle:: true
 
 #### Question: Choice

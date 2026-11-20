@@ -16,6 +16,11 @@ Describe the arguments that there is a lot of room for intelligence above human 
 Many doubts about AI risk rest on the idea that a superintelligence couldn't do much more than clever humans. If you can separate how smart a mind could be from what smartness alone can achieve, you can tell which version of the doubt someone holds and answer it fairly.
 
 ## Lenses
+- [[../articles/Amodei-machines-of-loving-grace|Machines of Loving Grace: the marginal returns to intelligence]]: Dario Amodei on why superintelligence is neither magic nor useless, and the limits that hold it back (slow experiments, missing data, chaos, human rules, physics) and how intelligence routes around them over time; read only the section "Basic assumptions and framework" (October 2024).
+- [[../Lenses/More advantages for digital agents|Sources of advantage for digital agents]]: Nick Bostrom's list of ways digital minds can outstrip brains: neuron and chip speeds, signal speed, brain size, working memory, copying (2014).
+- [The Myth of a Superhuman AI (Kevin Kelly, The Technium)](https://kk.org/thetechnium/the-myth-of-a-superhuman-ai/): the skeptic's case, from Wired's founding editor: intelligence isn't one dimension, it may have limits not far above ours, and "thinkism" ignores that progress needs slow experiments (April 2017).
+- [[../Lenses/IABIED - QA - Limited by Experiments|Won't AIs be limited by experiments?]]: Yudkowsky and Soares reply that a smarter mind can design faster and more informative experiments, run many in parallel, and get more from data it already has.
+- [Superintelligence Is Not Omniscience (AI Impacts)](https://aiimpacts.org/superintelligence-is-not-omniscience/): how chaos puts a ceiling on prediction, as with weather beyond about ten days, that no amount of intelligence can lift, and what a superintelligence could still do (April 2023).
 
 ## Tests
 
@@ -30,11 +35,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: b6a84d61-85b3-4bf4-9b15-0c1847c4f968
-content:: Do known physical limits on computation, such as those set by energy use and the speed of light, sit close to what the human brain achieves?
+id:: b00430b2-4867-422e-aaf9-97cd04ea4f33
+content:: Some researchers argue that the brain is close to the physical limit on how much computing can be done with a given amount of energy. Even if so, why could machines still far exceed the brain's computing power?
 options::
-- Yes
-- [x] No
+- [x] Machines can use far more energy and space, and send signals far faster
+- Machines avoid the limit by using digital rather than chemical signals
+- Physical limits on computing apply only to living things
+- The limit applies only to storing data, not to calculating
+shuffle:: true
 
 #### Question: Choice
 id:: a76a14cb-2020-4795-9681-f3ad742fbf82
@@ -48,9 +56,9 @@ id:: 69cf495c-c890-47b9-9bc9-01cf7810afcb
 content:: Someone argues: "Every task has a maximum possible level of performance, so a superintelligence can't be much more capable than humans." What is the main gap in this argument?
 options::
 - [x] It doesn't show that humans are close to those maximums
-- Some tasks have no maximum level of performance
-- Maximum performance can be measured only for games
-- A superintelligence could exceed the maximum on most tasks
+- It doesn't say how a superintelligence would be built
+- It assumes a superintelligence would want to use its abilities
+- It doesn't say when a superintelligence might arrive
 shuffle:: true
 
 #### Question: Choice
@@ -65,10 +73,10 @@ shuffle:: true
 
 #### Question: Choice
 id:: 56e741e8-8d4d-4151-9117-029ddaa9b060
-content:: Weather forecasts lose their skill after a couple of weeks, because small errors in measuring today's weather grow exponentially. What does this example show about limits to intelligence?
+content:: Even in principle, weather forecasts can't stay skilful much beyond about two weeks, because small errors in measuring today's weather grow exponentially. What does this example show about limits to intelligence?
 options::
 - [x] Some limits on prediction come from the world, not the predictor
-- Forecasts will keep improving as models become more intelligent
+- A smart enough model could predict the weather exactly
 - Weather follows no physical laws that a model could learn
 - Forecasters have not yet used enough computing power
 shuffle:: true

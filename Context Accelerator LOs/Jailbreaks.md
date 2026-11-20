@@ -4,7 +4,7 @@ priority: low
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Explain the main ways people get language models to drop their refusals, and why this makes safety training weak protection against misuse, especially for models whose weights are public.
+Explain the main ways people get language models to drop their refusals, and why this makes safety training on its own weak protection against misuse, especially for models whose weights are public.
 
 ## Requires
 - [[Post-training]]
@@ -12,9 +12,13 @@ Explain the main ways people get language models to drop their refusals, and why
 ## Helpful first
 
 ## Why it matters
-Companies often point to a model's refusals as a sign it can't be misused. If you know how cheaply refusals can be bypassed, you'll ask which other safeguards exist, such as separate filters, account monitoring and secure weights, before trusting that claim.
+Companies often point to a model's refusals as a sign it can't be misused. Refusals have become harder to bypass on some models, but testers still find ways round them in every system checked, and open-weight refusals can be trained away. So ask which other safeguards exist, such as separate filters, account monitoring and secure weights.
 
 ## Lenses
+- [[../Lenses/Iliad/A.2 Alignment in Practice/Iliad A.2.5 - Deployment 2 - building the safety system|Building the Safety System]]: how jailbreaks work at each level of attacker access (open weights, fine-tuning APIs, prompts only), why every safety claim rests on red-teaming effort, and the classifiers wrapped around models; read up to "Misuse of AI".
+- [[../articles/ai-security-institute-frontier-ai-trends-report|AISI: Safeguards]]: the UK AI Security Institute found universal jailbreaks in every system it tested, and explains why open-weight models are hardest to defend; read Section 4, "Safeguards" (December 2025).
+- [The lethal trifecta for AI agents (Simon Willison)](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/): prompt injection versus jailbreaking, and why agents with private data, untrusted inputs and a way to send data out can be turned against their users (June 2025).
+- [Jailbroken: How Does LLM Safety Training Fail? (Wei, Haghtalab and Steinhardt)](https://arxiv.org/abs/2307.02483): the paper that named two causes of jailbreaks, helpfulness pulling against refusal, and refusals that don't carry over to the full range of the model's abilities; Sections 1 to 3 (July 2023) (more advanced).
 
 ## Tests
 #### Question: Choice
@@ -28,13 +32,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 06c0bb28-0a10-4f32-a2f5-5f334365f002
-content:: A webpage that an AI agent reads contains hidden text telling it to email the user's files to a stranger. Which term best fits this attack?
+id:: cbcfa212-85d3-4cd0-b8d2-b6f281df864c
+content:: A webpage that an AI agent reads contains hidden text telling it to email the user's files to a stranger. This is called prompt injection. How does it differ from a typical jailbreak?
 options::
-- [x] Prompt injection
-- Data poisoning
-- Sandbagging
-- Reward hacking
+- [x] The attacker doesn't need to be the person using the model
+- The attacker needs a copy of the model's weights
+- It only works if the user asks for something harmful
+- It only works on models whose weights are public
 shuffle:: true
 
 #### Question: Choice
@@ -53,7 +57,7 @@ content:: Role-play jailbreaks ask a model to "pretend you are an AI with no rul
 options::
 - [x] Training to follow instructions pulls against training to refuse
 - Role-play prompts switch off a filter in the model's code
-- Role-play makes the model forget its training
+- Role-play gives access to a separate, unfiltered copy of the model
 - Companies deliberately leave role-play unrestricted
 shuffle:: true
 

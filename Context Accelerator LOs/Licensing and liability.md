@@ -11,9 +11,13 @@ Explain how licensing and liability would each govern frontier AI developers, wh
 ## Helpful first
 
 ## Why it matters
-Licensing and liability come up often in debates about AI law. Knowing how each works and where each breaks down lets you judge proposals such as California's SB 1047 and notice when a policy would leave the largest risks uncovered.
+Licensing and liability come up often in debates about AI law. Knowing how each works and where each breaks down helps you judge proposals, from California's vetoed SB 1047 to current US plans to override state AI laws, and notice when a policy would leave the largest risks uncovered.
 
 ## Lenses
+- [Your AI Breaks It? You Buy It (Noema)](https://www.noemamag.com/your-ai-breaks-it-you-buy-it/): the case for strict liability on frontier AI developers, why ordinary damages can't deter a catastrophe, punitive damages for near misses, and the hard cases of open-weight models and SB 1047, from the field's leading proponent of liability (September 2024).
+- [Licensing Frontier AI Development: Legal Considerations and Best Practices (Lawfare)](https://www.lawfaremedia.org/article/licensing-frontier-ai-development-legal-considerations-and-best-practices): what a licensing regime covering hardware, training and deployment would require (security, dangerous-capability evaluations, red-teaming, monitoring), which agency might run it, and how it could lock in a few big companies (January 2024).
+- [Tort Law Should Be the Centerpiece of AI Governance (Lawfare)](https://www.lawfaremedia.org/article/tort-law-should-be-the-centerpiece-of-ai-governance): Weil's side of a live debate over whether liability should lead or only fill gaps, with why liability beats prescriptive rules, mandatory liability insurance, and the limits of liability (August 2024).
+- [An FDA for AI? Pitfalls and Plausibility of Approval Regulation for Frontier AI (arXiv)](https://arxiv.org/html/2408.00821v1): two Harvard scholars test the FDA analogy and find where AI strains it: what counts as the regulated product, hard-to-measure risks, open weights and enforcement; read sections 2–4 (August 2024) (more advanced).
 
 ## Tests
 
@@ -38,8 +42,8 @@ content:: Which is a key advantage of liability over licensing for governing AI?
 options::
 - [x] Regulators needn't spell out safe practices in advance
 - It stops harms before they happen
-- It works without courts or lawsuits
-- It is limited to models above a compute threshold
+- It gives developers clear rules to follow before release
+- It lets regulators inspect models before release
 shuffle:: true
 
 #### Question: Choice
@@ -47,14 +51,14 @@ id:: 56e84058-1507-4f34-bd77-0a5ca19576a4
 content:: Why is ordinary liability a weak defense against an AI catastrophe that kills most of humanity?
 options::
 - [x] Damages would be unpayable, and few would be left to sue
-- Courts don't hear cases involving software
-- Liability law bans damages above a fixed cap
-- Developers can only be sued by governments
+- Juries rarely blame companies for software failures
+- Liability covers only harm to property, not to people
+- Courts would need years to agree on who was at fault
 shuffle:: true
 
 #### Question: Open
 id:: 9fcd3153-c793-4680-bbf4-01f37d8876b3
-content:: Some liability proposals for AI add extra (punitive) damages when an AI causes a limited harm that could easily have been catastrophic. What problem is this meant to solve?
+content:: One proposal for AI liability, from legal scholar Gabriel Weil, adds extra (punitive) damages when an AI causes a limited harm that could easily have been catastrophic. What problem is this meant to solve?
 assessment-instructions:: Score out of 100. 100: the catastrophic harm itself couldn't be compensated afterward (too large, or nobody left to sue), so the incentive to avoid it must come through smaller cases that show the risk. 50 for "to deter developers" without explaining why ordinary damages fall short.
 
 #### Question: Choice

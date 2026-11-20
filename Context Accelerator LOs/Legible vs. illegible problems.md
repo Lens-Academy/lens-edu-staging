@@ -4,7 +4,7 @@ priority: medium
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Distinguish legible AI safety problems, which decision-makers readily see and reward progress on, from illegible ones that matter but are hard to see or measure, and explain why work drifts toward the legible ones and what that means for deployment.
+Distinguish legible AI safety problems, which decision-makers see and reward progress on, from illegible ones that matter but are hard to see or measure; explain why work drifts toward legible problems, and why solving them might mainly speed up deployment.
 
 ## Requires
 
@@ -15,6 +15,10 @@ Distinguish legible AI safety problems, which decision-makers readily see and re
 Counting papers, benchmarks or researchers can make AI safety look well in hand while hard-to-measure problems get little attention. If you can spot this gap, you can judge safety plans by which problems they address, and see why explaining a neglected problem to decision-makers can matter as much as research on it.
 
 ## Lenses
+- [Legible vs. Illegible AI Safety Problems (LessWrong)](https://www.lesswrong.com/posts/PMc65HgRFvBimEpmJ/legible-vs-illegible-ai-safety-problems): Wei Dai's short original post. It covers what makes a problem legible to leaders and policymakers, why solving legible problems may mainly speed up deployment, and why making a problem legible is nearly as good as solving it (Nov 2025).
+- [Problems I've Tried to Legibilize (LessWrong)](https://www.lesswrong.com/posts/7XGdkATAvCTvn4FGu/problems-i-ve-tried-to-legibilize): Wei Dai's follow-up listing the illegible problems he has worked on, such as AI philosophical competence, human-AI safety and power concentration. Skim it for what illegible problems look like (Nov 2025).
+- [Legible AI Safety Problems That Don't Gate Deployment (The Inchpin)](https://inchpin.substack.com/p/legible-ai-safety-problems-that-dont): Linch's response. It uses RLHF as an example of a legible fix that sped deployment. It also argues that some legible harms, like AI psychosis, don't stop deployment, and that leaders may be motivated not to see some problems (Nov 2025).
+- [The Field of AI Alignment: A Postmortem, and What To Do About It (LessWrong)](https://www.lesswrong.com/posts/nwpyhyagpPYDn4dAW/the-field-of-ai-alignment-a-postmortem-and-what-to-do-about): John Wentworth's view, contested by many, of why safety research "streetlights": funders and feedback select for visible progress, and researchers flinch away from hard problems. Read the opening and "Why The Streetlighting?" (Dec 2024).
 
 ## Tests
 
@@ -73,8 +77,8 @@ shuffle:: true
 id:: b39cf469-11e1-4a3e-b531-30616a9a6eaa
 content:: One argument says solving legible safety problems mainly speeds up AI deployment, because leaders won't deploy until those problems are solved. Suppose a harm is widely understood, yet companies deploy despite it. On that argument's own logic, does solving this harm mainly speed up deployment?
 options::
-- [x] No, because the harm was not holding deployment back
-- Yes, because any solved legible problem speeds up deployment
+- [x] No, because the harm was not what was holding deployment back
+- Yes, because a widely understood harm counts as a legible problem
 
 #### Question: Choice
 id:: 091d5e93-b55a-4c88-824e-ef78cc2eddbd
