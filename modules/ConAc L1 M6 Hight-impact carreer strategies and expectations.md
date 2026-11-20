@@ -1,7 +1,7 @@
 ---
 id: 'fa6a33ae-339a-4702-bb08-544dc4590316'
 slug: conac-m6-ways-to-get-involved
-title: "Module 6: Ways to get involved"
+title: "Level 1: Ways to get involved"
 tags:
   - wip
 ---
