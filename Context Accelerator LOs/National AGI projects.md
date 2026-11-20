@@ -15,6 +15,10 @@ Describe the main proposals for government-led and international AGI projects, a
 Proposals for governments to build AGI themselves come up repeatedly in US policy debate. Knowing how such a project would change security, racing and who holds power lets you judge whether a given proposal would raise or lower existential risk, rather than reacting to its slogan.
 
 ## Lenses
+- [[../Lenses/wildeford-should-the-us-do-a-manhattan-project-for-agi|Should the US Do a Manhattan Project for AGI?]]: IAPS researchers on who has called for a government AGI project, what forms it would likely take, how likely forecasters think it is, and why it could worsen the race with China and concentrate power (November 2025).
+- [IV. The Project (Situational Awareness)](https://situational-awareness.ai/the-project/): Leopold Aschenbrenner's case that the US national security state will run AGI development by about 2027–28, and why he thinks it should, on security, chain of command and safety; advocacy from the leading proponent (June 2024).
+- [Should There Be Just One Western AGI Project? (Forethought)](https://www.forethought.org/research/should-there-be-just-one-western-agi-project): Tom Davidson and Rose Hadshar weigh centralisation for racing, time for safety, infosecurity and power concentration; read the summary table, "Power concentration" and "What is the best path forward?" (December 2024, updated March 2025).
+- [We Can Prevent AI Disaster Like We Prevented Nuclear Catastrophe (TIME)](https://time.com/6314045/prevent-ai-disaster-nuclear-catastrophe/): Andrea Miotti proposes MAGIC, one international lab that would be the only place allowed to build AGI, with a ban on frontier development outside it; a proponent's short op-ed (September 2023).
 
 ## Tests
 
@@ -33,29 +37,29 @@ id:: f8ecbfe6-4768-4a95-a390-1fe8d73b2d8e
 content:: Which best describes the Stargate project announced at the White House in January 2025?
 options::
 - [x] A private venture led by AI and tech companies to build data centres
-- A US government AGI lab run by the Department of Energy
+- A classified Pentagon programme to build AGI
 - An international AI research body modelled on CERN
 - A joint US and Chinese research programme on AI safety
 shuffle:: true
 
 #### Question: Choice
-id:: 809f6772-c8b3-419a-8cb2-404228a3beae
-content:: In his 2024 essay series "Situational Awareness", Leopold Aschenbrenner made a prediction about a US government AGI effort he called "The Project". What did he predict?
+id:: 84002667-f66c-4b67-ab1b-2e7b96805067
+content:: Some analysts, such as Leopold Aschenbrenner in "Situational Awareness" (2024), expect the US government to take over AGI development as AI nears AGI. What is the main reason they give?
 options::
-- [x] National security concerns would lead the US government to run AGI development by around 2027–28
-- AI companies would refuse to cooperate, so the government would abandon AGI work
-- The US and China would agree to build AGI together under a treaty
-- The government would fund AGI research but require it to be open-source
+- [x] Once AI looks decisive for military power, security officials will not leave it to private companies
+- Private AI companies will run out of investor money and ask the government to buy them
+- An international treaty will ban private companies from training frontier models
+- Voters will demand that AI companies be taken into public ownership
 shuffle:: true
 
 #### Question: Choice
-id:: 416a423d-bab4-4f3f-95e1-14a0cc2bdab0
-content:: Supporters of a government-led AGI project argue it would make model weights harder for rival states to steal. Which feature of such a project supports this claim?
+id:: ef757c99-f5e0-4cda-940f-9ce4e47e347c
+content:: Supporters of a government-led AGI project argue it could better stop rival states from stealing model weights. Why does preventing such theft matter for AI safety, on their view?
 options::
-- [x] Security clearances, guarded facilities and classified handling of research
-- Publishing model weights so outside experts can check them
-- Spreading training runs across many private companies
-- Funding the project through international contributions
+- [x] A stolen model hands rivals the leader's progress, erasing a lead that could be spent on safety work
+- Stolen weights would reveal the private data used in training, breaking privacy laws
+- Rivals could use stolen weights to prove in court that the project broke treaties
+- Theft would waste public money, leaving less funding for safety research
 shuffle:: true
 
 #### Question: Choice
@@ -64,8 +68,8 @@ content:: Some supporters argue that merging US frontier AI work into one govern
 options::
 - [x] With no domestic rival, the project faces less pressure to deploy before safety work is done
 - A single project could hire more researchers than all the companies together
-- Government projects are not allowed to train models above a set size
-- One project would let foreign rivals see and copy its safety methods
+- Government researchers are paid less, so they have less reason to rush
+- A government project would not need to make a profit, so it could skip commercial products
 shuffle:: true
 
 #### Question: Choice
@@ -82,9 +86,8 @@ shuffle:: true
 id:: 3c7c0505-94df-42cf-af91-51d7474360f9
 content:: Critics of a single national AGI project raise concerns about concentration of power. What is the specific worry?
 options::
-- [x] A small group of officials could control systems powerful enough to escape normal checks and balances
-- Many small AI firms would gain powerful models and become harder to regulate
-- Voters would have too much say over technical decisions about AI training
+- [x] A few officials could use the systems to escape normal checks and balances
+- The largest tech companies would gain a legal monopoly on AI chips
 - Power over AI would shift from national governments to international bodies
 shuffle:: true
 
@@ -95,7 +98,7 @@ options::
 - [x] Without it, outside developers could keep racing, so the joint project would not end the race
 - Without it, member countries could not share the cost of building data centres
 - The ban lets member countries keep their own frontier work secret from the consortium
-- The ban is needed so that model weights can be published openly
+- The ban stops the consortium from having to share its models with member countries
 shuffle:: true
 
 #### Question: Open

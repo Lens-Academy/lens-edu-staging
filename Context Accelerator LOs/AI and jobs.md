@@ -15,6 +15,11 @@ Describe the main positions on whether and how fast AI will replace human jobs, 
 Jobs are often the first AI worry people raise, and they drive much of the politics of AI. Knowing the arguments lets you discuss job loss accurately, judge policies that claim to address it, and see how it connects to wider risks, such as people losing economic leverage over governments and companies.
 
 ## Lenses
+- [The AI Labor Debate: Three Views on the Future of Work (Carnegie Endowment)](https://carnegieendowment.org/research/2026/04/the-ai-labor-debate-three-views-on-the-future-of-work): the "alarmed", "patient" and "excited" camps, the two questions they disagree on (how fast AI spreads, how fast new jobs appear), and modest policies that hold up in every case; read the Introduction and Conclusion, and dip into the middle sections for each camp's case (April 2026).
+- [Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of AI (Stanford Digital Economy Lab)](https://digitaleconomy.stanford.edu/news/canariesaug26/): payroll data showing no broad job losses so far, but employment of 22–25-year-olds in AI-exposed jobs about 19% below expected, mostly through less hiring and mainly where AI automates rather than augments (August 2026).
+- [How not to lose your job to AI (80,000 Hours)](https://80000hours.org/agi/guide/skills-ai-makes-valuable/): why automation often doesn't cut jobs (ATMs and bank tellers), when it does, and what full automation could mean for wages; read only "Why automation often doesn't decrease wages" and its subsection on full automation (June 2025).
+- [What About the Horses? (Maxwell Tabarrok, LessWrong)](https://www.lesswrong.com/posts/ysghKGYev8DwPDY32/what-about-the-horses): the case that humans won't go the way of horses, from comparative advantage and human ownership of AI, with the author's own caveat that this doesn't guarantee higher wages; one side of a live debate (see the top comment for a reply) (February 2025).
+- [Defining the Intelligence Curse (Drago and Laine)](https://intelligence-curse.ai/defining/): why governments and companies that no longer need people's work or taxes may stop serving them, by analogy with oil-rich "resource curse" states (2025).
 
 ## Tests
 
