@@ -179,14 +179,22 @@ The main steps of the **extinction doctrine** argument, distilled from the paper
     - Reliance (Superintelligent systems might become deeply enmeshed into our infrastructure, making us hesitant or unable to shut them down).
 - Out-of-control superintelligence is incompatible with [normal] human life
 
+#### End Callout
+
+#### Text
+content:: \## Replacement doctrine
+
 #### Article
 source:: [[../articles/arxiv-the-three-main-doctrines-on-the-future-of-ai]]
 from:: A wide range of pathways
 to:: even if only as capital holders and consumers.
 
+#### Callout: Core expectations of the replacement doctrine
+collapse:: closed
+
 #### Text
 content::
-Core expectations
+The main expectations of the **replacement doctrine**, distilled from the paper's section on the doctrine. Where possible, we kept the authors' wording and section headings.
 
 - AI will not cause catastrophic outcomes like human extinction.
 - AI will not transform geopolitics to the point where the concept of separate sovereign states stops applying, for example by allowing one actor to seize control over all others.
