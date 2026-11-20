@@ -13,9 +13,13 @@ Explain how training a model to predict the next token across huge amounts of te
 - [[Training data]]
 
 ## Why it matters
-Pretraining is where a model picks up most of its knowledge and general skills, including ones its developers didn't directly choose. Understanding it helps you see why models know things nobody taught them explicitly, why they can state falsehoods fluently, and why later safety training builds on capabilities that are already there.
+Pretraining is where a model picks up most of its knowledge and many general skills, including ones its developers didn't directly choose. Understanding it helps you see why models know things nobody taught them explicitly, why they can state falsehoods fluently, and why later training, including safety training, builds on capabilities that are already there.
 
 ## Lenses
+- [[../video_transcripts/3blue1brown-large-language-models-explained-briefly|Large Language Models Explained Briefly]]: 3Blue1Brown's short video on how a model learns by predicting the next word of real text, tuning billions of parameters, and why pretraining is followed by further training.
+- [Intro to Large Language Models (Andrej Karpathy, YouTube)](https://www.youtube.com/watch?v=zjkBMFhNj_g): watch 4:17–17:52 for pretraining as lossy compression of internet text, why next-word prediction forces a model to learn about the world, base models "dreaming" plausible documents with made-up details, and how fine-tuning builds an assistant on that knowledge (November 2023; data sizes have since grown about tenfold).
+- [[../Lenses/IABIED - QA - Just Predicting Next Token|Aren't AIs Just Predicting the Next Token?]]: Yudkowsky and Soares on why predicting text well means modelling the world behind it, and how modern models go beyond pure prediction (September 2025).
+- [[../Lenses/nostalgebraist-the-void|What a Base Model Does]]: read sections 2–4 ("basics" to "the first sin") for how a base model continues any text by guessing at an unseen author, a live base-model completion, and why base models are hard to get to do what you want (June 2025).
 
 ## Tests
 
@@ -47,7 +51,7 @@ assessment-instructions:: Score out of 100. 100 for explaining that predicting v
 id:: ec0e721a-892c-4aeb-9d82-b96f26db2a28
 content:: During pretraining, how do developers decide which skills, such as translation or coding, a model learns?
 options::
-- [x] Mostly indirectly, by choosing which data to train on
+- [x] Through which data they choose to train on
 - By writing a separate training objective for each skill
 - By hand-coding rules for each skill into the network
 - By having people rate the model's attempts at each skill
@@ -69,7 +73,7 @@ content:: A pretrained base model is given the opening of a text written in the 
 options::
 - [x] Continue in the style and quality typical of that kind of text
 - Write the same continuation it would give a casual forum post
-- Refuse to continue because it cannot check medical credentials
+- Write at the average quality of all its training text, whatever the opening
 - Switch to an informal style, since informal text is more common
 shuffle:: true
 
@@ -88,9 +92,9 @@ id:: 9df342a1-5114-43a4-8cdf-21f6280bdd44
 content:: Does a pretrained language model store its training documents so it can look them up, like a search engine does?
 options::
 - [x] No; training changes its weights, though it can memorize some repeated passages
-- Yes; it keeps a compressed copy of each document to retrieve
-- Yes; it stores documents that appeared at least twice in the data
-- No; it keeps grammar rules but no facts or specific text
+- Yes; it keeps a compressed copy of each document, which it searches when prompted
+- Yes; it stores only documents that appeared many times, and retrieves those
+- No; it learns grammar from the documents but keeps no facts or specific text
 shuffle:: true
 
 #### Question: Choice

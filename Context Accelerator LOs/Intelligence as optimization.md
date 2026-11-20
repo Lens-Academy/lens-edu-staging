@@ -14,6 +14,10 @@ Describe intelligence as the ability to steer the world into narrow target state
 If you picture a superintelligence as a very clever human, you may expect to outwit or contain it the way societies handle clever people. The optimization framing suggests the human range is a narrow band on a much longer scale, which changes how much margin for error safety plans can assume.
 
 ## Lenses
+- [[../Lenses/Efficient Cross-Domain Optimization|Efficient Cross-Domain Optimization]]: Yudkowsky's definition of intelligence as steering the future across many domains with few resources. It covers Deep Blue, bees and beavers as narrow optimizers, evolution as a slow, wasteful one, and why the asteroid and the tiger are no match for a cross-domain mind (2008).
+- [[../articles/urban-artificial-intelligence-revolution|The Road to Superintelligence]]: read the section "The Road From AGI to ASI". It covers why everyone from the "village idiot" to Einstein sits in a tiny band of the intelligence scale, and the limits on speed, size and reliability that human brains share and machines need not (2015).
+- [[../Lenses/AI Safety Atlas - Capabilities - Defining and Measuring AGI|Defining and Measuring AGI]]: read only the "Case Studies" section. It sets intelligence as goal achievement (Legg and Hutter) beside skill-acquisition efficiency (Chollet), Turing's behaviourism and consciousness-based views, and explains why capability is what matters for safety.
+- [Measuring Optimization Power (LessWrong)](https://www.lesswrong.com/posts/Q4hLMDrFd8fbteeZ8/measuring-optimization-power): Yudkowsky's proposal to measure optimization by how small a fraction of possible outcomes is as good or better by the optimizer's preferences, counted in bits (October 2008) (more advanced).
 
 ## Tests
 #### Question: Choice
@@ -37,13 +41,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: fe390f23-8a5e-443c-825e-686e124ca9ff
-content:: Someone argues: "The smartest humans in history never took over the world, so a superintelligent AI won't either." Which reply best reflects the framing of intelligence as optimization power?
+id:: 90e7dbf2-2de7-4945-83aa-7263c25e0374
+content:: A safety plan assumes that if an advanced AI system ever worked against us, we could contain it the way societies contain a brilliant but dangerous person. What does the framing of intelligence as optimization power suggest about this assumption?
 options::
-- [x] The human range may be a narrow band, so it says little about the upper limit
-- Clever people are rarely interested in power, but an AI might be
-- AI systems have already surpassed humans at every kind of task
-- Intelligence is mostly stored knowledge, and AI has read far more
+- [x] It may fail, because an AI's capability need not stop near the top of the human range
+- It is sound, because the most capable humans mark roughly the upper limit of intelligence
+- It may fail, but only because AI systems run on hardware that is hard to switch off
+- It does not bear on it, because the framing measures intelligence and says nothing about safety
 shuffle:: true
 
 #### Question: Choice
@@ -67,13 +71,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 93f3e27b-6eca-4089-a313-69caf9c8f9b9
-content:: Shane Legg and Marcus Hutter define intelligence as an agent's ability to achieve goals in a wide range of environments. How does this relate to the framing of intelligence as optimization power?
+id:: acb156e2-e665-4ec2-be17-324eff3f4944
+content:: Shane Legg and Marcus Hutter proposed a widely cited definition of intelligence that is close to the optimization framing. Which is it?
 options::
-- [x] They are close: both judge an agent by its success at goals across varied settings
-- They conflict: Legg and Hutter judge an agent by how much it knows
-- They conflict: Legg and Hutter require an agent to think like a human
-- They are unrelated: Legg and Hutter measure learning speed and nothing else
+- [x] An agent's ability to achieve goals in a wide range of environments
+- How closely an agent's reasoning resembles that of a human expert
+- An agent's score across a broad battery of IQ-style puzzles
+- An agent's ability to hold conversations indistinguishable from a human's
 shuffle:: true
 
 #### Question: Choice
@@ -81,17 +85,20 @@ id:: 0f7393fe-29f3-4cdc-b3cf-c15650c25541
 content:: François Chollet defines intelligence as skill-acquisition efficiency. How does this differ from the framing of intelligence as optimization power?
 options::
 - [x] It rates how efficiently a system learns new skills, not how well it already steers outcomes
-- It rates how many facts a system knows, not how well it reasons
-- It rates how closely a system imitates humans, not what it achieves
-- It rates how fast a system computes, not how well it learns
+- It rates how many facts a system has stored, not how well it uses them to reach goals
+- It rates how closely a system imitates human reasoning, not which outcomes it achieves
+- It rates how fast a system runs its computations, not how much it learns from them
 shuffle:: true
 
 #### Question: Choice
-id:: 2fb54918-b2ea-405e-bc34-e49d85b84195
-content:: Does the framing of intelligence as optimization power require a system to be conscious, or to reason the way a human brain does, in order to count as intelligent?
+id:: 8dbd11c4-dea4-401f-a725-c0d4d3f769b2
+content:: Someone says: "AI systems don't really understand anything, they just predict the next word, so they can't be a serious threat." How does the framing of intelligence as optimization power respond?
 options::
-- [x] No: it judges a system by the outcomes it can reliably bring about
-- Yes: steering the world toward a target requires human-like understanding
+- [x] What matters is which outcomes a system can reliably bring about, not whether it understands as humans do
+- It agrees: a system without human-like understanding cannot steer outcomes at all
+- It disagrees, because it holds that current AI systems are already conscious
+- It agrees for today's systems, since the framing only applies to systems with explicit goals
+shuffle:: true
 
 #### Question: Choice
 id:: c4119f6c-4cb3-418c-bedf-6a5ba6476c97

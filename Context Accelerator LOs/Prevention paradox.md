@@ -11,17 +11,21 @@ Explain why a danger that was successfully prevented can look as if it was never
 ## Helpful first
 
 ## Why it matters
-People often point to Y2K or the ozone hole to argue that warnings about AI are overblown. Knowing the prevention paradox helps you see that a quiet outcome may be what success looks like, and why work that prevents disasters tends to get little credit or support.
+People often point to Y2K or the ozone hole to argue that warnings about AI are overblown. The prevention paradox (also called the preparedness paradox) helps you see that a quiet outcome may be what success looks like, and why work that prevents disasters tends to get little credit or support.
 
 ## Lenses
+- [[../Lenses/The World Keeps Getting Saved|The World Keeps Getting Saved]]: why prevented disasters like Y2K and the ozone hole get mistaken for exaggerated ones, and why people who do safety work get little credit.
+- [20 Years Later, the Y2K Bug Seems Like a Joke (TIME)](https://time.com/5752129/y2k-bug-history/): the history of the Y2K fixes, the failures that slipped through, and how the warnings became a punch line once nothing happened (December 2019).
+- [If you think the millennium bug was a hoax, here comes a history lesson (The Conversation)](https://theconversation.com/if-you-think-the-millennium-bug-was-a-hoax-here-comes-a-history-lesson-129042): a computer scientist's case that Y2K was averted rather than exaggerated, including what to make of countries that did little and were fine (December 2019).
+- [The World We Avoided by Protecting the Ozone Layer (NASA Earth Observatory)](https://science.nasa.gov/earth/earth-observatory/the-world-we-avoided-by-protecting-the-ozone-layer): a model of what would have happened to the ozone layer without the Montreal Protocol, which shows the counterfactual you compare against (May 2009, updated 2025).
 
 ## Tests
 
 #### Question: Choice
 id:: b966b4ec-5bf6-4079-b509-c69be533aeb5
-content:: Which of these best describes the prevention paradox?
+content:: Which of these best describes the prevention paradox (also called the preparedness paradox)?
 options::
-- [x] Successful prevention removes the evidence that the danger was real.
+- [x] Successful prevention can make a real danger look as if it was never real.
 - Warnings about a danger make that danger more likely to happen.
 - Preventing one danger tends to create a new, larger danger.
 - Precautions make people take more risks, cancelling out safety gains.
@@ -38,21 +42,21 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 86b992be-a862-49bb-966a-96b6fdd8a85a
-content:: The Montreal Protocol of 1987 phased out most chemicals that destroy the ozone layer, and as of 2026 the ozone hole is slowly recovering. Someone says this shows the ozone scare was overblown. What is the main flaw in this argument?
+id:: 71fa0467-4bb8-406f-ba59-81213a25f692
+content:: The Montreal Protocol, agreed in 1987 and strengthened since, has phased out the vast majority of ozone-destroying chemicals, and the ozone layer is on track to recover by around mid-century. Someone says the ozone scare was overblown, since the worst predicted harms never came. Which evidence best answers them?
 options::
-- [x] The recovery happened because the chemicals were phased out.
-- The ozone hole has not yet started to recover.
-- Ozone levels were not measured until after 1987.
-- Ozone loss was mainly caused by volcanic eruptions.
+- [x] Measurements showed ozone loss tracking the build-up of these chemicals
+- Nearly every country in the world signed the Montreal Protocol
+- The scientists who first raised the alarm later won a Nobel Prize
+- Industry quickly developed substitutes for the banned chemicals
 shuffle:: true
 
 #### Question: Choice
 id:: c9dadc34-d54d-483d-b312-d62fa15a00a9
-content:: Does the prevention paradox show that a warning about a danger was correct, if prevention followed and nothing bad happened?
+content:: A warning led to prevention, and then nothing bad happened. Does the prevention paradox show that the warning was correct?
 options::
-- [x] No; it shows a quiet outcome can't settle whether the warning was right.
-- Yes; it shows a quiet outcome confirms that the warning was right.
+- [x] No; a quiet outcome fits both a real and a false danger.
+- Yes; a quiet outcome shows the prevention was really needed.
 
 #### Question: Choice
 id:: d1457956-59d9-4e04-848a-1d35fff25366
@@ -63,7 +67,7 @@ options::
 
 #### Question: Choice
 id:: 67e5e35b-3741-46f6-b7e4-78d212eaa3eb
-content:: A town has had no strong earthquakes for 100 years and has taken no steps against them, so it decides not to adopt earthquake-safe building rules. Is this an example of the prevention paradox?
+content:: A town has had no strong earthquakes for 100 years and has taken no steps against them, so it decides not to adopt earthquake-safe building rules. Its reasoning may well be poor, but is it an example of the prevention paradox?
 options::
 - Yes
 - [x] No
@@ -75,17 +79,17 @@ options::
 - [x] Its success shows up as nothing happening, which is easy to overlook.
 - Prevention work usually costs more than the disasters it averts.
 - Prevention projects tend to outlast the budget cycles of funders.
-- Prevention work is mostly done by people outside government.
+- Prevention work rarely produces anything that can be sold for profit.
 shuffle:: true
 
 #### Question: Choice
-id:: 0a681988-6f02-4273-afa1-24be9a03458e
-content:: Suppose safety measures for advanced AI work and no AI catastrophe happens. According to the prevention paradox, what is a likely public reaction?
+id:: b5e6d1c1-37b6-4cd4-a3ca-e311d30c7a92
+content:: Someone says: "People have warned about AI catastrophe for years and none has happened, so the warnings were overblown." Which reply is most accurate?
 options::
-- [x] Concluding that the safety measures had been unnecessary
-- Demanding stronger safety measures for future AI systems
-- Giving credit to the people who built the safety measures
-- Concluding that AI had been more dangerous than expected
+- [x] The warnings mostly concern more capable future systems, so the quiet so far shows little.
+- Safety work has prevented every AI catastrophe so far, which proves the warnings were right.
+- Warnings that have not come true after several years usually turn out to be false.
+- Nothing can count as evidence about AI risk until an AI catastrophe actually happens.
 shuffle:: true
 
 #### Question: FillBlank

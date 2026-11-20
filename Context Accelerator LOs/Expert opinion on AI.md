@@ -16,6 +16,11 @@ Describe what surveys, open letters and public statements show about how AI rese
 Expert concern is often the first thing people ask about, and it is easy to overstate or dismiss. Knowing who has said what, what surveys actually found and where experts disagree lets you answer accurately, spot misleading headlines, and avoid appeals to authority in either direction.
 
 ## Lenses
+- [What open letters have been written about AI safety? (AISafety.info)](https://aisafety.info/questions/NM5D/What-open-letters-have-been-written-about-AI-safety): what the 2023 pause letter, the 2023 Statement on AI Risk and the 2025 Statement on Superintelligence each called for (updated Nov 2026).
+- [Survey of 2,778 AI authors: six parts in pictures (AI Impacts)](https://blog.aiimpacts.org/p/2023-ai-survey-of-2778-six-things): the main results of the 2023 survey of researchers who had published at top AI venues: much earlier timelines than in 2022, different answers for "every task" and "every occupation", and the spread of extinction-risk estimates (January 2024).
+- [[../Lenses/IABIED - QA - AI Experts on Catastrophe|AI Experts on Catastrophe]]: Hinton, Bengio, Christiano, Leike and others give their own odds of AI catastrophe, compiled by Yudkowsky and Soares, who are themselves on the worried side, with their caution about single "p(doom)" numbers (2025).
+- [[../Lenses/Wikipedia Existential Risk|Existential risk from AI (Wikipedia)]]: read only the Perspectives section (Endorsement and Skepticism) for who endorses the concern and the main sceptical arguments, from Ng, LeCun and Gebru, Bender and Mitchell.
+- [AI existential risk probabilities are too unreliable to inform policy (AI as Normal Technology)](https://normaltech.ai/p/ai-existential-risk-probabilities): two leading sceptics, Narayanan and Kapoor, argue that surveys, forecasts and personal estimates of AI extinction risk can't carry much weight, including why experts and superforecasters in the XPT stayed far apart (July 2024).
 
 ## Tests
 #### Question: Choice
@@ -42,10 +47,10 @@ shuffle:: true
 id:: 0227531b-2fe2-4a2d-9f5a-dc74aca026cd
 content:: In October 2025, the Statement on Superintelligence, signed by Geoffrey Hinton, Yoshua Bengio and many public figures, called for what?
 options::
-- [x] No superintelligence until there is scientific consensus it is safe, and public support
-- An international agency to license every company training frontier AI models
-- Government funding to build superintelligence as a public, non-profit project
-- Publication of a safety plan by each lab before it trains a new model
+- [x] A ban on building superintelligence until scientists broadly agree it is safe and the public supports it
+- An international agency to license every company that trains frontier AI models above a set size
+- Government funding to build superintelligence as a public, non-profit project shared by all nations
+- Publication of a full safety plan by each AI company before it trains any new frontier model
 shuffle:: true
 
 #### Question: Choice
@@ -68,22 +73,22 @@ options::
 shuffle:: true
 
 #### Question: FillBlank
-id:: 6499e48d-6c7b-4061-8bfc-76cdf5b2768f
-content:: In the 2023 AI Impacts Expert Survey on Progress in AI, the median respondent put the chance of extremely bad outcomes, such as human extinction, from advanced AI at {{5%|5|5 percent|five percent}}.
+id:: 1ea75255-e287-460d-8b96-b83293530c29
+content:: In the 2024 AI Impacts Expert Survey on Progress in AI (about 1,600 respondents), the median respondent put the chance of human extinction or similarly severe, permanent disempowerment from advanced AI at {{10%|10|10 percent|ten percent}}, double the 2023 median.
 
 #### Question: Choice
-id:: 71344cf0-8b36-4bdc-897c-4d0c2480e090
-content:: In the 2023 AI Impacts survey, between about a third and half of respondents gave at least a 10% chance that advanced AI leads to outcomes as bad as human extinction. Which statement does this finding support?
+id:: 1ab908d2-0895-43e7-bc0f-fec81ff4db44
+content:: A headline about the 2024 AI Impacts survey of AI researchers reads: "Half of AI researchers think AI will wipe out humanity." Which comment best corrects it?
 options::
-- [x] A large minority see the chance as high enough to take seriously
-- Most respondents see extinction as the most likely outcome of AI
-- Most respondents rule out extinction-level outcomes from AI
-- Half of respondents expect human extinction within this century
+- [x] About half gave at least a 10% chance, which is not the same as expecting it
+- About half said extinction is the single most likely outcome of advanced AI
+- About half were AI safety specialists, so the sample is not typical of the field
+- Only a small fringe of respondents gave extinction any chance above zero
 shuffle:: true
 
 #### Question: Choice
 id:: 085b4936-bdfa-4993-a82e-2f744ebb4c62
-content:: The 2023 AI Impacts survey asked researchers when machines could do every task better and more cheaply than humans, and separately when every human occupation would be fully automated. How did the forecasts for the two questions compare?
+content:: The 2024 AI Impacts survey asked researchers when machines could do every task better and more cheaply than humans, and separately when every human occupation would be fully automated. How did the forecasts for the two questions compare?
 options::
 - [x] Full automation of occupations was forecast many decades later
 - The two forecasts were within a few years of each other
@@ -93,7 +98,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: d027af34-7bfd-46b5-89d4-c1c2d265e9ea
-content:: Between the 2022 and 2023 AI Impacts surveys of AI researchers, did the aggregate forecast for when machines could do every task better and more cheaply than humans move earlier or later?
+content:: Between the 2023 and 2024 AI Impacts surveys of AI researchers, did the aggregate forecast for when machines could do every task better and more cheaply than humans move earlier or later?
 options::
 - [x] Earlier
 - Later

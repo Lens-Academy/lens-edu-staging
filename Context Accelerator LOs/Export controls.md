@@ -16,6 +16,10 @@ Describe what US and allied export controls on AI chips and chipmaking tools to 
 Export controls are the main way governments currently use compute to shape who can build frontier AI. Knowing what they cover and where they leak helps you judge claims about the US–China AI race and proposals for compute-based safety rules.
 
 ## Lenses
+- [[../articles/sharma-how-ai-chips-are-made|How AI Chips Are Made: Geopolitics]]: who holds the chokepoints, the US rules one by one from the 2019 Entity List and the Foreign Direct Product Rule to the 2026 H200 licences, why Dutch and Japanese cooperation matters, cloud access, smuggling and China's response; read the Geopolitics chapter from "The shape of the contest" to "Who gains and who pays" (September 2026).
+- [How US Export Controls Have (and Haven't) Curbed Chinese AI (AI Frontiers)](https://ai-frontiers.org/articles/us-chip-export-controls-china-ai): Chris Miller, author of Chip War, on what the controls have and haven't achieved, and how they leak through shell companies, downgraded chips and cloud access (July 2025).
+- [On DeepSeek and Export Controls (Dario Amodei)](https://darioamodei.com/on-deepseek-and-export-controls): the case that chip controls are the main lever for keeping a lead in powerful AI, from Anthropic's CEO, with how DeepSeek got its H800s, H20s and likely smuggled H100s; one side of a live debate (January 2025).
+- [What did US export controls mean for China's AI capabilities? (Epoch AI)](https://epoch.ai/gradient-updates/us-export-controls-china-ai): how the 2022 and 2023 thresholds shaped Nvidia's H800 and H20, and why the H20's memory bandwidth left China close to parity in running models; a snapshot before the 2025 H20 changes (December 2024) (more advanced).
 
 ## Tests
 
@@ -34,9 +38,9 @@ id:: 47672a18-6fe1-42db-bb6b-a89b457ec4ef
 content:: Why have US controls on chipmaking tools for China depended on the cooperation of the Netherlands and Japan?
 options::
 - [x] Firms there make key tools that US firms can't supply
-- Their courts must approve US export rules
+- US export law applies only to countries that sign up to it
 - Most chip factories in China are owned by Dutch and Japanese firms
-- They control the main shipping routes into China
+- They are the largest buyers of chips made in China
 shuffle:: true
 
 #### Question: Choice
@@ -47,11 +51,24 @@ options::
 - [x] No
 
 #### Question: Choice
-id:: 633ae28f-3a2d-4986-93f7-1f9a385cc589
-content:: Do US export controls on AI chips to China cover chips made outside the United States, for example chips TSMC makes in Taiwan for US designers?
+id:: f6ae8eca-80fd-45b2-9404-81de0f04b8e8
+content:: Chinese chipmakers such as SMIC cannot buy EUV machines. How have they still made chips at around the 7-nanometre level?
 options::
-- [x] Yes
-- No
+- [x] By using older DUV machines several times per layer, at higher cost
+- By buying used EUV machines from chipmakers outside China
+- With Chinese-made EUV machines in mass production since 2024
+- By having TSMC make the most advanced chips for them in Taiwan
+shuffle:: true
+
+#### Question: Choice
+id:: 1c357ab6-aff0-4f79-a5b4-cd4c5b6bf917
+content:: Do US export controls on AI chips to China cover chips made outside the United States, for example chips TSMC makes in Taiwan?
+options::
+- [x] Yes, because the chips are made with US tools and design software
+- Yes, but only when a US company owns the factory that makes them
+- No, they cover only chips made in factories in the United States
+- No, Taiwan's own rules apply to chips made in Taiwan
+shuffle:: true
 
 #### Question: Choice
 id:: dc173ef2-421f-4a93-bf6e-26d0ce5c6d27
@@ -60,7 +77,7 @@ options::
 - [x] Exporters need a US licence to supply it, usually denied
 - It must sell any shares listed on US exchanges
 - Its executives are barred from entering the US
-- It may no longer buy goods from US allies
+- Its bank accounts and assets in the US are frozen
 shuffle:: true
 
 #### Question: Choice
@@ -80,16 +97,16 @@ options::
 - [x] Its high memory bandwidth made it good at running trained models
 - Software could unlock it to run at full H100 speed
 - It came bundled with access to Nvidia's US cloud servers
-- It cost much less per chip than the H100
+- It could train large models faster than the H100
 shuffle:: true
 
 #### Question: Choice
 id:: c285dc18-356f-41b6-a8b0-be45955618ac
 content:: In January 2025 the outgoing Biden administration issued the AI Diffusion Rule, which set caps on AI chip exports to most countries, not just China. What happened to it?
 options::
-- [x] It was rescinded in May 2025, before it took effect
+- [x] It was rescinded in May 2025, before companies had to comply
 - It took effect and still applies, as of November 2026
-- It was struck down by the US Supreme Court
+- It was delayed and replaced by a law passed by Congress
 - It was expanded to cover open-weight AI models
 shuffle:: true
 

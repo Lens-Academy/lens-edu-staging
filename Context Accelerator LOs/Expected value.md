@@ -15,6 +15,11 @@ Compare uncertain options by expected value, explain why a bet that will probabl
 People working on AI risk often compare projects and risks by expected value, for example backing several long shots because one success could outweigh many failures. Understanding this lets you follow and question those choices, and notice when a guessed tiny probability is carrying a huge conclusion.
 
 ## Lenses
+- [[../Lenses/probablygood-expected-value-why-probabilities-can-help-us-make-better-career-decisions|Expected Value]]: what expected value is and how to calculate it, with a lottery ticket and a comparison of two career paths (2023).
+- [Hits-based giving (Effective Altruism Forum)](https://forum.effectivealtruism.org/posts/badD656AemGYnraMt/hits-based-giving): Holden Karnofsky on why a funder should back projects that will probably fail, when a few big successes carry the whole portfolio; read "The basic case for hits-based giving" (April 2016).
+- [[../video_transcripts/robert-miles-ai-safety-is-ai-safety-a-pascals-mugging|Is AI Safety a Pascal's Mugging?]]: Robert Miles on Pascal's wager and mugging, why huge stakes can't stand in for evidence, and why a real 1-in-100 risk is different from a mugger's threat.
+- [Why We Can't Take Expected Value Estimates Literally (GiveWell)](https://blog.givewell.org/2011/08/18/why-we-cant-take-expected-value-estimates-literally-even-when-theyre-unbiased/): Holden Karnofsky on why a rough estimate built from guesses shouldn't decide a choice on its own, and how this defuses Pascal's mugging; read from the start through the section "Pascal's Mugging" (August 2011).
+- [Tiny Probabilities of Great Value (Utilitarianism.net)](https://www.utilitarianism.net/guest-essays/expected-value-fanaticism): Petra Kosonen on "fanaticism", where expected value always favours a tiny chance of a vast payoff, and proposed fixes such as capping value or ignoring very small probabilities; read the first section and "Alternatives to fanaticism" (2025).
 
 ## Tests
 #### Question: Choice
@@ -32,20 +37,13 @@ id:: 39e51e73-bbbb-417a-9a43-e1ef82db9e74
 content:: An option with a 5% chance of a payoff of 200, and nothing otherwise, has an expected value of {{10}}.
 
 #### Question: Choice
-id:: e778ff31-1951-4879-abae-6ca54b614b09
-content:: Project A is certain to prevent a given harm. Project B has a 20% chance of preventing a harm 50 times larger, and otherwise does nothing. Judged by expected value alone, should Project B be preferred?
+id:: b94256b6-feb4-4267-826f-35845ae7a713
+content:: Two options have equal expected value. Option A gives a certain result; option B gives either twice that result or nothing, with equal chances. Which difference between them does expected value alone ignore?
 options::
-- [x] Yes
-- No
-
-#### Question: Choice
-id:: 7acd8690-986c-493b-8967-bfed3beac4fe
-content:: Two options have equal expected value. Option A gives a certain result; option B gives either twice that result or nothing, with equal chances. What does expected value alone say about choosing between them?
-options::
-- [x] Neither is better than the other
-- A is better because its result is certain
-- B is better because its best case is higher
-- Neither can be compared until B is resolved
+- [x] How risky each option is
+- How likely each outcome is
+- How large each outcome is
+- Which has the higher average result
 shuffle:: true
 
 #### Question: Choice
@@ -55,7 +53,7 @@ options::
 - [x] Most projects fail, and a few successes provide most of the value
 - Most projects succeed modestly, with few outright failures
 - Value spread fairly evenly across the funded projects
-- Projects chosen mainly for their low chance of failure
+- About half the projects succeed, each adding similar value
 shuffle:: true
 
 #### Question: Choice
@@ -79,10 +77,10 @@ shuffle:: true
 id:: 0ed27ea2-c16b-406d-affc-268f7a2cfe05
 content:: Someone argues for a project by multiplying a guessed one-in-a-billion probability of success by an astronomically large benefit. What is the main weakness of this expected-value argument?
 options::
-- [x] Its conclusion rests almost entirely on a probability nobody can estimate well
+- [x] Its result hinges on a probability nobody can estimate well
 - Expected value can't be used for outcomes that happen only once
-- Multiplying probabilities by very large numbers is mathematically invalid
-- Expected value only applies to outcomes measured in money
+- Expected value ignores what happens if the project fails
+- Expected value only applies to risks with a long track record
 shuffle:: true
 
 #### Question: Choice
@@ -90,9 +88,9 @@ id:: 395f32dc-dee2-4614-9297-312705de23f9
 content:: In the thought experiment called Pascal's mugging, a stranger demands $10 and threatens to cause vast suffering by magic if refused. You think the threat is almost certainly false. Why does this trouble naive expected-value reasoning?
 options::
 - [x] The stranger can name a harm big enough to outweigh any tiny probability
-- Expected value says threats from strangers should be ignored
-- The $10 cost is certain, so expected value can't be calculated
-- The threat's probability is zero, so expected value is undefined
+- Expected value gives no weight to outcomes you believe are false
+- Expected value needs the threat's probability to be known exactly
+- A $10 stake is too small for expected value to apply
 shuffle:: true
 
 #### Question: Choice
@@ -102,7 +100,7 @@ options::
 - [x] It may be well above 1 in 10,000, since a flawed analysis could be far off
 - It should stay at 1 in 10,000, since that is the best analysis available
 - It should be lower, since doubts about an analysis reduce its estimates
-- It should be exactly 1 in 100, the chance the analysis is flawed
+- It should be about 1 in 1,000,000, combining the two probabilities
 shuffle:: true
 
 #### Question: Open

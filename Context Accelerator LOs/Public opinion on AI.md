@@ -11,9 +11,14 @@ Describe what polls show about how people in the US and other countries see AI, 
 ## Helpful first
 
 ## Why it matters
-Politicians act when they think voters care. If you know that most people favour AI safety rules but rarely rank AI as a top issue, you can judge which policies have public backing and where advocacy is needed. Misreading polls leads to overclaiming support, or to giving up on proposals that are popular.
+Politicians act when they think voters care. If you know that most people favour AI safety rules but usually rank AI below issues such as the economy, you can judge which policies have public backing and where advocacy is needed. Misreading polls leads to overclaiming support, or to giving up on proposals that are popular.
 
 ## Lenses
+- [How the US Public and AI Experts View Artificial Intelligence (Pew Research Center)](https://www.pewresearch.org/internet/2025/04/03/how-the-us-public-and-ai-experts-view-artificial-intelligence/): how the US public and AI experts differ on AI's effects, jobs, concern versus excitement, and trust in companies and government to regulate; read the overview (April 2025).
+- [Multiple Polls Find Most Americans Think AI Is Moving Too Fast (Tech Policy Press)](https://techpolicy.press/multiple-polls-find-most-americans-think-ai-is-moving-too-fast): five autumn 2026 polls on slowing AI down, their partisan splits, and why their results range from 55% to 77% (wording, answer options, who was sampled) (October 2026).
+- [Liberals Are Increasingly Likely to Worry About AI Ending Humanity (YouGov)](https://yougov.com/en-us/articles/55558-liberals-are-increasingly-likely-to-worry-about-ai-ending-humanity): how many Americans worry that AI could end humanity, how this has changed since 2023 and split by ideology, and how it compares with worry about mass unemployment (September 2026).
+- [AI Index Report 2026, Chapter 9: Public Opinion (Stanford HAI)](https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_9_public_opinion.pdf): how views of AI differ across countries, with Southeast and East Asian countries most excited and North America and Europe most nervous, and trust in governments to regulate AI; read the highlights (p. 362), 9.1 Global Sentiment Toward AI (pp. 363–366) and 9.3 Perceptions on AI Trust, Transparency, and Regulation (pp. 380–383) (2026).
+- [US Public Opinion of AI Policy and Risk (Rethink Priorities)](https://forum.effectivealtruism.org/posts/ConFiY9cRmg37fs2p/us-public-opinion-of-ai-policy-and-risk): a careful 2023 survey of support for a pause and for regulation, and of AI extinction risk ranked against nuclear war and climate change, showing how neutral wording lowers support and warning about weakly held "pseudo-opinions" (May 2023) (more advanced).
 
 ## Tests
 
@@ -49,12 +54,12 @@ shuffle:: true
 
 #### Question: Choice
 id:: e38941de-2221-4507-9006-defb1ea5437c
-content:: US polls find large majorities back AI safety rules, but few voters name AI as one of their most important issues. What does this combination suggest?
+content:: US polls find large majorities back AI safety rules. But when voters rated issues before the 2026 midterms, AI came well below issues such as the economy (11th of 16 in one Pew survey). What does this combination suggest?
 options::
-- [x] Support is broad but may not decide many votes
-- Politicians who oppose AI rules face strong voter backlash
-- Voters oppose AI rules despite what they tell pollsters
-- AI is about to become most voters' top issue
+- [x] Support is broad, but other issues will usually decide more votes
+- Support is broad, and opposing AI rules will usually cost politicians their seats
+- Support is shallow, and most voters privately oppose AI rules
+- Support is intense, and AI is now most voters' single deciding issue
 shuffle:: true
 
 #### Question: Choice
@@ -71,20 +76,20 @@ shuffle:: true
 id:: 2806cc34-6e77-4b94-96d4-c8a14e0fd505
 content:: In US polls, which approach to AI safety do most people prefer?
 options::
-- [x] Government safety rules and testing for AI companies
+- [x] Government safety rules, with independent safety testing before release
 - Leaving safety to companies' voluntary commitments
 - Waiting to regulate until serious harms appear
 - Relying on market competition to reward safe companies
 shuffle:: true
 
 #### Question: Choice
-id:: 2cf3d7f7-f53d-4fd8-b408-3c661a55ed0e
-content:: Several US polls since 2023 have asked whether people are concerned that AI could eventually cause the end of the human race. Roughly what share say they are at least somewhat concerned?
+id:: c4136512-a7ac-4524-9d27-107bb1e6153b
+content:: Several US polls in 2026 asked whether AI could threaten human survival or end the human race. Roughly what share said they were at least somewhat concerned, or saw at least a moderate risk?
 options::
-- [x] About 40 to 50%
-- Under 10%
-- About 20%
-- Over 80%
+- [x] Between about half and three-quarters, depending on wording
+- Under a tenth, whatever the wording
+- About a fifth, whatever the wording
+- Over nine in ten, whatever the wording
 shuffle:: true
 
 #### Question: Choice
@@ -115,4 +120,4 @@ assessment-instructions:: Score out of 100. 100 for any two of: different wordin
 #### Question: Open
 id:: 28638075-446f-4f19-803e-7cbe768296b2
 content:: Someone says, "Voters don't care about AI safety." Using what polls show, give one point that supports this claim and one that challenges it.
-assessment-instructions:: Score out of 100. 50 for a supporting point: AI rarely ranks as a top voting issue, or views are weak and shift with wording. 50 for a challenging point: majorities in both parties back safety rules or testing, more people are concerned than excited about AI, or few trust companies to regulate themselves.
+assessment-instructions:: Score out of 100. 50 for a supporting point: AI ranks below most other issues, such as the economy, when voters say what decides their vote, or views are weak and shift with wording. 50 for a challenging point: majorities in both parties back safety rules or testing, more people are concerned than excited about AI, few trust companies to regulate themselves, or AI's importance to voters has been rising.

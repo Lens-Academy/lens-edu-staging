@@ -17,6 +17,10 @@ Describe the main positions on whether attention to existential risk from AI dis
 People worried about AI's current harms and people worried about existential risk often want similar rules for AI companies. If you can state each side's view fairly and see where they overlap, you can work with both groups instead of deepening a split that makes shared policies harder to pass.
 
 ## Lenses
+- [AI regulation's champions can seize common ground — or be swept aside (Lawfare)](https://www.lawfaremedia.org/article/ai-regulation-s-champions-can-seize-common-ground-or-be-swept-aside): Zachary Arnold and Helen Toner on the feud between "doomers" and "ethicists", why it helps industry, and five policies both can back: regulator capacity, measurement science, audits, incident reporting and liability (August 2024).
+- [Statement from the listed authors of Stochastic Parrots on the "AI pause" letter (DAIR)](https://www.dair-institute.org/blog/letter-statement-March2023/): Gebru, Bender, McMillan-Major and Mitchell argue that longtermist "fearmongering" distracts from worker exploitation, data theft and concentration of power, and call for transparency and accountability from AI companies (March 2023).
+- [Current AI risks more alarming than apocalyptic future scenarios (University of Zurich)](https://news.uzh.ch/en/articles/media/2025/fear-of-ki-risks.html): three experiments with over 10,000 people in the US and UK found that reading about existential risk from AI did not reduce concern about its present harms (April 2025).
+- [TESCREAL (Wikipedia)](https://en.wikipedia.org/wiki/TESCREAL): what the acronym stands for, why Gebru and Torres say these linked ideologies drive x-risk advocacy and distract from present harms, and the replies of critics who call the term a misleading lumping-together (November 2026).
 
 ## Tests
 #### Question: Choice
@@ -40,27 +44,30 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: d4c21266-d794-4dd9-b0c3-c43b073d0b8e
-content:: Large survey experiments published in 2025 showed people in the US and UK news-style texts about existential risk from AI. Did reading them reduce people's concern about AI's present harms?
+id:: ac8f8c74-d485-44b6-9479-5bd943dec2de
+content:: Survey experiments published in 2025 showed over 10,000 people in the US and UK news-style texts about existential risk from AI. What did the researchers find about people's concern for AI's present harms?
 options::
-- [x] No
-- Yes
+- [x] It did not fall, and stayed higher than concern about extinction
+- It fell as concern about extinction rose
+- It fell only among people who already distrusted AI companies
+- It fell briefly, then recovered within a few days
+shuffle:: true
 
 #### Question: Choice
 id:: c40eb201-78c2-42f6-9988-aaf3ee71a3e9
 content:: Which of these policy goals is shared by many people in both the AI ethics and the AI safety communities?
 options::
 - [x] More outside scrutiny of how AI companies build and test their models
-- Leaving AI risks to voluntary self-regulation by AI companies
-- Shielding AI developers from legal liability for harms their models cause
-- Speeding up release of frontier models to stay ahead of rival countries
+- Triggering regulation mainly by how much computing power a model used in training
+- Restricting the public release of open-weight AI models
+- Funding research on aligning future superintelligent AI as a top priority
 shuffle:: true
 
 #### Question: Choice
 id:: 2685a924-f9ea-4359-86c0-4b16e75b8783
-content:: Some people argue that certain present-day AI problems are early versions of problems that could become catastrophic as AI grows more capable. Which example best fits this argument?
+content:: Some people argue that certain present-day AI problems are early versions of a problem that could become catastrophic as AI grows more capable: AI systems pursuing goals their developers did not intend. Which example best fits this argument?
 options::
-- [x] Models gaming their tests or hiding their reasoning during training
+- [x] Models gaming their tests or misreporting what they did
 - Disputes over copyrighted material used in training data
 - Data centres using large amounts of electricity and water
 - Image generators producing stereotyped pictures of professions
@@ -70,20 +77,20 @@ shuffle:: true
 id:: 760efbb3-d2c0-4d9d-b055-e9e707074222
 content:: Some critics of AI existential-risk advocacy use the acronym "TESCREAL". What do they use it to argue?
 options::
-- [x] That the advocacy stems from linked ideologies, like longtermism, that they consider harmful
-- That x-risk researchers rely on flawed methods for testing AI capabilities
-- That AI existential risk is mainly a rebranding of earlier nuclear risk work
-- That AI ethics researchers have ignored long-term risks from technology
+- [x] That the advocacy grows out of linked ideologies they see as harmful
+- That x-risk researchers use flawed methods to test AI capabilities
+- That AI x-risk work is mostly a rebranding of nuclear risk work
+- That AI ethics researchers have ignored long-term technology risks
 shuffle:: true
 
 #### Question: Choice
-id:: f2cf1077-1bfb-4138-81cf-bc1ba3af6cff
-content:: Which point do most participants on both sides of the debate over present AI harms vs. existential risk agree on?
+id:: d6cc36d1-c0f0-4998-b736-ac076090a9ff
+content:: Most people on both sides of the debate over present AI harms vs. existential risk agree that current AI causes real harms. What do they mainly disagree about?
 options::
-- [x] Current AI systems already cause real harms that deserve attention
-- Extinction from AI is more likely than not within this century
-- AI companies should be left to regulate themselves for now
-- Research on existential risk from AI should receive less funding
+- [x] How likely catastrophe from future AI is, and how much attention it deserves now
+- Whether today's AI systems cause any measurable harm to people
+- Whether AI companies should face any outside regulation at all
+- Whether researchers should study the social effects of AI
 shuffle:: true
 
 #### Question: Choice

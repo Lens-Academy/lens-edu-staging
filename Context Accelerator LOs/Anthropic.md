@@ -12,9 +12,14 @@ Describe how Anthropic was founded and how it approaches safety, explain the cas
 - [[AI companies]]
 
 ## Why it matters
-Anthropic is one of the few companies building the most capable AI systems, and it argues that safety-focused developers should be among them. Weighing that argument helps you judge how far to trust company safety commitments, and what working at or supporting such a company is likely to achieve.
+Anthropic is one of the few companies building the most capable AI systems. It argues that since such systems will be built anyway, safety-focused companies should be among those at the frontier. Weighing that argument helps you judge how far to trust company safety commitments, and what working at or supporting such a company is likely to achieve.
 
 ## Lenses
+- [Anthropic (Wikipedia)](https://en.wikipedia.org/wiki/Anthropic): the basic facts: founding in 2021 by former OpenAI staff, the founders, Claude and its products, funding and investors, size, and the 2026 Pentagon dispute. Read the opening summary and the company history (updated November 2026).
+- [[../Lenses/anthropic-core-views-on-ai-safety-when-why-what-and-how|Core Views on AI Safety]]: Anthropic's founding case for why safety research has to be done on frontier models, and the tradeoff that creates. Read the opening summary and "The role of frontier models in empirical safety" (March 2023).
+- [[../articles/anthropic-responsible-scaling-policy-version-3-0|Responsible Scaling Policy: Version 3.0]]: Anthropic explains its if-then safety framework, the "race to the top" it hoped to start, what worked and what didn't, and why it rewrote the policy (February 2026).
+- [[../Lenses/AICF - Ngo - Pragmatism and pessimization|Richard Ngo: Pragmatism and pessimization]]: a critic's view, from a former OpenAI and DeepMind researcher, of how Anthropic's "alignment" work and racing pushed capabilities forward. Read the section "Anthropic" (August 2026).
+- [The Long-Term Benefit Trust (Anthropic)](https://www.anthropic.com/news/the-long-term-benefit-trust): what being a public benefit corporation means for Anthropic, and how its independent trust elects board directors (September 2023; trust-appointed directors became a board majority in April 2026).
 
 ## Tests
 
@@ -33,9 +38,9 @@ id:: cb2b6dcb-a567-4ea6-a491-8244c58b7fe4
 content:: Safety-focused AI companies such as Anthropic give a "build it safely first" reason for developing frontier AI. Which statement best captures it?
 options::
 - [x] Powerful AI will likely be built anyway, so careful developers should be at the frontier
-- Frontier AI is safe by default, so careful developers face little risk in building it
+- Frontier AI will soon be banned, so careful developers should shape the rules before then
 - Safety research needs no frontier models, so selling them funds outside research
-- Leading developers can legally stop rivals from training more capable models
+- Careful developers can earn enough from frontier AI to buy out riskier rivals
 shuffle:: true
 
 #### Question: Open
@@ -48,7 +53,8 @@ id:: ddbe61c7-cfd3-44d0-a868-deb09be3c3c5
 content:: Anthropic hopes its approach will start a "race to the top" among AI companies. Which development would best fit what it means by that?
 options::
 - [x] Other labs adopt safety frameworks modelled on Anthropic's
-- Other labs cut prices to win Anthropic's customers
+- Other labs stop building frontier models and leave the field to Anthropic
+- Governments approve Anthropic's models as the only ones allowed for use
 - Other labs train larger models to beat Anthropic's scores
 - Other labs hire away Anthropic's researchers with higher pay
 shuffle:: true
@@ -57,7 +63,7 @@ shuffle:: true
 id:: 2f782ea0-a5b8-496b-935b-8223aa770bd4
 content:: What is Anthropic's Responsible Scaling Policy?
 options::
-- [x] Its own framework linking required safeguards to its models' measured capabilities
+- [x] Its own voluntary framework tying safeguards to its models' capabilities
 - A US law that requires AI companies to test models before release
 - An agreement among leading labs to cap the compute used in training
 - Its policy for deciding which customers may use its models
@@ -69,12 +75,15 @@ content:: Earlier versions of Anthropic's Responsible Scaling Policy implied tha
 options::
 - [x] It removed it
 - It made it an explicit, binding commitment
+- It kept it unchanged
+- It handed the decision to pause to the US government
+shuffle:: true
 
 #### Question: Choice
 id:: 9c416562-b434-4312-aa10-64efc90d8d82
 content:: What does Anthropic's Long-Term Benefit Trust do?
 options::
-- [x] It elects some of Anthropic's board directors
+- [x] It elects board directors, who as of 2026 are a majority of the board
 - It owns most of Anthropic's shares and receives its profits
 - It must approve each new model before release
 - It audits Anthropic's safety tests for the US government

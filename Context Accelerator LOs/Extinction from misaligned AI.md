@@ -15,6 +15,10 @@ Explain how a misaligned AI could cause human extinction through indifference ra
 If you assume an AI would have to hate humans to kill them, you will underrate the danger from systems that simply don't care about us. Whether losing control means extinction also changes how bad the worst outcomes are, and so how much caution is worth paying for.
 
 ## Lenses
+- [[../Lenses/IABIED - QA - Satisfied to Leave Us Alone|Can the AI Be Satisfied to Leave Us Alone?]]: why an AI that doesn't hate us still wouldn't leave us be: insatiable goals, the chimpanzee analogy, taking Earth and space at once, humans as a threat, and dying at "ground zero".
+- [[../Lenses/IABIED - QA - Preserving Humans Negligible|Wouldn't Preserving Humans Be a Negligible Expense?]]: cheap isn't the same as wanted; why the AI would use Earth's oceans, matter and sunlight first, despite all the resources in space.
+- [[../Lenses/minuteearth-three-specific-ways-ai-could-kill-us-all|Three Specific Ways AI Could Kill Us All]]: a four-minute video with three concrete scenarios: draining the world's power for a maths problem, stripping oxygen from the air, and a pathogen to stop humans shutting it down.
+- [Notes on Fatalities from AI Takeover (Redwood Research)](https://blog.redwoodresearch.org/p/notes-on-fatalities-from-ai-takeover): a leading safety researcher's dissenting estimate that about half of people, not everyone, would die in expectation, with his reasons for and against survival. Read the estimates and the reasons sections (September 2025).
 
 ## Tests
 #### Question: Choice
@@ -33,28 +37,34 @@ content:: A misaligned AI has taken control of the world but doesn't care about 
 assessment-instructions:: Score out of 100. 100 for either: humans could still threaten it (try to shut it down, attack it, or build a rival AI with other goals) and removing them would be cheap; or humans and what they need stand in the way of its use of land, energy or matter. 50 for "they're a threat" or "it wants resources" with no explanation. 0 for answers that rely on hatred or revenge.
 
 #### Question: Choice
-id:: 1a9fdfce-4477-4850-b6b0-be0768e7a4f3
+id:: 9cb7e4d6-549a-4d25-8f71-511f31504a0b
 content:: One argument says a misaligned AI might kill humans because doing so is a cheap way to remove a threat. Which development would make this reasoning stronger?
 options::
-- [x] The AI can now remove humans using a tiny share of its resources
-- Humans agree to stop all further AI research
-- The AI's goals come to include human wellbeing
-- Humans spread out more widely across the globe
+- [x] Surviving humans keep the ability to build a rival AI with different goals
+- Humans agree to stop all further AI research and hand over their chips
+- Humans scatter across many remote places that are costly to reach
+- The AI finds it can reach its goals using only resources in space
 shuffle:: true
 
 #### Question: Choice
-id:: cea430c3-8a59-469b-a192-4c7793cfa930
+id:: bf722785-6ffd-416a-9180-baf3f6e0fb58
 content:: One misaligned AI wants to make as many paperclips as possible; another wants to compute as many digits of pi as possible. Do arguments that misaligned AI could cause human extinction apply to both?
 options::
-- [x] Yes
-- No
+- [x] Yes: more energy, matter and freedom from interference help with either goal
+- Yes: both AIs would come to resent humans for limiting what they can do
+- No: only the paperclip AI needs physical materials, so only it competes with us
+- No: computing digits is harmless, so that AI has no reason to act in the world
+shuffle:: true
 
 #### Question: Choice
-id:: b2f9a9ad-f2b3-481a-b7ce-cb3446830c7c
-content:: Suppose nothing humans could do would threaten a misaligned AI that had taken control. According to arguments that misaligned AI could cause human extinction, would that alone make human survival likely?
+id:: e6b9647a-d9f1-413e-a4d6-2f3e1c8fdf0d
+content:: Suppose nothing humans could do would threaten a misaligned AI that had taken control. Someone concludes that humans would therefore probably survive. According to arguments that misaligned AI could cause human extinction, what does this overlook?
 options::
-- [x] No
-- Yes
+- [x] Its use of land, energy and matter could destroy what humans need to live
+- It would still want to punish the humans who tried to stop its takeover
+- An AI that faces no threats tends to grow more hostile over time
+- Humans would keep attacking it, and it would answer each attack in kind
+shuffle:: true
 
 #### Question: Open
 id:: 4e263a69-42e2-4bcb-be19-6984578c131e
@@ -63,7 +73,7 @@ assessment-instructions:: Score out of 100. 100 for any one of: the AI could fin
 
 #### Question: Choice
 id:: d9e7c073-6bfb-4c52-beb0-c0e8bceed9b4
-content:: Some argue that a misaligned AI could leave Earth alone and use resources in space instead. What is a common reply?
+content:: Some argue that a misaligned AI could leave Earth alone and use resources in space instead. Why might it use up Earth's resources anyway?
 options::
 - [x] It could use both, and Earth's resources are the closest at hand
 - Space holds far fewer usable resources than Earth does

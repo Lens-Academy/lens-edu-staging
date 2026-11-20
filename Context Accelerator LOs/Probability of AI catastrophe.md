@@ -17,6 +17,11 @@ Describe the range of published estimates that AI causes existential catastrophe
 Figures like "a 10% chance of extinction" shape how seriously the public and policymakers take AI risk. If you can tell what outcome, time frame and conditions a number refers to, you can compare estimates fairly, avoid confusing them with timeline forecasts, and explain why even a small probability can warrant action.
 
 ## Lenses
+- [[../Lenses/AI Safety Atlas - Risks - Appendix Quantifying Existential Risks|Quantifying Existential Risks]]: what p(doom) means, why it can't be measured from data, estimates from 0% to 99.9%, and why they are hard to compare (2025).
+- [[../Lenses/IABIED - QA - AI Experts on Catastrophe|AI Experts on Catastrophe]]: Hinton, Bengio, Christiano and others in their own words, plus the authors' footnote on why a single p(doom) misleads and why even 5% is alarming (2025).
+- [My views on "doom" (LessWrong)](https://www.lesswrong.com/posts/xWMqsvHapP3nwdSW8/my-views-on-doom): Paul Christiano splits his estimate by outcome (takeover, most humans dying, a ruined future) and time frame, all things considered (April 2023).
+- [[../Lenses/grace-thousands-of-ai-authors-on-the-future-of-ai|Thousands of AI Authors on the Future of AI]]: the 2023 survey of 2,778 AI researchers; read sections 4.2 and 4.3 for the median 5% and how answers shift with the question's wording (2024).
+- [The Extinction Tournament (Astral Codex Ten)](https://www.astralcodexten.com/p/the-extinction-tournament): Scott Alexander on the tournament where superforecasters put AI extinction by 2100 far below AI experts, and why months of debate didn't close the gap (July 2023).
 
 ## Tests
 #### Question: Choice
@@ -30,20 +35,23 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 0cb99dcc-e991-4c17-b08c-8b2d98e64566
-content:: A researcher puts a 20% probability on existential catastrophe if superintelligent AI is built this century, and thinks such a catastrophe can't happen without superintelligence. Is their overall p(doom) for this century at most 20% or at least 20%?
+id:: f2073698-6df1-473b-b673-df92c7f5203a
+content:: Person A puts a 20% chance on existential catastrophe if superintelligent AI is built. Person B puts a 10% chance on existential catastrophe from AI this century. What can you conclude about who is more pessimistic?
 options::
-- [x] At most 20%
-- At least 20%
+- [x] Nothing yet, without knowing how likely A thinks superintelligence is
+- A is more pessimistic, since 20% is double B's figure of 10%
+- B is more pessimistic, since conditional figures tend to overstate risk
+- They roughly agree, since both figures are about existential catastrophe
+shuffle:: true
 
 #### Question: Choice
-id:: 51a2a2a8-fc4d-4e64-816d-f0fa821bf541
-content:: In the 2023 AI Impacts survey of about 2,700 published AI researchers, what was the median probability given to advanced AI causing extremely bad outcomes, such as human extinction?
+id:: a85df9c4-d25f-44f6-8593-9de255a258a4
+content:: In the AI Impacts survey of published AI researchers fielded in late 2024 (published September 2026, the latest as of November 2026), what was the median probability respondents gave to future AI causing human extinction or similarly permanent and severe disempowerment of humanity?
 options::
-- [x] 5%
-- 0.1%
-- 30%
-- 60%
+- [x] 10%
+- 0.5%
+- 40%
+- 75%
 shuffle:: true
 
 #### Question: Choice
@@ -53,17 +61,17 @@ options::
 - [x] The superforecasters' median was several times lower
 - The superforecasters' median was several times higher
 - The two medians were nearly identical from the start
-- The two groups converged after months of discussion
+- The two medians converged after the groups exchanged arguments
 shuffle:: true
 
 #### Question: Choice
 id:: 9e33ae65-f955-45ae-b2e1-a7e0d01413df
-content:: Surveys of AI researchers have asked about extinction risk from AI in slightly different wordings, and the median answers shifted noticeably with the wording. What does this suggest?
+content:: In the AI Impacts surveys, randomly chosen groups of AI researchers were asked about extinction risk from AI in slightly different wordings, and the medians differed noticeably (for example 5% for one wording and 10% for another). What does this suggest?
 options::
 - [x] Many respondents' estimates are rough and sensitive to framing
 - Researchers deliberately misreport their views on surveys
-- Some wordings describe outcomes that cannot happen
-- Each wording reached researchers from a different field
+- The wording with the higher median is the more accurate one
+- The groups who got each wording held very different views
 shuffle:: true
 
 #### Question: Choice
@@ -74,11 +82,14 @@ options::
 - No
 
 #### Question: Choice
-id:: 86a739fc-8bac-4f17-929b-752e5d5dd475
-content:: Someone says their p(doom) is 10%. Does this mean they expect AI to cause disaster in about 1 of every 10 attempts to build advanced AI?
+id:: 2d5c633f-5298-4698-8021-6e02db87cb52
+content:: Someone says their p(doom) is 10%. What is the best way to read this number?
 options::
-- [x] No
-- Yes
+- [x] As their degree of belief that this one-off outcome will happen
+- As a rate measured from past cases of advanced AI development
+- As the share of AI companies they expect to cause a disaster
+- As the share of experts they believe agree with their view
+shuffle:: true
 
 #### Question: Choice
 id:: d204b462-5955-47e2-b791-f79ae6b0fcec
@@ -87,7 +98,7 @@ options::
 - [x] They range from near 0% to above 90%
 - They cluster between 40% and 60%
 - They cluster below 1%
-- They cluster between 10% and 20%
+- They cluster above 90%
 shuffle:: true
 
 #### Question: FillBlank
