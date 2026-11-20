@@ -28,9 +28,7 @@ Source: [https://darioamodei.com/post/we-must-pace-the-frontier](https://darioam
 
 *Recursive self-improvement, or RSI, is AI doing the work of building better AI. Whoever gets that loop running first sets the pace for the rest of the field, which is why it is worth tracking closely. Nobody has closed the loop yet. Plenty of teams say they are close.*
 
-*This directory lists the companies working toward it, from whichever angle they take: models that train their successors, harnesses that run research without a human in the loop, and the infrastructure and data underneath. It stopped being a frontier-lab story some time ago. Small teams with a tight loop are moving fast, and a good share of the results marked on the chart came from them, not from the labs.*
-
-*The chart above lays the field's milestones over its money. 39 startups are in the directory, 20 of them founded since 2025.*
+*This directory lists the companies working toward it, from whichever angle they take: models that train their successors, harnesses that run research without a human in the loop, and the infrastructure and data underneath. It stopped being a frontier-lab story some time ago.*
 
 Source: [https://rsi-list.com/](https://rsi-list.com/)
 
