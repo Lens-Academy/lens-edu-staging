@@ -1,7 +1,7 @@
 ---
 id: 'a261f3f5-e81c-46b1-a1de-9e5272df72ee'
 slug: conac-l3-m4-theories-of-change-for-existing-approaches
-title: "Module 4, level 3: Theories of change for existing approaches"
+title: "Level 3"
 tags:
   - wip
 ---
