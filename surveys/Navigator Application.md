@@ -38,6 +38,23 @@ content:: Which courses, programs or reading? If it was a Lens course, which one
 max-chars:: 1000
 
 #### Choice
+key:: heard_about_lens
+content:: How did you hear about Lens?
+options::
+- A Lens course
+- A friend or colleague
+- An AI safety community or newsletter
+- Social media
+- Other
+required:: true
+
+#### Question
+key:: heard_about_lens_detail
+content:: If other, or if someone referred you, tell us where or who.
+max-chars:: 300
+short:: true
+
+#### Choice
 key:: facilitation_experience
 content:: Have you led group discussions or taught before?
 options::
