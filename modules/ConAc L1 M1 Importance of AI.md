@@ -18,7 +18,7 @@ slug:: m1-1-different-views
 source:: [[../Lenses/ConAc L1 M1 - Different views on AI and associated risks]]
 
 ## Lens:
-source:: [[../Lenses/ConAc L1 M1 - Doctrine examples]]
+source:: [[../Lenses/ConAc L1 M1 - A representative text for each doctrine]]
 
 # Submodule: 1.2 Scaling laws
 slug:: m1-2-scaling-laws
