@@ -94,10 +94,10 @@ shuffle:: true
 id:: a8bec85e-8887-45fe-be63-8b558ab83c44
 content:: Someone says: "People who work on AI risk only talk about dangers, so they must think AI will be bad overall." Which reply best describes many people in the field?
 options::
-- [x] Many expect large benefits and see safety as what makes them reachable
-- Most want advanced AI to be banned permanently, whatever the benefits
-- Most think the benefits of AI will be small and short-lived
-- Most think the benefits will arrive whether or not risks are handled
+- [x] Many expect large benefits and see handling the risks as what makes them reachable
+- Many expect only modest benefits, so they see little reason to accept any risk
+- Many expect large benefits, which will arrive whether or not the risks are handled
+- Many expect benefits only in narrow areas such as medicine, not across society
 shuffle:: true
 
 #### Question: Open

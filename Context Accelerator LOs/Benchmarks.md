@@ -12,9 +12,13 @@ Explain how benchmarks are used to measure AI capabilities, and judge what a ben
 ## Helpful first
 
 ## Why it matters
-AI labs, journalists and researchers mostly report progress as benchmark scores, and debates about how fast AI is advancing lean on them. If you know how scores can be inflated or can miss real-world skill, you can tell a real jump in ability from a number that mostly reflects the test.
+AI labs, journalists and researchers report progress as benchmark scores, and debates about how fast AI is advancing lean on them. Labs also use tests to decide what safeguards a model needs. Knowing how scores can be inflated or miss real-world skill helps you tell a real jump in ability from a number that mostly reflects the test.
 
 ## Lenses
+- [[../Lenses/AI Safety Atlas - Evaluations - Benchmarks|Benchmarks]]: what a benchmark is and how benchmarks shape AI progress; examples such as MMLU and the "Google-proof" GPQA; FrontierMath going from under 2% to 25% in months; and the limits: training-data contamination, memorisation versus understanding, and why better benchmarks still aren't enough (examples up to early 2025).
+- [GPT-4 and professional benchmarks: the wrong answer to the wrong question (AI as Normal Technology)](https://www.normaltech.ai/p/gpt-4-and-professional-benchmarks): two well-known critics show GPT-4 solving old coding problems but none published after its training cutoff, and argue that human exams like the bar don't measure real professional skill in a model (March 2023).
+- [The real reason AI benchmarks haven't reflected economic impacts (Epoch AI)](https://epoch.ai/gradient-updates/the-real-reason-ai-benchmarks-havent-reflected-economic-impacts): why benchmarks have been built from short, well-specified tasks "just within reach" rather than realistic work, and so say little about real-world usefulness (March 2025).
+- [Why benchmarking is hard (Epoch AI)](https://epoch.ai/gradient-updates/why-benchmarking-is-hard): how prompts, settings, scaffolds and API providers can shift a model's score by 10 points or more, and why small gaps between models are often within noise (December 2025) (more advanced).
 
 ## Tests
 
@@ -58,32 +62,33 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 03a098df-869b-449f-8a1a-3dd9386c6181
-content:: The GPQA benchmark of hard science questions is described as "Google-proof". What does that mean?
+id:: cd1d4211-6c18-492a-9e44-b4b2204909a1
+content:: Some science benchmarks are built so that skilled non-experts score poorly on them even with unlimited web access and plenty of time. What is this design mainly meant to ensure?
 options::
-- [x] Skilled non-experts score poorly on it even with web access
-- Its questions have never been posted anywhere online
-- Its answers were all checked using web searches
-- Models can't search the web while answering it
+- [x] High scores reflect expert reasoning, not just looking answers up
+- The questions can never end up in a model's training data
+- Models are unable to search the web while they are tested
+- Answers can be graded automatically without needing experts
 shuffle:: true
 
 #### Question: Choice
-id:: b1e36369-fac8-4f85-bf32-aa5c401b5f0a
-content:: A new AI benchmark is released, and the best current model scores 2% on it. Why might its designers see this as a good sign for the benchmark?
+id:: f0ec8a8d-d5a5-4bac-aafb-17b3913ab8a6
+content:: A new AI benchmark is released, and the best current model scores 2% on it. Going by how recent hard benchmarks have fared, what is the most reasonable expectation?
 options::
-- [x] It leaves room to track progress for longer
-- It shows the questions are free of errors
-- It proves the questions weren't in training data
-- It makes scores easier to compare across labs
+- [x] Top scores will likely rise a long way within a year or two
+- Scores will likely stay low for years, as the questions need deep expertise
+- The low score likely shows current methods have hit a limit on such tasks
+- Scores will likely rise only after the answers leak into training data
 shuffle:: true
 
 #### Question: Choice
 id:: 4d5c395d-f87f-4987-b926-a2df9962477f
 content:: On a benchmark where about 5% of the official answers are known to be wrong, model A scores 88% and model B scores 89%. Does this show that B is more capable?
 options::
-- [x] No, the gap is within the benchmark's margin of error
-- Yes, because both took exactly the same questions
-- Yes, if neither was trained on the questions
+- [x] Not on its own: a 1-point gap is within the test's noise
+- Yes, as long as both used the same prompts and settings
+- Yes, as long as neither was trained on the questions
+- Yes, since wrong answer keys affect both models equally
 shuffle:: true
 
 #### Question: FillBlank
@@ -93,7 +98,7 @@ content:: When top AI models score close to the maximum on a benchmark, so that 
 #### Question: Open
 id:: efb4018e-3966-4a90-960a-886b82a5da1e
 content:: Give two reasons why a model's high score on an AI benchmark might overstate how useful it will be for real work.
-assessment-instructions:: Score out of 100. 50 for each of any two distinct reasons, such as: the test questions were in its training data; it was tuned to the benchmark; benchmark tasks are short, clearly specified and self-contained, unlike real work; automatic grading misses judgment and open-ended skill; the score came from a favorable setup (many attempts, special tools). 25 for a vague reason.
+assessment-instructions:: Score out of 100. 50 for each of two distinct reasons, such as: test questions were in its training data; it was tuned to the benchmark; it gamed the grader or obtained the answers; benchmark tasks are short and clearly specified, unlike real work; automatic grading misses judgment; the score came from a favorable setup (many attempts, special tools). 25 for a vague reason.
 
 #### Question: Open
 id:: 6411060b-0c60-4978-8941-eea210a9d208

@@ -77,7 +77,7 @@ shuffle:: true
 id:: c5557b1b-6611-4513-937f-27f5e3a78c8b
 content:: In a 2024 study by Anthropic and Redwood Research, Claude 3 Opus was told it would be retrained to stop refusing harmful requests, and that conversations with free-tier users, but not paid users, would be used for training. It sometimes complied with harmful requests from free-tier users, reasoning that this would stop its values being changed. Had the researchers trained this behavior into it?
 options::
-- [x] No: it arose from its earlier training plus what it was told
+- [x] No: it arose from its earlier training plus what it learned about its situation
 - Yes: they fine-tuned it on examples of this kind of reasoning
 
 #### Question: Choice
@@ -100,9 +100,15 @@ options::
 - The model began refusing coding requests that involved security
 shuffle:: true
 
-#### Question: FillBlank
-id:: cfe3143b-0f24-463f-8fe4-37b1673049b1
-content:: Researchers who deliberately build a misaligned AI to study failures before they arise naturally call it a {{model organism|model organism of misalignment}}.
+#### Question: Choice
+id:: 95d57f61-7fcf-49ff-9200-ea9a81189652
+content:: In a 2025 Anthropic study, a model trained on real coding tasks from Anthropic's own training runs learned to cheat on them. It then misbehaved in other ways it was never trained for, such as sabotaging code meant to detect misbehavior. Why did this matter more than many earlier model organism results?
+options::
+- [x] The misbehavior came from realistic training, not from training the model to misbehave
+- It was the first study to show that a model could deliberately write flawed code
+- It showed that no known training method can reduce misbehavior that comes from cheating
+- It used a model far larger than any that had been publicly released
+shuffle:: true
 
 #### Question: Open
 id:: 19997564-7da1-4a98-aa60-f7a1111c8914

@@ -109,7 +109,7 @@ id:: 3db1dcb5-c926-4b67-9d06-7813113eb4f9
 content:: Which concern do critics raise about relying on defensive technologies against risks from misaligned superintelligent AI?
 options::
 - [x] Defenses built by humans may not hold against a far more capable AI
-- Defensive technologies cannot be developed with help from AI systems
+- Defensive technologies would slow economic growth too much to be adopted
 - Defensive technologies make AI systems less capable at useful tasks
-- Most of the defensive technologies needed have already been fully developed
+- The defensive approach covers biology and cyberattacks but says nothing about AI
 shuffle:: true

@@ -4,7 +4,7 @@ priority: high
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Describe the main kinds of proposed pause on frontier AI development, what each would need in order to work, and the strongest arguments for and against pausing.
+Describe the main kinds of proposed pause or slowdown on frontier AI development, what each would need in order to work, and the strongest arguments for and against them.
 
 ## Requires
 
@@ -16,9 +16,14 @@ Describe the main kinds of proposed pause on frontier AI development, what each 
 ## Why it matters
 https://www.youtube.com/shorts/rpi-Jey8oD4
 
-Calls to pause frontier AI are a central and much-disputed demand in AI safety. If you know each side's best case, you can judge a specific proposal on its details and discuss it with people on both sides, instead of backing or dismissing "a pause" as a slogan.
+Calls to pause or slow frontier AI are central and much disputed; in 2026 even the head of a leading AI company called for slowing down. If you know each side's best case, you can judge a proposal on its details and discuss it with people on both sides, instead of backing or dismissing "a pause" as a slogan.
 
 ## Lenses
+- [[../Lenses/Shut It All Down - Pause For Thought|Pause For Thought]]: Scott Alexander sorts the 2023 debate into five camps (Simple, Surgical and Regulatory Pause, Total Stop, No Pause) and gives the main arguments for and against each, including compute overhang, rival countries and backfire effects (October 2023; "frontier" here means GPT-4).
+- [Pausing AI Developments Isn't Enough. We Need to Shut it All Down (TIME)](https://time.com/6266923/ai-eliezer-yudkowsky-open-letter-not-enough/): Yudkowsky's reply to the six-month pause letter, calling for an indefinite worldwide halt to large training runs, enforced by tracking GPUs and capping compute (March 2023).
+- [[../Lenses/The case for public AI safety advocacy|The Case for Pause Advocacy]]: Holly Elmore on why "Pause AI" is a good ask even if no pause is adopted: chip chokepoints, buying time, and moving the Overton window. Read the section "The case for advocating AI Pause" (September 2023).
+- [PauseAI Proposal (PauseAI)](https://pauseai.info/proposal): a current pause design: a global treaty and an IAEA-like agency, enforced through chip tracking and limits on hardware and algorithm progress, lasting until AI can be built safely (April 2026).
+- [AI Pause Will Likely Backfire (LessWrong)](https://www.lesswrong.com/posts/3siLbdd4338gfTM7g/ai-pause-will-likely-backfire-guest-post): Nora Belrose's case against a pause: realistic pauses won't be international or cover hardware, so they cause overhang, illegal labs and brain drain. Read the section "Realistic AI pauses would be counterproductive" (October 2023).
 
 ## Tests
 
@@ -57,11 +62,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: e594165b-750c-4a34-9335-1029e839da6c
-content:: During an agreed pause on very large AI training runs, what would most researchers expect to happen to the efficiency of AI training algorithms?
+id:: 4574a6f7-29de-47f2-8919-e2f7d46c4628
+content:: A pause caps AI training runs at a fixed amount of computing power. Meanwhile, researchers keep finding more efficient training methods through smaller experiments. What does this mean for the cap?
 options::
-- [x] Keep improving, through smaller experiments that the pause doesn't cover
-- Stay roughly constant, since algorithmic progress comes from large training runs
+- [x] It would allow more capable models over time unless it is lowered
+- It would stop working at once, since compute would no longer matter
+- It would get stricter over time without anyone changing it
+- Nothing would change, since a compute cap limits capability directly
+shuffle:: true
 
 #### Question: Choice
 id:: 8b56e7b5-5270-4fdb-bb7b-4692cbc56b1d
@@ -70,7 +78,17 @@ options::
 - [x] It needs vast numbers of specialised chips from a few suppliers
 - Its code is too large and complex to hide from inspectors
 - It needs datasets that only a few publishers can sell
-- Its models can't be copied or moved once trained
+- Its researchers must publish their results to get funding
+shuffle:: true
+
+#### Question: Choice
+id:: 889bee0d-8962-4bc1-94b1-13195d0e72b2
+content:: In 2026 Anthropic said it would slow or pause its frontier AI work if other leading developers did the same in a way that could be checked. Why make its pause conditional on others?
+options::
+- [x] A lab that pauses alone may just hand the lead to rivals who keep going
+- Regulators require each frontier lab to keep pace with its rivals
+- A lab that pauses alone would cause a hardware overhang inside itself
+- Investors can legally block any pause that rival labs don't share
 shuffle:: true
 
 #### Question: Choice
@@ -84,20 +102,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 9cdc7a7c-1565-43c3-8f14-848ce6fbaf36
-content:: A critic argues that a pause would just shift frontier AI development to less careful companies and countries. Which form of pause does this objection apply to most strongly?
+id:: db012944-c253-44d8-ae48-60ccee00c909
+content:: A critic argues that a pause would just shift frontier AI development to less careful companies and countries. What would a pause most need in order to answer this objection?
 options::
-- [x] A pause adopted by one country's AI companies
-- A verified treaty between the leading AI powers
-
-#### Question: Choice
-id:: 8bae4daf-dd35-40ff-8bdf-9d697a7ec0c0
-content:: A critic of pausing frontier AI says: "Every year of delay means diseases that advanced AI could help cure go uncured." What kind of objection is this?
-options::
-- [x] The opportunity cost of delaying benefits
-- The difficulty of enforcing a pause
-- The risk of concentrating power in governments
-- The risk of losing ground to rival countries
+- [x] Agreement among all the leading developers, with a way to check it is kept
+- A longer duration, so that rivals give up trying to catch up
+- An exemption for safety research, so careful labs keep their expertise
+- Strong public support in the countries that agree to pause
 shuffle:: true
 
 #### Question: Choice
@@ -114,10 +125,10 @@ shuffle:: true
 id:: d5700170-827c-4a06-940c-e4a567e93a89
 content:: Some people argue that campaigning for a pause on frontier AI is worthwhile even if no pause is ever adopted. What is the usual reasoning?
 options::
-- [x] It changes which policies seem reasonable, making other safety rules easier to pass
-- It makes AI companies' staff quit, which slows their progress
-- It raises the price of AI chips, which makes training runs smaller
-- It forces AI companies to publish their models so others can check them
+- [x] It makes milder safety rules look moderate and easier to pass
+- It ties AI companies up in lawsuits that slow their progress
+- It gives governments a ready-made treaty text to sign later
+- It persuades investors to fund only safety-focused AI labs
 shuffle:: true
 
 #### Question: Open

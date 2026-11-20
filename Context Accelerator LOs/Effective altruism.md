@@ -132,8 +132,8 @@ assessment-instructions:: Score out of 100. 50 for the definition: choosing a hi
 
 #### Question: Open
 id:: 6d0280c4-ad7a-4046-8e5a-d7d192a0428b
-content:: Effective altruism grew out of rigorous charity evaluation. Why do some critics see its focus on AI risk as a departure from that, and how do supporters reply?
-assessment-instructions:: Score out of 100. 50 for the critique: AI risk can't be measured with trials or hard data, so it rests on speculative reasoning about uncertain future events. 50 for the reply: careful expected-value reasoning still applies, and a small chance of a huge catastrophe can outweigh better-evidenced causes. Partial credit for either side alone.
+content:: Effective altruism is known for rigorous charity evaluation. Why do some critics see its focus on AI risk as a departure from that, and how do supporters reply?
+assessment-instructions:: Score out of 100. 50 for a critique, e.g. AI risk can't be measured with trials or hard data; it rests on speculation about the future; progress is hard to check; it pulls money from proven causes. 50 for a reply, e.g. expected-value reasoning still applies when evidence is thin; the risk may not be small given fast AI progress and expert surveys; important problems aren't less real for being hard to measure.
 
 #### Question: Open
 id:: d3a7646d-02df-4c0e-a423-a8faea147a9a

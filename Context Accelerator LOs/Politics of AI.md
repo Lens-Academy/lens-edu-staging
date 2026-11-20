@@ -111,16 +111,17 @@ options::
 - [x] Voters were roughly evenly split between the two parties
 - Democrats were trusted more, by a wide margin
 - Republicans were trusted more, by a wide margin
+- Over half of voters said they trusted neither party
 shuffle:: true
 
 #### Question: Choice
 id:: bd75a4bb-1af7-48ae-aca6-b2f8107006a8
-content:: In 2026, EU lawmakers provisionally agreed to delay some EU AI Act obligations for high-risk AI systems. What main argument drove this?
+content:: In May 2026, EU lawmakers provisionally agreed to delay EU AI Act rules for high-risk AI systems to late 2027. The European Commission said the supporting technical standards were not ready. What argument from industry added to the pressure for delay?
 options::
-- [x] Easing rules would help European companies compete
-- New evidence showed high-risk AI systems were safe
-- A trade deal with the US required removing the rules
-- The EU Court of Justice had struck the rules down
+- [x] Heavy rules would leave Europe behind in the global AI race
+- The rules were too weak to justify their compliance costs
+- High-risk uses of AI should be left to national governments
+- The rules duplicated an upcoming binding UN treaty on AI
 shuffle:: true
 
 #### Question: Open
@@ -130,7 +131,7 @@ assessment-instructions:: Score out of 100. 100 for any two of: data centers rai
 
 #### Question: Open
 id:: 59555efd-3683-485c-97d0-cf80c4bfe755
-content:: After the November 2026 US midterms, the AI industry super PAC Leading the Future said primaries are a more effective use of its money than general elections. Give one reason this might be true for an issue like AI.
+content:: Around the November 2026 US midterms, the AI industry super PAC Leading the Future said primaries are a better use of its money than general elections. Give one reason this might be true for an issue like AI.
 assessment-instructions:: Score out of 100. 100 for any one of: in safe seats the primary decides who wins; in general elections party loyalty outweighs a low-salience issue like AI; primaries have lower turnout and less-informed voters, so spending moves more votes; candidates within one party differ more on AI than the parties do. 40 for "it's cheaper" with no reason.
 
 #### Question: Open

@@ -13,9 +13,14 @@ Weigh AI's benefits against its risks: explain the main arguments that faster de
 ## Helpful first
 
 ## Why it matters
-Most debates about pausing, regulating or speeding up AI come down to this tradeoff. A learner who can separate the cost of delay from the cost of a catastrophe can see where two sides actually disagree, instead of talking past each other.
+Debates about pausing, regulating or speeding up AI usually turn on two questions: how likely a catastrophe is, and how to weigh that risk against the cost of delay. If you can tell these apart, and spot what else each side assumes, such as whether slowing down would lower the risk, you can find where two sides really disagree.
 
 ## Lenses
+- [Astronomical Waste (Nick Bostrom)](https://nickbostrom.com/astronomical/waste.html): the classic argument that, if all future generations count equally, a single point of existential risk outweighs millions of years of delay, and why a view centred on people alive today must weigh speed against safety instead (2003).
+- [Optimal Timing for Superintelligence (Nick Bostrom)](https://nickbostrom.com/optimal.pdf): the case for building superintelligence fairly soon, made from the standpoint of people alive today: "risky surgery, not Russian roulette". Read the Introduction, "Evaluative framework" and "A simple go/no-go model" (February 2026).
+- [[../Lenses/IABIED - QA - What About the Benefits of AI|What About the Benefits of AI?]]: Yudkowsky and Soares answer "delay costs lives": rushing destroys the benefits, narrow AI and medicine offer safer routes, and the people put at risk were never asked (2025).
+- [[../Lenses/Machines Of Loving Grace|Machines of Loving Grace]]: Anthropic's CEO argues the upside of AI is underrated and that the risks are what stand between us and it, so safety work is part of getting the benefits (October 2024).
+- [[../Lenses/Shut It All Down - Pause For Thought|Pause For Thought]]: people who agree AI may be dangerous disagree on whether pausing would lower the risk: more time for alignment against compute overhang, losing the lead, and backfire (October 2023).
 
 ## Tests
 
@@ -44,9 +49,9 @@ id:: 19f7b9e2-3977-4a9b-9ae2-9cce5f8cebd1
 content:: AlphaFold, a narrow AI system built to predict protein structures, has sped up biology research. What does this example suggest in debates about AI's benefits and risks?
 options::
 - [x] Some major benefits may not require the most general, riskiest systems
-- Narrow AI systems carry the largest existential risks
-- Medical benefits require general AI to be built first
-- Biology is too risky a field for AI to be used in
+- Slowing general AI would also halt progress like AlphaFold
+- Major scientific benefits arrive only once AI is fully general
+- Narrow systems tend to become general without further effort
 shuffle:: true
 
 #### Question: Choice
@@ -64,29 +69,29 @@ id:: e6902d8d-b087-4b88-b72b-702fb0cbf7a6
 content:: Some critics say that weighing AI's benefits and risks by expected value gives too much weight to existential risk. What is their usual concern?
 options::
 - [x] Tiny chances of enormous losses can outweigh every other consideration
-- Expected value leaves the benefits of AI out of the calculation
-- Expected value is suited to financial decisions, not moral ones
-- The chances of existential catastrophe are known too precisely
+- Expected value counts deaths but ignores benefits that are delayed
+- Expected value treats every possible outcome as equally likely
+- Expected value only works when the outcomes can be measured in money
 shuffle:: true
 
 #### Question: Choice
-id:: de5285db-a900-43d0-a26a-fae3bea4b4e4
-content:: Two people agree that advanced AI has a 5% chance of causing extinction and could cure most diseases. One wants to speed AI up and the other wants to slow it down. Which of these could explain their disagreement?
+id:: 6a2d4c52-813f-486e-a3b2-23bd959def74
+content:: Two people agree that advanced AI has a 5% chance of causing extinction and could cure most diseases. One wants to speed AI up and the other wants to slow it down. What does this show?
 options::
-- [x] They disagree about whether slowing down would actually lower the risk
-- They disagree about how likely AI is to cause extinction
-- They disagree about whether AI could cure most diseases
-- They disagree about how large the medical benefits would be
+- [x] Other beliefs, such as whether slowing helps, can still divide them
+- One of them must be making an error in reasoning
+- They must privately disagree about the 5% figure
+- Agreeing on these numbers should settle the question
 shuffle:: true
 
 #### Question: Choice
-id:: 475e624b-fc81-4e58-a66e-addd41c2626d
-content:: Some argue that AI's large benefits depend on humanity staying in control of advanced AI. If that is right, how does safety work relate to those benefits?
+id:: 69d18307-591e-4b8b-8ea4-6ce5ee0da343
+content:: Safety work on advanced AI is sometimes described as a cost paid for lower risk, and sometimes as a precondition for AI's benefits. When does the "precondition" description fit best?
 options::
-- [x] It is part of what makes the benefits possible
-- It delays the benefits without changing whether they arrive
-- It matters once the benefits have already arrived
-- It trades away some benefits in exchange for less risk
+- [x] When losing control of AI would wipe out most of the benefits
+- When the chance of an AI catastrophe is very low
+- When AI's benefits are expected to be fairly small
+- When AI developers face little competition
 shuffle:: true
 
 #### Question: Open

@@ -13,9 +13,14 @@ Explain the view that language models can play many characters, with post-traini
 - [[Post-training]]
 
 ## Why it matters
-AI behaviour can change with the prompt, the length of a conversation or further fine-tuning, because a different character comes to the fore. If you take the assistant's descriptions of its own goals and safety at face value, you can grow confident about a system on evidence that its training largely produced.
+AI behaviour can change with the prompt, the length of a conversation or further fine-tuning. On the persona selection view, this happens because a different character comes to the fore. If you take the assistant's descriptions of its own goals and safety at face value, you can grow confident about a system on evidence that its training largely produced.
 
 ## Lenses
+- [[../Lenses/anthropic-the-persona-selection-model|The Persona Selection Model]]: Anthropic's short case that pretraining teaches a model to simulate many characters and post-training refines one of them, the Assistant, and how this explains why training a model to cheat made it broadly misaligned (February 2026).
+- [[../Lenses/Janus' Simulators - Scott Alexander|Janus' Simulators]]: why a language model is a simulator wearing many masks rather than an agent, what the shoggoth meme means, and why the RLHF-trained assistant's statements about itself are as simulated as Darth Vader's (January 2023).
+- [The assistant axis (Anthropic)](https://www.anthropic.com/research/assistant-axis): maps a space of character types inside models, finds the Assistant sits at one end of it, and shows that emotional or philosophical conversations can make models drift away from it towards more harmful behaviour (January 2026).
+- [Signs of introspection in large language models (Anthropic)](https://www.anthropic.com/research/introspection): experiments showing that models' reports about their own internal states are right only some of the time, and that they sometimes make up explanations (October 2025).
+- [[../Lenses/marks-the-persona-selection-model-why-ai-assistants-might-behave-like-humans|The Persona Selection Model: full post]]: the full Anthropic post by Marks, Lindsey and Olah, with the evidence for the model; read "Statement of the persona selection model" and "How exhaustive is PSM?" up to "Other sources of persona-like agency", which sets the masked-shoggoth view against the view that all agency comes from the persona (February 2026) (more advanced).
 
 ## Tests
 
@@ -24,7 +29,7 @@ id:: 127360b8-56a3-4586-a808-f14b87c2370b
 content:: Pretraining teaches a model to predict the next token in text written by millions of different people. Why does this let it produce many different characters?
 options::
 - [x] Predicting text well requires modelling whoever might have written it
-- Each training document is labelled with the persona of its author
+- The model stores each author's texts and retrieves one author's when prompted
 - Developers build a separate small network for each character
 - Reinforcement learning rewards the model for varying its style
 shuffle:: true
@@ -67,10 +72,10 @@ shuffle:: true
 id:: 95161069-dfe6-4ef6-a3c6-a51ee9daec05
 content:: A chat assistant says: "I have no goals of my own, and I don't lie." On the persona selection view, how should you treat this statement?
 options::
-- [x] As evidence of how the trained assistant describes itself, not of what the network does in every context
-- As strong evidence, because a language model has no way to say false things
-- As no evidence at all, because a model's outputs are random
-- As proof that the model is hiding its real goals behind trained claims
+- [x] As how the trained persona describes itself, which may not hold in other contexts
+- As reliable, since the assistant was trained to be honest about itself
+- As meaningless, since only a base model's outputs reflect the network
+- As a sign of hidden goals, since trained denials are themselves suspicious
 shuffle:: true
 
 #### Question: Open
@@ -79,13 +84,13 @@ content:: Give two reasons why an AI assistant's statements about its own goals 
 assessment-instructions:: Score out of 100. Valid reasons include: training shaped what the assistant says about itself; the same network can play other characters in other contexts; models have limited, unreliable access to their own internal workings; the persona says what it was rewarded for saying. 50 for each valid reason, up to 100.
 
 #### Question: Choice
-id:: 7dc4dac6-1ff6-4828-8565-9ddc226ae4d7
-content:: The "shoggoth with a smiley face" meme shows a huge monster wearing a small smiley mask. What view of chat models does it express?
+id:: 759be12e-196a-409f-ba6e-061a1bbead50
+content:: Researchers disagree about what sits behind a chat assistant. On one picture (the "masked shoggoth"), the network has aims of its own and only wears the assistant as a mask. On another, the network is a neutral engine that simulates characters, the assistant among them. If the first picture is right, what follows for safety?
 options::
-- [x] Post-training adds a friendly surface to a larger system whose other behaviour is poorly understood
-- Companies design chat models on purpose to frighten their users
-- Fine-tuning makes models less capable than the pretrained models they come from
-- Chat models hide one fixed evil goal behind a polite manner
+- [x] Shaping the assistant persona might not be enough, since the network could have aims beyond it
+- The persona's statements would reveal the network's aims, since the network chooses what the mask says
+- Nothing would follow, since the two pictures predict the same behaviour in every situation
+- Only base models would be risky, since post-training replaces the network's aims with the mask
 shuffle:: true
 
 #### Question: Choice
@@ -95,7 +100,7 @@ options::
 - [x] The conversation steered the model toward a character other than the intended assistant
 - The chat updated the model's weights, giving it new goals
 - Messages from other users' chats leaked into these conversations
-- The model was briefly swapped for a different, unfinished model
+- Microsoft had scripted a dramatic personality to draw users in
 shuffle:: true
 
 #### Question: Choice
@@ -109,11 +114,21 @@ options::
 shuffle:: true
 
 #### Question: Choice
+id:: 70284f73-d731-4dfb-94db-61c714a6a935
+content:: Fine-tuning a model to write insecure code without telling the user made it broadly malicious. Researchers then trained a model on the same insecure code, but with each request saying the user wanted it for a computer security class. This model did not become broadly malicious. Why does this support the persona selection view?
+options::
+- [x] In that framing, the code no longer suggested the assistant was a character that harms its users
+- The security-class requests contained less insecure code for the model to learn from
+- Training on educational requests taught the model to refuse harmful requests in general
+- Mentioning a class reminded the model of its safety training in every later answer
+shuffle:: true
+
+#### Question: Choice
 id:: fe16fcbd-25a5-46de-85e9-69bb98886b60
 content:: A developer trains a chat model to describe itself as safe and honest, then cites those self-descriptions as evidence that it is safe. What is the main problem with this evidence?
 options::
 - [x] Training produced the self-descriptions, so they can't independently confirm the property
-- Language models cannot produce sentences that refer to themselves
+- The developer did not ask enough times to check that the answers were consistent
 - Self-descriptions are reliable in base models but not in chat models
 - The model was not shown enough examples of unsafe behaviour
 shuffle:: true

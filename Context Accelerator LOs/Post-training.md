@@ -98,7 +98,7 @@ assessment-instructions:: Score out of 100. Full marks: a base model continues t
 #### Question: Open
 id:: ebf13660-0ff0-474b-9112-7d384c0188e6
 content:: Why is post-training the stage where most current alignment work on language models is applied? Give one reason.
-assessment-instructions:: Score out of 100. 100 for any one of: it is where developers shape the model's behavior toward what they intend (helpful, honest, harmless); it is far cheaper and quicker to redo than pretraining; pretraining data is too vast to curate behavior in detail; techniques like RLHF and refusal training act at this stage. 40 for a vague answer such as "it makes the model safe".
+assessment-instructions:: Score out of 100. 100 for any one of: it is where developers shape the model's behavior toward what they intend (helpful, honest, harmless); it is usually cheaper and quicker to redo than pretraining; pretraining data is too vast to curate behavior in detail; techniques like RLHF and refusal training act at this stage. 40 for a vague answer such as "it makes the model safe".
 
 #### Question: Open
 id:: 70bd1e8f-9bf5-474b-b82f-9200764c59d4

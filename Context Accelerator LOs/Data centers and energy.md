@@ -109,5 +109,5 @@ options::
 - [x] It adds new power generation much faster
 - It has more advanced AI chips
 - Its chips use less power per calculation
-- It has stricter limits on data center locations
+- It faces no limits on buying top Nvidia chips
 shuffle:: true
