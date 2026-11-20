@@ -60,16 +60,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 8dd69f23-0225-47c2-8dc9-726b1b6b1fd1
-content:: In October 2025, OpenAI estimated that about 0.07% of ChatGPT's roughly 800 million weekly users showed possible signs of psychosis or mania. Roughly how many people a week is that?
-options::
-- About 5,600
-- About 56,000
-- [x] About 560,000
-- About 5.6 million
-shuffle:: true
-
-#### Question: Choice
 id:: 6abc6cfe-1d3a-43d3-8169-d9eaaa2a40a8
 content:: Have reported cases of AI psychosis included people with no known history of mental illness?
 options::

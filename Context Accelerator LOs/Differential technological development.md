@@ -99,7 +99,6 @@ id:: cd4f5951-d70d-48df-9a2a-354c447a1449
 content:: How does Vitalik Buterin's "d/acc" view differ from unconditional enthusiasm for faster technology?
 options::
 - [x] It favors technologies that strengthen defense and spread power widely
-- It calls for a global pause on developing advanced AI
 - It favors placing powerful AI under one trusted government's control
 - It treats risks from AI as overstated and not worth planning for
 - It focuses only on AI and sets other technologies aside

@@ -75,6 +75,7 @@ shuffle:: true
 id:: fb345869-dff0-46be-a1aa-fc14fcebc089
 content:: Why might publishing exactly how an AI company's monitor flags suspicious actions by its AI agents make the monitor weaker?
 options::
+- [x] Attackers, or models trained on the text, could learn to avoid it
 - Competitors could copy the monitor without paying for it
 - The company could no longer change the monitor once it was public
 - The published method could reveal private data the monitor has seen

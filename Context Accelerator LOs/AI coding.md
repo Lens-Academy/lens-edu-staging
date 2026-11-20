@@ -83,13 +83,6 @@ options::
 - It would fall, since agents would use up compute meant for training
 shuffle:: true
 
-#### Question: Choice
-id:: a27dd3d3-8892-41dc-8c0e-c185009902c5
-content:: As of November 2026, has AI ability in software engineering been improving faster or slower than AI ability at most other professional tasks?
-options::
-- [x] Faster
-- Slower
-
 #### Question: Open
 id:: 3c873790-b0bb-4eab-a408-fa1af489504a
 content:: Why could AI systems that write code well speed up progress in AI research itself?

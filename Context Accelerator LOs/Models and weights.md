@@ -81,9 +81,8 @@ content:: For a frontier language model, how does the compute needed to answer o
 options::
 - [x] It is less than a millionth of the training compute
 - It is about a hundredth of the training compute
-- It is about the same as the training compute
 - It is about a tenth of the training compute
-- It is larger, since each answer retrains the model a little
+- It is about the same as the training compute
 shuffle:: true
 
 #### Question: Choice

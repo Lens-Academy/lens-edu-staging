@@ -62,16 +62,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 2c39b907-4afa-4ec6-89f8-50d3f5d63720
-content:: In the formal version of the ITN framework, why are the three factors multiplied together?
-options::
-- [x] Their units cancel, giving good done per extra unit of resources
-- Multiplying keeps the combined score between zero and one
-- Multiplying gives extra weight to whichever factor is largest
-- Each factor measures a separate kind of good done
-shuffle:: true
-
-#### Question: Choice
 id:: 637594df-438b-4176-987c-63d1e74996c2
 content:: Under the ITN framework, what follows for a problem that is enormous and very neglected, but on which extra work would make almost no progress?
 options::
@@ -95,6 +85,7 @@ shuffle:: true
 id:: 56882e91-7ce2-4537-b4b5-68a56902371f
 content:: Someone ranks cause areas with the ITN framework to decide what to work on. What does the ranking leave out?
 options::
+- [x] Their personal fit and the opportunities open to them
 - How large each problem is and how many people it affects
 - How much others already spend on each problem
 - How much progress extra effort would make on each problem
