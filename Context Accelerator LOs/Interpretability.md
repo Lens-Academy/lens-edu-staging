@@ -119,8 +119,8 @@ content:: Why do some researchers worry that interpretability research is dual u
 options::
 - [x] Understanding how models work could also speed up building more capable ones
 - Interpretability tools make models run more slowly once deployed
-- Published features let users read other people's conversations with the model
-- Probes can change a model's goals without anyone noticing
+- Running interpretability tools needs so much compute that it slows other safety work
+- Labs often keep interpretability findings secret, so others cannot check them
 shuffle:: true
 
 #### Question: Open

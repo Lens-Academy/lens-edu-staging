@@ -114,5 +114,5 @@ assessment-instructions:: Score out of 100. 100 for explaining that the exam cov
 
 #### Question: Open
 id:: 834aadb6-f699-454e-812c-380c03fa5bfd
-content:: Name one kind of task that frontier AI systems, as of November 2026, still often do poorly, and briefly say why.
-assessment-instructions:: Score out of 100. 100 for any one, with a plausible reason: long tasks without supervision (errors build up); physical tasks with robots (little training data; perception and movement are hard); learning on the job (no lasting learning from experience); knowing when they don't know (hallucination); novel visual puzzles. 50 for a correct task with no reason.
+content:: Name one kind of task that frontier AI systems, as of November 2026, still often do less reliably than skilled humans, and briefly say why.
+assessment-instructions:: Score out of 100. 100 for any accurate task with a plausible reason, such as: long open-ended work unsupervised (errors build up); physical tasks with robots (little training data); learning on the job (no lasting memory); knowing when they don't know (hallucination). 50 for a task with no reason. 0 for weak spots now largely fixed, like counting letters or ARC-style puzzles.

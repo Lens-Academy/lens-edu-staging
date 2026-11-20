@@ -76,8 +76,8 @@ id:: b654fb85-80ed-4201-87a2-f7191460994e
 content:: Researchers used automated search on open-weight models to find strings of odd text that, added to a harmful request, made models comply. Some of these strings also worked on closed models. Why does this matter for misuse?
 options::
 - [x] Attackers can find jailbreaks for a closed model without its weights
-- Closed models secretly run on open-weight models
-- The strings let attackers download the closed model's weights
+- It shows closed models are less safe than open-weight models
+- It shows closed models can't be patched against such strings
 - It shows the closed models skipped safety training
 shuffle:: true
 
