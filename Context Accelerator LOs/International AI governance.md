@@ -109,13 +109,3 @@ options::
 - Writing binding safety standards that AI companies must meet before release
 - Funding national AI companies to compete with rivals
 shuffle:: true
-
-#### Question: Choice
-id:: f7f76e01-906e-4c09-919a-372c949cda8c
-content:: The Council of Europe's Framework Convention on Artificial Intelligence, opened for signature in 2024, is a legally binding treaty. What does it mainly address?
-options::
-- [x] Protecting human rights and democracy in uses of AI
-- Limits on the compute used to train frontier AI models
-- Verification of countries' military AI programmes
-- Sharing of safety test results between AI companies
-shuffle:: true

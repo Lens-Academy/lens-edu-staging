@@ -32,17 +32,6 @@ options::
 - It affects a large number of users at once
 shuffle:: true
 
-#### Question: FillBlank
-id:: 5e478f20-b91a-4178-99b5-f24b3a801813
-content:: AI safety problems that are obscure, hard to understand, or in a common blind spot of company leaders and policymakers are called {{illegible}} problems.
-
-#### Question: Choice
-id:: f5e52769-8d21-4f55-b30d-61147afe327a
-content:: Is an illegible AI safety problem, in Wei Dai's sense, the same thing as a technically hard problem?
-options::
-- [x] No: illegibility is about how easily decision-makers see the problem
-- Yes: a problem is illegible because nobody knows how to solve it
-
 #### Question: Choice
 id:: 640a099d-ceb2-4ad1-ad5c-5aaeeb998625
 content:: Which of these is the best example of an illegible AI safety problem?
