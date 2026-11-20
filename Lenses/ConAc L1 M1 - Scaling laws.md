@@ -6,7 +6,7 @@ tutor_minutes: 0
 ++}tags:
   - wip
 ---
-#### {++{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795205125763}@@Callout: In this module
+#### {++{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795206057439}@@Callout: In this module
 collapse:: closed
 
 #### Text
@@ -84,9 +84,9 @@ Scaling laws are useful because they let us predict how models might behave at s
 
 #### Text
 content::
-But there is a more fundamental question: why do scaling laws work at all? And what do they actually tell us about intelligence? It turns out that you can get the same power-law improvements in prediction loss even with relatively simple models that don't learn anything we would recognise as intelligent behaviour. Some of these patterns can be explained just by the statistical properties of the training data, without assuming that the model is learning useful concepts or reasoning about the world. So predicting how a model's loss will decrease is not the same as understanding how capabilities emerges.
+But there is a more fundamental question: why do scaling laws work at all? And what do they actually tell us about intelligence? It turns out that you can get the same power-law improvements in prediction loss even with relatively simple models that don't learn anything we would recognise as intelligent behaviour. Some of these patterns can be explained just by the statistical properties of the training data, without assuming that the model is learning useful concepts or reasoning about the world. So predicting how a model's loss will decrease is not the same as understanding how capabilities emerge.
 
-#### Callout: Does scaling laws reflect the covariance and the covariance alone?
+#### Callout: Do scaling laws reflect the covariance and the covariance alone?
 collapse:: closed
 
 #### Text
