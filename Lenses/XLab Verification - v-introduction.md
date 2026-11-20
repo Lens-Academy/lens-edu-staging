@@ -141,6 +141,8 @@ source:: [[../widgets/short-history-scores]]
 
 #### Text
 content::
+---
+
 \## Preventing ASI via International and Verifiable Agreements
 
 We’ve established that ASI poses a material existential threat to humanity, with increasingly concerning real-world examples. How could an international agreement prevent the development of ASI from occurring, and how does verification fit into this solution?
