@@ -37,6 +37,10 @@ to:: This observation characterizes the scaling era in AI.
 #### Callout: What Are Scaling Laws, Anyway?
 collapse:: closed
 
+#### Article
+source:: [[../articles/villalobos-scaling-laws-literature-review]]
+from:: The term “scaling laws” in deep learning
+to:: (like model size, width, or training compute).
 #### Text
 content::
 The term “scaling laws” in deep learning refers to relations between functional properties of interest (usually the test loss or some performance metric for fine-tuning tasks) and properties of the architecture or optimization process (like model size, width, or training compute).
