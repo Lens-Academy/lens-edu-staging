@@ -1,7 +1,7 @@
 ---
 id: '031a2f91-67a2-46ea-8910-77bdbf3bd43b'
 slug: conac-l3-m6-high-impact-career-strategies-and-expectations
-title: "Module 6, level 3: High-impact career strategies and expectations"
+title: "Level 3"
 tags:
   - wip
 ---
