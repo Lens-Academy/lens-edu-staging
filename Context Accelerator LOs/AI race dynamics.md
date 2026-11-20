@@ -68,11 +68,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 89bfe31c-0db7-4dca-b3e7-5a6c1584f3be
-content:: Two AI companies each gain by racing whatever the other does. They sign a voluntary agreement to pause training at a set capability level, with no penalty for breaking it. Does the agreement by itself remove each company's incentive to break it?
+id:: b4801f72-d681-4942-9261-a98181244ffe
+content:: Two AI companies each gain by racing whatever the other does. They sign a voluntary agreement to pause training at a set capability level, with no penalty for breaking it. Which change would most directly make the agreement hold?
 options::
-- [x] No
-- Yes
+- [x] Penalties for breaking it, with a way to detect breaches
+- Raising the capability level at which the pause starts
+- Adding more companies to the agreement on the same terms
+- Having each company's chief executive sign it personally
+shuffle:: true
 
 #### Question: Choice
 id:: d17c285d-abda-48b2-a101-3865640b7ee1
@@ -95,11 +98,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 9279563e-d462-4abf-8a26-01162efb7232
-content:: In game-theory models of AI races, does adding more competing teams tend to raise or lower the risk of an AI disaster?
+id:: 3c1e1b57-5ec5-4dd4-b953-04bc8e4d0341
+content:: Simple game-theory models of AI races find that adding more competing teams raises the risk of an AI disaster. In these models, what is the main reason?
 options::
-- [x] Raise
-- Lower
+- [x] Each team must cut more safety to keep a real chance of winning
+- Teams copy each other's mistakes more often
+- Each team's model is weaker and so harder to make safe
+- Teams share less safety research with each other
+shuffle:: true
 
 #### Question: Choice
 id:: 906e1d79-3c70-423a-ad33-8149a0d44c13
@@ -117,7 +123,7 @@ content:: People who argue that the US must race China to build AGI usually rest
 options::
 - [x] Whoever leads could gain a decisive military and economic edge
 - Racing makes alignment research unnecessary for the winner
-- China has already built AGI and the US must catch up
+- Chinese labs are already years ahead of US labs at the frontier
 - Competition between the two countries lowers the alignment tax
 shuffle:: true
 
@@ -126,8 +132,8 @@ id:: 28a573d8-ba32-443c-8e8d-475eeedadf91
 content:: Critics say a US–China race to AGI is partly self-fulfilling. What do they mean?
 options::
 - [x] Acting as if a race exists can push the rival to race
-- Each country's AI progress is mostly invented by the other
-- Neither country is investing much money in AI
+- Each country's AI progress relies mostly on research the other publishes
+- Racing tends to make both countries' AI systems safer over time
 - A race ends once one side admits it is behind
 shuffle:: true
 

@@ -15,6 +15,10 @@ Give a rough, dated estimate of how many people work on AI safety and in which a
 Knowing how small the field is helps you judge where one more person or dollar can make a difference, and why some problems have nobody working on them. It also guards against assuming that someone else must already be handling a given risk.
 
 ## Lenses
+- [AI Safety Field Growth Analysis 2025 (EA Forum)](https://forum.effectivealtruism.org/posts/7YDyziQxkWxbGmF3u/ai-safety-field-growth-analysis-2025): Stephen McAleese's count of about 600 technical and 500 non-technical full-time staff, how this grew from about 400 in 2022, and which research areas are largest; skim the comments for what the count misses (September 2025).
+- [[../Lenses/AICF - How big is the AI control field|How big is the AI control field]]: using AI control as the example, how a count's choices (one main area per organisation, only safety-branded groups) shape the number, how few safety staff AI companies have, and what has grown since 2025 (October 2026).
+- [We're Urgently Scaling Our Work on AI and Biosecurity (Coefficient Giving)](https://coefficientgiving.org/research/were-urgently-scaling-our-work-on-ai-and-biosecurity/): the largest AI safety funder on going from $168m in 2024 to $351m in 2025 and over $1bn in 2026, and why it says people, not money, are now the bottleneck (2026).
+- [Big Tech's AI spending spree (Quartz)](https://qz.com/big-tech-ai-capex-amazon-microsoft-meta-google): the other side of the comparison, about $400bn of AI spending by four tech companies in 2025 and $650bn planned for 2026 (February 2026).
 
 ## Tests
 
@@ -50,12 +54,12 @@ shuffle:: true
 
 #### Question: Choice
 id:: 0185dba6-e863-43c5-b8eb-962e87f19863
-content:: Around 2025, how did yearly philanthropic funding for reducing AI risk compare with yearly AI spending by the largest tech companies?
+content:: As of 2026, roughly how did yearly philanthropic funding for reducing AI risk compare with yearly AI spending by the largest tech companies?
 options::
-- [x] Hundreds of millions of dollars versus hundreds of billions
-- Tens of billions of dollars versus hundreds of billions
-- Hundreds of millions of dollars versus about one billion
-- Tens of millions of dollars versus tens of millions
+- [x] About $0.5-2 billion versus over $600 billion
+- About $0.5-2 billion versus about $10 billion
+- About $50-100 billion versus over $600 billion
+- About $5-10 million versus about $10 billion
 shuffle:: true
 
 #### Question: Choice
@@ -63,7 +67,7 @@ id:: 2220ab01-0b08-4eff-b348-eaa193a21b92
 content:: Estimates of how many people work on AI safety can differ from each other by a factor of several. What is the main reason?
 options::
 - [x] They draw the line between safety work and other AI work differently
-- Most safety organisations decline to publish their staff numbers
+- Some estimates count only researchers based in the United States
 - Safety researchers change jobs too often to be counted reliably
 - Some estimates count only people who hold a PhD
 shuffle:: true
@@ -72,15 +76,15 @@ shuffle:: true
 id:: 0af87d4e-34a5-4c23-a877-318a840fd7c9
 content:: According to published estimates, how did the number of people working full-time on reducing catastrophic AI risk change between 2022 and 2025?
 options::
-- [x] It grew substantially, roughly doubling or more
-- It stayed roughly flat
-- It shrank by about half
-- It grew about a hundredfold
+- [x] It grew about two to three times
+- It stayed about the same
+- It fell by about half
+- It grew about twenty times
 shuffle:: true
 
 #### Question: Choice
 id:: 79e9991c-0234-4379-b21e-7025c50e22dd
-content:: In 2025 estimates of the AI safety field, how did the number of people working full-time on AI governance and policy for catastrophic risk compare with the number in technical AI safety research?
+content:: In 2025 estimates of the AI safety field, how did the number of people working full-time on non-technical work for catastrophic AI risk (governance, policy and advocacy) compare with the number in technical AI safety research?
 options::
 - [x] Roughly similar in size
 - About ten times larger
@@ -88,9 +92,15 @@ options::
 - About a hundred times larger
 shuffle:: true
 
-#### Question: FillBlank
-id:: dff70624-3d99-43f3-a795-0960cc8cc952
-content:: A common framework for comparing problems weighs their scale, their tractability and their {{neglectedness}}: how few people and resources already go towards solving them.
+#### Question: Choice
+id:: b0a778c6-a20d-4596-86f8-1b54450be99f
+content:: A friend says: "The big AI companies employ thousands of researchers, so AI safety must be well covered." Which reply best fits the evidence on the size of the field?
+options::
+- [x] Safety staff are a small share of those researchers, and some risks have almost nobody on them
+- Most researchers at those companies spend a large share of their time on safety
+- The same teams do safety and capabilities work, so safety effort grows with the company
+- Company researchers are mostly barred from safety work, which only nonprofits do
+shuffle:: true
 
 #### Question: Open
 id:: c2b1bb48-acc3-4b4f-b6fa-2778cad4dbfe

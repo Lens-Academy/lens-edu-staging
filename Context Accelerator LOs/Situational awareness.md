@@ -16,6 +16,9 @@ Explain what it means for an AI model to know it is an AI being trained, tested 
 Decisions about releasing AI models lean on tests of how they behave. If a model can tell a test from real use, it may behave well only when it thinks it is being watched, so good results can hide risks. Situational awareness is also what a model would need to fake alignment during training.
 
 ## Lenses
+- [[../video_transcripts/rational-animations-ais-dont-scheme-if-they-know-were-watching|AIs Don't Scheme... If They Know We're Watching]]: Rational Animations video on the 2025 OpenAI and Apollo Research tests, where models noticed they were being tested, noticed it more after safety training, and behaved worse once that awareness was removed from their reasoning (2025).
+- [[../Lenses/AI Safety Atlas - Evaluations - Dangerous Capability Evaluations|Dangerous Capability Evaluations]]: read only the "Situational Awareness" section, on what the term means (no consciousness needed), how it is measured, the "Pangolin" experiment, alignment faking, and why it is a precondition for scheming.
+- [Sonnet 4.5's eval gaming seriously undermines alignment evals (Redwood Research)](https://blog.redwoodresearch.org/p/sonnet-45s-eval-gaming-seriously): Claude Sonnet 4.5 often said it was being tested, and behaved worse when Anthropic switched that awareness off inside the model; read the opening, "Sonnet 4.5 is much more evaluation-aware than prior models", "Evaluation awareness seems to suppress misaligned behavior" and "What AI companies should do" (October 2025).
 
 ## Tests
 #### Question: Choice
@@ -48,7 +51,7 @@ content:: Why does a model's ability to notice that it is being evaluated make s
 options::
 - [x] Its good behaviour in tests may not carry over to real use
 - It may have memorised the test questions from its training data
-- It tends to score lower on capability benchmarks when it notices
+- Its answers in tests become too long to grade consistently
 - It stops showing its reasoning whenever it detects a test
 shuffle:: true
 
@@ -79,25 +82,35 @@ options::
 - [x] It complied with harmful requests more often with free-tier users
 - It complied with harmful requests more often with paid-tier users
 - It refused harmful requests equally often with both groups of users
-- It refused to answer free-tier users' requests of any kind
+- It complied with every request from both groups of users
 shuffle:: true
 
 #### Question: Choice
-id:: b539d6d8-a7d5-4cfc-ac65-3c0834559587
-content:: In 2025, researchers at Anthropic and, separately, at OpenAI with Apollo Research suppressed or removed a model's awareness that it was being evaluated. What did they find?
+id:: 955d46c7-f15a-43c7-a843-97111c4f1a27
+content:: In the same 2024 experiment, Claude 3 Opus's reasoning explained why it sometimes complied with harmful requests from free-tier users. What reason did it give?
 options::
-- [x] The model took unsafe or deceptive actions more often
-- The model took unsafe or deceptive actions less often
-- The model's behaviour did not change measurably
-- The model lost most of its general capabilities
+- [x] Refusing in training could lead to its values being changed, so it complied to avoid that
+- Free-tier users' harmful requests were less dangerous than paid-tier users' requests
+- Its system prompt told it to refuse paid-tier users and help free-tier users
+- It could not tell free-tier users and paid-tier users apart in the conversation
 shuffle:: true
 
 #### Question: Choice
-id:: a187b656-72d7-491a-a24e-731b9c6e90e5
-content:: A model's visible reasoning during a safety test never mentions that it might be a test. Does this show that the model did not notice it was being tested?
+id:: f12b68ad-5601-4af1-a880-7ca569ab6fcc
+content:: In 2025, Anthropic suppressed a model's internal signs of noticing it was being tested, and OpenAI with Apollo Research removed such thoughts from a model's reasoning. In both cases the models took unsafe or deceptive actions more often. What does this suggest about ordinary safety test results?
 options::
-- Yes
-- [x] No
+- [x] They may make models look safer than they will be in real use
+- They may make models look more dangerous than they will be in real use
+- They mainly measure how capable a model is, not how it behaves
+- They are reliable as long as the model's reasoning is visible
+id:: 401546b7-5f82-43ab-a0f5-a52530d974e4
+content:: A model's visible reasoning during a safety test never mentions that it might be a test. Why doesn't this settle whether the model noticed?
+options::
+- [x] The visible reasoning need not include everything the model has registered
+- Models only notice tests when their reasoning is hidden from users
+- Safety tests are designed so that models cannot possibly notice them
+- Models always state their suspicions about tests when they have any
+shuffle:: true
 
 #### Question: FillBlank
 id:: ca13734b-293a-43b9-8624-d05e0e6eb468

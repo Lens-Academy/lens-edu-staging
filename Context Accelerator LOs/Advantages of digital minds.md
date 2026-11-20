@@ -12,9 +12,12 @@ Explain how AI systems could outcompete humans even at human-level intelligence,
 - [[AGI and superintelligence]]
 
 ## Why it matters
-Many people assume AI only becomes dangerous once it is far smarter than any human. Knowing these advantages shows why human-level AI, run as many fast copies, could already outmatch humanity, which leaves less time between AI matching us and AI overpowering us.
+Many people assume AI only becomes dangerous once it is far smarter than any human. These advantages show why human-level AI, run as many fast copies, might already be able to outmatch humanity, so the gap between AI matching us and AI being able to overpower us could be short.
 
 ## Lenses
+- [[../Lenses/More advantages for digital agents|Sources of Advantage for Digital Agents]]: Bostrom's list of the hardware and software advantages digital minds could have over brains, from speed, brain size and fatigue to copying, coordination between copies and memory sharing (from Superintelligence, 2014; some hardware figures are dated).
+- [AI Could Defeat All Of Us Combined (Cold Takes)](https://www.cold-takes.com/ai-could-defeat-all-of-us-combined/): Karnofsky's case that human-level AI, without superintelligence, could outnumber humanity: training compute could run several hundred million copies, a workforce comparable to a large share of humanity's. Read the introduction and "How AIs could defeat humans without 'superintelligence'" (June 2022).
+- [Machines of Loving Grace (Dario Amodei)](https://www.darioamodei.com/essay/machines-of-loving-grace): Anthropic's CEO pictures a "country of geniuses in a datacenter", millions of copies thinking 10–100 times faster than humans, and explains why the slow outside world, lack of data and human institutions limit what that speed buys. Read only "Basic assumptions and framework" (October 2024).
 
 ## Tests
 
@@ -42,20 +45,10 @@ shuffle:: true
 id:: 49191b84-2548-4c7b-949e-62f74b41fa1c
 content:: Thousands of copies of one AI model each do a different job. Which advantage do they have over a team of thousands of people doing the same jobs?
 options::
-- [x] What one copy learns can be merged and passed to all the others
-- Each copy gets more capable the more copies are running
-- Each copy can change its own goals to match the team's
-- The copies need less computing power as more of them run
-shuffle:: true
-
-#### Question: Choice
-id:: 46391e63-3b05-46f1-bc62-068c8518189a
-content:: An AI system reasons as well as a human researcher but thinks 50 times faster. Roughly how much human-equivalent thinking time does it get in one calendar week?
-options::
-- [x] About a year
-- About a week
-- About a month
-- About ten years
+- [x] What the copies learn can be pooled by training and given to every copy
+- Copies never make mistakes on tasks they were trained for
+- Each copy becomes more capable as more copies are added
+- Copies need no instructions, since each knows what the others do
 shuffle:: true
 
 #### Question: Choice
@@ -80,7 +73,7 @@ id:: 002ab6ec-5f9d-4183-a5e5-16cb213abae6
 content:: Which of these could limit how much an AI's speed of thought helps it in the real world?
 options::
 - [x] Experiments and physical processes take the same time however fast it thinks
-- Faster thinking makes an AI's reasoning less accurate
+- A fast-thinking AI can only work on one task at a time
 - Computer chips slow down after running for a few hours
 - Faster AI systems need more training data to stay accurate
 shuffle:: true

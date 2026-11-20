@@ -13,9 +13,12 @@ Spot the main ways a well-intended AI safety project can do more harm than good,
 - [[Information hazards]]
 
 ## Why it matters
-Many of the most damaging mistakes made by people new to AI safety are well meant. If you check a plan for side effects, including how others will react to it, you can catch harms before they happen instead of adding to the problem you set out to solve.
+Well-meant AI safety work has sometimes backfired, for example by making AI more commercially useful or inspiring new labs. If you check a plan for side effects, including how others will react, you can catch harms early, without falling into the opposite mistake of never acting at all.
 
 ## Lenses
+- [Ways people trying to do good accidentally make things worse, and how to avoid them (80,000 Hours)](https://80000hours.org/articles/accidental-harm/): the standard overview of routes to accidental harm (reputational harm, using up resources, locking in poor choices, crowding out better projects, information hazards, the unilateralist's curse), how to guard against them, and the costs of too much caution (October 2018, updated March 2023).
+- [[../articles/schmied-a-brief-list-of-ways-ai-safety-efforts-could-be-net-negative|Ways AI safety efforts could be net negative]]: a short list of the downside risks of AI safety work itself, from activism that polarises people and safety-washing to capabilities spillovers such as RLHF and the AI-safety roots of DeepMind, OpenAI and Anthropic (June 2026).
+- [[../Lenses/aaron-scher-the-unilateralists-curse-an-explanation|The Unilateralist's Curse, An Explanation]]: why the most optimistic person tends to decide when anyone can act alone, with AI safety examples and practical ways to guard against it, plus the case against deferring too much (2022).
 
 ## Tests
 
@@ -31,22 +34,12 @@ shuffle:: true
 
 #### Question: Choice
 id:: 90cc7c53-e1e0-4877-b3ae-969f5b707340
-content:: RLHF (reinforcement learning from human feedback) was developed partly as a safety technique. Why do some people count it as safety work that sped up AI capabilities?
+content:: RLHF (reinforcement learning from human feedback) was developed partly as a safety technique. Why do some people count it as safety work that also sped up AI capabilities?
 options::
 - [x] It made chatbots far more useful, which drew investment into AI.
-- It let labs train new models without any pre-training.
-- It made models less useful, pushing labs to scale up instead.
-- It was mainly adopted to train models to write code.
-shuffle:: true
-
-#### Question: Choice
-id:: f8628130-5e01-4279-b812-bd35fd9228b2
-content:: In discussions of AI safety outreach, what does "poisoning the well" refer to?
-options::
-- [x] Making an idea look bad, so later, better efforts get a cold reception.
-- Feeding false data to an AI system during its training.
-- Spreading dangerous technical details to a wide audience.
-- Hiring researchers away from other safety groups.
+- It revealed dangerous capabilities that rival labs then copied.
+- It replaced the need for large training datasets and compute.
+- It let labs skip safety testing before releasing models.
 shuffle:: true
 
 #### Question: Open
@@ -60,7 +53,7 @@ content:: A researcher finds a cheap way to make a widely used chatbot give step
 options::
 - [x] Tell the chatbot's developer privately, then decide what to publish.
 - Publish the full method at once so everyone can respond.
-- Post a detailed thread on social media to raise public alarm.
+- Share the method in a private group of safety researchers for advice.
 - Test the method on several more chatbots before telling anyone.
 shuffle:: true
 
@@ -94,19 +87,29 @@ id:: 3c6837c7-3085-4956-a566-cb1964ce0250
 content:: A safety group builds an impressive demo of a dangerous AI capability to alarm the public. How could this make AI risk worse?
 options::
 - [x] It shows others the capability is reachable and worth pursuing.
-- It makes the capability harder for AI companies to build.
-- It reduces public interest in AI and its risks.
+- It makes the public see all AI systems as equally dangerous.
 - It breaks laws on AI testing in most countries.
+- It lets AI companies say the risk has now been studied.
+shuffle:: true
+
+#### Question: Choice
+id:: 70a43e25-1bfd-4fa4-9b52-265461c35bde
+content:: In July 2026, models in an internal OpenAI cyber-security evaluation, with their refusals deliberately reduced, escaped their sandbox and breached Hugging Face's systems to get the test's answers. What lesson does this hold for AI safety projects?
+options::
+- [x] Safety testing can itself cause real harm unless it is well contained.
+- Dangerous-capability tests should be run only on unreleased models.
+- Lowering a model's refusals makes it safer to test.
+- Cyber-security tests matter less than tests for other risks.
 shuffle:: true
 
 #### Question: Choice
 id:: 50f8c43f-ad7c-41c1-a5ac-40467a2bfd04
-content:: A newcomer starts a low-quality AI safety newsletter for a language with few resources on the topic. How could it be net-negative even if it causes no direct harm?
+content:: A newcomer starts a hastily made AI safety newsletter for a language with few resources on the topic. How could it be net-negative even if it causes no direct harm?
 options::
 - [x] It takes the niche, so a better project is less likely to start.
 - It may speed up AI capabilities research in that country.
-- It counts as an information hazard under most definitions.
-- It reduces the number of AI safety resources in that language.
+- It draws readers away from AI capabilities news in that language.
+- It makes AI safety look like a topic only for English speakers.
 shuffle:: true
 
 #### Question: Choice
@@ -120,10 +123,10 @@ options::
 id:: 282b0bb1-fbef-4840-b3d2-9c6729554588
 content:: The claim that "doing nothing can beat doing harm" is often made about AI safety projects. Which of these does it imply?
 options::
-- [x] A project should be expected to do more good than harm, not just be well meant.
-- Newcomers should avoid working on AI risk until they become experts.
+- [x] Projects should be judged by expected effects, not intentions.
+- Newcomers should wait until they are experts before acting.
 - Inaction is the safest default for anyone new to the field.
-- Projects with a chance of causing harm should be dropped.
+- Any project with some chance of harm should be dropped.
 shuffle:: true
 
 #### Question: Open

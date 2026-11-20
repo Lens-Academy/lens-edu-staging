@@ -16,6 +16,9 @@ Explain what makes an AI company a frontier AI company, describe the main ways s
 A handful of companies decide how the most powerful AI systems are built, tested and released. Knowing how they earn money and why they lead helps you predict their choices, spot where commercial pressure pulls against caution, and judge which policies or outside pressure could change their behaviour.
 
 ## Lenses
+- [An update on AI's most important number (Epoch AI)](https://epoch.ai/gradient-updates/an-update-on-ais-most-important-number): how fast OpenAI's and Anthropic's revenue grew in 2025–26, why they lead everyone else, and the loop in which revenue pays for compute that builds better models (August 2026).
+- [Market concentration implications of foundation models (Brookings)](https://www.brookings.edu/articles/market-concentration-implications-of-foundation-models-the-invisible-hand-of-chatgpt): why huge up-front training costs, economies of scale, data, talent and first-mover advantage push the frontier toward a few firms (September 2023).
+- [Can AI companies become profitable? (Epoch AI)](https://epoch.ai/gradient-updates/can-ai-companies-become-profitable): what OpenAI earned and spent on GPT-5, including the cost of serving users (inference) and of research, and why models that a rival overtakes within months keep companies racing. Read Parts I and II (January 2026, updated March 2026).
 
 ## Tests
 
@@ -75,8 +78,8 @@ content:: Besides training models, what is another major compute cost for a fron
 options::
 - [x] Running its models to answer users' requests (inference)
 - Storing copies of the internet text used for training
-- Encrypting user conversations before they are saved
-- Hosting the company's website and sign-up pages
+- Keeping backup copies of every version of each model
+- Checking user requests against lists of banned words before they reach the model
 shuffle:: true
 
 #### Question: Choice
@@ -84,7 +87,7 @@ id:: 5b6d102f-f178-4d86-901f-adfe5d5c7432
 content:: Which of these describes a reinforcing loop that can help a leading frontier AI company stay ahead?
 options::
 - [x] Better models attract more users and investors, whose money pays for compute to train better models
-- Better models attract stricter regulation, which slows smaller rivals more than it slows the leader
+- Better models need less compute to train, so the leader can drop its investors and fund each new model from savings
 - Better models are released as open weights, which lets the leader collect improvements made by rivals
 - Better models are patented by the leader, which forces rivals to pay licence fees to train their own
 shuffle:: true
@@ -104,9 +107,9 @@ id:: 59c737c1-fea0-43f8-9421-2ea4f2feb089
 content:: Which group consists entirely of frontier AI developers, as of November 2026?
 options::
 - [x] OpenAI, Anthropic and Google DeepMind
-- Nvidia, TSMC and ASML
-- Salesforce, IBM and SAP
-- Hugging Face, GitHub and Stack Overflow
+- OpenAI, Nvidia and Hugging Face
+- Anthropic, TSMC and Salesforce
+- Google DeepMind, ASML and IBM
 shuffle:: true
 
 #### Question: FillBlank

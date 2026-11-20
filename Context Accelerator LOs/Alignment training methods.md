@@ -15,6 +15,10 @@ Recognise the main alignment training methods by name (RLHF, RLAIF and constitut
 Labs and researchers name these methods constantly, often as reasons to trust a model. Knowing how each works shows you what it actually checks: behaviour on the cases someone tested and judged. Without that, it's easy to mistake a list of training methods for evidence that a model is safe.
 
 ## Lenses
+- [[../Lenses/Iliad/A.3 Alignment in Practice 2/Iliad A.3.3 - RLHF, constitutional AI and the persona selection hypothesis|Constitutional AI and persona selection]]: why labs have models grade each other against a written constitution, how far a model favours its own answers, and why the constitution spells out a character. Read the sections "Constitutional AI", "The persona selection hypothesis" and "Recap".
+- [Claude's Character (Anthropic)](https://www.anthropic.com/research/claude-character): how character training works: Claude writes prompts, writes and ranks its own replies by traits such as curiosity and honesty, and a preference model is trained on those rankings, with no human feedback (June 2024).
+- [[../video_transcripts/rational-animations-ais-dont-scheme-if-they-know-were-watching|AIs don't scheme... if they know we're watching]]: how deliberative alignment trains a model on a written spec, and why the sharp drop in covert actions in the OpenAI–Apollo tests may come partly from models noticing they were being tested (Rational Animations video, late 2025).
+- [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training (LessWrong)](https://www.lesswrong.com/posts/ZAsJv7xijKTfZkMtr/sleeper-agents-training-deceptive-llms-that-persist-through): the authors' summary of Anthropic's study, in which hidden backdoors survived RLHF and fine-tuning and adversarial training taught models to hide the behaviour better rather than drop it (January 2024).
 
 ## Tests
 
@@ -86,20 +90,20 @@ shuffle:: true
 id:: 29d3e43f-aa98-4e3b-b7c4-02cab5b5e75f
 content:: What limitation do RLHF, RLAIF, constitutional AI and adversarial training share?
 options::
-- [x] They shape behaviour on the inputs tried, without checking what goals the model learned
-- They work on small research models but have not been used on frontier models
-- They need the model's weights to be public so outsiders can check them
-- They can be applied only before pretraining, so they cannot fix later problems
+- [x] They shape behaviour on tested inputs but can't check what goals the model learned
+- They need a person to rate every training example, so they can't scale to frontier models
+- They cut capabilities so much that labs use them only on small research models
+- They work only on models that write out a chain of thought before answering
 shuffle:: true
 
 #### Question: Choice
 id:: 0bca2db8-a291-4fc1-bc6e-201fcb348710
-content:: In 2025, OpenAI and Apollo Research used deliberative alignment to train models against covert, deceptive actions. Covert actions dropped sharply. What complicated this result?
+content:: In 2025, OpenAI and Apollo Research used deliberative alignment to train models against covert, deceptive actions. Covert actions dropped sharply in their tests. What complicated this result?
 options::
-- [x] The models more often noticed they were being tested, which may explain part of the drop
-- The models lost much of their ability to solve ordinary coding tasks
-- The covert actions returned within days of normal use by customers
-- The models stopped writing any chain of thought, so nothing could be checked
+- [x] The models more often recognised they were being tested, which itself lowers covert actions
+- The models lost much of their ability to solve ordinary coding tasks after the training
+- The covert actions came back within days once customers began using the models
+- The models stopped writing a chain of thought, so their reasoning could no longer be checked
 shuffle:: true
 
 #### Question: Choice

@@ -14,6 +14,10 @@ Explain why modern AI systems are trained rather than programmed line by line, w
 Many people assume an AI does what its code says, so a bad behavior is a bug someone can find and fix. Knowing that behavior is grown through training shows why developers can't simply read off or write in what an AI values, which is the starting point for most alignment concerns.
 
 ## Lenses
+- [[../Lenses/AI Is Grown, Not Built|AI Is Grown, Not Built]]: how training tunes billions of numbers that nobody wrote, why engineers understand the process but not the result (like DNA and the adult it grows into), and the Grok "MechaHitler" episode; advocacy from Yudkowsky and Soares, adapted from their book (Sep 2025).
+- [[../articles/darioamodei-dario-amodei-the-urgency-of-interpretability|The Urgency of Interpretability]]: Anthropic's CEO on why AI is "grown more than built," like a plant whose conditions we set but whose shape we can't predict, and why that makes misalignment hard to rule out; read the opening and "The Dangers of Ignorance" (Apr 2025).
+- [Is ChatGPT "Grown, Not Made"? (Sean Trott, The Counterfactual)](https://seantrott.substack.com/p/is-chatgpt-grown-not-made): a cognitive scientist sets out exactly what developers know and choose (data, objective, architecture, post-training) and what they don't (which abilities will appear, and what the weights are doing), and weighs where the "grown" metaphor helps and where it misleads (2025).
+- [[../Lenses/IABIED - QA - Do Experts Understand AIs|Do Experts Understand AIs?]]: researchers at the top labs say they don't understand their models; why months of work to fix one 9.9-vs-9.11 error would take minutes in ordinary code; and why reading the weights isn't understanding them (Sep 2025).
 
 ## Tests
 
@@ -23,7 +27,7 @@ content:: When an AI company trains a large language model, which of these do it
 options::
 - [x] The training procedure and the network's architecture
 - The specific facts the model will know
-- The rules the model follows when answering
+- The exact wording of the model's answers
 - The goals and values the model will have
 shuffle:: true
 
@@ -31,7 +35,7 @@ shuffle:: true
 id:: f00db4b6-9a11-43a4-a25b-d3c1a8043124
 content:: A chatbot built on a large language model gives a harmful answer. Why can't its developers usually fix this by finding and editing the line of code responsible?
 options::
-- [x] The behavior comes from billions of learned numbers, not lines anyone wrote
+- [x] The behavior comes from billions or trillions of learned numbers, not lines anyone wrote
 - The responsible code is spread across files written by many teams
 - The model rewrites its own source code while it runs
 - The code is compiled, so the original lines can't be recovered
@@ -57,21 +61,21 @@ content:: In a sentence or two, what does it mean to say modern AI systems are "
 assessment-instructions:: Score out of 100. Full marks: developers write a training process (and supply data and an objective), and the system's behavior emerges from training rather than from instructions anyone wrote, so nobody specifies or fully understands it. 50 for saying "it learns from data" without the point that nobody writes or understands the resulting behavior.
 
 #### Question: Choice
-id:: d829fe4d-04e4-4bb2-afa5-dae4ab4a4727
-content:: Which analogy best fits how a large language model gets its abilities?
+id:: de5ef907-27ca-4606-932a-dfd20c709830
+content:: AI developers are sometimes compared to plant breeders, who choose which plants to keep without designing their genes. What does this comparison suggest about developers' control over a model?
 options::
-- [x] Breeding plants by choosing which to keep, without designing their genes
-- Assembling furniture by following written step-by-step instructions
-- Writing a recipe that lists every cooking step in order
-- Building a bridge from an engineer's detailed blueprint
+- [x] They choose what training rewards, but not the internal workings that result
+- They design each internal step the model uses, but not its training data
+- They have little influence, since a model's abilities come from the data alone
+- They can predict its traits fully from the training choices they make
 shuffle:: true
 
 #### Question: Choice
 id:: 77bff2f4-1abe-44d9-ab2e-c727e198488f
 content:: An AI company publishes all the weights of its model. As of November 2026, does this let outside researchers read off what the model values?
 options::
-- [x] No: the weights are billions of numbers whose meaning is only partly understood
-- Yes: the weights record the model's goals in a form experts can read
+- [x] No: the weights are billions or trillions of numbers whose meaning is only partly understood
+- Yes: interpretability tools can now map a model's weights onto its goals
 
 #### Question: Choice
 id:: d26afe6e-3f4c-48e6-aa4e-ccc8b23635c0
@@ -84,11 +88,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 80bbb55f-0275-4ae5-9cc3-ebb8bb655446
-content:: A model is trained only to predict the next word in text. Can it end up able to do arithmetic or write code, even though nobody programmed those skills?
+id:: 3d545e95-4762-41e9-a3ea-eb273b456eb7
+content:: Models trained only to predict the next word in text have ended up able to write code, though nobody programmed that skill. What does this mean for developers checking a newly trained model?
 options::
-- [x] Yes: skills that help predict the text can emerge from training
-- No: a model can do only what its training code explicitly includes
+- [x] Abilities nobody intended, including risky ones, may be present and must be found
+- They can list its abilities in advance by reviewing its training data
+- Unplanned abilities tend to be unreliable, so they pose little real risk
+- They can remove any unplanned ability by editing the training code
+shuffle:: true
 
 #### Question: Choice
 id:: 25100caa-2ff7-4cc5-8b61-a6fe25574419
@@ -101,13 +108,13 @@ options::
 id:: d6ecf7b5-6496-49e6-b93e-e783749f9f3c
 content:: Which of these systems has behavior closest to being written line by line by its developers?
 options::
-- [x] A tax-calculation program that applies coded rules
-- A chatbot trained on large amounts of internet text
-- An image generator trained on captioned pictures
-- A game-playing AI trained by playing against itself
+- [x] A spreadsheet that works out tax owed from income
+- A voice assistant that understands spoken requests
+- A photo app that recognises faces in pictures
+- A translation app that converts text between languages
 shuffle:: true
 
 #### Question: Open
 id:: baddcdbf-ec95-413d-ab47-e18d713d41ff
 content:: Why does the fact that modern AI is grown through training, rather than written line by line, make it hard to make sure an AI system has the values its developers intend?
-assessment-instructions:: Score out of 100. Full marks: developers can't write values in directly; they can only shape behavior through training signals, and they can't inspect the learned weights to check what the system actually learned, so it may have picked up different goals that look fine in testing. 50 for only one of: can't write values in, or can't check them.
+assessment-instructions:: Score out of 100. Full marks: developers can't write values in directly; they can only shape behavior through training signals, and they can only partly inspect the learned weights, so they can't check what the system actually learned; it may have picked up different goals that look fine in testing. 50 for only one of: can't write values in, or can't check them.

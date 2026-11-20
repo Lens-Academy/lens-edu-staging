@@ -4,7 +4,7 @@ priority: medium
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Describe the main views that AI progress should be sped up, from broad techno-optimism to e/acc and d/acc, and the main arguments each gives for moving faster.
+Describe the main views that technology, including AI, should be sped up, from broad techno-optimism and e/acc to the more selective d/acc, and the main arguments each gives for moving faster.
 
 ## Requires
 
@@ -12,9 +12,13 @@ Describe the main views that AI progress should be sped up, from broad techno-op
 - [[Why AI gets built]]
 
 ## Why it matters
-Accelerationist arguments come up often in AI policy debates and in tech circles. If you know what they claim and assume, you can answer them fairly instead of attacking a caricature. It also stops you mistaking one loud online movement for all opposition to safety measures, much of which comes from commercial pressure and national rivalry.
+Arguments for speeding up AI now influence government policy as well as debates in tech circles. If you know what they claim and assume, you can answer them fairly instead of attacking a caricature. It also stops you mistaking one online movement for all opposition to safety measures, much of which comes from commercial pressure and national rivalry.
 
 ## Lenses
+- [Effective accelerationism (Wikipedia)](https://en.wikipedia.org/wiki/Effective_accelerationism): the plain facts on e/acc: its 2022 founding by pseudonymous posters, Guillaume Verdon as "Beff Jezos", its roots in Nick Land's accelerationism, Andreessen's embrace, and the main criticisms (November 2026).
+- [Why AI Will Save the World (Andreessen Horowitz)](https://a16z.com/ai-will-save-the-world/): Marc Andreessen's case for building AI "with maximum force and speed", from a leading proponent; read "The Baptists And Bootleggers Of AI", "AI Risk #1: Will AI Kill Us All?" and "The Actual Risk Of Not Pursuing AI…" for regulatory capture, open source and the China argument (June 2023).
+- [My techno-optimism (Vitalik Buterin)](https://vitalik.eth.limo/general/2023/11/27/techno_optimism.html): a pro-technology reply to Andreessen that takes AI risk seriously and sets out d/acc, speeding up defensive and decentralising technologies; read the intro, "AI is different" and "d/acc" up to the list of defence areas (November 2023).
+- [Notes on e/acc principles and tenets (Beff Jezos and bayeslord)](https://beff.substack.com/p/notes-on-eacc-principles-and-tenets): the founding statement of e/acc, in its own words: thermodynamics, "technocapital", no special loyalty to biological humans, and opposition to "decels" (July 2022).
 
 ## Tests
 
@@ -24,8 +28,8 @@ content:: Which of these best describes the core claim of effective acceleration
 options::
 - [x] Faster technological growth is good, and efforts to slow AI mostly do harm
 - Defensive technologies should be sped up ahead of riskier ones
-- AI should be built quickly, but by a single international project
-- AI progress should be paused until the alignment problem is solved
+- Technology should be sped up only where its benefits clearly outweigh its risks
+- AI should be built quickly, but by governments rather than private companies
 shuffle:: true
 
 #### Question: Choice
