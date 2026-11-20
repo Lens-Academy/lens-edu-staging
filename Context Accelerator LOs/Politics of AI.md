@@ -44,10 +44,6 @@ options::
 - Whether to join a binding international AI treaty
 shuffle:: true
 
-#### Question: FillBlank
-id:: 418c4074-dcf9-4e67-b299-f866368a6fdb
-content:: When a federal law overrides state laws on the same subject, this is called federal {{preemption}}.
-
 #### Question: Choice
 id:: f21bb075-eebf-4ee3-9626-7f18fba174be
 content:: Polls in 2025 and 2026 found majorities of both Republicans and Democrats opposing new AI data centers in their own communities. Which concern drives much of this opposition?

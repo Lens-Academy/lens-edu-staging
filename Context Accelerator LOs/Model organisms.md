@@ -40,7 +40,7 @@ options::
 - [x] Learning about hard-to-study cases from an easier stand-in
 - Running many cheap copies in parallel, like lab colonies
 - Breeding better models by selecting the best-behaved ones
-- Treating AI systems as living beings with interests of their own
+- Treating AI systems as living beings with interests
 shuffle:: true
 
 #### Question: Choice
@@ -48,6 +48,9 @@ id:: e4ebc99d-cac7-4a53-acce-26d4252a7739
 content:: What is a main advantage of studying a deliberately built misaligned model rather than waiting to find misalignment in deployed models?
 options::
 - [x] Researchers know the flaw is there, so can check if detection finds it
+- Deliberately built models are larger, so failures are easier to see
+- Deliberately built models fail the same way future deployed models will
+- Deliberately built models are cheaper to run than frontier models
 shuffle:: true
 
 #### Question: Choice

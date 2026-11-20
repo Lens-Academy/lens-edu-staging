@@ -100,10 +100,6 @@ options::
 - Neither method improved the small model's reasoning much
 shuffle:: true
 
-#### Question: FillBlank
-id:: 86eb6d17-8f3a-4ee3-b2c5-73dc8724596a
-content:: In distillation, the outputs of a large {{teacher}} model are used to train a smaller {{student}} model to imitate it.
-
 #### Question: Open
 id:: 36f442db-45ea-4302-b76b-531b9f7024f1
 content:: An AI company trains its frontier model to refuse to help with bioweapons. A rival distills the model without permission. Give one reason the rival's model might not refuse such requests.
