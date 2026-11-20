@@ -62,7 +62,7 @@ In their 2025 paper [*The Three Main Doctrines on the Future of AI*](https://doc
 
 Despite the variety of views, the authors find that most fall into three broad camps: the **dominance doctrine**, the **extinction doctrine**, and the **replacement doctrine**.
 
-#### Callout: Questions to guide your reading
+#### Callout: Guiding questions
 collapse:: closed
 
 #### Text
