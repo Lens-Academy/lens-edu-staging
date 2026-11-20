@@ -119,7 +119,7 @@ Pooling under a shared institution, covering both joint work toward a shared goa
 :::callout {title="11. Coordinated halt" tone="neutral" collapse="closed"}
 Binding agreement to stop or hard-cap frontier development, bilateral or broadly multilateral, triggered immediately or by pre-committed if/then conditions.
 
-**Historical parallel: Nuclear test moratoria and the CTBT.** The US and USSR halted testing by parallel moratorium in 1958, resumed, then progressively banned it (Partial Test Ban 1963, CTBT 1996), backed by a global seismic monitoring network that makes cheating detectable. The apt part: a verified halt of an activity, not a surrender of weapons. The cautionary part: the CTBT never formally entered into force because key states, including the US and China, never ratified.
+**Historical parallel: Nuclear test moratoria and the CTBT.** The US and USSR halted testing by parallel moratorium in 1958, resumed, then progressively banned it (Partial Test Ban 1963, Comprehensive Nuclear-Test-Ban Treaty (CTBT) 1996), backed by a global seismic monitoring network that makes cheating detectable. The apt part: a verified halt of an activity, not a surrender of weapons. The cautionary part: the CTBT never formally entered into force because key states, including the US and China, never ratified.
 :::
 
 #### Widget
