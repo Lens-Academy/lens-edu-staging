@@ -22,12 +22,6 @@ Biological misuse shapes much of today's AI policy: company safety frameworks, g
 - [Do the biorisk evaluations of AI labs actually measure the risk of developing bioweapons? (Epoch AI)](https://epochai.substack.com/p/do-the-biorisk-evaluations-of-ai): a close look at the evals labs cite, what "uplift" over an internet baseline means, and where tests may overstate or understate real risk; concludes that labs' caution was largely justified (June 2025) (more advanced)
 
 ## Tests
-#### Question: Choice
-id:: 26328695-3727-4b54-830a-64820a071c37
-content:: Is the risk of people using AI to help cause a biological catastrophe usually classed as a misuse risk or a misalignment risk?
-options::
-- [x] Misuse risk
-- Misalignment risk
 
 #### Question: Choice
 id:: d94ff3d1-f68d-4407-a772-beb8f36b3e06
@@ -87,7 +81,6 @@ options::
 - They are always more capable at biology than closed models
 - Their developers cannot run evaluations on them before release
 - They are trained on more biology papers than closed models
-- They can only run on government computers
 shuffle:: true
 
 #### Question: Choice

@@ -69,7 +69,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: 88b7d010-4ba2-43e5-a6d0-ef1f3a9b46e3
-content:: Which Google DeepMind system, which predicts the 3D structure of proteins, led to a share of the 2024 Nobel Prize in Chemistry?
+content:: Which Google DeepMind system led to a share of the 2024 Nobel Prize in Chemistry?
 options::
 - [x] AlphaFold
 - AlphaGo

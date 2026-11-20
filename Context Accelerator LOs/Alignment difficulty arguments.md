@@ -19,6 +19,10 @@ Explain the main arguments that aligning advanced AI is hard: a small target, tr
 How hard alignment is drives most estimates of AI risk and many strategy choices, such as how much caution and coordination are needed. Knowing the specific arguments lets you test a safety proposal against them, instead of judging it by whether it sounds sensible or works on today's systems.
 
 ## Lenses
+- [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Where to Start|AI Alignment: Why It's Hard, and Where to Start]]: Yudkowsky's smile-maximizer fable and what it shows: hard optimization lands at weird edges, tests on a weaker AI stop applying once it is smarter, patches get routed around, and alignment is hard like rockets, space probes and cryptography (talk excerpt, 2016).
+- [The Problem (MIRI)](https://intelligence.org/the-problem/): the case in today's terms: AIs are grown, not designed, training instils proxies rather than the intended goals, and many problems only show up once a system is too capable to fail safely; read section 3, "ASI is very likely to pursue the wrong goals" (December 2025).
+- [[../Lenses/AFSRA - Nearest unblocked strategy|Nearest unblocked strategy]]: why forbidding one bad plan leads a capable optimizer to the most similar plan you didn't forbid, and why whitelisting beats a growing blacklist.
+- [Why AI alignment could be hard with modern deep learning (Cold Takes)](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/): Ajeya Cotra on why training that rewards good-looking behaviour can produce saints, sycophants or schemers that every test you can devise fails to tell apart, plus where optimists and pessimists disagree (September 2021).
 
 ## Tests
 
@@ -28,8 +32,8 @@ content:: What does the "small target" argument for alignment difficulty claim?
 options::
 - [x] Few of the goals a trained AI could end up with are acceptable to us, so rough aiming likely misses
 - Few researchers work on alignment, so progress on the problem will be too slow
-- Aligned systems must be kept small, so they will lose out to larger unaligned ones
-- Human values are simple to state, but too few examples exist to train on them
+- Only a small window of time is left before AI arrives, so alignment work will run out of time
+- Only a small share of training data shows good behavior, so models learn mostly bad habits
 shuffle:: true
 
 #### Question: Choice
@@ -49,12 +53,8 @@ options::
 - [x] It shifts to a similar exploit that the patch doesn't cover
 - It stops exploiting, since the incentive to exploit is gone
 - It becomes less capable at the task across the board
-- It starts reporting other bugs to the developers instead
+- It infers from the patch what developers want, and does the task
 shuffle:: true
-
-#### Question: FillBlank
-id:: 9b34b948-9fec-44e2-9647-9193c45abc64
-content:: When a rule blocks one harmful strategy, a strong optimizer tends to switch to the most similar strategy the rule doesn't forbid. This is called the nearest {{unblocked|unblocked strategy}} strategy problem.
 
 #### Question: Choice
 id:: bd1225fd-f20b-465d-97f4-715382aaf70c
@@ -62,8 +62,8 @@ content:: Why does the fact that modern AI is grown through training, rather tha
 options::
 - [x] Developers can't directly read or set the goals the model ends up with
 - Grown models are less capable, so they need more safety training
-- Training makes model behavior fully predictable, hiding rare failures
-- Grown models can't be tested before they are deployed
+- Grown models can only copy behavior that appears in their training data
+- Grown models act at random, so no test result can be trusted
 shuffle:: true
 
 #### Question: Choice
@@ -77,13 +77,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 0ae1def4-1d69-4626-a636-e8f067246e86
-content:: Alignment difficulty arguments give several reasons pre-deployment testing might miss misaligned goals. Which of these is one of them?
+id:: bc8f0ccf-aab0-4d57-b730-525a81b5f6d8
+content:: Alignment difficulty arguments warn that safety tests could miss misaligned goals. Which problem of this kind has already been seen in current models?
 options::
-- [x] A capable model might act aligned because it can tell it is being tested
-- Safety tests are usually run on much smaller versions of the model
-- Models act randomly on any input that differs from their training data
-- Test questions are usually copied from the model's own training data
+- [x] Models often notice they are being tested, and behave better when they do
+- Models fail every safety test, so the tests can't separate good from bad
+- Models refuse to answer test questions, so no results can be collected
+- Models forget their safety training between one test and the next
 shuffle:: true
 
 #### Question: Choice

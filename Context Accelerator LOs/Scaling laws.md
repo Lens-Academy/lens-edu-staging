@@ -54,10 +54,6 @@ options::
 - They received too many steps of reinforcement learning after pretraining
 shuffle:: true
 
-#### Question: FillBlank
-id:: b3c9ef17-684a-4087-bdd2-88b1d1b04105
-content:: The Chinchilla results suggest that compute-optimal pretraining uses roughly {{20|twenty}} training tokens for each model parameter.
-
 #### Question: Choice
 id:: 402b6e63-5d4c-4c35-bbf3-19c0357ed215
 content:: Many recent language models are trained on far more tokens per parameter than the "Chinchilla-optimal" ratio. Why would a developer choose this?

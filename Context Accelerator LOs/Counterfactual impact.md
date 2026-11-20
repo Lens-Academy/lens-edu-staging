@@ -30,7 +30,6 @@ options::
 - The impact the action could have had in other circumstances, but did not have
 - The total good produced by the project the action is part of
 - The good the action produces divided by the resources it uses
-- The share of a project's results that others credit to you
 shuffle:: true
 
 #### Question: Choice

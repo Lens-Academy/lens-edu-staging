@@ -73,16 +73,6 @@ options::
 - Yes
 
 #### Question: Choice
-id:: 1b88b35c-ede8-4001-bc49-579a4faef7ef
-content:: In its 2023 "Core Views on AI Safety", what does Anthropic say its role would be if the pessimistic scenario, where alignment is essentially unsolvable, turned out to be true?
-options::
-- [x] Gather evidence that safety techniques fail and warn the world's institutions
-- Release models early so that safety problems surface sooner
-- Focus on misuse, since misalignment would be beyond anyone's control
-- Build the most capable model first so it sets the safety standard
-shuffle:: true
-
-#### Question: Choice
 id:: 91184476-5976-4257-85de-1b286ec2dac8
 content:: Among researchers who agree AI will soon surpass humans at most tasks, which question most divides those who expect alignment to be easy from those who expect it to be very hard?
 options::
