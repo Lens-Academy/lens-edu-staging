@@ -24,6 +24,7 @@ options::
 - Applying to AI safety roles or programmes
 - Exploring AI safety, not applying yet
 - Not pursuing AI safety right now
+
 #### Question: Choice
 id:: 3905f6fd-7143-46c8-8082-f7f526f3b652
 content:: And when you started your first Lens course, what was your AI safety stage?
