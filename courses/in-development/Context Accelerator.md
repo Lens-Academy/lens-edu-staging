@@ -1,6 +1,6 @@
 ---
 id: 'b7c1ac27-721c-4fcc-aab9-9ffa6ea5695a'
-slug: context-accelerator
+slug: context-accelerator-draft
 title: "AI Safety Context Accelerator"
 description: "Eight weeks on what everyone joining AI safety should know."
 tags: [wip]
