@@ -104,13 +104,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: d161ed9e-8c81-43dd-aa11-95c4ebd6b6fd
-content:: Does the Council of Europe's Framework Convention on AI, opened for signature in 2024, limit the compute or capabilities of frontier AI models?
-options::
-- [x] No, it deals with human rights, democracy and the rule of law
-- Yes, it caps training compute in the countries that ratify it
-
-#### Question: Choice
 id:: b286112f-dcae-4221-a84d-40d9eff38397
 content:: In September 2026, after a Trump–Xi summit in Washington, what did the US and China agree on AI?
 options::

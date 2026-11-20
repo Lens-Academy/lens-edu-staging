@@ -43,10 +43,6 @@ options::
 - Measuring how a model's behaviour changes across many benchmark tasks
 shuffle:: true
 
-#### Question: FillBlank
-id:: 23962c3b-27d7-468e-80b4-6c4e71ba13a1
-content:: When a neural network represents more features than it has neurons, by storing them as overlapping directions in its activations, this is called {{superposition}}.
-
 #### Question: Choice
 id:: f875290e-787b-4f50-930c-db905b9a2625
 content:: Why can't researchers usually understand a language model just by checking what each of its neurons responds to?

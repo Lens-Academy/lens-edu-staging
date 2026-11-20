@@ -23,10 +23,6 @@ Any future global agreement on AI will build on these forums or replace them. Kn
 
 ## Tests
 
-#### Question: FillBlank
-id:: 09011efb-b654-4263-8b10-63c9f980b67a
-content:: The first international AI Safety Summit, in November 2023, was held at {{Bletchley Park|Bletchley}} in the UK.
-
 #### Question: Choice
 id:: 2c349f04-ecf3-4756-b0d9-dbd42fa71a6e
 content:: What was notable about the Bletchley Declaration, agreed at the first international AI Safety Summit (Bletchley Park, UK, November 2023)?
