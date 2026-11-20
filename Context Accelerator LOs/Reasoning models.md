@@ -105,4 +105,3 @@ assessment-instructions:: Score out of 100. 100 for explaining that answers in m
 id:: 342e3389-f41f-4c3f-8406-1e0fedacb9e0
 content:: How does the reward signal in reinforcement learning with verifiable rewards (RLVR) differ from the reward signal in RLHF?
 assessment-instructions:: Score out of 100. 100 for saying RLVR rewards come from an automatic check of whether the answer is correct (tests, known solutions), while RLHF rewards come from human preference ratings, usually through a reward model trained on them. 50 for describing only one side correctly.
-
