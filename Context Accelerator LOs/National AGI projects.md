@@ -87,6 +87,7 @@ id:: 3c7c0505-94df-42cf-af91-51d7474360f9
 content:: Critics of a single national AGI project raise concerns about concentration of power. What is the specific worry?
 options::
 - [x] A few officials could use the systems to escape normal checks and balances
+- Many small AI firms would gain powerful models and be hard to regulate
 - The largest tech companies would gain a legal monopoly on AI chips
 - Power over AI would shift from national governments to international bodies
 shuffle:: true
