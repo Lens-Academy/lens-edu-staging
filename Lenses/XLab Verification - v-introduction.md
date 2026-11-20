@@ -130,6 +130,8 @@ collapse:: closed
 
 #### Text
 content::
+\### Optional: A Short History of AI Acceleration
+
 How fast is fast? Two charts from Our World in Data's [brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai) show the pace.
 
 **Timeline of notable AI systems**
