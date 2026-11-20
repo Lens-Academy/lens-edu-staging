@@ -290,7 +290,7 @@ content:: \## Replacement doctrine
 
 #### Article
 source:: [[../articles/arxiv-the-three-main-doctrines-on-the-future-of-ai]]
-from:: A wide range of pathways
+from:: {--{"author":"Aleksandra's AI","timestamp":1795199111206}@@A wide range--}{++{"author":"Aleksandra's AI","timestamp":1795199111206}@@**The replacement doctrine**, a broad umbrella++} of {--{"author":"Aleksandra's AI","timestamp":1795199111206}@@pathways--}{++{"author":"Aleksandra's AI","timestamp":1795199111206}@@views predicting++}
 to:: even if only as capital holders and consumers.
 
 #### Callout: Core expectations of the replacement doctrine
