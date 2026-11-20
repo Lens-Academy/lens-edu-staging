@@ -71,8 +71,6 @@ options::
 - Corrigibility makes an AI system's goals match what its developers intended
 - Corrigible systems cannot be misused by people who gain control of them
 - Corrigible systems tend to be more capable at their tasks
-- Corrigible systems no longer need human oversight
-- Corrigibility makes training cheaper and faster
 shuffle:: true
 
 #### Question: Choice

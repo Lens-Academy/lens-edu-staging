@@ -63,13 +63,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 970da57a-b861-465e-9b36-ec4f46b9e840
-content:: Is the Center for AI Safety (CAIS) a government agency?
-options::
-- [x] No
-- Yes
-
-#### Question: Choice
 id:: 52ae7b25-ede1-46ef-853c-f7be12b1c879
 content:: What do groups such as Encode, ControlAI and Americans for Responsible Innovation mainly do?
 options::

@@ -83,22 +83,11 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: ce66f623-af16-4f73-a5ae-3e3de1353199
-content:: Do the UK and US government AI institutes publish the full results of most tests they run on companies' unreleased models?
-options::
-- Yes, publication is a condition of getting access
-- [x] No, many results are shared only with the company and government
-
-#### Question: Choice
 id:: 1a02b563-e117-47c0-9764-ca35037fd504
 content:: After the UK renamed its AI institute in 2025, does the institute still work on the risk of humans losing control of advanced AI systems?
 options::
 - [x] Yes, loss of control remains one of its research areas
 - No, it now leaves that area to academic and company researchers
-
-#### Question: FillBlank
-id:: b00316ed-d9b1-4b31-ac5d-f20561430693
-content:: The UK announced its AI Safety Institute in November 2023, around the first global AI safety summit, held at {{Bletchley Park|Bletchley}}.
 
 #### Question: Open
 id:: 4ceb5884-5bd4-476d-b85b-7b090a0a667d
