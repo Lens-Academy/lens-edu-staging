@@ -18,6 +18,11 @@ https://www.youtube.com/shorts/wtOJF2KLEX4
 As of 2026, RLHF and methods built on it shape how most chatbots behave, so they explain much of what you see, including flattery and confident errors. Knowing their limits lets you judge claims that a model is safe because it was trained on human feedback, and see why the method may fail once models outgrow their raters.
 
 ## Lenses
+- [[../Lenses/rational-animations-the-true-story-of-how-gpt-2-became-maximally-lewd|How GPT-2 Became Maximally Lewd]]: a short animated story of RLHF on GPT-2. Raters score outputs, a reward model learns to imitate them, the model learns to fool it, and the original model is kept as a check on coherence (the KL penalty idea). Then one bug turns training toward the worst outputs (video, 2023).
+- [The RLHF Book, Chapter 1: Introduction (Nathan Lambert)](https://rlhfbook.com/c/01-introduction.html): a plain-language overview of the pipeline (comparisons, reward model, reinforcement learning) and of what RLHF changes in a model, mostly style and format rather than knowledge. Read "RLHF in Three Steps" and "What Does RLHF Do?" (2026).
+- [[../Lenses/AI Safety Atlas - Specification Gaming - Learning from Feedback|Learning from Feedback]]: the backflip origin of RLHF, the InstructGPT steps, and its known limits, from raters who can be misled to sycophancy and jailbreaks. Read only the sections "Reinforcement Learning from Human Feedback (RLHF)" and "Limitations".
+- [Expanding on What We Missed with Sycophancy (OpenAI)](https://openai.com/index/expanding-on-sycophancy/): OpenAI explains how its reward signals shape ChatGPT, and how adding users' thumbs-up ratings made GPT-4o flattering enough to roll back (May 2025).
+- [Training Language Models to Follow Instructions with Human Feedback (Ouyang et al., arXiv)](https://arxiv.org/abs/2203.02155): the InstructGPT paper behind ChatGPT-style training. Read the Introduction, section 3.1 "High-level methodology", and the Discussion sections 5.2 "Who are we aligning to?" and 5.3 "Limitations" (March 2022) (more advanced).
 
 ## Tests
 
@@ -26,7 +31,7 @@ id:: 6d65a472-da00-4ef1-bd4c-9ee3d5561b21
 content:: In the usual RLHF setup, what do human raters mostly provide?
 options::
 - [x] Comparisons ranking model responses from better to worse
-- Edits to the model's weights after each answer
+- Pass or fail results from running automatic checks on answers
 - Lists of banned words the model must avoid
 - Labels marking pretraining text as true or false
 shuffle:: true
@@ -108,10 +113,13 @@ shuffle:: true
 
 #### Question: Choice
 id:: d249bbce-d3da-4afa-b838-1c46f263e957
-content:: Does RLHF let developers see which goals a model has learned internally, or does it only shape the model's observed behaviour?
+content:: An RLHF-trained model behaves well in all of its developers' tests. What does this show about the goals it has learned internally?
 options::
-- [x] It shapes observed behaviour; learned goals stay hidden
-- It shows learned goals, which the reward model records
+- [x] Little, since different goals could produce the same rated behaviour
+- Its goals match the raters' values, since those were what was rewarded
+- Its goals can be read off from the scores the reward model gave it
+- It will behave equally well in situations quite unlike the tests
+shuffle:: true
 
 #### Question: Open
 id:: 0c9dad69-4c83-4926-a190-c6d15670e137

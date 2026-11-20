@@ -14,6 +14,10 @@ Explain where the rationalist community came from, which AI risk ideas and terms
 Many arguments and terms in AI risk debates first spread through rationalist blogs. Knowing this history helps you follow the jargon, read rationalist writing on its own terms, and judge an argument on its merits rather than by reactions to the community it came from.
 
 ## Lenses
+- [Rationalist community (Wikipedia)](https://en.wikipedia.org/wiki/Rationalist_community): the basic facts: Overcoming Bias, the Sequences (2006–09), LessWrong (2009), Slate Star Codex, MIRI and CFAR, the overlap with effective altruism, and the cult and insularity criticisms (accessed November 2026).
+- [[../Lenses/AICF - Ngo - A retrospective of AI alignment|Richard Ngo: A retrospective of AI alignment]]: a former DeepMind and OpenAI researcher on where the early rationalists came from, the AI ideas they reached years ahead of mainstream ML, their overconfidence in abstract arguments, and how courting Silicon Valley and effective altruist funders backfired; one insider's contested view. Read the sections "Conceptual Clarity and Scientific Progress" and "Orienting Towards Prestige" (August 2026).
+- [[../Lenses/Mistakes the AI safety movement has made|Mistakes the AI safety movement has made]]: 17 AI safety researchers on too much reliance on long abstract arguments from the Sequences and Superintelligence, insularity, and rationalist jargon that puts outsiders off. Read the sections "Too many galaxy-brained arguments & not enough empiricism" and "Too insular" (May 2024).
+- [Rat Traps (Asterisk)](https://asteriskmag.com/issues/08/rat-traps): a former reader's critique of the rationalist blogosphere's habits: its origins in Overcoming Bias and LessWrong, jargon like "epistemic status" and "updating", narrow reading, and a style that can keep its ideas from persuading anyone (November 2024).
 
 ## Tests
 #### Question: Choice
@@ -67,23 +71,23 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 797ea0d7-34ee-4b47-837c-0422ca2a04ec
-content:: A rationalist writes "I'd put about 30% on this happening by 2030." Which habit of the community does this reflect?
+id:: 076b24d1-c282-4d74-861a-cad6d314a136
+content:: Rationalists often state beliefs as probabilities. A rationalist writes "I'd put about 30% on this happening by 2030." What is the best reading of this?
 options::
-- [x] Stating beliefs as probabilities so they can be checked and compared
-- Avoiding firm claims so that one can't be proved wrong
-- Quoting the consensus forecast of experts in the field
-- Treating any claim below 50% as not worth acting on
+- [x] They think it probably won't happen by 2030, but that it's quite possible
+- They predict it will happen by 2030, with some caveats
+- They think the chance is too small to be worth planning around
+- They are 30% sure their reasoning about it is correct
 shuffle:: true
 
 #### Question: Choice
-id:: 668aa017-801b-47db-b7d0-d27c4d7f5820
-content:: In rationalist discussion, what does it mean to "steelman" an opposing argument?
+id:: 5b7e35eb-e25b-4b06-ab1a-16de7dd1e226
+content:: Rationalists often encourage "steelmanning": restating an opposing argument in its strongest form before responding. What is a common criticism of this practice, including from within the community?
 options::
-- [x] Restate it in its strongest form before responding to it
-- Restate it in its weakest form to show its flaws
-- Refuse to engage with it until it is backed by data
-- Rewrite it as a formal proof that can be checked
+- [x] You may end up rebutting a view the other person doesn't hold
+- It makes the opposing argument look weaker than it really is
+- It commits you to agreeing with the stronger version
+- It makes discussions more hostile than ordinary debate
 shuffle:: true
 
 #### Question: Choice
@@ -92,8 +96,8 @@ content:: How are the rationalist community and effective altruism related?
 options::
 - [x] They overlap heavily but have separate origins and cultures
 - Effective altruism began as a discussion group within the rationalist community
-- They are one community that uses two names in different countries
-- The rationalist community is the official research arm of effective altruism
+- The rationalist community grew out of effective altruism's work on AI
+- They share a few ideas but have little overlap in people or funding
 shuffle:: true
 
 #### Question: Choice
@@ -101,7 +105,8 @@ id:: 3caf4944-ff61-4980-84e8-d46e8c885d38
 content:: As of November 2026, what policy does Eliezer Yudkowsky, a founder of the rationalist community, mainly call for on AI?
 options::
 - [x] An international agreement to halt work toward superintelligence
-- Speeding up US AI development to stay ahead of China
+- A six-month pause on training models more powerful than today's
+- Licensing and mandatory safety testing for frontier AI companies
 - Open-sourcing frontier models so that anyone can check them
 - Leaving alignment to the safety teams inside AI companies
 shuffle:: true
@@ -109,7 +114,7 @@ shuffle:: true
 #### Question: Open
 id:: e43b1cc0-d4ff-486c-becb-8aeb6e48a6e2
 content:: Name two ideas or terms used in AI risk discussion that were first developed or widely spread in the rationalist community.
-assessment-instructions:: Score out of 100. 50 for each of: Friendly AI, the paperclip maximizer, the AI box experiment, coherent extrapolated volition, "foom" or fast takeoff, p(doom), the shoggoth meme, mesa-optimization, or the claim that a superintelligence won't share human values by default. Accept other terms if plausibly spread mainly through LessWrong or MIRI. 0 for terms from mainstream ML with no rationalist link.
+assessment-instructions:: Score out of 100. 50 for each of: Friendly AI, paperclip maximizer, AI box experiment, coherent extrapolated volition, "foom" or fast takeoff, p(doom), the shoggoth meme, mesa-optimization, or that a superintelligence won't share human values by default. Accept others plausibly spread mainly via LessWrong or MIRI. 0 for mainstream ML terms with no rationalist link.
 
 #### Question: Open
 id:: ed7d2c89-13e7-4615-b101-62dd33f0e493

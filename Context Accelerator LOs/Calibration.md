@@ -12,9 +12,13 @@ Explain what it means for probability estimates to be well calibrated, spot over
 ## Helpful first
 
 ## Why it matters
-Claims about AI often come with probabilities attached, from a "10% chance of catastrophe" to dates for human-level AI. A forecaster's record of calibration tells you how much weight their numbers deserve. Checking your own calibration stops you passing on confident claims you have only heard repeated.
+Claims about AI often come with probabilities attached, from a "10% chance of catastrophe" to dates for human-level AI. A forecaster's calibration record is one guide to how much weight their numbers deserve. Checking your own calibration stops you passing on confident claims you have only heard repeated.
 
 ## Lenses
+- [Efforts to Improve the Accuracy of Our Judgments and Forecasts (Open Philanthropy, via EA Forum)](https://forum.effectivealtruism.org/posts/pnpnqA4hijnr59p7d/efforts-to-improve-the-accuracy-of-our-judgments-and): What calibration means, why untrained people are usually overconfident, how a few hours of scored practice fixes it, and why always saying "50%" is calibrated but uninformative; read section 1, "Calibration training" (October 2016).
+- [How to Make Better Predictions (Clearer Thinking)](https://www.clearerthinking.org/post/2019/10/16/practice-making-accurate-predictions-with-our-new-tool): Thinking in ranges, why ranges that are too narrow mean overconfidence, and a quick self-test with ten 90% estimates; read the introduction and tips 1 and 2 (October 2019, updated December 2022).
+- [What Is a Brier Score? (Good Judgment Open FAQ)](https://gjopen.com/faq): A plain definition of the Brier score as the squared error of a forecast, with worked examples, and why a lower score is better, "like in golf"; read the Brier score entry (current).
+- [How Accurate Do Long-Range Forecasts Tend to Be? (Open Philanthropy)](https://www.openphilanthropy.org/?p=3360): Why forecasts 10 or more years out are hard to score, and why the Good Judgment Project's record, mostly on questions 1 to 6 months out, says little about them; read the introduction and section 1.7.1, "Tetlock, long-range forecasting, and relevance" (2019, updated March 2023).
 
 ## Tests
 
@@ -67,18 +71,18 @@ content:: In studies where people state how confident they are in their own answ
 options::
 - [x] Being right less often than their stated confidence
 - Being right more often than their stated confidence
-- Random errors that cancel out over many answers
-- Refusing to state any confidence level
+- Errors in both directions that leave them calibrated on average
+- Overconfidence on easy questions, good calibration on hard ones
 shuffle:: true
 
 #### Question: Choice
-id:: 640bfbf8-cdb3-497d-861c-fc41888aaeca
-content:: Why can a claim you have heard many times feel more certain than the evidence for it warrants?
+id:: d7a5c239-1eeb-481f-ba32-603af037ea2d
+content:: You have heard a figure about AI researchers' risk estimates from a dozen people, all of whom got it from the same survey. Compared with reading the survey once yourself, how much should the repetitions raise your confidence that the figure is right?
 options::
-- [x] Repetition makes it familiar, and familiarity is easily mistaken for truth
-- Repeated claims have usually been checked by more people
-- Hearing a claim often means many independent sources support it
-- Memory tends to keep accurate claims and drop false ones
+- [x] Hardly at all, since every repetition traces back to one survey
+- A good deal, since each person who repeated it is another source
+- Somewhat, since people usually check a figure before repeating it
+- Fully, since a figure repeated this widely is rarely wrong
 shuffle:: true
 
 #### Question: Choice
@@ -98,8 +102,8 @@ assessment-instructions:: Score out of 100. 100 for saying calibration is judged
 
 #### Question: Open
 id:: 3c2ebc10-a865-49f2-b0a9-14850d7e5622
-content:: Why is a forecaster's good track record on one-year questions limited evidence about how well they forecast whether AI will cause a catastrophe decades from now?
-assessment-instructions:: Score out of 100. 100 for any one of: long-range forecasts can't be scored until the outcome arrives, so that skill is untested; the questions differ in kind (unprecedented events, little data, no feedback), so skill may not carry over. 50 for "the future is uncertain" without saying why the record doesn't carry over.
+content:: Why is a forecaster's good track record on one-year questions only limited evidence about how well they forecast whether AI will cause a catastrophe, which might come within a few years or be decades away?
+assessment-instructions:: Score out of 100. 100 for any one of: such forecasts can't be scored until the outcome arrives, so that skill is untested; the questions differ in kind (unprecedented events, little data, no feedback), so skill may not carry over. 50 for "the future is uncertain" without saying why. Don't mark down noting the record is still some evidence.
 
 #### Question: Open
 id:: 6a428f02-5a86-4df9-97b2-7ddd6c6c0425

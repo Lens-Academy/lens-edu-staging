@@ -15,6 +15,9 @@ Tell apart the main kinds of work on AI risk, from research and policy to operat
 Each kind of work helps only when what it depends on also goes right: research has to reach the labs that build AI, and a policy has to be enforced. Knowing the options and these dependencies lets you choose where your time and skills help most, including outside a full-time job.
 
 ## Lenses
+- [What needs to be done, and what you can do (80,000 Hours)](https://80000hours.org/agi/guide/summary/): the priorities for making AI go well, the many mostly non-technical jobs that serve them, and ways to help from your current job (donating, communicating, independent projects); read sections 4 and 5 (March 2025, updated April 2026).
+- [[../Lenses/Risks from power-seeking AI|Risks from power-seeking AI systems]]: what technical safety work (training, oversight, evaluations, interpretability, control) and governance work (safety policies, audits, compute rules, treaties) each try to do, footnote 40 on why some safety research may speed up AI, and a list of roles from operations to grantmaking; read "Technical safety approaches", "Governance and policy approaches" and "How you can help".
+- [AI safety advocacy (80,000 Hours)](https://80000hours.org/career-paths/ai-safety/): how advocacy turns research into action, where communication fits within it, how bad advocacy harms its own cause, a worked case (California's SB-53), and part-time ways in; read "What do professional advocates do?", "Downsides of working in advocacy" and "How to get started" (May 2026).
 
 ## Tests
 
@@ -43,9 +46,9 @@ id:: 73af281d-4c72-477c-913b-7ad86dcb09be
 content:: Proposals to require safety testing of AI models before release depend on technical work. Which technical work do they depend on most directly?
 options::
 - [x] Evaluations that reliably detect dangerous capabilities
-- Methods that cut the cost of training large models
-- Techniques for compressing models to run on phones
-- Larger, cleaner datasets for pretraining
+- Training methods that make models refuse harmful requests
+- Benchmarks that measure general coding ability
+- Watermarks that label AI-generated text
 shuffle:: true
 
 #### Question: Choice
@@ -58,34 +61,19 @@ options::
 - It requires training models on users' private data
 shuffle:: true
 
-#### Question: Choice
-id:: 5169ed88-504c-4e7a-8e5d-0b75affc4bfd
-content:: In work on AI risk, what usually separates advocacy from communication?
-options::
-- [x] Advocacy pushes for specific decisions; communication builds understanding
-- Advocacy targets the public; communication targets policymakers
-- Advocacy happens in person; communication happens through media
-- Advocacy covers current harms; communication covers future risks
-shuffle:: true
+#### Question: Open
+id:: 6d33b318-bf6e-4630-82b8-947306aa945c
+content:: Give one way that public communication about AI risk can backfire, and say why it backfires.
+assessment-instructions:: Score out of 100. 100 for one of these with a reason: confident predictions that fail cost the field credibility; stressing how powerful AI could be draws people and money into racing to build it; alarmism makes people dismiss the issue or feel hopeless; tying the issue to one political side polarises it; overstating current systems invites easy rebuttals. 50 for a backfire with no reason.
 
 #### Question: Choice
-id:: 75dc0486-a1ae-47fd-8b20-277a0daeb511
-content:: Which of these is a common way that public communication about AI risk backfires?
+id:: abe95ceb-d4c8-4e4d-81e8-407ad5e2ee72
+content:: Suppose AI that can do most expert work arrives within about three years. Which of these kinds of work would likely lose the most value?
 options::
-- [x] Confident predictions that fail, costing the field credibility
-- Simple explanations of technical ideas for a general audience
-- References to published surveys of AI researchers' views
-- Concrete examples of current AI systems behaving unexpectedly
-shuffle:: true
-
-#### Question: Choice
-id:: d3d37fcf-8618-4139-8008-7abbd43a15ae
-content:: Which of these is field-building work in AI safety?
-options::
-- [x] Running a course that prepares people for AI safety careers
-- Writing a paper on how models exploit flawed rewards
-- Meeting legislators to argue for a licensing law
-- Setting up the accounts of a new safety research group
+- [x] Training first-year undergraduates for research careers
+- Testing current frontier models for dangerous capabilities
+- Helping governments enforce AI rules already passed
+- Running operations for an established safety research group
 shuffle:: true
 
 #### Question: Choice
@@ -99,13 +87,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 5a04d263-5036-49ac-9f47-5c866d30f90f
-content:: Which of these is tool-building for AI safety?
+id:: 0ff0982e-f708-41ed-8b98-e9c06d9c7979
+content:: A software engineer with no research experience wants to start working on AI safety soon. Which route usually makes the most direct use of their skills?
 options::
-- [x] Writing an open-source library for inspecting a model's activations
-- Running a reading group on interpretability papers
-- Publishing a review of interpretability results so far
-- Advising a government on interpretability requirements
+- [x] Building research tools and infrastructure at a safety organisation
+- Leading a new interpretability research agenda on their own
+- Drafting AI legislation for a government committee
+- Running a public campaign for an AI licensing law
 shuffle:: true
 
 #### Question: Open

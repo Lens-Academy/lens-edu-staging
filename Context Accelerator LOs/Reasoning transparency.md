@@ -15,6 +15,9 @@ Write and judge arguments that readers can check: state your confidence, separat
 Memos, posts and funding pitches about AI risk are read by people deciding whether to trust and act on them. When readers can see how confident you are and what your conclusion rests on, they can find the weak step and correct it, and they learn how much to rely on you.
 
 ## Lenses
+- [Reasoning Transparency (Luke Muehlhauser, Open Philanthropy; EA Forum cross-post)](https://forum.effectivealtruism.org/posts/i9RJjun327SnT3vW8/reasoning-transparency): the standard guide to writing so readers can check you: lead with your key takeaways, say which considerations matter most, state how confident you are (with probabilities, since words like "plausible" are read differently), and say what kind of support each claim has (Dec 2017).
+- [ITT-passing and civility are good; "charity" is bad; steelmanning is niche (LessWrong)](https://www.lesswrong.com/posts/MdZyLnLHuaHrCskjy/itt-passing-and-civility-are-good-charity-is-bad): Rob Bensinger argues the main skill is passing an "ideological Turing test", stating an opposing view as its holders would, rather than steelmanning or being "charitable"; one side of a debate about these norms (Jul 2022).
+- [Epistemic Legibility (Elizabeth, LessWrong)](https://www.lesswrong.com/posts/jbE85wCkRr9z7tqmD/epistemic-legibility): why being easy to argue with is a separate virtue from being right, with examples of legible and illegible writing and a "How to be legible" section: name your sources, label what each belief rests on, and turn "probably" into numbers (Feb 2022).
 
 ## Tests
 
@@ -52,15 +55,21 @@ shuffle:: true
 id:: ca4a25cd-5961-4bd3-b3d6-fa8bcd475d1a
 content:: Which sentence best separates a claim from the evidence for it?
 options::
-- [x] "Training compute will likely keep growing fast; my evidence is the past decade's trend."
-- "Training compute will keep growing fast, as everyone working in the field knows."
-- "Training compute will keep growing fast, which is clearly what the trend shows."
-- "Training compute growing fast is the obvious conclusion from all the evidence."
+- [x] "I expect training compute to keep growing fast; my evidence is the past decade's trend."
+- "I expect training compute to keep growing fast; I have thought about this a great deal."
+- "I expect training compute to keep growing fast; anyone following the field can see why."
+- "I expect training compute to keep growing fast; a slowdown would really surprise me."
 shuffle:: true
 
-#### Question: FillBlank
-id:: c3f397f9-ca5c-4be6-abe6-d04f14c0fe5a
-content:: A short note at the top of a post saying how confident the author is and how much work went into it is called an {{epistemic status}}.
+#### Question: Choice
+id:: 32d26518-e0c8-41f6-ae84-ea191f2bb777
+content:: Many posts on AI risk forums open with a line like "Epistemic status: rough notes written in two hours; I'm unsure about section 3." What is this line mainly for?
+options::
+- [x] Telling readers how much weight to give the post
+- Protecting the author from criticism if the post is wrong
+- Summarising the post's main conclusion in advance
+- Listing the sources the post relies on
+shuffle:: true
 
 #### Question: Choice
 id:: 5b37802f-6bdc-4aef-9f5d-47dfdb1e1a00
@@ -83,23 +92,12 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: ffe5dfc8-f6da-438a-8f3f-b516a37063ba
-content:: You are writing a two-page memo on an AI policy for a busy official. Where should your main recommendation go?
+content:: An author writes "I'm 70% confident that a lab's next model will pass a particular safety evaluation." What does giving the number do?
 options::
-- [x] In the first paragraph, before the supporting reasons
-- At the end, after the evidence has built up to it
-- In an appendix, so the main text stays neutral
-- Spread across sections, next to each piece of evidence
-shuffle:: true
-
-#### Question: Choice
-id:: 5d908e73-d58c-4bf9-b556-c3ed6bca6541
-content:: An author writes "I'm 70% confident that a lab's next model will pass this safety evaluation." What does giving the number do?
-options::
-- [x] Makes the claim easy to score once the result is known
+- [x] Lets readers score the claim once the result is known
 - Shows the claim is backed by careful statistical analysis
-- Makes the claim more likely to be true than a vague one
-- Commits the author to the outcome happening
+- Shows the author is sure the model will pass
+- Means the author was simply wrong if the model fails
 shuffle:: true
 
 #### Question: Choice

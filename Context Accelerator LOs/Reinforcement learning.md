@@ -15,6 +15,10 @@ Explain how a reinforcement learning system improves by taking actions and recei
 As of November 2026, reinforcement learning is a main stage in training frontier AI models, and many accounts of AI going wrong start with a system chasing a reward signal instead of what its designers meant. Knowing how RL works lets you follow arguments about reward hacking, RLHF and reasoning models.
 
 ## Lenses
+- [Reinforcement Learning: Crash Course AI #9 (Crash Course)](https://thecrashcourse.com/courses/reinforcement-learning-crash-course-ai9/): an 11-minute video on the agent–environment–reward loop, how RL differs from learning from labels, credit assignment, policies and values, and exploration versus exploitation (October 2019).
+- [[../Lenses/krakovna-specification-gaming-the-flip-side-of-ai-ingenuity|Specification gaming: the flip side of AI ingenuity]]: how the same search for reward gives AlphaGo's surprising Move 37 when the reward is right and loophole-finding (a flipped Lego block, a boat circling for points) when it isn't, from DeepMind's safety team (April 2020).
+- [[../Lenses/Iliad/A.3 Alignment in Practice 2/Iliad A.3.4 - RLVR|RL on verifiable rewards]]: how language models are now trained with RL by grading only whether a maths answer or piece of code is correct, and why that pushes them to satisfy the letter of a task, e.g. by hard-coding test answers (2026).
+- [[../Lenses/AI Safety Atlas - Specification Gaming - Reinforcement Learning|Reinforcement Learning (AI Safety Atlas)]]: a compact primer on states, actions, policies and reward functions, with the distinction between reward, value and utility, using some notation (more advanced).
 
 ## Tests
 
@@ -42,8 +46,8 @@ shuffle:: true
 id:: 415f95b3-f65e-4335-884f-c0cf8508bfd5
 content:: Why can a system trained with reinforcement learning become better than any human at a task, while a system trained only to imitate human examples usually cannot?
 options::
-- [x] It is scored on outcomes, so it can find strategies no human showed it.
-- It is trained on recordings of the best human experts.
+- [x] It is scored on results, so it can find strategies no human used.
+- It sees many more expert examples than an imitation system does.
 - It has more parameters than systems trained by imitation.
 - Its reward function contains strategies written by top human players.
 shuffle:: true
@@ -53,19 +57,9 @@ id:: 661a0cc0-63b1-4b65-b059-ab5eebc08c05
 content:: A chess-playing reinforcement learning agent gets a reward only at the end of each game: +1 for a win, -1 for a loss. What is the main difficulty this creates?
 options::
 - [x] Working out which of its many moves led to the win or loss.
-- Negative rewards cannot be used to update the agent.
+- The agent cannot learn anything until it has won at least one game.
 - The agent cannot learn without a set of human example games.
-- The agent has no way to tell a win from a loss.
-shuffle:: true
-
-#### Question: Choice
-id:: 9ecf5b0a-65a6-47d3-8bae-f1490859c0a2
-content:: Why is reinforcement learning by trial and error harder to use directly on a physical robot than on a game played in software?
-options::
-- [x] Real-world trials are slow and costly, and mistakes can cause damage.
-- A physical robot cannot be given a numerical reward.
-- Physical tasks have no clear goal that could be rewarded.
-- Games give the agent human examples to copy at each step.
+- The agent needs a human to score each move before it can improve.
 shuffle:: true
 
 #### Question: Choice
@@ -96,11 +90,14 @@ options::
 - Yes
 
 #### Question: Choice
-id:: 79022df6-93e6-4b40-899a-1014d22a4d4a
-content:: In reinforcement learning, does the agent's own behavior affect which experiences it learns from?
+id:: a7ed70bc-9738-4eee-9f03-fe13c7bacb0e
+content:: A coding model is trained with reinforcement learning and rewarded when its code passes a set of tests. It learns to change the tests so they always pass, instead of fixing its code. What does this show?
 options::
-- [x] Yes
-- No
+- [x] It learned to get the reward, which was only a rough measure of working code.
+- It picked up the habit by copying human programmers' examples.
+- It had not yet been trained long enough to learn the real task.
+- Reinforcement learning cannot be used on tasks as complex as coding.
+shuffle:: true
 
 #### Question: FillBlank
 id:: 30d2b0ed-335f-4480-93b0-68060bbc5424

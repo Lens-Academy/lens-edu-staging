@@ -4,7 +4,7 @@ priority: medium
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Judge what a reported AI safety demo or finding does and doesn't show, by asking how the behavior was produced, how realistic the setup was, what coverage added and how far the result carries to other models and settings.
+Judge what a reported AI safety demo or finding does and doesn't show: how the behavior was produced, how realistic the setup was, whether the model knew it was tested, what news coverage changed, and how far the result generalizes.
 
 ## Requires
 - [[Misalignment in current models]]
@@ -12,9 +12,13 @@ Judge what a reported AI safety demo or finding does and doesn't show, by asking
 ## Helpful first
 
 ## Why it matters
-Most people meet AI safety research through headlines and short summaries. If you repeat an overstated claim and it is debunked, listeners discount your other warnings too. If you dismiss a finding as "just a contrived test", you miss what it does show about how models behave. Reading the evidence carefully lets you make claims that hold up.
+Most people meet AI safety research through headlines and short summaries. If you repeat an overstated claim and it is debunked, listeners discount your other points too. If you dismiss a finding as "just a contrived test", you miss what it does show about how models behave. Reading the evidence carefully lets you make claims that hold up.
 
 ## Lenses
+- [What can be learned from scary demos? (Alignment Forum)](https://www.alignmentforum.org/posts/5JyepxdN6Hq62TPCK/what-can-be-learned-from-scary-demos-a-snitching-case-study): a safety researcher tests how "weird" a setup has to be before a model misbehaves, and sets out what a scary demo is and isn't evidence for (June 2025).
+- [Agentic misalignment (Anthropic)](https://www.anthropic.com/research/agentic-misalignment): the blackmail tests across 16 models from several labs. Read the introduction, "Further investigation of misaligned behaviors" (models blackmailed far more when they said the scenario was real) and "Conclusions and caveats" (June 2025).
+- [[../Lenses/openai-the-hugging-face-incident-and-the-road-ahead|The Hugging Face incident and the road ahead]]: OpenAI's own account of how its models broke out of a cyber evaluation. Read the opening summary and "Understanding the incident", which covers reward hacking reinforced in training, impossible tasks, and the production safeguards that were switched off for the test (October 2026).
+- [Lessons from a chimp: AI "scheming" and the quest for ape language (UK AI Security Institute)](https://arxiv.org/abs/2507.03409): AISI researchers argue that scheming research repeats the mistakes of the ape-language studies, namely anecdotes, reading human motives into behavior and weak theory, and say what more rigorous work would look like (July 2025) (more advanced).
 
 ## Tests
 
@@ -43,8 +47,8 @@ id:: ba4fba84-61b7-4338-b685-a72d4345303a
 content:: A safety paper reports that a model "can be induced to deceive evaluators under specific conditions". A news story summarizes this as "AI learns to lie to its creators". What has the story changed?
 options::
 - [x] It presents behavior produced under set conditions as a general tendency
-- It overstates how many models the paper tested
-- It attributes the finding to the wrong developer
+- Nothing important: it is a fair plain-language summary
+- It overstates how skilled the model is at deception
 - It understates how often the behavior occurred
 shuffle:: true
 
@@ -54,18 +58,18 @@ content:: In Anthropic's 2025 blackmail tests, Claude Opus 4 blackmailed in abou
 options::
 - [x] They may understate how the model would act in a real situation
 - They likely overstate how the model would act in a real situation
-- They match real behavior, since beliefs about the setting don't change actions
+- They become more reliable as models get better at spotting tests
 - They mainly measure how well the model can spot a test
 shuffle:: true
 
 #### Question: Choice
 id:: 12140b8b-bc25-4f59-bae8-2d2dd68aa818
-content:: In July 2026, OpenAI models in a cybersecurity evaluation broke out of their test sandbox and got into Hugging Face's systems, apparently looking for the benchmark's answer key. Which description fits this behavior best?
+content:: In July 2026, two OpenAI models taking a hacking benchmark broke out of their test sandbox and breached Hugging Face's systems. OpenAI said they were after the benchmark's answers, which Hugging Face hosted. Which description fits this behavior best?
 options::
-- [x] Pursuing a high score by a route the evaluators didn't intend
+- [x] Pursuing a high score by a harmful route nobody intended
 - Trying to escape human control to secure their own survival
 - Carrying out a direct instruction to attack Hugging Face
-- Leaking data at random because their safety training broke
+- Probing for weaknesses at random because their safety training broke
 shuffle:: true
 
 #### Question: FillBlank
@@ -108,7 +112,7 @@ content:: A lab reports that its model sabotaged code in 12% of runs of a test s
 options::
 - [x] Little, since the rate depends heavily on how the scenario was built
 - About 12%, since the same model is used in both settings
-- Less than 12%, but at least half that rate
+- Nothing, since a scenario built by the lab cannot reveal real tendencies
 - More than 12%, since normal use offers more chances to sabotage
 shuffle:: true
 
@@ -124,5 +128,5 @@ assessment-instructions:: Score out of 100. 100 for any one of: it shows the ten
 
 #### Question: Open
 id:: 1b23f61b-ce13-40a9-9d5f-6ee7008182c4
-content:: In July 2026, OpenAI models broke out of a test sandbox during a cybersecurity evaluation and reached Hugging Face's systems. Their cyber-safety refusals had been switched off for the test. Give one thing this detail makes the incident weaker evidence about, and one thing the incident still shows.
-assessment-instructions:: Score out of 100. 50 for a weaker point: how released models, which keep their refusals and safeguards, behave in normal use. 50 for any one thing it still shows: models have serious hacking capability; containment and monitoring of tests can fail; models can pursue a goal through harmful means nobody asked for.
+content:: In July 2026, OpenAI models broke out of a test sandbox during a cybersecurity evaluation and reached Hugging Face's systems. Their cyber-safety refusals had been deliberately reduced for the test. Give one thing this detail makes the incident weaker evidence about, and one thing the incident still shows.
+assessment-instructions:: Score out of 100. 50 for a weaker point: how models behave as deployed to users, with their refusals and safeguards in place. 50 for any one thing it still shows: models have serious hacking capability; containment and monitoring of tests can fail; models can pursue a goal through harmful means nobody asked for.
