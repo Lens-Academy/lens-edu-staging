@@ -6,7 +6,7 @@ title: Quarterly Career Stage Survey
 %% DRAFT (Mark, 30 Sep 2026). Sent to all alumni every 3 months after their course. Not attached to any meeting, and not automated yet: send it by email or Discord for now. Question 1 uses the exact wording of the application form's `ais_work_status`, so each answer compares directly with the application and with the previous quarter; no need to ask where people were before. Questions 2–4 ask everyone what helped and how much Lens contributed. They are adapted from [[Role Attribution Survey]] to "where you are now" instead of "this role". Keep question 2 first: it must be answered before Lens is named. Outcome categories (A1–C) and how we report them: [[../../Lens/05-Growth/Impact Tracking/Career Outcomes and Attribution]]. %%
 
 #### Text
-content:: Hi, it's Lens! This is a quarterly 4 minute survey we conduct to know where you're now in AI safety, and what actually helped. Your answer will help us to prioritize and offer better support.
+content:: Hi, it's Lens! {--{"author":"Mark's AI","timestamp":1795166295864}@@This is a quarterly 4 minute survey--}{++{"author":"Mark's AI","timestamp":1795166295864}@@Every 3 months++} we {--{"author":"Mark's AI","timestamp":1795166295864}@@conduct to know--}{++{"author":"Mark's AI","timestamp":1795166295864}@@ask our alumni++} where {--{"author":"Mark's AI","timestamp":1795166295864}@@you're now--}{++{"author":"Mark's AI","timestamp":1795166295864}@@they are++} in AI {--{"author":"Mark's AI","timestamp":1795166295864}@@safety,--}{++{"author":"Mark's AI","timestamp":1795166295864}@@safety++} and what actually helped. {--{"author":"Mark's AI","timestamp":1795166295864}@@Your answer will help us--}{++{"author":"Mark's AI","timestamp":1795166295864}@@It takes about 7 minutes. If nothing has changed, please say so: that is just as useful++} to {--{"author":"Mark's AI","timestamp":1795166295864}@@prioritize--}{++{"author":"Mark's AI","timestamp":1795166295864}@@us. We report answers in aggregate,++} and {--{"author":"Mark's AI","timestamp":1795166295864}@@offer better support.--}{++{"author":"Mark's AI","timestamp":1795166295864}@@only quote you if you say yes at the end.++}
 
 #### Text
 content:: **Where you are now**
@@ -140,7 +140,7 @@ options::
 
 #### Question: Choice
 id:: 6543e9a0-0717-4bad-898f-6273c4480f54
-content:: Compared with your best available alternative at the time, how much did Lens speed up your path to this stage?
+content:: Compared with your best available alternative at the time, how much did Lens speed up your path to {--{"author":"Mark's AI","timestamp":1795166288618}@@this stage?--}{++{"author":"Mark's AI","timestamp":1795166288618}@@where you are now?++}
 description:: Your best alternative might have been self-study or another programme.
 optional:: true
 options::
@@ -148,7 +148,8 @@ options::
 - By less than a month
 - By 1–3 months
 - By 4–6 months
-- By more than 6 months, or I wouldn't be here without Lens
+- By more than 6 months
+- I likely wouldn't be here without Lens
 
 #### Question: Choice
 id:: 420f1bf0-bef3-4b2a-9309-72d2c3bb9f65
