@@ -59,7 +59,7 @@ feedback-instructions:: The learner just watched part of Robert Miles's video on
 
 #### Text
 content::
-In the paper, the first protocol in this clip is called **upfront auditing**.
+Miles does not name it, but in the paper the protocol where humans check the first 2% of solutions (the third one in this clip) is called **upfront auditing**.
 
 #### Question: Open
 id:: 0e9d495d-2be7-40f3-8d0c-7079550b5cea
