@@ -107,17 +107,20 @@ id:: 10cff8ba-b2e0-4015-81dd-3ed421829c04
 content:: Why do some researchers link internal deployment of the most capable AI models to the risk of power concentration?
 options::
 - [x] A small group in one company could have sole use of the strongest AI
-- Internal deployment requires the approval of national governments
-- Internally deployed models are usually shared with rival companies
-- Internal use lets the public see how the model is being used
+- Companies must hand their internal models over to their national government
+- Internal deployment is now the main way AI companies earn revenue
+- Internally used models tend to adopt their developers' political views
 shuffle:: true
 
 #### Question: Choice
-id:: 245c1a42-1052-4567-855e-a8b981a1c668
-content:: California's SB 53, signed in 2025, sets rules for large frontier AI developers. As of November 2026, does it include requirements about assessing catastrophic risk from developers' internal use of their models?
+id:: d9c8850c-33fa-42fe-b8e7-4d940de67d9e
+content:: California's SB 53, signed in 2025, sets rules for large frontier AI developers. As of November 2026, what does it require about developers' internal use of their models?
 options::
-- [x] Yes
-- No
+- [x] Developers must assess catastrophic risk from internal use and send the state summaries
+- Developers must get a state licence before using a model internally
+- Developers must pass a state safety test before any internal use
+- It covers models only once they are released, not internal use
+shuffle:: true
 
 #### Question: Open
 id:: 80c2ac59-4b6a-4f71-9591-48df3e724aa4
