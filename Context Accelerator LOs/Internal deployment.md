@@ -96,10 +96,10 @@ shuffle:: true
 id:: 1ede13b6-420a-491e-b28e-74ab4079793d
 content:: Why can the theft of an unreleased frontier model's weights be worse than the theft of a released model's weights?
 options::
-- [x] The thieves gain capabilities that outsiders didn't know existed
-- Unreleased weights are larger, so their theft costs the lab more
-- A released closed model's weights can already be downloaded by anyone
-- Unreleased weights also contain the lab's customer data
+- [x] Thieves gain capabilities beyond any public model, before defences catch up
+- Unreleased weights include the lab's training data, which thieves could sell
+- Unreleased weights are not yet protected by law, so theft goes unpunished
+- Released weights are encrypted, while unreleased ones are usually stored openly
 shuffle:: true
 
 #### Question: Choice
