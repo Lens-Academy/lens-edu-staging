@@ -36,9 +36,9 @@ With this reclassification, my breakdown includes 3 clusters of threats to poten
             
         -   External rogue deployments, e.g. as a result of:
             
-    -   **Self-exfiltration (which violates "AI models are never run outside of developer servers")**
+            -   **Self-exfiltration (which violates "AI models are never run outside of developer servers")**
         
-    -   Creating a rogue internal deployment by disabling monitors. This could occur by developing and (which violates "AI agents are monitored at all times")
+    -   Creating a rogue internal deployment by disabling monitors. This could occur by developing and [running a new scaffold without monitors] (which violates "AI agents are monitored at all times")
         
     -   Permission escalation (which violates "AI agents operate with X permissions")
         
