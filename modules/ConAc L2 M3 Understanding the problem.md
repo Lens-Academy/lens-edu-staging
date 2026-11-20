@@ -21,5 +21,8 @@ tags:
 # LO: [[../Context Accelerator LOs/Aligned behavior so far]]
 # LO: [[../Context Accelerator LOs/AI and biorisk]]
 # LO: [[../Context Accelerator LOs/Power concentration]]
+# LO: [[../Context Accelerator LOs/Why AI gets built]]
+# LO: [[../Context Accelerator LOs/AI race dynamics]]
+# LO: [[../Context Accelerator LOs/AI scenarios]]
 # LO: [[../Context Accelerator LOs/Bayesian updating]]
 # LO: [[../Context Accelerator LOs/Subjective probability]]
