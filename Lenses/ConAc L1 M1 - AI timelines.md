@@ -4,7 +4,7 @@ title: "AI timelines"
 tags:
   - wip
 ---
-#### Callout: In this module
+#### Callout: In this submodule
 collapse:: closed
 #### Text
 content::
