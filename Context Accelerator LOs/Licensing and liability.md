@@ -67,8 +67,8 @@ content:: In proposals to license frontier AI development, which of these is a t
 options::
 - [x] Passing dangerous-capability evaluations before deployment
 - Paying damages to people harmed by the model
-- Releasing the model's weights to the public
-- Publishing the full training dataset
+- Showing the model will be commercially profitable
+- Capping how many users the model can have
 shuffle:: true
 
 #### Question: Choice

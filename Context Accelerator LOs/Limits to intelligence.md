@@ -82,10 +82,10 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 94f8b189-f47a-4500-aeac-bbb64d802381
-content:: Some problems, such as finding the shortest route through thousands of cities, are thought to be infeasible for any computer to solve exactly. Why doesn't this show that a superintelligence would be weak?
+id:: bf414d71-9fcf-491f-84fc-195ebeecf049
+content:: Some problems, such as finding the shortest route through a very large number of cities, are believed to have no method that always solves them exactly in reasonable time. Why doesn't this show that a superintelligence would be weak?
 options::
-- [x] Humans face the same limits, so these limits don't favor humans
+- [x] Good approximate answers are usually enough, and are far easier to find
 - A superintelligence could solve them exactly by thinking fast enough
 - Problems like these rarely come up in practice
 - Quantum computers can solve such problems quickly

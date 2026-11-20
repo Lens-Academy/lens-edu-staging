@@ -73,10 +73,10 @@ options::
 id:: 091d5e93-b55a-4c88-824e-ef78cc2eddbd
 content:: A lab rewards its safety team for lowering harmful-output rates on a public benchmark. Scores improve fast, while nobody studies whether far more capable future models will reason well about ethics. What does this most clearly illustrate?
 options::
-- [x] Safety work drifting toward problems whose progress is easy to measure
+- [x] Safety effort going to problems whose progress is easy to show
 - The benchmark leaking into the model's training data
-- Regulators blocking research on future models
-- The ethics problem being solved as a side effect
+- The safety team having too little funding to cover both problems
+- Capabilities work crowding safety researchers out of the lab
 shuffle:: true
 
 #### Question: Choice

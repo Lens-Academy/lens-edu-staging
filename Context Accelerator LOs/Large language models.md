@@ -100,7 +100,7 @@ content:: What is the relationship between an LLM and a chatbot such as ChatGPT 
 options::
 - [x] The chatbot is an app built around an LLM trained to act as an assistant
 - The chatbot and the LLM are the same thing under two names
-- The chatbot is a search engine that uses an LLM only to fix grammar
+- The chatbot's answers come from hand-written rules, and the LLM only polishes the wording
 - The chatbot is a group of LLMs that vote on each answer
 shuffle:: true
 
