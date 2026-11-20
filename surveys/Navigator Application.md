@@ -79,5 +79,26 @@ options::
 required:: true
 
 #### Question
+key:: sessions_per_week_min
+content:: Group sessions per week you could lead: minimum
+max-chars:: 3
+short:: true
+required:: true
+
+#### Question
+key:: sessions_per_week_ideal
+content:: Group sessions per week you could lead: ideal
+max-chars:: 3
+short:: true
+required:: true
+
+#### Question
+key:: sessions_per_week_max
+content:: Group sessions per week you could lead: maximum
+max-chars:: 3
+short:: true
+required:: true
+
+#### Question
 key:: anything_else
 content:: Anything else you'd like us to know?
