@@ -170,7 +170,7 @@ collapse:: closed
 
 #### Text
 content::
-The main steps of the **extinction doctrine** argument, distilled from the paper's section on the doctrine. Where possible, we kept the authors' section headings.
+The core logic of the **extinction doctrine**, based on the paper’s subheadings:
 
 - A superintelligent AI will be resistant to any human attempts to control or change it, e.g. through
     - Manipulation
