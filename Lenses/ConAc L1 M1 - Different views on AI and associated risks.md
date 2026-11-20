@@ -1,7 +1,7 @@
 ---
 id: '1984a053-77c5-45ef-a311-7b450b09f462'
 title: "Different views on AI and associated risks"
-reading_minutes: {--{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795188996927}@@30--}{++{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795188996927}@@20++}
+reading_minutes: 20
 tutor_minutes: 0
 tags:
   - wip
