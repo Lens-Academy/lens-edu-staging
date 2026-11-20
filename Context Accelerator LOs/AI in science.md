@@ -15,6 +15,11 @@ Describe major ways AI is used in scientific research, such as protein structure
 Faster science is one of the main reasons people want advanced AI, so knowing real examples helps you weigh benefits against risks fairly. The same tools that help design medicines and proteins can help design toxins or pathogens, so progress in AI for science is also a signal of rising misuse risk.
 
 ## Lenses
+- [AlphaFold: a solution to a 50-year-old grand challenge in biology (Google DeepMind)](https://deepmind.google/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/): what the protein folding problem is, why lab methods for finding structures are slow and costly, and how AlphaFold, trained on about 170,000 known structures, predicted shapes from amino acid sequences (November 2020).
+- [GraphCast: AI model for faster and more accurate global weather forecasting (Google DeepMind)](https://deepmind.google/blog/graphcast-ai-model-for-faster-and-more-accurate-global-weather-forecasting/): how a model that learns from four decades of past weather data, rather than solving physics equations, beat the leading conventional forecast and runs in under a minute (November 2023).
+- [Why the Legendary Erdős Problems Are Falling to AI (Quanta Magazine)](https://www.quantamagazine.org/how-ai-tore-through-a-mathematical-community-20260803/): AI systems solving open problems in mathematics, how mathematicians checked which results were genuine and which were rediscoveries, and the worries about unread AI papers (August 2026).
+- [[../articles/Amodei-machines-of-loving-grace|Machines of Loving Grace]]: Anthropic's CEO on what limits how fast smarter AI can speed up science: slow experiments, missing data, complexity and human rules; read "Basic assumptions and framework" and the first four paragraphs of "1. Biology and health" (October 2024).
+- [[../Lenses/AI Safety Atlas - Risks - Misuse Risks|Misuse Risks]]: how the AI tools that help design medicines can also lower barriers to biological weapons, including a drug-discovery model turned to propose toxic molecules and gaps in DNA synthesis screening; read the introduction and the "Bio Risk" section only.
 
 ## Tests
 
@@ -29,11 +34,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 7fad5fe0-bdc5-4aaa-b4ad-4bf01c98b66f
-content:: Did AlphaFold learn to predict protein structures from structures that scientists had already determined by experiment?
+id:: ee61c33b-729d-41b9-876b-1741d2d41ec0
+content:: AlphaFold learned to predict protein structures from structures that scientists had measured by experiment over several decades. What does this suggest about where AI tends to speed up science most?
 options::
-- [x] Yes
-- No
+- [x] In fields that already have large, reliable collections of measured data
+- In fields with few past measurements, where the most is left to discover
+- In fields where AI can replace lab experiments entirely
+- In fields whose knowledge is mostly written in papers rather than measured
+shuffle:: true
 
 #### Question: Choice
 id:: 2d9b4989-69d8-4445-bd5f-6c560e2b9429
@@ -76,13 +84,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 7306d325-f8fd-4177-a4dc-2577949451aa
-content:: As of November 2026, which best describes AI's role in research mathematics?
+id:: 22fda78f-025b-47a3-a00c-b703f176be9e
+content:: As of November 2026, which best describes what AI systems have done on long-standing open problems in mathematics?
 options::
-- [x] AI has produced some results on open problems that mathematicians accept as genuine
-- AI can check calculations but has not produced any new results
-- AI has solved most famous open problems, such as the Riemann hypothesis
-- Major mathematics journals have banned work done with AI
+- [x] Proved some significant new results that experts checked, such as a weaker form of the Riemann hypothesis
+- Found only forgotten solutions in old papers, with no genuinely new results so far
+- Solved problems only after humans first translated them into formal proof languages
+- Settled nearly all of the famous Erdős problems, leaving only a few still open
 shuffle:: true
 
 #### Question: Choice

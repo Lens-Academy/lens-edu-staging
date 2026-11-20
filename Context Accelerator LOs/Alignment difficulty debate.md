@@ -14,7 +14,7 @@ Describe the main positions on how hard aligning advanced AI will be, from fairl
 - [[Misalignment in current models]]
 
 ## Why it matters
-Two people can agree that AI will soon be very capable and still give very different risk estimates, mostly because they disagree about how hard alignment is. Knowing the main positions, and what each counts as evidence, lets you find where an argument really disagrees and judge which new results should change your view.
+Two people can agree that AI will soon be very capable and still give very different risk estimates, often largely because they disagree about how hard alignment is. Knowing the main positions, and what each counts as evidence, lets you find where an argument really disagrees and judge which new results should change your view.
 
 ## Lenses
 - [[../Lenses/Forecasting risk and choosing an approach|Forecasting risk and choosing an approach]]: the spread of views, from optimistic to pessimistic.
@@ -30,19 +30,9 @@ id:: 5572092c-51cf-494f-adfb-0c291165bd1f
 content:: In Anthropic's 2023 "Core Views on AI Safety", which describes the intermediate scenario for alignment difficulty?
 options::
 - [x] Preventing catastrophe is possible but needs major scientific and engineering effort
-- Current techniques such as RLHF are roughly sufficient on their own
-- Aligning advanced AI is likely beyond reach, so safety is unsolvable
-- Misalignment is a minor risk, so the main work is preventing misuse
-shuffle:: true
-
-#### Question: Choice
-id:: a1a3c111-86b2-41fa-a03c-b48069dfcfb9
-content:: Chris Olah's informal scale of alignment difficulty runs from "steam engine" through "Apollo" to "P vs NP". What does the Apollo level stand for?
-options::
-- [x] A huge but achievable scientific and engineering project
-- A problem that existing engineering methods already handle
-- A problem needing breakthroughs that may never come
-- A problem solved mainly by one lucky insight
+- Current techniques such as RLHF will be enough if labs apply them carefully
+- Alignment is unsolvable in practice, so the priority is to halt development
+- Alignment is easy, but preventing misuse by bad actors needs major effort
 shuffle:: true
 
 #### Question: Choice
@@ -69,8 +59,8 @@ shuffle:: true
 id:: f493f8c0-b104-419b-b937-9097dbc37e06
 content:: Why do researchers who think alignment is very hard give little weight to today's models mostly behaving well?
 options::
-- [x] Weaker systems' good behavior may not carry over to systems able to deceive
-- Behavioral tests of current models are mostly run by the labs that built them
+- [x] Models too weak to fool or overpower overseers show little about stronger ones
+- Today's models behave well mainly because of output filters, not training
 - Today's models are trained with methods that labs plan to abandon soon
 - Current models are too small to learn human values from their training data
 shuffle:: true
@@ -98,7 +88,7 @@ content:: Among researchers who agree AI will soon surpass humans at most tasks,
 options::
 - [x] Whether training on behavior gives superhuman systems the goals we intended
 - Whether AI labs should publish their safety research openly
-- Whether AI systems will need more compute than exists today
+- Whether superhuman AI would be capable of causing a catastrophe at all
 - Whether governments will regulate AI within the next decade
 shuffle:: true
 

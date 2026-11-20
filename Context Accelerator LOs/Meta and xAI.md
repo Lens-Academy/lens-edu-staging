@@ -4,7 +4,7 @@ priority: low
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Describe Meta's and xAI's main AI efforts, explain Meta's case for releasing model weights openly and the risks critics see in it, and give the main criticisms of xAI's safety practices.
+Describe Meta's and xAI's main AI efforts, explain Meta's case for releasing model weights openly, the risks critics see in it and Meta's 2026 move to a closed frontier model, and give the main criticisms of xAI's safety practices.
 
 ## Requires
 
@@ -12,15 +12,20 @@ Describe Meta's and xAI's main AI efforts, explain Meta's case for releasing mod
 - [[AI companies]]
 
 ## Why it matters
-Meta and xAI control large amounts of computing power and money. Their choices, such as releasing model weights or launching models with few published safety tests, shape what other developers see as acceptable. Knowing their stances helps you judge claims about open release and about how seriously frontier developers treat safety.
+Meta and xAI (now part of SpaceX) control huge amounts of computing power and money. Their choices, such as whether to release model weights openly and whether to publish safety tests before launch, shape what other developers see as acceptable. Knowing their stances helps you judge claims about open release and about how seriously frontier developers treat safety.
 
 ## Lenses
+- [Life After Llama: Meta pivots away from open weights (The Batch)](https://www.deeplearning.ai/the-batch/with-muse-spark-meta-pivots-away-from-its-open-weights-llama-strategy): Meta Superintelligence Labs, the Scale AI deal and hiring spree, Llama 4's troubles, and Muse Spark, Meta's first closed frontier model (April 2026; Meta later said it would release some models openly again).
+- [The Future is for Everyone (Mark Zuckerberg, Meta)](https://www.meta.com/thefutureisforeveryone/): Meta's own case for "personal superintelligence" and open source AI, from its CEO; read "Securing Against AI Misuse", "Protecting Freedom and Preventing Government Tyranny", "Ensuring American Leadership" and "Alignment With People and Addressing Existential Risk" (August 2026).
+- [[../Lenses/AI Safety Atlas - Strategies - Misuse Prevention Strategies|Misuse Prevention Strategies]]: the arguments for and against open weights, and why fine-tuning strips safeguards from released models; read the callouts "Ensuring a positive offense-defense balance in an open-source world" and "The impossible challenge of creating tamper-resistant safeguards".
+- [xAI (Wikipedia)](https://en.wikipedia.org/wiki/XAI_(company)): xAI's founding by Musk, its "maximally truth-seeking" aim, Grok and the Colossus data centre, the MechaHitler incident and later deepfake scandal, and its merger into SpaceX; read the introduction, history and controversies (November 2026).
+- [OpenAI and Anthropic researchers decry 'reckless' safety culture at xAI (TechCrunch)](https://techcrunch.com/2025/07/16/openai-and-anthropic-researchers-decry-reckless-safety-culture-at-elon-musks-xai/): why researchers at rival labs attacked Grok 4's launch without a system card or published safety results, set against Musk's long record of AI-risk warnings (July 2025).
 
 ## Tests
 
 #### Question: Choice
 id:: 55eb648b-82c5-482a-aac9-2808324630bd
-content:: Meta releases its Llama language models as "open-weight" models. What does that mean?
+content:: Meta has released its Llama language models as "open-weight" models. What does that mean?
 options::
 - [x] Its trained parameters can be downloaded, run and modified by others
 - Its full training data and code are published along with it
@@ -44,30 +49,33 @@ content:: Meta and other supporters argue for releasing AI model weights openly.
 assessment-instructions:: Score out of 100. 100 for any one of: many outside researchers can inspect the models and find flaws; it stops power over AI concentrating in a few companies; others can build on, customise or run the models privately and cheaply; it speeds innovation; it helps the US and its allies set the global standard. 50 for a vague answer such as "it's more open" without saying why that helps.
 
 #### Question: Choice
-id:: 7610b327-be81-42f0-b1b8-12c592c168e7
-content:: Meta's Frontier AI Framework, published in February 2025, sorts models by the risk they pose in areas such as cyberattacks and chemical and biological weapons. What does it say Meta will do with a model it judges to pose critical risk?
+id:: 9c9eb3ab-4080-4e26-8aba-582aa18be4af
+content:: Meta's AI safety framework, first published in February 2025, said Meta would stop developing a model it judged to pose critical risk, for example of enabling cyberattacks or chemical and biological weapons. What did Meta's April 2026 revision say instead?
 options::
-- [x] Stop developing it until it can be made safer
-- Release it as a closed model rather than with open weights
-- Release it openly so outside researchers can study it
-- Report it to the US government and continue as planned
+- [x] Meta may keep developing such a model if safeguards bring its risk down to acceptable levels
+- Meta will hand such a model to US government testers before deciding whether to continue
+- Meta will stop developing such a model and also delete its trained weights
+- Meta will share such a model only with a small group of vetted research partners
 shuffle:: true
 
 #### Question: Choice
-id:: 46b95ac8-0147-4eb5-8320-715258647d86
-content:: In mid-2025, Mark Zuckerberg wrote about Meta's goal of "personal superintelligence". What did he signal about open-sourcing Meta's most capable future models?
+id:: ecab19b9-dd03-433b-8cf4-c7c2b2f30273
+content:: In July 2025, Mark Zuckerberg wrote that Meta would need to be "careful about what we choose to open source". How has Meta handled its most capable model since then?
 options::
-- [x] Meta would be careful about what it chose to open-source
-- Meta would keep open-sourcing its most capable models by default
+- [x] Its April 2026 frontier model, Muse Spark, is closed; some open-weight models are still planned
+- It still releases each new frontier model with open weights, as it did with Llama
+- It has ended all open-weight releases and says it will publish no more
+- It shares its frontier weights only with US agencies and approved partners
+shuffle:: true
 
 #### Question: Choice
 id:: 949e5c2c-bda6-46a5-98ca-13b97e6b1b92
-content:: Yann LeCun, who led Meta's AI research for over a decade, is known for which view on AI risk?
+content:: Yann LeCun was Meta's chief AI scientist from 2013 until he left in late 2025 to start his own company. Which view on AI risk is he known for?
 options::
-- [x] Today's language models are far from human-level AI, and takeover fears are overblown
+- [x] Language models are far from human-level AI, and takeover fears are overblown
 - Advanced AI poses a serious extinction risk, so frontier development should pause
 - Open-weight release of frontier models is too risky and should be restricted
-- AI risk is real but best handled by a few closed, licensed labs
+- AI risk is real but is best handled by a few closed, licensed labs
 shuffle:: true
 
 #### Question: Choice

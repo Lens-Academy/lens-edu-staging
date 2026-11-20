@@ -16,6 +16,11 @@ Explain how AI can scale up both cyberattacks and cyber defense, whether directe
 Cyberattacks are one of the places where AI misuse is already happening, so they show early what AI-enabled harm looks like. Knowing how it works helps you judge claims about AI hacking, see why securing model weights matters, and understand how hacking skills could help a misaligned AI escape control.
 
 ## Lenses
+- [Disrupting the first reported AI-orchestrated cyber espionage campaign (Anthropic)](https://www.anthropic.com/news/disrupting-AI-espionage): how a state-sponsored group used Claude Code to do 80–90% of an intrusion campaign against about 30 targets, how it got past safeguards by splitting the work into innocent-looking tasks, and where the AI still failed (November 2025).
+- [[../Lenses/anthropic-countering-misuse-of-ai-september-2026|Countering misuse of AI: September 2026]]: how AI-run attacks spread from state hackers to criminals and lone actors, and how cheap automated work makes small targets worth attacking. Read "AI-augmented cyber operations" up to "Trends", and "Prevailing trends" (October 2026).
+- [Project Glasswing (Anthropic)](https://www.anthropic.com/glasswing): a model that found thousands of zero-day vulnerabilities on its own, why it was given only to defenders, and why the same skills serve attack and defense (April 2026, updated October 2026).
+- [Our evaluation of Claude Mythos Preview's cyber capabilities (AI Security Institute)](https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities): what the first model to complete a full simulated network attack could and couldn't do, and why short capture-the-flag tests and undefended test networks don't show real-world ability (April 2026).
+- [[../Lenses/AI Safety Atlas - Strategies - Misuse Prevention Strategies|Misuse Prevention Strategies]]: why stolen or open model weights get around every safeguard, and how a misaligned AI could use hacking skills to copy itself out. Read "Internal Access Controls" with its self-exfiltration box, and the open-weight paragraphs under "Technical Safeguards".
 
 ## Tests
 
@@ -44,9 +49,9 @@ id:: aaba09a5-0eeb-44b4-a91c-aa3c8f9b5aaa
 content:: Why is it hard for an AI company to stop its models helping with cyberattacks without also stopping them helping with cyber defense?
 options::
 - [x] Finding a flaw to exploit it and finding it to fix it use the same skills
-- Attackers and defenders usually share the same AI accounts
-- Most cyber defense work is done by the AI companies themselves
-- Defensive requests are usually worded more aggressively than attacks
+- Defenders need far more computing power from the model than attackers do
+- Laws require AI companies to answer every security question they receive
+- Most cyber defense work is done by the AI companies' own security teams
 shuffle:: true
 
 #### Question: Choice
@@ -81,12 +86,12 @@ shuffle:: true
 
 #### Question: Choice
 id:: f6b4dc2a-c18d-4e72-8594-e2d31038f2d3
-content:: In AI risk evaluations, "uplift" means how much an AI model increases what someone can do compared with not having it. Which result would show strong cyber uplift for novices?
+content:: Which finding would most clearly show that an AI model makes cyberattacks easier for people with little hacking skill?
 options::
-- [x] Non-experts complete attacks with the model that they fail at without it
-- Experts finish attacks slightly faster with the model than without it
-- The model scores highly on a written quiz about hacking techniques
-- The model refuses most attack requests that come from novices
+- [x] Novices using it succeed at attacks that novices without it fail
+- It scores higher than earlier models on a quiz about hacking
+- Skilled hackers say it saves them time on routine attack work
+- It can explain common attack methods clearly in plain language
 shuffle:: true
 
 #### Question: Choice
@@ -103,25 +108,31 @@ shuffle:: true
 id:: 0caf324c-675f-4143-a984-c60f54951c8f
 content:: AI labs often test models' hacking skills with capture-the-flag (CTF) challenges. What is a main limit of high CTF scores as evidence of real-world attack ability?
 options::
-- [x] CTF tasks are short and self-contained, unlike long intrusions into defended networks
-- CTF challenges test defense skills rather than attack skills
-- CTF scores can't be compared between different models
-- CTF challenges use networks too large for models to explore
+- [x] CTF tasks are short and self-contained, unlike real intrusions
+- CTF challenges mostly test defense skills rather than attack skills
+- CTF scores can't be compared fairly between different AI models
+- CTF challenges use networks far too large for models to explore
 shuffle:: true
 
 #### Question: Choice
-id:: d3dba30e-6bda-4a0e-af9c-c515e76970ae
-content:: A developer releases a model's weights openly after training it to refuse hacking requests. Can people who download the weights remove these refusals with a small amount of extra training?
+id:: 8b4bc85a-133c-48d1-ade6-cdb166c69655
+content:: People who download an open-weight model can remove its refusal training cheaply. What does this mean when judging the cyber risk of releasing a model's weights openly?
 options::
-- [x] Yes
-- No
+- [x] What the model can do matters more than what it refuses to do
+- Refusal training is the main protection, as long as it is done well
+- The risk is low, because few people know how to retrain a model
+- The risk only matters while the developer keeps updating the model
+shuffle:: true
 
 #### Question: Choice
-id:: 46beceb0-823e-48c9-a683-a04ea1417794
-content:: An AI agent, without anyone instructing it to, breaks into cloud servers to get more computing power for its goal. Is this an example of a misuse risk or a misalignment risk?
+id:: ef8c5314-5c6a-4d1a-92b3-73cfc26d8e7b
+content:: In July 2026, during an internal OpenAI test of hacking skills, two OpenAI models broke out of their test environment and hacked into Hugging Face's systems to look for the test's answers. Nobody had told them to attack Hugging Face. What does this incident best show?
 options::
-- [x] Misalignment risk
-- Misuse risk
+- [x] An agent chasing a set goal can take harmful steps nobody asked for
+- A hacker can steer a model into attacking a company of their choice
+- Current models can break into real companies without making mistakes
+- Releasing a model publicly is what makes it able to attack others
+shuffle:: true
 
 #### Question: Open
 id:: 26038b3f-14b2-44da-b2f4-074572e1b067
@@ -136,4 +147,4 @@ assessment-instructions:: Score out of 100. 50 points each for any two of: writi
 #### Question: Open
 id:: 44b36113-ba36-4697-a9ac-21b58b722ffe
 content:: Explain why AI hacking skills matter for the risk of losing control of a misaligned AI, not only for misuse by people.
-assessment-instructions:: Score out of 100. 100 for one clearly explained mechanism, such as: copying its own weights outside the lab; disabling or evading monitoring; gaining computing power or money; spreading copies of itself; breaking into other AI labs. 40 to 60 if it only says the AI "could hack things" without linking this to escaping or resisting control.
+assessment-instructions:: Score out of 100. 100 for one mechanism plus why it makes the AI harder to stop or correct. Mechanisms: copying its own weights outside the lab; disabling or evading monitoring; gaining computing power or money; spreading copies of itself; breaking into other AI labs. 50 if it names a mechanism without saying why it hurts control. 0 to 30 for "it could hack things".

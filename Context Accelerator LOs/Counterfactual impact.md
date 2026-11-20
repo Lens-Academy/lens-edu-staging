@@ -4,16 +4,21 @@ priority: medium
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Judge an action's impact by comparing what happens with it against what would have happened without it, taking into account who would act in your place, marginal effects and leverage.
+Judge an action's impact by the difference it makes: compare what happens with it against what would have happened without it, often called its "counterfactual impact", considering who would act in your place, diminishing returns and effects on others' work.
 
 ## Requires
 
 ## Helpful first
 
 ## Why it matters
-Many attractive AI safety roles and projects would happen anyway without you, so judging them by their direct output can overstate your impact. Thinking counterfactually helps you choose work where your contribution adds the most, and spot when a strong replacement candidate, an already-funded project or a crowded area means your effort would do more elsewhere.
+Some attractive AI safety roles and projects would happen anyway without you, while others would not happen at all, so judging work by its direct output can mislead you. Thinking about the difference you make helps you spot when a strong replacement candidate, an already-funded project or a crowded area means your effort would do more elsewhere.
 
 ## Lenses
+- [[../Lenses/probablygood-counterfactual-impact-why-considering-alternatives-can-boost-your-impact|Counterfactual Impact]]: what counterfactual impact is, replacement effects in jobs, what your replacement would do instead, opportunity cost and donation matching.
+- [Marginal Impact: Making the Most of Additional Effort (Probably Good)](https://probablygood.org/core-concepts/marginal-impact/): why the extra difference you make, not an organisation's total or average impact, is what counts, and how diminishing returns shrink the value of later dollars and hires (April 2023).
+- [[../Lenses/probablygood-leverage-why-its-often-best-to-aim-big|Leverage]]: how roles that direct other people's money, time or work multiply your impact, and why they also magnify the cost of being a poor fit.
+- ['Replaceability' isn't as important as you might think (80,000 Hours)](https://80000hours.org/2015/07/replaceability-isnt-as-important-as-you-might-think-or-weve-suggested/): Benjamin Todd on why "someone else would do it anyway" is usually overstated: top candidates often beat the next-best by a lot, and the displaced person goes on to do other work (July 2015).
+- [How replaceable are the top candidates in large hiring rounds? (80,000 Hours)](https://80000hours.org/2019/08/how-replaceable-are-top-candidates-in-large-hiring-rounds/): Robert Wiblin uses simple simulations to show that whether the best applicant is replaceable depends on how widely performance varies, and that with fat-tailed performance the top candidate gets less replaceable as the pool grows (August 2019) (more advanced).
 
 ## Tests
 
@@ -22,6 +27,7 @@ id:: 8e170076-de94-475c-a61f-6360cb3b2458
 content:: What is the counterfactual impact of an action?
 options::
 - [x] The difference between what happens with it and what would have happened without it
+- The impact the action could have had in other circumstances, but did not have
 - The total good produced by the project the action is part of
 - The good the action produces divided by the resources it uses
 - The share of a project's results that others credit to you
@@ -48,13 +54,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: bf0331c2-a7b3-4f1c-839c-b15d0bb46194
-content:: A safety project spent its first $1 million on its most promising work. Compared with the average value per dollar of that $1 million, an extra $100,000 donated now is most likely worth:
+id:: a19b982e-76e8-45fe-8738-40aa479aaec0
+content:: An AI safety organisation says it has already raised all the money it can use well this year. What does this most suggest about an extra donation to it now?
 options::
-- [x] Less per dollar, since the best uses are already funded
-- More per dollar, since the project has proven itself
-- The same per dollar, since it goes to the same project
-- An unknowable amount until the project finishes
+- [x] It would add little, and might do more at a group short of funds
+- It would add as much as earlier gifts, since it funds the same work
+- It would add more, since the group has proven it can attract funding
+- It would add nothing, since spare money is always returned to donors
 shuffle:: true
 
 #### Question: Open
@@ -63,13 +69,13 @@ content:: Explain why a field being very important overall doesn't by itself sho
 assessment-instructions:: Score out of 100. 100 for explaining that what matters is the marginal contribution of one extra person, which can be small if the field already has many people or resources doing the most valuable work (diminishing returns), or if others would do that person's work anyway. 50 for saying "it may be crowded" without linking it to the extra person's contribution.
 
 #### Question: Choice
-id:: f03fbd0c-21cf-4c9c-b884-a69463711fa6
-content:: In discussions of impact, "leverage" means multiplying the effect of other people's efforts. Which of these is an example of leverage?
+id:: bff7a6db-0c77-43fb-addb-122712c64c5e
+content:: You run a training programme, and ten of its graduates go on to AI safety jobs. When does the programme deserve most credit for their work?
 options::
-- [x] Running a training programme that brings ten new people into safety work
-- Writing more papers in your own research area
-- Joining the largest team in your field
-- Choosing the job with the highest salary
+- [x] When most of them would not have entered the field, or not as soon, without it
+- When most of them go on to work at well-known AI safety organisations
+- When the programme cost less per graduate than similar programmes
+- When most of them say in a survey that the programme was useful
 shuffle:: true
 
 #### Question: Choice

@@ -15,15 +15,23 @@ Describe how Google DeepMind became Google's main AI lab, its major results from
 Google DeepMind is one of a handful of labs building frontier AI, backed by Google's money, chips and products. Knowing its record, its ties to Google and its safety commitments helps you judge its public statements, see where outside pressure could change its choices, and compare it fairly with other labs.
 
 ## Lenses
+- [Google DeepMind (Wikipedia)](https://en.wikipedia.org/wiki/Google_DeepMind): the basic facts, from the 2010 London founding and the goal of general-purpose AI through Google's 2014 purchase and ethics board, AlphaGo, AlphaFold and the 2023 merger with Google Brain; read the History section (2026).
+- [Demis Hassabis on AI in the Military and What AGI Could Mean for Humanity (TIME)](https://time.com/7280740/demis-hassabis-interview/): Hassabis in his own words on misuse and loss of control, his AGI timeline, and why Google dropped its pledge against military use, plus how much leverage Google has over him (April 2025).
+- [Strengthening our Frontier Safety Framework (Google DeepMind)](https://deepmind.google/blog/strengthening-our-frontier-safety-framework/): the company's own account of its main safety policy, capability thresholds that trigger extra safeguards, including new ones for manipulation and for models that resist shutdown (September 2025, updated April 2026).
+- [60 U.K. Lawmakers Accuse Google of Breaking AI Safety Pledge (TIME)](https://time.com/7313320/google-deepmind-gemini-ai-safety-pledge/): how Google released Gemini 2.5 Pro weeks before publishing its safety report, why critics said this broke its Seoul summit commitments, and Google's reply (August 2025).
+- [The next chapter of our AI momentum (Google)](https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/): Sundar Pichai's announcement that Hassabis is stepping back to chair Google DeepMind and that Koray Kavukcuoglu will run it, reporting to Pichai; a short look at who now decides (August 2026).
 
 ## Tests
 
 #### Question: Choice
 id:: 294ad76c-f144-4c90-803d-95bfa833599e
-content:: When DeepMind was founded in London in 2010, was building artificial general intelligence an explicit goal?
+content:: When DeepMind was founded in London in 2010, what was its stated long-term goal?
 options::
-- [x] Yes
-- No
+- [x] To build general AI that could learn to do many tasks
+- To build game-playing AI to sell to video game studios
+- To build AI tools for drug discovery and medical research
+- To build better ranking systems for web search engines
+shuffle:: true
 
 #### Question: Choice
 id:: 73c343ea-975b-4a7e-80d5-ab67170bd434
@@ -54,9 +62,9 @@ id:: 927a87cb-4bec-405f-8853-e5fb0d4d1e70
 content:: In 2016 DeepMind's AlphaGo beat Lee Sedol, a top Go professional. Why did this matter to people forecasting AI progress?
 options::
 - [x] Many experts had expected this to be about a decade away
-- It was the first program to beat a world chess champion
-- It won without using any search over possible moves
-- It was the first large language model to play a board game
+- It was the first time a computer beat a world champion at any board game
+- It learned to play only from self-play, with no human games
+- It won without searching ahead through possible moves
 shuffle:: true
 
 #### Question: Choice
@@ -66,37 +74,27 @@ options::
 - [x] AlphaFold
 - AlphaGo
 - AlphaZero
-- Gemini
+- AlphaStar
 shuffle:: true
 
 #### Question: Choice
-id:: a66cb568-fb28-491c-8341-5fc948f559ac
-content:: Which family of frontier AI models does Google DeepMind develop?
+id:: c8715202-274d-49f6-8b9c-51a244abbbe3
+content:: Which best describes Google DeepMind's Frontier Safety Framework?
 options::
-- [x] Gemini
-- Claude
-- Llama
-- Grok
+- [x] A voluntary company policy adding safeguards when a model reaches set danger levels
+- A government rule requiring outside testing of every Gemini model before release
+- A binding promise to stop training any model that shows dangerous abilities
+- A company policy to release model weights once tests judge them safe
 shuffle:: true
 
 #### Question: Choice
-id:: aaca9fa9-2208-408f-9ce2-010abb5a1bfd
-content:: What is Google DeepMind's Frontier Safety Framework?
+id:: 808a67a6-63df-4410-ace7-4ce363a46f48
+content:: When Google bought DeepMind in 2014, it reportedly agreed to an ethics board to oversee DeepMind's work. Later, DeepMind's founders pushed for more independence, including a nonprofit-style structure so that powerful AI would not be controlled by one company. What happened?
 options::
-- [x] Capability thresholds that trigger extra security and deployment safeguards when a model reaches them
-- A UK law that requires Google to have its models tested by the government
-- An open-source library that other labs use to train safer reward models
-- A pledge to pause AGI research once any model is caught deceiving its users
-shuffle:: true
-
-#### Question: Choice
-id:: 9a9f2914-ecc8-4501-b418-e04b95c88648
-content:: When Google bought DeepMind in 2014, what condition did DeepMind's founders reportedly negotiate?
-options::
-- [x] An ethics and safety board to oversee its AI work
-- A guaranteed seat on Google's board of directors
-- A ban on Google releasing DeepMind models publicly
-- The right to spin out as a nonprofit after five years
+- [x] Google turned the idea down and ended the talks in 2021
+- Google agreed, and DeepMind became a nonprofit lab funded by Alphabet
+- DeepMind was spun out as a separate company with Google as a minority investor
+- The UK government blocked the change on national-security grounds
 shuffle:: true
 
 #### Question: Choice

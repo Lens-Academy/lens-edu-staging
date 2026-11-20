@@ -15,6 +15,11 @@ Distinguish AI safety, alignment, AI ethics, responsible AI and AI security, exp
 These terms are used loosely, and the same word can mean very different work. A learner who can tell them apart can judge what a team, law or commitment actually covers, notice when two communities are talking past each other, and avoid assuming that work on one problem addresses another.
 
 ## Lenses
+- [[../Lenses/AI Safety Atlas - Strategies - Definitions|Definitions]]: how AI safety, alignment, ethics and control differ: safety as the widest field, alignment as one part of it, ethics as the question of which goals are worth pursuing, and why loose terms make safety washing easier.
+- [There are two factions working to prevent AI dangers. Here's why they're deeply divided (Vox)](https://www.vox.com/future-perfect/2022/8/10/23298108/ai-dangers-ethics-alignment-present-future-risk): Kelsey Piper on the AI ethics camp (bias, privacy, harms from systems in use now) and the alignment camp (losing control of more powerful systems), where their work overlaps and why they distrust each other (August 2022).
+- [AI Safety Is Becoming AI Security (Center for AI Policy)](https://www.centeraipolicy.org/work/ai-safety-is-becoming-ai-security): why "security" implies an adversary and "safety" covers faults with no attacker, what the UK left out when it renamed its AI Safety Institute, and the case that a security-only focus misses risks like deception and resistance to shutdown (February 2025).
+- [The Difference Between AI Safety and Responsible AI (The Batch)](https://www.deeplearning.ai/the-batch/the-difference-between-ai-safety-and-responsible-ai): Andrew Ng, a leading critic of the safety framing, on why he prefers "responsible AI", which puts the burden on how people build and use AI rather than on the technology itself (February 2025).
+- [AI Safety vs. AI Security: Demystifying the Distinction and Boundaries (arXiv)](https://arxiv.org/html/2506.18932v1): how machine learning researchers separate accidental failures (safety) from deliberate attacks such as prompt injection, data poisoning and model theft (security), and how each can cause the other; read sections 1–4 and the case studies (June 2025) (more advanced).
 
 ## Tests
 
@@ -34,7 +39,7 @@ content:: How do most researchers describe the relationship between AI alignment
 options::
 - [x] Alignment is one part of the wider field of AI safety
 - AI safety is one part of the wider field of alignment
-- They are separate fields with no problems in common
+- Alignment covers misuse by people; safety covers accidents
 - Alignment is a branch of AI ethics, not of AI safety
 shuffle:: true
 
@@ -79,10 +84,10 @@ shuffle:: true
 id:: eeb6ecaa-254f-45fd-997a-f6c327d60fc7
 content:: In February 2025 the UK renamed its AI Safety Institute the AI Security Institute. What focus did the government say the new name reflected?
 options::
-- [x] Serious security risks such as weapons and cyberattacks, not bias or free speech
-- Funding new AI companies rather than testing AI models
-- Risks to individual consumers rather than national risks
-- Wider coverage of bias, fairness and free speech questions
+- [x] Serious risks such as weapons and cyberattacks, no longer bias or free speech
+- Protecting government computer systems, no longer testing AI models
+- Both its old safety work and new security work, including bias and fairness
+- Risks to individual consumers, no longer national security risks
 shuffle:: true
 
 #### Question: Choice
@@ -90,19 +95,9 @@ id:: cc8ac2f2-981d-41b7-8953-538030579050
 content:: Why do many people working on catastrophic AI risk care about securing frontier AI model weights against theft?
 options::
 - [x] A thief could run the model without its developer's safeguards
-- Stolen weights become misaligned once copied to new hardware
+- The weights store users' past conversations, which a thief could read
 - Theft mainly cuts the developer's revenue, which funds safety work
-- Copied weights would let attackers erase the original model
-shuffle:: true
-
-#### Question: Choice
-id:: 65b42152-f9cc-4e53-8e10-5f6720053e9f
-content:: The term "AI alignment" came into wide use mainly through which community?
-options::
-- [x] Researchers focused on risks from advanced AI, such as at MIRI
-- Fairness researchers studying bias in automated decisions
-- Cybersecurity professionals defending machine learning systems
-- Regulators drafting product safety rules for AI
+- The weights give a thief the developer's computing power for training
 shuffle:: true
 
 #### Question: Open

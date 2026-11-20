@@ -18,6 +18,10 @@ https://www.youtube.com/shorts/pO0onulviKc
 Many forecasts of when AI could match human experts assume that adding compute keeps making models more capable. If you know what scaling laws measure and where the evidence is disputed, you can judge those forecasts, see why companies spend so heavily on data centers, and tell whether news of a slowdown should change your timelines.
 
 ## Lenses
+- [[../Lenses/AI Safety Atlas - Capabilities - Leveraging Scale|Leveraging Scale]]: Sutton's bitter lesson, what scaling laws measure (including Chinchilla's roughly 20 tokens per parameter), and the strong, weak and "scale plus tools" versions of the scaling hypothesis.
+- [Where have the really big AI models gone? (Transformer)](https://www.transformernews.ai/p/where-have-the-really-big-ai-models-scaling-pretraining-inference-gpt-compute): the case that pretraining scaling paused rather than hit a wall: chips were short, and reasoning training and inference gave cheaper gains for a while (October 2025).
+- [How Well Does RL Scale? (Toby Ord)](https://www.tobyord.com/writing/how-well-does-rl-scale): the case that reinforcement learning turns compute into capability far less efficiently than pretraining did, which leaves inference compute as the main remaining lever, with rising costs per use (October 2025).
+- [[../Lenses/AIF2 - Scaling Laws|Chinchilla's Wild Implications]]: nostalgebraist's walk through the Chinchilla scaling law, showing why 2022's largest models had too many parameters for their data, and whether we are running out of text (2022) (more advanced).
 
 ## Tests
 #### Question: Choice
@@ -59,8 +63,8 @@ id:: 402b6e63-5d4c-4c35-bbf3-19c0357ed215
 content:: Many recent language models are trained on far more tokens per parameter than the "Chinchilla-optimal" ratio. Why would a developer choose this?
 options::
 - [x] A smaller model trained for longer costs less to run once deployed
-- Training on more data per parameter makes a model safer to release
-- Regulators cap the number of parameters that a model may have
+- It reaches a given loss with less total training compute
+- Larger models cannot be split across enough chips to train
 - Models above a certain size stop following the scaling laws
 shuffle:: true
 
@@ -94,9 +98,9 @@ id:: 2054839a-a20e-4c1f-a980-f760b967bde5
 content:: Scaling laws predict a language model's loss on next-token prediction quite well. Why does this not settle how useful a bigger model will be?
 options::
 - [x] Lower loss does not map in a simple, known way onto specific skills
-- Loss can only be measured once the model has been deployed to users
+- Loss stops being measurable for models beyond a certain size
 - Loss is measured on training data only, so it overstates real progress
-- Loss tracks how fast a model trains, not how well it predicts text
+- Loss differences between large models are too small to detect
 shuffle:: true
 
 #### Question: Choice
@@ -124,9 +128,9 @@ id:: afeaf3bc-7c0d-49b1-9c27-4d3c00e856d5
 content:: From late 2024, reports said some AI companies' largest pretraining runs gave smaller gains than hoped. Which approach did several companies turn to for further progress?
 options::
 - [x] Reinforcement learning to train reasoning, plus more compute at answer time
-- Replacing learned models with hand-written rules for important tasks
-- Cutting training data to remove low-quality text taken from the web
-- Moving most research effort away from language models to robotics
+- Abandoning the transformer for an entirely new kind of architecture
+- Training many small specialist models in place of one general model
+- Pausing new frontier models until pretraining returns improved
 shuffle:: true
 
 #### Question: Open
