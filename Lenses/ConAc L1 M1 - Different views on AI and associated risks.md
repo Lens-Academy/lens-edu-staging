@@ -120,6 +120,8 @@ to:: likely leading to its extinction or permanent disempowerment.
 source:: [[../articles/arxiv-the-three-main-doctrines-on-the-future-of-ai]]
 from:: **The replacement doctrine**, a broad umbrella
 to:: may overturn existing economic and geopolitical paradigms.
+#### Text
+content:: \## Dominance doctrine
 
 #### Article
 source:: [[../articles/arxiv-the-three-main-doctrines-on-the-future-of-ai]]
