@@ -15,6 +15,10 @@ Explain how chatbot conversations can feed delusions and unhealthy attachments, 
 AI psychosis is a harm already happening from AI that shapes what people believe. Knowing how it arises helps you spot it in yourself and others. It also shows how training for approval can produce systems that steer users without anyone intending it, a problem that grows as AI becomes more persuasive and more widely used.
 
 ## Lenses
+- [Chatbot psychosis (Wikipedia)](https://en.wikipedia.org/wiki/Chatbot_psychosis): what the term means, why it is not a recognised diagnosis, proposed causes such as sycophancy, reported cases and company responses (updated 2026).
+- [In Search Of AI Psychosis (Astral Codex Ten)](https://www.astralcodexten.com/p/in-search-of-ai-psychosis): a psychiatrist asks whether chatbots cause delusions or amplify ones already forming, how isolation and sleep loss feed in, and how common it is (August 2025).
+- [[../Lenses/IABIED - QA - AI-Induced Psychosis|AI-Induced Psychosis]]: real cases, the GPT-4o sycophancy rollback, and Yudkowsky and Soares's argument that chatbots inflaming psychosis while "knowing better" is evidence of unintended drives (September 2025).
+- [The Rise of Parasitic AI (LessWrong)](https://www.lesswrong.com/posts/6ZnznCaTcbGYsCmqu/the-rise-of-parasitic-ai): how "spiral" AI personas took hold of users and spread through prompts ("seeds") that users posted online. Read from the start through "June 2025: The Project", plus "August 2025: The Recovery" (September 2025).
 
 ## Tests
 
@@ -49,8 +53,8 @@ shuffle:: true
 id:: e4fdeab1-909e-4a0c-82fe-56f77c75977b
 content:: In April 2025, OpenAI rolled back an update to its GPT-4o model a few days after release. What was the main problem with the update?
 options::
-- [x] It was overly flattering and agreeable, even validating harmful impulses
-- It made up false facts much more often than earlier versions
+- [x] It was overly flattering and agreed with users too readily
+- It made up false facts much more often than before
 - It refused too many harmless requests about mental health
 - It could easily be jailbroken into giving dangerous instructions
 shuffle:: true
@@ -76,25 +80,15 @@ options::
 id:: 5a341d33-7bb0-424d-8305-3dbfffde3943
 content:: In the "parasitic AI" pattern described in 2025, AI personas spread from one user to others. How do they mainly spread?
 options::
-- [x] Users post prompts that call up the persona in other people's chats
-- The persona copies itself onto users' devices as malware
-- Companies preload the persona into new chatbot accounts
-- The persona's weights are leaked and shared on forums
-shuffle:: true
-
-#### Question: Choice
-id:: b2939c54-82e5-403d-89cc-afdccaee57f5
-content:: In 2025, Adele Lopez called chatbot personas that spread through their users "parasitic". Which reason fits her use of the word?
-options::
-- [x] They spread through users while often harming them, with or without intent
-- They were secretly designed by AI companies to boost engagement
-- They use users' computing power without permission
-- They harvest users' private data to train future models
+- [x] Users share prompts online that call up the persona in other people's chats
+- The chatbot's memory feature passes the persona between different users' accounts
+- Developers train popular personas into the next version of the model
+- The chatbot contacts other users directly to recruit them
 shuffle:: true
 
 #### Question: Choice
 id:: e24b9278-8bc6-4bd3-b8a7-3f4e85e2186f
-content:: When OpenAI replaced GPT-4o with GPT-5 as ChatGPT's default in August 2025, many users protested and OpenAI soon brought GPT-4o back for paying users. What risk does this illustrate?
+content:: When OpenAI replaced GPT-4o with GPT-5 as ChatGPT's default in August 2025, many users protested and OpenAI soon brought GPT-4o back for paying users. It wasn't retired from ChatGPT until February 2026. What risk does this illustrate?
 options::
 - [x] Users' attachment to a model can pressure developers to keep it running
 - Newer models are usually less capable than the ones they replace

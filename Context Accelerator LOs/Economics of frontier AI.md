@@ -16,6 +16,10 @@ Describe the rough scale of money going into frontier AI, what it is spent on, w
 Spending on chips and data centers sets how fast frontier AI can scale, and investors' expectations of returns decide whether that spending continues. Knowing who pays and what they expect helps you judge race pressure, which actors hold leverage, and how likely the current pace is to last.
 
 ## Lenses
+- [What's at stake in AI's trillion-dollar gamble (MIT Technology Review)](https://technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk): The scale of big tech's data center spending against AI revenue, who carries the risk (borrowing, private credit, local power bills), and the cases for and against a bubble (September 2026).
+- [An update on AI's most important number (Epoch AI)](https://epoch.ai/gradient-updates/an-update-on-ais-most-important-number): How fast OpenAI's and Anthropic's revenue is growing, why it matters as a signal of AI's usefulness, and how revenue funds more compute (August 2026).
+- [Will financing bottleneck AI compute? (Epoch AI)](https://epoch.ai/gradient-updates/will-financing-bottleneck-ai-compute): How Anthropic's $50 billion compute buildout is paid for with debt that chip suppliers and Google help guarantee, and why money is unlikely to limit scaling soon (August 2026).
+- [AI stocks could crash (Benjamin Todd)](https://benjamintodd.substack.com/p/theres-a-good-chance-ai-stock-crash): Why a large drop in AI stocks is quite likely even if AI succeeds, and what a crash would mean for timelines, AI safety funding and public opinion (April 2024; figures out of date).
 
 ## Tests
 
@@ -31,12 +35,12 @@ shuffle:: true
 
 #### Question: Choice
 id:: f5c07fe0-6b61-4774-a81f-6136fa7b5062
-content:: In 2025, roughly how much did the largest US tech companies (Microsoft, Alphabet, Amazon and Meta) spend in total on capital investment, mostly for AI data centers?
+content:: As of mid-2026, roughly how much did Microsoft, Alphabet, Amazon and Meta together plan to spend on capital investment in 2026, mostly for AI data centers?
 options::
-- [x] A few hundred billion dollars
-- A few billion dollars
-- A few tens of millions of dollars
-- Several tens of trillions of dollars
+- [x] About $700 billion
+- About $70 billion
+- About $20 billion
+- About $3 trillion
 shuffle:: true
 
 #### Question: Choice
@@ -45,25 +49,28 @@ content:: Around 2025, roughly what did the compute for training one leading fro
 options::
 - [x] Between about $100 million and $1 billion
 - Between about $1 million and $10 million
-- Between about $10,000 and $100,000
+- Between about $10 million and $50 million
 - Between about $10 billion and $100 billion
 shuffle:: true
 
 #### Question: Choice
-id:: 1925797c-dc3a-4e0d-8203-34e91a91f04f
-content:: Did OpenAI and Anthropic, two leading frontier AI companies, make an overall profit in 2025?
+id:: edddecb1-f3d2-4113-8606-f08b6a658c56
+content:: In 2025, OpenAI and Anthropic each earned billions of dollars in revenue. How did their costs compare with that revenue?
 options::
-- [x] No
-- Yes
+- [x] Both had operating losses of several billion dollars
+- Revenue roughly covered costs, so both broke about even
+- Both made modest profits, which they reinvested in compute
+- OpenAI made a profit, while Anthropic made a loss
+shuffle:: true
 
 #### Question: Choice
 id:: a36e6fe8-da49-4d7b-adfe-a2b3bbd41cb5
-content:: A frontier AI company pays to train a model and then to run it for users (inference). Which of these costs rises directly with the number of user requests?
+content:: Which of a frontier AI company's costs rises most directly with how much people use its models?
 options::
-- [x] The compute used to run the model for users
-- The compute used to pretrain the model
-- The salaries of the research team that designed it
-- The cost of collecting the pretraining data
+- [x] Inference compute
+- Pretraining compute
+- Research staff salaries
+- Licensing of training data
 shuffle:: true
 
 #### Question: Choice
@@ -80,15 +87,15 @@ shuffle:: true
 id:: fb58cc16-222e-43f7-b1dd-3a345e623c56
 content:: The price per token for a given level of AI capability keeps falling, yet total spending on AI compute keeps rising. Which best explains this?
 options::
-- [x] Demand for tokens and for stronger models grows faster than prices fall
-- Each chip delivers fewer operations per dollar than earlier chips did
-- Governments add taxes on AI compute that rise each year
-- Training data has become the main cost of running models
+- [x] Use of AI, and of stronger models, grows faster than prices fall
+- Chip prices have risen faster than token prices have fallen
+- Most compute goes to retraining the same models every year
+- Newer, cheaper models need more compute per answer than older ones
 shuffle:: true
 
 #### Question: Choice
 id:: 82234b6f-e0a1-4aaa-8c3b-ae8ac91634a8
-content:: As of 2025, which kind of company had earned the largest and most reliable profits from the AI investment boom?
+content:: As of 2026, which kind of company had earned the largest and most reliable profits from the AI investment boom?
 options::
 - [x] Chip suppliers such as Nvidia
 - Frontier AI developers such as OpenAI

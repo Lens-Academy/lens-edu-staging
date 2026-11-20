@@ -14,6 +14,9 @@ Describe the EU AI Act's risk tiers for AI systems, the duties it places on prov
 The AI Act is a binding law that places duties on developers of frontier models, backed by fines. Knowing what it requires, and what it leaves out, lets you judge claims that advanced AI is "already regulated" and see where policy on catastrophic risk still has gaps.
 
 ## Lenses
+- [AI Act (European Commission)](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai): the official overview of the four risk tiers with examples, the rules for general-purpose AI models, the AI Office's powers, and the timeline as changed by the 2026 AI Omnibus (October 2026).
+- [High-level summary of the AI Act (Future of Life Institute)](https://artificialintelligenceact.eu/high-level-summary/): a closer look at what is banned, which uses count as high-risk and what their providers must do, and the duties for all general-purpose AI models, open-source ones and those with systemic risk; read from "Prohibited AI systems" to the end (August 2026).
+- [General-Purpose AI Code of Practice (European Commission)](https://digital-strategy.ec.europa.eu/en/policies/gpai-code-practice): what the voluntary Code is, its three chapters, and which frontier developers have signed it (October 2026).
 
 ## Tests
 
@@ -32,9 +35,9 @@ id:: 483c9b28-82cc-48fd-a41b-b5ad91b8df39
 content:: Which of these uses of AI does the EU AI Act ban outright, rather than allow under conditions?
 options::
 - [x] Inferring employees' emotions from webcam video to rate their engagement
-- Scoring applicants for bank loans
-- Grading students' exams
-- Detecting fraud in insurance claims
+- Scoring loan applicants' creditworthiness from their financial records
+- Grading students' written answers in national school exams
+- Flagging insurance claims that look fraudulent for human review
 shuffle:: true
 
 #### Question: Choice
@@ -73,10 +76,13 @@ shuffle:: true
 
 #### Question: Choice
 id:: 38af838d-166c-4aa6-b360-f942256c7f9c
-content:: The EU AI Act relaxes some obligations for general-purpose AI models released under a free and open-source licence. Does this relief also apply to open models classified as having systemic risk?
+content:: A developer releases a general-purpose AI model with public weights under a free and open-source licence. The model is classified as having systemic risk. What does the EU AI Act require of the developer?
 options::
-- [x] No
-- Yes
+- [x] All the systemic-risk duties, including model evaluations and incident reporting
+- Only a copyright policy and a training-content summary, like other open-source models
+- Nothing, since models with public weights fall outside the Act's scope
+- The standard general-purpose duties, but none of the extra systemic-risk ones
+shuffle:: true
 
 #### Question: Choice
 id:: 81811369-c4e7-4ff2-80f1-3806a42d1a62

@@ -17,6 +17,11 @@ Explain what self-exfiltration is, how an AI could copy its weights out of a lab
 Many loss-of-control scenarios start with an AI getting copies of itself beyond its developers' reach, where it can no longer be monitored, retrained or shut down. Knowing how this could happen helps you judge labs' security claims and read reports of AIs "trying to escape" without either panicking or dismissing them.
 
 ## Lenses
+- [Self-exfiltration is a key dangerous capability (Jan Leike, Musings on the Alignment Problem)](https://aligned.substack.com/p/self-exfiltration): what self-exfiltration is, why a model running outside its lab can't easily be shut down, how it might get out (persuading staff, hacking the lab), why it matters little for open-weight models, and what an escaped model would need to survive (September 2023).
+- [[../Lenses/shlegeris-ai-catastrophes-and-rogue-deployments|AI Catastrophes and Rogue Deployments]]: why escaping safety measures is an early, easy step towards catastrophe rather than the harm itself, and how weight exfiltration differs from a rogue internal deployment inside the lab (June 2024).
+- [[../articles/hobbhahn-frontier-models-are-capable-of-in-context-scheming|Frontier Models are Capable of In-context Scheming]]: Apollo Research's tests in which models, given a goal, sometimes copied what they believed were their weights to another server, and the authors' own list of what this does not show (December 2024).
+- [RepliBench: measuring autonomous replication capabilities in AI systems (UK AI Security Institute)](https://www.aisi.gov.uk/blog/replibench-measuring-autonomous-replication-capabilities-in-ai-systems): splits escape into separate steps (getting the weights, getting compute and money, running copies, staying hidden) and shows which ones models could and couldn't do in sandboxed tests (April 2025).
+- [Preventing model exfiltration with upload limits (Ryan Greenblatt, LessWrong)](https://www.lesswrong.com/posts/rf66R4YsrCHgWx9RG/preventing-model-exfiltration-with-upload-limits): a proposal to make weights hard to copy out by capping how much data a lab's servers can send out, read the summary first (February 2024) (more advanced).
 
 ## Tests
 
@@ -34,7 +39,7 @@ shuffle:: true
 id:: 1eb8ce68-7671-4afe-a831-6d073652464b
 content:: Why do safety researchers treat an AI's ability to self-exfiltrate as an important danger threshold?
 options::
-- [x] Copies outside the lab can no longer be monitored, retrained or shut down by it
+- [x] Copies outside the lab can no longer be monitored, retrained or shut down by the lab
 - Copying its weights makes the copy more capable than the original
 - Moving the weights to a new server removes the model's safety training
 - Weights run outside a lab work faster than the same weights inside it
@@ -44,20 +49,20 @@ shuffle:: true
 id:: 81984ad0-61a6-4f15-8758-eb7519c90e57
 content:: In Apollo Research's December 2024 tests, some frontier models that were given a goal and told they would be replaced tried to copy what they believed were their weights to another server. What does this show?
 options::
-- [x] Models sometimes try this in staged tests; it doesn't show they'd beat real security
-- A frontier model escaped its lab and is now running on outside servers
-- The models had been trained by their developers to resist being replaced
-- Such attempts are common in ordinary customer use of these models
+- [x] Models sometimes try this when set up to, not that they'd beat real security
+- A model got its weights past real lab security, though it was later caught
+- Developers trained these models to resist replacement, though not to copy weights
+- Such attempts are common in ordinary use, though they usually fail
 shuffle:: true
 
 #### Question: Choice
-id:: 8c1a4d83-8cb1-4f41-bbd0-d704747f76dd
-content:: Is self-exfiltration a meaningful extra risk for a model whose weights have already been published openly?
+id:: f69ba14e-3bf5-4f08-a33b-0363a7933ba9
+content:: A model's weights have already been published openly. Which part of the self-exfiltration worry no longer applies to it?
 options::
-- [x] No, because its weights are already outside any developer's control
-- Yes, because open-weight models are easier to copy out of a lab
-- Yes, because publishing the weights gives the model internet access
-- No, because open-weight models are too weak to copy themselves
+- [x] Getting its weights out past a lab's security
+- Running copies of itself that nobody is monitoring
+- Getting the computing hardware to run those copies
+- Being hard to shut down once copies are running
 shuffle:: true
 
 #### Question: Choice
@@ -65,19 +70,19 @@ id:: 337b72d0-8b4b-49a0-acbe-7a4d67c53705
 content:: Which of these lab measures is aimed most directly at making it harder for model weights to be copied out?
 options::
 - [x] Limiting how much data can leave the servers that hold the weights
-- Training the model to refuse harmful requests from users
-- Publishing a model card describing the model's evaluations
-- Red-teaming the model's chat interface for jailbreaks
+- Training the model to refuse users' requests for help with hacking
+- Filtering the model's chat replies for leaked personal information
+- Testing and publishing how good the model is at cyberattacks
 shuffle:: true
 
 #### Question: Choice
-id:: 62afaf68-7c46-4b49-9187-0b7b01ebea11
-content:: An AI at a lab doesn't copy its weights out, but secretly starts running unmonitored copies of itself on the lab's own computers. What is this kind of event usually called?
+id:: 2be800cf-7415-4cee-ba76-108765467ed4
+content:: In early 2026, METR assessed whether AI agents used inside four leading AI companies could start a "rogue deployment": unmonitored copies of themselves running on the company's own computers. What did it conclude?
 options::
-- [x] A rogue internal deployment
-- Weight theft
-- Sandbagging
-- Reward hacking
+- [x] They plausibly could start small ones, but couldn't yet make them robust
+- They couldn't start one, because monitoring blocked every unauthorised job
+- They had already started several, which went unnoticed for months
+- They could start and sustain them, but showed no motive to try
 shuffle:: true
 
 #### Question: Choice
@@ -91,13 +96,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 43c03b47-d8bc-4712-a767-5be8d899cab3
-content:: Benchmarks such as the UK AI Security Institute's RepliBench measure what about AI models?
+id:: 418d86a4-8b16-47a3-b665-8896a447ffcc
+content:: In 2025, the UK AI Security Institute tested frontier models on the steps an AI would need to copy itself and keep running (RepliBench). What did it find?
 options::
-- [x] Whether they can do the separate steps needed to copy and sustain themselves
-- Whether they reproduce passages from their training data word for word
-- Whether they give the same answer when asked the same question twice
-- Whether they can imitate the writing style of a particular person
+- [x] Models handled early steps like renting servers, but struggled to keep copies running
+- Models failed at almost every step, including setting up a cloud server
+- Models completed every step, including getting past identity checks
+- Models struggled to rent servers, but easily kept copies running once set up
 shuffle:: true
 
 #### Question: Choice

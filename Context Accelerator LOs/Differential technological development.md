@@ -15,6 +15,10 @@ Explain differential technological development and defensive acceleration (d/acc
 Many people choosing what to build or fund use this idea, often without naming it. With it, you can ask whether a project helps protective technology arrive before dangerous technology, and notice when that is hard to tell, for example because the same tool helps both attackers and defenders.
 
 ## Lenses
+- [[../Lenses/AI Safety Atlas - Strategies - Socio-Technical Strategies|Defensive Acceleration (AI Safety Atlas)]]: the "Defensive Acceleration (d/acc)" part only: what the defensive, differential and decentralised d's mean, protective technologies for cyber, bio, info and physical defence, and why it all depends on the offence-defence balance.
+- [My techno-optimism (Vitalik Buterin)](https://vitalik.eth.limo/general/2023/11/27/techno_optimism.html): the essay that launched d/acc, from its originator; read the section "d/acc: Defensive (or decentralization, or differential) acceleration", with its examples from far-UVC and pathogen detection to Community Notes (November 2023).
+- [Notes on Differential Technological Development (Michael Nielsen)](https://michaelnotebook.com/dtd/): why the idea is harder to use than it sounds; read the section "Is DTD a useful category?" on dual-use technologies like vaccines and missile shields, and the "risk sign problem" of not knowing whether a technology raises or lowers risk (January 2024).
+- [Vitalik's response to AI 2027 (LessWrong)](https://www.lesswrong.com/posts/zuuQwueBpv9ZCpNuX/vitalik-s-response-to-ai-2027): one side of a live debate: Buterin argues that bio, cyber and info defences could blunt a misaligned AI, and AI 2027 author Daniel Kokotajlo replies inline that such an AI could sabotage defences or win before they arrive (July 2025).
 
 ## Tests
 
@@ -25,7 +29,7 @@ options::
 - [x] Funding pathogen detection before advances that make pathogens easier to make
 - Speeding up all biotechnology research equally so that cures arrive sooner
 - Pausing biotechnology research worldwide until its risks are better understood
-- Publishing biotechnology results openly so that defenders can keep up with them
+- Letting market demand alone decide which biotechnologies are developed first
 shuffle:: true
 
 #### Question: Choice
@@ -36,11 +40,14 @@ options::
 - Yes
 
 #### Question: Choice
-id:: 7fc98c21-ed0d-445d-8d4a-09b3e1f5c750
-content:: Is trying to make AI safety research advance faster than AI capabilities an application of differential technological development?
+id:: c97743ef-5000-4535-b7a4-0b8d6841d36f
+content:: Training AI models on human feedback was developed partly as a safety technique, but it also helped make chatbots commercially successful. What does this show about applying differential technological development to AI?
 options::
-- [x] Yes
-- No
+- [x] Safety work can speed up capabilities too, so its net effect is hard to judge
+- Safety research should stop, since all work on AI only speeds up capabilities
+- Techniques that make products more useful do not count as safety research
+- The idea cannot apply to AI, since AI is a single technology
+shuffle:: true
 
 #### Question: Open
 id:: 07254de6-1f09-44ee-806a-d3bd2fbdeced
@@ -63,17 +70,17 @@ content:: An AI tool finds security flaws in software. Why is it hard to say whe
 options::
 - [x] Defenders can use it to fix flaws and attackers to exploit them
 - It has little effect on the balance between attackers and defenders
-- Finding flaws automatically is too slow to matter compared with human experts
-- Governments usually forbid private companies from building such tools
+- The idea applies only to physical technologies, not to software
+- Software flaws matter to single companies, not to large-scale risks
 shuffle:: true
 
 #### Question: Choice
 id:: 3bc5c72d-4b58-4145-9bca-030675096a89
 content:: A small funder speeds up one protective technology to apply differential technological development. Why might this change little?
 options::
-- [x] Others might have built it at roughly the same time anyway
-- Protective technologies tend to be cheaper to build than dangerous ones
-- Differential development is meant for governments, not private funders
+- [x] Others would likely have built it at about the same time anyway
+- A protective technology does nothing until every country uses it
+- Protective technologies are already ahead of dangerous ones in every field
 - Speeding up a technology makes its risks harder to study
 shuffle:: true
 
@@ -94,7 +101,8 @@ options::
 - [x] It favors technologies that strengthen defense and spread power widely
 - It calls for a global pause on developing advanced AI
 - It favors placing powerful AI under one trusted government's control
-- It favors the fastest possible progress in every field equally
+- It treats risks from AI as overstated and not worth planning for
+- It focuses only on AI and sets other technologies aside
 shuffle:: true
 
 #### Question: Choice

@@ -12,9 +12,14 @@ Describe what AI systems can and can't yet do in software engineering, explain w
 ## Helpful first
 
 ## Why it matters
-Coding is one of the areas where AI is advancing fastest, and much of AI research is coding work. If AI can do most of that work, AI progress could speed up sharply, leaving less time for safety research and policy to catch up. Knowing the limits helps you judge such claims.
+Much of AI research is coding work, and labs already use AI for much of it: in November 2026, METR estimated Anthropic's research was moving about twice as fast as in 2024–25, mostly due to AI. Faster progress leaves safety research and policy less time to catch up. Knowing the limits helps you judge such claims.
 
 ## Lenses
+- [How coding agents work (Simon Willison)](https://simonwillison.net/guides/agentic-engineering-patterns/how-coding-agents-work/): a plain explanation of a coding agent as a language model with tools (running commands, reading results, editing files) in a loop (March 2026).
+- [What skills does SWE-bench Verified evaluate? (Epoch AI)](https://epoch.ai/blog/what-skills-does-swe-bench-verified-evaluate): what a SWE-bench task is (fixing a real issue in an open-source repository, checked by tests) and why its mostly short, self-contained tasks differ from real software work (June 2025).
+- [We are changing our developer productivity experiment design (METR)](https://metr.org/blog/2026-02-24-uplift-update/): METR's 2025 finding that AI tools slowed experienced developers by 19%, what its late-2025 follow-up found, and why such studies are hard to run now that developers don't want to work without AI (February 2026).
+- [[../Lenses/AIF - Massive Easy-to-Verify SWE Tasks|Massive Easy-to-Verify SWE Tasks]]: Ryan Greenblatt on why AIs can now do months-long software tasks when success is cheap to check with tests, where poor taste and judgment still hold them back, and how much this speeds up AI research; skip the appendix on timelines (April 2026).
+- [Could advanced AI accelerate the pace of AI progress? (Forethought)](https://www.forethought.org/research/could-advanced-ai-accelerate-the-pace-of-ai-progress-interviews-with-ai): five AI company researchers on which parts of research AI could take over, and why compute for experiments, choosing experiments and coordination limit the speedup; read the summary and the table of estimates (March 2025).
 
 ## Tests
 
@@ -62,7 +67,7 @@ shuffle:: true
 id:: 1f91cf4b-b574-465e-80f2-5d0329d062c2
 content:: Which of these is a reason that coding benchmark scores can overstate how useful AI is for real software work?
 options::
-- [x] Benchmark tasks tend to be self-contained with clear tests, unlike much real work
+- [x] Benchmark tasks tend to be self-contained and come with clear tests
 - Benchmark tasks tend to be harder than typical professional work
 - Benchmarks tend to use older programming languages than industry does
 - Benchmarks tend to stop models from running the code they write
@@ -74,7 +79,7 @@ content:: Suppose AI systems could do all the coding work at an AI company, but 
 options::
 - [x] It would rise less than the gain in coding speed alone suggests
 - It would rise in proportion to the gain in coding speed
-- It would stay the same, since coding is not part of research
+- It would rise more than the gain in coding speed, since researchers would be freed from coding
 - It would fall, since agents would use up compute meant for training
 shuffle:: true
 
@@ -93,8 +98,4 @@ assessment-instructions:: Score out of 100. 100 for saying that much of AI resea
 #### Question: Open
 id:: 98db2718-4682-432c-8be7-f14ed810e806
 content:: Name one part of AI research work, other than writing code, that could limit how much automating coding speeds up AI research.
-assessment-instructions:: Score out of 100. 100 for any one of: choosing which research directions or experiments to pursue (research taste), coming up with new ideas, designing experiments, interpreting results, or coordinating long projects. 50 for a vague answer such as "thinking" or "creativity" without linking it to research. 0 for a coding activity such as debugging.
-
-#### Question: FillBlank
-id:: b0b9b193-d9c7-4e29-a61d-7bf5e917390f
-content:: In AI forecasting, a {{superhuman coder}} is an AI system that can do any coding task that the best engineer at an AI company does, while being much faster and cheaper.
+assessment-instructions:: Score out of 100. 100 for any one of: choosing which research directions or experiments to pursue (research taste), coming up with new ideas, designing experiments, running experiments (limited by compute), interpreting results, or coordinating long projects. 50 for a vague answer such as "thinking" or "creativity" without linking it to research. 0 for a coding activity such as debugging.

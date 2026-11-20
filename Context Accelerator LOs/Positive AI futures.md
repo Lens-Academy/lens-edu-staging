@@ -15,6 +15,9 @@ Describe concrete good outcomes advanced AI could bring, such as faster medical 
 Work on AI risk is easier to direct when you know what success looks like, not only what to avoid. Knowing the range of good outcomes helps you judge proposals by whether they keep the future open, and helps you notice when a plan would lock in one group's values, even with good intentions.
 
 ## Lenses
+- [[../Lenses/U5 - Optional - Machines of Loving Grace|Machines of Loving Grace]]: Anthropic's CEO on why focusing on risk is not pessimism, which factors besides intelligence (experiments, clinical trials, the physical world) limit how fast AI can help, and what a "compressed 21st century" of biology could bring; read the introduction, "Basic assumptions and framework" and "1. Biology and health" (October 2024).
+- [What sort of post-superintelligence society should we aim for? (Forethought)](https://www.forethought.org/research/viatopia): Will MacAskill introduces "viatopia", a society on track for a near-best future rather than a fixed utopia, links it to the long reflection, and lists the goods any society would want, such as abundance, low catastrophic risk and the ability to reflect and change course (January 2026).
+- [How to Make the Future Better (Forethought)](https://www.forethought.org/research/how-to-make-the-future-better): MacAskill's concrete proposals for keeping options open after AGI: preventing autocracy, temporary commitments that must be renewed, and slowing the intelligence explosion; read the introduction and section 2, "Keeping our options open" (August 2025).
 
 ## Tests
 #### Question: Choice
@@ -28,13 +31,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 8b85b6f0-867d-4a42-a45c-cc409ce1a768
-content:: The philosopher Will MacAskill uses the term "viatopia" for a kind of good future. What does it describe?
+id:: da101d27-3211-4c3e-abb7-978c3291cfb2
+content:: Some thinkers argue that, rather than aiming for a detailed ideal society, we should aim for a society on track to find and reach a very good future. Which plan for a world with advanced AI best fits this aim?
 options::
-- [x] A state from which society is well placed to reach a very good future
-- A future in which AI has solved most major scientific problems
-- A world where frontier AI development has been stopped for good
-- A society governed by one AI system chosen by a global vote
+- [x] Keep power spread across many actors and keep institutions open to revision
+- Train AI systems on the values most people hold today and stop those values drifting
+- Let a global vote choose one set of values for AI systems to uphold permanently
+- Hand key decisions to the most capable AI system, since it will judge best
 shuffle:: true
 
 #### Question: Choice
@@ -42,9 +45,9 @@ id:: b61a0d28-a854-4e33-a5df-dfe61daa8380
 content:: Suppose AI systems became far better than humans at biomedical research. Why might curing many diseases still take years rather than weeks?
 options::
 - [x] Experiments, clinical trials and manufacturing still take real-world time
-- AI systems cannot read or understand biology research papers
+- Existing research data already holds every answer, so AI adds little new
 - Diseases evolve faster than AI systems can analyse them
-- Doctors would need decades to learn to use AI tools
+- Better research skill helps with rare diseases but not common ones
 shuffle:: true
 
 #### Question: Choice
@@ -62,19 +65,19 @@ id:: fb780ed7-397f-4b95-9155-3258d199a9d8
 content:: Moral uncertainty is often given as a reason to keep options open after advanced AI. What does "moral uncertainty" refer to here?
 options::
 - [x] Not being sure which values or ethical views are correct
-- Not knowing whether AI systems deserve moral consideration
+- Not knowing how quickly AI capabilities will improve
 - Not knowing whether AI systems will follow their instructions
 - Disagreement among governments about how to regulate AI
 shuffle:: true
 
 #### Question: Choice
-id:: a7375b26-ec3b-4978-b704-ca3f933f3e1a
-content:: In Toby Ord's book The Precipice, humanity's long-term strategy has three stages. Which stage comes first, before the long reflection?
+id:: b9a6d683-f3ce-4cff-bced-48d7b2cedca5
+content:: Many who favour a long period of reflection on values argue that humanity should first make the risk of catastrophe low and keep it low. What is the main reason for this order?
 options::
-- [x] Reaching existential security, with catastrophe risk low and kept low
-- Settling other star systems so that one disaster cannot end humanity
-- Agreeing on one shared set of values for all of humanity
-- Building a superintelligence to run the world's institutions
+- [x] Reflection and fixing mistakes take time, which only a surviving, open future allows
+- Once catastrophe risk is low, people tend to agree on values without needing to reflect
+- Questions about values matter much less than survival, so they can wait indefinitely
+- Reducing risk requires first agreeing on values, so the two happen at the same time
 shuffle:: true
 
 #### Question: Choice

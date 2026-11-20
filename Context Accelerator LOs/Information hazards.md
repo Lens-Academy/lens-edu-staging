@@ -14,6 +14,11 @@ Explain when sharing true information can cause harm, tell hazards to the knower
 Researchers often have to decide whether to publish a capabilities finding, a new way around a safety measure, or a promising research direction. If you can spot an information hazard, you can hold back or limit what is risky to share, without slipping into secrecy that slows safety work and hides problems from people who need to know.
 
 ## Lenses
+- [What Are Information Hazards? (EA Forum)](https://forum.effectivealtruism.org/posts/Nc5EjccDTfmcrG93j/what-are-information-hazards): Bostrom's definition of risks from true information, data, idea and attention hazards, and hazards that harm only the knower (February 2020).
+- [Don't Use "Infohazard" for Collectively Destructive Info (LessWrong)](https://www.lesswrong.com/posts/yET7wbjjJZtpz6NF3/don-t-use-infohazard-for-collectively-destructive-info): Eliezer Yudkowsky's short case for separating hazards to the knower, like spoilers, from "exfohazards" that do harm by spreading (July 2022).
+- [[../Lenses/aaron-scher-the-unilateralists-curse-an-explanation|The Unilateralist's Curse, An Explanation]]: why a risky step, such as publishing a dangerous finding, gets more likely as more people can take it alone, and what to do about it (June 2022).
+- [Conjecture: Internal Infohazard Policy (Conjecture)](https://www.conjecture.dev/research/conjecture-internal-infohazard-policy): how one AI safety company sorted work into secret, private and public, and why even saying it was interested in a technique counted as a hazard. Read "Overview and Motivation", "Considerations" and "Example Scenarios" (July 2022).
+- [Strong Infohazard Norms Lead to Predictable Failure Modes (Beren Millidge)](https://beren.io/2023-08-09-Strong-Infohazard-Norms-Lead-To-Predictable-Failure-Modes): a former Conjecture researcher's case that heavy secrecy cuts off feedback, makes people overrate their ideas and leaves alignment behind capabilities, with his test for when withholding is justified (August 2023).
 
 ## Tests
 #### Question: Choice
@@ -30,7 +35,7 @@ shuffle:: true
 id:: ce3a897e-1353-4ed9-9daf-11e0ddb9f342
 content:: Which of these is an exfohazard, rather than a hazard only to the person who learns it?
 options::
-- [x] A paper describing a cheap way to make AI training far more efficient
+- [x] A post showing anyone how to get around an AI model's safety safeguards
 - A film spoiler that ruins the ending for the person who reads it
 - A grim forecast that makes the reader too anxious to work
 - A fact about a friend that the reader would rather not know
@@ -51,38 +56,28 @@ id:: c8e0a646-fc3a-441e-9fca-3d75c01fe75d
 content:: Why can it backfire to announce publicly that you have found a dangerous AI technique, while refusing to say what it is?
 options::
 - [x] It tells others the technique exists and is worth searching for
-- It counts as a hazard to the knower rather than an exfohazard
+- It makes other researchers less willing to share their own findings
 - It breaks the publication rules of most AI conferences
-- It makes the technique itself more dangerous than before
+- It makes people doubt that the technique is real
 shuffle:: true
 
 #### Question: Choice
-id:: 9abf1619-428a-491a-a0b3-c5012fbab8a3
-content:: Ten researchers each decide separately whether to publish the same risky finding, and it is out once any one of them publishes. Compared with one researcher deciding alone, is the finding more or less likely to be published?
+id:: 1b785800-85b9-415f-b6f1-e86fbfb6b936
+content:: You find a reliable way to make a widely used AI model ignore its safety rules. Following the coordinated ("responsible") disclosure norm from computer security, what would you do?
 options::
-- [x] More likely
-- Less likely
-- About equally likely
-shuffle:: true
-
-#### Question: Choice
-id:: 3b29228d-b315-4775-ad04-da214a56a868
-content:: In computer security, what does coordinated (or "responsible") disclosure of a vulnerability usually involve?
-options::
-- [x] Telling the affected developer first, then publishing once they have had time to fix it
-- Publishing straight away so that users can protect themselves sooner
-- Keeping the vulnerability secret from everyone, including the developer
-- Sharing details with other security researchers before telling the developer
+- [x] Tell the model's developer privately, then publish once they have had time to fix it
+- Publish at once, so that users and other companies can protect themselves sooner
+- Tell no one, ever, including the model's developer
+- Post full details to a researcher forum, so the developer hears of it from there
 shuffle:: true
 
 #### Question: Choice
 id:: fb345869-dff0-46be-a1aa-fc14fcebc089
 content:: Why might publishing exactly how an AI company's monitor flags suspicious actions by its AI agents make the monitor weaker?
 options::
-- [x] Attackers, or models trained on the text, could learn to avoid what it flags
-- Publishing the method makes it free for competitors to sell
-- Monitors stop working once their designers explain them to the public
-- Readers would stop trusting the company's other safety measures
+- Competitors could copy the monitor without paying for it
+- The company could no longer change the monitor once it was public
+- The published method could reveal private data the monitor has seen
 shuffle:: true
 
 #### Question: Choice
@@ -90,9 +85,9 @@ id:: 4e75cac7-2275-47bd-bad5-8a6928735e29
 content:: Which of these is a common argument against keeping AI safety research findings secret?
 options::
 - [x] Other researchers can't check, correct or build on work they can't see
-- Secret findings can't be used by the team that produced them
-- Information hazards are a concern in biology rather than in AI
-- Publishing is legally required for most AI safety research
+- Competitors could use the findings to catch up with the lab
+- Bad actors could learn from them how safety measures work
+- Some safety findings also show how to make models more capable
 shuffle:: true
 
 #### Question: Open

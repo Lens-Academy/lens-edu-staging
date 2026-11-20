@@ -15,6 +15,10 @@ Explain what an AI model is in the mathematical sense, and why a trained model a
 Many AI policy disputes are about weights: whether to release them openly, how to stop them being stolen, and who may run them. Knowing that the weights are the model shows why a leak can't be undone and why a company's safeguards don't come along with a copied model.
 
 ## Lenses
+- [[../video_transcripts/3blue1brown-large-language-models-explained-briefly|Large Language Models Explained Briefly]]: a language model as a mathematical function whose behaviour is set entirely by billions of weights, tuned in training that takes vast computation (2024).
+- [Intro to Large Language Models (Andrej Karpathy, YouTube)](https://www.youtube.com/watch?v=zjkBMFhNj_g): watch 0:00–17:52. A model is just a weights file plus a short program to run it; training is costly, running it is cheap, and fine-tuning changes the weights (November 2023).
+- [Securing AI Model Weights: Q&A with Sella Nevo (RAND)](https://www.rand.org/pubs/commentary/2024/05/securing-ai-model-weights-qa-with-sella-nevo.html): why weights hold everything a model has learned, so a thief can skip the compute, data and research behind them (May 2024).
+- [[../Lenses/AI Safety Atlas - Strategies - Misuse Prevention Strategies|Misuse Prevention Strategies]]: read "External Access Controls" and "Internal Access Controls". API access keeps the weights on the company's servers; open weights can't be recalled or patched and their safeguards can be fine-tuned away; leaked weights escape every external control.
 
 ## Tests
 #### Question: Choice
@@ -43,17 +47,23 @@ content:: The adjustable numbers in a neural network, whose values are set durin
 
 #### Question: Choice
 id:: 06928198-8b99-45a9-b93d-0c81faef601f
-content:: Do a large language model's weights hold a copy of its training text that can be looked up like a database?
+content:: Which best describes how a large language model's weights relate to the text it was trained on?
 options::
-- [x] No: what it learned is spread across many weights, with only some passages memorized
-- Yes: the weights store the training text in a compressed form that can be searched
+- [x] They encode patterns from the text, and some passages can be reproduced word for word
+- They store all of the text in compressed form, so any passage can be looked up
+- They keep no trace of the text, so no passage can ever be reproduced
+- They hold an index that points to the text kept on the developer's servers
+shuffle:: true
 
 #### Question: Choice
 id:: 59047dc4-484f-4edf-8148-70bbe1288b97
-content:: Is the weights file of an AI model with about a trillion parameters small enough to fit on one consumer portable hard drive?
+content:: Roughly how much storage do the weights of an AI model with about a trillion parameters need?
 options::
-- [x] Yes
-- No
+- [x] A few terabytes, which fits on one consumer portable hard drive
+- A few petabytes, which only a large data centre can hold
+- A few exabytes, more than all of today's data centres combined
+- A few megabytes, about the size of one photo on a phone
+shuffle:: true
 
 #### Question: Choice
 id:: cc24fe8c-c89d-4cae-a47d-64d1a4b7c1ea
@@ -62,14 +72,15 @@ options::
 - [x] Run the model with the same capabilities as the original
 - Run a weaker version, since copying loses some of the training
 - Run it once they have repeated the original training run
-- Use it only by sending requests to the developer's servers
+- Run it once they have also stolen the original training data
 shuffle:: true
 
 #### Question: Choice
 id:: 653a51fa-48f0-4653-b6df-24db914904d3
 content:: For a frontier language model, how does the compute needed to answer one prompt compare with the compute used to train the model?
 options::
-- [x] It is a tiny fraction of the training compute
+- [x] It is less than a millionth of the training compute
+- It is about a hundredth of the training compute
 - It is about the same as the training compute
 - It is about a tenth of the training compute
 - It is larger, since each answer retrains the model a little

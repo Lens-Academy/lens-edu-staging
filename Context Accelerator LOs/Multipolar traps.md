@@ -15,6 +15,9 @@ Explain how competition among many actors can push each of them to sacrifice val
 Every AI company and government can mean well and still build powerful systems faster than is safe, because whoever slows down alone loses ground. Seeing the trap explains why calls for individual restraint fall short, and points toward fixes that change everyone's incentives at once, such as enforceable agreements.
 
 ## Lenses
+- [The dark side of competition in AI (Liv Boeree, TED)](https://www.ted.com/talks/liv_boeree_the_dark_side_of_competition_in_ai): a 12-minute talk on "Moloch's trap", where beauty filters, clickbait, pollution and arms races leave every player worse off, the AI race as the same trap, and treaties and competing on safety as ways out (October 2023).
+- [[../Lenses/Meditations on Moloch|Meditations on Moloch]]: Scott Alexander's defining essay. Competition rewards whoever throws a value "under the bus", four forces have held this back so far, and technology, robots replacing human workers above all, wears them down. Read parts I–IV, up to the two endings (paperclips and Hanson's ems); the rest is optional (2014).
+- [[../articles/arxiv-an-overview-of-catastrophic-ai-risks|Evolutionary Pressures (An Overview of Catastrophic AI Risks)]]: Hendrycks and colleagues on how competition selects for AIs and firms that drop human oversight and constraints, so even safety-minded labs get swept along, and how regulation, international agreements with verification and public control could stop it. Read §3.3 Evolutionary Pressures and §3.4 Suggestions (2023).
 
 ## Tests
 #### Question: Choice
@@ -41,10 +44,10 @@ shuffle:: true
 id:: ff000035-e77c-4187-a841-411580d7d474
 content:: In Scott Alexander's essay "Meditations on Moloch", what does "Moloch" stand for?
 options::
-- [x] The competitive pressure that makes actors trade away shared values to survive
+- [x] Competition that pushes everyone to trade away shared values
 - A misaligned superintelligence that takes control of the world
-- A hidden elite that deliberately steers society for its own benefit
-- The tendency of large bureaucracies to keep growing over time
+- Powerful people who knowingly harm others for their own gain
+- Greed, the wish of each person to have more than others
 shuffle:: true
 
 #### Question: Choice
@@ -62,19 +65,19 @@ id:: 5f2f44f4-f051-4da1-9754-4e31887ee7a6
 content:: Which of these is a way advanced AI could strengthen multipolar traps?
 options::
 - [x] Firms that hand decisions to AI could outcompete firms that keep humans in charge
-- AI could translate between languages and make negotiations between countries easier
+- AI could let a single firm grow so dominant that it no longer faces any rivals
 - AI could model the effects of policies and help regulators set better rules
 - AI could make it cheaper to check whether others are keeping an agreement
 shuffle:: true
 
 #### Question: Choice
 id:: 30ebc4f0-05e1-4179-b06f-b4acb077b9e9
-content:: Scott Alexander argues that competition has been held back partly because firms and states depend on human workers and soldiers, who have values and limits of their own. Why could advanced AI weaken this protection?
+content:: Competition between firms and states has been held back partly because they need people: workers must be fed and rested, and customers and voters must be kept satisfied. Why could advanced AI weaken this protection?
 options::
-- [x] AI could replace the humans whose values and limits held competition back
-- AI could make competitors more willing to cooperate of their own accord
-- AI could shrink the total resources that actors are competing over
-- AI could make it harder to tell which competitor is winning
+- [x] Firms and states could need far fewer people, so people's needs would matter less to them
+- AI could make human workers more productive, so firms would value them more than before
+- AI could give every competitor the same abilities, so no one could get ahead of the rest
+- AI could make the costs of competing easier to measure, so actors would choose to compete less
 shuffle:: true
 
 #### Question: Choice
@@ -94,22 +97,18 @@ options::
 - [x] A treaty with checks and penalties that apply to every actor
 - A pledge by the most careful actor to slow down by itself
 - A public statement by several actors that the race is harmful
-- A faster product cycle at the most careful actor
+- A voluntary pledge by every actor to slow down, with no checks
 shuffle:: true
 
 #### Question: Choice
-id:: 37c3f41d-0fb9-4a0a-a7a6-65bb67026498
-content:: In a multipolar trap, is each actor usually acting sensibly, given what the other actors are doing?
+id:: c773d5f4-658a-426e-8f68-73ff6c43e165
+content:: Several AI companies each cut safety testing to release models sooner, though each would prefer that none of them cut. If this is a multipolar trap, which explanation fits best?
 options::
-- [x] Yes
-- No
-
-#### Question: Choice
-id:: aa27b162-12fb-4d83-8fe3-df9a8e907408
-content:: In a multipolar trap, does the bad outcome usually come about because at least one of the actors wants it?
-options::
-- [x] No
-- Yes
+- [x] Each cut makes sense for that company given the others, yet all end up worse off
+- The companies' leaders care little about safety and are glad to take the risk
+- One reckless company forces the result, and the rest would be safe without it
+- The companies have not yet learned how much harm the cuts are likely to cause
+shuffle:: true
 
 #### Question: Open
 id:: 5bb59ab2-6155-4db5-8c2a-548a6c7ebc96

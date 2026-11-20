@@ -15,6 +15,9 @@ Compare problems or interventions by their importance, tractability and neglecte
 Arguments that AI safety deserves more people and money are often framed in these three terms. A learner who understands the framework can weigh those arguments, apply it to their own choices, and notice when rough guesses are presented as precise scores.
 
 ## Lenses
+- [[../Lenses/probablygood-the-itn-framework-a-tool-for-prioritizing-global-problems|The ITN Framework]]: a plain introduction to importance, tractability and neglectedness, how they trade off, and why personal fit still matters (November 2024).
+- [[../Lenses/wiblin-how-can-you-figure-out-which-global-problem-is-most-pressing|How to Compare Global Problems]]: 80,000 Hours' quantitative version: why the factors are multiplied, why neglect matters (diminishing returns), how to count resources, and the framework's limits; read from "Introducing how we define the factors" to "How to assess personal fit", then "How should we interpret the results?" and "Advantages and disadvantages of quantitative problem prioritisation" (2016, updated 2019).
+- [ITN 201: Pitfalls in ITN BOTECs (EA Forum)](https://forum.effectivealtruism.org/posts/ECYrN8aY42KyQbPZe/itn-201-pitfalls-in-itn-botecs): common ways ITN estimates mislead: inflated tractability, mismatched problem boundaries, ignored future investment, and long chains of guesses (August 2025).
 
 ## Tests
 
@@ -39,18 +42,21 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 9ff88d4a-08bb-48e7-998f-75129074246b
-content:: A common assumption in ITN analyses is that each doubling of resources solves about the same fraction of a problem. Under it, which step adds more progress?
+id:: e41d111d-a42f-4486-9da3-bc313ec04466
+content:: A common assumption in ITN analyses is that each doubling of resources solves about the same fraction of a problem. Under it, what follows when a field's funding grows tenfold, if the problem's importance and tractability stay the same?
 options::
-- [x] Raising spending from $1 million to $2 million
-- Raising spending from $100 million to $101 million
+- [x] Each extra dollar now does roughly a tenth as much as before
+- Each extra dollar does about the same, since the problem is as large as before
+- Each extra dollar does about ten times as much, since the field can absorb more
+- Extra dollars now do no good, since the problem is no longer neglected
+shuffle:: true
 
 #### Question: Choice
 id:: d22f9284-f97b-4460-8f19-5d9f50d09e50
 content:: A group rates three cause areas from 1 to 10 on importance, tractability and neglectedness from quick impressions, multiplies the scores, and funds the top one. What is the main weakness?
 options::
 - [x] The scores are guesses, so the precise-looking result can mislead
-- The scores should be added rather than multiplied
+- Importance should count for more than the other two factors
 - Neglectedness should be left out for well-known problems
 - A ten-point scale is too coarse to compare cause areas
 shuffle:: true
@@ -80,17 +86,16 @@ id:: bdc05402-a34c-4d46-9793-bf34e4865547
 content:: When judging how neglected a problem is under the ITN framework, which resources should be counted?
 options::
 - [x] Effort from every source, weighted by how well it targets the problem
-- Funding from philanthropists who focus on the problem
-- Government spending, since it is usually the largest source
-- Money donated, leaving out people's working time
+- Funding from philanthropists who focus specifically on the problem
+- Spending by governments and charities, leaving out companies
+- Money from every source, leaving out people's working time
 shuffle:: true
 
 #### Question: Choice
 id:: 56882e91-7ce2-4537-b4b5-68a56902371f
 content:: Someone ranks cause areas with the ITN framework to decide what to work on. What does the ranking leave out?
 options::
-- [x] Their personal fit and the specific opportunities open to them
-- How large each problem is
+- How large each problem is and how many people it affects
 - How much others already spend on each problem
 - How much progress extra effort would make on each problem
 shuffle:: true
