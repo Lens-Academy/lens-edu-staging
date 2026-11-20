@@ -15,6 +15,11 @@ Describe the main groups campaigning on AI risk, such as PauseAI, ControlAI and 
 If you're considering activism, knowing what each group asks for and how it works lets you choose one that fits your views and the tactics you're willing to use. It also helps you read news about AI protests accurately, instead of lumping together groups with very different demands and methods.
 
 ## Lenses
+- [A brief guide to the groups protesting over AI (Transformer)](https://www.transformernews.ai/p/a-brief-guide-to-anti-ai-activist-stop-ai-pauseai-controlai): Stop AI, PauseAI and ControlAI side by side: who founded each, its tactics (civil disobedience, legal protests, briefing lawmakers), how they fell out, plus newer groups and local data-centre opposition (November 2025).
+- [PauseAI Proposal (PauseAI)](https://pauseai.info/proposal): PauseAI's own demand: a global treaty pausing training of the most powerful general AI until it can be built safely, overseen by an international agency (April 2026).
+- [About Stop AI (Stop AI)](https://www.stopai.info/about): Stop AI's own principles: a permanent, enforceable global ban on AGI and superintelligence, pursued through non-violent resistance (2026).
+- [[../Lenses/controlai-ai-could-end-humanity-how-you-can-change-it|AI Could End Humanity: How You Can Change It]]: ControlAI's two-minute pitch for its plan: design policies that prevent superintelligence, then brief lawmakers until they back the campaign publicly.
+- [[../Lenses/The case for public AI safety advocacy|The case for public AI safety advocacy]]: PauseAI US founder Holly Elmore on "inside game" versus "outside game", and why radical protest can help moderate insiders; read "Social change works best inside and outside the system" and "Pros and potential pitfalls of advocacy" (September 2023).
 
 ## Tests
 
@@ -22,9 +27,9 @@ If you're considering activism, knowing what each group asks for and how it work
 id:: 6c876e08-2916-4707-94f7-ce0b724c92f3
 content:: What is the main demand of PauseAI, a volunteer-based campaign group founded in 2023?
 options::
-- [x] A global treaty pausing the most powerful AI until it can be built safely
+- [x] A global treaty pausing frontier AI until it can be made safe
 - A fixed six-month pause agreed among the leading US AI labs
-- A permanent worldwide ban on all AI research and use
+- A permanent ban on developing artificial general intelligence
 - Binding safety pledges signed by each frontier AI company
 shuffle:: true
 
@@ -72,7 +77,7 @@ shuffle:: true
 id:: e8036769-9fac-4c7b-be29-384fa42aacf8
 content:: In October 2025, the Future of Life Institute published a Statement on Superintelligence, signed by many scientists and public figures. What did it call for?
 options::
-- [x] A ban on building superintelligence until it's shown safe and has public support
+- [x] A ban on superintelligence until there's scientific consensus it's safe, and public buy-in
 - A six-month pause on training AI models more powerful than GPT-4
 - Government funding for open-source AI safety research
 - A licence requirement for all commercial AI chatbots
@@ -80,7 +85,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: a93ee99f-3d6e-4c4e-9e60-83d64cc23b42
-content:: A march in San Francisco in March 2026 asked AI companies to commit to a "conditional pause" on building more powerful models. What was the pause conditional on?
+content:: In March 2026, a march in San Francisco organised by the group Stop the AI Race asked AI company CEOs to commit to a "conditional pause" on building more powerful models. What was the pause conditional on?
 options::
 - [x] Other major AI labs credibly pausing too
 - Their models first passing a third-party safety audit

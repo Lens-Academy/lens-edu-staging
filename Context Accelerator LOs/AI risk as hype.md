@@ -17,6 +17,11 @@ Explain the claim that talk of AI existential risk mainly serves AI companies, t
 AI risk is often dismissed as industry marketing. Knowing which parts of this claim have support and which don't lets you answer it fairly, spot real conflicts of interest, and keep a speaker's motives separate from whether their arguments hold.
 
 ## Lenses
+- [Is the AI Doomsday Narrative the Product of a Big Tech Conspiracy? (Garrison Lovely, Obsolete)](https://www.obsolete.pub/p/is-the-ai-doomsday-narrative-the): the hype claim weighed against what AI leaders say in public and private, their early warnings, and industry opposition to SB 1047; skip the opening and the appendix on GiveDirectly (December 2024).
+- [How the bad science of AI doomerism is good for big business (Bulletin of the Atomic Scientists)](https://thebulletin.org/2026/09/how-the-bad-science-of-ai-doomerism-is-good-for-big-business/): the critics' case today, with Emily Bender, Timnit Gebru and others on doom as marketing, as a way to shape rules, and as a distraction from present harms (September 2026).
+- [Exaggerated Fear of AI Is Causing Real Harm (Andrew Ng, The Batch)](https://www.deeplearning.ai/the-batch/exaggerated-fear-of-ai-is-causing-real-harm/): a leading AI researcher argues that extinction fears are vague, help some people profit, and feed licensing rules that would hold back open source (October 2023).
+- [Why AI Will Save the World (Marc Andreessen, a16z)](https://a16z.com/ai-will-save-the-world/): an investor's "Baptists and bootleggers" case that sincere worriers give cover to companies seeking rules that shield them from competition; read only the section "The Baptists And Bootleggers Of AI" (June 2023).
+- [AI CEOs are not saying it's dangerous just to hype their companies (LessWrong)](https://www.lesswrong.com/posts/5vB83wuhhQdWk8dwN/ai-ceos-are-not-saying-it-s-dangerous-just-to-hype-their): a short list of reasons against the hype claim, from warnings that predate the labs to people like Hinton and Kokotajlo who gave something up to speak out (April 2026).
 
 ## Tests
 
@@ -42,12 +47,12 @@ shuffle:: true
 
 #### Question: Choice
 id:: 2d90388d-c624-4cb2-8d56-800ab5599e91
-content:: In 2023, Geoffrey Hinton left Google, saying he wanted to speak freely about AI risks. Why do people who reject the "AI risk as hype" claim often point to this?
+content:: In 2023, Geoffrey Hinton left his job at Google. Why do people who reject the "AI risk as hype" claim often point to this?
 options::
-- [x] He gave up a role at an AI company in order to warn about risk
-- He showed that Google had hidden dangerous research results
-- He proved that current AI systems are already beyond human control
-- He was the first major researcher to raise AI extinction risk
+- [x] He left an AI company so he could warn about risk freely
+- He said Google had hidden dangerous research results
+- He left to start a rival company focused on AI safety
+- He quit in protest at Google lobbying against AI rules
 shuffle:: true
 
 #### Question: Choice
@@ -55,19 +60,19 @@ id:: 08d3c5ab-878d-4ce9-ade0-ffc2c7aa2df1
 content:: Which of these is evidence that supporters of the "AI risk as hype" claim commonly cite?
 options::
 - [x] AI company CEOs warned of extinction while racing to build stronger AI
-- Many university researchers with no company ties also warn of extinction
-- Surveys of academic AI researchers find many see a real chance of catastrophe
-- Some safety researchers refuse to work at AI companies on principle
+- The 2023 extinction-risk statement was signed only by company staff
+- Researchers who left AI companies have since stopped warning about risk
+- Extinction warnings mostly come from companies with no products to sell
 shuffle:: true
 
 #### Question: Choice
 id:: a3169562-e3bc-463e-aee9-45c071febd79
 content:: Suppose some AI company leaders stress extinction risk partly to attract investment. What follows for judging whether AI really poses an existential risk?
 options::
-- [x] Their word counts for less; the arguments still need judging on merit
-- The risk is probably much smaller than these leaders claim
-- Risk warnings from people outside AI companies should be discounted too
-- The question can be settled only by surveying independent experts
+- [x] Trust their say-so less, but judge the arguments on merit
+- The arguments they make for the risk must be weak
+- Their motives tell us nothing about how far to trust them
+- Warnings from outside experts should be discounted too
 shuffle:: true
 
 #### Question: Choice

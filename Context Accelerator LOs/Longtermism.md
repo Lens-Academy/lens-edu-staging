@@ -4,7 +4,7 @@ priority: low
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Explain the longtermist view that influencing the long-term future is a key moral priority, how it links to reducing existential risk, and the main objections to it.
+Explain the longtermist view that influencing the long-term future is a key moral priority, how it links to reducing existential risk, the main objections to it, and which parts of the case for reducing AI risk rest on it.
 
 ## Requires
 - [[Existential risk]]
@@ -16,6 +16,11 @@ Explain the longtermist view that influencing the long-term future is a key mora
 Many people working on AI safety were drawn in by longtermist arguments, and critics often attack AI safety through longtermism. Knowing what the view claims helps you judge those arguments, and tell which parts of the case for reducing AI risk rest on it and which don't.
 
 ## Lenses
+- [Introduction to Longtermism (EA Forum)](https://forum.effectivealtruism.org/posts/ySwarSKFzxKLhCyo8/introduction-to-longtermism): what longtermism claims, why not to discount the future, strong longtermism, the "most important century" idea, and the main objections, including person-affecting views and recklessness with tiny probabilities (January 2021).
+- [What We Owe the Future, Chapter 1 (EA Forum)](https://forum.effectivealtruism.org/posts/rdigzNQqDgiou5AmZ/what-we-owe-the-future-chapter-1): William MacAskill's own case for longtermism: future people count, there could be very many of them, and we can shape their future; read "The Silent Billions", "Future People Count" and "The Future Is Big" (August 2022).
+- [Long-Termism vs. Existential Risk (EA Forum)](https://forum.effectivealtruism.org/posts/KDjEogAqWNTdddF9g/long-termism-vs-existential-risk): Scott Alexander argues that the case for working on AI risk doesn't need longtermism, since the risk threatens people alive today (April 2022).
+- [The New Moral Mathematics (Boston Review)](https://www.bostonreview.net/articles/the-new-moral-mathematics/): philosopher Kieran Setiya's critique of What We Owe the Future: why adding happy future people may not make the world better, and how tiny probabilities of huge payoffs can swamp everything else (August 2022).
+- [The Case for Strong Longtermism (Global Priorities Institute)](https://globalprioritiesinstitute.org/hilary-greaves-william-macaskill-the-case-for-strong-longtermism-2/): Greaves and MacAskill's original academic statement of strong longtermism, including their replies to objections such as fanaticism (2021) (more advanced).
 
 ## Tests
 
@@ -30,23 +35,12 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: cb272721-6118-449f-8f85-1bf058818db7
-content:: Basic longtermism says influencing the long-term future is one key moral priority. What does "strong longtermism" claim in addition?
+content:: Most longtermists reject "pure time discounting." If you reject it, how do you treat a harm that will happen 1,000 years from now, other things equal?
 options::
-- [x] In many big decisions, the best option is the one with the best far-future effects
-- Future people have greater moral worth than people alive today
-- Governments should be legally required to represent future generations
-- Most future people will live better lives than people do today
-shuffle:: true
-
-#### Question: Choice
-id:: a262d12d-cae9-4823-84fa-b5a3710e3a92
-content:: Most longtermists reject "pure time discounting." What does rejecting it mean?
-options::
-- [x] A harm counts the same whether it happens now or in 1,000 years, other things equal
-- Harms far in the future can be set aside because they are uncertain
-- Money spent now and money spent later do the same amount of good
-- Future people's interests should outweigh the interests of present people
+- [x] As just as bad as the same harm happening today
+- As less bad, because it is less certain to happen
+- As less bad, but only slightly less
+- As worse than the same harm today
 shuffle:: true
 
 #### Question: Choice

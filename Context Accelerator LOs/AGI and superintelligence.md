@@ -15,6 +15,10 @@ Explain what AGI, human-level AI, transformative AI and superintelligence mean, 
 Forecasts, company announcements and laws use these terms in very different senses. Knowing which sense is meant lets you tell whether two forecasts disagree about the future or only about a word, and stops you mistaking a label for a capability.
 
 ## Lenses
+- [[../Lenses/AI Safety Atlas - Capabilities - Defining and Measuring AGI|Defining and Measuring AGI]]: why "human-level at what?" has no single answer, a survey of rival definitions of intelligence, and AGI, transformative AI and superintelligence placed on two axes, capability and generality (2026).
+- [What are the differences between AGI, transformative AI, and superintelligence? (AISafety.info)](https://aisafety.info/questions/5864/What-are-the-differences-between-AGI-transformative-AI-and-superintelligence): a short glossary of the main terms and their variants, including why "human-level AI" fits AI with uneven skills badly (updated November 2026).
+- [The term "AGI" is almost useless at this point (Helen Toner, Rising Tide)](https://helentoner.substack.com/p/the-term-agi-is-almost-useless-at): how today's systems meet some definitions of AGI and miss others, so claims that AGI is "here" or "a decade away" can both be true, and what terms to use instead (April 2026).
+- [Superintelligence 5: Forms of Superintelligence (Katja Grace, LessWrong)](https://www.lesswrong.com/posts/semvkn56ZFcXBNc2d/superintelligence-5-forms-of-superintelligence): a summary of Bostrom's speed, collective and quality superintelligence, and of the edge digital minds have over human ones, like speed, copying and shared memories; read the Summary and Notes (October 2014).
 
 ## Tests
 
@@ -42,10 +46,10 @@ shuffle:: true
 id:: c5f3176b-6b55-4e27-a1ae-8b4bbcc87f8b
 content:: Under common definitions, which case counts as transformative AI but not as AGI?
 options::
-- [x] Many narrow systems that together cause change like the industrial revolution
-- One system that matches humans at most tasks but is rarely used
-- One system that far exceeds the best humans in nearly every domain
-- A chatbot that passes as human in a short text chat
+- [x] Many narrow systems that together change the economy as much as the industrial revolution did
+- One general system that matches humans at most tasks but changes little because it is rarely used
+- One general system that matches humans at most tasks and changes the economy as much as the industrial revolution did
+- A chatbot that passes as human in short chats and changes little about how people work
 shuffle:: true
 
 #### Question: Open
@@ -59,18 +63,8 @@ content:: Why do some researchers argue that "human-level AI" is a poor name for
 options::
 - [x] AI skills are uneven: superhuman at some tasks, weak at others
 - Intelligence tests designed for humans cannot be given to software
-- The term implies that the AI has a human-like body
-- The term implies that the AI would be conscious
-shuffle:: true
-
-#### Question: Choice
-id:: f3440525-1075-48e0-9aa9-f87276dc8bcb
-content:: In Nick Bostrom's taxonomy, a system that thinks just like a skilled human but a thousand times faster is which kind of superintelligence?
-options::
-- [x] Speed superintelligence
-- Quality superintelligence
-- Collective superintelligence
-- Oracle superintelligence
+- AI systems already beat humans at every cognitive task
+- AI progress is too slow for any milestone to be reached soon
 shuffle:: true
 
 #### Question: Open
@@ -80,7 +74,7 @@ assessment-instructions:: Score out of 100. 100 for any one of: works much faste
 
 #### Question: Choice
 id:: c50cffc1-715f-44fc-ae50-8de88de0233a
-content:: US Executive Order 14434, "Inaugurating the Era of Super Intelligence" (29 September 2026), tells federal agencies to say "Super Intelligence" for anything a statute calls AI. So an agency's spam filter would be called "Super Intelligence". Is the filter a superintelligence in Bostrom's sense?
+content:: US Executive Order 14434, "Inaugurating the Era of Super Intelligence" (29 September 2026), tells federal agencies to write "Super Intelligence" in place of "Artificial Intelligence" in official communications, covering whatever the legal definition of AI covers. So an agency's spam filter could be called "Super Intelligence". Is the filter a superintelligence in Bostrom's sense?
 options::
 - [x] No: the order changes a label, not what the filter can do
 - Yes: a federal order now sets the term's meaning in AI research
@@ -94,11 +88,11 @@ content:: Two forecasters disagree by 20 years about when AGI will arrive. Why s
 assessment-instructions:: Score out of 100. 100 for explaining that definitions set different bars (for example matching an average person at most tasks versus automating most paid work), so the two forecasts may be about different milestones and may partly agree. 50 for saying definitions vary without linking this to the forecasts.
 
 #### Question: Choice
-id:: e427879c-0089-44f5-ad59-d0039fa4fb37
-content:: OpenAI's charter defines AGI as "highly autonomous systems that outperform humans at most economically valuable work". What kind of definition is this?
+id:: 2192c16f-ad54-49e3-ba0e-0a1a40a39248
+content:: OpenAI's charter defines AGI as "highly autonomous systems that outperform humans at most economically valuable work". A system beats most people on reasoning and knowledge tests, but most jobs still need a human to direct and check its work. Does it meet this definition?
 options::
-- [x] One based on the work the system can do
-- One based on how closely it mimics human thinking
-- One based on its effect on society as a whole
-- One based on its scores on a fixed set of benchmarks
+- [x] No: test scores are not the same as doing most paid work on its own
+- Yes: beating most people on reasoning tests means it outperforms them at work
+- Yes: the definition counts any system that is above average on most tests
+- No: the definition also requires the system to be better than every expert
 shuffle:: true

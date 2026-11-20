@@ -14,9 +14,12 @@ Explain how AI control aims to use possibly misaligned AI safely, describe proto
 - [[Defense in depth]]
 
 ## Why it matters
-Developers may hand AI systems important work before anyone can confirm those systems are aligned. Control offers safeguards that don't depend on knowing a model's goals, so understanding it helps you judge developers' safety plans and see why control can buy time but isn't expected to replace alignment for far stronger systems.
+AI developers already have AI doing a large share of their research and coding, and no one can yet confirm those systems are aligned. Control offers safeguards that don't depend on knowing a model's goals, so understanding it helps you judge developers' safety plans and see why control may buy time but isn't expected to suffice for far stronger systems.
 
 ## Lenses
+- [[../Lenses/AICF - Control in plain words|Control in plain words]]: CSET's explainer for non-specialists: alignment as the first line of defence, control as the second, and cybersecurity-style safeguards such as least privilege and logging (Oct 2025).
+- [[../Lenses/AICF - Using dangerous AI, but safely|Using Dangerous AI, But Safely?]]: Robert Miles walks through the founding control experiment: trusted and untrusted models, red and blue teams, trusted monitoring, defer to trusted, untrusted monitoring and collusion, and why control won't hold for superintelligence (Nov 2024).
+- [[../Lenses/AICF - Catching AIs red-handed|Catching AIs red-handed]]: Greenblatt and Shlegeris on why catching a model in an attempt changes things: shutting it down, studying the attempt, and using it to stop the next one (2024).
 
 ## Tests
 
@@ -61,13 +64,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 4f3c2b9c-795f-41c2-81a8-29eeabf14bf5
-content:: In the "defer to trusted" AI control protocol, a monitor rates an output from the powerful untrusted model as suspicious. What happens next?
+id:: cfe2c81c-0ee6-403e-9a1c-f1b4203aafad
+content:: A control protocol has a weaker trusted model redo a task whenever a monitor finds the powerful untrusted model's output suspicious. What does the developer mainly give up by lowering the suspicion threshold so this happens more often?
 options::
-- [x] A weaker trusted model writes the output instead
-- The untrusted model is retrained right away
-- The output goes to users with a warning attached
-- The untrusted model is shut down for good
+- [x] Usefulness, because more work is done by the weaker model
+- Safety, because the weaker model is more likely to scheme
+- Oversight, because human auditors see fewer outputs
+- Transparency, because the weaker model's reasoning is harder to inspect
 shuffle:: true
 
 #### Question: Choice
@@ -98,11 +101,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 3aefe0de-b495-4333-b726-9565a82cb387
-content:: In AI control research on high-stakes failures, is a protocol judged unsafe if a misaligned model succeeds at a single serious attack during a long deployment?
+id:: 0af89d0d-035d-4cf7-acb2-1d71ef836dd2
+content:: In AI control evaluations of high-stakes settings, a single successful attack during a long deployment counts as a safety failure. Why?
 options::
-- [x] Yes
-- No
+- [x] Some single actions, like leaking the model's weights, cause harm that can't be undone
+- Evaluations are too short to observe more than one attack
+- Regulators require developers to report every successful attack
+- A model that attacks once will attack every task after that
+shuffle:: true
 
 #### Question: Open
 id:: 654e62fd-9b54-440e-9bbf-9ee0dad7b112

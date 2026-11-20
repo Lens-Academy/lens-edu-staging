@@ -17,27 +17,32 @@ Explain what makes chips and data centers a practical point of control for gover
 Many proposals for overseeing frontier AI, from chip export controls to training-run reporting, act through compute. Knowing why this lever works helps you judge such proposals; knowing its weaknesses stops you assuming a compute threshold or chip ban will stay effective as algorithms and hardware change.
 
 ## Lenses
+- [[../Lenses/AI Safety Atlas - Governance - Compute Governance|Compute Governance]]: why compute is measurable, controllable and meaningful; how chips and training runs are tracked, monitored and might be controlled on-chip; and where the approach breaks down (algorithmic efficiency, inference scaling, distillation, small specialised models, distributed training). Its US 10^26 FLOP example is from the 2023 executive order, revoked in January 2025.
+- [Computing Power and the Governance of AI (GovAI)](https://governance.ai/analysis/computing-power-and-the-governance-of-ai): the standard short statement of why compute is detectable, excludable and quantifiable, what compute policies can do, and how they can fail or cause harm (February 2024).
+- [Location Verification for AI Chips (IAPS)](https://www.iaps.ai/research/location-verification-for-ai-chips): a short brief on how chips could prove roughly where they are, as a check on chip smuggling that undermines export controls (May 2025).
+- [DeepSeek's Lesson: America Needs Smarter Export Controls (RAND)](https://www.rand.org/pubs/commentary/2025/02/deepseeks-lesson-america-needs-smarter-export-controls.html): the case that chip controls still matter as algorithms get more efficient and more compute goes to inference, from a leading proponent of compute governance. Some of the US rules it discusses have changed since (February 2025).
+- [Training Compute Thresholds: Features and Functions in AI Regulation (GovAI)](https://www.governance.ai/research-paper/training-compute-thresholds-features-and-functions-in-ai-regulation): why regulators use training compute as a trigger, and why it should be only an initial filter for closer scrutiny, not a measure of risk (August 2024) (more advanced).
 
 ## Tests
 
 #### Question: Choice
-id:: b2fb8170-794c-4673-afc7-764b258cb0bb
-content:: In compute governance, which property of compute does "excludable" refer to?
+id:: b0481367-4ff9-43f2-b8b6-cd0b212f20fd
+content:: Export controls stop some countries from buying the most advanced AI chips and the tools to make them. Even if no chips are smuggled, what could weaken this lever most over time?
 options::
-- [x] Access to it can be denied to chosen actors, for example through export controls.
-- It can be counted in FLOP and compared across training runs.
-- Its use leaves visible signs, such as a data center's large power draw.
-- A few companies dominate the supply chain for advanced chips.
+- [x] Those countries build their own chipmaking industry, beyond the reach of the firms the controls rely on.
+- Chip prices fall, so those countries can buy more of the controlled chips through legal sales.
+- The controlled chips use too much power to run in those countries' data centers.
+- AI companies in those countries stop publishing how much compute they use.
 shuffle:: true
 
 #### Question: Choice
 id:: f3757198-ebe1-4b3e-bf10-38cfb18c830e
-content:: Why does the concentrated AI chip supply chain help compute governance?
+content:: Only a few firms make the most advanced AI chips or the machines to produce them. Why does this help compute governance?
 options::
-- [x] Rules applied to a few firms, such as TSMC or ASML, reach most advanced chips.
-- Chips from one maker are identical, so regulators can count them more easily.
-- Concentration keeps chip prices high, so few developers can afford to train.
-- Firms with large market share are legally required to report their customers.
+- [x] Rules applied to these few firms, such as TSMC or ASML, reach almost all advanced chips.
+- These few firms already decide by themselves which governments may train frontier models.
+- These few firms' chips are identical, so regulators can count them without tracking sales.
+- These few firms keep chip prices so high that only governments can afford frontier training.
 shuffle:: true
 
 #### Question: Choice
@@ -59,7 +64,7 @@ id:: 0c4a8cc5-e280-4340-9bf5-8bbf91ff5af8
 content:: A law requires extra checks for training runs above a fixed FLOP threshold. What does continued algorithmic progress, on its own, do to this rule over time?
 options::
 - [x] Models of a given capability can be trained with less compute, possibly below the threshold.
-- The threshold catches more models, because each training run uses more FLOP.
+- The threshold catches more models, because better algorithms need more FLOP per run.
 - The threshold becomes a more accurate predictor of dangerous capabilities.
 - Nothing, because FLOP counts already adjust for algorithmic efficiency.
 shuffle:: true

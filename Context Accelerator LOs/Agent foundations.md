@@ -15,6 +15,11 @@ Describe what agent foundations research studies, why its supporters think align
 Agent foundations gave the field several ideas it still uses, and its central claim, that we don't yet understand agency well enough to align it, lies behind some of the deepest pessimism about current safety plans. Knowing the case for and against it helps you weigh that pessimism and judge how much theory alignment may need.
 
 ## Lenses
+- [[../Lenses/lesswrong-agent-foundations|Agent Foundations]]: the LessWrong wiki's short list of the questions agent foundations asks, from embedded agency and self-improving agents to what goals are and corrigibility.
+- [[../Lenses/yudkowsky-the-rocket-alignment-problem|The Rocket Alignment Problem]]: Yudkowsky's dialogue on why MIRI works on simplified maths problems, arguing that aiming at a narrow target needs basic theory before engineering, from the approach's leading proponent (2018).
+- [[../Lenses/AF not really math not really science|Agent Foundations: not really math, not really science]]: a researcher on why the field uses maths rather than experiments on today's models, and why it studies agents in general rather than one kind of AI (2025).
+- [My current thoughts on MIRI's "highly reliable agent design" work (EA Forum)](https://forum.effectivealtruism.org/posts/SEL9PW8jozrvLnkb4/my-current-thoughts-on-miri-s-highly-reliable-agent-design): Daniel Dewey, then at Open Philanthropy, on why he doubted agent foundations would apply to real AI systems; read sections 3a to 3c (July 2017).
+- [MIRI 2024 Mission and Strategy Update (MIRI)](https://intelligence.org/2024/01/04/miri-2024-mission-and-strategy-update/): MIRI's history from agent foundations onwards, and why it now thinks alignment research is very unlikely to succeed in time and is putting policy and communications first (January 2024).
 
 ## Tests
 #### Question: Choice
@@ -33,7 +38,7 @@ content:: Why do agent foundations researchers think their kind of theory may be
 options::
 - [x] Without clear concepts of agency and goals, we can't say precisely what an aligned AI is
 - Current AI systems are too small for alignment experiments on them to tell us anything
-- A mathematical proof of safety is legally required before deploying advanced AI
+- Theory is much cheaper than experiments, so it is the most cost-effective place to start
 - Its results can already be applied directly to make today's chatbots safer
 shuffle:: true
 
@@ -53,7 +58,7 @@ content:: What is a common criticism of agent foundations research?
 options::
 - [x] Its results have rarely applied to the deep learning systems actually being built
 - It depends too heavily on costly experiments with frontier AI models
-- It assumes that AI will not become more capable than humans
+- It focuses on misuse by bad actors and neglects the risk of misaligned AI
 - It treats AI risk as a near-term problem rather than a long-term one
 shuffle:: true
 

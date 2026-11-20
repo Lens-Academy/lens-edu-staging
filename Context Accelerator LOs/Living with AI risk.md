@@ -14,6 +14,11 @@ Recognise common unhelpful reactions to taking AI risk seriously, such as panic,
 Taking AI risk seriously can be distressing. People who burn out, freeze or act rashly stop contributing, and can set back the work of others. Knowing these patterns helps you notice them early, in yourself and in others, and keep working at a pace you can sustain for as long as the problem lasts.
 
 ## Lenses
+- [[../Lenses/duleba-another-way-to-be-okay|Another Way to Be Okay]]: how to cope if you already believe doom may come: agency and acceptance, grieving a lost future, good hours in bad years, community, and a steady mix of work and play (2023).
+- [A Quick Guide to Confronting Doom (LessWrong)](https://www.lesswrong.com/posts/PQtEqmyqHWDa2vf5H/a-quick-guide-to-confronting-doom): six short points for anyone newly alarmed: be gentle with yourself, don't take rash action, there is time to build up your contribution, and beware the unilateralist's curse (April 2022).
+- [[../Lenses/alkjash-pain-is-not-the-unit-of-effort|Pain Is Not the Unit of Effort]]: why measuring how hard you try by how much you suffer leads people to optimise for visible suffering rather than results (2020).
+- [Staying Sane While Trying to Save the World (EA Forum)](https://forum.effectivealtruism.org/posts/y5QAfj5fhBBqksCb5/staying-sane-while-trying-to-save-the-world-highlights-from): highlights from Spencer Greenberg on 80,000 Hours: what people say helps, catching burnout early, false versus real rest, boom-and-bust cycles, filtering the news, and when others don't get it (October 2026).
+- [You Can't Trust Violence (LessWrong)](https://www.lesswrong.com/posts/Sih2sFHEgusDEuxtZ/you-cant-trust-violence): David Krueger, after the 2026 attacks on AI figures, on why violence is wrong and backfires: it discredits the movement, invites crackdowns and is no realistic way to stop AI (April 2026).
 
 ## Tests
 
@@ -24,16 +29,16 @@ assessment-instructions:: Score out of 100. 100 for any one clear point: working
 
 #### Question: FillBlank
 id:: c2b3638f-e137-453b-9042-1f1ddc76ca73
-content:: The slogan "pain is not the unit of {{effort}}" warns against measuring your commitment to a cause by how much you suffer for it.
+content:: The slogan "pain is not the unit of {{effort}}" warns against judging how hard you are trying by how much it hurts.
 
 #### Question: Choice
 id:: 4b859310-3b38-4a79-a9fa-5e0e350b892d
 content:: Someone estimates a 90% chance that advanced AI leads to catastrophe, and concludes that nothing they do matters. What is the main flaw in this reasoning?
 options::
-- [x] Lowering a large risk by even a little can be very valuable
+- [x] Actions can still lower the risk, and cutting a large risk a little is worth a lot
 - A 90% estimate is too high for anyone to hold reasonably
-- Personal decisions should not depend on probability estimates
-- A risk that high would already be visible in current AI systems
+- Personal decisions like this should never depend on probability estimates
+- Only risks below 50% can be meaningfully lowered by individual action
 shuffle:: true
 
 #### Question: Choice
