@@ -8,7 +8,7 @@ title: Quarterly Career Stage Survey
 #### Text
 content:: Hi, it's Lens Academy! Every 3 months we'll reach out to ask where you're now in AI Safety and what actually helped. Your answer will help us to prioritize and offer better support.  {--{"author":"Mark's AI","timestamp":1795166295864}@@Your answer will help us--}{++{"author":"Mark's AI","timestamp":1795166295864}@@It takes about 7 minutes. If nothing has changed, please say so: that is just as useful++} to {--{"author":"Mark's AI","timestamp":1795166295864}@@prioritize--}{++{"author":"Mark's AI","timestamp":1795166295864}@@us. We report answers in aggregate,++} and {--{"author":"Mark's AI","timestamp":1795166295864}@@offer better support.--}{++{"author":"Mark's AI","timestamp":1795166295864}@@only quote you if you say yes at the end.++}
 
-Your answer will help us to prioritize and offer better support. 
+
 #### Text
 content:: **Where you are now**
 
