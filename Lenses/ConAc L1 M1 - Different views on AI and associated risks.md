@@ -194,7 +194,7 @@ collapse:: closed
 
 #### Text
 content::
-The main expectations of the **replacement doctrine**, distilled from the paper's section on the doctrine. Where possible, we kept the authors' wording and section headings.
+The core expectations of the replacement doctrine, taken from the paper’s list of expectations and subheadings:
 
 - AI will not cause catastrophic outcomes like human extinction.
 - AI will not transform geopolitics to the point where the concept of separate sovereign states stops applying, for example by allowing one actor to seize control over all others.
