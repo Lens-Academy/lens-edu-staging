@@ -46,7 +46,7 @@
   <text x="815" y="346" font-size="18" text-anchor="middle" fill="#1a1a1a">(<tspan fill="#c8102e" font-weight="bold">2</tspan>, <tspan fill="#1a1a1a" font-weight="bold">3</tspan>)</text>
   <line x1="30" y1="368" x2="870" y2="368" stroke="#bbbbbb" stroke-width="1"/>
   <line x1="450" y1="114" x2="450" y2="354" stroke="#cccccc" stroke-width="1"/>
-  <text x="30" y="390" font-size="13" text-anchor="start" fill="#444444">Note: The payoff for the wife is in red, for the husband in black. The payoff amounts for each are 2 points if they attend the same event, 1 point if</text>
+  <text x="30" y="390" font-size="13" text-anchor="start" fill="#444444"><tspan font-weight="bold" fill="#1a1a1a">Note:</tspan> The payoff for the wife is in red, for the husband in black. The payoff amounts for each are 2 points if they attend the same event, 1 point if</text>
   <text x="30" y="408" font-size="13" text-anchor="start" fill="#444444">they attend their preferred event (ballet for the wife, boxing for the husband), and zero if they attend the event they do not like. In the simultaneous</text>
   <text x="30" y="426" font-size="13" text-anchor="start" fill="#444444">game, each makes the decision without knowledge of the other’s choice. In the sequential game, the person picking second knows what the other</text>
   <text x="30" y="444" font-size="13" text-anchor="start" fill="#444444">person chose.</text>
