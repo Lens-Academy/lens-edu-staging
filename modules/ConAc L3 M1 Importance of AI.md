@@ -1,7 +1,7 @@
 ---
 id: '23a243eb-55f3-423b-ad91-a67fb7ed314c'
 slug: conac-l3-m1-importance-of-ai
-title: "Module 1, level 3: What AI Safety is"
+title: "Level 3"
 tags:
   - wip
 ---

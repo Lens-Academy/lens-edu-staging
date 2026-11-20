@@ -1,7 +1,7 @@
 ---
 id: '26b6c8e5-25b6-4354-88de-fffcf9e55cb6'
 slug: conac-l3-m2-what-success-looks-like
-title: "Module 2, level 3: What success looks like"
+title: "Level 3"
 tags:
   - wip
 ---
