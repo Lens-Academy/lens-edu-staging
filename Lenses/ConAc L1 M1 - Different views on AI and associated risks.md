@@ -200,6 +200,7 @@ The main expectations of the **replacement doctrine**, distilled from the paper'
 - AI will not transform geopolitics to the point where the concept of separate sovereign states stops applying, for example by allowing one actor to seize control over all others.
 - AI will preserve the basic structure of the economy, with concepts like labor and capital remaining relevant. Humans will keep participating in the economy, if only as consumers.
 - AI might cause some amount of economic and scientific benefit, unemployment and concentration of wealth, deceptive media, impersonation and manipulation, diffusion of responsibility.
+
 #### End Callout
 
 #### Article
