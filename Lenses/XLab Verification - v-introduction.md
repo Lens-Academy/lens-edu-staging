@@ -124,12 +124,6 @@ Source: [Pacing the Frontier](https://www.pacingthefrontier.com/), signatory com
 
 It’s clear that ASI is no longer a hypothetical risk. It will require deliberate and proactive action by labs and governments alike to avoid.
 
-#### Callout: Optional: A Short History of AI Acceleration
-tone:: neutral
-collapse:: closed
-
-#### Text
-content::
 \### Optional: A Short History of AI Acceleration
 
 How fast is fast? Two charts from Our World in Data's [brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai) show the pace.
