@@ -33,13 +33,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 9cb0f87a-e2c6-4860-9bbb-246de183d2d4
-content:: A "wide funnel" approach to AI safety field-building reaches many people cheaply and narrows down later. Does the case for it depend on it being hard to tell early on who will become a strong contributor?
-options::
-- [x] Yes
-- No
-
-#### Question: Choice
 id:: 84df4609-2a18-485a-a41c-53b224fcdee3
 content:: Which of these is an argument often given for careful selection, rather than a wide funnel, in AI safety field-building?
 options::
@@ -48,13 +41,6 @@ options::
 - Reaching more people raises general awareness of AI risk
 - Open programs give people from unusual backgrounds a chance
 shuffle:: true
-
-#### Question: Choice
-id:: d2930568-6dc7-43f1-ab6c-d9e0c218d21a
-content:: Is AI safety field-building aimed at technical research roles alone, or also at roles such as policy and operations?
-options::
-- [x] Also at roles such as policy and operations
-- Technical research roles alone
 
 #### Question: Choice
 id:: 692c9a75-e7bc-48b5-bccd-9e6ffe0b20b3

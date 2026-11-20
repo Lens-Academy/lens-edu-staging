@@ -79,7 +79,6 @@ options::
 - Office tasks of that length are usually harder for humans than software tasks
 - The human timers were novices, so the tasks are harder than their lengths suggest
 - The models had already seen the exact tasks during training
-- The tasks were timed with models running far faster than humans
 shuffle:: true
 
 #### Question: Choice

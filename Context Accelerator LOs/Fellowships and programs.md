@@ -72,16 +72,6 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 346ab405-db2f-46fa-8513-ea0a79f903cd
-content:: Someone with no technical background has just learned about AI risk and wants to understand the field before deciding what to work on. Which is the most suitable first step?
-options::
-- [x] Take a part-time introductory course on AI safety
-- Apply for a full-time technical research fellowship
-- Join an intensive ML engineering bootcamp
-- Apply to an AI company's safety fellowship
-shuffle:: true
-
-#### Question: Choice
 id:: 6d72918a-0bd7-465a-baa8-e9c2da61329d
 content:: The Anthropic Fellows Program is an example of which type of program?
 options::
@@ -95,6 +85,7 @@ shuffle:: true
 id:: b3399c03-90a4-4812-b54a-df6e1b7938f4
 content:: Someone wants to found a new AI safety organisation and needs early funding and advice from experienced founders. Which program is built for this?
 options::
+- [x] Catalyze Impact
 - Pivotal
 - SPAR
 - ARENA

@@ -52,6 +52,7 @@ options::
 - Humans became far better at abstract reasoning than other primates
 - Humans spread to environments very different from where they evolved
 - Natural selection now acts more slowly on humans than on other species
+shuffle:: true
 
 #### Question: Choice
 id:: 8bcb0ede-5810-4b59-91eb-c20242efabb4
@@ -80,16 +81,6 @@ options::
 - It describes a different failure, where a model's skills rather than its goals fail to generalize
 - It claims goal misgeneralization occurs mainly in small, less capable models
 - It describes a model editing its own reward signal after training
-shuffle:: true
-
-#### Question: Choice
-id:: 2599c595-b719-4353-b1f3-e21717045d71
-content:: A model trained to be helpful on everyday tasks gains broad scientific skill. Which outcome would fit the sharp left turn hypothesis?
-options::
-- [x] It applies its new skill to goals that drift from what its developers intended
-- It loses its new skill when given tasks unlike its training
-- It stays helpful but remains too weak to solve hard scientific problems
-- It refuses scientific tasks because its safety training generalizes too broadly
 shuffle:: true
 
 #### Question: Choice

@@ -12,19 +12,23 @@ Explain how disclosure rules and whistleblower protections help outsiders learn 
 - [[Frontier safety frameworks]]
 
 ## Why it matters
-Test results, near misses and cut corners at frontier AI companies are usually seen first by their staff. Knowing what companies must disclose, and when insiders are protected for speaking up, helps you judge how much outsiders really know and which gaps in oversight matter most.
+At frontier AI companies, test results, near misses, cut corners and how fast AI is speeding up the company's own research are usually seen first by staff, often before any model is released. Knowing what companies must disclose, and when insiders are protected for speaking up, helps you judge how much outsiders really know and which gaps in oversight matter most.
 
 ## Lenses
+- [What California's SB 53 Does (Carnegie Endowment)](https://carnegieendowment.org/emissary/2025/10/california-sb-53-frontier-ai-law-what-it-does): what the first US frontier AI law makes developers publish and report, its whistleblower protections, why it relies on disclosure instead of mandated safeguards, and its gaps (October 2025).
+- [A Right to Warn about Advanced Artificial Intelligence (righttowarn.ai)](https://righttowarn.ai/): the open letter from current and former OpenAI and Google DeepMind staff on why confidentiality deals and law-breaking-only whistleblower laws silence insiders, and their four demands of AI companies (June 2024).
+- [[../articles/aiwi-ai-whistleblowing-law-best-practices-aiwi-carma|AI Whistleblowing Law: Best Practice Guide]]: an advocacy group's case for stronger AI whistleblower law: why existing laws miss legal-but-dangerous practices, equity and visa risks, and why internal channels and receiving agencies need independence and expertise; read the Introduction, Retaliation Protection, Disclosure Channels, Remedies and Agency Requirements (July 2026).
+- [[../Lenses/phillips-robins-with-the-raise-act-new-york-aligns-with-california-on-frontier-ai-laws|New York's RAISE Act and SB 53]]: how New York copied California's "trust but verify" disclosure model, where the two laws differ, and the open question of what governments will do with the reports (February 2026).
 
 ## Tests
 
 #### Question: Choice
 id:: 29d17e19-c5cb-4271-82ae-22ae955ed337
-content:: Why might existing US whistleblower laws fail to protect an AI company employee who reports a serious safety risk to a regulator?
+content:: Why might general US whistleblower laws fail to protect an AI company employee who reports a serious safety risk to a regulator?
 options::
-- [x] Many protect reports of law-breaking, and the risky practice may be legal
+- [x] Many cover only law-breaking, and the risky practice may be legal
 - They protect public-sector workers but not private-sector workers
-- They cover reports of financial fraud but not reports to regulators
+- They protect only employees who report anonymously
 - They don't apply to anyone who signed a confidentiality agreement
 shuffle:: true
 
@@ -64,8 +68,8 @@ content:: What is the main argument for AI rules that require companies to discl
 options::
 - [x] Experts don't yet agree which safeguards work, so make practices visible first
 - Disclosure lets members of the public test models for dangerous capabilities
-- Published safety plans bind companies in every country where they operate
-- Disclosure rules stop companies from training models above a risk threshold
+- Disclosure gives regulators the power to block a risky model's release
+- Without disclosure rules, companies keep no records of their safety testing
 shuffle:: true
 
 #### Question: Choice
@@ -99,19 +103,19 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 996030b6-6bf6-429e-ac54-5272e3ab7e4a
-content:: In 2024, current and former employees of OpenAI and Google DeepMind published an open letter called "A Right to Warn". What did it ask AI companies to do?
+id:: a64a09e4-c489-46c1-ab84-ce5908937567
+content:: California's SB 53 protects some frontier AI company staff from retaliation for reporting concerns to officials. Which reports does it cover that many older whistleblower laws don't?
 options::
-- [x] Let staff raise risk concerns with outsiders without retaliation
-- Pause training of AI systems more powerful than GPT-4
-- Give employees a vote on whether new models are released
-- Publish the full results of every internal safety evaluation
+- [x] Reports that the company's work poses a substantial danger of catastrophe, even if legal
+- Reports made to journalists or on social media, as well as to officials
+- Reports by any employee about any product decision they disagree with
+- Reports that include the company's unreleased model weights as evidence
 shuffle:: true
 
 #### Question: Open
 id:: 73a69d96-9a77-4551-92f6-f08408e9c67c
 content:: Name two kinds of information about AI risk that employees of a frontier AI company may see before anyone outside the company.
-assessment-instructions:: Score out of 100. 100 for any two of: dangerous-capability evaluation results; capabilities of unreleased models; safety incidents or near misses; whether the company follows its safety commitments; security weaknesses, such as risk of model weights being stolen; pressure to shorten safety testing; internal disagreement about risks. 50 for one.
+assessment-instructions:: Score out of 100. 100 for any two of: dangerous-capability evaluation results; capabilities of unreleased or internal-only models; how much AI is speeding up the company's own research; safety incidents or near misses; whether the company follows its safety commitments; security weaknesses, such as risk of model weights being stolen; pressure to shorten safety testing; internal disagreement about risks. 50 for one.
 
 #### Question: Open
 id:: cb9d9175-b7ed-489b-a4ef-065273b6be1c
@@ -122,7 +126,3 @@ assessment-instructions:: Score out of 100. 100 for saying that protected inside
 id:: 3d5d6c89-68b0-46cf-aeef-4c0292d1351f
 content:: Even where whistleblower protections exist, give one reason an AI company employee might still not report a serious safety concern.
 assessment-instructions:: Score out of 100. 100 for any one of: fear of career damage or being blacklisted in a small industry; losing equity or other pay; unclear whether the concern is legally covered; legal costs; worry about breaching confidentiality or trade secrets; uncertainty whether the risk is real; loyalty to colleagues or the company's mission. 50 for a vague answer such as "fear" with no detail.
-
-#### Question: FillBlank
-id:: f65c4f4c-f8fe-4f4f-91ae-d057f6ee5189
-content:: A {{non-disparagement|nondisparagement}} clause in an employment or exit agreement bars the signer from saying negative things about the company.
