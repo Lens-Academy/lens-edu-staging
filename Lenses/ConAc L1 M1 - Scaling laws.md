@@ -1,12 +1,12 @@
 ---
 id: 'b4afae57-53fe-42ab-bb86-b06209fa3b5f'
 title: "Scaling laws"
-{++{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795205125763}@@reading_minutes: 10
+reading_minutes: 10
 tutor_minutes: 0
-++}tags:
+tags:
   - wip
 ---
-#### {++{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795206057439}@@Callout: In this module
+#### Callout: In this module
 collapse:: closed
 
 #### Text
@@ -95,9 +95,9 @@ If you want to explore this distinction further, [Power Laws Are Not Enough](htt
 
 #### End Callout
 
-#### ++}Text
+#### Text
 content::
-{--{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795205143352}@@TBD--}{++{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795205143352}@@But whatever the limitations of scaling laws, AI companies are investing billions of dollars in larger models, more powerful computing infrastructure, and new ways to use computation during training and inference.
+But whatever the limitations of scaling laws, AI companies are investing billions of dollars in larger models, more powerful computing infrastructure, and new ways to use computation during training and inference.
 
 We don't know how long these improvements will continue, but for now, the world's leading AI labs are betting enormous resources that the next increase in scale will be worth it.
 
@@ -121,4 +121,4 @@ to:: assumption of sustained returns to scale.
 
 #### Article
 from:: Finally, the extraordinary scale of current investment
-to:: retained earnings of technology firms.++}
+to:: retained earnings of technology firms.
