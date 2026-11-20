@@ -37,16 +37,6 @@ id:: 5ca06e21-e1e9-45cb-ae88-f2ae47130978
 content:: A 2024 Epoch AI study estimated that, for language models between 2012 and 2023, the compute needed to reach a given performance level halved roughly every {{8|eight}} months.
 
 #### Question: Choice
-id:: e3cd67f4-ed75-4f62-b842-53234019d362
-content:: A lab trains a new model with 4 times the physical compute of its previous model. Over the same period, better algorithms mean each unit of compute achieves what 3 units did before. Roughly how much more effective compute does the new model have?
-options::
-- [x] About 12 times
-- About 7 times
-- About 4 times
-- About 3 times
-shuffle:: true
-
-#### Question: Choice
 id:: 3ba55718-ccd8-4bc4-8d79-c7348af45950
 content:: Suppose the physical compute used to train frontier AI models stopped growing, but algorithmic progress continued at its past rate. What would happen to the best AI capabilities?
 options::
@@ -64,16 +54,6 @@ options::
 - Regulators must raise the threshold to keep catching the same capabilities
 - Nothing changes, since the threshold measures compute rather than capability
 - Capable models become easier for the threshold to catch
-shuffle:: true
-
-#### Question: Choice
-id:: bba4a220-28ee-4986-9015-7200fbf9cac3
-content:: An AI capability first required the largest training run of a leading lab. If algorithmic efficiency keeps improving at its past rate, what is most likely a few years later?
-options::
-- [x] Smaller groups can reach the capability with far less compute
-- The capability still needs a training run of the same size
-- The capability needs more compute, because test standards rise
-- Only the first lab can reproduce it, because its methods stay secret
 shuffle:: true
 
 #### Question: Choice

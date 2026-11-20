@@ -114,10 +114,6 @@ options::
 - It removes the need to agree on what level of risk is acceptable
 shuffle:: true
 
-#### Question: FillBlank
-id:: b1d94fdf-3d4d-4a35-a807-b47f1d191c26
-content:: In AI safety cases, an argument that a model won't cause harm because its goals and behavior can be relied on is called a {{trustworthiness|alignment|propensity}} argument.
-
 #### Question: Open
 id:: 69c2ee39-edec-4232-b0cd-6dc271ee46d1
 content:: Why doesn't a control argument in an AI safety case need to assume that the AI system is aligned?

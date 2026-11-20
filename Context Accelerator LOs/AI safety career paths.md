@@ -103,16 +103,6 @@ options::
 - Companies pay more only for non-research roles
 shuffle:: true
 
-#### Question: Choice
-id:: 99b1a406-c9f4-44ff-80a0-aaeb05f64f3c
-content:: In AI safety hiring discussions, "Amplifiers" are a type of talent that a 2026 MATS report expected to be in growing demand. What do Amplifiers do?
-options::
-- [x] Manage projects and turn research into action
-- Create new research agendas and paradigms
-- Run fast experiments on established research agendas
-- Fund and evaluate research grant applications
-shuffle:: true
-
 #### Question: Open
 id:: 277dfc99-d057-443e-8434-d58226288ccd
 content:: AI safety organizations report being short of people, yet many capable junior applicants can't get hired. Explain how both can be true.

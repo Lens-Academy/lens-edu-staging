@@ -22,16 +22,6 @@ MAIM is one of the few concrete proposals for how rival powers could avoid a des
 ## Tests
 
 #### Question: Choice
-id:: ee266eed-125e-4ebe-874c-03c979e34b59
-content:: Under MAIM (mutual assured AI malfunction) deterrence, what does a state threaten in order to deter a rival's bid for superintelligence?
-options::
-- [x] Sabotaging the rival's AI project
-- Nuclear strikes on the rival's cities
-- Broad trade sanctions on the rival's economy
-- Leaving international AI safety agreements
-shuffle:: true
-
-#### Question: Choice
 id:: b63ff701-a37d-489f-84bc-d1c261468306
 content:: In MAIM deterrence, as proposed in the paper "Superintelligence Strategy", which action is the threat of sabotage meant to deter?
 options::

@@ -25,7 +25,7 @@ The AI ethics community shapes much AI policy and public debate. If you know wha
 
 #### Question: Choice
 id:: f2d157dc-a547-4e3b-adf3-afbe1eaef3e7
-content:: A company uses an AI tool to screen job applicants. Which concern would researchers in the AI ethics and fairness community most likely raise first?
+content:: A company uses an AI tool to screen job applicants. Which concern would researchers in the AI ethics community most likely raise first?
 options::
 - [x] It may rate applicants from some groups unfairly low
 - It may pursue power beyond its assigned task
