@@ -88,8 +88,8 @@ content:: Research on AI control (keeping AI use safe even if the model may be m
 options::
 - [x] AI agents doing research and engineering inside an AI company
 - Chatbots answering questions from members of the public
-- Self-driving cars operating on public roads
-- Recommendation algorithms ranking social media posts
+- Open-weight models running on users' own computers
+- AI tools sold to businesses through a public API
 shuffle:: true
 
 #### Question: Choice
