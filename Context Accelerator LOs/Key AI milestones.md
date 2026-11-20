@@ -127,7 +127,7 @@ options::
 - [x] Training general learning methods with far more compute and data
 - Programming more expert knowledge into AI systems by hand
 - Replacing neural networks with logic-based reasoning systems
-- Moving AI training from specialised chips to ordinary CPUs
+- Better training algorithms, while the compute used stayed roughly flat
 shuffle:: true
 
 #### Question: Open

@@ -102,11 +102,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: f8a3b7a3-f82b-44ac-a517-8dfbefc021c3
-content:: Research has shown that fine-tuning an open-weight model on a small number of harmful examples can remove its refusals. Can a similar attack work against a closed model that customers can fine-tune through the company's API?
+id:: 085b5b4e-8168-4bed-9f81-07fb96a04566
+content:: Researchers removed a closed model's refusals by fine-tuning it on a handful of harmful examples through the company's own fine-tuning service. What does this imply for a company that offers such a service?
 options::
-- [x] Yes
-- No
+- [x] It needs safeguards beyond refusals, such as screening customers' training data
+- Its model stays safe as long as the weights never leave its servers
+- Fine-tuning through a company's service can only make a model safer
+- It should expect customers to be able to download the tuned weights
+shuffle:: true
 
 #### Question: Choice
 id:: b07e70f6-d752-471f-8138-d9c9eb342e84

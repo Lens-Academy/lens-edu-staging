@@ -101,34 +101,19 @@ options::
 - It would exempt insured developers from safety testing
 shuffle:: true
 
-#### Question: Choice
-id:: a7f2fc06-b6c6-4c14-9ab0-5f7698d12b7b
-content:: A developer releases a model's weights openly. Someone else fine-tunes it to remove its safeguards and uses it to cause harm. Why is this case hard for liability rules?
-options::
-- [x] The harm came through another party's changes the developer couldn't control
-- Open-weight models fall outside every country's liability laws
-- Fine-tuning removes any record of which company made the model
-- The developer earns no revenue from the model to pay damages
-shuffle:: true
+#### Question: Open
+id:: 872d8958-00c4-4b7a-9b90-bf7b62a75f25
+content:: A developer releases a model's weights openly. Someone else fine-tunes it to remove its safeguards and uses it to cause harm. Why is this case hard for liability rules, and what is one argument for holding the original developer liable anyway?
+assessment-instructions:: Score out of 100. 50 for a real difficulty: another party's deliberate changes and misuse caused the harm, so blame is split or unclear; the developer can't control or recall the model once released; harms are hard to trace back. 50 for a real argument: the misuse was foreseeable; the developer chose to release and is best placed to prevent it; otherwise nobody who can pay is liable, so releasing carries no cost.
 
 #### Question: Choice
-id:: 1392c234-c15c-4fce-a9cc-18c4d4d43c3d
-content:: Which of these would weaken liability as a tool for making AI developers careful?
+id:: a48a453c-e023-46a6-957f-6a3406cb2015
+content:: Some proposals would protect AI developers from lawsuits if they follow approved safety standards (a "safe harbor"). What is the main worry about this for catastrophic risks?
 options::
-- [x] A law shielding developers from lawsuits over harms done with their models
-- Requiring frontier developers to carry liability insurance
-- Allowing punitive damages for near-miss incidents
-- Applying strict liability to frontier AI developers
-shuffle:: true
-
-#### Question: Choice
-id:: 77a099b3-0fdf-4aac-b023-c4e30d3657a6
-content:: What happened to California's SB 1047, a 2024 bill that would have imposed safety duties on developers of very large AI models?
-options::
-- [x] The governor vetoed it
-- It was signed into law
-- A court struck it down
-- Its sponsor withdrew it
+- [x] Developers would have little reason to guard against risks the standards miss
+- Victims would win larger damages than the harm justifies
+- Developers would face more lawsuits than before
+- Courts would have to write the safety standards themselves
 shuffle:: true
 
 #### Question: Open

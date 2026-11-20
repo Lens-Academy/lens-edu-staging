@@ -118,7 +118,7 @@ options::
 - [x] The range of intelligence among humans is narrow compared with other species
 - Power among humans in fact tracks intelligence closely
 - Political power is mostly inherited rather than earned
-- Intelligence tests fail to measure real intelligence
+- Intelligence helps people gain power only in wartime
 shuffle:: true
 
 #### Question: Choice
