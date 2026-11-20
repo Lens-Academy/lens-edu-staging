@@ -176,7 +176,7 @@ content:: **Last details**
 
 #### Question: Choice
 id:: fa424f1e-1c0a-45f8-808a-9eb5dd3376d9
-content:: We sometimes share what our alumni go on to do, with funders, on our website and on LinkedIn. Which of these are you happy with? Pick all that apply.
+content:: We sometimes share what our alumni go on to do, with funders, on our website or on LinkedIn. Which of these are you happy with? Pick all that apply.
 multi:: true
 options::
 - You can quote my answers with my name
