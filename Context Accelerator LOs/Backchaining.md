@@ -126,7 +126,3 @@ assessment-instructions:: Score out of 100. 100 for any one of: it needs a clear
 id:: c0f373b6-8c0f-48be-9e0c-c1578c7d425b
 content:: You want to help reduce risk from AI but cannot describe the end state clearly enough to backchain from it. What could you do instead?
 assessment-instructions:: Score out of 100. 100 for any one of: explore forward to learn what is possible and what matters; pick a nearer, concrete intermediate goal and backchain from that; choose actions that look useful across many possible end states, such as building skills or knowledge; talk to people with clearer pictures of the goal. 50 for "just start working" without saying why or how it helps.
-
-#### Question: FillBlank
-id:: c64430b6-0281-451f-879d-6599baa123cf
-content:: Planning by starting from what you can do now and seeing where it leads, the opposite of backchaining, is called {{forward-chaining|forward chaining|forward planning}}.

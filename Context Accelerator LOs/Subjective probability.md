@@ -81,7 +81,6 @@ options::
 - Nothing, as conditional and overall chances are equal
 - Nothing, since the condition is very likely to be met
 - It should report 60%, the chance things go well
-- Degrees of belief can't be reported as numbers
 shuffle:: true
 
 #### Question: Choice
@@ -103,10 +102,6 @@ options::
 - They cluster tightly around 95%
 - They match closely once context is given
 shuffle:: true
-
-#### Question: FillBlank
-id:: 958f1b28-cb4d-41cc-93e8-df143938ef43
-content:: If your degree of belief that an event will happen is 10%, a bet that risks $1 to win ${{9|9.00}} if it happens should look roughly fair to you.
 
 #### Question: Open
 id:: 38ff1ae6-d5a8-462a-8e27-e18f3a424c51

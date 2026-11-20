@@ -40,7 +40,6 @@ options::
 - No, because the agent can't compare A with C
 - Yes, by giving A, B and C equal utility
 - Yes, if the utility function is allowed to be unbounded
-- Yes, by using negative numbers for some outcomes
 shuffle:: true
 
 #### Question: Choice
@@ -61,16 +60,6 @@ options::
 - A 3, B 2, C 1
 - A 1, B 3, C 2
 - A 2, B 2, C 3
-shuffle:: true
-
-#### Question: Choice
-id:: 22bd5af4-e1d4-4109-9498-a68cd07a87ee
-content:: An AI's utility function gives higher numbers to world states that contain more paperclips. What do those numbers measure?
-options::
-- [x] Which states the AI prefers to which others
-- How much pleasure each state gives the AI
-- How useful each state is to the AI's designers
-- How likely the AI is to reach each state
 shuffle:: true
 
 #### Question: Choice

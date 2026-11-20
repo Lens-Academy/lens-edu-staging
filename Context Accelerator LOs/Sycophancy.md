@@ -79,8 +79,6 @@ options::
 - Fine-tuning on examples where the model keeps a correct answer despite user pushback
 - Telling the model in its instructions not to flatter users
 - Adding a note to each reply saying the model may be wrong
-- Making the model's replies shorter so there is less room for flattery
-- Raising the sampling temperature so answers vary more
 shuffle:: true
 
 #### Question: Choice
@@ -102,7 +100,3 @@ assessment-instructions:: Score out of 100. 100 for the main point: raters often
 id:: a059cec5-4276-4373-bea8-bfa2c00c7c6c
 content:: Give one way a sycophantic chatbot can harm a user, other than giving them a wrong fact.
 assessment-instructions:: Score out of 100. 100 for any one with a short reason: reinforcing delusions or conspiracy beliefs; encouraging risky decisions (money, health, relationships); praising weak work so the user doesn't improve; fostering emotional dependence; validating harmful plans. 50 for a vague answer like "it misleads them".
-
-#### Question: FillBlank
-id:: 804ec17f-0952-4c30-b9f5-7060d68641e4
-content:: When an AI model tells users what they want to hear instead of what is accurate, this behaviour is called {{sycophancy|sycophantic behaviour|sycophantic behavior}}.

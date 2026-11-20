@@ -115,10 +115,6 @@ options::
 - They can make companies look responsible to lawmakers
 shuffle:: true
 
-#### Question: FillBlank
-id:: 3fe67063-cb7b-47e6-bc12-0a53a6151228
-content:: Criticism of a technology that exaggerates how powerful it is, and so ends up feeding its hype, is sometimes called {{criti-hype|critihype}}.
-
 #### Question: Open
 id:: 09577674-48b2-482b-9dca-d57d7e7d3e5c
 content:: State the "AI risk as hype" claim in one or two sentences, as its supporters would put it.

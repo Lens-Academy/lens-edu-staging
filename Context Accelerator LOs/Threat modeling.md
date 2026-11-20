@@ -22,16 +22,6 @@ A vague sense that AI is dangerous doesn't tell you what to do. Breaking a path 
 ## Tests
 
 #### Question: Choice
-id:: 62fbf1fa-1c61-42f1-b415-d5fe57680e67
-content:: A threat model lists four steps that must all happen for a catastrophe. How does the probability of the whole path compare with the probability of its least likely step?
-options::
-- [x] It is no higher than that step's probability
-- It is about the average of the four steps' probabilities
-- It is equal to the most likely step's probability
-- It is higher, because the steps add up
-shuffle:: true
-
-#### Question: Choice
 id:: f4d6d282-f8d8-4041-8454-ffd39fcf4df2
 content:: A lab's main defense against bioweapon misuse is refusal training in its model. If the model's weights are released openly, which of these defenses keeps working?
 options::
@@ -102,22 +92,11 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 0d0a83f0-2ab6-4516-87a6-80f60d891f71
-content:: In a threat model where every step is necessary, does reliably blocking one step stop that particular path?
-options::
-- [x] Yes
-- No
-
-#### Question: Choice
 id:: 9f741ca3-5df9-40ee-8fc1-8a74d5e78af6
 content:: A threat model shows that one path to AI-enabled bioweapons is now blocked. Does this show that the AI system poses no bioweapon risk?
 options::
 - [x] No
 - Yes
-
-#### Question: FillBlank
-id:: e6a67ad2-a5bc-4688-b87c-4598200b0ad3
-content:: Borrowed from military and cybersecurity use, the term {{kill chain}} names a breakdown of an attack into steps that must all succeed.
 
 #### Question: Open
 id:: 0becb54c-e59a-4f0b-861e-a3b2406d3ec0

@@ -22,25 +22,6 @@ How fast AI could turn intelligence into physical power sets how much time peopl
 - [Explosive growth from AI automation: a review of the arguments (Epoch AI, arXiv)](https://arxiv.org/abs/2309.11690): Ege Erdil and Tamay Besiroglu weigh three drivers of explosive growth against nine objections, including regulation, physical bottlenecks and slow automation, and judge explosive growth plausible but uncertain (July 2024) (more advanced).
 
 ## Tests
-#### Question: Choice
-id:: 05013fd1-20ac-49a3-8d82-e9e33f101725
-content:: In recent decades the world economy has grown about 3% per year. Some researchers argue advanced AI could push growth above 30% per year. At a steady 30% per year, about how long would the economy take to double?
-options::
-- [x] About 2.5 years
-- About 6 months
-- About 10 years
-- About 25 years
-shuffle:: true
-
-#### Question: Choice
-id:: 96df545f-4074-4623-bf82-3a207ac50e5b
-content:: A fleet of 1,000 robots builds copies of itself and doubles in size every month. If nothing limited it, about how many robots would it have after one year?
-options::
-- [x] About 4 million
-- About 12,000
-- About 24,000
-- About 1 billion
-shuffle:: true
 
 #### Question: Choice
 id:: ff3051b7-b14f-4d27-a884-a675546c9aab
@@ -111,10 +92,6 @@ options::
 - They count only the revenue of AI companies as AI's contribution
 - They expect the cost of computing to rise sharply
 shuffle:: true
-
-#### Question: FillBlank
-id:: fb7c299f-389e-4078-8f1e-9c139ad5f352
-content:: A rapid, self-reinforcing growth of physical industry, driven by AI-controlled robots building more robots and factories, is often called an {{industrial explosion}}.
 
 #### Question: Open
 id:: 5bcd5fcf-8f43-41f0-a2a2-e7b24035d242
