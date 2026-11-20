@@ -16,6 +16,11 @@ Describe how AI policy cuts across US party lines, name the main coalitions and 
 AI laws pass only when politicians see a reason to back them. If you know which coalitions favour or resist regulation and which issues voters care about, you can find allies in both parties and judge which proposals could pass. Without this, safety work can stall or become tied to one side.
 
 ## Lenses
+- [As the US Midterms Approach, AI Is Going to Emerge as a Key Issue Concerning Voters (Nathan E. Sanders and Bruce Schneier, The Guardian)](https://www.schneier.com/essays/archives/2026/03/as-the-us-midterms-approach-ai-is-going-to-emerge-as-a-key-issue-concerning-voters.html): why AI doesn't fit the usual party lines. Trump's order against state AI laws versus Congress's near-unanimous vote against a ban on them, polls favouring regulation, and local data center fights that unite progressives and Trump voters; an opinion piece arguing candidates should take on the industry (March 2026).
+- [The AI safety debate is confusing. Here's our guide to the different factions (NPR)](https://laist.com/news/the-ai-safety-debate-is-confusing-heres-our-guide-to-the-different-factions): the camps in the AI fight and who leads them, from accelerationists and the tech right (David Sacks, Marc Andreessen) to the populist right (Steve Bannon) and Bernie Sanders' calls for curbs, plus safetyists and AI-ethics critics (September 2026).
+- [The 2026 Midterms Could Decide AI's Future, and Silicon Valley Knows It (Built In)](https://builtin.com/artificial-intelligence/ai-super-pacs-2026-midterm-election-regulation): the money behind each side: the Leading the Future super PAC network (a16z, Greg Brockman) and its push for one federal law over state laws and the race with China, its campaign against RAISE Act author Alex Bores, the Anthropic-backed Public First, and Meta's state PACs (updated June 2026).
+- [AI PACs spent millions trying to shape Congress. Here's how they fared (TechCrunch)](https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/): midterm results for the AI super PACs, including Leading the Future's Republican and Democratic arms, its $27 million in primaries (with $8 million against Bores), and why it says primaries are the better use of its money (November 2026).
+- [How rising electric rates could affect the 2026 midterms (Brookings)](https://www.brookings.edu/articles/how-rising-electric-rates-could-affect-the-2026-midterms): how data centers became tied to rising power bills, what Democrats and Republicans such as Ron DeSantis are proposing, and polls on how each party's voters see data centers' effect on energy costs (March 2026).
 
 ## Tests
 
@@ -64,13 +69,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: ad9097a9-ba4e-4534-8ad6-8c818a893866
-content:: In a June 2026 New York congressional primary, AI-focused super PACs spent over $20 million for and against state Assembly member Alex Bores. Why was his race a focus for them?
+id:: 199bd097-4d05-45a6-b284-c9ed836b1423
+content:: In a June 2026 New York congressional primary, the industry-backed super PAC Leading the Future spent about $8 million against Alex Bores, the state legislator who sponsored New York's RAISE Act on frontier AI safety. What was the main aim of spending this much against one candidate?
 options::
-- [x] He co-authored New York's RAISE Act, a frontier AI safety law
-- He proposed a statewide ban on building new data centers
-- He sued OpenAI over its use of copyrighted news articles
-- He led a campaign to break up the largest tech companies
+- [x] To show other politicians that backing AI safety laws has a cost
+- To help a Republican win the seat in the general election
+- To keep a planned data center in his district on schedule
+- To stop him from challenging a tech-friendly sitting member
 shuffle:: true
 
 #### Question: Choice
@@ -78,9 +83,9 @@ id:: 003c1023-1edf-4bae-b95e-90c60cc06a07
 content:: In the 2026 US midterms, the two main rival AI super PAC networks, Leading the Future and Public First, each ran one arm for Republicans and one for Democrats. What is the best explanation?
 options::
 - [x] Views on AI cut across party lines, so each backs allies in both parties
-- US election law requires super PACs to spend equally on both parties
-- Each party had adopted an official AI platform for them to support
-- Running two arms lets them avoid disclosing their donors
+- AI had become a top voting issue for both parties' voters
+- Both parties' leaders had asked the networks to stay neutral
+- Rules cap how much one super PAC can spend backing one party
 shuffle:: true
 
 #### Question: Choice
@@ -105,7 +110,7 @@ shuffle:: true
 
 #### Question: Choice
 id:: 7ffc5dd5-31c1-4bca-8d84-30ffd27ffbb3
-content:: A New York Times/Siena poll in 2026 asked US voters which party they trust more on AI. What did it find?
+content:: A New York Times/Siena poll in September 2026 asked US voters which party they trust more on AI. What did it find?
 options::
 - [x] Voters were roughly evenly split between the two parties
 - Democrats were trusted more, by a wide margin

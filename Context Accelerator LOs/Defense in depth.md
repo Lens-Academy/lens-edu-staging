@@ -14,6 +14,10 @@ Explain how layering several independent safeguards reduces the chance of catast
 AI safety plans rarely rest on one technique; they stack training, evaluations, monitoring, security and regulation. Knowing why stacking helps, and when it doesn't, lets you judge whether a plan's layers really back each other up or would all fail against the same capable, deceptive system.
 
 ## Lenses
+- [[../Lenses/AI Safety Atlas - Strategies - Socio-Technical Strategies|Socio-Technical Strategies]]: what defense in depth is, why independent layers multiply into strong protection, and why correlated layers or a capable adversary weaken it; read the opening and the "Defense-in-Depth" section (2026).
+- [Swiss cheese model (Wikipedia)](https://en.wikipedia.org/wiki/Swiss_cheese_model): James Reason's model of accidents, where each safeguard has holes and harm gets through only when the holes in every layer line up; read the opening section.
+- [[../Lenses/The case for ensuring that powerful AIs are controlled|The case for ensuring that powerful AIs are controlled]]: alignment and control as two lines of defense, so a scheming AI causes catastrophe only if both fail (2023).
+- [Layered AI Defenses Have Holes (FAR.AI)](https://far.ai/news/defense-in-depth): how an attack that beats input filter, model and output filter one at a time broke a layered weapons-content safeguard, and how to keep layers from failing together (July 2025).
 
 ## Tests
 
@@ -28,13 +32,13 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: ca072f8e-b285-4f30-94df-4ce788e9921c
-content:: In a defense-in-depth setup, three safeguards each miss 10% of dangerous actions, and their failures are independent. About what share of dangerous actions gets past all three?
+id:: adbe0990-12ea-4b55-b709-31d1ccc24b3a
+content:: A lab says its three safeguards each miss 10% of dangerous actions, so together they miss only 0.1%. What must be true for that figure to hold?
 options::
-- [x] 0.1%
-- 1%
-- 10%
-- 30%
+- [x] The safeguards rarely miss the same actions
+- Each safeguard was tested on the same set of actions
+- The safeguards are applied in a fixed order
+- At least one safeguard is a governance measure
 shuffle:: true
 
 #### Question: Choice
@@ -50,10 +54,10 @@ shuffle:: true
 id:: 173d52d3-14e2-46a6-b0eb-acbb980d3b4f
 content:: Which pair of safeguards on an advanced AI model is most likely to fail on the same cases?
 options::
-- [x] Two behavioral tests the model could recognize as tests
-- An interpretability check and a limit on training compute
+- [x] Two similar behavioral tests run before release
+- An interpretability check and a behavioral test
 - Securing the model weights and an incident-reporting law
-- Output monitoring and a ban on some kinds of deployment
+- Output monitoring and limits on who can access the model
 shuffle:: true
 
 #### Question: Choice
@@ -77,18 +81,14 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 53c0651f-cabe-4c5d-a654-7bdbb4216876
-content:: For defense in depth to be worthwhile, does each individual safeguard need to be highly reliable on its own?
+id:: 88841f96-aca7-4d0e-96c8-448b5205a6c7
+content:: A critic says a lab's monitoring system catches only 60% of harmful actions, so it is not worth having. Which response best fits defense in depth?
 options::
-- [x] No
-- Yes
-
-#### Question: Choice
-id:: 76999a92-947d-44fd-ab47-e6da7b522400
-content:: Is the Swiss cheese model used to argue that a serious accident usually requires failures in several safeguards at the same time?
-options::
-- [x] Yes
-- No
+- [x] It can still help if it catches cases the other layers miss
+- It adds nothing unless it catches nearly every attempt
+- It is enough on its own, since it catches most attempts
+- It only helps if it is the last layer before harm occurs
+shuffle:: true
 
 #### Question: Open
 id:: 426177b7-b9f4-4bde-9456-94850cc1bedd

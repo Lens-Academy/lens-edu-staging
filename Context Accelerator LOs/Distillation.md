@@ -17,6 +17,10 @@ https://www.youtube.com/shorts/Wtayoq3ysJY
 If a model's skills can be copied from its outputs, then guarding its weights and limiting chips will not by themselves keep a lead. Understanding distillation helps you judge how long a frontier advantage lasts, why AI companies police how their models are queried, and why safeguards may not survive copying.
 
 ## Lenses
+- [How Distillation Makes AI Models Smaller and Cheaper (Quanta Magazine)](https://www.quantamagazine.org/how-distillation-makes-ai-models-smaller-and-cheaper-20250718): what teacher and student models are, why a student learns cheaply from a teacher's answers, and how a reasoning model was distilled for a few hundred dollars (July 2025).
+- [Detecting and preventing distillation attacks (Anthropic)](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks): a company's account of three Chinese labs using about 24,000 fraudulent accounts to distill Claude, with its argument that this undermines chip export controls and strips safeguards, and the countermeasures it uses (February 2026).
+- [[../Lenses/anthropic-countering-misuse-of-ai-september-2026|Countering Misuse of AI: September 2026]]: read the section "Illicit distillation and scaled abuse" to the end. It covers how labs harvest Claude's reasoning through proxy accounts and resold transcripts, why safeguards don't carry over to distilled models, and why layered defences keep being evaded (October 2026).
+- [DeepSeek-R1, sections 2.4, 3.2 and 4.1 (DeepSeek-AI, arXiv)](https://arxiv.org/html/2501.12948v1): the original paper's account of distilling R1 into small Qwen and Llama models with 800k generated examples, and why this beat training small models directly with RL (January 2025) (more advanced).
 
 ## Tests
 #### Question: Choice
@@ -40,10 +44,10 @@ options::
 id:: 6fdd74a8-334b-4f38-870f-1128646b3cc3
 content:: Distilling a strong AI model into a smaller student usually takes far less compute than training the strong model did. Why?
 options::
-- [x] The student imitates ready-made teacher answers instead of learning from raw data
-- The student copies the teacher's weights and so skips training
-- Distillation runs on ordinary computers rather than AI chips
-- The student reuses the teacher's training run without new training
+- [x] The student learns from ready-made teacher answers, often building on an existing model
+- The student needs no training, since it reads the teacher's answers at run time
+- The teacher's compute bill is shared with the student once both are deployed
+- Small models learn every skill faster than large ones, from any data
 shuffle:: true
 
 #### Question: Choice
@@ -61,9 +65,9 @@ id:: b2450aa9-42bf-416c-9de8-084a2d8d613f
 content:: A student model is distilled from a large frontier model. Compared with its teacher, the student is typically:
 options::
 - [x] Cheaper to run and somewhat less capable overall
-- More expensive to run and more capable overall
-- Equally costly to run but better at most tasks
-- Cheaper to run and far more capable overall
+- Cheaper to run and better than the teacher at most tasks
+- As costly to run as the teacher, and about as capable
+- Cheaper to run, but able to answer only questions seen in training
 shuffle:: true
 
 #### Question: Choice
@@ -72,28 +76,28 @@ content:: Some governments restrict exports of advanced AI chips to slow rivals'
 options::
 - [x] Rivals with fewer chips can copy capabilities from leading models' outputs
 - Distilled models need no chips at all to train or run
-- Distillation lets rivals extract chip designs from a trained model
-- Distillation lets rivals turn older chips into modern AI chips
+- Distillation gives rivals a leading model's weights to run on any chips
+- Distilled models usually end up more capable than the models they copy
 shuffle:: true
 
 #### Question: Choice
-id:: d276e627-216d-45fc-b650-09814120fdb8
-content:: In February 2026, Anthropic reported that three Chinese AI labs had used about 24,000 fraudulent accounts to generate over 16 million exchanges with its Claude models. What did Anthropic say the labs were doing?
+id:: 54d714c9-f62f-44a1-939d-ae3fd9e9486f
+content:: In February 2026, Anthropic reported that three Chinese AI labs had used about 24,000 fraudulent accounts to generate over 16 million exchanges with its Claude models, to train their own models on Claude's answers. What does this case show about keeping a lead in AI?
 options::
-- [x] Distilling Claude's capabilities into their own models
-- Stealing Claude's weights from Anthropic's servers
-- Running jailbreaks to get help planning cyberattacks
-- Collecting other users' conversations with Claude
+- [x] Secure weights alone do not stop skills leaking through API use
+- Copying a model's skills is only possible for those holding its weights
+- Copying through a public API only works on small, older models
+- Banning fraudulent accounts reliably stops this kind of copying
 shuffle:: true
 
 #### Question: Choice
-id:: 24431979-47df-43aa-8b41-7b9597b9da97
-content:: In January 2025, DeepSeek released its R1 reasoning model along with several much smaller models trained on examples generated by R1. What did these small models show?
+id:: c3541466-7db2-469d-afac-d0c96c16eba3
+content:: In January 2025, DeepSeek released its R1 reasoning model and smaller models trained on R1's answers. It also tried training a small model's reasoning directly, with its own costly reinforcement-learning method. What did it find?
 options::
-- [x] Much of a large model's reasoning skill can be passed to small models
-- Reasoning ability depends mainly on how large a model is
-- Distillation needs the student and teacher to share one architecture
-- Distilled models end up larger than the teachers they imitate
+- [x] Training on R1's answers gave the small model better reasoning
+- Direct training gave better reasoning, at a similar cost
+- Both methods gave about the same reasoning ability
+- Neither method improved the small model's reasoning much
 shuffle:: true
 
 #### Question: FillBlank

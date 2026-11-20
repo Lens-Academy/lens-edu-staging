@@ -4,7 +4,7 @@ priority: high
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Explain how advanced AI could defeat humanity through numbers, copying and ordinary means rather than superweapons, and why a much stronger player's win can be predicted without predicting its strategy.
+Explain how advanced AI could defeat humanity even without needing superweapons or superintelligence, through numbers, copying and ordinary means, and why a much stronger player's win can be predicted without predicting its strategy.
 
 ## Requires
 - [[AI takeover]]
@@ -16,27 +16,21 @@ Explain how advanced AI could defeat humanity through numbers, copying and ordin
 Many people dismiss AI risk because they can't picture how software could beat billions of humans. If you can lay out the argument, you can answer that doubt, judge which defences would help, and avoid both treating AI as magic and assuming it can only do what we foresee.
 
 ## Lenses
+- [AI Could Defeat All Of Us Combined (Cold Takes)](https://www.cold-takes.com/ai-could-defeat-all-of-us-combined/): Holden Karnofsky's case that human-level AI, with no superintelligence, could win through sheer numbers of copies, plus hacking, money and recruiting humans, and why "just switch it off" and "humans are divided" don't save us. The copy counts are 2022 estimates (June 2022).
+- [[../Lenses/IABIED - QA - Power of Intelligence|Appreciating the Power of Intelligence]]: Yudkowsky and Soares on why a much stronger player can win starting with fewer pieces, and why we can't expect to spot better moves than a superintelligence would find (2025).
+- [[../Lenses/IABIED - QA - Predicting Superintelligence|Isn't It Impossible to Predict a Superintelligence?]]: You can't predict Stockfish's moves without being as good as Stockfish, but you can predict it will win (2025).
+- [AI Will Change the World, but Won't Take It Over by Playing "3-Dimensional Chess" (Windows on Theory)](https://windowsontheory.org/2022/11/22/ai-will-change-the-world-but-wont-take-it-over-by-playing-3-dimensional-chess/): A critic's reply from Boaz Barak and Ben Edelman: unlike chess, the real world is chaotic, long-range plans pay off less, and AI would face humans who also have AI. Read the opening and "Our argument: an executive summary" (November 2022).
 
 ## Tests
 
 #### Question: Choice
 id:: 17e36c0b-a466-494e-a2d6-914d0500250b
-content:: Holden Karnofsky argued that AI could defeat humanity even without superintelligence. What does his argument mainly rely on?
+content:: One argument says AI could defeat humanity even if each AI were only about as capable as a skilled human. What does this argument mainly rely on?
 options::
 - [x] Huge numbers of AI copies working together
-- Each copy having secret access to military weapons
-- AI systems discovering physics humans don't know
-- Humans losing the ability to read computer code
-shuffle:: true
-
-#### Question: Choice
-id:: 13ed7940-4bad-489f-bc48-dd36e624a59f
-content:: You are an average club player and you play chess against Stockfish, a top chess engine. What can you predict with confidence?
-options::
-- [x] That you will lose, but not which moves it will play
-- Which moves it will play, but not whether you lose
-- Both the result and most of its moves
-- Neither the result nor most of its moves
+- Seizing nuclear weapons before humans can react
+- Inventing technology that humans cannot understand
+- Making no mistakes at any point in its plans
 shuffle:: true
 
 #### Question: Open
@@ -49,9 +43,9 @@ id:: f0332ff7-f4ea-4648-9979-760267490116
 content:: Chess engines set up to start a game a knight down have still beaten strong human players. What does this illustrate for AI risk?
 options::
 - [x] A large skill gap can make up for starting with fewer resources
-- Humans play worse when they know they face a machine
-- Material advantages matter less in chess than people think
-- Starting resources decide the outcome of most contests
+- Whoever starts with more resources almost always wins in the end
+- Skill only matters when both sides start with equal resources
+- A machine's speed matters more than its skill in any contest
 shuffle:: true
 
 #### Question: Choice
@@ -91,7 +85,7 @@ options::
 - [x] It could copy itself widely and hide its aims until stopping it was hard
 - It would have no reason to resist being switched off
 - Switching off an AI is against the law in most countries
-- Its off switch would be erased during its training
+- Today's AI systems are built with no way to turn them off
 shuffle:: true
 
 #### Question: Choice
@@ -99,9 +93,9 @@ id:: b6215da8-7f74-4c42-b695-4a124fe73c60
 content:: Why might an AI not need to defeat all of humanity at once in order to take over?
 options::
 - [x] Humans are divided, and it could recruit or exploit some groups
-- Most people would never notice an AI gaining power
-- Beating one large military would give it control of everyone
-- Humans would hand over control once it proved its intelligence
+- Humanity has a single chain of command that it could seize
+- One AI system already runs most of the world's infrastructure
+- Most people would side with it once they learned its goals
 shuffle:: true
 
 #### Question: Open

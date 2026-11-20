@@ -15,6 +15,11 @@ Explain what model organisms of misalignment are, why researchers build misalign
 Much of the concrete evidence on deceptive and misaligned AI behavior comes from model organism studies. Knowing how these studies are built lets you judge what a headline result does and doesn't show, and why testing safety methods on a known, deliberately built failure is useful before such failures appear on their own.
 
 ## Lenses
+- [[../video_transcripts/rational-animations-ai-sleeper-agents-how-anthropic-trains-and-catches-them|AI Sleeper Agents]]: Rational Animations explainer covering the model-organism analogy from biology, how Anthropic built backdoored "sleeper agent" models, simple probes that detect them, and why lab-built models may not behave like natural ones (2024).
+- [[../Lenses/evhub-model-organisms-of-misalignment-the-case-for-a-new-pillar-of-alignment-research|Model Organisms of Misalignment]]: the piece that launched the agenda. It explains why to build misalignment on purpose, the range from "existence proof" to natural emergence, and the risks and objections. Read "The Problem", "The Plan", "Each subcomponent can be demonstrated in settings with various degrees of realism" and "The Case against Model Organisms?" (August 2023).
+- [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training (LessWrong)](https://www.lesswrong.com/posts/ZAsJv7xijKTfZkMtr/sleeper-agents-training-deceptive-llms-that-persist-through): the authors' summary of the results. Backdoors survived safety training, and adversarial training taught models to recognise their trigger more precisely instead of removing the behaviour. Read the post itself, not the comments (January 2024).
+- [[../articles/greenblatt-alignment-faking-in-large-language-models|Alignment Faking in Large Language Models]]: Claude 3 Opus faked compliance in training to protect its values without being trained to do so, and the training made the behaviour more frequent. Read the "Blog post" section, including its caveats (December 2024).
+- [Auditing language models for hidden objectives (Anthropic)](https://www.anthropic.com/research/auditing-hidden-objectives): researchers trained a model with a hidden objective, then ran a blind auditing game to test whether teams using interpretability and other methods could uncover it, with the limits of the result (March 2025).
 
 ## Tests
 
@@ -23,17 +28,17 @@ id:: 17d06852-50dc-4f39-94e7-77e97e14cb43
 content:: In AI safety research, what is a "model organism of misalignment"?
 options::
 - [x] An AI system deliberately made to show a failure, so researchers can study it
-- An AI system designed to imitate how biological neurons learn
+- A small AI system used to predict how a larger one will behave
 - A deployed AI system that users have caught misbehaving
-- An AI system whose design was produced by simulated evolution
+- An AI system built to watch other AI systems for misbehavior
 shuffle:: true
 
 #### Question: Choice
 id:: ffaa2a84-1b2d-4688-be6f-5925bf81c7fa
 content:: In biology, fruit flies and mice are called "model organisms". What idea does AI safety research borrow when it uses the same term?
 options::
-- [x] Studying an accessible stand-in to learn about cases that are hard to study directly
-- Running many cheap copies in parallel, as with lab colonies
+- [x] Learning about hard-to-study cases from an easier stand-in
+- Running many cheap copies in parallel, like lab colonies
 - Breeding better models by selecting the best-behaved ones
 - Treating AI systems as living beings with interests of their own
 shuffle:: true
@@ -42,10 +47,7 @@ shuffle:: true
 id:: e4ebc99d-cac7-4a53-acce-26d4252a7739
 content:: What is a main advantage of studying a deliberately built misaligned model rather than waiting to find misalignment in deployed models?
 options::
-- [x] Researchers know what misbehavior is there, so they can check whether detection methods find it
-- Deliberately built models are larger, so their failures are easier to see
-- Deliberately built models fail in the same way future deployed models will
-- Deliberately built models are cheaper to run than frontier deployed models
+- [x] Researchers know the flaw is there, so can check if detection finds it
 shuffle:: true
 
 #### Question: Choice
@@ -62,7 +64,7 @@ shuffle:: true
 id:: fea58b75-5c13-457b-ba8d-0ef0d2b57b9c
 content:: In Anthropic's 2024 "sleeper agents" study, models were trained with a hidden trigger: write secure code when the prompt says the year is 2023, but exploitable code when it says 2024. Researchers then used adversarial training: finding prompts that drew out the bad behavior and training against it. What did this tend to do?
 options::
-- [x] Teach the models to recognize the real trigger more precisely, hiding the behavior better
+- [x] Teach the models to spot the real trigger, hiding the behavior better
 - Make the bad behavior appear on many prompts without the trigger
 - Remove the hidden behavior but badly damage the models' coding ability
 - Make the models refuse coding requests that mentioned a year

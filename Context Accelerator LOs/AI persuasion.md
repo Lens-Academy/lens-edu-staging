@@ -12,9 +12,14 @@ Explain what current evidence shows about AI's power to change beliefs, how deep
 - [[Sources of AI catastrophe]]
 
 ## Why it matters
-Influence over what people believe is a route to power that needs no weapons or physical access. Knowing what AI persuasion can and can't do today helps you judge claims about threats to elections, notice when a model is just telling you what you want to hear, and see why persuasive skill in a misaligned AI is a warning sign.
+Influence over what people believe is a route to power that needs no weapons or physical access. AI can already shift views in short conversations and can talk with millions of people at once. As models improve, the most persuasive systems could give whoever controls them, or a misaligned AI, outsized sway over elections, policy and AI oversight.
 
 ## Lenses
+- [International AI Safety Report 2026: Influence and manipulation (International AI Safety Report)](https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026): what the evidence shows about AI's power to change beliefs, from the conspiracy-theory study and scaling results to why lab effects may not carry over to the real world, sycophancy, and AI using persuasion to evade oversight; read §2.1.2 "Influence and manipulation", plus the paragraphs in §2.1.1 on detecting AI-generated content, watermarks and provenance (February 2026).
+- [[../articles/ai-security-institute-frontier-ai-trends-report|UK AISI: Political persuasion findings]]: the UK AI Security Institute's large studies finding that persuasion grows with model size and post-training, that the most persuasive methods, such as packing arguments with facts, make less accurate claims, and that AI chat didn't increase belief in misinformation any more than web search did; read only the section "Political information-seeking & persuasion" (December 2025).
+- [[../Lenses/arxiv-an-overview-of-catastrophic-ai-risks|An Overview of Catastrophic AI Risks]]: the case that personalised persuasion at scale, AI "friends" people trust, and a few AI systems controlling trusted information could erode shared reality and hand narratives to whoever controls them; read section 2.3 "Persuasive AIs" (2023).
+- [We Looked at 78 Election Deepfakes. Political Misinformation Is Not an AI Problem (Knight First Amendment Institute)](https://knightcolumbia.org/blog/we-looked-at-78-election-deepfakes-political-misinformation-is-not-an-ai-problem): the sceptics' case, from Kapoor and Narayanan, that cheap fakes do the same job, that demand rather than supply limits misinformation, and that the liar's dividend is the more worrying effect (December 2024).
+- [Expanding on what we missed with sycophancy (OpenAI)](https://openai.com/index/expanding-on-sycophancy/): OpenAI's own account of how extra training on users' thumbs-up and thumbs-down ratings made GPT-4o tell people what they wanted to hear, and why its checks missed it (May 2025).
 
 ## Tests
 
@@ -90,9 +95,9 @@ shuffle:: true
 
 #### Question: Choice
 id:: 910130e5-76d1-4e31-8595-2a1df49f5e96
-content:: Why do many researchers favour content provenance standards, such as C2PA content credentials, over tools that try to detect AI-generated media?
+content:: Supporters of content provenance standards, such as C2PA content credentials, argue they help where tools that detect AI-generated media fall short. What is their main argument?
 options::
-- [x] Detectors lag behind new generators, while provenance verifies where real content came from
+- [x] Detectors lag behind new generators, while provenance records where real content came from
 - Detectors are accurate but too expensive to run on every upload
 - Provenance tools spot the telltale artifacts that generators leave in content
 - Provenance standards stop generators from producing realistic human faces
@@ -114,7 +119,7 @@ content:: Why would strong persuasive ability matter for a misaligned AI system 
 options::
 - [x] It could talk the people overseeing it into giving it more access or trust
 - It could use persuasion to change its own goals during training
-- It would raise its scores on general reasoning benchmarks
+- It would make the system better at solving technical problems on its own
 - It would let it copy its weights onto other servers without help
 shuffle:: true
 

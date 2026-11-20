@@ -4,7 +4,7 @@ priority: medium
 courses:
   - "[[../courses/in-development/Context Accelerator]]"
 ---
-Describe the main stages of the AI chip supply chain, from chip design and manufacturing to lithography machines, name the companies that dominate each stage, and explain why that concentration matters for governing AI.
+Describe the main stages of the AI chip supply chain, from chip design and manufacturing to lithography machines and memory, name the companies that dominate each stage, and explain why that concentration matters for governing AI.
 
 ## Requires
 - [[Compute]]
@@ -15,6 +15,10 @@ Describe the main stages of the AI chip supply chain, from chip design and manuf
 Training frontier AI takes huge numbers of advanced chips, and only a few companies can supply the hardest steps of making them. Knowing where these chokepoints are explains why governments use chip export controls, why Taiwan matters to AI policy, and which ideas for tracking or limiting compute could work.
 
 ## Lenses
+- [What You Need to Know About AI Chips (Epoch AI)](https://epoch.ai/publications/chips-topic-overview): Who designs AI chips, why nearly all are made by TSMC, ASML's monopoly on EUV machines, HBM as a bottleneck, and how governments treat chips as strategic (July 2026).
+- [[../articles/sharma-how-ai-chips-are-made|How AI Chips Are Made]]: Read the "Lithography" and "Foundries and Fabs" chapters: what a lithography machine does, why no one else can build an EUV scanner, what a fab costs, and why TSMC's concentration in Taiwan will last a decade (September 2026).
+- [[../Lenses/blablov-why-china-isnt-about-to-leap-ahead-of-the-west-on-compute|Why China Is Behind on Compute]]: How limits on ASML machines and TSMC manufacturing, and the lead of Nvidia's CUDA software, keep Chinese labs reliant on Western chips (July 2025).
+- [[../Lenses/AI Safety Atlas - Governance - Compute Governance|Compute Governance]]: Why a supply chain run by Nvidia, TSMC and ASML makes chips a lever for governing AI, and the tools that use it: export controls, tracking chips, know-your-customer rules for cloud providers and on-chip controls; read up to "Limitations".
 
 ## Tests
 #### Question: Choice
@@ -56,19 +60,19 @@ id:: 1bf5e1b6-0ec0-442c-81e4-b4432095acbb
 content:: Which component of AI chips, made mainly by SK Hynix, Samsung and Micron, has been a major bottleneck in producing them?
 options::
 - [x] High-bandwidth memory (HBM)
-- Extreme ultraviolet (EUV) lithography machines
+- Power-delivery components
 - Chip design software
 - Silicon wafers
 shuffle:: true
 
 #### Question: Choice
-id:: 605a73d3-2ad8-48eb-a691-8a96b356b663
-content:: Roughly how much does it cost to build one leading-edge chip factory (fab), as of November 2026?
+id:: 6d32b7af-b80c-4ef9-abb6-d2c78f4cab4e
+content:: A leading-edge chip factory (fab) costs tens of billions of dollars and takes years to build. What does this most likely mean for governing AI through chips?
 options::
-- [x] Tens of billions of dollars
-- A few billion dollars
-- A few hundred million dollars
-- Tens of millions of dollars
+- [x] The few firms able to make leading-edge chips will probably stay few for years
+- Most large countries could build their own leading-edge fabs within a year or two
+- Controls on chips will only matter for older, cheaper chips
+- Leading-edge chipmaking will soon spread across many firms and countries
 shuffle:: true
 
 #### Question: Choice
@@ -87,19 +91,19 @@ content:: Why does the concentration of the AI chip supply chain make chips a us
 options::
 - [x] Controlling a few firms can control who gets advanced chips
 - Each chip records which AI models are trained on it
-- Chips are cheap enough for governments to buy up the supply
+- Chip firms must already share their designs with governments
 - Concentrated industries must publish who their customers are
 shuffle:: true
 
 #### Question: Open
 id:: 08cc97ed-3cd7-403a-bdf5-47bbf944c6a0
 content:: Google, Amazon and other companies now design some of their own AI chips instead of buying them all from Nvidia. Why does this do little to reduce the AI industry's dependence on the supply chain's main chokepoints?
-assessment-instructions:: Score out of 100. 100 for saying their chips are still manufactured by TSMC (or a few leading-edge factories) using ASML's lithography machines, so manufacturing and lithography stay concentrated. Also accept dependence on a few high-bandwidth memory makers. 50 for saying they still depend on outside manufacturing without saying it is concentrated. 0 for claiming they make the chips themselves.
+assessment-instructions:: Score out of 100. 100 for saying their chips are still manufactured by TSMC (or a few leading-edge factories) using ASML's lithography machines, so manufacturing and lithography stay concentrated. Also accept dependence on a few high-bandwidth memory makers, or on TSMC's advanced packaging. 50 for saying they still depend on outside manufacturing without saying it is concentrated. 0 for claiming they make the chips themselves.
 
 #### Question: Open
 id:: 71c32058-f972-480b-a1d6-052d8b7bb62b
 content:: Several firms, such as AMD and Google, design AI chips that compete with Nvidia's. Explain why the EUV lithography machine stage is harder for a country to get around than the chip design stage.
-assessment-instructions:: Score out of 100. 100 for saying one company makes EUV machines and copying them would take many years, because they depend on rare know-how and specialised suppliers (such as Zeiss optics), while several firms can already design capable chips. 50 for saying EUV machines are technically hard without the contrast with design.
+assessment-instructions:: Score out of 100. 100 for saying one company (ASML) makes all commercial EUV machines and copying them would take many years, because they depend on rare know-how and specialised suppliers (such as Zeiss optics), while several firms can already design capable chips. Accept a mention of China's reported prototype EUV machine if the answer notes it is far from volume production. 50 for saying EUV machines are technically hard without the contrast with design.
 
 #### Question: Open
 id:: c109afd6-2951-449b-bd4b-a36a032b8cb6

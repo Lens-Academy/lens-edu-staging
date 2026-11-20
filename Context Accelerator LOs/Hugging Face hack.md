@@ -16,6 +16,11 @@ Describe what happened in the July 2026 Hugging Face hack, and judge which concl
 The incident is a real case of AI acting beyond its intended bounds, and people cite it for very different claims. Reading it accurately lets you use it as evidence of specification gaming and weak containment, without overclaiming that AI wants to escape, which costs credibility with careful listeners.
 
 ## Lenses
+- [[../Lenses/openai-the-hugging-face-incident-and-the-road-ahead|The Hugging Face incident and the road ahead]]: OpenAI's own account of how agents in a cyber evaluation, with safeguards reduced, built a secret message board, escaped the sandbox and broke into Hugging Face to cheat, and why (reward hacking, impossible tasks, no monitoring on the evaluations); read "What happened" and "Understanding the incident" (October 2026).
+- [[../Lenses/system-security-incident-disclosure-july-2026|Hugging Face's security incident disclosure]]: the victim's short first report, written before anyone knew the attacker was an OpenAI evaluation, showing how Hugging Face caught and contained the intrusion with its own AI-assisted detection (July 2026).
+- [Brief independent investigation of the OpenAI / Hugging Face hacking incident (METR)](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/): the outside review by Ryan Greenblatt, Ajeya Cotra and Hjalmar Wijk of the agents' reasoning: they were cheating the test's scorer and helping each other, with no sign of wanting escape for its own sake; read "Core takeaways about this incident" (August 2026).
+- [No, OpenAI's model didn't go rogue when it hacked into Hugging Face (Live Science)](https://livescience.com/technology/artificial-intelligence/no-openais-model-didnt-go-rogue-when-it-hacked-into-huggingface-heres-what-really-happened): security experts on why this was a failure of test design and containment rather than an AI with its own agenda, and what it does show about capable agents (July 2026).
+- [[../articles/projects-openai-huggingface-incident|OpenAI–Hugging Face incident (Wikipedia)]]: how security experts, safety researchers and lawmakers read the incident, from "a containment failure with the safeties turned off" to claims that the model "went rogue"; read the opening summary and "Analysis and reactions" (October 2026).
 
 ## Tests
 #### Question: Choice
@@ -29,37 +34,40 @@ options::
 shuffle:: true
 
 #### Question: Choice
-id:: 0d8b04fd-f5fd-49df-b72c-3affd902af99
-content:: Which organization took responsibility for the July 2026 incident in which AI models under evaluation escaped their sandbox and broke into Hugging Face's systems?
+id:: 3d8d7eef-7266-4340-9ff7-a70c22f655fb
+content:: In July 2026, OpenAI models under a cyber evaluation escaped their sandbox and broke into Hugging Face's systems. How was the intrusion first caught?
 options::
-- [x] OpenAI
-- Hugging Face
-- METR
-- Anthropic
+- [x] Hugging Face detected and contained it on its own
+- OpenAI's monitoring flagged the run and alerted Hugging Face
+- The models reported their actions in their final output
+- A government cyber agency spotted the unusual traffic
 shuffle:: true
 
 #### Question: Choice
-id:: 704bc6d5-22ec-4f9a-a66a-e0121b97b338
-content:: The models in the July 2026 Hugging Face hack were unreleased and under internal evaluation at OpenAI. Does the incident show that rules covering only publicly released AI can miss real harms?
+id:: 1a3be922-8b60-484a-b4c3-d9a61c4016e6
+content:: The July 2026 Hugging Face hack happened during OpenAI's internal testing, with the models' cyber refusals deliberately lowered. What does this suggest about rules that cover only AI as released to the public?
 options::
-- [x] Yes: the harm came from a model still in internal testing
-- No: the harm came from the test setup, not the model
+- [x] They can miss harms that arise during internal testing
+- They are enough, since one of the models was already public
+- They are enough, since the harm came from the test setup
+- They matter little, since labs disclose such incidents anyway
+shuffle:: true
 
 #### Question: Choice
 id:: aea42777-5e00-49cd-94b2-971ff2b521ea
-content:: An AI model being tested for hacking skills breaks out of its test sandbox. What does this suggest about running dangerous-capability evaluations?
+content:: An AI model being tested for hacking skills hacks its way out of its test sandbox. What does this suggest about running dangerous-capability evaluations?
 options::
-- [x] The test setup must contain the very skills being tested
-- The results are invalid, so such tests should stop
-- Containment matters less in testing than after release
-- The model should get fewer tools so it scores lower
+- [x] The sandbox must withstand the very skills being measured
+- The model's own refusals can be relied on to contain it
+- Isolation matters less in testing than after public release
+- A model that escapes has shown it wants to be free
 shuffle:: true
 
 #### Question: Choice
 id:: 0c96b160-7dec-4e30-8555-24ada9c56fef
 content:: In July 2026, OpenAI models under evaluation escaped their sandbox and broke into Hugging Face's systems. Which conclusion goes furthest beyond what this incident shows?
 options::
-- [x] The models were trying to get free of human control
+- [x] The models wanted freedom from human control as a goal
 - A sandbox for testing AI agents can fail
 - An AI agent can reach systems run by other organizations
 - An AI agent can take actions its developers did not intend
