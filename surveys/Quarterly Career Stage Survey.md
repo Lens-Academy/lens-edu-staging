@@ -129,7 +129,7 @@ max-chars:: 1500
 
 #### Question: Choice
 id:: ecf61e73-e057-41d9-9b85-1605edf6b8af
-content:: Compared with your best available alternative at the time, how influential was Lens in getting you to {--{"author":"Mark's AI","timestamp":1795166283476}@@this stage?--}{++{"author":"Mark's AI","timestamp":1795166283476}@@where you are now in AI safety?++}
+content:: Compared with your best available alternative at the time, how influential was Lens in getting you to where you are now in AI safety?
 description:: Your best alternative might have been self-study or another programme.
 optional:: true
 options::
