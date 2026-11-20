@@ -138,7 +138,6 @@ content::
 Within each domain, the initial performance of the AI is set to minus 100. Human performance is used as a baseline, set to zero. When the AI's performance crosses the zero line, it scored more points than humans.
 #### Widget
 source:: [[../widgets/short-history-scores]]
-#### End Callout
 
 #### Text
 content::
