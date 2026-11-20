@@ -165,9 +165,12 @@ source:: [[../articles/arxiv-the-three-main-doctrines-on-the-future-of-ai]]
 from:: We have termed this doctrine the "extinction
 to:: irrevocability to extinction.
 
+#### Callout: Core logic of the extinction doctrine
+collapse:: closed
+
 #### Text
 content::
-Core logic
+The main steps of the **extinction doctrine** argument, distilled from the paper's section on the doctrine. Where possible, we kept the authors' section headings.
 
 - A superintelligent AI will be resistant to any human attempts to control or change it, e.g. through
     - Manipulation
