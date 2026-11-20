@@ -22,14 +22,6 @@ to:: "as a baseline scenario rather than a possibility."
 
 #### Article
 from:: "You should be prepared for AI capabilities to advance rapidly in 2027"
-to:: "If so, these timelines become longer."
-
-#### Article
-from:: "#### Time Until What?"
-to:: "Dead, on the other hand, is dead."
-
-#### Article
-from:: "#### Quickly, There’s No Time"
 to:: "would probably become increasingly misaligned through cycles of development."
 
 #### Article
