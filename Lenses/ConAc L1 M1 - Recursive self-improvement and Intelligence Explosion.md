@@ -20,7 +20,7 @@ Source: [https://openai.com/index/an-alien-mind/](https://openai.com/index/an-al
 
 **Dario Amodei, CEO of Anthropic, September 2026:**
 
-> […] since roughly this summer, AI has been advancing drastically faster, driven primarily by AI’s growing ability to build the next generation of AI. This dynamic is called recursive self-improvement, and it is starting to happen [across the industry](https://openai.com/index/an-alien-mind/), including at [Anthropic](https://www.anthropic.com/institute/recursive-self-improvement).
+> since roughly this summer, AI has been advancing drastically faster, driven primarily by AI’s growing ability to build the next generation of AI. This dynamic is called recursive self-improvement, and it is starting to happen [across the industry](https://openai.com/index/an-alien-mind/), including at [Anthropic](https://www.anthropic.com/institute/recursive-self-improvement).
 
 Source: [https://darioamodei.com/post/we-must-pace-the-frontier](https://darioamodei.com/post/we-must-pace-the-frontier)
 
