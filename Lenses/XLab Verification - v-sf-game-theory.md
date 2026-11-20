@@ -6,6 +6,13 @@ summary_for_tutor: "Second of the two required game theory primers in Strategic 
 tags: [wip]
 reading_minutes: 52
 tutor_minutes: 0
+glossary_terms:
+  - "[[../glossary/Prisoner's dilemma]]"
+  - "[[../glossary/Pareto efficiency]]"
+  - "[[../glossary/Nash equilibrium]]"
+  - "[[../glossary/Subgame]]"
+  - "[[../glossary/Utility function]]"
+  - "[[../glossary/Mixed strategy]]"
 ---
 #### Text
 content::
