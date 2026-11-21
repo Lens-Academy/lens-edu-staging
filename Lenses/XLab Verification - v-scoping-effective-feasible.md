@@ -128,9 +128,9 @@ source:: [[../widgets/policy-scoping]]
 #### Text
 content::
 :::callout {title="Reference map and reasoning, bucket by bucket (open after you have checked)" tone="neutral" collapse="closed"}
-{++{"author":"Lens EA's AI","timestamp":1795284886666}@@*This is XLab's reading, argued bucket by bucket. It is not an answer key: a placement you can defend is a good answer.*
+*This is XLab's reading, argued bucket by bucket. It is not an answer key: a placement you can defend is a good answer.*
 
-++}| Bucket | Feasibility | Effectiveness | Why |
+| Bucket | Feasibility | Effectiveness | Why |
 | --- | --- | --- | --- |
 | 1. Self-governance (status quo) | Already happening | Symbolic | The status quo: already happening, costs nothing, binds no one, and race dynamics run straight over a promise with no enforcement. |
 | 2. Unilateral restraint | Heavy lift | Marginal | One capital can decide it alone, which is why it is not lower. But surrendering the frontier while rivals race is a heavy political lift, and reciprocity you cannot check is a bet Biopreparat shows how to lose. |
