@@ -224,7 +224,7 @@ feedback-instructions:: Give the source lesson's reasoning for the option chosen
 #### Text
 content::
 :::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
-![The actor map with its center filled in: a training run above the threshold, with four rings around it. From the inside out: 1, Declares; 2, Holds the evidence; 3, Verifies; 4, Outside the declaration.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cv1-actor-map-empty-601ccce8.svg)
+
 **The regulated activity itself.** The map is of a rule, and a rule is about an act. It is also what the verification literature centers: Baker's framework takes the approach of compute accounting, which is the same act said in compute. Put it in the center and every ring becomes an answer to one question: what part do you play in accounting for this run? Baker et al., §3.1, AI compute accounting: “it seeks to verify compliance on the basis that all large-scale AI compute use is accounted for in compliant activities.”
 
 **The states that signed the agreement.** “Not the people who signed. Governments do not train frontier models.” Center them and the map says the treaty regulates its own signatories rather than an activity. Then watch for what looks like a contradiction two steps from now: the signatories do end up on the innermost RING, because in an international agreement the party that owes the declaration is the government. Owing a declaration and performing the act are different things, and the center is the act.
