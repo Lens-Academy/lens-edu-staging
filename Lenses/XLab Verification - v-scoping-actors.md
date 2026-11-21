@@ -233,7 +233,7 @@ content::
 
 **The chips themselves, the hardware the run is counted on.** The chips are what makes the act countable from outside, which is a property of the mechanism rather than of the rule. Center the map here and every institution on it becomes an afterthought.
 
-![The actor map with its center filled in: a training run above the threshold, with four rings around it. From the inside out: 1, Declares; 2, Holds the evidence; 3, Verifies; 4, Outside the declaration.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cv1-actor-map-empty-601ccce8.svg)
+
 :::
 
 \### 4. Place
