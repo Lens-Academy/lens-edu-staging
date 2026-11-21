@@ -6,6 +6,8 @@ summary_for_tutor: "Reading-only lens, no questions. Contrasts compute threshold
 tags: [wip]
 reading_minutes: 6
 tutor_minutes: 0
+glossary_terms:
+  - "[[../glossary/Executive Order 14110]]"
 ---
 #### Text
 content::

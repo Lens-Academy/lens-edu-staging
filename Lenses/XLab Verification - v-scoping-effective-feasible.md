@@ -6,6 +6,12 @@ summary_for_tutor: "Three exercises around the effectiveness versus feasibility 
 tags: [wip]
 reading_minutes: 30
 tutor_minutes: 25
+glossary_terms:
+  - "[[../glossary/National Institutes of Health]]"
+  - "[[../glossary/Intercontinental ballistic missile]]"
+  - "[[../glossary/Submarine-launched ballistic missile]]"
+  - "[[../glossary/Coordinating Committee for Multilateral Export Controls]]"
+  - "[[../glossary/Comprehensive Nuclear-Test-Ban Treaty]]"
 ---
 #### Text
 content::

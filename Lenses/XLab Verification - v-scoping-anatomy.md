@@ -6,6 +6,8 @@ summary_for_tutor: "Structure: a short reading of the Swiss Practice Guide to In
 tags: [wip]
 reading_minutes: 30
 tutor_minutes: 0
+glossary_terms:
+  - "[[../glossary/Machine Intelligence Research Institute]]"
 ---
 #### Text
 content::

@@ -6,6 +6,8 @@ summary_for_tutor: "Reading plus a workshop. The reading gives five tables: the 
 tags: [wip]
 reading_minutes: 35
 tutor_minutes: 18
+glossary_terms:
+  - "[[../glossary/Extreme ultraviolet lithography]]"
 ---
 #### Text
 content::
