@@ -98,6 +98,7 @@ labels::
 id:: f13f3728-5801-401a-afe4-40b664779b7f
 content:: What is the main reason for your recommendation score?
 max-chars:: 1500
+description:: We may share it on our website.
 
 #### Question: Rating
 id:: 2852f3fd-062d-4001-9235-c565ccc85f05
