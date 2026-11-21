@@ -2,6 +2,15 @@
 
 Acronyms that CV1 uses before saying what they stand for, raised by Andreas on 2026-11-21 (Q33 in [[CV1 Restructure Log]]). Checked the same day on the approved text, every page in course order: lens text, questions and article excerpts. Nothing is built yet.
 
+## Status, 2026-11-21 (later)
+
+Built at Andreas's word (A61 in the log): twelve new entries and lists on eight pages.
+
+- **New entries:** IAEA, OPCW, NIH, ICBM, SLBM, CoCom, CTBT, EO 14110, H100e, SL5, EUV and MIRI, each under its full name with the short form as an alias.
+- **Existing entries listed:** Superintelligence (ASI) on Unit 1's introduction, where the learning goals use "ASI" before the text spells it out; FLOP on Unit 2's introduction.
+- **Not built:** RSP and M&V (Andreas is unsure their definitions are objective and standard); the five smaller gaps, unless flagged later; the course overview, whose previews leave definitions to the units; widgets.
+- **To check on staging:** that the lines appear inside the collapsed boxes on "Policies Must Be Effective and Feasible", for example on "NIH".
+
 ## How the check was done
 
 - Every acronym on every page, with the first required page where a learner meets it and whether it is spelled out there.
