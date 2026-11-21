@@ -107,7 +107,7 @@ Treaty rules spanning the stack, from data-center training runs down to fine-tun
 :::callout {title="9. Nonproliferation regime" tone="neutral" collapse="closed"}
 A small set of states develops frontier AI under international safeguards and inspections; development prohibited everywhere else.
 
-**Historical parallel: NPT and the International Atomic Energy Agency (IAEA), 1968 onward.** The source model itself. Five recognized weapons states, safeguards inspections for everyone else, and Article IV benefits as the sweetener. The regime mostly held (far fewer nuclear states than Kennedy predicted), but India, Pakistan, and Israel stayed outside it, and North Korea left, so “prohibited everywhere else” was never airtight, and the two-tier structure still breeds resentment.
+**Historical parallel: NPT and the IAEA, 1968 onward.** The source model itself. Five recognized weapons states, safeguards inspections for everyone else, and Article IV benefits as the sweetener. The regime mostly held (far fewer nuclear states than Kennedy predicted), but India, Pakistan, and Israel stayed outside it, and North Korea left, so “prohibited everywhere else” was never airtight, and the two-tier structure still breeds resentment.
 :::
 
 :::callout {title="10. International joint development" tone="neutral" collapse="closed"}
@@ -144,7 +144,7 @@ content::
 
 :::
 
-Two reference thresholds worth carrying: EU AI Act Art. 51 presumes systemic risk above 10²⁵ training FLOP (floating-point operations, a count of the computation used); the rescinded US Executive Order (EO) 14110 used 10²⁶ as its reporting trigger. The corners of this plane are settled; the middle band is genuinely contestable.
+Two reference thresholds worth carrying: EU AI Act Art. 51 presumes systemic risk above 10²⁵ training FLOP; the rescinded US EO 14110 used 10²⁶ as its reporting trigger. The corners of this plane are settled; the middle band is genuinely contestable.
 
 #### Text
 content::
