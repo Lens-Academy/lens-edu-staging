@@ -128,7 +128,7 @@ source:: [[../widgets/policy-scoping]]
 #### Text
 content::
 :::callout {title="Reference map and reasoning, bucket by bucket (open after you have checked)" tone="neutral" collapse="closed"}
-*This is XLab's reading of where each bucket sits. It is not a definitive answer key. A placement you can defend is a good answer.*
+*This is XLab's reading of where each bucket sits. It is not a definitive answer key. A placement you can justify is not a good answer.*
 
 | Bucket | Feasibility | Effectiveness | Why |
 | --- | --- | --- | --- |
