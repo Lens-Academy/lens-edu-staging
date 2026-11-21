@@ -23,7 +23,7 @@ Read all 4 questions before beginning the examination of the agreement, then ans
 id:: 5c257204-3687-4257-a4f3-ecb75d22e20f
 content:: **1. Distinguish between non-binding and binding provisions**
 
-Examine the Preamble and Article I. Identify and mark the exact point at which the text begins to impose a binding obligation on a specific actor. Explain which grammatical or legal features distinguish the provisions on either side of this point.
+Examine the Preamble and Article I. Identify and mark the exact point at which the text begins to impose a binding obligation on a specific actor. Then describe the wording on both sides of that point: what grammatical or legal features does the Preamble use, and what features does Article I use? Quote words from each.
 
 Guidance: focus on the verbs used rather than on the section headings.
 placeholder:: Quote the words you are talking about.
