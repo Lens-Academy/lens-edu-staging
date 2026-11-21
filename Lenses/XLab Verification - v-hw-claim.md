@@ -44,7 +44,7 @@ Hardware-rooted cryptography is often strongest on authenticity. Carefully desig
 
 \#### Initial claim map
 
-The opening puzzle is the attestation-token scenario from [[../Lenses/XLab Verification - v-hw-attestation|the unit's opening {--{"author":"Lens EA's AI","timestamp":1795070097789}@@page]].--}{++{"author":"Lens EA's AI","timestamp":1795070097789}@@page]]: during a three-month AI pause, a laboratory sends the verification authority a valid cryptographic statement from each of the 20,000 accelerators in its declared cluster. The laboratory says the tokens prove that the cluster complied.++}
+The opening puzzle is the attestation-token scenario from [[../Lenses/XLab Verification - v-hw-attestation|the unit's opening page]]: during a three-month AI pause, a laboratory sends the verification authority a valid cryptographic statement from each of the 20,000 accelerators in its declared cluster. The laboratory says the tokens prove that the cluster complied.
 
 #### Question: Open
 id:: aff4f378-14ef-4cd4-b12d-249c4c66644e
