@@ -206,6 +206,8 @@ content::
 
 \### 3. The center
 
+![The actor map without its center: four rings around an empty center marked with a question mark. From the inside out: 1, Declares; 2, Holds the evidence; 3, Verifies; 4, Outside the declaration.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cv1-actor-map-open-center-841cdc28.svg)
+
 #### Question: Choice
 id:: d119e50f-5b65-4d75-836e-e844943abfe7
 content:: A pause agreement forbids training runs above a compute threshold. When you draw this map, what goes in the center?
@@ -227,6 +229,8 @@ content::
 **The frontier labs the obligations land on.** Close, and it is why they sit on the first ring. But the labs are who does the act, not the act, and a map centered on them has nowhere to put a run that happens somewhere else, under someone else’s name.
 
 **The chips themselves, the hardware the run is counted on.** The chips are what makes the act countable from outside, which is a property of the mechanism rather than of the rule. Center the map here and every institution on it becomes an afterthought.
+
+![The actor map with its center filled in: a training run above the threshold, with four rings around it. From the inside out: 1, Declares; 2, Holds the evidence; 3, Verifies; 4, Outside the declaration.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cv1-actor-map-empty-601ccce8.svg)
 :::
 
 \### 4. Place
