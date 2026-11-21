@@ -8,6 +8,9 @@ tutor_minutes: 0
 tags: [wip]
 add_to_ai_context:
   - "[[../articles/dean-ai-2040-verification-plan]]"
+glossary_terms:
+  - "[[../glossary/H100-equivalent]]"
+  - "[[../glossary/SL5]]"
 ---
 #### Text
 content::

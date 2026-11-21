@@ -6,6 +6,8 @@ summary_for_tutor: "Reading-only lens, no questions. Opens with the module objec
 tags: [wip]
 reading_minutes: 8
 tutor_minutes: 0
+glossary_terms:
+  - "[[../glossary/FLOP]]"
 ---
 #### Text
 content::

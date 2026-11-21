@@ -6,6 +6,9 @@ summary_for_tutor: "Adapted from the source lesson. Preserve its framing. The ve
 tags: [wip]
 reading_minutes: 42
 tutor_minutes: 2
+glossary_terms:
+  - "[[../glossary/Superintelligence]]"
+  - "[[../glossary/International Atomic Energy Agency]]"
 ---
 #### Text
 content::

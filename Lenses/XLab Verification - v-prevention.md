@@ -6,6 +6,8 @@ summary_for_tutor: "Adapted from the source lesson. Preserve its framing. Readin
 tags: [wip]
 reading_minutes: 4
 tutor_minutes: 0
+glossary_terms:
+  - "[[../glossary/Organisation for the Prohibition of Chemical Weapons]]"
 ---
 #### Text
 content::
