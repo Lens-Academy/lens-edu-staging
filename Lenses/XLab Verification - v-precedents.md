@@ -229,7 +229,7 @@ So the system can be operating exactly as designed and still fail here, because 
 :::
 
 :::callout {title="Baker (2023) on Task 4" tone="neutral" collapse="closed"}
-*In Baker's words below, M&V stands for monitoring and verification.*
+*M&V is used by Baker below to abbreviate monitoring and verification.*
 
 **§5.2 Why Comprehensive Safeguards Agreements were not designed to detect secret nuclear facilities.** "Perhaps the biggest failure in nuclear M&V has been one discussed above: that CSAs were not designed to detect secret nuclear facilities. Seemingly emboldened and enabled by this, a handful of NPT non-nuclear-weapon states ran secret nuclear weapons programs while under CSAs, and usually they (especially the most advanced programs) relied on secret nuclear facilities." The four fragile assumptions negotiators made: secret nuclear facilities would be detected and voluntarily reported on by national intelligence agencies; establishing a self-contained nuclear fuel cycle would be too technically difficult for most states; inspectors having far-reaching access to investigate potential violations was politically unacceptable; and there were no good available methods for the IAEA to detect undeclared facilities. "Considering this alongside the fact that later fixes (Additional Protocols) required ratification from each state party, it appears that the CSA M&V system has been highly flawed because negotiators made fragile assumptions, built insufficient flexibility into CSAs, and were insufficiently proactive in responding to changes in the risk landscape."
 
