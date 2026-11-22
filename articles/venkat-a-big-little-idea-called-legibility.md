@@ -27,7 +27,7 @@ Add discussion note here:
 
 James C. Scott's fascinating and seminal book, [_Seeing Like a State: How Certain Schemes to Imp_](https://www.amazon.com/gp/product/0300078153?ie=UTF8&tag=ribbonfarmcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0300078153) _[rove the Human Condition Have Failed](https://www.amazon.com/gp/product/0300078153?ie=UTF8&tag=ribbonfarmcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0300078153),_ examines how, across dozens of domains, ranging from agriculture and forestry, to urban planning and census-taking, a very predictable failure pattern keeps recurring. The pictures below, from the book (used with permission from the author) graphically and literally illustrate the central concept in this failure pattern, an idea called "legibility."
 
-_![](https://ribbonfarm.com/static/media/2010/07/scottForestry.jpg)_
+_![](https://web.archive.org/web/20261028201116im_/https://ribbonfarm.com/static/media/2010/07/scottForestry.jpg)_
 
 States and large organizations exhibit this pattern of behavior most dramatically, but individuals frequently exhibit it in their private lives as well.
 
@@ -61,7 +61,7 @@ The book begins with an early example, "scientific" forestry (illustrated in the
 
 The picture is not an exception, and the word "legibility" is not a metaphor; the actual visual/textual sense of the word (as in "readability") is what is meant. The book is full of thought-provoking pictures like this: farmland neatly divided up into squares versus farmland that is confusing to the eye, but conforms to the constraints of local topography, soil quality, and hydrological patterns; rational and unlivable grid-cities like Brasilia, versus chaotic and alive cities like Sao Paolo. This might explain, by the way, why I resonated so strongly with the book. The name "ribbonfarm" is inspired by the history of the geography of Detroit and its roots in "ribbon farms" (see my [About](https://ribbonfarm.com/about) page and the historic picture of Detroit ribbon farms below).
 
-![](https://ribbonfarm.com/static/media/2008/01/ribbonfarm.JPG)
+![](https://web.archive.org/web/20261028201117im_/https://ribbonfarm.com/static/media/2008/01/ribbonfarm.JPG)
 
 High-modernist (think Bauhaus and Le Corbusier) aesthetics necessarily lead to _simplification,_ since a reality that serves many purposes presents itself as illegible to a vision informed by a singular purpose. Any elements that are non-functional with respect to the singular purpose tend to confuse, and are therefore eliminated during the attempt to "rationalize." The deep failure in thinking lies is the mistaken assumption that thriving, successful and functional realities must necessarily be legible. Or at least more legible to the all-seeing statist eye in the sky (many of the pictures in the book are literally aerial views) than to the local, embedded, eye on the ground.
 
