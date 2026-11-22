@@ -162,7 +162,7 @@ content::
 id:: fbdb0b00-1038-4943-a043-8c2e8d8242be
 content:: **Stakeholder map** (Map, about 800 words)
 
-For a hypothetical pause treaty, place every relevant actor on the supply chain, annotate each with its most likely incentive class {++{"author":"Lens EA's AI","timestamp":1795158134062}@@(what it is most likely to do under the treaty: comply, defect, hide, exaggerate, or free-ride) ++}and the leverage it holds, and mark the two or three actors whose defection would collapse the regime.
+For a hypothetical pause treaty, place every relevant actor on the supply chain, annotate each with its most likely incentive class (what it is most likely to do under the treaty: comply, defect, hide, exaggerate, or free-ride) and the leverage it holds, and mark the two or three actors whose defection would collapse the regime.
 
 Reader: The drafting team for a hypothetical pause treaty.
 
