@@ -13,7 +13,7 @@ id:: 710788c5-e14b-4cf0-bd6e-a789e28557fd
 
 #### Question: Open
 id:: ba4b879d-bbb0-4221-9d94-918f84af3e3a
-content:: The Comprehensive Nuclear-Test-Ban Treaty bans all nuclear explosions. Although the treaty has not entered into force, its monitoring organisation already operates a worldwide network of seismic, hydroacoustic, infrasound, and radionuclide stations, most of them outside the territory of any state being watched, and the network detected each of North Korea's nuclear tests. The treaty's on-site inspection provisions cannot be used until it enters into {--{"author":"Lens EA's AI","timestamp":1795378673250}@@force, so for--}{++{"author":"Lens EA's AI","timestamp":1795378673250}@@force; inspectors would confirm on the ground an event the stations detect but cannot tell from an earthquake or a conventional blast. For++} now the network is the whole regime.
+content:: The Comprehensive Nuclear-Test-Ban Treaty bans all nuclear explosions. Although the treaty has not entered into force, its monitoring organisation already operates a worldwide network of seismic, hydroacoustic, infrasound, and radionuclide stations, most of them outside the territory of any state being watched, and the network detected each of North Korea's nuclear tests. The treaty's on-site inspection provisions cannot be used until it enters into force, so for now the network is the whole regime.
 
 This regime is not covered in the readings. In 300 to 450 words:
 
