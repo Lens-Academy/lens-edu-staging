@@ -22,6 +22,7 @@ key:: cv_link
 content:: Link to your CV, LinkedIn, etc.
 max-chars:: 300
 short:: true
+
 #### Text
 content:: **Your experience**
 
@@ -65,6 +66,7 @@ short:: true
 
 #### Text
 content:: **Why you want to navigate**
+
 #### Question
 key:: why_navigate_ai_safety
 content:: Why do you want to navigate AI safety group discussions? A few sentences is plenty.
@@ -81,6 +83,8 @@ required:: true
 key:: navigator_skills
 content:: What do you think makes a high-quality navigator or facilitator?
 max-chars:: 1500
+required:: true
+
 #### Text
 content:: **Commitment and capacity**
 
