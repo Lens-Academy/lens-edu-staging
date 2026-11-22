@@ -30,6 +30,16 @@ required:: true
 key:: navigator_skills
 content:: What do you think makes a high-quality navigator or facilitator?
 max-chars:: 1500
+#### Question: Rating
+key:: ai_safety_context_self_rating
+content:: How would you rate your own AI safety context, from 1 to 10?
+description:: 1 means you're new to AI safety. 10 means you work in the field and could lead a discussion on any part of it.
+scale:: 10
+
+#### Question
+key:: ai_safety_context_self_rating_why
+content:: Why that number?
+max-chars:: 1000
 required:: true
 
 #### Question
