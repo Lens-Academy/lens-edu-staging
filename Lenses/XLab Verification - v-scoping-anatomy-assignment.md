@@ -51,7 +51,7 @@ feedback-instructions:: Go through the three requirement types in order, do, ref
 id:: 7d9b33a6-250c-41b3-aeb3-daae48c85383
 content:: **3. Locate the verification method**
 
-Name the prohibition you selected in Question 2 and determine where the method for verifying compliance is established. Is it:
+Name the prohibition you selected in Question 2 and determine where the primary method for verifying compliance is established. Is it:
 
 - specified in the relevant article;
 - set out in an annex;
@@ -59,7 +59,7 @@ Name the prohibition you selected in Question 2 and determine where the method f
 
 Support your conclusion with a quotation from the agreement.
 
-Guidance: compare Articles VII and IX.
+Guidance: compare your prohibition's article with Articles VII and IX.
 placeholder:: Quote the words you are talking about.
 assessment-instructions:: Score out of 100. The grader cannot see Question 2, so judge only the answer in front of you. 15: the answer names the prohibition it is about. 40: it places the verification method for that prohibition in the right one of three locations (in the article itself, in an annex, or left to an institution or other body to determine); naming the main location is enough. The right places: the training ban (Article IV), mainly left to the CTB (Article VII.1), though Article IV adds some measures; research restrictions (Article VIII), left to bodies (Article IX); chip production (Article VI), deferred to an annex; chip consolidation (Article V), listed in the article itself (V.4). 45: a quotation from the agreement that supports that placement, such as the article's own inspection or monitoring clause, a note that details will be set out in an Annex, or a clause leaving the choice of methods to the CTB or another body. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "The training ban in Article IV: its verification method is mostly left to an institution. Article VII.1 says 'The methods used for verification will be determined and updated by the CTB'. Article IX does the same for research restrictions, leaving the mechanisms to the bodies it creates."
 force-feedback:: first
