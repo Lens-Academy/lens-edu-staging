@@ -9,6 +9,7 @@ Built at Andreas's word (A61 in the log): twelve new entries and lists on eight 
 - **New entries:** IAEA, OPCW, NIH, ICBM, SLBM, CoCom, CTBT, EO 14110, H100e, SL5, EUV and MIRI, each under its full name with the short form as an alias.
 - **Existing entries listed:** Superintelligence (ASI) on Unit 1's introduction, where the learning goals use "ASI" before the text spells it out; FLOP on Unit 2's introduction.
 - **Not built:** RSP and M&V (Andreas is unsure their definitions are objective and standard); the five smaller gaps, unless flagged later; the course overview, whose previews leave definitions to the units; widgets.
+- **Amended the same evening:** RSP has an entry after all, "Responsible scaling policy", listed on "Policies Must Be Effective and Feasible". M&V gets a one-line note at the top of each Baker box that quotes it on "History, Precedents, Parallels" instead of an entry.
 - **To check on staging:** that the lines appear inside the collapsed boxes on "Policies Must Be Effective and Feasible", for example on "NIH".
 
 ## How the check was done
