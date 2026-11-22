@@ -36,6 +36,8 @@ required:: true
 key:: material_background_detail
 content:: Apart from Lens, have you taken or navigated any other AI safety courses, fellowships or programs? Which ones?
 max-chars:: 1000
+
+#### Question
 key:: other_course_credentials
 content:: Any certificates or credentials from those? Paste a link, or tell us what they are.
 max-chars:: 500
