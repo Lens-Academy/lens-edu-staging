@@ -22,6 +22,7 @@ Two people can agree that AI will soon be very capable and still give very diffe
 - [[../Lenses/AFSRA - AGI Ruin, A List of Lethalities|AGI Ruin: A List of Lethalities]]: Yudkowsky's case for the very hard end.
 - [Alignment remains a hard, unsolved problem](https://www.lesswrong.com/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem): Evan Hubinger's intermediate view (November 2025).
 - [Ten levels of AI alignment difficulty](https://www.lesswrong.com/posts/EjgfreeibTXRx9Ham/ten-levels-of-ai-alignment-difficulty): a scale of what each difficulty level would require.
+- [[../Lenses/evhub-alignment-remains-a-hard-unsolved-problem|Alignment remains a hard, unsolved problem]] (Noah's CG list 🟢)
 
 ## Tests
 
