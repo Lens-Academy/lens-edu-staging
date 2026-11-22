@@ -4,9 +4,7 @@ title: Navigator Application
 ---
 
 #### Text
-content:: Thanks for wanting to navigate with Lens! These questions help us get to know you. It takes about 15 minutes, and questions without a red star are optional.
-
-Please answer without AI assistance: we're interested in your own thinking and voice. Bullet points are welcome.
+content:: Thanks for wanting to navigate with Lens! These questions help us get to know you. It takes about 15 minutes, and questions without a red star are optional. Please answer without AI assistance: we're interested in your own thinking and voice, and bullet points are welcome.
 
 #### Question
 key:: full_name
