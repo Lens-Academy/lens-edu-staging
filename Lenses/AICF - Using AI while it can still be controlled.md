@@ -30,7 +30,7 @@ id:: 66de7a85-67f6-4a73-a0df-73f85df388c5
 content::
 Suppose the leading lab reaches transformatively useful AI, but a rival only six months behind will not slow down and will soon build AI too capable to control.
 
-1. How much can control still help the leading lab in this case?
+1. The leading lab wants to use its AI to speed up safety work before the rival's AI arrives. How much can control still help it do that?
 2. Say what someone would have to do to make the window long enough to matter, and who would have to want it.
 placeholder:: A few sentences.
 force-feedback:: first
