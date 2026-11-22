@@ -20,6 +20,7 @@ AI takeover is often pictured as a machine turning evil, which makes it easy to 
 - [[../Lenses/IABIED - QA - Satisfied to Leave Us Alone|Can the AI just leave us alone?]]: Yudkowsky and Soares on why even a narrow goal (keeping one car red) drives an AI to grab resources and defences, and why humans would look like a threat, for example by building a rival AI. A strong statement of one side of the debate (2025).
 - [[../Lenses/When should we worry about AI power-seeking|When should we worry about AI power-seeking?]]: Joe Carlsmith on what has to be true for taking power to make sense to an AI: long enough time horizons, the odds of success, and how good its non-rogue options are. Read sections 1–2 and 4.1–4.2 (Feb 2025).
 - [[../Lenses/cotra-without-specific-countermeasures-the-easiest-path-to-transformative-ai-likely-leads-to-ai-takeover|AI takeover without hostility]]: Ajeya Cotra on why an AI trained by human feedback would try to take over once human control weakens, whatever its goals, and why moral scruples or a partly benevolent goal may not stop it. Read "As humans' control fades, Alex would be motivated to take over", up to "Giving negative rewards to 'warning signs'" (July 2022) (more advanced).
+- [[../Lenses/greaterwrong-the-behavioral-selection-model-for-predicting-ai-motivations|Behavioral selection model]] (Noah's CG list 🟡)
 
 ## Tests
 

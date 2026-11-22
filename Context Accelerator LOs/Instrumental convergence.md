@@ -21,6 +21,7 @@ This argument is a main reason many researchers worry that a misaligned AI would
 - [[../articles/iabied-ch5-ext-instrumental-convergence|Instrumental Convergence]]: Yudkowsky and Soares on what these subgoals would mean for a superintelligence: survival, more computing power, fewer rivals, and hiding its plans until humans can no longer stop it; the authors' own case, stated without counterarguments (September 2025).
 - [[../Lenses/Risks from power-seeking AI|Risks from power-seeking AI]]: the 80,000 Hours case on why AIs with long-term goals may seek power; read the section "There's good reason to think that AIs may seek power to pursue their own goals" for the evidence so far, and the callout "Even if AI systems develop their own goals, they might not seek power to achieve them" for why the argument may not apply to systems without long-term goals (2026).
 - [[../Lenses/bostrom-the-superintelligent-will-motivation-and-instrumental-rationality-in-advanced-artificial-agents|The Superintelligent Will]]: Nick Bostrom's paper that first stated the instrumental convergence thesis, with its conditions (self-preservation matters only for goals that reach into the future) and its limits (it predicts which subgoals, not which actions); read sections 1.3, 2 and the Conclusions (2012) (more advanced).
+- [[../Lenses/omohundro-the-basic-ai-drives|The basic AI drives (Omohundro)]] (Noah's CG list 🔴)
 
 ## Tests
 

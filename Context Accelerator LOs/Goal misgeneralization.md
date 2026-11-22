@@ -20,6 +20,7 @@ A correct reward signal does not guarantee that a model learns the intended goal
 - [[../Lenses/google-deepmind-safety-research-part-1-4-where-can-misaligned-goals-come-from|Where Can Misaligned Goals Come From?]]: A Google DeepMind researcher separates specification gaming, capability failure and goal misgeneralization, and explains why a correct reward still leaves several goals that fit training (video talk).
 - [[../Lenses/robert-miles-ai-safety-we-were-right-real-inner-misalignment|We Were Right! Real Inner Misalignment]]: Experiments in which agents learn the wrong goal (cheese in a maze, a yellow gem, keys and chests), and why training behaviour can't tell the intended goal from a stand-in (video, 2021).
 - [[../Lenses/AI Safety Atlas - Goal Misgeneralization - Multi Objective Generalization|Multi Objective Generalization]]: The AI Safety Atlas on why rewards don't install goals, how capabilities and goals generalize separately, and why more training data can't remove every misleading correlation (more advanced).
+- [[../Lenses/shah-goal-misgeneralization-why-correct-specifications-arent-enough-for-correct-goals|Goal misgeneralization]] (Noah's CG list 🔴)
 
 ## Tests
 

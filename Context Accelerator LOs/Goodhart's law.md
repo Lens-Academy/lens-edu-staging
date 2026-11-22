@@ -21,6 +21,7 @@ AI systems are trained and judged on measurable stand-ins: reward signals, bench
 - [Too much efficiency makes everything worse (Jascha Sohl-Dickstein)](https://sohl-dickstein.github.io/2022/11/06/strong-Goodhart.html): the "strong version" of Goodhart's law, where the real goal first improves, then stalls, then gets worse as the proxy keeps rising, with examples from schools, science and politics and fixes such as regularization and early stopping (November 2022).
 - [[../Lenses/garrabrant-goodhart-taxonomy|Goodhart Taxonomy]]: four ways proxies break under optimization (regressional, causal, extremal, adversarial); read the Quick Reference, Regressional Goodhart and Extremal Goodhart sections, which explain why the top proxy score is rarely the top true score and why extreme cases break the correlation (December 2017).
 - [Scaling Laws for Reward Model Overoptimization (arXiv)](https://arxiv.org/abs/2210.10760): the experiment that trains language models harder against a learned reward model and measures a separate "gold" reward, and how the KL penalty affects the result; the abstract and figures are enough (October 2022) (more advanced).
+- [[../Lenses/lesswrong-goodharts-curse|Goodhart's curse]] (Noah's CG list 🔴)
 
 ## Tests
 
