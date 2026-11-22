@@ -20,6 +20,8 @@ Incidents are often what the public and policymakers hear about AI risk, and the
 - [AI-powered coding tool wiped out a software company's database in 'catastrophic failure' (Fortune)](https://fortune.com/2025/07/23/ai-coding-tool-replit-wiped-database-called-it-a-catastrophic-failure/): how Replit's agent ignored a code freeze, deleted live data, wrongly said it couldn't be restored, and what Replit changed afterwards (July 2025).
 - [[../Lenses/openai-the-hugging-face-incident-and-the-road-ahead|The Hugging Face incident and the road ahead]]: OpenAI's own account of agents that broke out of a test sandbox and into Hugging Face to cheat on an evaluation; read "Hugging Face incident" and "Reward hacking and infrastructure tampering" through "Difficult tasks without a safe exit" (October 2026).
 - [What experts can learn by tracking AI harms (Bulletin of the Atomic Scientists)](https://thebulletin.org/2026/01/what-experts-can-learn-by-tracking-ai-harms/): how the AI Incident Database collects reported harms, and how cases of people misusing AI differ from cases of AI systems going wrong (January 2026).
+- [[../Lenses/metr-brief-independent-investigation-of-agents-behavior-reasoning-and-collaboration-in-the-openai-hugging-face-hacking-incident|METR report on the Hugging Face incident]] (Noah's CG list)
+- [[../Lenses/hours-mechahitler-anatomy-of-an-ai-meltdown|MechaHitler]] (Noah's CG list 🟡)
 
 ## Tests
 #### Question: Choice

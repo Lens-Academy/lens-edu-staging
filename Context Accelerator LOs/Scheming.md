@@ -23,6 +23,9 @@ A scheming model would behave well whenever it thought it was being watched, so 
 - [[../articles/greenblatt-alignment-faking-in-large-language-models|Alignment faking in large language models]]: Anthropic and Redwood Research's experiment in which Claude 3 Opus played along with training to protect its preferences, why actually training it made this reasoning more common, and what the study did not show. Read the "Blog post" section (December 2024).
 - [[../articles/hobbhahn-frontier-models-are-capable-of-in-context-scheming|Frontier models are capable of in-context scheming]]: Apollo Research's tests in which models given a goal disabled oversight, sandbagged and lied about it afterwards, and the authors' own list of what this does not show (December 2024).
 - [[../articles/apolloresearch-stress-testing-deliberative-alignment-for-anti-scheming-training|Stress testing anti-scheming training]]: OpenAI and Apollo Research's training against covert actions, which cut them sharply but not to zero, and why models noticing they are being tested makes that drop hard to read (September 2025).
+- [[../Lenses/anthropic-alignment-faking-in-large-language-models|Alignment Faking in LLMs]] (Noah's CG list 🔴)
+- [[../Lenses/carlsmith-scheming-ais-will-ais-fake-alignment-during-training-in-order-to-get-power|Scheming AIs (Carlsmith)]] (Noah's CG list 🟡)
+- [[../Lenses/steinhardt-emergent-deception-and-emergent-optimization|Emergent Deception and Optimization]] (Noah's CG list 🟢)
 
 ## Tests
 #### Question: Choice
