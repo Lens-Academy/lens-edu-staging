@@ -20,6 +20,11 @@ Safety work splits into agendas aimed at different problems: making models want 
 - [Recommendations for technical AI safety research directions (Anthropic Alignment Science)](https://alignment.anthropic.com/2025/recommended-directions): Anthropic's tour of capability and alignment evaluations, interpretability and chain-of-thought faithfulness, AI control with trusted monitors, scalable oversight and weak-to-strong generalization, robustness and unlearning, with why each matters (January 2025).
 - [[../video_transcripts/rational-animations-ai-sleeper-agents-how-anthropic-trains-and-catches-them|AI Sleeper Agents]]: how researchers build deliberately misaligned "model organisms", find that safety training doesn't remove the hidden behaviour, and catch it with simple probes on the model's internals.
 - [[../Lenses/AF not really math not really science|Agent Foundations: not really math, not really science]]: an agent foundations researcher on why the agenda studies agency with mathematics rather than experiments on current models (August 2025).
+- [[../Lenses/hilton-formal-verification-heuristic-explanations-and-surprise-accounting-blog|Heuristic Explanations]] (Noah's CG list 🟡)
+- [[../Lenses/hilton-a-birds-eye-view-of-arcs-research-blog|Bird’s eye view of ARC’s research]] (Noah's CG list 🟡)
+- [[../Lenses/charbel-rapha-l-davidads-bold-plan-for-alignment-an-in-depth-explanation|Open-Agency Architecture]] (Noah's CG list 🟢)
+- [[../Lenses/christiano-formalizing-the-presumption-of-independence|Formalizing the Presumption of Independence]] (Noah's CG list)
+- [[../Lenses/bengio-safety-from-honesty-in-a-disinterested-ai-predictor|Scientist AI]] (Noah's CG list)
 
 ## Tests
 

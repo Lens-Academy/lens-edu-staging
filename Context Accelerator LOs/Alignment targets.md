@@ -21,6 +21,8 @@ Saying that alignment is "solved" means little until you know what the AI is ali
 - [Superintelligence 23: Coherent extrapolated volition (LessWrong)](https://www.lesswrong.com/posts/EQFfj5eC5mqBMxF2s/superintelligence-23-coherent-extrapolated-volition): Bostrom's indirect normativity and epistemic deference, and the case for CEV, such as allowing moral growth and not locking in today's mistakes; read the Summary section (February 2015).
 - [Instruction-following AGI is easier and more likely than value aligned AGI (LessWrong)](https://www.lesswrong.com/posts/7NvKrqoQgJkZJmcuD/instruction-following-agi-is-easier-and-more-likely-than): Why developers are likely to aim first AGIs at following instructions rather than human values, what that fixes, and the risk it leaves: power stays with whoever controls the AI. One researcher's argument (May 2024).
 - [[../Lenses/anthropic-claudes-new-constitution|Claude's new constitution]]: Anthropic's priority order for Claude, with not undermining human oversight placed above broader ethics during this period, and why (January 2026).
+- [[../Lenses/charbel-rapha-l-davidads-bold-plan-for-alignment-an-in-depth-explanation|Open-Agency Architecture]] (Noah's CG list 🟢)
+- [[../Lenses/harms-cast-corrigibility-as-singular-target|Corrigibility as a Singular Target]] (Noah's CG list)
 
 ## Tests
 

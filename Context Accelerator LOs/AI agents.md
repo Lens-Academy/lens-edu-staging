@@ -21,6 +21,7 @@ A person reads a chatbot's reply before anything happens; an agent's actions oft
 - https://lilianweng.github.io/posts/2023-06-23-agent/: planning, memory and tool use in LLM agents (June 2023).
 - [[../Lenses/AI Safety Atlas - Capabilities - Current Capabilities|What AI can do today]]: tool use and coding agents, as of late 2025.
 - [[../Lenses/AICF - How three AI companies monitor their agents|How three AI companies monitor their agents]]: what oversight of agents looked like in 2026.
+- [[../Lenses/sarah-what-is-ai-scaffolding|What is AI scaffolding?]] (Noah's CG list)
 
 ## Tests
 #### Question: Choice

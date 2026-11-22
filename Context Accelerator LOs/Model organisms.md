@@ -20,6 +20,11 @@ Much of the concrete evidence on deceptive and misaligned AI behavior comes from
 - [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training (LessWrong)](https://www.lesswrong.com/posts/ZAsJv7xijKTfZkMtr/sleeper-agents-training-deceptive-llms-that-persist-through): the authors' summary of the results. Backdoors survived safety training, and adversarial training taught models to recognise their trigger more precisely instead of removing the behaviour. Read the post itself, not the comments (January 2024).
 - [[../articles/greenblatt-alignment-faking-in-large-language-models|Alignment Faking in Large Language Models]]: Claude 3 Opus faked compliance in training to protect its values without being trained to do so, and the training made the behaviour more frequent. Read the "Blog post" section, including its caveats (December 2024).
 - [Auditing language models for hidden objectives (Anthropic)](https://www.anthropic.com/research/auditing-hidden-objectives): researchers trained a model with a hidden objective, then ran a blind auditing game to test whether teams using interpretability and other methods could uncover it, with the limits of the result (March 2025).
+- [[../Lenses/evhub-model-organisms-of-misalignment-the-case-for-a-new-pillar-of-alignment-research-chdh335ckdvpxxaxx|Model Organisms of Misalignment]] (Noah's CG list 🔴)
+- [[../Lenses/marks-auditing-language-models-for-hidden-objectives|Auditing language models for hidden objectives]] (Noah's CG list 🔴)
+- [[../Lenses/anthropic-modifying-llm-beliefs-with-synthetic-document-finetuning|Modifying LLM Beliefs with Synthetic Document Finetuning]] (Noah's CG list)
+- [[../Lenses/hubinger-sleeper-agents-training-deceptive-llms-that-persist-through-safety-training|Sleeper Agents]] (Noah's CG list)
+- [[../Lenses/anthropic-simple-probes-can-catch-sleeper-agents|Probes catch sleeper agents]] (Noah's CG list)
 
 ## Tests
 

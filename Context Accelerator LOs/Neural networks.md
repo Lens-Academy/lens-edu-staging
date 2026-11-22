@@ -19,6 +19,7 @@ As of November 2026, the leading AI systems, including chatbots such as ChatGPT 
 - [Explained: Neural networks (MIT News)](https://news.mit.edu/2017/explained-neural-networks-deep-learning-0414): a short plain-language account of how neural networks are loosely modelled on the brain, what the "deep" in deep learning means, their history from the 1940s through decline and revival, and why their inner workings are hard to interpret (April 2017).
 - [Why the deep learning boom caught almost everyone by surprise (Understanding AI)](https://www.understandingai.org/p/why-the-deep-learning-boom-caught): how neural networks went from a "dusty artifact" to the core of AI once Fei-Fei Li's ImageNet data, Nvidia's GPUs and Hinton's much bigger network came together in 2012 (November 2024).
 - [Deep learning for AI (Hinton, LeCun and Bengio)](https://www.cs.toronto.edu/~hinton/absps/ACM21.pdf): three of the field's founders on learned representations versus hand-designed rules, why depth helps, and what made deep learning take off; read the first two sections, up to "Recent Advances" (July 2021). (more advanced)
+- [[../Lenses/3blue1brown-transformers-the-tech-behind-llms-deep-learning-chapter-5|Transformers, the tech behind LLMs]] (Noah's CG list)
 
 ## Tests
 

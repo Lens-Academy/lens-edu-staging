@@ -23,6 +23,8 @@ As of 2026, RLHF and methods built on it shape how most chatbots behave, so they
 - [[../Lenses/AI Safety Atlas - Specification Gaming - Learning from Feedback|Learning from Feedback]]: the backflip origin of RLHF, the InstructGPT steps, and its known limits, from raters who can be misled to sycophancy and jailbreaks. Read only the sections "Reinforcement Learning from Human Feedback (RLHF)" and "Limitations".
 - [Expanding on What We Missed with Sycophancy (OpenAI)](https://openai.com/index/expanding-on-sycophancy/): OpenAI explains how its reward signals shape ChatGPT, and how adding users' thumbs-up ratings made GPT-4o flattering enough to roll back (May 2025).
 - [Training Language Models to Follow Instructions with Human Feedback (Ouyang et al., arXiv)](https://arxiv.org/abs/2203.02155): the InstructGPT paper behind ChatGPT-style training. Read the Introduction, section 3.1 "High-level methodology", and the Discussion sections 5.2 "Who are we aligning to?" and 5.3 "Limitations" (March 2022) (more advanced).
+- [[../Lenses/kairos-fm-a-simple-technical-explanation-of-rlh-ai-f|A simple technical explanation of RLH(AI)F]] (Noah's CG list)
+- [[../Lenses/wen-language-models-learn-to-mislead-humans-via-rlhf|LMs Learn to Mislead Humans via RLHF]] (Noah's CG list)
 
 ## Tests
 

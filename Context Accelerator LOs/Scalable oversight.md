@@ -20,6 +20,14 @@ Training methods like RLHF rely on people judging outputs. Once AI does work its
 - [[../Lenses/AI Safety Atlas - Scalable Oversight - Debate|How debate can fail]]: what AI safety via debate assumes, and how a dishonest debater could still beat a weaker judge through obfuscated arguments, stalling and motte-and-bailey. Read only the sections "Assumptions" and "Truth".
 - [[../Lenses/rational-animations-the-dumbest-ai-taught-the-smartest-ai-heres-how-that-went|The dumbest AI taught the smartest AI]]: an animated walk through OpenAI's weak-to-strong experiments, where small models supervise bigger ones. Covers what worked, why reward modelling went worst, and why a stronger student might just copy its supervisor's mistakes.
 - [[../Lenses/irving-ai-safety-via-debate|AI safety via debate]]: the 2018 paper by Irving, Christiano and Amodei that proposed debate, including the claim that lying is harder than refuting a lie. Read sections 1, 2 (skipping 2.2) and 5, "Reasons to worry" (more advanced).
+- [[../Lenses/irving-ai-safety-via-debate-pdf|AI Safety via Debate]] (Noah's CG list 🟡)
+- [[../Lenses/radhakrishnan-scalable-oversight-and-weak-to-strong-generalization-compatible-approaches-to-the-same-problem|Scalable Oversight and Weak-to-Strong Generalization]] (Noah's CG list 🟡)
+- [[../Lenses/openai-weak-to-strong-generalization-eliciting-strong-capabilities-with-weak-supervision|Eliciting Strong Capabilities with Weak Supervision]] (Noah's CG list 🟡)
+- [[../Lenses/bowman-measuring-progress-on-scalable-oversight-for-large-language-models|Measuring Progress on Scalable Oversight for LLMs]] (Noah's CG list 🟢)
+- [[../Lenses/buhl-an-alignment-safety-case-sketch-based-on-debate-pdf|Alignment safety case based on debate]] (Noah's CG list)
+- [[../Lenses/brown-cohen-avoiding-obfuscation-with-prover-estimator-debate|Prover-Estimator Debate]] (Noah's CG list)
+- [[../Lenses/charikar-quantifying-the-gain-in-weak-to-strong-generalization|Quantifying the Gain in Weak-to-Strong Generalization]] (Noah's CG list)
+- [[../Lenses/engels-scaling-laws-for-scalable-oversight|Scaling Laws for Scalable Oversight]] (Noah's CG list)
 
 ## Tests
 

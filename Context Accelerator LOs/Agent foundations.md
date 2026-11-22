@@ -20,6 +20,12 @@ Agent foundations gave the field several ideas it still uses, and its central cl
 - [[../Lenses/AF not really math not really science|Agent Foundations: not really math, not really science]]: a researcher on why the field uses maths rather than experiments on today's models, and why it studies agents in general rather than one kind of AI (2025).
 - [My current thoughts on MIRI's "highly reliable agent design" work (EA Forum)](https://forum.effectivealtruism.org/posts/SEL9PW8jozrvLnkb4/my-current-thoughts-on-miri-s-highly-reliable-agent-design): Daniel Dewey, then at Open Philanthropy, on why he doubted agent foundations would apply to real AI systems; read sections 3a to 3c (July 2017).
 - [MIRI 2024 Mission and Strategy Update (MIRI)](https://intelligence.org/2024/01/04/miri-2024-mission-and-strategy-update/): MIRI's history from agent foundations onwards, and why it now thinks alignment research is very unlikely to succeed in time and is putting policy and communications first (January 2024).
+- [[../Lenses/soares-agent-foundations-for-aligning-machine-intelligence-with-human-interests-a-technical-research-agenda|Agent Foundations]] (Noah's CG list 🟡)
+- [[../Lenses/lawrencec-natural-abstractions-key-claims-theorems-and-critiques|Natural Abstractions]] (Noah's CG list 🟡)
+- [[../Lenses/kosoy-the-learning-theoretic-agenda-status-2023-zwshvqiqcvxpszect|Learning-Theoretic Agenda]] (Noah's CG list 🟢)
+- [[../Lenses/demski-embedded-agency|Embedded Agency]] (Noah's CG list)
+- [[../Lenses/lesswrong-finite-factored-sets|Finite Factored Sets]] (Noah's CG list)
+- [[../Lenses/garrabrant-logical-induction|Logical Induction]] (Noah's CG list)
 
 ## Tests
 #### Question: Choice

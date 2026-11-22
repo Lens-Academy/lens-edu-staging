@@ -21,6 +21,19 @@ A model that is scheming could behave well whenever it is tested, so checking it
 - [Natural Language Autoencoders (Anthropic)](https://www.anthropic.com/research/natural-language-autoencoders): a new tool that turns a model's internal workings into readable sentences. It revealed that a model suspected it was being tested without saying so, and the post is frank about the tool's mistakes and costs (May 2026).
 - [[../Lenses/Interpretability Will Not Reliably Find Deceptive AI|Interpretability Will Not Reliably Find Deceptive AI]]: a leading interpretability researcher explains why looking inside a model won't reliably catch an AI that is hiding its goals, and why it is still worth using as one safety check among several. One side of a live debate, replying to Amodei (May 2025).
 - [[../Lenses/AI Safety Atlas - Goal Misgeneralization - Detection|Detecting Hidden Goals]]: a textbook survey of the methods for catching a model that hides misaligned goals, what each one has shown and where each one fails. The "Linear Probes" section is the part most worth reading (more advanced).
+- [[../Lenses/transformer-circuits-interpretability-dreams|Interpretability Dreams]] (Noah's CG list 🔴)
+- [[../Lenses/sharkey-open-problems-in-mechanistic-interpretability|Open Problems in Mechanistic Interpretability]] (Noah's CG list 🟡)
+- [[../Lenses/nanda-progress-measures-for-grokking-via-mechanistic-interpretability|Progress Measures for Grokking]] (Noah's CG list 🟡)
+- [[../Lenses/nanda-a-longlist-of-theories-of-impact-for-interpretability|Theories of impact for interpretability]] (Noah's CG list 🟢)
+- [[../Lenses/transformer-circuits-towards-monosemanticity-decomposing-language-models-with-dictionary-learning|Towards Monosemanticity]] (Noah's CG list)
+- [[../Lenses/medium-just-a-moment|Negative Results for SAEs]] (Noah's CG list)
+- [[../Lenses/transformer-circuits-a-mathematical-framework-for-transformer-circuits|A Mathematical Framework for Transformer Circuits]] (Noah's CG list)
+- [[../Lenses/lawrencec-causal-scrubbing-a-method-for-rigorously-testing-interpretability-hypotheses-redwood-research|Causal Scrubbing]] (Noah's CG list)
+- [[../Lenses/dunefsky-transcoders-find-interpretable-llm-feature-circuits|Transcoders Find Interpretable LLM Feature Circuits]] (Noah's CG list)
+- [[../Lenses/circuits-on-the-biology-of-a-large-language-model|On the Biology of a Large Language Model]] (Noah's CG list)
+- [[../Lenses/karvonen-activation-oracles-training-and-evaluating-llms-as-general-purpose-activation-explainers|Activation Oracles]] (Noah's CG list)
+- [[../Lenses/shai-transformers-represent-belief-state-geometry-in-their-residual-stream|Transformers Represent Belief State Geometry in their Residual Stream]] (Noah's CG list)
+- [[../Lenses/anthropic-simple-probes-can-catch-sleeper-agents|Probes catch sleeper agents]] (Noah's CG list)
 
 ## Tests
 #### Question: Choice

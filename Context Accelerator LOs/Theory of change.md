@@ -20,6 +20,7 @@ Many projects aimed at AI risk can say what they will do but not how that leads 
 - [[../Lenses/XLab Verification - v-theories-of-change|We Need More Theories of Change]]: why others need your chain of if-then claims.
 - [[../Lenses/charbel-rapha-l-against-almost-every-theory-of-impact-of-interpretability|Against Almost Every Theory of Impact of Interpretability]]: a critique of interpretability's theories of impact, one by one.
 - [[../Lenses/Theories of Change Need a Theory of Victory]]: linking a local result to solving the whole problem.
+- [[../Lenses/nanda-a-longlist-of-theories-of-impact-for-interpretability|Theories of impact for interpretability]] (Noah's CG list 🟢)
 
 ## Tests
 #### Question: Choice

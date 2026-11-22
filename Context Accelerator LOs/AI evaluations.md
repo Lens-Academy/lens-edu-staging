@@ -22,6 +22,11 @@ Company safety policies and government checks use evaluation results to decide w
 - [[../Lenses/What AI evaluations for preventing catastrophic risks can and cannot do|What AI evaluations can and cannot do]]: why tests give lower bounds, not guarantees.
 - [[../Lenses/AI Safety Atlas - Evaluations - Limitations|Limitations of evaluations]]: sandbagging, prompt sensitivity and untested risks.
 - [Project Naptime (Google Project Zero, 2024)](https://projectzero.google/2024/06/project-naptime.html): better tools raised a model's cyber scores sharply.
+- [[../Lenses/marks-auditing-language-models-for-hidden-objectives|Auditing language models for hidden objectives]] (Noah's CG list 🔴)
+- [[../Lenses/anthropic-petri-an-open-source-ai-auditing-tool|Petri: An open-source auditing tool]] (Noah's CG list 🟢)
+- [[../Lenses/anthropic-auditbench|AuditBench]] (Noah's CG list)
+- [[../Lenses/singh-why-did-my-model-do-that-model-forensics-for-diagnosing-llm-misbehavior|Model Incriminations]] (Noah's CG list)
+- [[../Lenses/ji-ai-safety-evaluations-an-explainer|AI Safety Evaluations: An Explainer]] (Noah's CG list)
 
 ## Tests
 
