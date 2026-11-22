@@ -21,6 +21,7 @@ Whether AGI arrives within a few years or decades from now changes which safety 
 - [Q3.5 timelines update: looks like the intelligence explosion will happen in 2027 after all (AI Futures Project)](https://blog.aifutures.org/p/q35-timelines-update-looks-like-the): the case for very short timelines from its leading forecasters, who now expect a superhuman AI researcher in 2027; read the "Timelines/Takeoff Update Summary" and the forecast table (November 2026).
 - [[../Lenses/AIF - The Case for Multi-Decade AI Timelines|Ege Erdil: The case for multi-decade AI timelines]]: an Epoch researcher's case for about 20 years to full automation of remote work, and the cruxes where he parts from short-timelines views (April 2025).
 - [[../Lenses/AIF - Broad Timelines|Toby Ord: Broad timelines]]: why your range of dates should be wide, and how to plan across short and long timelines; read "Short vs Long Timelines", "Broad Timelines" and "Implications" (March 2026).
+- [[../Lenses/ord-broad-timelines|Broad Timelines]] (Noah's CG list 🟡)
 
 ## Tests
 

@@ -19,6 +19,12 @@ Labs and researchers name these methods constantly, often as reasons to trust a 
 - [Claude's Character (Anthropic)](https://www.anthropic.com/research/claude-character): how character training works: Claude writes prompts, writes and ranks its own replies by traits such as curiosity and honesty, and a preference model is trained on those rankings, with no human feedback (June 2024).
 - [[../video_transcripts/rational-animations-ais-dont-scheme-if-they-know-were-watching|AIs don't scheme... if they know we're watching]]: how deliberative alignment trains a model on a written spec, and why the sharp drop in covert actions in the OpenAI–Apollo tests may come partly from models noticing they were being tested (Rational Animations video, late 2025).
 - [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training (LessWrong)](https://www.lesswrong.com/posts/ZAsJv7xijKTfZkMtr/sleeper-agents-training-deceptive-llms-that-persist-through): the authors' summary of Anthropic's study, in which hidden backdoors survived RLHF and fine-tuning and adversarial training taught models to hide the behaviour better rather than drop it (January 2024).
+- [[../Lenses/anthropic-constitutional-ai-harmlessness-from-ai-feedback|Constitutional AI]] (Noah's CG list 🔴)
+- [[../Lenses/openai-deliberative-alignment-reasoning-enables-safer-language-models|Deliberative Alignment]] (Noah's CG list 🟡)
+- [[../Lenses/mazeika-harmbench-a-standardized-evaluation-framework-for-automated-red-teaming-and-robust-refusal|Adversarial training]] (Noah's CG list 🟢)
+- [[../Lenses/joglekar-training-llms-for-honesty-via-confessions|Training LLMs for Honesty via Confessions]] (Noah's CG list)
+- [[../Lenses/anthropic-modifying-llm-beliefs-with-synthetic-document-finetuning|Modifying LLM Beliefs with Synthetic Document Finetuning]] (Noah's CG list)
+- [[../Lenses/openai-how-confessions-can-keep-language-models-honest|How confessions can keep language models honest (OpenAI)]] (Noah's CG list)
 
 ## Tests
 

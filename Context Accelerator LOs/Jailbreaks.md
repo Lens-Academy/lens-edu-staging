@@ -19,6 +19,10 @@ Companies often point to a model's refusals as a sign it can't be misused. Refus
 - [[../articles/ai-security-institute-frontier-ai-trends-report|AISI: Safeguards]]: the UK AI Security Institute found universal jailbreaks in every system it tested, and explains why open-weight models are hardest to defend; read Section 4, "Safeguards" (December 2025).
 - [The lethal trifecta for AI agents (Simon Willison)](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/): prompt injection versus jailbreaking, and why agents with private data, untrusted inputs and a way to send data out can be turned against their users (June 2025).
 - [Jailbroken: How Does LLM Safety Training Fail? (Wei, Haghtalab and Steinhardt)](https://arxiv.org/abs/2307.02483): the paper that named two causes of jailbreaks, helpfulness pulling against refusal, and refusals that don't carry over to the full range of the model's abilities; Sections 1 to 3 (July 2023) (more advanced).
+- [[../Lenses/mazeika-harmbench-a-standardized-evaluation-framework-for-automated-red-teaming-and-robust-refusal|Adversarial training]] (Noah's CG list 🟢)
+- [[../Lenses/anthropic-next-generation-constitutional-classifiers|Constitutional Classifiers]] (Noah's CG list 🔴)
+- [[../Lenses/sheshadri-latent-adversarial-training-improves-robustness-to-persistent-harmful-behaviors-in-llms|Latent Adversarial Training]] (Noah's CG list)
+- [[../Lenses/zou-improving-alignment-and-robustness-with-circuit-breakers|Circuit Breakers]] (Noah's CG list)
 
 ## Tests
 #### Question: Choice

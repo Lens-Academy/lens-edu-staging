@@ -20,6 +20,10 @@ AI developers already have AI doing a large share of their research and coding, 
 - [[../Lenses/AICF - Control in plain words|Control in plain words]]: CSET's explainer for non-specialists: alignment as the first line of defence, control as the second, and cybersecurity-style safeguards such as least privilege and logging (Oct 2025).
 - [[../Lenses/AICF - Using dangerous AI, but safely|Using Dangerous AI, But Safely?]]: Robert Miles walks through the founding control experiment: trusted and untrusted models, red and blue teams, trusted monitoring, defer to trusted, untrusted monitoring and collusion, and why control won't hold for superintelligence (Nov 2024).
 - [[../Lenses/AICF - Catching AIs red-handed|Catching AIs red-handed]]: Greenblatt and Shlegeris on why catching a model in an attempt changes things: shutting it down, studying the attempt, and using it to stop the next one (2024).
+- [[../Lenses/buck-ai-catastrophes-and-rogue-deployments|AI catastrophes and rogue deployments]] (Noah's CG list 🟢)
+- [[../Lenses/shlegeris-the-case-for-ensuring-that-powerful-ais-are-controlled|The case for ensuring that powerful AIs are controlled]] (Noah's CG list 🔴)
+- [[../Lenses/greenblatt-ai-control-improving-safety-despite-intentional-subversion-pdf|Improving Safety Despite Intentional Subversion]] (Noah's CG list 🟡)
+- [[../Lenses/shlegeris-reading-list|AI Control reading list]] (Noah's CG list)
 
 ## Tests
 

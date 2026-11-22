@@ -20,6 +20,9 @@ AI safety is a young field where experts disagree sharply. If you only defer, yo
 - [How I Formed My Own Views About AI Safety (LessWrong)](https://www.lesswrong.com/posts/JZrN4ckaCfd6J37cG/how-i-formed-my-own-views-about-ai-safety): Neel Nanda on what an inside view on AI safety is, who needs one (researchers more than most), when deferring is fine, and how he built his own by talking to researchers and finding cruxes (February 2022).
 - [Concrete Advice for Forming Inside Views on AI Safety (LessWrong)](https://www.lesswrong.com/posts/LbSWMfbAHQnFpApQ7/concrete-advice-for-forming-inside-views-on-ai-safety): Nanda's step-by-step method: break the case for AI risk into claims you can doubt, understand a view before judging it, and aim for views in your own area rather than on everything (August 2022).
 - [Deferring (EA Forum)](https://forum.effectivealtruism.org/posts/LKdhv9a478o9ngbcY/deferring): Owen Cotton-Barratt on why deferring is useful, how it goes wrong, how chains of deference hide how few independent sources a view has, and when to defer; read from "Why deferring is useful" to the end of "When & how to defer" (May 2022).
+- [[../Lenses/nanda-concrete-advice-for-forming-inside-views-on-ai-safety|Concrete Advice for Forming Inside Views on AI Safety]] (Noah's CG list 🟡)
+- [[../Lenses/buck-some-thoughts-on-deference-and-inside-view-models|Some thoughts on deference and inside-view models]] (Noah's CG list 🟢)
+- [[../Lenses/karnofsky-learning-by-writing|Learning by writing]] (BlueDot Deep Field pre-reading)
 
 ## Tests
 

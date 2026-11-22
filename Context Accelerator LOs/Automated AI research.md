@@ -22,6 +22,7 @@ Many forecasts of when powerful AI arrives, and how fast it improves afterwards,
 - [[../Lenses/forethought-will-ai-rd-automation-cause-a-software-intelligence-explosion|Will AI R&D Automation Cause a Software Intelligence Explosion?]]: Forethought's case that AI doing AI research could speed itself up on existing chips alone, and the two main brakes: limited compute for experiments and the months each training run takes. Read the Summary and Introduction (March 2025).
 - [METR's independent assessment of AI R&D acceleration at Anthropic (METR)](https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment): after 11 weeks with Anthropic's internal data, METR estimates that Anthropic's models are improving about twice as fast as in 2024–25, with most of the speedup due to AI, and explains why staff's own reports of speedup are weak evidence. Read the Executive summary and Key findings (November 2026).
 - [OpenAI's AI research intern is here: what 3.1 workdays mean (eWeek)](https://www.eweek.com/news/openai-ai-research-intern-agent-workdays/): what OpenAI's "automated research intern" does and what humans still decide, why 3.1 agent-workdays per human workday measures agent running time rather than output, and how often agents still needed human help (September 2026).
+- [[../Lenses/davidson-how-quick-and-big-would-a-software-intelligence-explosion-be|Software Intelligence Explosion]] (Noah's CG list 🟢)
 
 ## Tests
 

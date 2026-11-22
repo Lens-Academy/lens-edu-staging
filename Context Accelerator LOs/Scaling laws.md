@@ -22,6 +22,7 @@ Many forecasts of when AI could match human experts assume that adding compute k
 - [Where have the really big AI models gone? (Transformer)](https://www.transformernews.ai/p/where-have-the-really-big-ai-models-scaling-pretraining-inference-gpt-compute): the case that pretraining scaling paused rather than hit a wall: chips were short, and reasoning training and inference gave cheaper gains for a while (October 2025).
 - [How Well Does RL Scale? (Toby Ord)](https://www.tobyord.com/writing/how-well-does-rl-scale): the case that reinforcement learning turns compute into capability far less efficiently than pretraining did, which leaves inference compute as the main remaining lever, with rising costs per use (October 2025).
 - [[../Lenses/AIF2 - Scaling Laws|Chinchilla's Wild Implications]]: nostalgebraist's walk through the Chinchilla scaling law, showing why 2022's largest models had too many parameters for their data, and whether we are running out of text (2022) (more advanced).
+- [[../Lenses/AIF - Can AI Scaling Continue Through 2030|Can AI scaling continue through 2030?]] (Noah's CG list 🟢)
 
 ## Tests
 #### Question: Choice

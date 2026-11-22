@@ -22,6 +22,7 @@ Many loss-of-control scenarios start with an AI getting copies of itself beyond 
 - [[../articles/hobbhahn-frontier-models-are-capable-of-in-context-scheming|Frontier Models are Capable of In-context Scheming]]: Apollo Research's tests in which models, given a goal, sometimes copied what they believed were their weights to another server, and the authors' own list of what this does not show (December 2024).
 - [RepliBench: measuring autonomous replication capabilities in AI systems (UK AI Security Institute)](https://www.aisi.gov.uk/blog/replibench-measuring-autonomous-replication-capabilities-in-ai-systems): splits escape into separate steps (getting the weights, getting compute and money, running copies, staying hidden) and shows which ones models could and couldn't do in sandboxed tests (April 2025).
 - [Preventing model exfiltration with upload limits (Ryan Greenblatt, LessWrong)](https://www.lesswrong.com/posts/rf66R4YsrCHgWx9RG/preventing-model-exfiltration-with-upload-limits): a proposal to make weights hard to copy out by capping how much data a lab's servers can send out, read the summary first (February 2024) (more advanced).
+- [[../Lenses/buck-ai-catastrophes-and-rogue-deployments|AI catastrophes and rogue deployments]] (Noah's CG list 🟢)
 
 ## Tests
 

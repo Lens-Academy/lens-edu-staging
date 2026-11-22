@@ -20,6 +20,8 @@ How fast AI could go from human level to far beyond it decides how much time peo
 - [[../Lenses/ahead-ii-from-agi-to-superintelligence-the-intelligence-explosion|From AGI to Superintelligence: the Intelligence Explosion]]: the case for a fast intelligence explosion, from a leading proponent: millions of copies of automated AI researchers, and the main bottlenecks (compute for experiments, the last steps of automation, ideas getting harder to find). Read from the opening to the end of the bulleted list under "Possible bottlenecks" (May 2024).
 - [Inside the Race to Make AI Build Itself (TIME)](https://time.com/article/2026/08/07/ai-recursive-self-improvement-anthropic-openai/): how Anthropic and OpenAI are using AI to speed up their own research, what the risks are, and why critics such as Arvind Narayanan and Gary Marcus doubt a runaway loop (August 2026).
 - [[../Lenses/forethought-will-ai-rd-automation-cause-a-software-intelligence-explosion|Will AI R&D Automation Cause a Software Intelligence Explosion?]]: Forethought's analysis of whether AI improving AI software could outrun diminishing returns; read the sections from "A toy model to demonstrate the dynamics of a software intelligence explosion" to "In the real world, are returns to software R&D greater or less than one?" (2025) (more advanced).
+- [[../Lenses/davidson-how-quick-and-big-would-a-software-intelligence-explosion-be|Software Intelligence Explosion]] (Noah's CG list 🟢)
+- [[../Lenses/forethought-preparing-for-the-intelligence-explosion|Preparing for the Intelligence Explosion]] (Noah's CG list)
 
 ## Tests
 

@@ -20,6 +20,8 @@ A model learns much of its character from its pretraining data, including what t
 - [[../Lenses/anthropic-enhancing-model-safety-through-pretraining-data-filtering|Pretraining Data Filtering]]: Anthropic removes chemical, biological, radiological and nuclear (CBRN) weapons content from pretraining data, which lowers harmful knowledge without hurting general ability. Read the Introduction, Results and Conclusions, and skim the Classifier section (August 2025).
 - [Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant Safeguards (EleutherAI)](https://blog.eleuther.ai/deep-ignorance/): Why filtering suits open-weight models: filtered models resist fine-tuning that undoes refusal-style safeguards, but they can still use hazardous information given in the prompt (August 2025).
 - [Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment (arXiv)](https://arxiv.org/abs/2601.10160): The full paper, with the final results: misalignment fell from 45% to 9%, and the effect weakened but persisted through post-training (January 2026) (more advanced).
+- [[../Lenses/cloud-gradient-routing-masking-gradients-to-localize-computation-in-neural-networks|Gradient Routing]] (Noah's CG list)
+- [[../Lenses/anthropic-beyond-data-filtering-knowledge-localization-for-capability-removal-in-llms|Selective Gradient Masking]] (Noah's CG list)
 
 ## Tests
 
