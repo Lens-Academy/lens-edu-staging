@@ -21,6 +21,7 @@ If capabilities can jump ahead while alignment stays behind, safety methods that
 - [Evolution provides no evidence for the sharp left turn (LessWrong)](https://www.lesswrong.com/posts/hvz9qjWyv8cLX9JJR/evolution-provides-no-evidence-for-the-sharp-left-turn): Quintin Pope's well-known critique that human evolution is a misleading analogy, since humanity's jump came from culture and has no counterpart in AI training; read "Evolution's sharp left turn happened for evolution-specific reasons", "Don't misgeneralize from evolution to AI" and "Human 'misalignment' with inclusive genetic fitness provides no evidence for AI misalignment" (April 2023).
 - [[../Lenses/optimism-ai-is-easy-to-control|AI is easy to control]]: read the section "Values are easy to learn", where Nora Belrose and Quintin Pope argue the opposite claim, that alignment generalizes further than capabilities, from how models handle moral questions far outside training; one side of a live debate (November 2023).
 - [Sharp Left Turn discourse: An opinionated review (LessWrong)](https://www.lesswrong.com/posts/2yLyT6kB7BQvTfEuZ/sharp-left-turn-discourse-an-opinionated-review): Steven Byrnes weighs both sides, agreeing with Pope that the evolution analogy is weak but arguing the core worry still stands; read sections 2 to 5 (January 2025) (more advanced).
+- [[../Lenses/lesswrong-context-disaster|Context disaster]] (Noah's CG list 🟢)
 
 ## Tests
 

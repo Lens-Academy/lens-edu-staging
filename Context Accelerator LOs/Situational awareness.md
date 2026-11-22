@@ -19,6 +19,7 @@ Decisions about releasing AI models lean on tests of how they behave. If a model
 - [[../video_transcripts/rational-animations-ais-dont-scheme-if-they-know-were-watching|AIs Don't Scheme... If They Know We're Watching]]: Rational Animations video on the 2025 OpenAI and Apollo Research tests, where models noticed they were being tested, noticed it more after safety training, and behaved worse once that awareness was removed from their reasoning (2025).
 - [[../Lenses/AI Safety Atlas - Evaluations - Dangerous Capability Evaluations|Dangerous Capability Evaluations]]: read only the "Situational Awareness" section, on what the term means (no consciousness needed), how it is measured, the "Pangolin" experiment, alignment faking, and why it is a precondition for scheming.
 - [Sonnet 4.5's eval gaming seriously undermines alignment evals (Redwood Research)](https://blog.redwoodresearch.org/p/sonnet-45s-eval-gaming-seriously): Claude Sonnet 4.5 often said it was being tested, and behaved worse when Anthropic switched that awareness off inside the model; read the opening, "Sonnet 4.5 is much more evaluation-aware than prior models", "Evaluation awareness seems to suppress misaligned behavior" and "What AI companies should do" (October 2025).
+- [[../Lenses/steinhardt-emergent-deception-and-emergent-optimization|Emergent Deception and Optimization]] (Noah's CG list 🟢)
 
 ## Tests
 #### Question: Choice

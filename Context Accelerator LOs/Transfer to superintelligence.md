@@ -20,6 +20,7 @@ Safety methods are tested on models weaker than the systems they must eventually
 - [[../articles/ahead-iiic-superalignment|Superalignment]]: Leopold Aschenbrenner, formerly of OpenAI's Superalignment team, on why RLHF breaks down for superhuman AI, the research bets (scalable oversight, weak-to-strong generalization, interpretability) and the plan to have each AI generation automate alignment for the next; read "The problem" and "The default plan" (May 2024).
 - [[../Lenses/The Case Against AI Control Research|The Case Against AI Control Research]]: John Wentworth argues that early AI will produce alignment "solutions" that look fine but can't be checked, that prosaic methods won't generalize to superintelligence, and that a chain of AI generations has the same problem at every step; one side of a live debate (January 2025).
 - [[../Lenses/Interpretability Will Not Reliably Find Deceptive AI|Interpretability Will Not Reliably Find Deceptive AI]]: Neel Nanda on why neither interpretability nor black-box tests will give reliable safeguards for superintelligence, and why methods that only work on pre-superintelligent systems are still worth building (2025).
+- [[../Lenses/lesswrong-context-disaster|Context disaster]] (Noah's CG list 🟢)
 
 ## Tests
 

@@ -18,6 +18,7 @@ Many safety proposals are judged by how they would work, not by how they could b
 - [[../Lenses/AFSRA - Security Mindset and Ordinary Paranoia|Security Mindset and Ordinary Paranoia]]: Yudkowsky's dialogue on why blocking the attacks you can imagine (ordinary paranoia) is not enough, why optimization finds the rare inputs chance never would, and why safety should rest on a few well-checked assumptions.
 - [[../Lenses/AFSRA - AI safety mindset|AI Safety Mindset]]: Yudkowsky on applying the same habit to AI: ask "How does this break?", search from the AI's point of view, submit schemes to outside scrutiny, and make an AI that doesn't want to hurt you the first line of defense.
 - [The Pre-Mortem Method (Psychology Today)](https://www.psychologytoday.com/ie/blog/seeing-what-others-dont/202101/the-pre-mortem-method): Gary Klein, who devised the premortem, on how to run one: imagine the plan has already failed and write down why, and what it does to overconfidence (January 2021).
+- [[../Lenses/lesswrong-ai-safety-mindset|AI safety mindset]] (Noah's CG list 🟢)
 
 ## Tests
 

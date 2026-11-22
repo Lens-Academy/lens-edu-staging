@@ -20,6 +20,8 @@ Developers can get an AI system's goals wrong, so being able to correct or switc
 - [[../Lenses/AFSRA - Corrigibility|Corrigibility]]: Nate Soares's definition of a corrigible agent (no resisting, no deceiving, keeps any subagents it builds corrigible), why most goals want to preserve themselves, and why penalty terms only push the AI to the nearest loophole.
 - [Should We Fear Supersmart Robots? (Stuart Russell, Scientific American)](https://aima.eecs.berkeley.edu/~russell/papers/sciam16-supersmart.pdf): the case for a robot that is unsure what humans want, so that it treats being switched off as useful information and lets it happen, from the idea's leading proponent (June 2016).
 - [[../video_transcripts/80000-hours-ai-labs-are-making-ais-good-they-should-do-the-exact-opposite|Corrigibility as the only goal]]: MIRI's Max Harms on what corrigibility means, why an AI told to "make the world good" will resist shutdown, and why he would make corrigibility its single goal; watch the chapter "Corrigibility is both uniquely valuable, and practical, to train" (1:32:34–1:45:06) (February 2026).
+- [[../Lenses/lesswrong-corrigibility|Corrigibility (LessWrong wiki)]] (Noah's CG list 🟢)
+- [[../Lenses/harms-cast-corrigibility-as-singular-target|Corrigibility as a Singular Target]] (Noah's CG list)
 
 ## Tests
 
