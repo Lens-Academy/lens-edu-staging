@@ -19,6 +19,7 @@ People working on AI risk disagree deeply about how likely catastrophe is, what 
 - [On the Contrary, Steelmanning Is Normal; ITT-Passing Is Niche (LessWrong)](https://www.lesswrong.com/posts/jo5Fhkb7escrYE9cC/on-the-contrary-steelmanning-is-normal-itt-passing-is-niche): Zack M. Davis replies that improving an argument is how you learn from it, and that the ITT matters mainly when communication has broken down; the other side (January 2024).
 - [[../Lenses/HftS - Is That Your True Rejection|Is That Your True Rejection?]]: the reason someone gives for rejecting an idea is often not what decided it, so ask what the view really rests on before arguing against the stated reason.
 - [Four Types of Disagreement (LessWrong)](https://www.lesswrong.com/posts/9vKqAQEDxLvKh7KcN/four-types-of-disagreement): sorting a dispute into facts, values, strategy and labels, and how value disagreements often pass for factual ones (April 2025).
+- [[../Lenses/cotra-the-art-of-the-epistemic-deal|The art of the epistemic deal]] (BlueDot Deep Field pre-reading)
 
 ## Tests
 

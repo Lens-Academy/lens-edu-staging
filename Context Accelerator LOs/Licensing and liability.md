@@ -18,6 +18,7 @@ Licensing and liability come up often in debates about AI law. Knowing how each 
 - [Licensing Frontier AI Development: Legal Considerations and Best Practices (Lawfare)](https://www.lawfaremedia.org/article/licensing-frontier-ai-development-legal-considerations-and-best-practices): what a licensing regime covering hardware, training and deployment would require (security, dangerous-capability evaluations, red-teaming, monitoring), which agency might run it, and how it could lock in a few big companies (January 2024).
 - [Tort Law Should Be the Centerpiece of AI Governance (Lawfare)](https://www.lawfaremedia.org/article/tort-law-should-be-the-centerpiece-of-ai-governance): Weil's side of a live debate over whether liability should lead or only fill gaps, with why liability beats prescriptive rules, mandatory liability insurance, and the limits of liability (August 2024).
 - [An FDA for AI? Pitfalls and Plausibility of Approval Regulation for Frontier AI (arXiv)](https://arxiv.org/html/2408.00821v1): two Harvard scholars test the FDA analogy and find where AI strains it: what counts as the regulated product, hard-to-measure risks, open weights and enforcement; read sections 2–4 (August 2024) (more advanced).
+- [[../Lenses/arxiv-a-framework-for-the-private-governance-of-frontier-artificial-intelligence|A Framework for the Private Governance of Frontier AI]] (Noah's CG list)
 
 ## Tests
 

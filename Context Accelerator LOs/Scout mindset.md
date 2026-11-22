@@ -18,6 +18,7 @@ Views on AI risk are bound up with people's identities, employers and funding, s
 - [Book Review: The Scout Mindset (Astral Codex Ten)](https://www.astralcodexten.com/p/book-review-the-scout-mindset): Scott Alexander on Galef's book; section III gives her thought-experiment tests for catching your own bias (imagine the same evidence favouring the other side; imagine your group believed the opposite), and section IV covers changing your mind when your identity is at stake (September 2021).
 - [[../Lenses/HftS - The Bottom Line|The Bottom Line]]: Yudkowsky's clever arguer, who writes the conclusion first and gathers the reasons afterwards, and why such a conclusion tells you only who paid for it.
 - [Keep Your Identity Small (Paul Graham)](https://www.paulgraham.com/identity.html): why people can't think clearly about questions that have become part of their identity, and why you should let as few labels as possible into yours (February 2009).
+- [[../Lenses/carlsmith-fake-thinking-and-real-thinking|Fake thinking and real thinking]] (BlueDot Deep Field pre-reading)
 
 ## Tests
 

@@ -18,6 +18,7 @@ MAIM is one of the few concrete proposals for how rival powers could avoid a des
 - [[../articles/hendrycks-superintelligence-strategy-expert-version|Superintelligence Strategy]]: the original proposal from Hendrycks, Schmidt and Wang: why rivals would sabotage a bid for AI dominance, the escalation ladder from espionage to strikes on datacenters, and how to keep the standoff stable; read the Executive Summary and the chapter "Deterrence with Mutual Assured AI Malfunction (MAIM)" (March 2025).
 - [[../Lenses/delaney-crucial-considerations-in-asi-deterrence|Crucial considerations in ASI deterrence]]: breaks the MAIM argument into three claims and weighs the strongest reasons for and against each, including fuzzy red lines, escalation risk and the role of verification (December 2025).
 - [Why MAIM Falls Short for Superintelligence Deterrence (AI Frontiers)](https://ai-frontiers.org/articles/why-maim-falls-short-for-superintelligence-deterrence): a critic's case that states cannot reliably see how close a rival is to superintelligence, so MAIM risks needless sabotage or a preemptive spiral (August 2025).
+- [[../Lenses/nationalsecurity-superintelligence-strategy|Superintelligence Strategy]] (Noah's CG list)
 
 ## Tests
 

@@ -18,6 +18,7 @@ Memos, posts and funding pitches about AI risk are read by people deciding wheth
 - [Reasoning Transparency (Luke Muehlhauser, Open Philanthropy; EA Forum cross-post)](https://forum.effectivealtruism.org/posts/i9RJjun327SnT3vW8/reasoning-transparency): the standard guide to writing so readers can check you: lead with your key takeaways, say which considerations matter most, state how confident you are (with probabilities, since words like "plausible" are read differently), and say what kind of support each claim has (Dec 2017).
 - [ITT-passing and civility are good; "charity" is bad; steelmanning is niche (LessWrong)](https://www.lesswrong.com/posts/MdZyLnLHuaHrCskjy/itt-passing-and-civility-are-good-charity-is-bad): Rob Bensinger argues the main skill is passing an "ideological Turing test", stating an opposing view as its holders would, rather than steelmanning or being "charitable"; one side of a debate about these norms (Jul 2022).
 - [Epistemic Legibility (Elizabeth, LessWrong)](https://www.lesswrong.com/posts/jbE85wCkRr9z7tqmD/epistemic-legibility): why being easy to argue with is a separate virtue from being right, with examples of legible and illegible writing and a "How to be legible" section: name your sources, label what each belief rests on, and turn "probably" into numbers (Feb 2022).
+- [[../Lenses/giving-reasoning-transparency|Reasoning transparency]] (BlueDot Deep Field pre-reading)
 
 ## Tests
 

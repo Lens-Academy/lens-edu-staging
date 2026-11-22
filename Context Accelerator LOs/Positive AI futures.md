@@ -18,6 +18,7 @@ Work on AI risk is easier to direct when you know what success looks like, not o
 - [[../Lenses/U5 - Optional - Machines of Loving Grace|Machines of Loving Grace]]: Anthropic's CEO on why focusing on risk is not pessimism, which factors besides intelligence (experiments, clinical trials, the physical world) limit how fast AI can help, and what a "compressed 21st century" of biology could bring; read the introduction, "Basic assumptions and framework" and "1. Biology and health" (October 2024).
 - [What sort of post-superintelligence society should we aim for? (Forethought)](https://www.forethought.org/research/viatopia): Will MacAskill introduces "viatopia", a society on track for a near-best future rather than a fixed utopia, links it to the long reflection, and lists the goods any society would want, such as abundance, low catastrophic risk and the ability to reflect and change course (January 2026).
 - [How to Make the Future Better (Forethought)](https://www.forethought.org/research/how-to-make-the-future-better): MacAskill's concrete proposals for keeping options open after AGI: preventing autocracy, temporary commitments that must be renewed, and slowing the intelligence explosion; read the introduction and section 2, "Keeping our options open" (August 2025).
+- [[../Lenses/darioamodei-dario-amodei-the-adolescence-of-technology|The Adolescence of Technology]] (Noah's CG list)
 
 ## Tests
 #### Question: Choice

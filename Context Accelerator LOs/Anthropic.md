@@ -20,6 +20,7 @@ Anthropic is one of the few companies building the most capable AI systems. It a
 - [[../articles/anthropic-responsible-scaling-policy-version-3-0|Responsible Scaling Policy: Version 3.0]]: Anthropic explains its if-then safety framework, the "race to the top" it hoped to start, what worked and what didn't, and why it rewrote the policy (February 2026).
 - [[../Lenses/AICF - Ngo - Pragmatism and pessimization|Richard Ngo: Pragmatism and pessimization]]: a critic's view, from a former OpenAI and DeepMind researcher, of how Anthropic's "alignment" work and racing pushed capabilities forward. Read the section "Anthropic" (August 2026).
 - [The Long-Term Benefit Trust (Anthropic)](https://www.anthropic.com/news/the-long-term-benefit-trust): what being a public benefit corporation means for Anthropic, and how its independent trust elects board directors (September 2023; trust-appointed directors became a board majority in April 2026).
+- [[../Lenses/darioamodei-dario-amodei-the-adolescence-of-technology|The Adolescence of Technology]] (Noah's CG list)
 
 ## Tests
 

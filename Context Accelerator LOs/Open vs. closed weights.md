@@ -20,6 +20,7 @@ Decisions to release weights can't be undone, and they shape who can use, study 
 - [Open Source AI is the Path Forward (Meta)](https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/): Mark Zuckerberg's case for open weights, from innovation, cost and running models on your own servers to spreading power and safety through scrutiny; the open side in its leading proponent's words, though Meta has since said it will be more careful about what it opens (July 2024).
 - [On the Societal Impact of Open Foundation Models (AI Snake Oil)](https://www.normaltech.ai/p/on-the-societal-impact-of-open-foundation): Kapoor and Narayanan on what open weights make possible and why the question to ask is "marginal risk", the extra risk over closed models and tools people already have; written before newer models raised biorisk concerns (February 2024).
 - [Managing risks from increasingly capable open-weight AI systems (UK AI Security Institute)](https://www.aisi.gov.uk/work/managing-risks-from-increasingly-capable-open-weight-ai-systems): why open releases can't be rolled back and safeguards can be cheaply removed, and which mitigations, such as filtering training data and full-access audits, still help (August 2025).
+- [[../Lenses/seger-open-sourcing-highly-capable-foundation-models-an-evaluation-of-risks-benefits-and-alternative-methods-for-pursuing-open-source-objectives|Open-Sourcing Highly Capable Foundation Models]] (Noah's CG list)
 
 ## Tests
 
