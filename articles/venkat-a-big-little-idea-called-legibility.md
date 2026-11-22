@@ -75,7 +75,7 @@ I suspect that what tempts us into this failure is that legibility quells the an
 
 In _[Mind Wide Open](https://www.amazon.com/gp/product/0743241657?ie=UTF8&tag=ribbonfarmcom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0743241657),_ Steven Johnson's entertaining story of his experiences subjecting himself to all sorts of medical scanning technologies, he describes his experience with getting an fMRI scan. Johnson tells the researcher that perhaps they should start by examining his brain's baseline reaction to meaningless stimuli. He naively suggests a white-noise pattern as the right starter image. The researcher patiently informs him that subjects' brains tend to go crazy when a white noise (high Shannon entropy) pattern is presented. The brain goes nuts trying to find order in the chaos. Instead, the researcher says, they usually start with something like a black-and-white checkerboard pattern.
 
-![](https://ribbonfarm.com/static/media/2010/07/legible.jpg)
+![](https://web.archive.org/web/20261028201117im_/https://ribbonfarm.com/static/media/2010/07/legible.jpg)
 
 If my conjecture is correct, then the High Modernist failure-through-legibility-seeking formula is a large scale effect of the rationalization of the fear of (apparent) chaos.
 
