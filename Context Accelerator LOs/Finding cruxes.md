@@ -21,6 +21,7 @@ Disagreements about AI risk often stall because people trade arguments that woul
 - [[../Lenses/HftS - Is That Your True Rejection|Is That Your True Rejection?]]: why the reason someone gives for rejecting an idea, including ideas about AI, is often not the one that decided it, and why to ask yourself the same question.
 - [Contra double crux (LessWrong)](https://www.lesswrong.com/posts/nm6XuC9CzNBrthpPB/contra-double-crux): a critic's case that shared cruxes are rare, because most views rest on many considerations of moderate weight; one side of a debate with CFAR staff in the comments (October 2017).
 - [A taxonomy of cruxes (LessWrong)](https://www.lesswrong.com/posts/p35o3BvDfyiPWkpv8/a-taxonomy-of-cruxes): kinds of crux, including several beliefs that are each needed for a view, reasons that only look like cruxes because the view is held for other reasons too, and cruxes that only work in one direction (May 2020) (more advanced).
+- [[../Lenses/cotra-the-art-of-the-epistemic-deal|The art of the epistemic deal]] (BlueDot Deep Field pre-reading)
 
 ## Tests
 
