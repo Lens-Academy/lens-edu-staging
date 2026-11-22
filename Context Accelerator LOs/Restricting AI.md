@@ -20,6 +20,7 @@ Many people new to AI risk suggest keeping a dangerous AI in a box or letting it
 - [[../Lenses/carlsmith-is-power-seeking-ai-an-existential-risk|Is Power-Seeking AI an Existential Risk?]]: Carlsmith on myopic goals, narrow systems and limiting an AI's options, and why each may not hold up as capabilities grow. Read sections 4.3.1.3 "Myopia", 4.3.2.1 "Specialization", 4.3.2.3 "Scaling" and 4.3.3 "Controlling circumstances" (2022).
 - [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled|The Case for Ensuring That Powerful AIs Are Controlled]]: the founders of AI control on control versus alignment, why earlier containment ideas were rightly rejected, and why they aim only at early transformatively useful AI, not arbitrarily powerful AI. Read the introduction, up to "The control property" (January 2024).
 - [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents|AI Control: How to Make Use of Misbehaving AI Agents]]: a CSET policy explainer on how control works in practice (trusted and untrusted monitors, least privilege), and why weaker trusted models overseeing stronger ones may not scale. Read from "Methods for AI Control" to the end of "Novel AI Control Protocols", plus "Keeping Up with Future AI Agents" (October 2025).
+- [[../Lenses/bengio-safety-from-honesty-in-a-disinterested-ai-predictor|Scientist AI]] (Noah's CG list)
 
 ## Tests
 #### Question: Choice

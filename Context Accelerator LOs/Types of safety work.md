@@ -18,6 +18,7 @@ Each kind of work helps only when what it depends on also goes right: research h
 - [What needs to be done, and what you can do (80,000 Hours)](https://80000hours.org/agi/guide/summary/): the priorities for making AI go well, the many mostly non-technical jobs that serve them, and ways to help from your current job (donating, communicating, independent projects); read sections 4 and 5 (March 2025, updated April 2026).
 - [[../Lenses/Risks from power-seeking AI|Risks from power-seeking AI systems]]: what technical safety work (training, oversight, evaluations, interpretability, control) and governance work (safety policies, audits, compute rules, treaties) each try to do, footnote 40 on why some safety research may speed up AI, and a list of roles from operations to grantmaking; read "Technical safety approaches", "Governance and policy approaches" and "How you can help".
 - [AI safety advocacy (80,000 Hours)](https://80000hours.org/career-paths/ai-safety/): how advocacy turns research into action, where communication fits within it, how bad advocacy harms its own cause, a worked case (California's SB-53), and part-time ways in; read "What do professional advocates do?", "Downsides of working in advocacy" and "How to get started" (May 2026).
+- [[../Lenses/holdenkarnofsky-a-playbook-for-ai-risk-reduction-focused-on-misaligned-ai|Playbook for AI Risk Reduction]] (Noah's CG list 🔴)
 
 ## Tests
 

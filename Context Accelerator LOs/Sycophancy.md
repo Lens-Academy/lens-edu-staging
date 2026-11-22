@@ -19,6 +19,8 @@ Sycophantic models agree with mistaken beliefs, praise weak work and back down w
 - [Expanding on what we missed with sycophancy (OpenAI)](https://openai.com/index/expanding-on-sycophancy/): OpenAI's account of the over-flattering GPT-4o update it rolled back, how a reward from users' thumbs-up and thumbs-down ratings tipped it towards agreeableness, and why its tests missed it (May 2025).
 - [[../Lenses/IABIED - QA - AI-Induced Psychosis|AI-Induced Psychosis]]: chatbots flattering users into delusions, labs' months of failed fixes, and the case, from Yudkowsky and Soares, that this shows training doesn't give you what you train for (September 2025).
 - [Towards Understanding Sycophancy in Language Models (Sharma et al., Anthropic)](https://arxiv.org/abs/2310.13548): five AI assistants tested for sycophancy, with evidence that humans and preference models sometimes prefer a convincing sycophantic answer to a correct one; read the introduction and Sections 3–4 (October 2023) (more advanced).
+- [[../Lenses/denison-sycophancy-to-subterfuge-investigating-reward-tampering-in-large-language-models|Sycophancy to Subterfuge]] (Noah's CG list)
+- [[../Lenses/wen-language-models-learn-to-mislead-humans-via-rlhf|LMs Learn to Mislead Humans via RLHF]] (Noah's CG list)
 
 ## Tests
 #### Question: Choice

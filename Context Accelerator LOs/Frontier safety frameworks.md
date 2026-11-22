@@ -20,6 +20,11 @@ Safety frameworks and voluntary pledges are how frontier AI companies say they w
 - https://metr.org/blog/2025-12-09-common-elements-of-frontier-ai-safety-policies/: what twelve companies' safety policies have in common (December 2025).
 - https://www.governance.ai/analysis/anthropics-rsp-v3-0-how-it-works-whats-changed-and-some-reflections: what Anthropic's 2026 rewrite of its policy dropped, and the case for and against it.
 - https://www.aljazeera.com/news/2026/9/29/trump-top-tech-firms-sign-accord-to-self-police-ai-development: the September 2026 White House accord and its critics.
+- [[../Lenses/metr-common-elements-of-frontier-ai-safety-policies|Common Elements of Frontier AI Safety Policies]] (Noah's CG list 🔴)
+- [[../Lenses/karnofsky-if-then-commitments-for-ai-risk-reduction|If-Then Commitments for AI Risk Reduction]] (Noah's CG list 🟡)
+- [Anthropic's Responsible Scaling Policy v3](https://www.anthropic.com/news/responsible-scaling-policy-v3) (Noah's CG list)
+- [[../Lenses/openai-our-updated-preparedness-framework|OpenAI’s Preparedness Framework v2]] (Noah's CG list)
+- [[../Lenses/flynn-google-deepmind-strengthens-the-frontier-safety-framework|GDM’s Frontier Safety Framework v3]] (Noah's CG list)
 
 ## Tests
 #### Question: Choice

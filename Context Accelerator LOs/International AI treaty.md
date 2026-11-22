@@ -21,6 +21,11 @@ Many plans for reducing AI risk, from compute caps to a pause, work only if the 
 - [U.S.-China AI Agreements Need Verification, Not Trust (CNAS)](https://www.cnas.org/publications/cnas-insights/cnas-insights-u-s-china-ai-agreements-need-verification-not-trust): Why neither side will take the other's word, what verification of compute limits could look like, what can't be checked, and why the tools need building now (September 2026).
 - [Governing Dual-Use Technologies: Case Studies of International Security Agreements (arXiv)](https://arxiv.org/abs/2409.02779v1): What the IAEA, the START treaties, the chemical weapons body (OPCW), the Wassenaar export controls and the Biological Weapons Convention teach an AI treaty about inspections, challenge inspections and the cost of having no verification; read the Executive Summary, plus the OPCW and BWC case studies (September 2024).
 - [[../Lenses/AIV - Verification for International AI Governance|Verification for International AI Governance]]: Oxford Martin's report on which AI agreements could be checked today or within a few years, why data-centre compute is the tractable case, and the on-chip and off-chip hardware that could do it; read the abstract and executive summary (July 2025) (more advanced).
+- [[../Lenses/okeefe-chips-for-peace-how-the-u-s-and-its-allies-can-lead-on-safe-and-beneficial-ai|Chips for Peace]] (Noah's CG list 🔴)
+- [[../Lenses/barnett-technical-requirements-for-halting-dangerous-ai-activities|Technical Requirements for Halting Dangerous AI Activities]] (Noah's CG list 🟢)
+- [[../Lenses/barnett-ai-governance-to-avoid-extinction-the-strategic-landscape-and-actionable-research-questions|AI Governance to Avoid Extinction]] (Noah's CG list)
+- [[../Lenses/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence-abs|An International Agreement to Prevent the Premature Creation of Artificial Superintelligence]] (Noah's CG list)
+- [[../Lenses/AIV - Mechanisms to Verify International Agreements|Mechanisms to Verify International Agreements about AI Development]] (Noah's CG list)
 
 ## Tests
 #### Question: Choice

@@ -21,6 +21,7 @@ Many people who take AI risk seriously are offered jobs at frontier AI companies
 - [[../Lenses/shlegeris-ten-people-on-the-inside|Ten People on the Inside]]: what a handful of safety-minded staff could still do inside a company whose leadership doesn't take misalignment seriously (January 2025).
 - [Leaving Open Philanthropy, going to Anthropic (Joe Carlsmith)](https://joecarlsmith.substack.com/p/leaving-open-philanthropy-going-to): a safety researcher's reasoning for joining a frontier company despite thinking no one should build superintelligence now, with his worries about equity, limits on speaking, echo chambers and lending legitimacy; read "On going to Anthropic" (November 2025).
 - [[../articles/ngo-what-just-happened-pragmatism-and-pessimization|Pragmatism and Pessimization]]: a former DeepMind and OpenAI researcher argues that safety work inside AI companies helped them race "under the banner of safety", and that motivated reasoning warps insiders' choices; one side of a live debate; read the introduction and "If not alignment research, then what?" (August 2026).
+- [[../Lenses/shlegeris-ten-people-on-the-inside-p|Ten People On The Inside]] (Noah's CG list 🟢)
 
 ## Tests
 

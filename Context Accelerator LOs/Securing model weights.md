@@ -19,6 +19,7 @@ Whoever steals a frontier model's weights can run it without the developer's fil
 - [A Playbook for Securing AI Model Weights (RAND)](https://www.rand.org/pubs/research_briefs/RBA2849-1.html): the standard framework. It covers what an attacker gains from weights, examples from its 38 attack vectors (phishing, supply chain, physical access), security levels SL1–SL5, labs' estimates of how long each level takes, and measures such as rate-limiting outputs (November 2024).
 - [Security: Datacenter & Model Weight (FAR.AI, Lisa Thiergart)](https://www.far.ai/event-recordings/lisa-thiergart-security-datacenter-model-weight): transcript of a talk by a co-lead of the SL5 Task Force. Her estimate that most frontier labs are around SL2–SL3, why stolen weights lose their safety fine-tuning, insider and supply-chain threats, and why SL5 is so hard (May 2025).
 - [IIIb. Lock Down the Labs: Security for AGI (Situational Awareness)](https://situational-awareness.ai/lock-down-the-labs/): the national-security case that labs have "startup-level" security against state espionage. It argues that theft would erase a US lead that chip export controls protect, and that a secure lead is what buys time for safety. Written from a US-vs-China racing viewpoint (June 2024).
+- [[../Lenses/nevo-securing-ai-model-weights-preventing-theft-and-misuse-of-frontier-models|Securing AI Model Weights]] (Noah's CG list 🔴)
 
 ## Tests
 

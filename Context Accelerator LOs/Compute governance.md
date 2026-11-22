@@ -22,6 +22,9 @@ Many proposals for overseeing frontier AI, from chip export controls to training
 - [Location Verification for AI Chips (IAPS)](https://www.iaps.ai/research/location-verification-for-ai-chips): a short brief on how chips could prove roughly where they are, as a check on chip smuggling that undermines export controls (May 2025).
 - [DeepSeek's Lesson: America Needs Smarter Export Controls (RAND)](https://www.rand.org/pubs/commentary/2025/02/deepseeks-lesson-america-needs-smarter-export-controls.html): the case that chip controls still matter as algorithms get more efficient and more compute goes to inference, from a leading proponent of compute governance. Some of the US rules it discusses have changed since (February 2025).
 - [Training Compute Thresholds: Features and Functions in AI Regulation (GovAI)](https://www.governance.ai/research-paper/training-compute-thresholds-features-and-functions-in-ai-regulation): why regulators use training compute as a trigger, and why it should be only an initial filter for closer scrutiny, not a measure of risk (August 2024) (more advanced).
+- [[../Lenses/okeefe-chips-for-peace-how-the-u-s-and-its-allies-can-lead-on-safe-and-beneficial-ai|Chips for Peace]] (Noah's CG list 🔴)
+- [[../Lenses/heim-video-and-transcript-of-presentation-on-introduction-to-compute-governance|Intro to Compute Governance]] (Noah's CG list 🟡)
+- [[../Lenses/sastry-computing-power-and-the-governance-of-artificial-intelligence|Computing Power and the Governance of AI]] (Noah's CG list)
 
 ## Tests
 

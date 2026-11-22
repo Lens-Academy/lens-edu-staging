@@ -20,6 +20,8 @@ Many proposals to reduce AI risk work through some governance lever. Knowing the
 - [[../Lenses/AI Safety Atlas - Governance - Implementation|Implementation]]: how standards bodies, voluntary frameworks like NIST's, licensing and safety cases turn principles into enforceable rules; read the "AI Safety Standards" and "Ensuring Compliance" sections (2025).
 - [Tort Law Should Be the Centerpiece of AI Governance (Lawfare)](https://www.lawfaremedia.org/article/tort-law-should-be-the-centerpiece-of-ai-governance): the case for liability and mandatory insurance as the main lever, from its leading proponent, Gabriel Weil, with the limits he concedes (August 2024).
 - [Frontier AI Regulation: Managing Emerging Risks to Public Safety (arXiv)](https://arxiv.org/abs/2307.03718): the influential proposal for regulating frontier developers through standards, registration and reporting, and licensing; read the executive summary and section 1 (November 2023) (more advanced).
+- [[../Lenses/security-cset-ai-governance-at-the-frontier|Governance at the Frontier]] (Noah's CG list 🟡)
+- [[../Lenses/arxiv-a-framework-for-the-private-governance-of-frontier-artificial-intelligence|A Framework for the Private Governance of Frontier AI]] (Noah's CG list)
 
 ## Tests
 

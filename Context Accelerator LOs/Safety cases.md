@@ -21,6 +21,8 @@ Safety cases put the burden on developers to show, with evidence, that a specifi
 - [Safety Cases: How to Justify the Safety of Advanced AI Systems (Clymer et al., arXiv)](https://arxiv.org/abs/2403.10462): the four kinds of safety argument (inability, control, trustworthiness, deference), the evidence each needs, and why trustworthiness arguments are hard to make while a model might be faking alignment. Read sections 1–2, the Introduction and Executive Summary (March 2024).
 - [Safety Cases Explained: How to Argue an AI is Safe (Jan Wehner, LessWrong)](https://www.lesswrong.com/posts/38HzJMYdr2YL5gWQs/safety-cases-explained-how-to-argue-an-ai-is-safe): a plain-language overview of how safety cases put the burden of proof on developers, how they are borrowed from fields like aviation and nuclear power, and how they can fail through weak claims, reviewers who aren't independent, and commercial pressure (December 2025).
 - [AI companies are unlikely to make high-assurance safety cases if timelines are short (Ryan Greenblatt, LessWrong)](https://www.lesswrong.com/posts/neTbrpBziAsTH5Bn7/ai-companies-are-unlikely-to-make-high-assurance-safety): one researcher's argument that security and scheming risk make strong safety cases unlikely soon, and that companies probably won't pause for lack of one. Read up to the end of "Sufficiently mitigating scheming risk is unlikely", plus "Companies likely won't unilaterally slow down" (January 2025).
+- [[../Lenses/clymer-safety-cases-how-to-justify-the-safety-of-advanced-ai-systems|Safety Cases]] (Noah's CG list 🟡)
+- [[../Lenses/buhl-an-alignment-safety-case-sketch-based-on-debate-pdf|Alignment safety case based on debate]] (Noah's CG list)
 
 ## Tests
 
