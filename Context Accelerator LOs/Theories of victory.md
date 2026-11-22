@@ -25,6 +25,7 @@ Many actions sound helpful but only reduce risk if they fit a story that ends sa
 - [[../Lenses/holdenkarnofsky-a-playbook-for-ai-risk-reduction-focused-on-misaligned-ai|Playbook for AI Risk Reduction]] (Noah's CG list 🔴)
 - [[../Lenses/U2 - AI 2040 First Three Years|AI 2040]] (Noah's CG list 🔴)
 - [[../Lenses/barnett-ai-governance-to-avoid-extinction-the-strategic-landscape-and-actionable-research-questions|AI Governance to Avoid Extinction]] (Noah's CG list)
+- [[../Lenses/convergenceanalysis-ai-governance-needs-a-theory-of-victory|AI governance needs a theory of victory]] (Noah's CG list 🔴)
 
 ## Tests
 

@@ -19,6 +19,7 @@ Many capable people apply to a few oversubscribed programmes, get rejected and s
 - [AGI safety career advice (LessWrong)](https://www.lesswrong.com/posts/ho63vCb2MNFijinzY/agi-safety-career-advice): Richard Ngo on fast-feedback projects, agency, gaps nobody has got round to, finding mentors and pitching yourself to organisations; read "General mindset" and the high-level advice at the start of the alignment and governance sections (May 2023).
 - [[../video_transcripts/robertmiles-ai-safety-career-advice-and-so-can-you|AI Safety Career Advice (Rob Miles)]]: from "So, how do you actually do the training montage?" to the end: replicating papers, publishing often and seeking feedback, trying a path rather than deciding everything first, and free career advising.
 - [Advice for Sending Cold Messages to Busy People (EA Forum)](https://forum.effectivealtruism.org/posts/oKCAytGYKx9dcdBQC/advice-for-sending-cold-messages-to-busy-people-at-eag): Neel Nanda and Jemima on writing a short, specific message to a busy researcher, with evidence of what you've done and one concrete question (June 2025).
+- [[../Lenses/paulgraham-how-to-do-great-work|How to do great work]] (BlueDot Deep Field pre-reading)
 
 ## Tests
 

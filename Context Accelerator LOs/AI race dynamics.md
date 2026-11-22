@@ -20,6 +20,7 @@ Many risk arguments rest on the claim that developers will deploy systems before
 - [Alignment tax (AI Alignment Forum wiki)](https://www.alignmentforum.org/w/alignment-tax): the extra cost of building AI safely, and how to reduce it.
 - [[../Lenses/AIF - Situational Awareness|Situational Awareness]]: the case that the US must race China to AGI.
 - [[../Lenses/U4 - Is the Race Even Real|Is the race even real?]]: tests the claim that the US and China are racing.
+- [[../Lenses/darioamodei-dario-amodei-we-must-pace-the-frontier|Pacing the Frontier]] (Noah's CG list 🔴)
 
 ## Tests
 

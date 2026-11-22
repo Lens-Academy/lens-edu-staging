@@ -26,6 +26,7 @@ Calls to pause or slow frontier AI are central and much disputed; in 2026 even t
 - [AI Pause Will Likely Backfire (LessWrong)](https://www.lesswrong.com/posts/3siLbdd4338gfTM7g/ai-pause-will-likely-backfire-guest-post): Nora Belrose's case against a pause: realistic pauses won't be international or cover hardware, so they cause overhang, illegal labs and brain drain. Read the section "Realistic AI pauses would be counterproductive" (October 2023).
 - [[../Lenses/belrose-ai-pause-will-likely-backfire-guest-post|AI Pause Will Likely Backfire]] (Noah's CG list 🟢)
 - [[../Lenses/barnett-technical-requirements-for-halting-dangerous-ai-activities|Technical Requirements for Halting Dangerous AI Activities]] (Noah's CG list 🟢)
+- [[../Lenses/carlsmith-on-restraining-ai-development-for-the-sake-of-safety|On Restraining AI Development]] (Noah's CG list 🟢)
 
 ## Tests
 

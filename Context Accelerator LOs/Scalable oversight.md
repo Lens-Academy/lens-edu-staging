@@ -28,6 +28,7 @@ Training methods like RLHF rely on people judging outputs. Once AI does work its
 - [[../Lenses/brown-cohen-avoiding-obfuscation-with-prover-estimator-debate|Prover-Estimator Debate]] (Noah's CG list)
 - [[../Lenses/charikar-quantifying-the-gain-in-weak-to-strong-generalization|Quantifying the Gain in Weak-to-Strong Generalization]] (Noah's CG list)
 - [[../Lenses/engels-scaling-laws-for-scalable-oversight|Scaling Laws for Scalable Oversight]] (Noah's CG list)
+- [[../Lenses/leike-scalable-agent-alignment-via-reward-modeling-a-research-direction-abs|Recursive Reward Modeling]] (Noah's CG list)
 
 ## Tests
 
