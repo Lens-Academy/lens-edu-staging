@@ -84,6 +84,7 @@ short:: true
 #### Choice
 key:: facilitation_experience
 content:: Have you led group discussions or taught before?
+description:: No experience yet is fine: we train every navigator.
 options::
 - Yes, regularly
 - A few times
@@ -124,6 +125,19 @@ content:: Group sessions per week you could lead: maximum
 max-chars:: 3
 short:: true
 required:: true
+
+#### Question
+key:: nominee
+content:: Who's the most exceptional person you'd nominate to navigate with Lens? Include their name and email.
+description:: You can nominate more than one. If we think they'd be a great fit, we may reach out to them.
+max-chars:: 500
+
+#### Choice
+key:: nominee_mention_ok
+content:: Can we mention your name when we reach out to them?
+options::
+- Yes
+- No
 
 #### Question
 key:: anything_else
