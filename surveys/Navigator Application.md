@@ -4,7 +4,9 @@ title: Navigator Application
 ---
 
 #### Text
-content:: Thanks for wanting to navigate with Lens! These few questions help us get to know you. It takes about five minutes, and questions without a red star are optional.
+content:: Thanks for wanting to navigate with Lens! These questions help us get to know you. It takes about 15 minutes, and questions without a red star are optional.
+
+Please answer without AI assistance: we're interested in your own thinking and voice. Bullet points are welcome.
 
 #### Question
 key:: full_name
@@ -75,6 +77,7 @@ required:: true
 #### Question
 key:: heard_about_lens_detail
 content:: If other, or if someone referred you, tell us where or who.
+description:: Please be specific, for example: "[Name] recommended it", "a post by [name] on LinkedIn", or "found it searching for AI safety courses".
 max-chars:: 300
 short:: true
 
