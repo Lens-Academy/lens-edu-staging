@@ -294,7 +294,7 @@ tags: [wip]
         Lens.requestFeedback(lastResponseId, "Can you give me feedback on my theory of change?");
       }
       fbClear();
-      fbLine("Your feedback is being written in the tutor conversation beside this page: what is unclear, the weakest link between two stages, any output written as an outcome, and the assumptions you have left implicit. If");
+      fbLine("Your feedback is being written in the tutor conversation beside this page: what is unclear, the weakest link between two stages, any output written as an outcome, and the assumptions you have left implicit. If no link is weak, say so.");
       if (result.score != null) fbLine("The assessor also scored the chain " + result.score + " out of 100.");
       if (atSend < BOXES.length) {
         fbLine("You asked with " + atSend + " of " + BOXES.length + " boxes filled, so the read only covers what was there. Fill the rest and ask again.");
