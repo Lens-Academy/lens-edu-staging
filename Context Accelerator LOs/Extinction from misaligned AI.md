@@ -19,6 +19,7 @@ If you assume an AI would have to hate humans to kill them, you will underrate t
 - [[../Lenses/IABIED - QA - Preserving Humans Negligible|Wouldn't Preserving Humans Be a Negligible Expense?]]: cheap isn't the same as wanted; why the AI would use Earth's oceans, matter and sunlight first, despite all the resources in space.
 - [[../Lenses/minuteearth-three-specific-ways-ai-could-kill-us-all|Three Specific Ways AI Could Kill Us All]]: a four-minute video with three concrete scenarios: draining the world's power for a maths problem, stripping oxygen from the air, and a pathogen to stop humans shutting it down.
 - [Notes on Fatalities from AI Takeover (Redwood Research)](https://blog.redwoodresearch.org/p/notes-on-fatalities-from-ai-takeover): a leading safety researcher's dissenting estimate that about half of people, not everyone, would die in expectation, with his reasons for and against survival. Read the estimates and the reasons sections (September 2025).
+- [[../Lenses/The AI Book That's Freaking Out National Security Advisors|Video narrative of If Anyone Builds It, Everyone Dies]] (Noah's CG list 🟢)
 
 ## Tests
 

@@ -22,6 +22,7 @@ Plans that wait for public alarm, or for regulation "after the first incident", 
 - [[../Lenses/IABIED - QA - The Lemoine Effect|The Lemoine Effect]]: why early AI warning signs get dismissed, then become old news, so there may never be a bright red line, only a slowly reddening brown one.
 - [Preparing for Warning Shots to Catalyze International Cooperation on AGI Risks (LessWrong)](https://www.lesswrong.com/posts/uK7gguNeME5DnmdrL/preparing-for-warning-shots-to-catalyze-international): why a crisis helps only if policy options are ready, how gradual desensitisation and framing an incident as a one-off can waste it, and how one incident could lead to tighter limits or to faster national races (June 2026).
 - [[../articles/kidd-should-safety-researchers-quit-frontier-labs-re-warning-shots|Should Safety Researchers Quit Frontier Labs re. Warning Shots?]]: a strategy that depends on warning shots, set out and answered after the 2026 Hugging Face incident. Includes why past warning shots led to very different responses (Chernobyl, Hiroshima, COVID) (September 2026).
+- [[../Lenses/karnofsky-how-we-could-stumble-into-ai-catastrophe|How we could stumble into AI catastrophe]] (Noah's CG list 🟡)
 
 ## Tests
 

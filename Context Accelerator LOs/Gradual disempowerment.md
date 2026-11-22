@@ -19,6 +19,8 @@ Many safety plans focus on making each AI system do what its operator wants. If 
 - [[../articles/fenwick-gradual-disempowerment|Gradual disempowerment (80,000 Hours)]]: the six claims, a step-by-step story of how obedient AI could still leave humans sidelined, the main reasons for doubt, and proposed fixes (April 2025).
 - [[../Lenses/1-gradual-disempowerment-systemic-existential-risks-from-incremental-ai-development|Gradual Disempowerment (Kulveit et al.)]]: the original paper; read the Executive Summary and Introduction, Section 4 (Misaligned States, including the rentier-state comparison) and Section 5 (Mutual Reinforcement) (January 2025).
 - [Thoughts on Gradual Disempowerment (LessWrong)](https://www.lesswrong.com/posts/ct6SMDuexe9uBwDoL/thoughts-on-gradual-disempowerment): Tom Davidson's critique: capital owners and officials would likely keep power, so the risk is really misalignment or power concentration; read the Summary and Points of disagreement (August 2025).
+- [[../Lenses/greaterwrong-what-failure-looks-like|What failure looks like]] (Noah's CG list 🟡)
+- [[../Lenses/kulveit-gradual-disempowerment-systemic-existential-risks-from-incremental-ai-development|Gradual Disempowerment]] (Noah's CG list 🟢)
 
 ## Tests
 

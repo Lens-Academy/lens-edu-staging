@@ -21,6 +21,12 @@ Scenarios like AI 2027 shape how the public, journalists and policymakers pictur
 - [Burdensome Details (LessWrong)](https://www.lesswrong.com/posts/Yq6aA4M3JKWaQepPJ/burdensome-details): Eliezer Yudkowsky's short essay on why every added detail makes a story feel more plausible but less probable, with futurists' scenarios as a main example (September 2007).
 - [AI 2027: Responses (LessWrong)](https://www.lesswrong.com/posts/gyT8sYdXch5RWdpjx/ai-2027-responses): Zvi Mowshowitz's roundup of reactions to AI 2027; read the sections from "Having a Concrete Scenario is Helpful" through "Phillip Tetlock Calibrates His Skepticism", plus "Timothy Lee Remains Skeptical", for what scenarios are good for, the worry that the race story could become self-fulfilling, and the authors' replies (April 2025).
 - [A Deep Critique of AI 2027's Bad Timeline Models (LessWrong)](https://www.lesswrong.com/posts/PAYfmG2aRbdb74mEp/a-deep-critique-of-ai-2027-s-bad-timeline-models): the critique by the physicist titotal of the timelines model behind AI 2027, arguing that its dates rest on weakly supported choices such as a faster-than-exponential trend curve; one side of a live debate, and the authors have replied (June 2025) (more advanced).
+- [[../Lenses/greaterwrong-what-failure-looks-like|What failure looks like]] (Noah's CG list 🟡)
+- [[../Lenses/karnofsky-how-we-could-stumble-into-ai-catastrophe|How we could stumble into AI catastrophe]] (Noah's CG list 🟡)
+- [[../Lenses/The AI Book That's Freaking Out National Security Advisors|Video narrative of If Anyone Builds It, Everyone Dies]] (Noah's CG list 🟢)
+- [[../Lenses/steinhardt-gpt-2030-and-catastrophic-drives-four-vignettes|Catastrophic Drives: Four Vignettes]] (Noah's CG list 🟢)
+- [[../Lenses/kapoor-common-ground-between-ai-2027-ai-as-normal-technology|Common ground between AI 2027 and AI as normal technology]] (Noah's CG list 🔴)
+- [[../Lenses/U2 - AI 2040 First Three Years|AI 2040]] (Noah's CG list 🔴)
 
 ## Tests
 

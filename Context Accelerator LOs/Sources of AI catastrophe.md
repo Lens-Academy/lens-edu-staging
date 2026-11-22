@@ -20,6 +20,8 @@ Most fixes work on some sources and not others: alignment research does little a
 - [[../articles/arxiv-an-overview-of-catastrophic-ai-risks|An Overview of Catastrophic AI Risks]]: Hendrycks, Mazeika and Woodside's four sources (malicious use, AI race, organisational risks, rogue AIs), each with its own suggested fixes. Read the Executive Summary and section 3.1.3 "Automated Warfare", on how a false alarm in an automated nuclear system could start a war (June 2023).
 - [Thinking About Risks From AI: Accidents, Misuse and Structure (Lawfare)](https://www.lawfaremedia.org/article/thinking-about-risks-ai-accidents-misuse-and-structure): Zwetsloot and Dafoe's original three-way split, why structural risk can arise when nobody misuses AI and it works as designed, and why each kind needs different policy (February 2019).
 - [[../Lenses/AI Safety Atlas - Risks - Risk Amplifiers|Risk Amplifiers]]: how competition raises misuse, misalignment and systemic risks, and how well-meant AI systems fail for lack of capability or information. Read the "Race Dynamics" and "Accidents" sections.
+- [[../Lenses/steinhardt-gpt-2030-and-catastrophic-drives-four-vignettes|Catastrophic Drives: Four Vignettes]] (Noah's CG list 🟢)
+- [[../Lenses/safety-ai-risks-that-could-lead-to-catastrophe-cais|An Overview of Catastrophic AI Risks]] (Noah's CG list 🟢)
 
 ## Tests
 #### Question: Choice

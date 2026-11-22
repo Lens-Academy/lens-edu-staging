@@ -21,6 +21,8 @@ Much disagreement between older and newer writing on AI risk comes from applying
 - [Evaluating the historical value misspecification argument (LessWrong)](https://www.lesswrong.com/posts/i5kijcjFJD6bn7dwq/evaluating-the-historical-value-misspecification-argument): Matthew Barnett argues that GPT-4's grasp of human values should make MIRI update; read the post, then the top replies from Yudkowsky, Soares and Bensinger on why understanding values is not caring about them (October 2023).
 - [[../Lenses/IABIED - QA - Claude Shows Alignment|Doesn't Claude show signs of being aligned?]]: Yudkowsky and Soares on how the classic case applies to LLMs: knowing ethics versus being moved by it, alignment faking and shutdown-style tests, and the many masks of a model trained to imitate many people (2025).
 - [[../Lenses/turntrout-reward-is-not-the-optimization-target|Reward is not the optimization target]]: Alex Turner's argument that reward shapes what an RL-trained system learns without the system coming to maximize reward (2022) (more advanced).
+- [[../Lenses/ngo-the-alignment-problem-from-a-deep-learning-perspective|The Alignment Problem from a Deep Learning Perspective]] (Noah's CG list 🟢)
+- [[../Lenses/greaterwrong-the-behavioral-selection-model-for-predicting-ai-motivations|Behavioral selection model]] (Noah's CG list 🟡)
 
 ## Tests
 #### Question: Choice

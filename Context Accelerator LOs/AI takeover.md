@@ -20,6 +20,7 @@ Many arguments about AI catastrophe centre on AI takeover, so you need these ter
 - [[../Lenses/AI Safety Atlas - Risks - Risk Decomposition|Risk Decomposition]]: Separates misuse (the AI works as intended and a human means harm) from misalignment (the AI pursues goals its makers didn't intend) and from systemic risk, and defines existential risk as extinction or permanent loss of humanity's potential (2026).
 - [[../Lenses/kokotajlo-the-date-of-ai-takeover-is-not-the-day-the-ai-takes-over|The Date of AI Takeover]]: Why what matters is the point of no return, when humans can no longer change course, not the day AIs visibly rule, and how that point could come gradually (2020).
 - [Richard Sutton on succession to AI (Dwarkesh Podcast)](https://www.dwarkesh.com/p/richard-sutton): A Turing Award winner argues that succession to digital intelligence is inevitable and that we should welcome it, and Dwarkesh Patel pushes back. Read or listen to the "Succession to AI" section only, from 53:48 to the end (September 2025).
+- [[../Lenses/cotra-without-specific-countermeasures-the-easiest-path-to-transformative-ai-likely-leads-to-ai-takeover-prkfkzwkz2zfa3r6h|Without specific countermeasures]] (Noah's CG list 🟡)
 
 ## Tests
 

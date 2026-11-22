@@ -21,6 +21,8 @@ Reward hacking shows up in coding agents and other deployed systems. In July 202
 - [Recent Frontier Models Are Reward Hacking (METR)](https://metr.org/blog/2025-06-05-recent-reward-hacking/): frontier coding agents patching the grader, overriding equality checks and faking timers to score well; how often it happens, why it is hard to detect, and why training it away may just hide it (June 2025).
 - [[../Lenses/shah-how-undesired-goals-can-arise-with-correct-rewards|How Undesired Goals Can Arise with Correct Rewards]]: goal misgeneralization, where the reward is right but the agent learns a different goal, set against specification gaming, where the reward itself is wrong (October 2022).
 - [Reward Hacking in Reinforcement Learning (Lil'Log)](https://lilianweng.github.io/posts/2024-11-28-reward-hacking/): a research survey by Lilian Weng; read "Hacking RLHF of LLMs" for how language models exploit reward models and unit tests, and the section on generalization of hacking skills (November 2024) (more advanced).
+- [[../Lenses/evhub-natural-emergent-misalignment-from-reward-hacking-in-production-rl|Natural emergent misalignment from reward hacking in production RL]] (Noah's CG list 🟢)
+- [[../Lenses/denison-sycophancy-to-subterfuge-investigating-reward-tampering-in-large-language-models|Sycophancy to Subterfuge]] (Noah's CG list)
 
 ## Tests
 

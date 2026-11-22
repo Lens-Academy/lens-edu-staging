@@ -23,6 +23,8 @@ How hard alignment is drives most estimates of AI risk and many strategy choices
 - [The Problem (MIRI)](https://intelligence.org/the-problem/): the case in today's terms: AIs are grown, not designed, training instils proxies rather than the intended goals, and many problems only show up once a system is too capable to fail safely; read section 3, "ASI is very likely to pursue the wrong goals" (December 2025).
 - [[../Lenses/AFSRA - Nearest unblocked strategy|Nearest unblocked strategy]]: why forbidding one bad plan leads a capable optimizer to the most similar plan you didn't forbid, and why whitelisting beats a growing blacklist.
 - [Why AI alignment could be hard with modern deep learning (Cold Takes)](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/): Ajeya Cotra on why training that rewards good-looking behaviour can produce saints, sycophants or schemers that every test you can devise fails to tell apart, plus where optimists and pessimists disagree (September 2021).
+- [[../Lenses/cotra-without-specific-countermeasures-the-easiest-path-to-transformative-ai-likely-leads-to-ai-takeover-prkfkzwkz2zfa3r6h|Without specific countermeasures]] (Noah's CG list 🟡)
+- [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes|Without fundamental advances]] (Noah's CG list 🟡)
 
 ## Tests
 
