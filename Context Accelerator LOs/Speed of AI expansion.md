@@ -21,6 +21,7 @@ How fast AI could turn intelligence into physical power sets how much time peopl
 - [Carl Shulman on the economy after AGI (80,000 Hours)](https://80000hours.org/podcast/episodes/carl-shulman-economy-agi/): one leading proponent on why most economists expect little growth from AI, and why Baumol-style bottlenecks and slow fab building need not hold back an economy where AI and robots can do all jobs; listen to or read 02:13:30 to 02:32:06 ("Economists and the intelligence explosion" to "Denying that robots can exist") (June 2024).
 - [Explosive growth from AI automation: a review of the arguments (Epoch AI, arXiv)](https://arxiv.org/abs/2309.11690): Ege Erdil and Tamay Besiroglu weigh three drivers of explosive growth against nine objections, including regulation, physical bottlenecks and slow automation, and judge explosive growth plausible but uncertain (July 2024) (more advanced).
 - [[../Lenses/forethought-preparing-for-the-intelligence-explosion|Preparing for the Intelligence Explosion]] (Noah's CG list)
+- [[../Lenses/erdil-explosive-growth-from-ai-automation-a-review-of-the-arguments-abs|Explosive Growth: A Review of the Arguments]] (Noah's CG list 🟢)
 
 ## Tests
 

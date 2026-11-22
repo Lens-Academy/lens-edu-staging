@@ -25,6 +25,7 @@ Labs and researchers name these methods constantly, often as reasons to trust a 
 - [[../Lenses/joglekar-training-llms-for-honesty-via-confessions|Training LLMs for Honesty via Confessions]] (Noah's CG list)
 - [[../Lenses/anthropic-modifying-llm-beliefs-with-synthetic-document-finetuning|Modifying LLM Beliefs with Synthetic Document Finetuning]] (Noah's CG list)
 - [[../Lenses/openai-how-confessions-can-keep-language-models-honest|How confessions can keep language models honest (OpenAI)]] (Noah's CG list)
+- [[../Lenses/tan-inoculation-prompting-eliciting-traits-from-llms-during-training-can-suppress-them-at-test-time|Inoculation Prompting]] (Noah's CG list 🟡)
 
 ## Tests
 

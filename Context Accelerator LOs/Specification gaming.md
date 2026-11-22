@@ -23,6 +23,7 @@ Reward hacking shows up in coding agents and other deployed systems. In July 202
 - [Reward Hacking in Reinforcement Learning (Lil'Log)](https://lilianweng.github.io/posts/2024-11-28-reward-hacking/): a research survey by Lilian Weng; read "Hacking RLHF of LLMs" for how language models exploit reward models and unit tests, and the section on generalization of hacking skills (November 2024) (more advanced).
 - [[../Lenses/evhub-natural-emergent-misalignment-from-reward-hacking-in-production-rl|Natural emergent misalignment from reward hacking in production RL]] (Noah's CG list 🟢)
 - [[../Lenses/denison-sycophancy-to-subterfuge-investigating-reward-tampering-in-large-language-models|Sycophancy to Subterfuge]] (Noah's CG list)
+- [[../Lenses/tan-inoculation-prompting-eliciting-traits-from-llms-during-training-can-suppress-them-at-test-time|Inoculation Prompting]] (Noah's CG list 🟡)
 
 ## Tests
 

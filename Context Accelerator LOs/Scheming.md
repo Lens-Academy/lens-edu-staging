@@ -26,6 +26,7 @@ A scheming model would behave well whenever it thought it was being watched, so 
 - [[../Lenses/anthropic-alignment-faking-in-large-language-models|Alignment Faking in LLMs]] (Noah's CG list 🔴)
 - [[../Lenses/carlsmith-scheming-ais-will-ais-fake-alignment-during-training-in-order-to-get-power|Scheming AIs (Carlsmith)]] (Noah's CG list 🟡)
 - [[../Lenses/steinhardt-emergent-deception-and-emergent-optimization|Emergent Deception and Optimization]] (Noah's CG list 🟢)
+- [[../Lenses/schoen-stress-testing-deliberative-alignment-for-anti-scheming-training-abs|Stress Testing Deliberative Alignment for Anti-Scheming Training]] (Noah's CG list 🟢)
 
 ## Tests
 #### Question: Choice

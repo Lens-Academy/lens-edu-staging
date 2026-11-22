@@ -20,6 +20,7 @@ Reading a reasoning model's chain of thought is one of the few practical ways to
 - [[../articles/anthropic-reasoning-models-dont-always-say-what-they-think|Reasoning models don't always say what they think]]: Anthropic slips hints into prompts and finds that reasoning models mostly use them without saying so, and almost never admit to a reward hack they learned (April 2025).
 - [Detecting misbehavior in frontier reasoning models (OpenAI)](https://openai.com/index/chain-of-thought-monitoring/): a monitor that reads the chain of thought catches more reward hacking than one that sees only actions, and penalising "bad thoughts" teaches the model to hide its intent rather than stop cheating (March 2025).
 - [Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety (arXiv)](https://arxiv.org/abs/2507.11473): a short position paper from researchers across the major labs. It covers why hard tasks force models to think out loud, how training choices and new architectures could erode this, and why developers should measure and protect monitorability (July 2025).
+- [[../Lenses/emmons-when-chain-of-thought-is-necessary-language-models-struggle-to-evade-monitors-abs|When CoT is Necessary, LMs Struggle to Evade Monitors]] (Noah's CG list)
 
 ## Tests
 
