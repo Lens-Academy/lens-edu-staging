@@ -21,6 +21,7 @@ Many people assume a smart enough AI would end up with good goals. The orthogona
 - [[../Lenses/IABIED - QA - Orthogonality|Orthogonality: AIs Can Have (Almost) Any Goal]]: Yudkowsky and Soares on why a smarter mind doesn't come to care about different things, and why the thesis says nothing about which goals training will actually instil (2025).
 - [A Tale of 2.5 Orthogonality Theses (EA Forum)](https://forum.effectivealtruism.org/posts/kCAcrjvXDt2evMpBz/a-tale-of-2-5-orthogonality-theses): separates "almost any pairing is possible" from "misaligned AI is likely", and argues that the case for risk needs more than orthogonality. One side of a live debate, from a critic of how the thesis is used (May 2022).
 - [[../Lenses/bostrom-the-superintelligent-will-motivation-and-instrumental-rationality-in-advanced-artificial-agents|The Superintelligent Will]]: Bostrom's original statement of the thesis. It covers the caveats behind "more or less any" and why AI motives need not look human. Read section 1 and the Conclusions only (2012) (more advanced).
+- [[../Lenses/lesswrong-orthogonality-thesis|Orthogonality thesis (LessWrong wiki)]] (Noah's CG list 🔴)
 
 ## Tests
 
