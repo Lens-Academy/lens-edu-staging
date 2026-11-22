@@ -272,7 +272,7 @@ Each clause of that narrowing is doing work: "covered chips", because Document 2
 :::
 
 :::callout {title="Baker (2023) on Task 5" tone="neutral" collapse="closed"}
-*In Baker's words below, M&V stands for monitoring and verification.*
+*M&V is used by Baker below to abbreviate monitoring and verification.*
 
 **§6.1 Qualified optimism.** "With certain preparations, the foreseeable challenges of one potential form of AI treaty verification (specifically, hardware-based verification of treaties setting rules on highly compute-intensive AI development) would mostly be challenges that were successfully addressed in nuclear arms control." "Chip-based approaches to verification cannot address all important risks from AI." "Substantial preparations would reduce each of these challenges to a difficulty that was manageable in the nuclear case (that is, some nuclear arms control M&V system faced a similar or greater difficulty, yet the system was adopted and had a strong track record)."
 
