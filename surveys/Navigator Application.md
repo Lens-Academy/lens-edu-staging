@@ -4,7 +4,10 @@ title: Navigator Application
 ---
 
 #### Text
-content:: Thanks for wanting to navigate with Lens! These questions help us get to know you. It takes about 15 minutes, and questions without a red star are optional. Please answer without AI assistance: we're interested in your own thinking and voice, and bullet points are welcome.
+content:: Thanks for wanting to navigate with Lens! These questions help us get to know you. It takes about 15 minutes, and questions without a red star are optional. **Please answer without AI assistance: we're interested in your own thinking and voice, and bullet points are welcome.**
+
+#### Text
+content:: **About you**
 
 #### Question
 key:: full_name
@@ -15,22 +18,27 @@ short:: true
 required:: true
 
 #### Question
-key:: why_navigate_ai_safety
-content:: Why do you want to navigate AI safety group discussions? A few sentences is plenty.
-max-chars:: 1500
+key:: cv_link
+content:: Link to your CV, LinkedIn, etc.
+max-chars:: 300
+short:: true
+#### Text
+content:: **Your experience**
+
+#### Choice
+key:: facilitation_experience
+content:: Have you led group discussions or taught before?
+description:: No experience yet is fine: we train every navigator.
+options::
+- Yes, regularly
+- A few times
+- Not yet
 required:: true
 
 #### Question
-key:: why_navigate
-content:: Why do you want to navigate for Lens, and join the Lens team, specifically?
-max-chars:: 1500
-required:: true
-
-#### Question
-key:: navigator_skills
-content:: What do you think makes a high-quality navigator or facilitator?
-max-chars:: 1500
-required:: true
+key:: facilitation_experience_detail
+content:: If you have, tell us a little about it: where, and who was in the group.
+max-chars:: 1000
 
 #### Question: Rating
 key:: ai_safety_context_self_rating
@@ -55,44 +63,26 @@ content:: Any certificates or credentials from those? Paste a link, or tell us w
 max-chars:: 500
 short:: true
 
+#### Text
+content:: **Why you want to navigate**
 #### Question
-key:: cv_link
-content:: Link to your CV or LinkedIn
-max-chars:: 300
-short:: true
-
-#### Choice
-key:: heard_about_lens
-content:: How did you hear about Lens?
-options::
-- A Lens course
-- A friend or colleague
-- An AI safety community or newsletter
-- Social media
-- Other
+key:: why_navigate_ai_safety
+content:: Why do you want to navigate AI safety group discussions? A few sentences is plenty.
+max-chars:: 1500
 required:: true
 
 #### Question
-key:: heard_about_lens_detail
-content:: If other, or if someone referred you, tell us where or who.
-description:: Please be specific, for example: "[Name] recommended it", "a post by [name] on LinkedIn", or "found it searching for AI safety courses".
-max-chars:: 300
-short:: true
-
-#### Choice
-key:: facilitation_experience
-content:: Have you led group discussions or taught before?
-description:: No experience yet is fine: we train every navigator.
-options::
-- Yes, regularly
-- A few times
-- Not yet
+key:: why_navigate
+content:: Why do you want to navigate for Lens, and join the Lens team, specifically?
+max-chars:: 1500
 required:: true
 
 #### Question
-key:: facilitation_experience_detail
-content:: If you have, tell us a little about it: where, and who was in the group.
-max-chars:: 1000
+key:: navigator_skills
+content:: What do you think makes a high-quality navigator or facilitator?
+max-chars:: 1500
+#### Text
+content:: **Commitment and capacity**
 
 #### Choice
 key:: ca_commitments
@@ -123,6 +113,27 @@ content:: Group sessions per week you could lead: maximum
 max-chars:: 3
 short:: true
 required:: true
+
+#### Text
+content:: **Last few things**
+
+#### Choice
+key:: heard_about_lens
+content:: How did you hear about Lens?
+options::
+- A Lens course
+- A friend or colleague
+- An AI safety community or newsletter
+- Social media
+- Other
+required:: true
+
+#### Question
+key:: heard_about_lens_detail
+content:: If other, or if someone referred you, tell us where or who.
+description:: Please be specific, for example: "[Name] recommended it", "a post by [name] on LinkedIn", or "found it searching for AI safety courses".
+max-chars:: 300
+short:: true
 
 #### Question
 key:: nominee
