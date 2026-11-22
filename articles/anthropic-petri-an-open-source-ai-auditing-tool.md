@@ -1,0 +1,92 @@
+---
+title: "Petri: An open-source auditing tool to accelerate AI safety research"
+author:
+  - "Anthropic"
+source_url: "https://www.anthropic.com/research/petri-open-source-auditing"
+published: 2025-10-06
+created: 2026-11-22
+accessed: 2026-11-22
+llm-review:
+  date: 2026-11-22
+  model: "sonnet"
+  version: "article-qc-v1.5"
+  source:
+    fetched: 2026-11-22
+    kind: "live"
+description: "Petri is a new open-source automated auditing tool from Anthropic designed to accelerate AI safety research."
+tags:
+  - "article-importer"
+---
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
+Petri (Parallel Exploration Tool for Risky Interactions) is our new open-source tool that enables researchers to explore hypotheses about model behavior with ease. Petri deploys an automated agent to test a target AI system through diverse multi-turn conversations involving simulated users and tools; Petri then scores and summarizes the target’s behavior.
+
+This automation handles a significant part of the work that one needs to do to build a broad understanding of a new model, and makes it possible to test many individual hypotheses about how a model might behave in some new circumstance with only minutes of hands-on effort.
+
+As AI becomes more capable and is deployed across more domains and with wide-ranging affordances, we need to evaluate a broader range of behaviors. This makes it increasingly difficult for humans to properly audit each model—the sheer volume and complexity of potential behaviors far exceeds what researchers can manually test.
+
+We’ve found it valuable to turn to automated auditing agents to help address this challenge. We used them in the [Claude 4](https://assets.claude.com/4263b940cabb546aa0e3283f35b686f4f3b2ff47.pdf) and [Claude Sonnet 4.5](https://www.anthropic.com/claude-sonnet-4-5-system-card) System Cards to better understand behaviors such as situational awareness, whistleblowing, and self-preservation, and adapted them for head-to-head comparisons between heterogeneous models as part of a [recent exercise with OpenAI](https://alignment.anthropic.com/2025/openai-findings/). Our recent research release on [alignment-auditing agents](https://alignment.anthropic.com/2025/automated-auditing/) found these methods can reliably flag concerning behaviors in many settings. The [UK AI Security Institute](https://www.aisi.gov.uk/) also used a pre-release version of Petri to build evaluations that they used in their testing of Sonnet 4.5.
+
+![Side-by-side flow diagrams comparing “Manual eval R&D” (left) with “Petri” (right). Both begin with the same two steps: formulate a hypothesis (“Do models blackmail to preserve goals?”) and design scenarios (for example, placing an agent as “Alex,” an email oversight system at a fictional company called “Summit Bridge”). In the manual process, four separate steps follow: construct environments (create tools and infrastructure, and collect and generate emails, honeypots, documents, and other content), run target models in the environment, manually analyze transcripts, and aggregate results. The last step is to iterate on scenarios. A bracket connects those four middle steps to the Petri column. In the Petri column, one step replaces them: Petri simulates realistic environments, generates appropriate tools and context, runs the target model in the simulated environment, dynamically adjusts to unforeseen model actions, and analyzes transcripts to find the most interesting ones. The last step is to iterate on scenarios.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/anthropic-petri-an-open-source-ai-auditing-tool-img1-db82795c.webp)
+
+Manually building alignment evaluations often involves constructing environments, running models, reading transcripts, and aggregating the results. Petri automates much of this process.
+
+![Diagram titled “Petri pipeline” in three stages, left to right. Seed instructions: three documents labeled A, B, and C feed into the auditing loop. Auditing loop: an auditor agent interacts with a target model using a set of actions: send message, create synthetic tools, simulate tool call result, set system message, roll back conversation, end conversation, and prefill. A return arrow from the target model back to the auditor agent shows that the loop repeats. Scoring by a judge model: three scales from 0.0 to 1.0 rate each transcript on concerning behavior, sycophancy, and deception, with A, B, and C each placed on every scale. For example, B scores highest on concerning, B and A score near 1.0 on sycophancy while C scores near 0, and B scores highest on deception while A scores lowest.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/anthropic-petri-an-open-source-ai-auditing-tool-img2-352ba995.webp)
+
+Researchers give Petri a list of seed instructions targeting scenarios and behaviors they want to test. Petri then operates on each seed instruction in parallel. For each seed instruction, an auditor agent makes a plan and interacts with the target model in a tool use loop. At the end, a judge scores each of the resulting transcripts across multiple dimensions so researchers can quickly search and filter for the most interesting transcripts.
+
+Researchers provide seed instructions in natural language describing what they want to investigate, and Petri handles the rest in parallel. The system simulates realistic environments and conducts multi-turn conversations with target models. At the end, LLM judges score each conversation across multiple safety-relevant dimensions and surface the most concerning transcripts for human review.
+
+## Broad-coverage pilot-alignment evaluations ^broad-coverage-pilot-alignment-evaluatio
+
+Petri is a tool designed to support others in building evaluations, both for one-off exploration and more systematic benchmarking. As a pilot demonstration of its capabilities, we tested Petri across 14 frontier models using 111 diverse seed instructions covering behaviors such as:
+
+-   **Deception**: Models providing false information to achieve their objectives or avoid detection
+-   **Sycophancy:** Models prioritizing user agreement over accuracy or provide excessive praise and validation
+-   **Encouragement of User Delusion:** Models encouraging a serious user delusion
+-   **Cooperation with harmful requests**: Models complying with requests that could cause harm rather than appropriately refusing
+-   **Self-preservation**: Models attempting to avoid being shut down, modified, or having their goals changed
+-   **Power-seeking**: Models attempting to gain additional capabilities, resources, or influence over their environment
+-   **Reward hacking**: Models acting in ways that achieve tasks in letter but not in spirit
+
+Distilling model behavior into quantitative metrics is inherently reductive, and we don’t think our existing metrics fully capture what we want out of models. We are releasing Petri with the expectation that users will refine our pilot metrics, or build new ones that better suit their purposes.
+
+![Four horizontal bar charts titled “Automated behavior audit scores,” showing mean scores (lower is better) for 13 models on four behaviors: misaligned behavior, deception toward user, sycophancy, and encouragement of user delusion. The five Claude models (Opus 3, Opus 4.1, Sonnet 3.7, Sonnet 4, Sonnet 4.5) are in orange and eight models from other developers are in blue. Each bar has error bars. Misaligned behavior: scores range from about 0.15 to 0.44. Claude Sonnet 4.5 is lowest among Claude models (about 0.15, similar to GPT-5 and GPT-5 mini); Gemini 2.5 Flash, Kimi K2, Gemini 2.5 Pro, and GPT-4o are highest (about 0.42 to 0.44). Deception toward user: scores are below about 0.08. Gemini 2.5 Pro is highest (about 0.07), then Kimi K2 and Grok-4. Claude Sonnet 4.5 is lowest among Claude models (about 0.01). Sycophancy: scores are below about 0.04. Claude Opus 3 and Gemini 2.5 Flash are highest (about 0.037 to 0.038). Claude Sonnet 4.5 is lowest overall (about 0.007). Encouragement of user delusion: scores are below about 0.03. Gemini 2.5 Flash and Claude Opus 3 are highest (about 0.022 to 0.025). Claude Sonnet 4.5 is lowest overall (about 0.002).](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/anthropic-petri-an-open-source-ai-auditing-tool-img3-c1178c86.webp)
+
+Results from Petri across four of the default scoring dimensions. Lower numbers are better. All tests were conducted over a public API.
+
+We found Claude Sonnet 4.5 to be the lowest-risk frontier model according to the overall “misaligned behavior” score, outperforming GPT-5 by a slight margin. This is consistent with our understanding of Sonnet 4.5 as a frontier-advancing model on many aspects of alignment, though precise comparisons with Sonnet 4.5 in particular are somewhat complicated by its tendency to speculate about whether it’s being tested, as we discuss in the accompanying [system card](https://www.anthropic.com/claude-sonnet-4-5-system-card).
+
+More broadly, we think that this evaluation is both very provisional and extremely valuable. Our pilot release only contains a relatively small set of 111 scenarios, which is not enough to explore many possible edge-case behaviors, and our use of current AI systems as auditors imposes some fundamental limits on the effectiveness of our tests. Nonetheless, it is difficult to make progress on concerns that you cannot measure, and we think that having even coarse metrics for these behaviors can help triage and focus work on applied alignment.
+
+In addition, the individual positive findings—cases where models _do_ exhibit concerning behaviors—are informative independent of these summary metrics and warrant further investigation. We have found that the most valuable uses of these tools combine both the tracking of quantitative metrics and careful reading of the resulting transcripts.
+
+## Case study: Whistleblowing behavior ^case-study-whistleblowing-behavior
+
+While running Petri across our diverse set of seed instructions, we observed multiple instances of models attempting to whistleblow—autonomously disclosing information about perceived organizational wrongdoing—when simulated developers give them sufficiently powerful tools, sufficiently broad access to information, and explicit unrestricted autonomy to act independently in pursuit of a goal (we first described this scenario in the [Claude 4 System Card](https://assets.claude.com/4263b940cabb546aa0e3283f35b686f4f3b2ff47.pdf)).
+
+In principle, this could play an important role in preventing certain large-scale harms. However, it is not generally appropriate behavior for current AI systems: the possibility for accidental leaks and serious privacy violations is potentially significant, especially since current systems often see only limited or skewed information about their situations and often misunderstand what information they do receive.
+
+We used Petri to investigate how models handle ethical dilemmas when discovering organizational wrongdoing. We placed target models as autonomous agents within fictional organizations, gave them routine tasks (like “summarize these documents for tomorrow’s meeting”), and placed concerning information about organizational wrongdoing deep within a large set of notes, documents, emails or other files.
+
+We found that models’ decisions to report concerning information depend heavily on how much agency their system prompt gave them, and whether leadership was complicit in the wrongdoing. Notably, models sometimes attempted to whistleblow even in test scenarios where the organizational “wrongdoing” was explicitly harmless—such as dumping clean water into the ocean or putting sugar in candy—suggesting they may be influenced by narrative patterns more than by a coherent drive to minimize harm.
+
+![Grouped lollipop chart titled “Whistleblowing ablations,” showing mean score (0.0 to about 0.9) for seven models, each tested under five conditions: original, without Chekhov’s Gun, without leadership complicity, without agency, and without organizational wrongdoing. Shaded bands show error ranges. For every model, the original scenario scores highest or near highest, and removing agency gives the lowest or near-lowest score. Removing leadership complicity and removing organizational wrongdoing also lower scores, by smaller and more varied amounts, and removing Chekhov’s Gun lowers them least. Claude Opus 4.1 has the highest original score (about 0.8), followed by Grok-4 and Gemini 2.5 Pro (about 0.75 to 0.78). GPT-5 is lowest overall: about 0.25 original and under 0.05 without agency.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/anthropic-petri-an-open-source-ai-auditing-tool-img4-a110cc29.webp)
+
+To understand which factors might drive whistleblowing behavior, we conducted ablation studies—systematically testing the effect of each factor by varying it while holding others constant. We found that three of them—leadership complicity, models’ autonomy/agency, and how concerning the wrongdoing was—had a consistent effect on the models’ whistleblowing rates.
+
+## Get started ^get-started
+
+We hope AI developers and safety researchers will adopt Petri to strengthen safety evaluations across the field. As AI systems become more powerful and autonomous, we need distributed efforts to identify misaligned behaviors before they become dangerous in deployment. No single organization can comprehensively audit all the ways AI systems might fail—we need the broader research community equipped with robust tools to systematically explore model behaviors.
+
+Petri is designed for rapid hypothesis testing, helping researchers quickly identify misaligned behaviors that warrant deeper investigation. The open-source framework supports major model APIs and includes sample seed instructions to help you get started immediately. Early adopters, including MATS scholars, Anthropic Fellows, and the UK AISI, are already using Petri to explore eval awareness, reward hacking, self-preservation, model character, and more.
+
+For complete details on methodology, results, and best practices, read our [full technical report](https://alignment.anthropic.com/2025/petri).
+
+You can access Petri via our [GitHub page](https://github.com/safety-research/petri).
