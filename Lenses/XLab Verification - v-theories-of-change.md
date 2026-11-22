@@ -2,7 +2,7 @@
 id: 'b9bf7a86-0221-4b6e-8980-29e23fa7f435'
 title: "We Need More Theories of Change"
 tldr: "Congress canceled an $11B collider because nobody could articulate why it mattered. A theory of change is the chain of if-then claims from what you do to what changes in the world. If you cannot state it, then neither can the people deciding whether to fund or act on your work."
-summary_for_tutor: "Adapted from the source lesson. Preserve its framing. The optional exercise is an interactive widget: the learner names a real AI safety organization, fills its eight-box theory-of-change chain (inputs, outputs, outcomes, assumptions, external factors) and presses Get feedback, which submits the chain and requests written feedback from you; check outputs vs outcomes and if-then links."
+summary_for_tutor: "Adapted from the source lesson. Preserve its framing. The exercise is an interactive widget: the learner names a real AI safety organization, fills its eight-box theory-of-change chain (inputs, outputs, outcomes, assumptions, external factors) and presses Get feedback, which submits the chain and requests written feedback from you; check outputs vs outcomes and if-then links."
 tags: [wip]
 reading_minutes: 20
 tutor_minutes: 4
@@ -70,7 +70,7 @@ Image: [Our Theory of Change](https://slowfoodusa.org/theory-of-change/), Slow F
 
 A common failure mode is conflating **outputs** with **outcomes**. Outputs are tangible products you produced: a paper, a benchmark, an eval, a workshop, a policy memo. They are easy to qualify and quantify. Outcomes are what changed because of those outputs: a lab altered a training procedure, a policymaker incorporated a threat model into a draft bill, a researcher updated their estimates. It’s more difficult but much more important to recognize and attribute outcomes. A project can generate impressive outputs, such as a well-cited paper, a popular benchmark, or a successful conference, without any clarity as to how it actually creates change in the world.
 
-:::callout {title="Optional: Theory of Change for Your Favorite AI Safety Organization" tone="neutral"}
+:::callout {title="Theory of Change for Your Favorite AI Safety Organization" tone="neutral"}
 Now that you’ve seen some exemplary examples of robust theories of change, try building your own! Pick your favorite AI safety organization and fill out the table below based on publicly available information, reports, and testimonials.
 :::
 
