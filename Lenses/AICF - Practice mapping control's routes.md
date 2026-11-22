@@ -48,7 +48,7 @@ Look back at the guess you wrote at the start of this unit:
 
 ::answer{id="5372c08e-c3ae-48ac-8b01-18be0b0cb327"}
 
-Which route was it, and which routes have you added since?
+Which route did your guess describe? Which routes from this unit were not in your guess?
 placeholder:: A few sentences.
 force-feedback:: first
 feedback-instructions:: The learner is practising for the Unit 3 test on control's theory of change and compares the guess they wrote at the start of the unit with the routes the unit covered: stopping attacks, catching an AI red-handed and acting on it, and the window. The unit also covered what makes a company run control, from a few insiders to a company policy or a required safety case. Acknowledge their comparison in one or two sentences without judging the guess. Close by telling them the test asks for the same things as Parts 1 and 2 on a different project, that it also asks in which of Greenblatt's Plans A to D their most will-dependent route would still work. No generic praise. One turn.
