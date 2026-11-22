@@ -22,6 +22,9 @@ Many actions sound helpful but only reduce risk if they fit a story that ends sa
 - [[../Lenses/Two Camps, Two Theories of Victory|Two Camps, Two Theories of Victory]]: one author's opinionated map of the two main camps, "win the race and automate alignment" versus "ban superintelligence by treaty", with the assumptions each needs to hold and a quick tour of other theories (May 2026).
 - [[../Lenses/greenblatt-plans-a-b-c-and-d-for-misalignment-risk|Plans A, B, C, and D for misalignment risk]]: Redwood Research's Ryan Greenblatt on the best plan for each level of political will, from a long international slowdown (Plan A) to a small safety team inside a reckless company (Plan D) (October 2025).
 - [[../Lenses/AI Safety Atlas - Strategies - ASI Safety Strategies|ASI Safety Strategies]]: read the sections "Automate Alignment Research" (OpenAI's 2023 Superalignment plan and what it depends on) and "Deterrence" (Mutual Assured AI Malfunction and its weak points) (2026).
+- [[../Lenses/holdenkarnofsky-a-playbook-for-ai-risk-reduction-focused-on-misaligned-ai|Playbook for AI Risk Reduction]] (Noah's CG list 🔴)
+- [[../Lenses/U2 - AI 2040 First Three Years|AI 2040]] (Noah's CG list 🔴)
+- [[../Lenses/barnett-ai-governance-to-avoid-extinction-the-strategic-landscape-and-actionable-research-questions|AI Governance to Avoid Extinction]] (Noah's CG list)
 
 ## Tests
 
