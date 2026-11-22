@@ -25,6 +25,7 @@ Safety work splits into agendas aimed at different problems: making models want 
 - [[../Lenses/charbel-rapha-l-davidads-bold-plan-for-alignment-an-in-depth-explanation|Open-Agency Architecture]] (Noah's CG list 🟢)
 - [[../Lenses/christiano-formalizing-the-presumption-of-independence|Formalizing the Presumption of Independence]] (Noah's CG list)
 - [[../Lenses/bengio-safety-from-honesty-in-a-disinterested-ai-predictor|Scientist AI]] (Noah's CG list)
+- [[../Lenses/paulfchristiano-arcs-first-technical-report-eliciting-latent-knowledge|Eliciting latent knowledge (ARC)]] (Noah's CG list, technical track)
 
 ## Tests
 
