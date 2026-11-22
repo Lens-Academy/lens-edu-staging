@@ -76,6 +76,7 @@ Now that you’ve seen some exemplary examples of robust theories of change, try
 
 #### Widget
 source:: [[../widgets/theories-of-change]]
+required:: true
 
 #### Text
 content::

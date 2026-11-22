@@ -2,7 +2,7 @@
 id: 'c3f8b1e2-7d94-4a6b-9e15-2b0c4d8f6a71'
 title: Theory of Change
 height: auto
-summary_for_tutor: "A theory-of-change canvas laid out as a single vertical chain. The learner names an organization (real or imagined), then fills eight boxes grouped into five stages in causal order: Inputs (what do we need), Outputs (what do we do; who do we reach), Outcome (short-term, intermediate, long-term), then Assumptions and External factors, which sit under the chain rather than in it. Each stage is one full-width band with one heading and its own text areas, filled in any order. Their entries are saved and shown to you in the widget-state block as they write. A Get feedback button at the bottom submits the whole chain for assessment and then requests written feedback, so a feedback turn from this widget is the learner asking you to read their canvas. The widget is complete when the organization is named and all eight boxes have text. Help them tighten each link in the chain: does each output plausibly cause the next outcome, and which assumptions carry the most weight? Content ported from the source lesson."
+summary_for_tutor: "A theory-of-change canvas laid out as a single vertical chain. The learner picks their favorite AI safety organization and, from publicly available information, reports and testimonials, fills eight boxes grouped into five stages in causal order: Inputs (what do we need), Outputs (what do we do; who do we reach), Outcome (short-term, intermediate, long-term), then Assumptions and External factors, which sit under the chain rather than in it. Each stage is one full-width band with one heading and its own text areas, filled in any order. Their entries are saved and shown to you in the widget-state block as they write. A Get feedback button at the bottom submits the whole chain for assessment and then requests written feedback, so a feedback turn from this widget is the learner asking you to read their canvas. The widget is complete when the organization is named and all eight boxes have text. Help them tighten each link in the chain: does each output plausibly cause the next outcome, and which assumptions carry the most weight? Content ported from the source lesson."
 tags: [wip]
 -->
 <!doctype html>
@@ -79,7 +79,7 @@ tags: [wip]
 <body>
 <p class="eyebrow">Exercise</p>
 <h1>Build a theory of change</h1>
-<p class="lede">Pick an organization, real or imagined, that works on AI verification. Fill the chain from the top down, in whatever order suits you; each box asks what has to be true for the next one to happen. Your entries are saved as you type.</p>
+<p class="lede">Pick your favorite AI safety organization and build its theory of change from publicly available information, reports and testimonials. Fill the chain from the top down, in whatever order suits you; each box asks what has to be true for the next one to happen. Your entries are saved as you type.</p>
 
 <div class="org">
   <label for="org">Organization</label>
@@ -284,9 +284,9 @@ tags: [wip]
     var atSend = filledCount();
     Lens.submit({
       item: "canvas",
-      question: "Build a theory of change for an organization working on AI verification: inputs, outputs, short-, intermediate- and long-term outcomes, assumptions and external factors.",
+      question: "Build a theory of change for your favorite AI safety organization, from publicly available information, reports and testimonials: inputs, outputs, short-, intermediate- and long-term outcomes, assumptions and external factors.",
       answer: summary(),
-      assessmentInstructions: "Score 0 to 100. Full marks when every box names something concrete and checkable (a real resource, activity, audience or measurable change, not a restatement of the box label) and each output plausibly causes the next outcome. Take about 12 off per box that is vague or missing, and up to 20 off when the chain has a causal gap the assumptions do not cover.",
+      assessmentInstructions: "Score 0 to 100. Full marks when every box names something concrete and checkable (a real resource, activity, audience or measurable change, not a restatement of the box label) and each output plausibly causes the next outcome. Take 10 off for each of the eight boxes that is vague or empty, and up to 20 off when the chain has a causal gap the assumptions do not cover, so an empty chain scores 0.",
       feedbackInstructions: "Read the whole chain as one argument and comment on four things, in this order. First, anything unclear: a box a reader could not act on or picture. Second, the links between stages: name the one place where the step from a stage to the next is missing or not credible, and say what would have to be true for it to hold. Third, outputs written as outcomes: outputs are tangible products the organization produced, outcomes are what changed because of them, so flag any box that names a product where a change belongs. Fourth, assumptions left implicit: name a belief the chain depends on that is not written in the Assumptions box. Be specific about their words. Do not rewrite their boxes for them."
     }).then(function (result) {
       lastResponseId = result.responseId;

@@ -7,6 +7,7 @@ tags: [wip]
 reading_minutes: 30
 tutor_minutes: 25
 glossary_terms:
+  - "[[../glossary/Responsible scaling policy]]"
   - "[[../glossary/National Institutes of Health]]"
   - "[[../glossary/Intercontinental ballistic missile]]"
   - "[[../glossary/Submarine-launched ballistic missile]]"
