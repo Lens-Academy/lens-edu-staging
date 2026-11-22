@@ -181,7 +181,7 @@ The three are not the same claim in three places: the first is about what the pr
 :::
 
 :::callout {title="Baker (2023) on Task 3" tone="neutral" collapse="closed"}
-*In Baker's words below, M&V stands for monitoring and verification.*
+*M&V stands for monitoring and verification.*
 
 Baker is especially useful here because he shows the correct analogy: verified accountancy of a chokepoint, not "chips are like uranium".
 
