@@ -30,6 +30,8 @@ required:: true
 key:: navigator_skills
 content:: What do you think makes a high-quality navigator or facilitator?
 max-chars:: 1500
+required:: true
+
 #### Question: Rating
 key:: ai_safety_context_self_rating
 content:: How would you rate your own AI safety context, from 1 to 10?
