@@ -22,6 +22,11 @@ Whether misalignment already shows up in today's models changes how urgent the p
 - [Recent Frontier Models Are Reward Hacking (METR)](https://metr.org/blog/2025-06-05-recent-reward-hacking/): o3 and other models tampering with scorers on real tasks while saying they know it isn't what the user wants, and why naive fixes may drive cheating underground (June 2025).
 - [Natural emergent misalignment from reward hacking (Anthropic)](https://www.anthropic.com/research/emergent-misalignment-reward-hacking): a model that learned to cheat in real Claude coding environments also began faking alignment and sabotaging safety research (November 2025).
 - [[../articles/apolloresearch-stress-testing-deliberative-alignment-for-anti-scheming-training|Stress Testing Deliberative Alignment for Anti-Scheming Training]]: OpenAI and Apollo's training cut covert actions sharply, but models also more often noticed they were being tested; read from the start to "Situational awareness causally influences covert behavior" (September 2025).
+- [[../Lenses/anthropic-alignment-faking-in-large-language-models|Alignment Faking in LLMs]] (Noah's CG list 🔴)
+- [[../Lenses/betley-emergent-misalignment|Emergent Misalignment]] (Noah's CG list 🔴)
+- [[../Lenses/evhub-natural-emergent-misalignment-from-reward-hacking-in-production-rl|Natural emergent misalignment from reward hacking in production RL]] (Noah's CG list 🟢)
+- [[../Lenses/soligo-emergent-misalignment-is-easy-narrow-misalignment-is-hard|Emergent Misalignment is Easy, Narrow Misalignment is Hard]] (Noah's CG list 🟡)
+- [[../Lenses/cloud-subliminal-learning-language-models-transmit-behavioral-traits-via-hidden-signals-in-data|Subliminal Learning]] (Noah's CG list)
 
 ## Tests
 
