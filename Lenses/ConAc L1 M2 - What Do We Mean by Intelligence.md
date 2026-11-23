@@ -94,7 +94,7 @@ This approach leads to different questions about AI progress. Instead of asking 
 
 #### Article
 source:: [[../articles/chollet-on-the-measure-of-intelligence]]
-from:: The No Free Lunch theorem \[98, 97\]
+from:: The No Free Lunch theorem \[98, 97\] teaches us that any two optimization algorithms
 to:: Would it generalize to every possible task in the universe?
 
 #### Article
