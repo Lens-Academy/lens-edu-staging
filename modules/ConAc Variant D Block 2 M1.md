@@ -8,6 +8,7 @@ tags:
 # Submodule: What it takes to build AI
 slug:: what-it-takes-to-build-ai
 
+## LO: [[../Context Accelerator LOs/Models and weights]]
 ## LO: [[../Context Accelerator LOs/Training vs. inference]]
 ## LO: [[../Context Accelerator LOs/Compute]]
 ## LO: [[../Context Accelerator LOs/Large language models]]
