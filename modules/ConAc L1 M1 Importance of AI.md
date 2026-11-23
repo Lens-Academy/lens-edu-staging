@@ -26,7 +26,7 @@ slug:: m1-2-scaling-laws
 ## Lens:
 source:: [[../Lenses/ConAc L1 M1 - Scaling laws]]
 
-# Submodule: 1.3 Intelligence explosion
+# Submodule: 1.3 Recursive Self-Improvement in Theory and Practice
 slug:: m1-3-intelligence-explosion
 
 ## Lens:
