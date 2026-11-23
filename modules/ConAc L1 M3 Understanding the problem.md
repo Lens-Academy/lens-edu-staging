@@ -36,10 +36,25 @@ source:: [[../Lenses/ConAc L1 M3 - Without fundamental advances, misalignment an
 source:: [[../Lenses/ConAc L1 M3 - Orthogonality thesis]]
 
 ## Lens:
+optional:: true
+source:: [[../Lenses/ConAc L1 M3 - Orthogonality thesis - Epistemic status]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/ConAc L1 M3 - Orthogonality thesis - Proving too much]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/ConAc L1 M3 - Orthogonality thesis - Caveats, refinements and implications]]
+
+## Lens:
 source:: [[../Lenses/ConAc L1 M3 - Instrumental goals]]
 
 ## Lens:
-source:: [[../Lenses/ConAc L1 M3 - Goodhart's law]]
+source:: [[../Lenses/ConAc L1 M3 - Goodhart's Curse]]
+
+## Lens:
+source:: [[../Lenses/ConAc L1 M3 - Categorizing variants of Goodhart's law]]
 
 ## Lens:
 source:: [[../Lenses/ConAc L1 M3 - Sharp left turn]]
