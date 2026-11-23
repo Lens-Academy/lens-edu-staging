@@ -1,0 +1,994 @@
+[
+  {
+    "text": "So,",
+    "start": "0:00.00"
+  },
+  {
+    "text": "it",
+    "start": "0:00.16"
+  },
+  {
+    "text": "seems",
+    "start": "0:00.24"
+  },
+  {
+    "text": "like",
+    "start": "0:00.52"
+  },
+  {
+    "text": "AI",
+    "start": "0:00.76"
+  },
+  {
+    "text": "is",
+    "start": "0:01.04"
+  },
+  {
+    "text": "now",
+    "start": "0:01.20"
+  },
+  {
+    "text": "superhuman",
+    "start": "0:01.48"
+  },
+  {
+    "text": "at",
+    "start": "0:02.12"
+  },
+  {
+    "text": "hacking.",
+    "start": "0:02.24"
+  },
+  {
+    "text": "Does",
+    "start": "0:02.72"
+  },
+  {
+    "text": "that",
+    "start": "0:02.84"
+  },
+  {
+    "text": "mean",
+    "start": "0:03.00"
+  },
+  {
+    "text": "that",
+    "start": "0:03.16"
+  },
+  {
+    "text": "the",
+    "start": "0:03.28"
+  },
+  {
+    "text": "future",
+    "start": "0:03.36"
+  },
+  {
+    "text": "is",
+    "start": "0:03.68"
+  },
+  {
+    "text": "going",
+    "start": "0:03.76"
+  },
+  {
+    "text": "to",
+    "start": "0:03.88"
+  },
+  {
+    "text": "look",
+    "start": "0:03.96"
+  },
+  {
+    "text": "like",
+    "start": "0:04.16"
+  },
+  {
+    "text": "everything",
+    "start": "0:04.60"
+  },
+  {
+    "text": "getting",
+    "start": "0:05.12"
+  },
+  {
+    "text": "hacked",
+    "start": "0:05.40"
+  },
+  {
+    "text": "by",
+    "start": "0:05.68"
+  },
+  {
+    "text": "AI",
+    "start": "0:05.84"
+  },
+  {
+    "text": "forever?",
+    "start": "0:06.16"
+  },
+  {
+    "text": "Probably",
+    "start": "0:06.64"
+  },
+  {
+    "text": "not,",
+    "start": "0:06.96"
+  },
+  {
+    "text": "because",
+    "start": "0:07.56"
+  },
+  {
+    "text": "an",
+    "start": "0:08.04"
+  },
+  {
+    "text": "AI",
+    "start": "0:08.20"
+  },
+  {
+    "text": "that's",
+    "start": "0:08.44"
+  },
+  {
+    "text": "very",
+    "start": "0:08.64"
+  },
+  {
+    "text": "good",
+    "start": "0:08.84"
+  },
+  {
+    "text": "at",
+    "start": "0:09.00"
+  },
+  {
+    "text": "hacking",
+    "start": "0:09.12"
+  },
+  {
+    "text": "is",
+    "start": "0:09.56"
+  },
+  {
+    "text": "probably",
+    "start": "0:09.68"
+  },
+  {
+    "text": "also",
+    "start": "0:10.04"
+  },
+  {
+    "text": "very",
+    "start": "0:10.40"
+  },
+  {
+    "text": "good",
+    "start": "0:10.64"
+  },
+  {
+    "text": "at",
+    "start": "0:10.80"
+  },
+  {
+    "text": "defending",
+    "start": "0:10.88"
+  },
+  {
+    "text": "against",
+    "start": "0:11.28"
+  },
+  {
+    "text": "hacking.",
+    "start": "0:11.64"
+  },
+  {
+    "text": "Some",
+    "start": "0:12.04"
+  },
+  {
+    "text": "people",
+    "start": "0:12.16"
+  },
+  {
+    "text": "think",
+    "start": "0:12.40"
+  },
+  {
+    "text": "it",
+    "start": "0:12.56"
+  },
+  {
+    "text": "might",
+    "start": "0:12.64"
+  },
+  {
+    "text": "even",
+    "start": "0:12.80"
+  },
+  {
+    "text": "go",
+    "start": "0:12.96"
+  },
+  {
+    "text": "the",
+    "start": "0:13.12"
+  },
+  {
+    "text": "other",
+    "start": "0:13.24"
+  },
+  {
+    "text": "way,",
+    "start": "0:13.40"
+  },
+  {
+    "text": "with",
+    "start": "0:13.84"
+  },
+  {
+    "text": "AI",
+    "start": "0:14.08"
+  },
+  {
+    "text": "enabling",
+    "start": "0:14.40"
+  },
+  {
+    "text": "us",
+    "start": "0:14.84"
+  },
+  {
+    "text": "to",
+    "start": "0:15.00"
+  },
+  {
+    "text": "write",
+    "start": "0:15.12"
+  },
+  {
+    "text": "formally",
+    "start": "0:15.68"
+  },
+  {
+    "text": "verified",
+    "start": "0:16.12"
+  },
+  {
+    "text": "software",
+    "start": "0:16.64"
+  },
+  {
+    "text": "that",
+    "start": "0:17.12"
+  },
+  {
+    "text": "has",
+    "start": "0:17.24"
+  },
+  {
+    "text": "no",
+    "start": "0:17.40"
+  },
+  {
+    "text": "security",
+    "start": "0:17.60"
+  },
+  {
+    "text": "vulnerabilities",
+    "start": "0:18.04"
+  },
+  {
+    "text": "at",
+    "start": "0:18.60"
+  },
+  {
+    "text": "all.",
+    "start": "0:18.72"
+  },
+  {
+    "text": "I",
+    "start": "0:18.88"
+  },
+  {
+    "text": "think",
+    "start": "0:18.92"
+  },
+  {
+    "text": "reality",
+    "start": "0:19.12"
+  },
+  {
+    "text": "is",
+    "start": "0:19.52"
+  },
+  {
+    "text": "going",
+    "start": "0:19.60"
+  },
+  {
+    "text": "to",
+    "start": "0:19.72"
+  },
+  {
+    "text": "end",
+    "start": "0:19.80"
+  },
+  {
+    "text": "up",
+    "start": "0:20.00"
+  },
+  {
+    "text": "somewhere",
+    "start": "0:20.16"
+  },
+  {
+    "text": "in",
+    "start": "0:20.48"
+  },
+  {
+    "text": "the",
+    "start": "0:20.56"
+  },
+  {
+    "text": "middle.",
+    "start": "0:20.64"
+  },
+  {
+    "text": "But",
+    "start": "0:21.00"
+  },
+  {
+    "text": "okay,",
+    "start": "0:21.12"
+  },
+  {
+    "text": "AI",
+    "start": "0:21.68"
+  },
+  {
+    "text": "seems",
+    "start": "0:22.00"
+  },
+  {
+    "text": "like",
+    "start": "0:22.28"
+  },
+  {
+    "text": "it",
+    "start": "0:22.40"
+  },
+  {
+    "text": "might",
+    "start": "0:22.52"
+  },
+  {
+    "text": "soon",
+    "start": "0:22.76"
+  },
+  {
+    "text": "get",
+    "start": "0:23.08"
+  },
+  {
+    "text": "superhuman",
+    "start": "0:23.32"
+  },
+  {
+    "text": "at",
+    "start": "0:23.84"
+  },
+  {
+    "text": "bioengineering.",
+    "start": "0:23.96"
+  },
+  {
+    "text": "Soon",
+    "start": "0:24.88"
+  },
+  {
+    "text": "it",
+    "start": "0:25.16"
+  },
+  {
+    "text": "might",
+    "start": "0:25.24"
+  },
+  {
+    "text": "be",
+    "start": "0:25.40"
+  },
+  {
+    "text": "the",
+    "start": "0:25.48"
+  },
+  {
+    "text": "case",
+    "start": "0:25.60"
+  },
+  {
+    "text": "that",
+    "start": "0:26.08"
+  },
+  {
+    "text": "somebody",
+    "start": "0:26.28"
+  },
+  {
+    "text": "with",
+    "start": "0:26.68"
+  },
+  {
+    "text": "no",
+    "start": "0:26.88"
+  },
+  {
+    "text": "particular",
+    "start": "0:27.08"
+  },
+  {
+    "text": "expertise",
+    "start": "0:27.60"
+  },
+  {
+    "text": "and",
+    "start": "0:28.32"
+  },
+  {
+    "text": "not",
+    "start": "0:28.48"
+  },
+  {
+    "text": "that",
+    "start": "0:28.64"
+  },
+  {
+    "text": "much",
+    "start": "0:28.80"
+  },
+  {
+    "text": "time",
+    "start": "0:29.00"
+  },
+  {
+    "text": "or",
+    "start": "0:29.28"
+  },
+  {
+    "text": "money",
+    "start": "0:29.36"
+  },
+  {
+    "text": "could",
+    "start": "0:29.72"
+  },
+  {
+    "text": "design",
+    "start": "0:30.00"
+  },
+  {
+    "text": "and",
+    "start": "0:30.36"
+  },
+  {
+    "text": "synthesize",
+    "start": "0:30.48"
+  },
+  {
+    "text": "a",
+    "start": "0:31.16"
+  },
+  {
+    "text": "novel",
+    "start": "0:31.24"
+  },
+  {
+    "text": "pathogen.",
+    "start": "0:31.60"
+  },
+  {
+    "text": "Does",
+    "start": "0:32.12"
+  },
+  {
+    "text": "that",
+    "start": "0:32.24"
+  },
+  {
+    "text": "mean",
+    "start": "0:32.40"
+  },
+  {
+    "text": "it's",
+    "start": "0:32.56"
+  },
+  {
+    "text": "just",
+    "start": "0:32.68"
+  },
+  {
+    "text": "going",
+    "start": "0:32.88"
+  },
+  {
+    "text": "to",
+    "start": "0:33.00"
+  },
+  {
+    "text": "be",
+    "start": "0:33.08"
+  },
+  {
+    "text": "AI-manufactured",
+    "start": "0:33.80"
+  },
+  {
+    "text": "pandemics",
+    "start": "0:34.72"
+  },
+  {
+    "text": "forever?",
+    "start": "0:35.20"
+  },
+  {
+    "text": "Well,",
+    "start": "0:35.56"
+  },
+  {
+    "text": "a",
+    "start": "0:35.80"
+  },
+  {
+    "text": "similar",
+    "start": "0:35.84"
+  },
+  {
+    "text": "thing",
+    "start": "0:36.16"
+  },
+  {
+    "text": "applies.",
+    "start": "0:36.32"
+  },
+  {
+    "text": "If",
+    "start": "0:37.32"
+  },
+  {
+    "text": "AI",
+    "start": "0:37.48"
+  },
+  {
+    "text": "makes",
+    "start": "0:37.72"
+  },
+  {
+    "text": "it",
+    "start": "0:38.00"
+  },
+  {
+    "text": "quick",
+    "start": "0:38.08"
+  },
+  {
+    "text": "and",
+    "start": "0:38.32"
+  },
+  {
+    "text": "easy",
+    "start": "0:38.44"
+  },
+  {
+    "text": "to",
+    "start": "0:38.68"
+  },
+  {
+    "text": "design",
+    "start": "0:38.80"
+  },
+  {
+    "text": "new",
+    "start": "0:39.08"
+  },
+  {
+    "text": "viruses,",
+    "start": "0:39.28"
+  },
+  {
+    "text": "maybe",
+    "start": "0:39.84"
+  },
+  {
+    "text": "it",
+    "start": "0:40.08"
+  },
+  {
+    "text": "also",
+    "start": "0:40.20"
+  },
+  {
+    "text": "makes",
+    "start": "0:40.48"
+  },
+  {
+    "text": "it",
+    "start": "0:40.72"
+  },
+  {
+    "text": "quick",
+    "start": "0:40.84"
+  },
+  {
+    "text": "and",
+    "start": "0:41.04"
+  },
+  {
+    "text": "easy",
+    "start": "0:41.12"
+  },
+  {
+    "text": "to",
+    "start": "0:41.32"
+  },
+  {
+    "text": "design",
+    "start": "0:41.44"
+  },
+  {
+    "text": "new",
+    "start": "0:41.72"
+  },
+  {
+    "text": "vaccines.",
+    "start": "0:41.88"
+  },
+  {
+    "text": "The",
+    "start": "0:42.60"
+  },
+  {
+    "text": "problem",
+    "start": "0:42.68"
+  },
+  {
+    "text": "is",
+    "start": "0:43.00"
+  },
+  {
+    "text": "there's",
+    "start": "0:43.12"
+  },
+  {
+    "text": "a",
+    "start": "0:43.32"
+  },
+  {
+    "text": "natural",
+    "start": "0:43.36"
+  },
+  {
+    "text": "asymmetry.",
+    "start": "0:43.76"
+  },
+  {
+    "text": "An",
+    "start": "0:44.36"
+  },
+  {
+    "text": "attacker",
+    "start": "0:44.48"
+  },
+  {
+    "text": "only",
+    "start": "0:45.12"
+  },
+  {
+    "text": "has",
+    "start": "0:45.40"
+  },
+  {
+    "text": "to",
+    "start": "0:45.56"
+  },
+  {
+    "text": "make",
+    "start": "0:45.64"
+  },
+  {
+    "text": "a",
+    "start": "0:45.84"
+  },
+  {
+    "text": "small",
+    "start": "0:45.88"
+  },
+  {
+    "text": "amount",
+    "start": "0:46.28"
+  },
+  {
+    "text": "of",
+    "start": "0:46.56"
+  },
+  {
+    "text": "the",
+    "start": "0:46.64"
+  },
+  {
+    "text": "virus",
+    "start": "0:46.72"
+  },
+  {
+    "text": "and",
+    "start": "0:47.44"
+  },
+  {
+    "text": "distribute",
+    "start": "0:47.56"
+  },
+  {
+    "text": "it",
+    "start": "0:48.04"
+  },
+  {
+    "text": "to",
+    "start": "0:48.16"
+  },
+  {
+    "text": "a",
+    "start": "0:48.28"
+  },
+  {
+    "text": "small",
+    "start": "0:48.32"
+  },
+  {
+    "text": "number",
+    "start": "0:48.60"
+  },
+  {
+    "text": "of",
+    "start": "0:48.88"
+  },
+  {
+    "text": "people,",
+    "start": "0:48.96"
+  },
+  {
+    "text": "and",
+    "start": "0:49.60"
+  },
+  {
+    "text": "it",
+    "start": "0:49.72"
+  },
+  {
+    "text": "will",
+    "start": "0:49.80"
+  },
+  {
+    "text": "then",
+    "start": "0:49.92"
+  },
+  {
+    "text": "go",
+    "start": "0:50.12"
+  },
+  {
+    "text": "on",
+    "start": "0:50.28"
+  },
+  {
+    "text": "replicating",
+    "start": "0:50.44"
+  },
+  {
+    "text": "on",
+    "start": "0:51.00"
+  },
+  {
+    "text": "its",
+    "start": "0:51.12"
+  },
+  {
+    "text": "own.",
+    "start": "0:51.28"
+  },
+  {
+    "text": "We,",
+    "start": "0:51.48"
+  },
+  {
+    "text": "on",
+    "start": "0:51.68"
+  },
+  {
+    "text": "the",
+    "start": "0:51.76"
+  },
+  {
+    "text": "other",
+    "start": "0:51.84"
+  },
+  {
+    "text": "hand,",
+    "start": "0:52.00"
+  },
+  {
+    "text": "have",
+    "start": "0:52.44"
+  },
+  {
+    "text": "to",
+    "start": "0:52.60"
+  },
+  {
+    "text": "manufacture",
+    "start": "0:52.68"
+  },
+  {
+    "text": "billions",
+    "start": "0:53.28"
+  },
+  {
+    "text": "of",
+    "start": "0:53.88"
+  },
+  {
+    "text": "doses",
+    "start": "0:54.00"
+  },
+  {
+    "text": "of",
+    "start": "0:54.36"
+  },
+  {
+    "text": "vaccine",
+    "start": "0:54.44"
+  },
+  {
+    "text": "and",
+    "start": "0:54.96"
+  },
+  {
+    "text": "distribute",
+    "start": "0:55.12"
+  },
+  {
+    "text": "them.",
+    "start": "0:55.60"
+  },
+  {
+    "text": "There's",
+    "start": "0:55.80"
+  },
+  {
+    "text": "a",
+    "start": "0:56.00"
+  },
+  {
+    "text": "huge",
+    "start": "0:56.04"
+  },
+  {
+    "text": "asymmetry",
+    "start": "0:56.48"
+  },
+  {
+    "text": "in",
+    "start": "0:57.12"
+  },
+  {
+    "text": "favor",
+    "start": "0:57.24"
+  },
+  {
+    "text": "of",
+    "start": "0:57.56"
+  },
+  {
+    "text": "the",
+    "start": "0:57.64"
+  },
+  {
+    "text": "attacker.",
+    "start": "0:57.76"
+  },
+  {
+    "text": "Does",
+    "start": "0:58.12"
+  },
+  {
+    "text": "that",
+    "start": "0:58.24"
+  },
+  {
+    "text": "mean",
+    "start": "0:58.40"
+  },
+  {
+    "text": "we're",
+    "start": "0:58.56"
+  },
+  {
+    "text": "just",
+    "start": "0:58.68"
+  },
+  {
+    "text": "going",
+    "start": "0:58.88"
+  },
+  {
+    "text": "to",
+    "start": "0:59.00"
+  },
+  {
+    "text": "get",
+    "start": "0:59.04"
+  },
+  {
+    "text": "an",
+    "start": "0:59.24"
+  },
+  {
+    "text": "endless",
+    "start": "0:59.40"
+  },
+  {
+    "text": "stream",
+    "start": "1:00.00"
+  },
+  {
+    "text": "of",
+    "start": "1:00.28"
+  },
+  {
+    "text": "novel",
+    "start": "1:00.48"
+  },
+  {
+    "text": "AI-generated",
+    "start": "1:01.04"
+  },
+  {
+    "text": "pandemics?",
+    "start": "1:01.88"
+  },
+  {
+    "text": "Unless",
+    "start": "1:02.76"
+  },
+  {
+    "text": "we",
+    "start": "1:03.04"
+  },
+  {
+    "text": "can",
+    "start": "1:03.12"
+  },
+  {
+    "text": "do",
+    "start": "1:03.24"
+  },
+  {
+    "text": "something",
+    "start": "1:03.36"
+  },
+  {
+    "text": "about",
+    "start": "1:03.64"
+  },
+  {
+    "text": "it,",
+    "start": "1:04.00"
+  },
+  {
+    "text": "maybe",
+    "start": "1:04.64"
+  },
+  {
+    "text": "yes.",
+    "start": "1:04.96"
+  }
+]
