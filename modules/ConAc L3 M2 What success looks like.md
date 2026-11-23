@@ -30,6 +30,7 @@ slug:: 3-3-good-futures-and-what-is-at-stake
 
 # Submodule: 3.4 AI in society
 slug:: 3-4-ai-in-society
+
 ## LO: [[../Context Accelerator LOs/AI adoption]]
 ## LO: [[../Context Accelerator LOs/AI and jobs]]
 ## LO: [[../Context Accelerator LOs/AI moral status]]
