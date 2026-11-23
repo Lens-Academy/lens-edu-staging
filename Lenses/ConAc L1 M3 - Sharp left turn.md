@@ -8,7 +8,7 @@ tags:
   - wip
 ---
 
-%% Copied on 2026-11-23 from "Sharp left turn" (AI Extinction Risk Foundations, module Fundamental Difficulties) so ConAc can edit it without changing that course. The original's commented-out intro text, question and tutor chat are kept below as comments. %%
+%% Copied on 2026-11-23 from "Sharp left turn" (AI Extinction Risk Foundations, module Fundamental Difficulties) so ConAc can edit it without changing that course. The original's commented-out intro text and question are kept below as comments. Its commented-out tutor chat for that question was not copied. %%
 
 %% #### Text
 content:: %%
