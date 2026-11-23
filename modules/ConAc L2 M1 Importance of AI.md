@@ -22,6 +22,7 @@ slug:: 2-2-machine-learning-basics
 
 # Submodule: 2.3 Training and running models
 slug:: 2-3-training-and-running-models
+
 ## LO: [[../Context Accelerator LOs/Training vs. inference]]
 ## LO: [[../Context Accelerator LOs/Compute]]
 ## LO: [[../Context Accelerator LOs/Reinforcement learning]]
@@ -38,5 +39,6 @@ slug:: 2-4-how-chatbots-are-made
 
 # Submodule: 2.5 Measuring and applying AI
 slug:: 2-5-measuring-and-applying-ai
+
 ## LO: [[../Context Accelerator LOs/Benchmarks]]
 ## LO: [[../Context Accelerator LOs/Robotics]]
