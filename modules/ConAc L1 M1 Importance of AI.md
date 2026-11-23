@@ -30,7 +30,7 @@ source:: [[../Lenses/ConAc L1 M1 - Scaling laws]]
 slug:: m1-3-intelligence-explosion
 
 ## Lens:
-source:: [[../Lenses/ConAc L1 M1 - Recursive self-improvement and Intelligence Explosion]]
+source:: [[../Lenses/ConAc L1 M1 - Recursive Self-Improvement in Theory and Practice]]
 
 # Submodule: 1.4 AI timelines
 slug:: m1-4-ai-timelines
