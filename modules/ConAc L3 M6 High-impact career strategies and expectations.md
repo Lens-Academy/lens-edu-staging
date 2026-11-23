@@ -30,6 +30,7 @@ slug:: 3-3-geopolitics
 
 # Submodule: 3.4 Choosing well
 slug:: 3-4-choosing-well
+
 ## LO: [[../Context Accelerator LOs/ITN framework]]
 ## LO: [[../Context Accelerator LOs/Unilateralist's curse]]
 ## LO: [[../Context Accelerator LOs/Working at AI companies]]
@@ -37,6 +38,7 @@ slug:: 3-4-choosing-well
 
 # Submodule: 3.5 Good discussion
 slug:: 3-5-good-discussion
+
 ## LO: [[../Context Accelerator LOs/Conversation norms]]
 ## LO: [[../Context Accelerator LOs/Reasoning transparency]]
 
