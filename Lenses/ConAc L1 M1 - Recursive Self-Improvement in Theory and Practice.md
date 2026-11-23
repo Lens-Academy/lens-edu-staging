@@ -77,21 +77,3 @@ content::
 These concerns are not universally shared, and researchers disagree about how quickly recursive self-improvement could develop, whether it would lead to explosive growth, and what risks it would create.
 
 To understand these disagreements, we need to deconstruct the idea of **intelligence explosion**, and how different researchers think about its possibility.
-
-We'll get there in four steps. First, we'll look at what we mean by *intelligence*. Then we'll consider *superintelligence*, followed by *recursive self-improvement*. Finally, we'll put these ideas together to examine the proposed mechanism of an intelligence explosion and correlated risks.
-
-\## What Do We Mean by Intelligence?
-
-TBD
-
-\## Plans, Concerns, and Expectations for Superintelligence
-
-TBD
-
-\## Recursive Self-Improvement in Theory and Practice
-
-TBD
-
-\## Deconstructing the Intelligence Explosion
-
-TBD
