@@ -7,6 +7,7 @@ tags:
 ---
 # Submodule: 2.1 Thinking clearly
 slug:: 2-1-thinking-clearly
+
 ## LO: [[../Context Accelerator LOs/Scout mindset]]
 ## LO: [[../Context Accelerator LOs/Inside vs. outside view]]
 ## LO: [[../Context Accelerator LOs/Calibration]]

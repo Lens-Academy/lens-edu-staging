@@ -7,6 +7,7 @@ tags:
 ---
 # Submodule: 3.1 The frontier labs
 slug:: 3-1-the-frontier-labs
+
 ## LO: [[../Context Accelerator LOs/OpenAI]]
 ## LO: [[../Context Accelerator LOs/Anthropic]]
 ## LO: [[../Context Accelerator LOs/Google DeepMind]]
@@ -22,6 +23,7 @@ slug:: 3-2-money-and-model-release
 
 # Submodule: 3.3 Safety rules for companies
 slug:: 3-3-safety-rules-for-companies
+
 ## LO: [[../Context Accelerator LOs/Safety cases]]
 ## LO: [[../Context Accelerator LOs/Transparency and whistleblowers]]
 ## LO: [[../Context Accelerator LOs/AI safety institutes]]
@@ -36,6 +38,7 @@ slug:: 3-4-national-ai-policy
 
 # Submodule: 3.5 International deals
 slug:: 3-5-international-deals
+
 ## LO: [[../Context Accelerator LOs/Nuclear weapons precedent]]
 ## LO: [[../Context Accelerator LOs/International AI treaty]]
 ## LO: [[../Context Accelerator LOs/MAIM deterrence]]
@@ -49,6 +52,7 @@ slug:: 3-6-public-opinion-and-advocacy
 
 # Submodule: 3.7 Critics and other camps
 slug:: 3-7-critics-and-other-camps
+
 ## LO: [[../Context Accelerator LOs/AI ethics community]]
 ## LO: [[../Context Accelerator LOs/AI risk as hype]]
 ## LO: [[../Context Accelerator LOs/Present harms vs. x-risk]]
