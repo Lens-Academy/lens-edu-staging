@@ -40,7 +40,7 @@ Different problems can call for different operationalisations.
 
 #### Text
 content::
-\## Intelligence as X
+\## Intelligence as distributed problem-solving
 
 One approach comes from Connor Leahy and his co-authors in [The Compendium](https://www.thecompendium.ai/intelligence). They suggest looking at the intellectual tasks that systems can perform and the mechanisms that make this possible.
 
