@@ -7,6 +7,7 @@ tags:
 ---
 # Submodule: 3.1 The arguments revisited
 slug:: 3-1-the-arguments-revisited
+
 ## LO: [[../Context Accelerator LOs/Classic vs. LLM-era arguments]]
 ## LO: [[../Context Accelerator LOs/Non-extinction takeovers]]
 ## LO: [[../Context Accelerator LOs/Warning shots]]
@@ -24,6 +25,7 @@ slug:: 3-2-alignment-approaches
 
 # Submodule: 3.3 Checking and limiting models
 slug:: 3-3-checking-and-limiting-models
+
 ## LO: [[../Context Accelerator LOs/Chain-of-thought monitoring]]
 ## LO: [[../Context Accelerator LOs/Model organisms]]
 ## LO: [[../Context Accelerator LOs/Restricting AI]]
