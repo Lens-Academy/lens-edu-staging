@@ -1,7 +1,8 @@
 ---
 title: "What is recursive self-improvement?"
-author:
-  - "Aisafety"
+author:{--{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795439104276}@@
+  - "Aisafety"--}{++{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795439104276}@@ AISafety.info
+author_url: "https://aisafety.info/"++}
 source_url: "https://aisafety.info/questions/8AV9/What-is-recursive-self-improvement"
 published: 2026-11-23
 created: 2026-11-23
