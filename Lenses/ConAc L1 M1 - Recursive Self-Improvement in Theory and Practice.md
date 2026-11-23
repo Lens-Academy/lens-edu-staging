@@ -77,3 +77,33 @@ content::
 These concerns are not universally shared, and researchers disagree about how quickly recursive self-improvement could develop, whether it would lead to explosive growth, and what risks it would create.
 
 To understand these disagreements, we need to deconstruct the idea of **intelligence explosion**, and how different researchers think about its possibility.
+
+#### Text
+content::
+Let's get acquainted with some of the terminology used for things going very fast very quickly.
+
+#### Article
+source:: [[../articles/aisafety-info-singularity-intelligence-explosion-hard-takeoff]]
+from:: "* A **(technological) singularity**"
+to:: "that results in hyperbolic growth."
+
+#### Article
+from:: "* **"FOOM"**"
+
+#### Article
+source:: [[../articles/aisafety-what-is-recursive-self-improvement]]
+
+#### Article
+source:: [[../articles/ahead-ii-from-agi-to-superintelligence-the-intelligence-explosion]]
+from:: "_AI progress won’t stop at human-level._"
+to:: "~0.5 OOMs/year)._"
+
+#### Text
+content::
+\## RSI in theory and predictions
+{>>{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795439025356}@@Video to add here, whole: https://www.youtube.com/watch?v=vV7dRkjTPo4 (import failed on 2026-11-23, retry)<<}
+
+#### Text
+content::
+\## RSI in current AI development
+{>>{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795439025356}@@Video to add here, 0:00 to 10:44: https://www.youtube.com/watch?v=h_aA1-R70E8 (import failed on 2026-11-23, retry)<<}
