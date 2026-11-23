@@ -1,7 +1,7 @@
 ---
 id: '4563e36c-5add-4f69-8c36-ec728dfcbfda'
 slug: conac-var-c-level-3-m1
-title: "Variant C: Level 3"
+title: "Variant C: Level 3 (optional)"
 tags:
   - wip
 ---

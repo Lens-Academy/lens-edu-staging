@@ -1,7 +1,7 @@
 ---
 id: 'a9d6f60b-5476-4555-a638-c545168616b3'
 slug: conac-var-d-go-deeper-m1
-title: "Variant D: Go deeper"
+title: "Variant D: Go deeper (optional)"
 tags:
   - wip
 ---
