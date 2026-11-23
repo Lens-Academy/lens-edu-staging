@@ -103,7 +103,7 @@ to:: and for the research strategies we should follow to achieve it.
 
 #### Article
 from:: To use a well-known cross-domain analogy \[25\]
-to:: a remarkable fact that should be of the utmost interest to anyone interested in engineering broad or general-purpose abilities of any kind.
+to:: beyond those that guided their evolution
 
 #### Article
 from:: The study of general artificial intelligence is a field still in its infancy
