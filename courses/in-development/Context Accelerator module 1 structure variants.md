@@ -10,9 +10,9 @@ Comparison course, not for learners. Why and what: [[../../../Lens/03-Product/Co
 Each variant is one unit. Same lenses and learning outcomes as the draft [[Context Accelerator]], only grouped differently.
 %%
 
-# Module: [[../../modules/ConAc L1 M1 Importance of AI|Variant A (current): Level 1]]
-# Module: [[../../modules/ConAc L2 M1 Importance of AI|Variant A (current): Level 2]]
-# Module: [[../../modules/ConAc L3 M1 Importance of AI|Variant A (current): Level 3]]
+# Module: [[../../modules/ConAc Variant A L1 M1|Variant A (current): Level 1]]
+# Module: [[../../modules/ConAc Variant A L2 M1|Variant A (current): Level 2]]
+# Module: [[../../modules/ConAc Variant A L3 M1|Variant A (current): Level 3]]
 # Meeting: Variant A
 
 # Module: [[../../modules/ConAc Variant B L1 M1|Variant B: Level 1]]
