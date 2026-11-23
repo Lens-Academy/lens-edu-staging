@@ -29,5 +29,4 @@ slug:: how-machine-learning-works
 
 ## LO: [[../Context Accelerator LOs/Machine learning]]
 ## LO: [[../Context Accelerator LOs/Neural networks]]
-## LO: [[../Context Accelerator LOs/Models and weights]]
 
