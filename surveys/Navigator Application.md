@@ -25,6 +25,7 @@ short:: true
 
 #### Text
 content:: **Your experience**
+slot:: lens_history
 
 #### Choice
 key:: facilitation_experience
