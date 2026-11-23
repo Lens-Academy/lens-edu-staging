@@ -8,6 +8,8 @@ tutor_minutes: 31
 ---
 #### Text
 content::
+*This page takes about 45 minutes: about 15 minutes of reading, then six short questions spread through it.*
+
 *Who works on AI control, as of October 2026. Go through all the organisations below to get a picture of the field. The field changes fast, so treat the numbers as rough.*
 
 \## Organisations
