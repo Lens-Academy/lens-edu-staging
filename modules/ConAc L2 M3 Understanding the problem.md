@@ -30,6 +30,7 @@ slug:: 2-3-evidence-from-today-s-models
 
 # Submodule: 2.4 Losing control
 slug:: 2-4-losing-control
+
 ## LO: [[../Context Accelerator LOs/Advantages of digital minds]]
 ## LO: [[../Context Accelerator LOs/AI takeover]]
 ## LO: [[../Context Accelerator LOs/Ability to overpower humanity]]

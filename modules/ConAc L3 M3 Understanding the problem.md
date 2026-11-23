@@ -14,6 +14,7 @@ slug:: 3-1-why-alignment-could-be-hard
 
 # Submodule: 3.2 Threat models and attacks
 slug:: 3-2-threat-models-and-attacks
+
 ## LO: [[../Context Accelerator LOs/Threat modeling]]
 ## LO: [[../Context Accelerator LOs/AI and cybersecurity]]
 ## LO: [[../Context Accelerator LOs/Offense-defense balance]]
@@ -29,6 +30,7 @@ slug:: 3-3-influence-and-slow-erosion
 
 # Submodule: 3.4 Reading the evidence
 slug:: 3-4-reading-the-evidence
+
 ## LO: [[../Context Accelerator LOs/AI incidents]]
 ## LO: [[../Context Accelerator LOs/Reading AI safety evidence]]
 ## LO: [[../Context Accelerator LOs/Internal deployment]]
@@ -36,6 +38,7 @@ slug:: 3-4-reading-the-evidence
 
 # Submodule: 3.5 Weighing the risks
 slug:: 3-5-weighing-the-risks
+
 ## LO: [[../Context Accelerator LOs/Benefits vs. risks]]
 ## LO: [[../Context Accelerator LOs/Small probabilities, huge stakes]]
 ## LO: [[../Context Accelerator LOs/Information hazards]]

@@ -15,6 +15,7 @@ slug:: 2-1-the-case-for-risk
 
 # Submodule: 2.2 Why AI would take control
 slug:: 2-2-why-ai-would-take-control
+
 ## LO: [[../Context Accelerator LOs/Instrumental convergence]]
 ## LO: [[../Context Accelerator LOs/Takeover motive]]
 ## LO: [[../Context Accelerator LOs/Extinction from misaligned AI]]
@@ -22,6 +23,7 @@ slug:: 2-2-why-ai-would-take-control
 
 # Submodule: 2.3 Why alignment is hard
 slug:: 2-3-why-alignment-is-hard
+
 ## LO: [[../Context Accelerator LOs/Alignment difficulty arguments]]
 ## LO: [[../Context Accelerator LOs/First critical try]]
 ## LO: [[../Context Accelerator LOs/Pre-paradigmatic alignment]]
@@ -44,6 +46,7 @@ slug:: 2-5-testing-and-containing-models
 
 # Submodule: 2.6 Governance and theories of change
 slug:: 2-6-governance-and-theories-of-change
+
 ## LO: [[../Context Accelerator LOs/AI governance]]
 ## LO: [[../Context Accelerator LOs/Theories of victory]]
 ## LO: [[../Context Accelerator LOs/Theory of change]]
