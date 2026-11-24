@@ -17,7 +17,7 @@ stolen weights all sit outside a provider's reach. In this unit, you will
 learn what cloud providers can observe, how those observations become evidence,
 and where cloud oversight runs out.
 
-:::callout {title="By the end of this lens, you will be able to:" tone="blue"}
+:::callout {title="By the end of this topic, you will be able to:" tone="blue"}
 1. Identify the identity, resource-use, and operational records a cloud provider can observe, and explain what each record supports—and what it still does not establish.
 2. Distinguish provider-controlled evidence from customer declarations, and assess the reliability of each when determining a workload's type, scale, and operator.
 3. Analyze how customer identification, beneficial-ownership checks, reporting thresholds, ongoing monitoring, and access controls turn cloud records into a verification regime—and how an evader could route around them.
