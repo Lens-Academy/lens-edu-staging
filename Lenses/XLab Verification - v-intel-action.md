@@ -49,7 +49,7 @@ As you red-line the treaty text, ask yourself: what does the Article II definiti
 #### Question: Open
 id:: b1cfa8da-fe64-4ad4-975b-1a6b08111099
 content::
-\### Written output, 2.3, Red-line: Red-line the NTM article
+\### Written output: Red-line the NTM article
 
 Work from the treaty text quoted in the Intelligence institutions and treaty design lens: item 17 of Article II's definitions, plus Article X ¶1(b) and its clauses (i), (ii) and (iii). Mark at least three gaps or ambiguities, starting from your four answers if you like, and redraft the one provision whose failure you judge most consequential. Then confront the question the historical record says drafters avoid: write the binding sharing clause the text declines to impose, since ¶1(b)(iii) encourages cooperation but obligates nothing, or defend its absence in three sentences. Test whatever you write against the rule that states sign what is symmetric, cheap, and checkable, and finish with the both-capitals test: one paragraph on why Washington accepts your article, one on why Beijing does.
 
@@ -72,6 +72,6 @@ content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 The MIRI draft agreement this task red-lines is cited without a link in this lesson; its full entry appears in [[../Lenses/XLab Verification - v-intel-signatures|Observable signatures of undeclared AI development]].
 
-XLab. "2.3.5 From intelligence lead to verification action." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-action)
+XLab. "From intelligence lead to verification action." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-action)
 *The source lesson this page adapts, including the red-line written output.*
 :::{>>{"author":"Elias's AI","timestamp":1788521470158}@@XLab's lesson named a "Definition 17" and separate "noninterference" and "no-deliberate-concealment" articles; none of those labels exists in arXiv:2511.10783v3. Corrected here and in 2.3.4 to Article II — Definitions item 17 and Article X ¶1(b)(i) to (iii), which 2.3.4 now quotes in full.<<}
