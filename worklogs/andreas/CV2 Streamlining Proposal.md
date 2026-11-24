@@ -150,7 +150,7 @@ The meeting docs for units 8 to 10 are the most likely to run past 26 November. 
 
 ## Decisions left open
 
-The suggestions are ours.
+The suggestions are ours. **Settled 2026-11-24 (Andreas):** decisions 1 and 3 to 6 as suggested, and decision 2 for "Reporting and protection" only. The three reversals in stage 3 are agreed. Decision 7 was added the same day, after Andreas noticed the duplicated Cankaya reading. The decisions are recorded in [[CV2 Streamlining Log]] as B1 to B7.
 
 | # | Decision | Holds up | Our suggestion |
 |---|---|---|---|
@@ -160,3 +160,4 @@ The suggestions are ours.
 | 4 | The red team review's ten questions: first-answer feedback on all ten, or "Get feedback" on questions 1 to 9 and first-answer feedback on question 10? | Stage 5 | "Get feedback" on 1 to 9, first-answer feedback on 10. The ten build one written review, and CV1 kept essay parts on "Get feedback" so a learner writing is not interrupted after each part (A33). The Cankaya questions are separate answers and get first-answer feedback |
 | 5 | The CIA excerpt: mark it optional, or make it required? | Stages 8 and 9 | Mark it optional, with the segment flag and a line above it saying so. The page's 10 minutes then holds at expected uptake (A54) |
 | 6 | The 11 widgets' tutor descriptions, which name XLab: now, or after 26 November? | Stage 6 | After 26 November, unless stage 6 finishes early. They are seen only by the tutor, and one widget is shared with CV1 |
+| 7 | The red team review inlines Sections 1 to 3 of the Cankaya paper again: about 4,500 words, about 30 minutes at the paper rate, all of which the unit 9 page already carries. The page says so ("you are re-reading Sections 1 to 3 here with a different question in mind"). Keep the copy, make it optional, or replace it with a link back to the unit 9 page? | Stage 4, and decision 2 for the two unit 9 and 10 pages | Make it optional, with a line saying it repeats the unit 9 text. The ten questions cite the paper by section, so a copy on the page spares learners switching pages, and those who skip it save up to 30 minutes. A link alone saves all 30 but leaves learners writing with the paper on another page. Either way the red team review's required reading falls to the four treaty articles (about 2,100 words, about 15 minutes), so splitting the page would part 15 minutes of reading from two hours of writing. We would then leave it whole. The Cankaya page's questions also cite the paper by section, so it too stays whole unless its 161 minutes on one page matters more than having the paper beside the questions |

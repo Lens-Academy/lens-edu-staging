@@ -1,7 +1,7 @@
 ---
 id: 'd9209750-94a2-47aa-a09e-dda05e7f6407'
 slug: xlab-verification-p2-cloud-limits-intelligence
-title: "Unit 7: Cloud limits and intelligence"
+title: "Cloud Limits and Intelligence"
 tags: [wip]
 ---
 
