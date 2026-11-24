@@ -35,11 +35,11 @@ Where does hardware verification actually stand, as opposed to where a demo sugg
 Where cloud oversight runs out, and what can be seen without the other side's cooperation. You work through detection gaps and the geopolitics of cloud controls, drill the habit of stopping at what a record proves, then take up intelligence: the observable signatures of an undeclared training run, the historical record of who actually found undeclared facilities, how a signal becomes an assessment, and treaty text that protects sensors but obliges nobody to share what they see. You red-line that text yourself.
 :::
 
-:::callout {title="Unit 8: The human layer" tone="blue"}
+:::callout {title="Unit 8: The Human Layer" tone="blue"}
 The cheapest verification tools to deploy and the easiest to fool. Who could know, whether they would tell, and what an institution can conclude from what they say: insiders and source credibility, whistleblower statutes and the route a report has to survive, audits and inspections and the access ceiling on any finding, and finally the institutional question of who finds, who judges, who enforces, and against what standard.
 :::
 
-:::callout {title="Unit 9: Covert development and the low-trust architecture" tone="blue"}
+:::callout {title="Unit 9: Covert Development and the Low-Trust Architecture" tone="blue"}
 The adversarial turn, then one long close reading. First a worked case: an evasion built by a red team and taken apart by a blue team, with the standard that operations are made inconclusive rather than invisible. Then a published working paper that proposes a full technical system for verifying AI compute use between parties who do not trust each other. You reconstruct its argument, trace evidence from chip to verdict, and find the step where the conclusion outruns the proof.
 :::
 
