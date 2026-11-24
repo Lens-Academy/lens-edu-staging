@@ -260,5 +260,5 @@ Financial Action Task Force. *Guidance on Beneficial Ownership of Legal Persons.
 United States, Department of Justice. 2025 and 2026 charging announcements concerning alleged diversion of controlled AI chips through front companies, false documentation, and transshipment.
 *Cited with the hardware-diversion row.*
 
-XLab. "Red-team / blue-team exercises." *Verification*, XLab, University of Chicago, 2026.
+XLab. "3.2 Red-Team / Blue-Team Exercises." *Verification*, XLab, University of Chicago, 2026.
 :::{>>{"author":"Elias's AI","timestamp":1788521011728}@@Sources marked as preprints in XLab's own text have not necessarily completed peer review, and US charging documents are allegations. Every entry except the two primary sources is XLab's citation-registry record recovered from citations.json at a10955c^; I have not opened the arXiv preprints or the RAND report, so the descriptions of what each supports are XLab's claims about them and not mine. The DOJ entry names no case, which is how XLab left it.<<}
