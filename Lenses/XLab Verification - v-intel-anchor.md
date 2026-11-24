@@ -75,6 +75,6 @@ content::
 Baker, Mauricio. "Nuclear Arms Control Verification and Lessons for AI Treaties." *arXiv*, Apr. 2023. [doi.org](https://doi.org/10.48550/arXiv.2304.04123)
 *A case study mining nuclear arms-control verification for lessons about what makes AI treaty verification hard and how to make it easier.*
 
-XLab. "The empirical anchor: intelligence identifies, the regime resolves." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-anchor)
+XLab. "2.3.2 The Empirical Anchor: Intelligence Identifies, the Regime Resolves." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-anchor)
 *The source lesson this page adapts.*
 :::
