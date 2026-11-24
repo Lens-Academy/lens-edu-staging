@@ -8,14 +8,14 @@ tags: [wip]
 # Lens: About This Course
 id:: 65e6f4de-e791-4945-ae34-b7879238e00d
 tldr:: The first course argued that a slowdown agreement would have to be checkable. This one is about the checking: what cloud records, satellites, insiders and inspections can honestly establish, and what a determined evader does to each of them.
-summary_for_tutor:: Orientation page for the second course in the compute verification pair. The learner reads what these five units cover, that the first course is a prerequisite, that the capstone is a separate course afterwards which begins with the feasibility judgments, and that the material is an alpha from XLab with a feedback form. Do not teach later content in detail; if asked, point to the week that covers it. If a learner has not done the first course, say plainly that this one starts from its results (mechanism criteria, the actors and supply chain, and the hardware mechanisms) and does not restate them.
+summary_for_tutor:: Orientation page for the second course in the compute verification pair. The learner reads what these five units cover, that the first course is a prerequisite, that the capstone is a separate course afterwards which begins with the feasibility judgments, and that the material is an alpha from XLab with a feedback form. Do not teach later content in detail; if asked, point to the unit that covers it. If a learner has not done the first course, say plainly that this one starts from its results (mechanism criteria, the actors and supply chain, and the hardware mechanisms) and does not restate them.
 reading_minutes:: 4
 tutor_minutes:: 0
 #### Text
 content::
 \## What this course is about
 
-How could parties that do not trust one another verify meaningful limits on advanced AI development? The first course worked from motivation to policy scope: why verification matters, what a pause agreement must actually say, who is bound by it, and what hardware can attest to. This course is about the evidence. The first three weeks each take one stream of it and ask what claims it can honestly support and what it cannot establish on its own. The last two put the picture under adversarial pressure: a full technical verification architecture read closely, and the routes a determined actor would take around it. We built this course on the open-source verification curriculum of [XLab](https://xrisk.uchicago.edu/) at the University of Chicago.
+How could parties that do not trust one another verify meaningful limits on advanced AI development? The first course worked from motivation to policy scope: why verification matters, what a pause agreement must actually say, who is bound by it, and what hardware can attest to. This course is about the evidence. The first three units each take one stream of it and ask what claims it can honestly support and what it cannot establish on its own. The last two put the picture under adversarial pressure: a full technical verification architecture read closely, and the routes a determined actor would take around it. We built this course on the open-source verification curriculum of [XLab](https://xrisk.uchicago.edu/) at the University of Chicago.
 
 :::callout {title="This course continues another one" tone="blue"}
 The first course, Compute Verification, is a prerequisite. This one starts from its results and does not restate them: the criteria for judging a mechanism, the actors and chokepoints of the compute supply chain, and the hardware mechanisms up to and including chip attestation and compute accounting. The capstone is a separate course that follows this one. It opens with the feasibility judgments, where you rank the mechanisms you have now read about and defend the ranking, and builds from there to a verification regime of your own design.
@@ -27,7 +27,7 @@ XLab is testing and calibrating this material with a small cohort before officia
 
 \## The path
 
-:::callout {title="Week 6: Hardware judgment and cloud records" tone="blue"}
+:::callout {title="Unit 6: Hardware judgment and cloud records" tone="blue"}
 Where does hardware verification actually stand, as opposed to where a demo suggests it stands? You separate maturity stages, write a hardware assurance brief for a delegation weighing a three-month pause, and then turn to the cloud: what a provider's own billing, identity and workload records can prove about a training run, and how know-your-customer rules from finance were ported to compute.
 :::
 
