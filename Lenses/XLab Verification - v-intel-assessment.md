@@ -61,7 +61,7 @@ loses the window in which the activity is observable.
 
 Optional: three techniques from the CIA's *A Tradecraft Primer* — the Quality
 of Information Check, Indicators or Signposts of Change, and Analysis of
-Competing Hypotheses. Apply them to a case brief.
+Competing Hypotheses.
 
 #### Article
 source:: [[../articles/government-a-tradecraft-primer-structured-analytic-techniques-for-improving-intelligence-analysis]]
@@ -70,22 +70,10 @@ to:: **ACH Matrix of Terrorism in Tokyo.** In March 1995, a largely unknown grou
 
 #### Text
 content::
-
-:::callout {title="Unfinished writing" tone="amber"}
-The section's main task is specified but not built. Learners are meant to
-produce **their own case brief from a packet of raw materials** — identifying
-and circling the relevant evidence, separating observations from inferences,
-considering alternative explanations, assessing source quality and
-corroboration, and stating both their confidence and what remains unresolved.
-The packet itself has not been assembled.
-:::
-
-#### Text
-content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 United States Government. *A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis*. Mar. 2009. [stat.berkeley.edu](https://www.stat.berkeley.edu/~aldous/157/Papers/Tradecraft%20Primer-apr09.pdf)
 *The US government primer on structured analytic techniques, the intelligence-analysis tradecraft the assessment lesson draws on.*
 
-XLab. "2.3.3 From signal to intelligence assessment." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-assessment)
+XLab. "From signal to intelligence assessment." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-assessment)
 *The source lesson this page adapts.*
 :::
