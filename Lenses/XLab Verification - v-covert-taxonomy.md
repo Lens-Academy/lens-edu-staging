@@ -16,7 +16,7 @@ content::
 
 At this stage, identify the move, the channel, and the actors. Do not decide which route is "best" yet. A realistic scheme may combine one primary route with several supporting tactics.
 
-You will come back to this table in the last lens of this module, after you have run the red-team and blue-team exercise, and score the routes on feasibility, detectability, and durability. Rank them now and you are ranking a guess.
+You will come back to this table in the last lens of this unit, the expert review, and score the routes on feasibility, detectability, and durability. Rank them now and you are ranking a guess.
 
 | Evasion route | What the actor tries to do | Primary layers targeted | Actors who might participate |
 | --- | --- | --- | --- |
@@ -33,7 +33,7 @@ You will come back to this table in the last lens of this module, after you have
 
 #### Question: Open
 id:: 72ca6805-7259-45bf-b166-4fb53d09d385
-content:: Take the Training Through the Pause scenario from the module opener: the Northstar engineer, Lattice Research and its subcontractors, the split cloud accounts, and Sable's suddenly better model.
+content:: Take the Training Through the Pause scenario from Unit 9: the Northstar engineer, Lattice Research and its subcontractors, the split cloud accounts, and Sable's suddenly better model. Recap: in 2029, governments and AI companies agree to a twelve-month Frontier Training Pause. Later, a senior Northstar engineer is reported to be advising Lattice Research, and Lattice and several subcontractors rent advanced accelerators through a cloud reseller, each account below the agreement's review threshold and described as protein-model inference, benchmark evaluation or safety research, yet running synchronized, compute-intensive workloads for six weeks; shortly afterward, Sable Systems privately demonstrates a model that resembles Orion-4 but performs substantially better on several strategically important tasks.
 
 Decompose it. Name the one route you would call primary and say why, then the supporting tactics, and for each say which observer sees the piece and what that observer sees instead of a violation.
 placeholder:: One primary route with a reason, then the supporting tactics, each tied to who sees it.
