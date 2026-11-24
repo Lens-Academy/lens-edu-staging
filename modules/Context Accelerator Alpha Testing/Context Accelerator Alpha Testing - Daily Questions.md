@@ -15,6 +15,8 @@ Answer in your own words. There are no wrong answers here. We are testing the qu
 
 # Lens: Day 1
 id:: 7f2c9a14-6b3e-4d8a-9c51-1e4b8f7a2d03
+tldr:: Ten alpha-test questions (7 open, 3 multiple choice) across core AI safety topics.
+summary_for_tutor:: Alpha testing batch (Day 1) with 10 standalone AI safety questions—5 from Nodes 6 and 5 claim-to-dismantle / rewritten questions—designed to collect real learner responses across mixed backgrounds.
 #### Text
 content::
 Here are 10 questions (7 open, 3 multiple choice) covering core AI safety topics. Take your best shot in your own words—if you don't know an answer, just say "I don't know" rather than spending a long time guessing.
