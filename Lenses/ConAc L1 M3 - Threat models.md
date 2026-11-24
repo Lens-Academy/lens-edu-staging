@@ -22,7 +22,7 @@ to:: can let you identify points of intervention and determine what countering t
 #### Article
 source:: [[../articles/nanda-my-overview-of-the-ai-alignment-landscape-threat-models]]
 from:: # Introduction
-to:: As such, where possible, I try to distill each threat model down to a simple set of assumptions
+to:: -   Feel free to skip around if the sections feel overly long-winded, the high-level sections can be read in any order
 
 #### Article
 source:: [[../articles/feifan-threat-models-timelines-and-theories-of-change]]

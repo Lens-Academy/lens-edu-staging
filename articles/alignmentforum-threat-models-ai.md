@@ -1,7 +1,8 @@
 ---
 title: "Threat Models (AI)"
 author:
-  - "AI Alignment Forum"
+  - "Quinn Dougherty"
+  - "Jacob Pfau"
 source_url: "https://www.alignmentforum.org/w/threat-models-ai"
 published: 2026-11-24
 created: 2026-11-24

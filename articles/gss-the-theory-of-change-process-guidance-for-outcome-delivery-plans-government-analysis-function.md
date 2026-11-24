@@ -1,7 +1,7 @@
 ---
 title: "The Theory of Change Process – Guidance for Outcome Delivery Plans"
 author:
-  - "GSS"
+  - {--{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795530619477}@@"GSS"--}{++{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795530619477}@@"Government Analysis Function"++}
 source_url: "https://analysisfunction.civilservice.gov.uk/policy-store/the-analysis-function-theory-of-change-toolkit/"
 published: 2026-11-24
 created: 2026-11-24
