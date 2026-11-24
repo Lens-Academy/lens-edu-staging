@@ -9,7 +9,7 @@ tutor_minutes: 0
 ---
 #### Text
 content::
-\## 2.2.3 Detection gaps and policy limits
+\## Detection gaps and policy limits
 
 KYC can link cloud activity to an identified customer, but motivated users may
 split or reroute workloads to avoid scrutiny. The RAND reading examines these

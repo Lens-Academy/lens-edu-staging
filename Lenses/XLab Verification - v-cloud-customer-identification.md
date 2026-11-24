@@ -9,7 +9,7 @@ tutor_minutes: 0
 ---
 #### Text
 content::
-\## 2.2.2 Customer identification and ongoing monitoring
+\## Customer identification and ongoing monitoring
 
 Provider records become a verification mechanism only when rules specify how
 they should be used. This section examines how know-your-customer requirements
@@ -69,6 +69,6 @@ content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Egan and Heim (2023), *Oversight for Frontier AI through a Know-Your-Customer Scheme for Compute Providers*, is cited inline above with its arXiv link.
 
-XLab. "2.2.2 Customer identification and ongoing monitoring." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-customer-identification)
+XLab. "Customer identification and ongoing monitoring." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-customer-identification)
 *The source lesson this page adapts.*
 :::
