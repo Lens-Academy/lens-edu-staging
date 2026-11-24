@@ -84,7 +84,7 @@ content:: A lab says its model writes out its reasoning in readable steps before
 assessment-instructions:: Score out of 100. 100 for any one of: the written reasoning may not faithfully reflect the computation that produced the answer; a model could leave out or disguise its real reasons; training pressure on the reasoning can make it look good without being honest; much of the computation happens inside each step and never appears in the text. 40 for "the model could lie" with no link to the reasoning text.
 
 %% [Steven — Nodes 6/Interpretability — Choice] %%
-#### Question: Choice
+##### Question: Choice
 id:: b72e6a41-9c4f-4a5d-8d47-5e8c1f3a9b99
 content:: A simple classifier trained on a language model's internal activations reliably predicts whether the statement the model is reading is true. What does this result show on its own?
 options::
@@ -95,7 +95,7 @@ options::
 shuffle:: true
 
 %% [Luc + Gemini — Open: Compute governance] %%
-#### Question: Open
+##### Question: Open
 id:: d95f3c82-6e1b-4c2e-9a58-8f4d7b6e2a10
 content:: Suppose two nations sign a treaty capping frontier AI training runs at a fixed compute threshold. A negotiator says: "We don't need on-site inspections—we can verify compliance by tracking frontier chip sales and monitoring satellite-visible power consumption at large data centers." Even if nobody smuggles frontier chips, what is a major technical loophole in this verification plan?
 assessment-instructions:: Score out of 100. 100 for either: decentralized/distributed training across many small sites (splitting the power footprint below satellite detection), or algorithmic efficiency gains letting smaller training runs reach frontier capabilities without crossing the compute cap. 50 for mentioning older/non-frontier chips alone without addressing how they avoid the power signature. 0 for no concrete technical loophole.
