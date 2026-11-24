@@ -39,6 +39,6 @@ The time shown for an outcome is the worst case: reading every lens and answerin
 
 \## Active recall
 
-After you answer a question, pick when you want to be asked again (each button shows the wait). When it's time, the question comes back on the course's Active recall page.
+After you answer, pick when to see the question again. It comes back on the Active recall page.
 
 If you are sure you know an outcome, switch on "Exclude from active recall" on its page. You can switch it off again later.
