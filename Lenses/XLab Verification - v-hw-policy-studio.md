@@ -141,6 +141,6 @@ Attestation alone does not establish cumulative compute, workload class, declare
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-XLab. "Policy judgment: what role should hardware play?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-policy-studio)
+XLab. "2.1.8 Policy Judgment: What Role Should Hardware Play?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-policy-studio)
 *The source lesson this page adapts, including the hardware assurance brief and its rubric.*
 :::
