@@ -44,7 +44,7 @@ The final policy question remains: which actors and workloads should be covered,
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-Tan (2026) is linked above. The other readings this problem set draws on are taken from earlier lenses on this topic: Heim et al. (2024) from [[../Lenses/XLab Verification - v-cloud|provider records]] and Egan and Heim (2023) from [[../Lenses/XLab Verification - v-cloud-customer-identification|customer identification]], both in Unit 6, and Moon et al. (2025) from [[../Lenses/XLab Verification - v-cloud-detection-gaps|detection gaps]] in this unit.
+Tan (2026) is linked above. The other readings this problem set draws on are taken from earlier pages on this topic: Heim et al. (2024) from [[../Lenses/XLab Verification - v-cloud|provider records]] and Egan and Heim (2023) from [[../Lenses/XLab Verification - v-cloud-customer-identification|customer identification]], both in Unit 6, and Moon et al. (2025) from [[../Lenses/XLab Verification - v-cloud-detection-gaps|detection gaps]] in this unit.
 
 XLab. "2.2.4 Interpreting Cloud Evidence." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-evidence)
 *The source lesson this page adapts, including the nine-task problem set.*
