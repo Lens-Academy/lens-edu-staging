@@ -87,7 +87,7 @@ question, and it belongs here: how do rivals authenticate intelligence passed
 between them — signal authentication, chain of custody?
 
 The cryptographic machinery for this — zero-knowledge proofs, multi-party
-computation, attestation — is outside this lens. The bridge worth knowing is the
+computation, attestation — is covered in [[../Lenses/XLab Verification - v-mechanism-privacy|Privacy-Preserving Mechanisms]], in unit 4 of Compute Verification 1. The bridge worth knowing is the
 zero-knowledge warhead-verification precedent (Glaser, Barak and Goldston,
 *Nature*, 2014).
 
