@@ -21,6 +21,12 @@ required:: true
 key:: cv_link
 content:: Link to your CV, LinkedIn, etc.
 max-chars:: 300
+
+#### Question
+key:: location
+content:: Where will you live while navigating (City, Country)?
+description:: We need this for paid navigator contracts.
+max-chars:: 100
 short:: true
 
 #### Text
