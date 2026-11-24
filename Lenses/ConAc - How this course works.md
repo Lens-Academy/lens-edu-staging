@@ -18,7 +18,7 @@ The course is split into units. Each unit ends with a group meeting.
 
 A unit has up to three levels on the same topic:
 
-- **Level 1** is the core of the unit and carries the unit's name. Do it first.
+- **Level 1** is the core of the unit. Do it first.
 - **Level 2** goes deeper into the same topic.
 - **Level 3** covers the rest of the unit.
 
