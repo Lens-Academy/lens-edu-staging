@@ -26,7 +26,7 @@ The treaty term for a state’s own collection: reconnaissance satellites, signa
 :::
 
 :::callout {title="One vocabulary note" tone="neutral" collapse="closed"}
-Wasil and coauthors, whose taxonomy you’ll read in [[../Lenses/XLab Verification - v-intel-signatures|the signatures lens]], count whistleblowers among national technical means. This course teaches the whistleblower in Unit 8 instead, because a tip’s content and the person who risks carrying it raise different questions. When the two carve differently, follow the course’s grouping and cite the paper’s.
+Wasil and coauthors, whose taxonomy you’ll read in [[../Lenses/XLab Verification - v-intel-signatures|Observable Signatures of Undeclared AI Development]], count whistleblowers among national technical means. This course teaches the whistleblower in Unit 8 instead, because a tip’s content and the person who risks carrying it raise different questions. When the two carve differently, follow the course’s grouping and cite the paper’s.
 :::
 
 #### Text
