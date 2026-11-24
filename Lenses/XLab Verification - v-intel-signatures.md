@@ -174,19 +174,6 @@ source:: [[../widgets/wasil-method-explorer]]
 
 #### Text
 content::
-
-:::callout {title="Unfinished writing" tone="amber"}
-Two pieces this section is specified to carry are not built yet: the
-interactive on AI data-centre power consumption built from
-[Epoch's data-centre dataset](https://epoch.ai/data/ai-data-centers), with the
-inference-versus-training comparison; and the predict-before-the-reveal beat on
-each signature card ("what does this signature actually establish, and what is
-its main caveat?"). The open-source card is also held short deliberately — a
-dedicated treatment exists and should be distilled before it is finalised.
-:::
-
-#### Text
-content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence." *arXiv*, Nov. 2025. [arxiv.org](https://arxiv.org/abs/2511.10783)
 *MIRI's draft international agreement to prevent the premature creation of artificial superintelligence, the treaty text several lessons read against.*
@@ -197,6 +184,6 @@ Wasil, Akash R., Tom Reed, Jack William Miller, et al. "Verification Methods for
 Epoch AI. "AI Data Centers." *Epoch AI*, continuously updated. [epoch.ai](https://epoch.ai/data/ai-data-centers)
 *Epoch's continuously updated database of the world's largest AI data centers, built from satellite imagery and permitting records.*
 
-XLab. "2.3.1 Observable signatures of undeclared AI development." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-signatures)
+XLab. "Observable signatures of undeclared AI development." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-signatures)
 *The source lesson this page adapts, including the collection map.*
 :::
