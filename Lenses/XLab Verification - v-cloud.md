@@ -13,7 +13,7 @@ Cloud providers sit between AI developers and the machines they rent. Because
 providers own, operate, meter, and bill for that compute, they can act as record
 keepers, verifiers, enforcers, and securers. But cloud evidence is one witness,
 not the whole court: self-hosted clusters, non-signatory jurisdictions, and
-stolen weights all sit outside a provider's reach. In this unit, you will
+stolen weights all sit outside a provider's reach. In units 6 and 7, you will
 learn what cloud providers can observe, how those observations become evidence,
 and where cloud oversight runs out.
 

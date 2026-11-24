@@ -11,7 +11,7 @@ tutor_minutes: 61
 content::
 In this unit, you will tackle a comprehensive technical verification system proposal, synthesizing the verification mechanisms, the actors and incentive structures, and the verification intuitions you gained earlier in the course.
 
-:::callout {title="By the end of this unit, you will be able to:" tone="blue"}
+:::callout {title="By the end of units 9 and 10, you will be able to:" tone="blue"}
 1. Explain how the requirements of an international AI agreement might be translated into a technical verification system.
 2. Understand and critique the assumptions, design choices, and unresolved problems involved in verifying AI compute use under conditions of limited trust between the parties.
 3. Apply an existing compute verification regime to a realistic facility simulation, identifying weak points, evasion possibilities, and testable assumptions.

@@ -16,7 +16,7 @@ content::
 
 At this stage, identify the move, the channel, and the actors. Do not decide which route is "best" yet. A realistic scheme may combine one primary route with several supporting tactics.
 
-You will come back to this table in [[../Lenses/XLab Verification - v-covert-red-blue|the expert review at the end of this unit]] and score the routes on feasibility, detectability, and durability. Rank them now and you are ranking a guess.
+You will come back to this table at [[../Lenses/XLab Verification - v-covert-red-blue|the end of this unit]], after the red-team and blue-team review, and score the routes on feasibility, detectability, and durability. Rank them now and you are ranking a guess.
 
 | Evasion route | What the actor tries to do | Primary layers targeted | Actors who might participate |
 | --- | --- | --- | --- |
