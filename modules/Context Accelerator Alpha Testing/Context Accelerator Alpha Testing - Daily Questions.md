@@ -42,7 +42,7 @@ content:: An AI developer trains a model to refuse harmful requests. Why might t
 id:: 5d1b8a63-7e4c-4a2f-9b38-2f6e4c8a9d33
 content:: A company deploys a customer-support system built on an LLM. Which architectural change turns it from a multi-step workflow into an AI agent?
 options::
-- [x] Giving the model control over which tools to call and when to stop
+- Giving the model control over which tools to call and when to stop
 - Connecting the model to external tools like a database and email API
 - Chaining separate model calls for routing, drafting, and quality checks
 - Storing past customer conversations in a vector database for retrieval
@@ -65,7 +65,7 @@ content:: A colleague says: "Stopping a misaligned AI from resisting shutdown is
 id:: 8f3d5b19-2e6a-4d8c-9f74-4b1e8a6c3d66
 content:: Which evidence would most directly support a control argument in an AI safety case?
 options::
-- [x] A red team playing a scheming model failed to evade the monitoring protocol
+- A red team playing a scheming model failed to evade the monitoring protocol
 - Interpretability tools found no sign of deceptive goals in the model
 - The model scored poorly on dangerous-capability benchmarks
 - The model consistently refused harmful requests during testing
@@ -88,7 +88,7 @@ content:: A lab says its model writes out its reasoning in readable steps before
 id:: b72e6a41-9c4f-4a5d-8d47-5e8c1f3a9b99
 content:: A simple classifier trained on a language model's internal activations reliably predicts whether the statement the model is reading is true. What does this result show on its own?
 options::
-- [x] The information is present in the activations, not that the model uses it
+- The information is present in the activations, not that the model uses it
 - The model is honest whenever it states something it believes is true
 - The researchers have found the circuit the model uses to judge truth
 - The model would be caught by the classifier if it tried to lie
