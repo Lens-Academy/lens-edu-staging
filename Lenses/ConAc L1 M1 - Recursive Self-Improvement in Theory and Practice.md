@@ -100,10 +100,17 @@ to:: "~0.5 OOMs/year)._"
 
 #### Text
 content::
-\## RSI in theory and predictions
-{>>{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795439025356}@@Video to add here, whole: https://www.youtube.com/watch?v=vV7dRkjTPo4 (import failed on 2026-11-23, retry)<<}
+\## RSI in theory and predictions{++{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795533305928}@@
+
+#### Video++}
+{--{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795533305928}@@{>>{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795439025356}@@Video to add here, whole: https://www.youtube.com/watch?v=vV7dRkjTPo4 (import failed on 2026-11-23, retry)<<}--}{++{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795533305928}@@source:: [[../video_transcripts/rational-animations-scientists-predicted-a-singularity-on-nov-13-2026-they-were-right]]++}
 
 #### Text
 content::
-\## RSI in current AI development
-{>>{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795439025356}@@Video to add here, 0:00 to 10:44: https://www.youtube.com/watch?v=h_aA1-R70E8 (import failed on 2026-11-23, retry)<<}
+\## RSI in current AI development{--{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795533321711}@@
+{>>{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795439025356}@@Video to add here,--}{++{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795533321711}@@
+
+#### Video
+source:: [[../video_transcripts/a16z-openais-cofounder-research-chief-explain-self-improving-ai]]
+from::++} 0:00{--{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795533321711}@@ to 10:44: https://www.youtube.com/watch?v=h_aA1-R70E8 (import failed on 2026-11-23, retry)<<}--}{++{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795533321711}@@
+to:: 10:44++}

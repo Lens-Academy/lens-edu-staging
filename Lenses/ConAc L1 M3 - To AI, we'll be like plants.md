@@ -9,3 +9,6 @@ tags:
 #### Text
 content::
 TBD
+
+#### Video
+source:: [[../video_transcripts/robert-miles-ai-safety-to-ai-well-be-like-plants]]
