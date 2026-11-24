@@ -70,7 +70,8 @@ feedback-instructions:: Go criterion by criterion: name the strongest of the fiv
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-The MIRI draft agreement this task red-lines is cited without a link on this page. Its full entry is in [[../Lenses/XLab Verification - v-intel-institutions|the previous page's Works cited]].
+Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence." *arXiv*, Nov. 2025. [arxiv.org](https://arxiv.org/abs/2511.10783)
+*The MIRI draft agreement this task red-lines.*
 
 XLab. "2.3.5 From Intelligence Lead to Verification Action." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-action)
 *The source lesson this page adapts, including the red-line written output.*

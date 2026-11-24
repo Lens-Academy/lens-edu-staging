@@ -95,7 +95,7 @@ content::
 
 Baker proposes a similar solution against this problem of physical access,
 including visits to a building that the verifier physically secures, as you
-read earlier in Appendix A.8, "Whistleblower Programs", [[../Lenses/XLab Verification - v-human-insiders|on the previous page]].
+read earlier in [[../Lenses/XLab Verification - v-human-insiders|Appendix A.8, "Whistleblower Programs"]].
 
 Legal permission, a financial incentive, and a web form do not by themselves
 create a usable route. The route also has to survive monitored devices,

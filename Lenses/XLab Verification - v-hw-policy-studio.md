@@ -121,9 +121,9 @@ feedback-instructions:: Give the score per rubric dimension with one sentence ea
 content::
 \#### Return to the opening puzzle
 
-You judged these seven conclusions before you read anything in this section. Classify them again now, then see what moved.
+You judged these seven conclusions at the start of Unit 5, before you read anything about hardware. Classify them again now, then see what moved.
 
-The ledger below opens blank: Lens keeps a widget's answers with the page it sits on, so this copy cannot show your earlier record. Judge all seven rows and keep your answers, then open [[../Lenses/XLab Verification - v-hw-attestation|your first ledger in unit 5 of Compute Verification 1]] alongside it and compare the two ledgers line by line. For every judgment that changed, name the evidence or distinction from this section that changed it.
+The ledger below opens blank: Lens keeps a widget's answers with the page it sits on, so this copy cannot show your earlier record. Judge all seven rows and keep your answers, then open [[../Lenses/XLab Verification - v-hw-attestation|your ledger from the start of Unit 5]] alongside it and compare the two ledgers line by line. For every judgment that changed, name the evidence or distinction from the hardware pages that changed it.
 
 #### Widget
 source:: [[../widgets/claim-ledger]]

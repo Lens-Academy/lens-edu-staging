@@ -25,7 +25,7 @@ A determined actor might try to conceal:
 - Whether a threshold or definition has been crossed; or
 - Whether reliable evidence ever reaches the verifier.
 
-[[../Lenses/XLab Verification - v-covert-taxonomy|The next page]] is a map of the main routes. In [[../Lenses/XLab Verification - v-covert-red-blue|the expert review at the end of this unit]], you will return to that map and ask which routes are technically workable, organizationally plausible, detectable, and durable.
+The next page is a map of the main routes. At [[../Lenses/XLab Verification - v-covert-red-blue|the end of this unit]], after the red-team and blue-team review, you will return to that map and ask which routes are technically workable, organizationally plausible, detectable, and durable.
 
 \## Historical parallel: supplier chokepoints and the A. Q. Khan network
 

@@ -1,7 +1,7 @@
 ---
 id: '1bfbd032-a554-41da-9025-2c644e774b84'
 title: "Intelligence institutions and treaty design"
-tldr: "Treaties are strong on protecting spy satellites and weak on making spies share what they see. Nobody blinds the other side's sensors, but nobody is obliged to hand the verifier a tip either. Read the MIRI draft's definition of national technical means and its Article X as a text to mark up, not admire; you will red-line it in 2.3.5."
+tldr: "Treaties are strong on protecting spy satellites and weak on making spies share what they see. Nobody blinds the other side's sensors, but nobody is obliged to hand the verifier a tip either. Read the MIRI draft's definition of national technical means and its Article X as a text to mark up, not admire; you will red-line it on the next page."
 summary_for_tutor: "Imported from XLab's Verification curriculum; a short reading with no questions. Its thesis is the asymmetric precedent: weak on sharing (no obligation on intelligence agencies to share with verifiers, Baker section 2.3.3), strong on protection (Article X ¶1(b)(i) and (ii) of the MIRI draft, the noninterference-with-NTM and no-deliberate-concealment clauses, which Gottemoeller called one of the easiest points of agreement in New START). It covers Six Layers' argument for national rather than international agencies, MIRI's Article II definition of national technical means (item 17) and Article X ¶1(b)(i) to (iii) as concrete treaty text, and the authentication problem for shared intelligence. Both passages are embedded in this lens as excerpts of the imported paper, and they are the text the 2.3.5 red-line works from; clause (iii), which encourages but does not obligate cooperation, is the lens's own evidence that the precedent is weak on sharing. The wider readings (MIRI draft pp. 20, 39 to 40; Baker 2.3.3; Six Layers) are listed without inline links; the learner is expected to have the MIRI draft from earlier lessons. The Unfinished writing callout is XLab's note that the Six Layers treatment and the treaty analysis questions are not yet written. The written output on this text lives in the next lens, 2.3.5."
 tags: [wip]
 reading_minutes: 8
@@ -78,7 +78,7 @@ to:: as relevant to this Agreement.
 content::
 Read ¶1(b)(iii) against (i) and (ii). Protection is an undertaking; sharing is
 an encouragement. That is the asymmetry of this whole section sitting in one
-paragraph, and [[../Lenses/XLab Verification - v-intel-action|the last page of this unit]] asks you to draft the obligation it declines to impose.
+paragraph, and [[../Lenses/XLab Verification - v-intel-action|the next page]] asks you to draft the obligation it declines to impose.
 
 \## Authenticating what gets shared
 
@@ -87,7 +87,7 @@ question, and it belongs here: how do rivals authenticate intelligence passed
 between them — signal authentication, chain of custody?
 
 The cryptographic machinery for this — zero-knowledge proofs, multi-party
-computation, attestation — is covered in [[../Lenses/XLab Verification - v-mechanism-privacy|unit 4 of Compute Verification 1]]. The bridge worth knowing is the
+computation, attestation — is covered with the privacy-preserving mechanisms in [[../Lenses/XLab Verification - v-mechanism-privacy|Unit 4]]. The bridge worth knowing is the
 zero-knowledge warhead-verification precedent (Glaser, Barak and Goldston,
 *Nature*, 2014).
 
