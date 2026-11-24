@@ -12,18 +12,18 @@ authors:
 #### Text
 content::
 {>>{"author":"Elias's AI","timestamp":1788520541116}@@Restored from XLab commit a10955c^, src/content/lessons/verification/covert-what-is-it.mdx (XLab's unit 3.0, "What is Covert Development?"). Upstream deleted it in a10955c, when the course owner replaced the whole of module 3 with the Cankaya paper; docs/verification/module-3-log.md on main records what went and why. Body text is XLab's. Three deviations, all mine: em dashes are removed under the Lens house rule (XLab's owner ruled the other way for their repo, see their commit #56); XLab's unit number is dropped from the title, because v-covert-system-overview now occupies slot 3.0 and renumbering the module is Elias's decision, not mine; and the six worked-example prompts are carried by the Training Through the Pause widget, which lets the learner answer and be scored before each model answer is revealed, which is Lens instructional design and not XLab's.<<}
-Every mechanism you learned about in Module 2 is prone to failure. Illicit training runs can be disguised as inference. Employee defectors can leak frontier secrets. The reason why the field of verification is so important is the same reason why its design is so difficult: there will constantly be adversaries trying to break a regime, no matter how robust. From nation-states to corporate employees, motivated by everything from national security to personal profit, countless actors will continuously attempt to secretly develop superintelligence or steal frontier weights.
+Every mechanism you learned about earlier in the course is prone to failure. Illicit training runs can be disguised as inference. Employee defectors can leak frontier secrets. The reason why the field of verification is so important is the same reason why its design is so difficult: there will constantly be adversaries trying to break a regime, no matter how robust. From nation-states to corporate employees, motivated by everything from national security to personal profit, countless actors will continuously attempt to secretly develop superintelligence or steal frontier weights.
 
-:::callout {title="In this module, you will learn how to:" tone="blue"}
-1. Identify weaknesses in the verification mechanisms you learned about in Module 2
+:::callout {title="In this unit, you will learn how to:" tone="blue"}
+1. Identify weaknesses in the verification mechanisms you learned about earlier in the course
 2. Trace what evidence the evasion would leave across different verification layers
-3. Analyze how actors you learned about in Module 1 might evade an AI agreement
+3. Analyze how actors you learned about earlier in the course might evade an AI agreement
 4. Design controls that could prevent, detect, investigate, or confirm violations
 5. Scaffold a robust, layered regime that minimizes vulnerabilities across all layers
 :::
 {>>{"author":"Elias's AI","timestamp":1788520541116}@@Note for Elias: this module now carries two objective lists. This one is XLab's, written for the four evasion lessons. The other is the course owner's three-bullet "By the end of this module, you will be able to" block inside v-covert-system-overview, written for the Cankaya close reading. I have kept both verbatim rather than merging them, because choosing which one governs the module is the same decision as the module's contested title, and that is yours.<<}
 
-You will develop these skills through working through a red-team/blue-team scenario yourself later in this module. The red team designs an evasion strategy against the proposed verification regime; the blue team identifies detection opportunities, corroboration needs, and response options. This task can feel daunting and abstract without seeing the full process first, which is what the worked example below is for. The scenario itself is fictional, but its main tactics are based on documented cases and published security research.
+You will develop these skills through working through a red-team/blue-team scenario yourself in Unit 10. The red team designs an evasion strategy against the proposed verification regime; the blue team identifies detection opportunities, corroboration needs, and response options. This task can feel daunting and abstract without seeing the full process first, which is what the worked example below is for. The scenario itself is fictional, but its main tactics are based on documented cases and published security research.
 
 #### Text
 optional:: true
@@ -96,7 +96,7 @@ As the red team, explain the most plausible evasion strategy, its assumptions, a
 
 As the blue team, explain how evidence from the hardware, cloud, intelligence, and human layers could be combined, and recommend a proportionate response.
 
-The answers below show what excellent student work might look like. Write your own answer to a prompt before you open its model answer, or open the model answer straight away, so that you see the whole shape of the exercise before you meet the real one in the last lesson of this module.
+The answers below show what excellent student work might look like. Write your own answer to a prompt before you open its model answer, or open the model answer straight away, so that you see the whole shape of the exercise before you meet the real one in Unit 10.
 
 #### Widget
 source:: [[../widgets/covert-worked-example]]
@@ -125,7 +125,7 @@ A strong blue-team answer explains:
 
 The standard is not perfect evasion or perfect verification. It is a scenario specific enough to test, and a response honest enough to distinguish suspicion from proof.
 
-The next lesson asks what a determined actor would actually try, and the lesson after that lays out the ten routes it could take.
+Unit 10 asks what a determined actor would actually try, and then lays out the ten routes it could take.
 
 #### Text
 content::

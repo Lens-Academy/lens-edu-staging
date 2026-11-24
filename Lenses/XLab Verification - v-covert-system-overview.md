@@ -9,7 +9,7 @@ tutor_minutes: 61
 ---
 #### Text
 content::
-In this module, you will tackle a comprehensive technical verification system proposal, synthesizing the verification mechanisms you learned in Module 2, actors and incentive structures you learned in Module 1, and verification intuitions you gained in Module 0.
+In this unit, you will tackle a comprehensive technical verification system proposal, synthesizing the verification mechanisms, the actors and incentive structures, and the verification intuitions you gained earlier in the course.
 
 :::callout {title="By the end of this module, you will be able to:" tone="blue"}
 1. Explain how the requirements of an international AI agreement might be translated into a technical verification system.
