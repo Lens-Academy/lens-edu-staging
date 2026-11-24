@@ -5,5 +5,8 @@ title: "How this course works"
 tags: [wip]
 ---
 
+# Lens: Why this course exists
+source:: [[../Lenses/ConAc - Why this course exists]]
+
 # Lens: How this course works
 source:: [[../Lenses/ConAc - How this course works]]
