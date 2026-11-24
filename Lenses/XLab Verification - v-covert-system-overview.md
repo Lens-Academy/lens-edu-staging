@@ -223,6 +223,6 @@ content::
 Cankaya, Naci. "A System Overview for Near-Term, Low-Trust AI Compute Verification." *Machine Intelligence Research Institute, Technical Governance Team*, June 2026. [techgov.intelligence.org](https://techgov.intelligence.org/research/a-system-overview-for-near-term-low-trust-ai-compute-verification)
 *A working draft of a privacy-preserving, retrofittable system for verifying AI compute use between rival states, published to be argued with; each of its six technical sections closes with a set of questions for the reader.*
 
-XLab. "A system overview for near-term, low-trust AI compute verification." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/covert-development/low-trust-compute-verification)
+XLab. "3.0 A System Overview for Near-Term, Low-Trust AI Compute Verification." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/covert-development/low-trust-compute-verification)
 *The source lesson this page adapts.*
 :::{>>{"author":"Elias's AI","timestamp":1788015610104}@@XLab's MemoDesk for this lesson (memos.ts slot m3-written-output) is unspecified: brief and audience are null, only "800 words, peer reviewed" and a gap note saying the outline never says which written output Module 3 gets. Nothing to import, so the "Import gap" placeholder is dropped rather than replaced with an invented memo prompt.<<}

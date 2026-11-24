@@ -128,5 +128,5 @@ The Wassenaar Arrangement. "About Us." [wassenaar.org](https://www.wassenaar.org
 United States, Department of State. "Anti-Ballistic Missile Treaty (ABM Treaty)." [state.gov](https://2009-2017.state.gov/t/avc/trty/101888.htm)
 *The archive page carrying the treaty text behind the Krasnoyarsk case.*
 
-XLab. "How could a determined actor cheat?" *Verification*, XLab, University of Chicago, 2026.
+XLab. "3.1 How Could a Determined Actor Cheat?" *Verification*, XLab, University of Chicago, 2026.
 :::{>>{"author":"Elias's AI","timestamp":1788520632421}@@These entries are XLab's own citation-registry records, recovered from src/content/citations.json at a10955c^; commit a10955c removed them as orphans when the lesson went. The IISS volume had no URL in XLab's registry either, so it has none here rather than an invented one. Link liveness untested.<<}
