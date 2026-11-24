@@ -209,7 +209,7 @@ A strong review will fairly reconstruct both texts, distinguish a verification s
 
 \## Scoring the evasion routes
 
-Return to the taxonomy on the previous page, [[../Lenses/XLab Verification - v-covert-taxonomy|Evasion Scenario Taxonomy]], and add judgment. The scores below are relative, conditional assessments, not measured probabilities. They depend on the agreement, actor, hardware fleet, jurisdiction, access rights, and verification architecture.
+Return to [[../Lenses/XLab Verification - v-covert-taxonomy|the taxonomy on the previous page]] and add judgment. The scores below are relative, conditional assessments, not measured probabilities. They depend on the agreement, actor, hardware fleet, jurisdiction, access rights, and verification architecture.
 
 Scoring: 1 = very low or weak; 2 = low; 3 = moderate; 4 = high; 5 = very high. For verification effectiveness, a higher score is better for the verifier.
 
