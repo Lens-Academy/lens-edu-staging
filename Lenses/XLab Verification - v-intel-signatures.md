@@ -85,7 +85,7 @@ layers and shifting to a new architecture with a different compute profile
 produce different curves, and inference and training draw differently again.
 See Scher et al., *An International Agreement to Prevent the Premature Creation
 of Artificial Superintelligence*, Appendix D — and connect it back to the
-development picture from Module 1.
+development picture from earlier in the course.
 :::
 
 \### Procurement, customs, and financial intelligence
