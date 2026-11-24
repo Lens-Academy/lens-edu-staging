@@ -4,8 +4,6 @@ title: "To AI, we'll be like plants"
 tags:
   - wip
 ---
-%% Video: https://www.youtube.com/shorts/nWoVDFjj2Iw . Import failed on 2026-11-23 ("fetch failed", also with the watch?v= link). Add a Video segment once the transcript is imported. %%
-
 #### Text
 content::
 TBD
