@@ -108,11 +108,7 @@ Your brief must include:
 | Layering and common-mode failure | 10% | The corroborating layer is genuinely independent and covers the named blind spot |
 | Audience fit and update conditions | 10% | The recommendation serves the named reader and states what would change it |
 
-:::callout {title="Written output · 2.1 · Hardware assurance brief" tone="neutral"}
-A bounded hardware assurance brief. The point is not forecasting the correct future — it is making the assessment conditional on visible facts: coverage, fidelity, time to deployment, and the preferred corroborating layer.
-
-**Budget:** about 1000 words. **Reader:** A named national delegation or joint drafting session considering a three-month U.S.–China pause.
-:::
+The point of the brief is not forecasting the correct future. It is making the assessment conditional on visible facts: coverage, fidelity, time to deployment, and the preferred corroborating layer.
 
 #### Question: Open
 id:: 936e8aee-a0d9-4e27-9e58-f3b32f08d834
