@@ -6,7 +6,7 @@ description: "Module 1 of the Context Accelerator in four structures, to compare
 tags: [wip]
 ---
 %%
-Comparison course, not for learners. Why and what: [[../../../Lens/03-Product/ConAc/Module 1 structure variants]]
+Comparison course, not for learners. Why and what: [[../../../Lens/03-Product/C-Acc/Module 1 structure variants]]
 Each variant is one unit. Same lenses and learning outcomes as the draft [[Context Accelerator]], only grouped differently.
 %%
 
