@@ -26,6 +26,6 @@ core mechanisms of human verification applicable to AI development.
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-XLab. "The human layer." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-intro)
+XLab. "2.4 The Human Layer." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-intro)
 *The source lesson this page adapts.*
 :::{>>{"author":"Elias's AI","timestamp":1788015709033}@@XLab's Objectives block carries scope="this submodule", so the title says "submodule" rather than "module".<<}
