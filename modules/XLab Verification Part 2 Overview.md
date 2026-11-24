@@ -31,15 +31,15 @@ XLab is testing and calibrating this material with a small cohort before officia
 Where does hardware verification actually stand, as opposed to where a demo suggests it stands? You separate maturity stages, write a hardware assurance brief for a delegation weighing a three-month pause, and then turn to the cloud: what a provider's own billing, identity and workload records can prove about a training run, and how know-your-customer rules from finance were ported to compute.
 :::
 
-:::callout {title="Week 7: Cloud limits and intelligence" tone="blue"}
+:::callout {title="Unit 7: Cloud limits and intelligence" tone="blue"}
 Where cloud oversight runs out, and what can be seen without the other side's cooperation. You work through detection gaps and the geopolitics of cloud controls, drill the habit of stopping at what a record proves, then take up intelligence: the observable signatures of an undeclared training run, the historical record of who actually found undeclared facilities, how a signal becomes an assessment, and treaty text that protects sensors but obliges nobody to share what they see. You red-line that text yourself.
 :::
 
-:::callout {title="Week 8: The human layer" tone="blue"}
+:::callout {title="Unit 8: The human layer" tone="blue"}
 The cheapest verification tools to deploy and the easiest to fool. Who could know, whether they would tell, and what an institution can conclude from what they say: insiders and source credibility, whistleblower statutes and the route a report has to survive, audits and inspections and the access ceiling on any finding, and finally the institutional question of who finds, who judges, who enforces, and against what standard.
 :::
 
-:::callout {title="Week 9: Covert development and the low-trust architecture" tone="blue"}
+:::callout {title="Unit 9: Covert development and the low-trust architecture" tone="blue"}
 The adversarial turn, then one long close reading. First a worked case: an evasion built by a red team and taken apart by a blue team, with the standard that operations are made inconclusive rather than invisible. Then a published working paper that proposes a full technical system for verifying AI compute use between parties who do not trust each other. You reconstruct its argument, trace evidence from chip to verdict, and find the step where the conclusion outruns the proof.
 :::
 
