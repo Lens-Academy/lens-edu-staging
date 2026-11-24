@@ -70,7 +70,7 @@ feedback-instructions:: Go criterion by criterion: name the strongest of the fiv
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-The MIRI draft agreement this task red-lines is cited without a link in this lesson; its full entry appears in [[../Lenses/XLab Verification - v-intel-signatures|Observable signatures of undeclared AI development]].
+The MIRI draft agreement this task red-lines is cited without a link on this page. Its full entry appears in the Works cited of [[../Lenses/XLab Verification - v-intel-signatures|Observable Signatures of Undeclared AI Development]].
 
 XLab. "2.3.5 From Intelligence Lead to Verification Action." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-action)
 *The source lesson this page adapts, including the red-line written output.*
