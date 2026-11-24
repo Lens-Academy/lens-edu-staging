@@ -69,6 +69,6 @@ content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Egan and Heim (2023), *Oversight for Frontier AI through a Know-Your-Customer Scheme for Compute Providers*, is cited inline above with its arXiv link.
 
-XLab. "Customer identification and ongoing monitoring." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-customer-identification)
+XLab. "2.2.2 Customer Identification and Ongoing Monitoring." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-customer-identification)
 *The source lesson this page adapts.*
 :::
