@@ -9,7 +9,7 @@ authors:
 
 Companion to [[CV2 Streamlining Proposal]]. The proposal holds the plan, this holds the decisions and what was done. CV1's records are [[CV1 Restructure Log]] and [[AIRF Restructure - Working Preferences]], whose working rules apply here too. Decisions here are numbered B1, B2 and so on, so they never collide with CV1's A-numbers.
 
-**Status, 2026-11-24.** The proposal is agreed apart from one open question (Q1). Stage 3, step 1 is half done: the five unit module titles are back in CV1's form. Next in the same step: the meeting headings in the course file and the overview's five boxes, which keep "Unit N:" and take title case.
+**Status, 2026-11-24.** The proposal is agreed apart from one open question (Q1). Stage 3, step 1 is done: the module titles are back in CV1's form, and the meeting headings keep units 6 to 10 in title case (B9). The overview's box titles are left as they are, since the platform shows them in capitals (Andreas). Next: stage 3, step 2, XLab's lesson numbers back into the Works cited entries.
 
 ## 1. Decisions
 
@@ -23,6 +23,7 @@ Companion to [[CV2 Streamlining Proposal]]. The proposal holds the plan, this ho
 | B6 | **The CIA excerpt on [[../../Lenses/XLab Verification - v-intel-assessment]] is optional** (Andreas, 2026-11-24), with the segment's `optional:: true` and a line above it saying so, since learners do not see the flag. The page's 10 minutes holds at expected uptake (A54) | Decision 5 |
 | B7 | **The widgets' tutor descriptions wait until after 26 November** (Andreas, 2026-11-24), unless stage 6 finishes early | Decision 6 |
 | B8 | **The red team review's second copy of Cankaya's Sections 1 to 3 becomes optional** (Andreas, 2026-11-24), with `optional:: true` on the segment and a line above it saying it repeats the unit 9 text, since learners do not see the flag | Decision 7 |
+| B9 | **CV2 keeps units 6 to 10** (Andreas, 2026-11-24). CV1 and CV2 are one ten-unit curriculum, and the capstone is a separate course, which is why it starts again at unit 1. The platform's own numbering (the sidebar's "Unit 1" to "Unit 5" and the breadcrumb's "1." to "5.") should start at 6 once a course setting for it exists, rather than the course being renumbered around the gap. The meeting headings keep "Unit 6:" to "Unit 10:" and take title case | Q2 |
 
 ## 2. Open questions
 
