@@ -21,8 +21,12 @@ summary_for_tutor:: Alpha testing batch (Day 1) with 10 standalone AI safety que
 content::
 Here are 10 questions (7 open, 3 multiple choice) covering core AI safety topics. Take your best shot in your own words—if you don't know an answer, just say "I don't know" rather than spending a long time guessing.
 
+#### Question Set
+minimum-questions-answered:: 10
+one-at-a-time:: true
+
 %% [Luc + Gemini — Open: Instrumental convergence] %%
-#### Question: Open
+##### Question: Open
 id:: 3a8e1c47-9d2f-4b6a-8e15-6c9a2f4d8b11
 content:: A colleague says: "I'm not worried about misaligned AI taking over. Nobody is going to train an AI whose goal is to seize power or survive—we're training models to do mundane things like manage supply chains or cure cancer." How would you respond?
 assessment-instructions:: Score out of 100. 100: explains that an AI pursuing a benign, mundane goal still has a strong incentive to stay operational, acquire resources, or resist shutdown because those help it achieve that mundane goal (jargon like "instrumental convergence" not required). 50: raises a valid side-point (e.g., bad actors might train power-seeking AI, or the model might game a proxy metric) without connecting a benign goal to power-seeking or self-preservation. 0: agrees with the colleague or gives no mechanism.
