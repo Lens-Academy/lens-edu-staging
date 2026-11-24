@@ -74,6 +74,6 @@ content::
 United States Government. *A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis*. Mar. 2009. [stat.berkeley.edu](https://www.stat.berkeley.edu/~aldous/157/Papers/Tradecraft%20Primer-apr09.pdf)
 *The US government primer on structured analytic techniques, the intelligence-analysis tradecraft the assessment lesson draws on.*
 
-XLab. "From signal to intelligence assessment." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-assessment)
+XLab. "2.3.3 From Signal to Intelligence Assessment." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-assessment)
 *The source lesson this page adapts.*
 :::
