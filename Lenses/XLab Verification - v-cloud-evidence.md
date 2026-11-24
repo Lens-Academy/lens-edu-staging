@@ -44,7 +44,7 @@ The final policy question remains: which actors and workloads should be covered,
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-The readings this problem set draws on, Heim et al. (2024), Egan and Heim (2023), Moon et al. (2025) and Tan (2026), are linked in the Sources lines above and read in lenses 2.2.1 to 2.2.3.
+The readings this problem set draws on, Heim et al. (2024), Egan and Heim (2023), Moon et al. (2025) and Tan (2026), are linked in the Sources lines above and read in the earlier cloud lenses.
 
 XLab. "2.2.4 Interpreting cloud evidence." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-evidence)
 *The source lesson this page adapts, including the nine-task problem set.*
