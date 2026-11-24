@@ -26,7 +26,7 @@ Read the following excerpts:
 - **Finding Detection Gaps** and **Finding a Detection Gap** through the sequential-training calculation; stop before **Predictions About Models in the Detection Gap** (printed pp. 5–7).
 - **Closing Detection Gaps**: its opening, then **Output and User Identity** in full (printed pp. 9–11). Note which proposals add another metric and which add another kind of information.
 
-Do not turn the BLOOM calculation into a timeless threshold recommendation. Its job here is to show how an evader can exploit the unit over which a rule aggregates activity.
+Treat the BLOOM calculation as an illustration, not a timeless threshold recommendation. Its job here is to show how an evader can exploit the unit over which a rule aggregates activity.
 
 #### Article
 source:: [[../articles/moon-strategies-and-detection-gaps-in-a-game-theoretic-model-of-compute-governance-rra3686-1]]
