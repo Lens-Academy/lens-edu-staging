@@ -9,7 +9,7 @@ authors:
 
 Companion to [[CV2 Streamlining Proposal]]. The proposal holds the plan, this holds the decisions and what was done. CV1's records are [[CV1 Restructure Log]] and [[AIRF Restructure - Working Preferences]], whose working rules apply here too. Decisions here are numbered B1, B2 and so on, so they never collide with CV1's A-numbers.
 
-**Status, 2026-11-24.** The proposal is agreed apart from one open question (Q1). Stage 3, step 1 is done: the module titles are back in CV1's form, and the meeting headings keep units 6 to 10 in title case (B9). The overview's box titles are left as they are, since the platform shows them in capitals (Andreas). Next: stage 3, step 2, XLab's lesson numbers back into the Works cited entries.
+**Status, 2026-11-24.** The proposal is agreed apart from one open question (Q1). Stage 3, step 1 is done: the module titles are back in CV1's form, and the meeting headings keep units 6 to 10 in title case (B9). The overview's five box titles also take title case, for consistency, though the platform shows them in capitals (Andreas). Stage 3, step 2 is done: XLab's lesson numbers are back in the 20 Works cited entries, in title case. Next: stage 3, step 3, link labels.
 
 ## 1. Decisions
 
@@ -48,6 +48,8 @@ Companion to [[CV2 Streamlining Proposal]]. The proposal holds the plan, this ho
 | 1 | 2026-11-24 | Proposal written and revised. This log opened. Decisions B1 to B7 recorded from Andreas's answers, and decision 7 (the duplicated Cankaya reading) added to the proposal | [[CV2 Streamlining Proposal]], this file | Convention | Direct, our files |
 | 2 | 2026-11-24 | Stage 3, step 1, first half: the five unit module titles drop "Unit N:" and take title case. "Hardware Judgment and Cloud Records", "Cloud Limits and Intelligence", "The Human Layer", "Covert Development and the Low-Trust Architecture", "Evasion Routes and the Red Team Review". Course check after (production): no errors, 25 warnings, all in shared surveys and two article links | The five `XLab Verification Part 2 W06` to `W10` modules | B1 | Direct, so no header broke |
 | 3 | 2026-11-24 | Stage 3, step 1, second half: the five meeting headings take title case and keep their unit numbers, for example "Unit 6: Hardware Judgment and Cloud Records". Checked on staging: the breadcrumb reads "1. Unit 6: Hardware Judgment and Cloud Records" | [[../../courses/in-development/Compute Verification 2]] | B1, B9 | Direct |
+| 4 | 2026-11-24 | The overview's five box titles take title case, matching the meeting headings, for consistency even though the platform shows box titles in capitals (Andreas) | [[../../modules/XLab Verification Part 2 Overview]] | A51 | Direct |
+| 5 | 2026-11-24 | Stage 3, step 2: XLab's lesson numbers back in the Works cited entries, in title case, as CV1 cites them (A53), for example "2.1.8 Policy Judgment: What Role Should Hardware Play?" and "3.2 Red-Team / Blue-Team Exercises." 20 entries: every CV2 page except the taxonomy page, which has no Works cited. The two restored lessons that XLab no longer numbers on its site keep the numbers of the versions adapted (3.0 for "What Is Covert Development?", 3.1 and 3.2). Checked in the relay: no CV2 entry is left unnumbered. Course check after (production): no errors, the same 25 warnings | The 20 CV2 pages with an XLab Works cited entry | B1, A53 | Direct. One edit (customer identification) hit a gateway error, was checked, had not landed, and was redone |
 
 ## 5. To raise with whoever maintains the platform
 
