@@ -209,17 +209,17 @@ A strong review will fairly reconstruct both texts, distinguish a verification s
 
 \## Scoring the evasion routes
 
-Return to the taxonomy from the previous lens and add judgment. The scores below are relative, conditional assessments, not measured probabilities. They depend on the agreement, actor, hardware fleet, jurisdiction, access rights, and verification architecture.
+Return to the taxonomy on the previous page, [[../Lenses/XLab Verification - v-covert-taxonomy|Evasion Scenario Taxonomy]], and add judgment. The scores below are relative, conditional assessments, not measured probabilities. They depend on the agreement, actor, hardware fleet, jurisdiction, access rights, and verification architecture.
 
 Scoring: 1 = very low or weak; 2 = low; 3 = moderate; 4 = high; 5 = very high. For verification effectiveness, a higher score is better for the verifier.
 
-Two things to hold while you read the routes below. The scores synthesize the sources cited at the end of this lens together with the course's own judgment; they are not direct findings of any single paper, and several of those sources are preprints that have not necessarily completed peer review. And where a route cites a criminal case, charging documents are allegations: defendants are presumed innocent unless and until guilt is established in court.
+Two things to hold while you read the routes below. The scores synthesize the sources cited at the end of this page together with the course's own judgment; they are not direct findings of any single paper, and several of those sources are preprints that have not necessarily completed peer review. And where a route cites a criminal case, charging documents are allegations: defendants are presumed innocent unless and until guilt is established in court.
 
 {>>{"author":"Elias's AI","timestamp":1788521011728}@@Seven routes are scored here, and the taxonomy has ten. Missing: hide an undeclared cluster, attack or capture the verification system, and exploit a boundary in the rule. This gap is XLab's, not mine: their module-3 log lists it as an open item and records that the source outline has all ten with full scores and annotations, so the three are transcription owed rather than a content decision. I have not invented scores for them. Note that the last two of the three are the routes this lesson's own reading bears on most directly, since Article IV.5's technique whitelist and Section 2b's malicious prover are exactly those two arguments.<<}
 
 #### Text
 content::
-The explorer below carries all ten routes from the previous lens, with the scores on the seven routes that have them. Three routes are left unscored.
+The explorer below carries all ten routes from the previous page, with the scores on the seven routes that have them. Three routes are left unscored.
 
 #### Widget
 source:: [[../widgets/evasion-taxonomy]]
