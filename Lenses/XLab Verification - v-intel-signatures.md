@@ -24,7 +24,7 @@ same thing differently: Wasil et al. call it the national technical means (NTM)
 category, *Six Layers* calls it Layer 6, and Scher and Thiergart call it the
 national-intelligence building blocks.
 
-Hold on to one distinction for the rest of the module. Intelligence
+Hold on to one distinction for the rest of the unit. Intelligence
 **identifies**; the regime **resolves**. A tip is not a finding.
 
 \## The signature catalog
@@ -58,7 +58,7 @@ commercial thermal satellites are the current example.
 
 \### Energy and the power grid
 
-The module's most quantitative tool and its most perishable. Measured energy
+The unit's most quantitative tool and its most perishable. Measured energy
 delivery can be converted into an approximate FLOP count, which makes large
 unauthorized runs detectable from power draw — coarse violations only (Wasil et
 al.). City-scale draw needs transmission lines visible even in public satellite
@@ -90,7 +90,7 @@ development picture from earlier in the course.
 
 \### Procurement, customs, and financial intelligence
 
-The best real-case material in the module. The canonical indicator is a
+The best real-case material in the unit. The canonical indicator is a
 GPU-import surge to a region far exceeding declared facilities' needs (Wasil et
 al.), with the State Department's Blue Lantern end-use monitoring and FinCEN
 suspicious-activity reporting as named institutional precedents.
