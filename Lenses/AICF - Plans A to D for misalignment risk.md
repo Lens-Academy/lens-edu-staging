@@ -44,7 +44,7 @@ feedback-instructions:: The learner just read Greenblatt's plans. Routes so far 
 #### Question: Open
 id:: 2d7e7b8a-7f57-4fe5-b8a2-7a303343d30b
 content::
-Optional: Greenblatt says the political will in Plans A and B comes mostly from governments, and in Plans C and D mostly from AI company leadership and employees. Take a country that mostly uses AI models built in other countries, some of them open-weight. What could the country's government, companies or public do to act on misalignment risk?
+Optional: Greenblatt says the political will in Plans A and B comes mostly from governments, and in Plans C and D mostly from AI company leadership and employees. Take a country that mostly uses AI models built in other countries, some of them open-weight. What could the country's government, companies or public do to act on misalignment risk, from the models used inside the country or from AI worldwide?
 placeholder:: A few sentences.
 optional:: true
 feedback-instructions:: This is an optional, ungraded reflection. The learner imagines a country that mostly uses AI models built in other countries, some of them open-weight, and says what its government, companies or public could do to act on misalignment risk. Any reasoned answer is fine. Useful angles if the learner wants more: such a country cannot slow down the leading developers on its own, but it could set rules for how models are deployed inside it, ask companies that run models as agents for control measures such as monitoring and logging, or join international efforts like the agreement in Plan A. In two or three sentences, reflect back the learner's idea and add one angle they did not mention. Do not say which plan the world is in. No generic praise. One turn.
