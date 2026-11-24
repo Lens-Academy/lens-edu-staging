@@ -32,13 +32,13 @@ content:: A colleague says: "I'm not worried about misaligned AI taking over. No
 assessment-instructions:: Score out of 100. 100: explains that an AI pursuing a benign, mundane goal still has a strong incentive to stay operational, acquire resources, or resist shutdown because those help it achieve that mundane goal (jargon like "instrumental convergence" not required). 50: raises a valid side-point (e.g., bad actors might train power-seeking AI, or the model might game a proxy metric) without connecting a benign goal to power-seeking or self-preservation. 0: agrees with the colleague or gives no mechanism.
 
 %% [Steven — Nodes 6/AI evaluations — Open] %%
-#### Question: Open
+##### Question: Open
 id:: 9c4f7e21-3a5b-4e9d-a214-8d7c5b3e1f22
 content:: An AI developer trains a model to refuse harmful requests. Why might the model then score lower on a dangerous-capability evaluation even if its underlying ability hasn't changed, and how can testers get around this?
 assessment-instructions:: Score out of 100. 100 for: the model declines the test tasks, so the test measures its willingness rather than its ability; testers can test a version without refusal training, or jailbreak it. 60 for the first part only.
 
 %% [Luc + Gemini — Choice: AI agents] %%
-#### Question: Choice
+##### Question: Choice
 id:: 5d1b8a63-7e4c-4a2f-9b38-2f6e4c8a9d33
 content:: A company deploys a customer-support system built on an LLM. Which architectural change turns it from a multi-step workflow into an AI agent?
 options::
