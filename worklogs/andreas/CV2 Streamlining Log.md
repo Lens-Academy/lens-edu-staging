@@ -9,7 +9,7 @@ authors:
 
 Companion to [[CV2 Streamlining Proposal]]. The proposal holds the plan, this holds the decisions and what was done. CV1's records are [[CV1 Restructure Log]] and [[AIRF Restructure - Working Preferences]], whose working rules apply here too. Decisions here are numbered B1, B2 and so on, so they never collide with CV1's A-numbers.
 
-**Status, 2026-11-24.** The proposal is agreed apart from one open question (Q1). Stage 3 begins with the module titles.
+**Status, 2026-11-24.** The proposal is agreed apart from one open question (Q1). Stage 3, step 1 is half done: the five unit module titles are back in CV1's form. Next in the same step: the meeting headings in the course file and the overview's five boxes, which keep "Unit N:" and take title case.
 
 ## 1. Decisions
 
@@ -42,4 +42,5 @@ Companion to [[CV2 Streamlining Proposal]]. The proposal holds the plan, this ho
 
 | # | Date | What | Files | Decision | How it landed |
 |---|---|---|---|---|---|
-| 1 | 2026-11-24 | Proposal written and revised; this log opened | [[CV2 Streamlining Proposal]], this file | Convention | Direct; our files |
+| 1 | 2026-11-24 | Proposal written and revised. This log opened. Decisions B1 to B7 recorded from Andreas's answers, and decision 7 (the duplicated Cankaya reading) added to the proposal | [[CV2 Streamlining Proposal]], this file | Convention | Direct, our files |
+| 2 | 2026-11-24 | Stage 3, step 1, first half: the five unit module titles drop "Unit N:" and take title case. "Hardware Judgment and Cloud Records", "Cloud Limits and Intelligence", "The Human Layer", "Covert Development and the Low-Trust Architecture", "Evasion Routes and the Red Team Review". Course check after (production): no errors, 25 warnings, all in shared surveys and two article links | The five `XLab Verification Part 2 W06` to `W10` modules | B1 | Direct, so no header broke |
