@@ -1,7 +1,7 @@
 ---
 id: '8e64edca-fc83-4f2c-ba71-ddc6b59e379d'
 title: "Why this course exists"
-tldr: "This course is built to be the fastest way to build deep context on AI safety: who works on what, why, the main ideas, and how to pick what to work on yourself."
+tldr: "This course aims to be the fastest way to build deep context on AI safety: who works on what, why, the main ideas, and how to pick what to work on yourself."
 summary_for_tutor: "Elias, who leads course creation, explains why the Context Accelerator exists, who it is for, how it was made and what learners will do. No questions."
 reading_minutes: 2
 tutor_minutes: 0
