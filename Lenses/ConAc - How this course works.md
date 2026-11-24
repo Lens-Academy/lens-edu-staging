@@ -39,6 +39,6 @@ The time shown for an outcome is the worst case: reading every lens and answerin
 
 \## Active recall
 
-After you answer a question, you pick when you want to be asked again: Again, Hard, Good or Easy. Each button shows how long the wait is. When that time is up, the outcome comes back on the Active recall page of the course with one of its questions. Each time you pick Good or Easy, the next wait gets longer.
+After you answer a question, pick when you want to be asked again (each button shows the wait). When it's time, the question comes back on the course's Active recall page.
 
 If you are sure you know an outcome, switch on "Exclude from active recall" on its page. You can switch it off again later.
