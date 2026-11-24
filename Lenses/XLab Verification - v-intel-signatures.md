@@ -184,6 +184,6 @@ Wasil, Akash R., Tom Reed, Jack William Miller, et al. "Verification Methods for
 Epoch AI. "AI Data Centers." *Epoch AI*, continuously updated. [epoch.ai](https://epoch.ai/data/ai-data-centers)
 *Epoch's continuously updated database of the world's largest AI data centers, built from satellite imagery and permitting records.*
 
-XLab. "Observable signatures of undeclared AI development." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-signatures)
+XLab. "2.3.1 Observable Signatures of Undeclared AI Development." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-signatures)
 *The source lesson this page adapts, including the collection map.*
 :::
