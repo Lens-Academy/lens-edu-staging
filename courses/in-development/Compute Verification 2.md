@@ -37,7 +37,7 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../../modules/XLab Verification Part 2 U8 Feedback|Unit 8 feedback]]
 
-# Meeting: Unit 8: The human layer
+# Meeting: Unit 8: The Human Layer
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
@@ -45,7 +45,7 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../../modules/XLab Verification Part 2 U9 Feedback|Unit 9 feedback]]
 
-# Meeting: Unit 9: Covert development and the low-trust architecture
+# Meeting: Unit 9: Covert Development and the Low-Trust Architecture
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
