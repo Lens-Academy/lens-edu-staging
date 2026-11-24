@@ -13,11 +13,11 @@ Cloud providers sit between AI developers and the machines they rent. Because
 providers own, operate, meter, and bill for that compute, they can act as record
 keepers, verifiers, enforcers, and securers. But cloud evidence is one witness,
 not the whole court: self-hosted clusters, non-signatory jurisdictions, and
-stolen weights all sit outside a provider's reach. In this module, you will
+stolen weights all sit outside a provider's reach. In this unit, you will
 learn what cloud providers can observe, how those observations become evidence,
 and where cloud oversight runs out.
 
-:::callout {title="By the end of this submodule, you will be able to:" tone="blue"}
+:::callout {title="By the end of this lens, you will be able to:" tone="blue"}
 1. Identify the identity, resource-use, and operational records a cloud provider can observe, and explain what each record supports—and what it still does not establish.
 2. Distinguish provider-controlled evidence from customer declarations, and assess the reliability of each when determining a workload's type, scale, and operator.
 3. Analyze how customer identification, beneficial-ownership checks, reporting thresholds, ongoing monitoring, and access controls turn cloud records into a verification regime—and how an evader could route around them.
@@ -26,7 +26,7 @@ and where cloud oversight runs out.
 
 \## 2.2.1 Provider records and workload observables
 
-The four readings in this submodule do different jobs. The first establishes what a provider can observe. The second adds customer identity and due diligence. The third shows how a threshold can be evaded. The fourth asks whether the resulting control is politically and administratively usable.
+The two readings in this unit do different jobs. The first, on this page, establishes what a provider can observe. The second, on the next page, adds customer identity and due diligence.
 
 As you read, keep two columns:
 
@@ -40,7 +40,7 @@ which claims remain beyond those records.
 
 *Source: Lennart Heim, Tim Fist, Janet Egan, Sihao Huang, Stephen Zekany, Robert Trager, Michael A. Osborne, and Noa Zilberman (2024), [original](https://arxiv.org/abs/2403.08501)*
 
-The executive-summary selections and complete sections below are reproduced under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Citations and cross-references link to the pinned arXiv version.
+The executive-summary selections and complete sections below are reproduced under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Citations and cross-references refer to the pinned arXiv version of the paper.
 
 \### [Governing Through the Cloud](https://arxiv.org/abs/2403.08501)
 *selected paragraphs from the Executive Summary*
