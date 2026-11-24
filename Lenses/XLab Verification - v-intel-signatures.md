@@ -10,7 +10,7 @@ tutor_minutes: 0
 #### Text
 content::
 Every mechanism so far has needed the monitored side to play along. Hardware
-roots of trust (2.1) and provider reporting (2.2) share one failure mode: they
+roots of trust and provider reporting share one failure mode: they
 assume cooperation. This section covers the one evidence stream that works
 uninvited — what undeclared frontier-AI development shows to a rival who is
 simply watching, and what a watcher can honestly conclude from it.

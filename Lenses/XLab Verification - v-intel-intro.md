@@ -32,6 +32,6 @@ Wasil and coauthors, whose taxonomy you’ll read in [[../Lenses/XLab Verificati
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-XLab. "2.3 Intelligence: watching without permission." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-intro)
+XLab. "Intelligence: watching without permission." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-intro)
 *The source lesson this page adapts.*
 :::
