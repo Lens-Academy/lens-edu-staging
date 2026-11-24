@@ -43,6 +43,5 @@ The cheapest verification tools to deploy and the easiest to fool. Who could kno
 The adversarial turn, then one long close reading. First a worked case: an evasion built by a red team and taken apart by a blue team, with the standard that operations are made inconclusive rather than invisible. Then a published working paper that proposes a full technical system for verifying AI compute use between parties who do not trust each other. You reconstruct its argument, trace evidence from chip to verdict, and find the step where the conclusion outruns the proof.
 :::
 
-:::callout {title="Week 10: Evasion routes and the red team review" tone="blue"}
-Why defining cheating comes before detecting it, why layered defences only work when the layers fail differently, and a taxonomy of ten routes around an agreement. The week ends in the written output the course builds to: an expert review deciding which obligations of a draft treaty last week's verification system could actually carry, and which it cannot touch.
+Why defining cheating comes before detecting it, why layered defences only work when the layers fail differently, and a taxonomy of ten routes around an agreement. The unit ends in the written output the course builds to: an expert review deciding which obligations of a draft treaty the verification system from Unit 9 could actually carry, and which it cannot touch.
 :::
