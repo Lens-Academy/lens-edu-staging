@@ -1,7 +1,7 @@
 ---
 id: '41bee62c-8a85-4268-bf8f-b3dbf7f06ef3'
 slug: xlab-verification-p2-covert-low-trust-architecture
-title: "Week 9: Covert development and the low-trust architecture"
+title: "Unit 9: Covert development and the low-trust architecture"
 tags: [wip]
 ---
 
