@@ -44,27 +44,7 @@ An assessment that hides its own uncertainty is worth less than one that states
 it, because the next decision-maker cannot calibrate on it. This is the same
 discipline as the evidence standards in the capstone.
 
-:::callout {title="Unfinished writing" tone="amber"}
-This section's written output is proposed but not settled. The task is
-**red-lining the treaty text**: you work from the verbatim excerpt in 2.3.4 —
-item 17 of Article II's definitions, the definition of national technical means
-covering satellites, signals intelligence, imagery and so on, plus Article X
-¶1(b) and its clauses (i), (ii) and (iii): noninterference, no deliberate
-concealment, and cooperation that is encouraged but not obligated —
-and go through it with a pencil, as a lawyer preparing for negotiations would.
-
-The questions it asks: what does the Article II definition omit? Whose
-satellites count as "national" — is a commercial constellation under
-government tasking NTM or not? The word "cyber" inside the definition — is that
-legalized intelligence collection, or a license to hack that Beijing strikes
-out first?
-And what does "deliberate concealment" mean for AI — is behind-the-meter power
-generation camouflage, or ordinary industrial practice?
-
-The precedent suggests Article X's noninterference clause (¶1(b)(i)) should be
-the easy part, and that drafting dies on the sharing clause. That is the
-discovery the task is built to produce.
-:::
+As you red-line the treaty text, ask yourself: what does the Article II definition omit? Whose satellites count as "national", and is a commercial constellation under government tasking NTM or not? The word "cyber" appears inside the definition: is that legalized intelligence collection, or a license to hack that Beijing strikes out first? And what does "deliberate concealment" mean for AI: is behind-the-meter power generation camouflage, or ordinary industrial practice?
 
 #### Question: Open
 id:: b1cfa8da-fe64-4ad4-975b-1a6b08111099

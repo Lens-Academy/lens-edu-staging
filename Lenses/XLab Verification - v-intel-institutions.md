@@ -32,7 +32,7 @@ Rose Gottemoeller, the US chief negotiator for New START, called NTM
 noninterference "one of the earliest and easiest points of agreement" in those
 negotiations.
 
-This is the low-hanging fruit of the whole module. Note the contrast with
+This is the low-hanging fruit of the whole unit. Note the contrast with
 sharing, where drafting is hard — a point worth carrying into the written
 output.
 
@@ -78,7 +78,7 @@ to:: as relevant to this Agreement.
 content::
 Read ¶1(b)(iii) against (i) and (ii). Protection is an undertaking; sharing is
 an encouragement. That is the asymmetry of this whole section sitting in one
-paragraph, and 2.3.5 asks you to draft the obligation it declines to impose.
+paragraph, and a later lens in this unit asks you to draft the obligation it declines to impose.
 
 \## Authenticating what gets shared
 
@@ -87,7 +87,7 @@ question, and it belongs here: how do rivals authenticate intelligence passed
 between them — signal authentication, chain of custody?
 
 The cryptographic machinery for this — zero-knowledge proofs, multi-party
-computation, attestation — stays in 2.0. The bridge worth knowing is the
+computation, attestation — is outside this lens. The bridge worth knowing is the
 zero-knowledge warhead-verification precedent (Glaser, Barak and Goldston,
 *Nature*, 2014).
 
