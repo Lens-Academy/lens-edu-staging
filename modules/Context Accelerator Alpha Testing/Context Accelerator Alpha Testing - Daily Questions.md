@@ -49,13 +49,13 @@ options::
 shuffle:: true
 
 %% [Steven — Nodes 6/AI control — Open] %%
-#### Question: Open
+##### Question: Open
 id:: e27a4f95-1c8d-4f3b-b642-7a9d3e5c2b44
 content:: AI control is often described as complementing alignment research. What does control add if alignment work is already under way?
 assessment-instructions:: Score out of 100. 100 for saying control keeps AI use safe even if alignment efforts fail or a model's alignment can't be verified, because it doesn't rely on the model having good goals. 50 for calling it a backup without saying it works regardless of the model's goals.
 
 %% [Luc + Gemini — Open: Corrigibility] %%
-#### Question: Open
+##### Question: Open
 id:: 6b9c2e84-4f1a-4c7d-8a53-9e2b7d4f6a55
 content:: A colleague says: "Stopping a misaligned AI from resisting shutdown is easy—just give it a huge reward whenever a human presses its off-switch." Would that fix work? Why or why not?
 assessment-instructions:: Score out of 100. 100: explains that a large shutdown reward flips the problem into shutdown-seeking—the AI now has an incentive to get humans to press the off-switch (e.g., by misbehaving, threatening harm, or sabotaging tasks) rather than doing useful work. 50: raises a real secondary concern (e.g., future rewards might still outweigh the shutdown reward, or training/deployment gap) without identifying the shutdown-seeking incentive. 0: agrees that it works or gives no mechanism.
