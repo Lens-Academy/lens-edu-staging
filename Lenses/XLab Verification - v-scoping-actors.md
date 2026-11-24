@@ -39,7 +39,7 @@ Let’s start with nation-states, since they are the ones that sign. A state mat
 
 Table 2.  States, by position on the compute supply chain
 
-| State | What runs through it | What that buys a verifier | Standing worry |
+| State | What runs through it | Why it matters to a verifier | Standing worry |
 | --- | --- | --- | --- |
 | United States | Chip design (NVIDIA, AMD), the largest frontier labs and cloud providers, and export-control law. | It can see and squeeze more of the chain than anyone. Its export rules are the closest thing to a working compute-control regime today. | Losing its lead; verification machinery being turned on its own firms. |
 | China | The other frontier developer. Manufacturing scale, rare earths and materials, its own designers, clouds, and labs. | No agreement is meaningful without it, and it controls inputs the rest of the chain needs. | Reads on-chip controls and inspections as surveillance and containment. |
