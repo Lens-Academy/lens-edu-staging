@@ -153,7 +153,7 @@ content::
 **Evidence finding.** Preserved and corroborated records may support one fact without supporting the larger allegation. The transmitted package must say exactly where that boundary lies.
 :::
 
-\## Companies A and B (15–20 min){>>{"author":"Elias's AI","timestamp":1788016058779}@@XLab's heading says "Companies A and B", but the widget it wraps (human-institutions-judgment) is the "Audit the verifier" lab about the International AI Verification Office, and its eyebrow reads "Institutions and policy judgment · 2.4.4" although it sits in 2.4.2. Report to XLab.<<}
+\## Audit the verifier (15–20 min){>>{"author":"Elias's AI","timestamp":1788016058779}@@XLab's heading says "Companies A and B", but the widget it wraps (human-institutions-judgment) is the "Audit the verifier" lab about the International AI Verification Office, and its eyebrow reads "Institutions and policy judgment · 2.4.4" although it sits in 2.4.2. Report to XLab.<<}
 
 Inspect the institution before relying on its finding. Then separate what the human record establishes from what still requires technical or physical evidence, and match each decision to its legal and evidentiary threshold.
 

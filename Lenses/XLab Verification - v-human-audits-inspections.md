@@ -71,7 +71,7 @@ to:: 50.  This may be accomplished by means of, inter alia, the partial removal 
 #### Text
 content::
 
-\## Four Sources
+\## Build the inspection order
 
 :::callout {title="Read first: the brief and the Project Lattice case file (optional, 12 to 15 minutes)" tone="neutral" collapse="closed"}
 **Build the inspection order.** A power anomaly has raised a concrete concern. Choose the mechanism, set the ceiling imposed by access, and write an order that can survive both evasion and a legitimate confidentiality objection. The exercise below is optional, and the case file stays available here while you work through it.

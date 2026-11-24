@@ -12,7 +12,7 @@ content::
 You have learned the main methods of human-based AI verification; traced the
 reporting channel from whistleblower to verifier; and distinguished where,
 when, and what types of inspections are effective. In the final section of
-this module, you will put together everything you've learned to form
+this unit, you will put together everything you've learned to form
 judgments about auditing and reporting institutions as a whole. The question
 is: can the inspecting institution reach a defensible and reliable judgment
 about the evidence it handles?
@@ -98,7 +98,7 @@ feedback-instructions:: Three sentences. Acknowledge the pick, say what is missi
 #### Text
 content::
 :::callout {title="Commentary: The finder (open after you have answered)" tone="neutral" collapse="closed"}
-AI has candidate finders, module 2’s evidence streams: chip attestation and logs, cloud records, national technical means, and the human layer this section closed on. What none of them supplies alone is facts that survive challenge: the finder’s access has to be agreed in advance, or every finding arrives with a provenance fight attached.
+AI has candidate finders, the evidence streams from earlier in the course: chip attestation and logs, cloud records, national technical means, and the human layer this section closed on. What none of them supplies alone is facts that survive challenge: the finder’s access has to be agreed in advance, or every finding arrives with a provenance fight attached.
 :::
 
 :::callout {title="Commentary: The judge (open after you have answered)" tone="neutral" collapse="closed"}
