@@ -30,7 +30,7 @@ Companion to [[CV2 Streamlining Proposal]]. The proposal holds the plan, this ho
 | # | Question | Holds up | State |
 |---|---|---|---|
 | Q1 | Split the Cankaya close reading and the red team review, or leave them whole? Tied to decision 7 in the proposal: the red team review inlines Cankaya's Sections 1 to 3 a second time | Stage 4 | Open. Andreas raised the duplicate on 2026-11-24, which the proposal had not flagged; it is settled as B8. Andreas decides the splits when stage 4 reaches the two pages |
-| Q2 | Unit numbers. The platform numbers units by position: the sidebar's dividers read "Unit 1" to "Unit 5", and the page breadcrumb prefixes the meeting heading with "1." to "5.", so a learner sees "1. Unit 6: Hardware judgment and cloud records". Nothing in the course file sets the first number (checked in [[../../AI Guide/Writing Course Files]] on 2026-11-24). CV2's own text says units 6 to 10 in about 70 places across 17 files, while the capstone course starts again at "Unit 1" | Stage 3, step 1 | Asked 2026-11-24 |
+| Q2 | Unit numbers. The platform numbers units by position: the sidebar's dividers read "Unit 1" to "Unit 5", and the page breadcrumb prefixes the meeting heading with "1." to "5.", so a learner sees "1. Unit 6: Hardware judgment and cloud records". Nothing in the course file sets the first number (checked in [[../../AI Guide/Writing Course Files]] on 2026-11-24). CV2's own text says units 6 to 10 in about 70 places across 17 files, while the capstone course starts again at "Unit 1" | Stage 3, step 1 | Settled 2026-11-24 as B9 |
 
 ## 3. Stages
 
@@ -47,3 +47,8 @@ Companion to [[CV2 Streamlining Proposal]]. The proposal holds the plan, this ho
 |---|---|---|---|---|---|
 | 1 | 2026-11-24 | Proposal written and revised. This log opened. Decisions B1 to B7 recorded from Andreas's answers, and decision 7 (the duplicated Cankaya reading) added to the proposal | [[CV2 Streamlining Proposal]], this file | Convention | Direct, our files |
 | 2 | 2026-11-24 | Stage 3, step 1, first half: the five unit module titles drop "Unit N:" and take title case. "Hardware Judgment and Cloud Records", "Cloud Limits and Intelligence", "The Human Layer", "Covert Development and the Low-Trust Architecture", "Evasion Routes and the Red Team Review". Course check after (production): no errors, 25 warnings, all in shared surveys and two article links | The five `XLab Verification Part 2 W06` to `W10` modules | B1 | Direct, so no header broke |
+| 3 | 2026-11-24 | Stage 3, step 1, second half: the five meeting headings take title case and keep their unit numbers, for example "Unit 6: Hardware Judgment and Cloud Records". Checked on staging: the breadcrumb reads "1. Unit 6: Hardware Judgment and Cloud Records" | [[../../courses/in-development/Compute Verification 2]] | B1, B9 | Direct |
+
+## 5. To raise with whoever maintains the platform
+
+- **A course setting for the first unit number** (B9). CV2's sidebar dividers and breadcrumb number its units 1 to 5 by position, while the course is units 6 to 10 of one curriculum with CV1. Nothing in the course file sets the starting number today.
