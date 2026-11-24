@@ -9,7 +9,7 @@ tutor_minutes: 30
 ---
 #### Text
 content::
-\### 2.1.8 Policy judgment: what role should hardware play?
+\### Policy judgment: what role should hardware play?
 
 The most common error in this area is maturity inflation. Separate five stages.
 
