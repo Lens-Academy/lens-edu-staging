@@ -113,6 +113,6 @@ content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Heim et al. (2024), *Governing Through the Cloud*, is cited inline above with its arXiv link.
 
-XLab. "Provider records and workload observables." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud)
+XLab. "2.2.1 Provider Records and Workload Observables." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud)
 *The source lesson this page adapts.*
 :::
