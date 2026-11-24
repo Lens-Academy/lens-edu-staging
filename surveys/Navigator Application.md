@@ -21,6 +21,7 @@ required:: true
 key:: cv_link
 content:: Link to your CV, LinkedIn, etc.
 max-chars:: 300
+short:: true
 
 #### Question
 key:: location
