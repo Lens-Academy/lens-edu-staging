@@ -135,6 +135,6 @@ Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agr
 Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agreements on AI — Appendix A.8: Whistleblower Programs." *arXiv*, July 2025. [arxiv.org](https://arxiv.org/html/2507.15916#A1.SS8)
 *Baker et al. examine secure contact, suppression, incentives, confidentiality, and which supply-chain personnel can observe different violations.*
 
-XLab. "2.4.1 Insiders and human sources." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-insiders)
+XLab. "Insiders and human sources." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-insiders)
 *The source lesson this page adapts, including the Who knows what? source-assessment exercise.*
 :::{>>{"author":"Elias's AI","timestamp":1788015819856}@@Widget human-insiders rebuilt from src/lib/verification/data/human-insiders.ts: 18 source questions (6 actors x observe/boundary/corroborate), 4 credibility questions on the Project Lattice case report, final finding and failure modes. Option order follows the data file's choices order. All optional because XLab folds it as optional.<<}

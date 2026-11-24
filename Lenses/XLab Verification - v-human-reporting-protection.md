@@ -189,6 +189,6 @@ Organisation for the Prohibition of Chemical Weapons. "Verification Annex, Part 
 
 The CIGIE Quality Standards for Investigations, Brundage et al. (2026), and the TED talk are cited inline above.
 
-XLab. "2.4.2 Reporting and protection." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-reporting-protection)
+XLab. "Reporting and protection." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-reporting-protection)
 *The source lesson this page adapts, including the Mechanism to Effect, Follow the report, and Audit the verifier exercises.*
 :::{>>{"author":"Elias's AI","timestamp":1788016058779}@@Widgets rebuilt from whistleblower-levers.ts, human-reporting-protection.ts, and human-policy-labs.ts (INSTITUTIONS_JUDGMENT_LAB). Options carry XLab's exact text; correct option listed first in the data, so shuffle is on. CIGIE and Brundage URLs are in citations.json pending, not entries, so they are noted inline rather than listed.<<}
