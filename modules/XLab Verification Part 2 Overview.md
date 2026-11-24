@@ -27,11 +27,11 @@ XLab is testing and calibrating this material with a small cohort before officia
 
 \## The path
 
-:::callout {title="Unit 6: Hardware judgment and cloud records" tone="blue"}
+:::callout {title="Unit 6: Hardware Judgment and Cloud Records" tone="blue"}
 Where does hardware verification actually stand, as opposed to where a demo suggests it stands? You separate maturity stages, write a hardware assurance brief for a delegation weighing a three-month pause, and then turn to the cloud: what a provider's own billing, identity and workload records can prove about a training run, and how know-your-customer rules from finance were ported to compute.
 :::
 
-:::callout {title="Unit 7: Cloud limits and intelligence" tone="blue"}
+:::callout {title="Unit 7: Cloud Limits and Intelligence" tone="blue"}
 Where cloud oversight runs out, and what can be seen without the other side's cooperation. You work through detection gaps and the geopolitics of cloud controls, drill the habit of stopping at what a record proves, then take up intelligence: the observable signatures of an undeclared training run, the historical record of who actually found undeclared facilities, how a signal becomes an assessment, and treaty text that protects sensors but obliges nobody to share what they see. You red-line that text yourself.
 :::
 
