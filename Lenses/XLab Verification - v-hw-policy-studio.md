@@ -123,7 +123,7 @@ content::
 
 You judged these seven conclusions before you read anything in this section. Classify them again now, then see what moved.
 
-The ledger below opens blank: Lens keeps a widget's answers with the page it sits on, so this copy cannot show your earlier record. Judge all seven rows and keep your answers. Then open [[../Lenses/XLab Verification - v-hw-attestation|Hardware]], the page in unit 5 of Compute Verification 1 where you first filled in the ledger, and compare the two ledgers line by line. For every judgment that changed, name the evidence or distinction from this section that changed it.
+The ledger below opens blank: Lens keeps a widget's answers with the page it sits on, so this copy cannot show your earlier record. Judge all seven rows and keep your answers, then open [[../Lenses/XLab Verification - v-hw-attestation|your first ledger in unit 5 of Compute Verification 1]] alongside it and compare the two ledgers line by line. For every judgment that changed, name the evidence or distinction from this section that changed it.
 
 #### Widget
 source:: [[../widgets/claim-ledger]]

@@ -51,11 +51,11 @@ id:: b1cfa8da-fe64-4ad4-975b-1a6b08111099
 content::
 \### Written output: Red-line the NTM article
 
-Work from the treaty text quoted on [[../Lenses/XLab Verification - v-intel-institutions|Intelligence Institutions and Treaty Design]]: item 17 of Article II's definitions, plus Article X ¶1(b) and its clauses (i), (ii) and (iii). Mark at least three gaps or ambiguities, starting from your four answers if you like, and redraft the one provision whose failure you judge most consequential. Then confront the question the historical record says drafters avoid: write the binding sharing clause the text declines to impose, since ¶1(b)(iii) encourages cooperation but obligates nothing, or defend its absence in three sentences. Test whatever you write against the rule that states sign what is symmetric, cheap, and checkable, and finish with the both-capitals test: one paragraph on why Washington accepts your article, one on why Beijing does.
+Work from the treaty text quoted [[../Lenses/XLab Verification - v-intel-institutions|on the previous page]]: item 17 of Article II's definitions, plus Article X ¶1(b) and its clauses (i), (ii) and (iii). Mark at least three gaps or ambiguities, starting from the four questions above if you like, and redraft the one provision whose failure you judge most consequential. Then confront the question the historical record says drafters avoid: write the binding sharing clause the text declines to impose, since ¶1(b)(iii) encourages cooperation but obligates nothing, or defend its absence in three sentences. Test whatever you write against the rule that states sign what is symmetric, cheap, and checkable, and finish with the both-capitals test: one paragraph on why Washington accepts your article, one on why Beijing does.
 
 **Reader:** The drafters of a US–China agreement, read in both capitals.
 
-**Goes through peer review.** Reviewed on:
+**Graded on:**
 
 - Fidelity to what signatures can actually establish
 - Precedent-consistent language
@@ -70,7 +70,7 @@ feedback-instructions:: Go criterion by criterion: name the strongest of the fiv
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-The MIRI draft agreement this task red-lines is cited without a link on this page. Its full entry appears in the Works cited of [[../Lenses/XLab Verification - v-intel-signatures|Observable Signatures of Undeclared AI Development]].
+The MIRI draft agreement this task red-lines is cited without a link on this page. Its full entry is in [[../Lenses/XLab Verification - v-intel-institutions|the previous page's Works cited]].
 
 XLab. "2.3.5 From Intelligence Lead to Verification Action." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-action)
 *The source lesson this page adapts, including the red-line written output.*

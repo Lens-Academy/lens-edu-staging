@@ -78,7 +78,7 @@ to:: as relevant to this Agreement.
 content::
 Read ¶1(b)(iii) against (i) and (ii). Protection is an undertaking; sharing is
 an encouragement. That is the asymmetry of this whole section sitting in one
-paragraph, and the last page of this unit, [[../Lenses/XLab Verification - v-intel-action|From Intelligence Lead to Verification Action]], asks you to draft the obligation it declines to impose.
+paragraph, and [[../Lenses/XLab Verification - v-intel-action|the last page of this unit]] asks you to draft the obligation it declines to impose.
 
 \## Authenticating what gets shared
 
@@ -87,7 +87,7 @@ question, and it belongs here: how do rivals authenticate intelligence passed
 between them — signal authentication, chain of custody?
 
 The cryptographic machinery for this — zero-knowledge proofs, multi-party
-computation, attestation — is covered in [[../Lenses/XLab Verification - v-mechanism-privacy|Privacy-Preserving Mechanisms]], in unit 4 of Compute Verification 1. The bridge worth knowing is the
+computation, attestation — is covered in [[../Lenses/XLab Verification - v-mechanism-privacy|unit 4 of Compute Verification 1]]. The bridge worth knowing is the
 zero-knowledge warhead-verification precedent (Glaser, Barak and Goldston,
 *Nature*, 2014).
 
