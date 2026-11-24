@@ -159,6 +159,6 @@ content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Brundage et al. (2026), Frontier AI auditing: design principles, and Carlson (2009), Defining Noncompliance: NPT Safeguards Agreements, are cited inline above.
 
-XLab. "2.4.4 Institutions and policy judgment." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-institutions)
+XLab. "Institutions and policy judgment." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-institutions)
 *The source lesson this page adapts, including the From Nuclear to AI Inspections and The Standard of Proof exercises.*
 :::{>>{"author":"Elias's AI","timestamp":1788016292046}@@Widgets rebuilt from missing-board.ts and standard-of-proof.ts. Assessment instructions for the open questions are written from XLab's commentary, self-check, and 2x2 reveal; XLab itself does not grade these. Brundage and Carlson URLs are in citations.json pending, not entries.<<}

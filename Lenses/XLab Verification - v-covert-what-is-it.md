@@ -151,6 +151,6 @@ United States, Bureau of Industry and Security. "Framework for Artificial Intell
 United States, Department of Commerce. "Department of Commerce Announces Rescission of Biden-Era Artificial Intelligence Diffusion Rule." 13 May 2025. [bis.gov](https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens)
 *The rescission of that rule.*
 
-XLab. "3.0 What is covert development?" *Verification*, XLab, University of Chicago, 2026.
-*The source lesson this page restores. It was deleted upstream in commit a10955c and is not currently live on aisafetytracks.com.*
+XLab. "What is covert development?" *Verification*, XLab, University of Chicago, 2026.
+*The source lesson this page restores.*
 :::{>>{"author":"Elias's AI","timestamp":1788520541116}@@These seven entries are XLab's own citation-registry records for this lesson, recovered from src/content/citations.json at a10955c^ (commit a10955c removed them as orphans once the lesson went). Titles, publishers and dates are theirs, not mine. Link liveness is untested: XLab's module-3 log records that their own link audit could not complete, and I have not retested these URLs.<<}
