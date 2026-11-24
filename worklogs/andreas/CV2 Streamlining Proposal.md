@@ -37,7 +37,7 @@ Between 22 and 24 November, Turner's AI edited all 21 content pages, the course 
 **Where it departs from calls settled in CV1** (stage 3 brings these into line):
 
 - Module titles became "Unit 6: Hardware judgment and cloud records" and so on. CV1 dropped the unit from module titles (A15) and uses title case (A51).
-- XLab's lesson numbers came out of the Works cited entries on all 21 pages. CV1's Works cited keep them as part of the cited lesson's title, in title case (A53).
+- XLab's lesson numbers came out of the Works cited entries on 20 pages, every page that has one. CV1's Works cited keep them as part of the cited lesson's title, in title case (A53).
 - Links now read "the signatures lens", "the assessment lens" and so on. CV1 labels links with the page's name (A50).
 
 **What it did not reach:**
