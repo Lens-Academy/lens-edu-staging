@@ -81,6 +81,6 @@ content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Both readings, Moon et al. (2025) for RAND and Tan (2026) for Carnegie, are cited inline above with their links.
 
-XLab. "2.2.3 Detection gaps and policy limits." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-detection-gaps)
+XLab. "Detection gaps and policy limits." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-detection-gaps)
 *The source lesson this page adapts.*
 :::
