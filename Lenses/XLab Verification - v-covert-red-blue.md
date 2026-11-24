@@ -18,7 +18,7 @@ The largest deviation is deliberate and is the reason the lesson could be restor
 Note on the count: the brief I worked from said nine writing tasks, and XLab's own commit message says nine. There are ten in exercises.ts at a10955c^, numbered 1 to 10. All ten are here. The tenth, overall judgment and redesign, is the one the other nine build to, so dropping it would have been the wrong nine.
 
 Smaller deviations: em dashes removed under the Lens house rule; XLab's unit number dropped from the title, because renumbering this module is Elias's decision; bracket citation markers replaced by a Works cited callout; and XLab's MemoDesk card is not carried over, since its slot is unspecified in memos.ts and there is nothing to import.<<}
-You have seen how a covert operation is built and how it is taken apart. Now the harder job: deciding whether a proposed machine would actually make a rule enforceable.
+In Unit 9 you saw how a covert operation is built and how it is taken apart. Now the harder job: deciding whether a proposed machine would actually make a rule enforceable.
 
 Two documents sit on the table. One is a draft treaty written like a treaty, with articles, paragraphs, thresholds and remedies. The other is a working draft of a verification architecture, published by its author to be argued with. Neither was written with the other in view, and that is the interesting part. The treaty says what must be verified; the architecture says what can be evidenced. Your review is about the gap between those two sentences.
 
@@ -26,7 +26,7 @@ Two documents sit on the table. One is a draft treaty written like a treaty, wit
 
 Read the operative paragraphs of **Articles IV to VII** of the draft agreement, and **Sections 1 to 3** of the system overview. Both are inlined below. The material around each excerpt is collapsed rather than removed, so you can open the drafters' own Precedent and Notes sections whenever you want to know why a paragraph reads the way it does.
 
-If you read the whole of the system overview in the first lens of this module, you are re-reading Sections 1 to 3 here with a different question in mind: not what does this system do, but which treaty obligations could it carry.
+If you read the whole of the system overview in Unit 9, you are re-reading Sections 1 to 3 here with a different question in mind: not what does this system do, but which treaty obligations could it carry.
 
 \### How to cite
 
@@ -207,9 +207,9 @@ content::
 
 A strong review will fairly reconstruct both texts, distinguish a verification subsystem from the complete treaty regime, trace incentives and responsibilities, develop concrete failure pathways, and make a conditional recommendation supported by evidence.
 
-\## Section B: the taxonomy revisited
+\## Scoring the evasion routes
 
-You have now tried to construct and detect an evasion scheme. Return to the taxonomy from the previous lens and add judgment. The scores below are relative, conditional assessments, not measured probabilities. They depend on the agreement, actor, hardware fleet, jurisdiction, access rights, and verification architecture.
+Return to the taxonomy from the previous lens and add judgment. The scores below are relative, conditional assessments, not measured probabilities. They depend on the agreement, actor, hardware fleet, jurisdiction, access rights, and verification architecture.
 
 Scoring: 1 = very low or weak; 2 = low; 3 = moderate; 4 = high; 5 = very high. For verification effectiveness, a higher score is better for the verifier.
 
@@ -219,7 +219,7 @@ Two things to hold while you read the routes below. The scores synthesize the so
 
 #### Text
 content::
-The explorer below carries all ten routes from the previous lens, with the Section B scores on the seven routes that have them. Three routes are left unscored.
+The explorer below carries all ten routes from the previous lens, with the scores on the seven routes that have them. Three routes are left unscored.
 
 #### Widget
 source:: [[../widgets/evasion-taxonomy]]
@@ -234,7 +234,7 @@ Cankaya, Naci. "A System Overview for Near-Term, Low-Trust AI Compute Verificati
 *The architecture. Sections 1 to 3 are the assigned range. [PDF](https://intelligence.org/wp-content/uploads/A-system-overview-for-near-term-low-trust-AI-compute-verification.pdf).*
 
 Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment." *arXiv*, July 2025. [arxiv.org](https://arxiv.org/abs/2507.15916)
-*The six-layer framework behind the repurposing and falsification rows in Section B.*
+*The six-layer framework behind the repurposing and falsification rows in the route scores above.*
 
 Rahman, Robi. "Does Distributed Training Undermine Compute Governance?" *arXiv*, May 2026. [arxiv.org](https://arxiv.org/abs/2605.29359)
 *The source for the split-training row.*
@@ -258,7 +258,7 @@ Financial Action Task Force. *Guidance on Beneficial Ownership of Legal Persons.
 *The three sources behind the conceal-the-actor row.*
 
 United States, Department of Justice. 2025 and 2026 charging announcements concerning alleged diversion of controlled AI chips through front companies, false documentation, and transshipment.
-*Cited with the hardware-diversion row. XLab's registry carries no specific case URL for this entry.*
+*Cited with the hardware-diversion row.*
 
 XLab. "3.2 Red-team / blue-team exercises." *Verification*, XLab, University of Chicago, 2026.
 *The source lesson this page restores. Deleted upstream in commit a10955c and not currently live on aisafetytracks.com.*

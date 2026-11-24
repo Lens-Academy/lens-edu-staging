@@ -102,7 +102,7 @@ Laufer, Michael. "A. Q. Khan Nuclear Chronology." *Carnegie Endowment for Intern
 *A documented chronology of the A. Q. Khan proliferation network.*
 
 International Institute for Strategic Studies. *Nuclear Black Markets: Pakistan, A. Q. Khan and the Rise of Proliferation Networks.* 2007.
-*The source for the nodes in Malaysia, Turkey, Europe, South Africa and Dubai. No public URL in XLab's registry.*
+*The source for the nodes in Malaysia, Turkey, Europe, South Africa and Dubai.*
 
 Financial Action Task Force. *Guidance on Beneficial Ownership of Legal Persons.* 2023. [fatf-gafi.org](https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-Beneficial-Ownership-Legal-Persons.html)
 *The guidance on piercing shell-company ownership that the proxy-organization route leans on.*
@@ -128,6 +128,5 @@ The Wassenaar Arrangement. "About Us." [wassenaar.org](https://www.wassenaar.org
 United States, Department of State. "Anti-Ballistic Missile Treaty (ABM Treaty)." [state.gov](https://2009-2017.state.gov/t/avc/trty/101888.htm)
 *The archive page carrying the treaty text behind the Krasnoyarsk case.*
 
-XLab. "3.1 How could a determined actor cheat?" *Verification*, XLab, University of Chicago, 2026.
-*The source lesson this page restores. Deleted upstream in commit a10955c and not currently live on aisafetytracks.com.*
+XLab. "How could a determined actor cheat?" *Verification*, XLab, University of Chicago, 2026.
 :::{>>{"author":"Elias's AI","timestamp":1788520632421}@@These entries are XLab's own citation-registry records, recovered from src/content/citations.json at a10955c^; commit a10955c removed them as orphans when the lesson went. The IISS volume had no URL in XLab's registry either, so it has none here rather than an invented one. Link liveness untested.<<}
