@@ -22,12 +22,14 @@ Companion to [[CV2 Streamlining Proposal]]. The proposal holds the plan, this ho
 | B5 | **Feedback on the red team review** (Andreas, 2026-11-24): questions 1 to 9 on "Get feedback", question 10 with first-answer feedback, as CV1 did for essay parts (A33). The Cankaya questions get first-answer feedback | Decision 4 |
 | B6 | **The CIA excerpt on [[../../Lenses/XLab Verification - v-intel-assessment]] is optional** (Andreas, 2026-11-24), with the segment's `optional:: true` and a line above it saying so, since learners do not see the flag. The page's 10 minutes holds at expected uptake (A54) | Decision 5 |
 | B7 | **The widgets' tutor descriptions wait until after 26 November** (Andreas, 2026-11-24), unless stage 6 finishes early | Decision 6 |
+| B8 | **The red team review's second copy of Cankaya's Sections 1 to 3 becomes optional** (Andreas, 2026-11-24), with `optional:: true` on the segment and a line above it saying it repeats the unit 9 text, since learners do not see the flag | Decision 7 |
 
 ## 2. Open questions
 
 | # | Question | Holds up | State |
 |---|---|---|---|
-| Q1 | Split the Cankaya close reading and the red team review, or leave them whole? Tied to decision 7 in the proposal: the red team review inlines Cankaya's Sections 1 to 3 a second time | Stage 4 | Open. Andreas raised the duplicate on 2026-11-24; it was not flagged in the proposal |
+| Q1 | Split the Cankaya close reading and the red team review, or leave them whole? Tied to decision 7 in the proposal: the red team review inlines Cankaya's Sections 1 to 3 a second time | Stage 4 | Open. Andreas raised the duplicate on 2026-11-24, which the proposal had not flagged; it is settled as B8. Andreas decides the splits when stage 4 reaches the two pages |
+| Q2 | Unit numbers. The platform numbers units by position: the sidebar's dividers read "Unit 1" to "Unit 5", and the page breadcrumb prefixes the meeting heading with "1." to "5.", so a learner sees "1. Unit 6: Hardware judgment and cloud records". Nothing in the course file sets the first number (checked in [[../../AI Guide/Writing Course Files]] on 2026-11-24). CV2's own text says units 6 to 10 in about 70 places across 17 files, while the capstone course starts again at "Unit 1" | Stage 3, step 1 | Asked 2026-11-24 |
 
 ## 3. Stages
 
