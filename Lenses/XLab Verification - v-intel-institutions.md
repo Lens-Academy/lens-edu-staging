@@ -111,7 +111,14 @@ to:: Verifier—bilateral or third-party? Though this report’s focus is not on
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-The readings this lesson names (the MIRI draft agreement, Baker, and *Six Layers*) are cited in the text without links; their full entries appear in the sibling lenses that link them.
+Baker, Mauricio. "Nuclear Arms Control Verification and Lessons for AI Treaties." *arXiv*, Apr. 2023. [doi.org](https://doi.org/10.48550/arXiv.2304.04123)
+*Its section 2.3.3, on intelligence sharing, is excerpted above.*
+
+Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment." *arXiv*, July 2025. [arxiv.org](https://arxiv.org/abs/2507.15916)
+*Cited above as Six Layers. Its passage on bilateral and third-party verifiers is excerpted above.*
+
+Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence." *arXiv*, Nov. 2025. [arxiv.org](https://arxiv.org/abs/2511.10783)
+*The MIRI draft agreement. Item 17 of Article II and Article X ¶1(b) are excerpted above.*
 
 XLab. "2.3.4 Intelligence Institutions and Treaty Design." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-institutions)
 *The source lesson this page adapts.*
