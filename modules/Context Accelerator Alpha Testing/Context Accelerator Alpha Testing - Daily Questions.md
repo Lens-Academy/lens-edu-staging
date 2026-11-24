@@ -61,7 +61,7 @@ content:: A colleague says: "Stopping a misaligned AI from resisting shutdown is
 assessment-instructions:: Score out of 100. 100: explains that a large shutdown reward flips the problem into shutdown-seeking—the AI now has an incentive to get humans to press the off-switch (e.g., by misbehaving, threatening harm, or sabotaging tasks) rather than doing useful work. 50: raises a real secondary concern (e.g., future rewards might still outweigh the shutdown reward, or training/deployment gap) without identifying the shutdown-seeking incentive. 0: agrees that it works or gives no mechanism.
 
 %% [Steven — Nodes 6/Safety cases — Choice] %%
-#### Question: Choice
+##### Question: Choice
 id:: 8f3d5b19-2e6a-4d8c-9f74-4b1e8a6c3d66
 content:: Which evidence would most directly support a control argument in an AI safety case?
 options::
@@ -72,13 +72,13 @@ options::
 shuffle:: true
 
 %% [Luc + Gemini — Open: Interpretability / Probes] %%
-#### Question: Open
+##### Question: Open
 id:: 1a6e9c38-5b7d-4e1f-a825-3c7f2b9d4e77
 content:: A safety team wants to inspect a frontier model to discover unknown failure modes or hidden goals—things the team hasn't even thought to look for yet. Is a standard linear probe a good tool for that goal? Why or why not?
 assessment-instructions:: Score out of 100. 100: says no and explains that linear probes are supervised—they must be trained on labeled examples of a specific concept you already know to look for, so they cannot discover unknown failure modes on their own. 50: says no with a vague limitation (e.g., probes aren't reliable enough) without naming that you have to know what to train them on. 0: says yes.
 
 %% [Steven — Nodes 6/Interpretability — Open] %%
-#### Question: Open
+##### Question: Open
 id:: 4c8b2d76-8a3e-4b9a-b136-6d5a9e2f7c88
 content:: A lab says its model writes out its reasoning in readable steps before answering, so interpretability isn't needed to see what it is thinking. Give one reason this could be wrong.
 assessment-instructions:: Score out of 100. 100 for any one of: the written reasoning may not faithfully reflect the computation that produced the answer; a model could leave out or disguise its real reasons; training pressure on the reasoning can make it look good without being honest; much of the computation happens inside each step and never appears in the text. 40 for "the model could lie" with no link to the reasoning text.
