@@ -113,6 +113,6 @@ content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 The readings this lesson names (the MIRI draft agreement, Baker, and *Six Layers*) are cited in the text without links; their full entries appear in the sibling lenses that link them.
 
-XLab. "Intelligence institutions and treaty design." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-institutions)
+XLab. "2.3.4 Intelligence Institutions and Treaty Design." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-institutions)
 *The source lesson this page adapts.*
 :::{>>{"author":"Elias's AI","timestamp":1788521432992}@@XLab's lesson cited a "Definition 17" and separate "noninterference" and "no-deliberate-concealment" articles; none of those labels exists in arXiv:2511.10783v3. Corrected to Article II — Definitions item 17 and Article X ¶1(b)(i) to (iii), whose text this lens now embeds from the imported paper so the 2.3.5 red-line has something to work from.<<}
