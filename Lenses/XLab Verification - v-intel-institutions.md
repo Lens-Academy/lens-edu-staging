@@ -78,7 +78,7 @@ to:: as relevant to this Agreement.
 content::
 Read ¶1(b)(iii) against (i) and (ii). Protection is an undertaking; sharing is
 an encouragement. That is the asymmetry of this whole section sitting in one
-paragraph, and a later lens in this unit asks you to draft the obligation it declines to impose.
+paragraph, and the last page of this unit, [[../Lenses/XLab Verification - v-intel-action|From Intelligence Lead to Verification Action]], asks you to draft the obligation it declines to impose.
 
 \## Authenticating what gets shared
 
