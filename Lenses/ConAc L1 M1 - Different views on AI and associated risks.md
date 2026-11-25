@@ -188,6 +188,7 @@ from:: AI systems are progressing rapidly, with frontier
 to:: are surpassing human experts across many fields.
 
 #### Callout: Recent updates on AI capabilities
+tone:: blue
 collapse:: closed
 
 #### Text
