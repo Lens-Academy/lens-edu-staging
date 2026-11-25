@@ -185,6 +185,7 @@ feedback-instructions:: Name the weakest entry, then ask one follow-up question.
 
 #### Question: Open
 id:: 42b7feee-70e6-46af-b3f0-cd4f8ae03084
+force-feedback:: first
 content:: **Question 8. Test a technically consequential claim** (optional)
 
 Select one technically consequential claim that may be false, overstated, contested, or insufficiently supported.
