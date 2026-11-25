@@ -151,6 +151,7 @@ As you red-line the treaty text, ask yourself: what does the Article II definiti
 
 #### Question: Open
 id:: b1cfa8da-fe64-4ad4-975b-1a6b08111099
+force-feedback:: first
 content::
 \### Written output: Red-line the NTM article
 
