@@ -1,7 +1,7 @@
 ---
 id: 'b4afae57-53fe-42ab-bb86-b06209fa3b5f'
 title: "Scaling laws"
-reading_minutes: 6
+reading_minutes: 246
 tutor_minutes: 0
 tags:
   - wip
