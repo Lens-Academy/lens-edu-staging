@@ -18,7 +18,4 @@ source:: [[../Lenses/XLab Verification - v-intel-anchor]]
 source:: [[../Lenses/XLab Verification - v-intel-assessment]]
 
 # Lens:
-source:: [[../Lenses/XLab Verification - v-intel-institutions]]
-
-# Lens:
 source:: [[../Lenses/XLab Verification - v-intel-action]]
