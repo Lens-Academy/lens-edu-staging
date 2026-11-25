@@ -269,7 +269,6 @@ from:: We have termed this doctrine the "extinction
 to:: irrevocability to extinction.
 
 #### Callout: Core logic of the extinction doctrine
-tone:: purple
 collapse:: closed
 
 #### Text
