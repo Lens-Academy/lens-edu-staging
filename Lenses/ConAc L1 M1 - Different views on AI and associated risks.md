@@ -168,7 +168,7 @@ Despite the variety of views, the authors find that most fall into three broad c
 #### Callout: Guiding questions{--{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795614316182}@@
 
 --}{++{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795614316182}@@
-++}tone:: {--{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795614316182}@@blue--}{++{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795614316182}@@purple++}
+++}tone:: purple
 collapse:: closed
 #### Text
 content::
