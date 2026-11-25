@@ -114,7 +114,7 @@ content::
 
 Sources: [Wasil et al.](https://arxiv.org/html/2408.16074), [SB 53, Business and Professions Code §22757.13(c)](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53), and [ACM Code of Ethics §1.2](https://www.acm.org/binaries/content/assets/about/acm-code-of-ethics-and-professional-conduct.pdf).
 
-The next page follows the report after it reaches the verifier.{>>{"author":"Elias's AI","timestamp":1788016058779}@@XLab's heading says "Companies A and B", but the widget it wraps (human-institutions-judgment) is the "Audit the verifier" lab about the International AI Verification Office, and its eyebrow reads "Institutions and policy judgment · 2.4.4" although it sits in 2.4.2. Report to XLab.<<}
+The next lens follows the report after it reaches the verifier.{>>{"author":"Elias's AI","timestamp":1788016058779}@@XLab's heading says "Companies A and B", but the widget it wraps (human-institutions-judgment) is the "Audit the verifier" lab about the International AI Verification Office, and its eyebrow reads "Institutions and policy judgment · 2.4.4" although it sits in 2.4.2. Report to XLab.<<}
 
 #### Text
 content::
