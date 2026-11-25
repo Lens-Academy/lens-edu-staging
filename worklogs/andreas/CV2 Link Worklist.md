@@ -11,7 +11,18 @@ Companion to [[CV2 Streamlining Log]] (B11, change-log rows 7, 8 and 10). It lis
 
 How to read it: «…» marks a link's label, and the arrow names the page it opens. Only the words around the reference are quoted. Line numbers are as of 24 Nov evening. Tutor summaries and grading instructions are left out, since stage 6 rewrites them.
 
-**Status.** All open until Andreas settles the wording. Final wording waits for stage 4, because splitting modules and pages moves "the next page" and "the end of this unit". Proposed: the pages keep today's wording in the meantime and this list stands in for restoring XLab's numbers on the pages, since Turner's QA note says Elias promoted CV2 on 24 Nov and learners would otherwise see "2.3.1". If Andreas prefers the numbers back on the pages, they can be restored from the "Import" lines.
+**Status, 24 Nov 22:15: complete.** Andreas has reviewed all 34 items (parts 1 to 4 below). Left with him:
+- the two pending suggestions for item 22 on the first covert lens;
+- "earlier pages" in his cloud evidence Works cited;
+- the platform bug for links into another module (log, section 5).
+
+**Part 4 (24 Nov, 22:10):**
+- Items 26 and 28 link only "next lens".
+- Item 34: the route explorer now matches the lens: "Scoring order", "Scored as:", "Not scored: the scoring table rates seven of the ten routes…", no "(Section B)" in its copy-out line. Its two other learner-visible "XLab’s" also went: "Not scored in the table" and "with a one-line reason for each".
+- Item 22: drafted as pending suggestions. Paragraph 26 now says Unit 10 "ends with an expert review of whether a published verification system could make a draft treaty's obligations credible", and that the review draws on both a red team's and a blue team's side. Line 99 ends "before you use it in the Unit 10 review".
+- Items 11 to 15: kept.
+
+(Original status: all open until Andreas settles the wording.) Final wording waits for stage 4, because splitting modules and pages moves "the next page" and "the end of this unit". Proposed: the pages keep today's wording in the meantime and this list stands in for restoring XLab's numbers on the pages, since Turner's QA note says Elias promoted CV2 on 24 Nov and learners would otherwise see "2.3.1". If Andreas prefers the numbers back on the pages, they can be restored from the "Import" lines.
 
 **After stage 4 (24 Nov evening).** The restructuring broke none of the "Now" wording: every "next page", "previous page" and "end of this unit" still points the right way. It did change a few items:
 - The institutions page is merged into the red-line page (B14), so items 10 to 13 and 15 now refer to text on v-intel-action. Item 10's summary line left the course with the old page. Item 11 now reads "the red-line question at the end of this page", item 15 "the treaty text quoted above", and item 3's Works cited carries the three full entries from item 13.
