@@ -1,7 +1,7 @@
 ---
 id: 'c07eadea-7059-408d-832c-f2f1f76b8894'
 title: "Alignment faking in large language models"
-reading_minutes: 12
+reading_minutes: 11
 tutor_minutes: 0
 tags:
   - wip
