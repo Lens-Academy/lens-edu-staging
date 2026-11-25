@@ -167,7 +167,7 @@ Despite the variety of views, the authors find that most fall into three broad c
 
 #### Callout: Guiding questions
 
-tone:: teal
+tone:: blue
 collapse:: closed
 #### Text
 content::
