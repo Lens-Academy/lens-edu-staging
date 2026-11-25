@@ -15,7 +15,8 @@ a description. This is what you do with it.
 
 Verification is not a property an actor has. It is a relation between two of
 them: somebody can put a fact in front of a verifier about somebody else, and
-that fact settles one of the four things a verifier has to establish. Drawing
+that fact settles one of the four things a verifier has to establish (Baker et
+al.'s four subgoals, 1.A to 2.B, listed after the brief below). Drawing
 those relations is the exercise below, and the key for it is Baker et al.'s,
 the same report Unit 5 assigns when it gets to hardware.
 
