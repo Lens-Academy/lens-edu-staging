@@ -72,7 +72,7 @@ to:: Plausible mechanism: Intelligence agencies have uniquely strong intelligenc
 #### Question: Open
 id:: f82568ea-2d67-4b98-8a7c-2e0c95ccb990
 force-feedback:: first
-content:: Baker's cases are nuclear programs. How far does the finding that intelligence identifies and the regime resolves carry over to covert AI development? A few sentences for each part:
+content:: Baker's four cases are nuclear programs. Would intelligence find a covert AI program the way it found those facilities? Answer each part in a few sentences:
 
 1. Pick one feature of the nuclear cases that helped intelligence find the facilities. Does a covert AI program share it?
 2. Pick one hiding place from the list above where intelligence would likely do worse against an AI program than against a nuclear one, and explain why.
