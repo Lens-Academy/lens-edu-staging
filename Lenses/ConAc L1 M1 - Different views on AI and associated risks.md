@@ -233,7 +233,6 @@ from:: Proponents of the dominance doctrine believe that
 to:: leading to human extinction or its permanent disempowerment.
 
 #### Callout: Core logic of the dominance doctrine
-tone:: purple
 collapse:: closed
 
 #### Text
