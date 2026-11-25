@@ -9,7 +9,7 @@ tags:
 
 
 #### Callout: In this submodule
-tone:: teal
+tone:: blue
 collapse:: closed
 
 #### Text
