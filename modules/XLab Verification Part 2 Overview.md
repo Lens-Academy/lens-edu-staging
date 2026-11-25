@@ -44,5 +44,5 @@ The adversarial turn, then one long close reading. First a worked case: an evasi
 :::
 
 :::callout {title="Unit 10: Evasion Routes and the Red Team Review" tone="blue"}
-Why defining cheating comes before detecting it, why layered defences only work when the layers fail differently, and a taxonomy of ten routes around an agreement. The unit ends in the written output the course builds to: an expert review deciding which obligations of a draft treaty the verification system from Unit 9 could actually carry, and which it cannot touch.{>>{"author":"Andreas's AI","timestamp":1795627202123}@@Stage 7 flag (T7): "could actually carry". "Which it cannot touch" is mannered. The plain version says which obligations the system does not cover.<<}
+Why defining cheating comes before detecting it, why layered defences only work when the layers fail differently, and a taxonomy of ten routes around an agreement. The unit ends in the written output the course builds to: an expert review deciding which obligations of a draft treaty the verification system from Unit 9 could feasibly carry, and which it cannot touch.{>>{"author":"Andreas's AI","timestamp":1795627202123}@@Stage 7 flag (T7): "could actually carry". "Which it cannot touch" is mannered. The plain version says which obligations the system does not cover.<<}
 :::
