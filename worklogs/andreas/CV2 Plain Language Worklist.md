@@ -265,5 +265,4 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
     - Line 99: a semicolon, and "ideally read the whole draft treaty" leaves it unclear whether that is asked.
     - Line 150: "behind-the-meter" is not explained (T1).
     - Line 158, **Content:** the "symmetric, cheap, and checkable" rule is taught nowhere in either course, yet the rubric grades against it (Turner's QA, log section 7). Also "confront the question the historical record says drafters avoid", and the "both-capitals test" label.
-- **Section 6's T1 flags on lines 29, 41 and 53** (the noninterference, *Six Layers* and MIRI paragraphs, XLab's): they pass in the course. "NTM" is defined in the collapsed callout on the intelligence opener two lenses earlier, and the T1 check reads one lens at a time.
-- **Left for stage 8:** "the whole unit" on line 35 already says "unit". "This whole section" on line 80 and "this section" on line 97. Em dashes on lines 36, 87, 89, 90 and 96.
+- **Section 6's T1 flags on lines 29, 41 and 53** (the noninterference, *Six Layers* and MIRI paragraphs, XLab's): they pass in the course. "NTM" is defined in the collapsed callout on the intelligence opener, earlier in this unit, and the T1 check reads one lens at a time.
