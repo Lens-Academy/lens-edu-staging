@@ -9,6 +9,8 @@ authors:
 
 Companion to [[CV2 Streamlining Log]] and [[CV2 Streamlining Proposal]], stage 6. It maps every `summary_for_tutor` in CV2 against what the lens now is, so the rewrites can go unit by unit. Mapped on 24 Nov from the staging copy, after stage 5.
 
+**Status, 25 Nov.** Done, waiting for Andreas's review. That covers all 27 rows below and the 12 widget descriptions that Andreas added to the pass on 25 Nov (see "Added to this pass"). The validator no longer reports a tutor field that names XLab.
+
 ## The standard
 
 From the AI Guide ([[../../AI Guide/Writing Lenses]], [[../../AI Guide/Course Authoring]]) and CV1's stage 7:
@@ -59,9 +61,25 @@ Words are the current length. "Light" means only a few words change. "Rewrite" m
 
 Totals: 14 rewrites, 11 light edits, 2 already done.
 
+All done on 25 Nov. Notes from doing them:
+
+- **v-intel-assessment.** B6 went in first. The CIA excerpt has `optional:: true`, and the line above it now reads "**Optional:** Three techniques from the CIA's *A Tradecraft Primer*, for judging a source, watching for signs of change, and weighing rival explanations: …". It is one line, with no em dash, and adds a short gloss of the three techniques because the T1 check flagged their names. T1 still flags the line. I left it, because the names are the reading's own section titles.
+- **v-covert-red-blue.** The summary says the Cankaya copy is optional, with a line above it saying so (B8), and that questions 1 to 9 give feedback on request while question 10 gives it after the first answer (B5).
+- **v-human-audits-inspections.** The learner text above the drill still called it optional, though B16 made it required. The callout title loses "(optional, …)", and "The exercise below is optional" becomes "The case file stays available here while you work through the exercise below."
+- **The two "None" rows.** v-human-reporting-protection and v-human-after-report each got a line saying their widget is required, "page" became "lens", and the split date came out. The first also stops naming the next lens, which the validator flagged.
+- **Welcome lenses.** The unit names follow the meeting headings in title case, for example "Unit 8 (The Human Layer)".
+
+## Added to this pass (Andreas, 25 Nov)
+
+These are the widget descriptions. Each lost XLab's name, its semicolons and "page" or "lesson". Each now says whether its lens requires it, as B16 set.
+
+- **The 11 that named XLab:** cloud-evidence-drill, collection-map, construct-case, covert-worked-example, evasion-taxonomy, human-audits-inspections, human-insiders, human-institutions-judgment, human-reporting-protection, standard-of-proof and whistleblower-levers. Their lens placement is now stated where it helps, for example "on the After the report arrives lens of Unit 8". The 30-minute framing came out of the cloud drill's description, because the line is gone from the lens.
+- **The claim ledger.** It names both placements: the Hardware lens at the start of Unit 5 of CV1, and the policy judgment lens "in the next course", at the start of Unit 6 of CV2. CV1 already tells learners the ledger returns there, so the validator's two notes on this are expected and can stay.
+- **Five more for semicolons and "page" only:** cankaya-audit-calculator, covert-execution-trace, heim-signal-explorer (now says the lens requires it), scher-threshold-explorer and wasil-method-explorer.
+
 ## Not in this pass
 
-- **The 11 widgets' tutor descriptions that name XLab** (B7: after 26 November unless stage 6 finishes early): cloud-evidence-drill, collection-map, construct-case, covert-worked-example, evasion-taxonomy, human-audits-inspections, human-insiders, human-institutions-judgment, human-reporting-protection, standard-of-proof and whistleblower-levers. With them goes the claim ledger, whose description names a CV2 lens that CV1 learners have not reached.
+- **The five feedback modules (U6 to U10).** Their tutor fields keep one semicolon each, because they use the same template as CV1's feedback modules and the AI Control courses. Change all of them together or none.
 - **The old institutions lens**, which is out of both courses.
 - **Summary lines (`tldr`)**, which are learner text and go with stage 7 and stage 8.
 
