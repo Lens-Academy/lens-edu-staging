@@ -77,6 +77,7 @@ feedback-instructions:: Three or four sentences. Name the most important gap or 
 
 #### Question: Open
 id:: 28b10c14-79cc-4565-94ab-0ff402747fc3
+force-feedback:: first
 content:: **The enforcer.** In the nuclear regime: A noncompliance finding must be reported to the Security Council, where enforcement lives.
 
 What plays the Security Council’s part for AI, and what would enforcement actually deny a violator?
