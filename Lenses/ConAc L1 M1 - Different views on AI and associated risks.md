@@ -9,8 +9,7 @@ tags:
 
 
 #### Callout: In this submodule
-{--{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795614620445}@@tone:: purple
---}collapse:: closed
+collapse:: closed
 
 #### Text
 content::
