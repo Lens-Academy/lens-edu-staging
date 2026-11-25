@@ -59,6 +59,7 @@ In this exercise, you will build a similar pipeline for frontier AI inspections,
 
 #### Question: Open
 id:: 36895df0-f049-478c-807f-f3ca5c5c60af
+force-feedback:: first
 content:: **The finder.** In the nuclear regime: IAEA inspectors, and the safeguards analysis behind them, establish the facts and report them up.
 
 Who finds for AI, and what access would they need for their facts to hold up later?

@@ -76,6 +76,7 @@ The design lesson is not that the nuclear system is foolproof. It is that differ
 
 #### Question: Open
 id:: f54a311e-48d3-4066-b0b7-20be341c9f29
+force-feedback:: first
 content:: Iraq, South Africa, and the Krasnoyarsk radar each expose a different limit of a verification layer.
 
 In a short paragraph each, say what limit each case exposes and which layer of the stack above it says something about.
