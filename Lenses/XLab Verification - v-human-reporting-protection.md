@@ -1,6 +1,7 @@
 ---
 id: 'b14a66c9-7199-47ac-a777-14045193b072'
 title: "Reporting and protection"
+tldr: "A whistleblower statute is a door, not a corridor. California's SB 53 lets a covered employee walk through to the Attorney General, but says nothing about who protects her name, whether the office can judge the claim, or how a contractor's work order becomes evidence."
 summary_for_tutor: "A TED video and three readings (California Labor Code 1107 to 1107.2, the AIWI/CARMA best-practice guide, Wasil et al. on whistleblowers), then the Four Levers, One Each widget. The learner assigns one of four leverage chips (a legal right and remedies, the reporter's incentives, a duty on the developer, escalation as professional conduct) to each of four mechanisms, one chip per row, then commits. Each card then shows whether it was matched and what the course says that lever changes. The page carries the Mechanism to Effect lead above the widget and the sources line below it. What happens once the report reaches the verifier (the CIGIE investigation standards, Follow the report and Audit the verifier) is on the next page, 'After the report arrives', split from this one on 24 November 2026. A Works cited callout closes the page. In feedback, cite the statute section or source named in the widget's explanation, and keep the line between what a statute protects and what an institution can actually do."
 tags: [wip]
 reading_minutes: 45
@@ -142,5 +143,5 @@ Association for Computing Machinery. "ACM Code of Ethics and Professional Conduc
 The TED talk is cited inline above.
 
 XLab. "2.4.2 Reporting and Protection." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-reporting-protection)
-*The source lesson this page adapts, including the Mechanism to Effect, Follow the report, and Audit the verifier exercises.*
+*The source lesson this page adapts, including the Mechanism to Effect exercise.*
 :::{>>{"author":"Elias's AI","timestamp":1788016058779}@@Widgets rebuilt from whistleblower-levers.ts, human-reporting-protection.ts, and human-policy-labs.ts (INSTITUTIONS_JUDGMENT_LAB). Options carry XLab's exact text; correct option listed first in the data, so shuffle is on. CIGIE and Brundage URLs are in citations.json pending, not entries, so they are noted inline rather than listed.<<}
