@@ -9,7 +9,7 @@ tutor_minutes: 61
 ---
 #### Text
 content::
-In this unit, you will tackle a comprehensive technical verification system proposal, synthesizing the verification mechanisms, the actors and incentive structures, and the verification intuitions you gained earlier in the course.
+In this unit, you will tackle a comprehensive technical verification system proposal, synthesizing the verification mechanisms, the actors and incentive structures, and the verification intuitions you gained earlier in the course.{>>{"author":"Andreas's AI","timestamp":1795627582996}@@Stage 7 flag (minor, T3): "tackle", "synthesizing" and "the verification intuitions you gained" are the overused words T3 lists. The sentence is XLab's opening with our ending. Its plain version says what the learner will read and which earlier material it draws on.<<}
 
 :::callout {title="By the end of units 9 and 10, you will be able to:" tone="blue"}
 1. Explain how the requirements of an international AI agreement might be translated into a technical verification system.
@@ -51,7 +51,7 @@ to:: "| 10,000 | 5% | ~108,000 | 1 in 1,600 | 0.0028% |"
 
 #### Text
 content::
-The three tables in Appendix A1 are one calculator. Move its sliders to see what a sample size, a flaw rate and a prover budget buy each other.
+The three tables in Appendix A1 are one calculator. Move its sliders to see what a sample size, a flaw rate and a prover budget buy each other.{>>{"author":"Andreas's AI","timestamp":1795627586412}@@Stage 7 flag: "The three tables in Appendix A1 are one calculator" and "buy each other" need decoding. The calculator recomputes the detection probability and the proof budget from the sample size, flaw rate and GPU budget, which is what the tables tabulate.<<}
 
 #### Widget
 source:: [[../widgets/cankaya-audit-calculator]]
@@ -64,7 +64,7 @@ Read all 9 questions before beginning. Answer Questions 1, 2, 5, and any one que
 
 Support each answer with section references to the paper, for example Section 2b or Section 3.2.2, since the inlined text above carries the author’s section numbering rather than page numbers. If you prefer to cite by page, work from the [PDF](https://intelligence.org/wp-content/uploads/A-system-overview-for-near-term-low-trust-AI-compute-verification.pdf). Clearly distinguish the author’s claims from your own conclusions.
 
-Questions 3, 4, 7 and 9 are marked optional below so that you can complete the lens with whichever one you choose; answer at least one of them.
+Questions 3, 4, 7 and 9 are marked optional below so that you can complete the lens with whichever one you choose; answer at least one of them.{>>{"author":"Andreas's AI","timestamp":1795627589900}@@Stage 7 flag: a semicolon. The bigger point is that this block (lines 63 to 67) repeats the Assignment's instructions on lines 24 to 26 with small differences. Line 24 asks for "page or section references" and line 65 explains why sections, not pages. Line 26 calls only question 8 optional, and line 63 adds question 6. One set of instructions would do.<<}
 
 #### Question: Open
 id:: 217e8374-2817-43eb-951b-e347de1c6370

@@ -17,7 +17,7 @@ content::
 
 - Take apart an evasion built by a red team, using the standard that operations are made inconclusive rather than invisible.
 - Reconstruct the argument of a proposed system for verifying AI compute use between parties who do not trust each other, and trace its evidence from chip to verdict.
-- Find the step where its conclusion outruns its proof.
+- Find the step where its conclusion outruns its proof.{>>{"author":"Andreas's AI","timestamp":1795627576399}@@Stage 7 flag, Content: as in the overview's Unit 9 box, this promises a task the close reading does not require, and assumes the paper has such a step. Only question 7 (one of four to choose from) and question 8 (optional) ask about weak points. The phrase is also mannered.<<}
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-covert-what-is-it]]
