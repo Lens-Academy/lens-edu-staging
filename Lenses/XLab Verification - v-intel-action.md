@@ -1,10 +1,10 @@
 ---
 id: '7f63d0b2-6f71-4ca8-a58a-fcc0511666f7'
 title: "From intelligence lead to verification action"
-tldr: "You have a lead. Now act like a regime that wants to survive its first ambiguous case: compare against declarations, escalate one rung at a time, and write down what you could not resolve. Then take a pencil to the MIRI draft's NTM article as a negotiator would and red-line it for both capitals."
-summary_for_tutor: "Imported from XLab's Verification curriculum. A short reading (compare against declarations; the escalation ladder of tasking more collection, seeking corroboration, triggering an audit or challenge inspection; recording confidence, dissent and unresolved blind spots), followed by the module's peer-reviewed written output: red-line the NTM article (about 700 words). The learner works from the treaty text quoted in 2.3.4: item 17 of MIRI's Article II definitions plus Article X ¶1(b)(i) to (iii), the noninterference, no-deliberate-concealment and encouraged-but-not-obligated cooperation clauses. They then mark at least three gaps, redraft one provision, write or defend the absence of a sharing clause, test it against the rule that states sign what is symmetric, cheap and checkable, and end with one paragraph each on why Washington and Beijing accept it. Assess on the five listed criteria. Expect the discovery that noninterference is easy and drafting dies on sharing; do not hand it to the learner before they write. The Unfinished writing callout is XLab's own note that this task is proposed but not settled."
+tldr: "Treaties protect each side's satellites but oblige nobody to share what they see. With that precedent and the MIRI draft's text in hand, act like a regime that wants to survive its first ambiguous case: compare against declarations, escalate one rung at a time, and write down what you could not resolve. Then take a pencil to the draft's NTM article as a negotiator would and red-line it for both capitals."
+summary_for_tutor: "Two readings on one page (merged on 24 November 2026), then the unit's written output. First, intelligence institutions and treaty design, with no questions: the asymmetric precedent, weak on sharing (no obligation on intelligence agencies to share with verifiers, Baker section 2.3.3) and strong on protection (the noninterference-with-NTM and no-deliberate-concealment clauses, which Gottemoeller called one of the easiest points of agreement in New START); Six Layers' argument for national rather than international agencies; MIRI's Article II definition of national technical means (item 17) and Article X ¶1(b)(i) to (iii), embedded as excerpts of the paper; and the authentication problem for shared intelligence. Clause (iii), which encourages but does not obligate cooperation, is the page's evidence that the precedent is weak on sharing. Second, a short reading on acting on a lead (compare against declarations; the escalation ladder of tasking more collection, seeking corroboration, triggering an audit or challenge inspection; recording confidence, dissent and unresolved blind spots). Then the written output: red-line the NTM article (about 700 words). The learner works from the treaty text quoted earlier on the page: item 17 of MIRI's Article II definitions plus Article X ¶1(b)(i) to (iii), the noninterference, no-deliberate-concealment and encouraged-but-not-obligated cooperation clauses. They then mark at least three gaps, redraft one provision, write or defend the absence of a sharing clause, test it against the rule that states sign what is symmetric, cheap and checkable, and end with one paragraph each on why Washington and Beijing accept it. Assess on the five listed criteria. Expect the discovery that noninterference is easy and drafting dies on sharing; do not hand it to the learner before they write."
 tags: [wip]
-reading_minutes: 5
+reading_minutes: 13
 tutor_minutes: 25
 ---
 #### Text
@@ -173,9 +173,18 @@ feedback-instructions:: Go criterion by criterion: name the strongest of the fiv
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
+Baker, Mauricio. "Nuclear Arms Control Verification and Lessons for AI Treaties." *arXiv*, Apr. 2023. [doi.org](https://doi.org/10.48550/arXiv.2304.04123)
+*Its section 2.3.3, on intelligence sharing, is excerpted above.*
+
+Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment." *arXiv*, July 2025. [arxiv.org](https://arxiv.org/abs/2507.15916)
+*Cited above as Six Layers. Its passage on bilateral and third-party verifiers is excerpted above.*
+
 Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence." *arXiv*, Nov. 2025. [arxiv.org](https://arxiv.org/abs/2511.10783)
-*The MIRI draft agreement this task red-lines.*
+*The MIRI draft agreement. Item 17 of Article II and Article X ¶1(b) are excerpted above, and the red-line task works from them.*
+
+XLab. "2.3.4 Intelligence Institutions and Treaty Design." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-institutions)
+*The source lesson for the first part of this page, from the sharing and protection precedent to the readings.*
 
 XLab. "2.3.5 From Intelligence Lead to Verification Action." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-action)
-*The source lesson this page adapts, including the red-line written output.*
+*The source lesson for the second part, from acting on a lead to the red-line written output.*
 :::{>>{"author":"Elias's AI","timestamp":1788521470158}@@XLab's lesson named a "Definition 17" and separate "noninterference" and "no-deliberate-concealment" articles; none of those labels exists in arXiv:2511.10783v3. Corrected here and in 2.3.4 to Article II — Definitions item 17 and Article X ¶1(b)(i) to (iii), which 2.3.4 now quotes in full.<<}
