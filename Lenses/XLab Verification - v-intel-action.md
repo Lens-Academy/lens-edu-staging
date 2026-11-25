@@ -78,7 +78,7 @@ to:: as relevant to this Agreement.
 content::
 Read ¶1(b)(iii) against (i) and (ii). Protection is an undertaking; sharing is
 an encouragement. That is the asymmetry of this whole section sitting in one
-paragraph, and the red-line question at the end of this page asks you to draft the obligation it declines to impose.
+paragraph, and the red-line question at the end of this lens asks you to draft the obligation it declines to impose.
 
 \## Authenticating what gets shared
 
