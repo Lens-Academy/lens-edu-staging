@@ -197,6 +197,7 @@ feedback-instructions:: Say whether the test was performed or merely described. 
 
 #### Question: Open
 id:: 69482580-7cb1-4162-a754-90b33e7aa74c
+force-feedback:: first
 content:: **Question 10. Overall judgment and redesign**
 
 Does the low-trust verification system make Articles IV to VII meaningfully more verifiable? Recommend adopt, pilot, redesign, or reject as the next step.

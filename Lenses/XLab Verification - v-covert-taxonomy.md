@@ -33,6 +33,7 @@ You will come back to this table in the [[../Lenses/XLab Verification - v-covert
 
 #### Question: Open
 id:: 72ca6805-7259-45bf-b166-4fb53d09d385
+force-feedback:: first
 content:: Take the Training Through the Pause scenario from Unit 9: the Northstar engineer, Lattice Research and its subcontractors, the split cloud accounts, and Sable's suddenly better model. Recap: in 2029, governments and AI companies agree to a twelve-month Frontier Training Pause. Later, a senior Northstar engineer is reported to be advising Lattice Research, and Lattice and several subcontractors rent advanced accelerators through a cloud reseller, each account below the agreement's review threshold and described as protein-model inference, benchmark evaluation or safety research, yet running synchronized, compute-intensive workloads for six weeks; shortly afterward, Sable Systems privately demonstrates a model that resembles Orion-4 but performs substantially better on several strategically important tasks.
 
 Decompose it. Name the one route you would call primary and say why, then the supporting tactics, and for each say which observer sees the piece and what that observer sees instead of a violation.
