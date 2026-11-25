@@ -142,6 +142,7 @@ feedback-instructions:: Name the transition most in need of work, then ask one f
 
 #### Question: Open
 id:: dfa796c5-8851-4219-8891-2b3bea0a9f31
+force-feedback:: first
 content:: **Question 6. Evaluate the strongest arguments** (optional)
 
 Identify three arguments in the paper that you consider particularly strong.
