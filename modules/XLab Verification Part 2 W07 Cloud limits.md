@@ -8,7 +8,7 @@ tags: [wip]
 # Lens: Welcome to Unit 7
 id:: 2f20afab-eb71-4a8e-b8f8-d4270aa96e9b
 tldr:: What you will learn in Unit 7: cloud limits and intelligence.
-summary_for_tutor:: Short opening page of Unit 7 (Cloud limits and intelligence) of Compute Verification 2. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+summary_for_tutor:: Short opening lens of Unit 7 (Cloud Limits and Intelligence) of Compute Verification 2. It lists what the learner will be able to do after the unit. Do not teach the unit's content here. If asked, point to the lens that covers it.
 reading_minutes:: 1
 tutor_minutes:: 0
 #### Text
