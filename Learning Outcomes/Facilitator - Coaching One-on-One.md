@@ -22,7 +22,7 @@ id:: e593ff7c-ae4b-4883-8ced-14415f5364d7
 id:: 345a647b-132e-4353-973b-57bd84c56be9
 content:: Coaching is a different mode than facilitating, and it takes a different posture. Coaching is about the *person*, not the *problem*. Most rookies make the same mistake: they listen to the problem, then start solving. Better coaching has more questions and less advice.
 
-**Why is coaching different from facilitating? Name at least three of the seven coaching questions from The Coa{>>{"author":"Alison Charter-Smith","timestamp":1795565445097}@@Great article resource. Gives a good overview basics of what is couching.<<}ching Habit. Name the four stages of GROW. What does 'stay curious longer' look like in practice?**
+**Why is coaching different from facilitating? Name at least three of the seven coaching questions from The Coa{>>{"author":"Alison Charter-Smith","timestamp":1795566377339}@@Not sure why the Pareto - best in the world article is included. What's missing in this section is two things: \n\n1) Overview at the intro of what it means to be a coach - even a short paragraph or a table comparing coaching vs. facilatating (as a visual)\n\n2) One of the other things I see missing from the Coaching section, is how to help these mentees - either a template to build a game plan of what they want to do (i.e. priorities, focus, timeline, goals).<<}{>>{"author":"Alison Charter-Smith","timestamp":1795565445097}@@Great article resource. Gives a good overview basics of what is couching.<<}ching Habit. Name the four stages of GROW. What does 'stay curious longer' look like in practice?**
 
 assessment-instructions::
 **1** — Treats coaching as "give better advice." Can't distinguish from facilitation.
