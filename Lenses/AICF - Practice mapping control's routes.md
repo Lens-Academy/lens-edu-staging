@@ -17,7 +17,7 @@ id:: f15b1e9e-0289-4e41-af64-2b7e9dab3ba9
 content::
 \## Part 1: the routes
 
-Describe at least two distinct routes by which this project could lower the chance of an AI catastrophe. For each route:
+Describe at least two distinct routes by which this project could lower the chance of an AI catastrophe. You can use the routes from this unit, but naming a route is only the start: show how it would work for this project. For each route:
 
 1. Write the steps from "the team runs an evaluation" to "less risk".
 2. Say who other than the team would have to act. Most routes need someone.
