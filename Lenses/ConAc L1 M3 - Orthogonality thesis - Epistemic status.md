@@ -1,7 +1,7 @@
 ---
 id: '3452b61b-1dfc-46f4-8c2f-acc425f31bb2'
 title: "Orthogonality thesis: Epistemic status"
-reading_minutes: 2
+reading_minutes: 5
 tutor_minutes: 0
 tags:
   - wip
