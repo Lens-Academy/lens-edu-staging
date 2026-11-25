@@ -8,7 +8,7 @@ tags: [wip]
 # Lens: About This Course
 id:: 65e6f4de-e791-4945-ae34-b7879238e00d
 tldr:: The first course argued that a slowdown agreement would have to be checkable. This one is about the checking: what cloud records, satellites, insiders and inspections can honestly establish, and what a determined evader does to each of them.
-summary_for_tutor:: Orientation page for the second course in the compute verification pair. The learner reads what these five units cover, that the first course is a prerequisite, that the capstone is a separate course afterwards which begins with the feasibility judgments, and that the material is an alpha from XLab with a feedback form. Do not teach later content in detail; if asked, point to the unit that covers it. If a learner has not done the first course, say plainly that this one starts from its results (mechanism criteria, the actors and supply chain, and the hardware mechanisms) and does not restate them.
+summary_for_tutor:: Orientation lens for the second course in the compute verification pair. The learner reads what these five units cover, that the first course is a prerequisite, that the capstone is a separate course afterwards which begins with the feasibility judgments, and that the material is an early version still being tested, with a feedback form. Do not teach later content in detail. If asked, point to the unit that covers it. If a learner has not done the first course, say plainly that this one starts from its results (mechanism criteria, the actors and supply chain, and the hardware mechanisms) and does not restate them.
 reading_minutes:: 4
 tutor_minutes:: 0
 #### Text
