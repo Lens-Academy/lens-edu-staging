@@ -9,6 +9,109 @@ tutor_minutes: 25
 ---
 #### Text
 content::
+The previous sections were about what a watcher can see and conclude. This one
+is about the institutions that do the watching, and what a treaty can say about
+them.
+
+The precedent is asymmetric, and the asymmetry is the lesson: **weak on
+sharing, strong on protection.**
+
+\## Sharing
+
+Nuclear treaties impose no obligation on intelligence agencies to share with
+treaty verifiers. Sharing is voluntary, informal, and inconsistent (Baker
+§2.3.3) — and protection of sources and methods is *why*. Third-party verifiers
+lack major states' collection capabilities, so the body formally charged with
+verifying is rarely the body that can see.
+
+\## Protection
+
+Noninterference-with-NTM and no-deliberate-concealment clauses are standard
+arms-control furniture: no blinding satellites, no nets over mobile missiles.
+Rose Gottemoeller, the US chief negotiator for New START, called NTM
+noninterference "one of the earliest and easiest points of agreement" in those
+negotiations.
+
+This is the low-hanging fruit of the whole unit. Note the contrast with
+sharing, where drafting is hard — a point worth carrying into the written
+output.
+
+\## Architecture: national or international?
+
+*Six Layers* argues — in an emphasis footnote, so hold the modality — for
+relying on **national** agencies rather than empowering an international agency
+to spy. Three reasons: decades of built-up capability; the IAEA precedent of
+learning about violations from national agencies; and the new risks an
+espionage-authorized international body would itself create.
+
+The consequence is that weak-intelligence states free-ride on stronger states'
+collection. In the US–China case, each side trusts its own agencies to verify
+the other.
+
+\## Concrete text
+
+MIRI's draft agreement adopts the arms-control boilerplate wholesale. Item 17
+of Article II's definitions list defines national technical means to include
+satellite, aerial, cyber, signals, and thermal-imagery remote sensing, and
+Article X ¶1(b) carries the noninterference and no-concealment language
+borrowed from the ABM Treaty, INF, CTBT, and New START.
+
+It is a real text, and it is meant to be marked up rather than admired. Here
+are the two passages, from the paper itself.
+
+**Article II — Definitions, item 17**
+
+#### Article
+source:: [[../articles/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence]]
+from:: National Technical Means (NTM) includes satellite
+to:: for verification consistent with this Agreement.
+
+#### Text
+content::
+**Article X — Information Consolidation and Challenge Inspections, ¶1(b)**
+
+#### Article
+from:: For the purpose of providing assurance of compliance
+to:: as relevant to this Agreement.
+
+#### Text
+content::
+Read ¶1(b)(iii) against (i) and (ii). Protection is an undertaking; sharing is
+an encouragement. That is the asymmetry of this whole section sitting in one
+paragraph, and the red-line question at the end of this page asks you to draft the obligation it declines to impose.
+
+\## Authenticating what gets shared
+
+Baker's "shared documents might be fake" problem is an evidence-credibility
+question, and it belongs here: how do rivals authenticate intelligence passed
+between them — signal authentication, chain of custody?
+
+The cryptographic machinery for this — zero-knowledge proofs, multi-party
+computation, attestation — is covered with the privacy-preserving mechanisms in [[../Lenses/XLab Verification - v-mechanism-privacy|Unit 4]]. The bridge worth knowing is the
+zero-knowledge warhead-verification precedent (Glaser, Barak and Goldston,
+*Nature*, 2014).
+
+\## Readings
+
+- MIRI draft US–China agreement — Article II's definitions and Article X,
+  verbatim (pp. 20, 39–40). The passages excerpted above are the ones this
+  section turns on; ideally read the whole draft treaty at this point.
+Read Baker's section on intelligence sharing, then compare the institutional options in *Six Layers*.
+
+#### Article
+source:: [[../articles/baker-nuclear-arms-control-verification-and-lessons-for-ai-treaties]]
+from:: #### 2.3.3 Intelligence sharing
+to:: The sharing of information between treaty-implementing agencies and national intelligence agencies (or between multiple national intelligence agencies) can help treaty verifiers reach conclusions that would be harder to reach with more limited information. Nuclear arms control treaties have no requirements for national intelligence agencies to share their information; the process is voluntary, informal, and inconsistent.
+
+#### Article
+source:: [[../articles/baker-verifying-international-agreements-on-ai-six-layers-of-verification-for-rules-on-large-scale-ai-development-and-deployment]]
+from:: Verifier—bilateral or third-party? Though this report’s focus is not on institution design, it is worth noting that Provers may more easily trust that a third-party Verifier will act in good faith, rather than seeking to steal information or compromise equipment. On the other hand, third-party Verifiers may take longer to set up and may not be as effective. In particular, third parties would lack major states’ intelligence capabilities, though intelligence sharing may help. These tradeoffs might be eased through intermediate options, such as a national verification office that hires citizens of third-party countries to conduct interviews.
+to:: Verifier—bilateral or third-party? Though this report’s focus is not on institution design, it is worth noting that Provers may more easily trust that a third-party Verifier will act in good faith, rather than seeking to steal information or compromise equipment. On the other hand, third-party Verifiers may take longer to set up and may not be as effective. In particular, third parties would lack major states’ intelligence capabilities, though intelligence sharing may help. These tradeoffs might be eased through intermediate options, such as a national verification office that hires citizens of third-party countries to conduct interviews.
+
+#### Text
+content::
+\## Acting on a lead
+
 A lead has arrived and been assessed. This section is about what the regime
 does next — and about doing it proportionately, which is the part that decides
 whether a verification regime survives its first ambiguous case.
