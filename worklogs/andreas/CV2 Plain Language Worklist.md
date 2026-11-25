@@ -104,6 +104,16 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
     - Line 43, the Unit 9 box, **Content:** "find the step where the conclusion outruns the proof" promises a task the close reading does not require. Only question 7 (one of four to choose from) and question 8 (optional) ask about weak points. The box also opens on a fragment.
     - Line 47, the Unit 10 box: "could actually carry" (T7), and "which it cannot touch" is mannered.
 - **Left for stage 8:** the Alpha box and the first course's name (stage 8, item 1), and "defences" in the Unit 10 box.
+- **Review of Andreas's rewrite, 2026-11-25:**
+    - **Cleared** (comment removals pending Andreas's accept):
+        - Line 18.
+        - The Unit 6 box. One small point: "fit in practice, as opposed to where a demo suggests it stands" mixes "fit" and "stands".
+        - The Unit 10 box.
+    - **tldr cleared:** "truly prove" is not on T7's list, though "can prove" says the same.
+    - **Still open:**
+        - The Unit 7 box: "really found" is on T7's list, "a treaty that protects sensors" still needs decoding, and "See where … what can be seen" repeats.
+        - The Unit 8 box: Andreas asked about it, and a candidate went to him on 25 Nov.
+        - The Unit 9 box: Content. A replacement for the last sentence went to him.
 
 ## Unit 6: Hardware Judgment and Cloud Records
 
@@ -128,6 +138,10 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
 - **Flag on the page:** line 116. The question repeats the Prompt callout above it almost word for word, in one 77-word sentence. Its colon makes the two tasks after it read as if they were the eight elements.
 - **Section 6's T1 flag on line 32** (XLab's bullet on authenticating devices): it passes, because "attestation", "confidential computing" and "configuration claims" are taught in Compute Verification 1, Unit 5, and the check cannot see that course.
 - **Left for stage 8:** "the hardware pages" on line 127 points to other lenses (B15). The tldr's "section". The em dashes on lines 84 and 85.
+- **Review of Andreas's rewrite, 2026-11-25:**
+    - **tldr:** "grade" and "opening-puzzle" are fixed. A new point: "fill in the hardware mechanism dossier" describes something the lens does not ask for. The dossier is a list of fields to use for any proposal, with no exercise attached. The opening verdict line is still open, and a candidate went to Andreas.
+    - **Line 116 (the question):** open. Andreas is weighing removing the Prompt callout. Claude's advice, sent 25 Nov, is to keep the callout and shorten the question, because elements 1, 5, 6 and 7 refer back to "the mechanism" and "the proposed role", which only the prompt introduces.
+    - **Line 123:** Andreas will rename the heading "Return to the opening puzzle". The Unit 5 lens never calls the ledger an opening puzzle in learner text.
 
 ### Provider records and workload observables
 
@@ -143,13 +157,17 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
 - **tldr:** passes.
 - **Flag on the page, Content:** line 106. The explorer is now required (B16) and finishes only when all fifteen signals are opened. Nothing on the lens says so, and the widget ticks opened rows without showing a count, so a learner can stall here without knowing why. The flag suggests one line.
 - **Left for stage 8:** line 28's "on the next page" (B15).
+- **Review of Andreas's rewrite, 2026-11-25: cleared.**
+    - Andreas added "Explore all the signals to complete the exercise." The comment removal is pending, and it adds the space the line needed after "Table 2.".
+    - Optional: "Open all fifteen signals" names what completes the widget more exactly than "explore".
+    - After the edit, the T7 check flags line 106's first sentence ("sorts these same signals against the two tables this page does not reproduce"). That sentence is Claude's text from the link pass. It passed this pass, but it is a candidate to plainen.
 
 ### Customer identification and ongoing monitoring
 
 [[../../Lenses/XLab Verification - v-cloud-customer-identification]]. Egan and Heim is the article. Our text is the tldr, the source lines, the Box 3 heading and Works cited.
 
 - **Spoiler test:** passes.
-- **tldr flag (minor):** "Egan and Heim port that playbook" stacks two borrowed metaphors (software "port", sports "playbook"). The literal version is shorter.
+- **tldr flag (minor):** "Egan and Heim port that playbook" stacks two borrowed metaphors (software "port", sports "playbook"). The literal version is shorter. **Cleared 25 Nov:** "import that framework".
 - **Page:** passes.
 
 ## Unit 7: Cloud Limits and Intelligence
