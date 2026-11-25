@@ -123,6 +123,7 @@ feedback-instructions:: Name the weakest part, then ask one follow-up question. 
 
 #### Question: Open
 id:: 70c2bc7d-7fb4-4a7e-a4a6-f39e79fc0cfd
+force-feedback:: first
 content:: **Question 5. Reconstruct the verification process** (required)
 
 Represent schematically the complete verification process proposed in the paper, beginning with activity on monitored hardware and ending with the release of an evaluation result.
