@@ -13,6 +13,16 @@ How to read it: «…» marks a link's label, and the arrow names the page it op
 
 **Status.** All open until Andreas settles the wording. Final wording waits for stage 4, because splitting modules and pages moves "the next page" and "the end of this unit". Proposed: the pages keep today's wording in the meantime and this list stands in for restoring XLab's numbers on the pages, since Turner's QA note says Elias promoted CV2 on 24 Nov and learners would otherwise see "2.3.1". If Andreas prefers the numbers back on the pages, they can be restored from the "Import" lines.
 
+**After stage 4 (24 Nov evening).** The restructuring broke none of the "Now" wording: every "next page", "previous page" and "end of this unit" still points the right way. It did change a few items:
+- The institutions page is merged into the red-line page (B14), so items 10 to 13 and 15 now refer to text on v-intel-action. Item 10's summary line left the course with the old page. Item 11 now reads "the red-line question at the end of this page", item 15 "the treaty text quoted above", and item 3's Works cited carries the three full entries from item 13.
+- Item 6's exercise moved with the "Reporting and protection" split (B3), so its link now opens "After the report arrives". The label is unchanged.
+
+**Proposal.** Keep the "Now" wording for every item except two:
+- Item 19: "along exactly the lines this section mapped" becomes "along exactly the lines you mapped in the Audit the verifier exercise". The lines it lists (who funds it, who staffs it, who clears its reports) are that exercise's captures.
+- Item 22: not a link problem. The first covert page says the red team designs an evasion strategy in Unit 10, but the restored last page is a review of the treaty and the Cankaya system. That goes to stage 7 with the other wording flags.
+
+Mark any item whose "Now" wording you want changed.
+
 ## 1. Links that XLab labelled with a section number
 
 1. **v-intel-intro, line 20** (the five questions that organize the intelligence pages)

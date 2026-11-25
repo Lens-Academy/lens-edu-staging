@@ -9,7 +9,7 @@ tutor_minutes: 0
 ---
 #### Text
 content::
-The previous sections were about what a watcher can see and conclude. This one
+{>>{"author":"Andreas's AI","timestamp":1795566261303}@@Merged into v-intel-action ("From intelligence lead to verification action") on 24 Nov 2026, decision B14 in the CV2 streamlining log. This page is no longer in any course. Its text lives on in the merged page, so this file can be deleted once Andreas confirms the merge.<<}The previous sections were about what a watcher can see and conclude. This one
 is about the institutions that do the watching, and what a treaty can say about
 them.
 
