@@ -107,6 +107,7 @@ The explorer below sorts these same signals against the two tables this page doe
 
 #### Widget
 source:: [[../widgets/heim-signal-explorer]]
+required:: true
 
 #### Text
 content::
