@@ -45,6 +45,7 @@ The [Swiss-cheese model](https://www.bmj.com/content/320/7237/768) asks us to co
 
 #### Question: Choice
 id:: 24ce63d6-d6cf-4fbe-89b7-eee5060dbf14
+force-feedback:: first
 content:: A regime already has hardware telemetry, cloud records, satellite imagery, and a whistleblower channel. Its designers want the layers to fail independently. Which move does the Swiss-cheese model actually call for?
 options::
 - [x] Choose layers that rely on different information, different actors, and different access assumptions.
