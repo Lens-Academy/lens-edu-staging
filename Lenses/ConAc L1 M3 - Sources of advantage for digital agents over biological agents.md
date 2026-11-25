@@ -1,7 +1,7 @@
 ---
 id: 'e78606e2-db86-44f3-a0fc-00aef0ecc678'
-reading_minutes: 15
-tutor_minutes: 8
+reading_minutes: 8
+tutor_minutes: 0
 summary_for_tutor: "Excerpt from Nick Bostrom's 'Superintelligence' (2014), reproduced by AI Impacts, listing advantages digital minds could hold over biological ones. Hardware: speed of computational elements (neurons peak around 200 Hz vs ~2 GHz microprocessors), internal communication speed (axons at 120 m/s or less vs light speed), number of computational elements, storage capacity (human working memory holds four or five chunks), and reliability, lifespan and sensors. Software: editability, duplicability, goal coordination among 'copy clans', memory sharing by swapping data files, and new modules and algorithms for domains such as programming or business strategy. The learner is first asked to brainstorm advantages; the tutor chat checks they can explain two in their own words and asks how these could give a decisive edge and how humans might keep up."
 title: Sources of advantage for digital agents over biological agents
 tags:
