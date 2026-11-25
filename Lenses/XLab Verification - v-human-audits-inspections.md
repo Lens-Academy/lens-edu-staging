@@ -81,6 +81,7 @@ content::
 
 #### Widget
 source:: [[../widgets/human-audits-inspections]]
+required:: true
 
 #### Text
 content::

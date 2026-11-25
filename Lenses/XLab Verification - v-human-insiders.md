@@ -81,6 +81,7 @@ Describe the situation and explain why each condition is satisfied. Use 100 to 1
 
 #### Widget
 source:: [[../widgets/construct-case]]
+required:: true
 
 #### Text
 content::
