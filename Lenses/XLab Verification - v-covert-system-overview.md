@@ -201,6 +201,7 @@ feedback-instructions:: Name the weakest step, then ask one follow-up question. 
 
 #### Question: Open
 id:: 15049c1d-8f2d-4631-9a6d-6c3208bf7a72
+force-feedback:: first
 content:: **Question 9. Apply the architecture to a new case** (choose one of Questions 3, 4, 7 or 9)
 
 A monitored facility declares that it operates a large-scale inference service. Its network records are committed as required. Randomly selected records can be opened, and the declared computations can be replayed successfully.
