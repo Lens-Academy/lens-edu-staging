@@ -30,8 +30,9 @@ At the end of the form, you'll see a **completion code**. Copy it, then enter it
 
 If the form doesn't load for you, you can [open it in a new tab](https://airtable.com/appcKo5GTmHnUaBlg/pagDxQpplT6YuUL1y/form).
 
-#### Widget
-source:: [[../widgets/et-sp-post-program-feedback-form]]
+#### Embed
+source:: [[../articles/airtable-offboarding-form-self-directed]]
+inline:: true
 
 #### End Callout
 

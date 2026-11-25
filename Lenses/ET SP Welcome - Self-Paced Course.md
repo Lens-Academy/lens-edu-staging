@@ -65,8 +65,9 @@ Join our [WhatsApp channel](https://chat.whatsapp.com/HTDdnd89xoZ5L4wfcDhnN8?mod
 tone:: amber
 collapse:: closed
 
-#### Widget
-source:: [[../widgets/et-sp-onboarding-form]]
+#### Embed
+source:: [[../articles/airtable-onboarding-form-self-directed]]
+inline:: true
 
 #### End Callout
 
