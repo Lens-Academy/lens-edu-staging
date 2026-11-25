@@ -46,7 +46,23 @@ The only fix on our side would be labels that spell out the page's full title, w
 - Items 20 onward: on Andreas's next pass.
 - "Lens" and "page" are both fine. "Lens" is Lens Academy's own unit and is preferred in some cases; "page" is more casual (log, B15).
 
-**Proposed for the remaining items, in the same style** (not yet on the pages; items 11, 12 and 19 are overtaken by part 2):
+**Andreas's review, part 3 (24 Nov, 21:30).** Convention agreed: "lens" when pointing to another lens, "page" for a place on the screen (above, at the end of this page). Item 2 keeps «taxonomy». Done on the pages (all direct):
+- Item 16: the time line above the cloud drill is gone.
+- Items 20, 21, 23, 24, 27, 30 and 31: kept.
+- Item 25: "The next lens is a map of the main routes. In the «last lens» of this unit, after the red-team and blue-team review, you will return to that map".
+- Item 26: "in the next lens".
+- Item 28: "«The next lens» is the map".
+- Item 29: "in the «last lens» of this unit, after the red-team and blue-team review, and score".
+- Item 32: "Return to the «evasion taxonomy» from the previous lens". "Taxonomy" alone was ambiguous, since item 2's «taxonomy» is Wasil's signature taxonomy in Unit 7.
+- Item 33: "at the end of this lens" and "from the previous lens".
+- Outside the worklist, under the same convention: the Cankaya page's "complete the lens", and "The next lens follows the report" on Reporting and protection.
+
+Still open:
+- Item 22: the first covert lens says that in Unit 10 "the red team designs an evasion strategy … the blue team identifies detection opportunities". The Unit 10 lens instead has the learner advise an expert panel, writing a 2 to 6 page review of whether the Cankaya system could make Articles IV to VII credible. The promised exercise is not there.
+- Item 34: the route explorer still says "Section B" in four places the learner can see: the view button "Section B order", "Scored in Section B as:", "XLab's Section B table scores seven of the ten routes" on unscored cards, and its copy-out line. The lens has no Section A, so the proposal is to change the widget to match the lens rather than restore "Section B" on it.
+- Andreas's cloud evidence Works cited says "earlier pages on this topic". Under the convention it would be "earlier lenses". His wording, so left to him.
+
+**Proposed for the remaining items, in the same style** (superseded by parts 2 and 3; kept for the record):
 - Item 11 (red-line page): "the red-line question at the end of this page asks you to draft" becomes "the red-line below asks you to draft".
 - Item 12: "is covered with the privacy-preserving mechanisms in «Unit 4»" becomes "is covered in «Unit 4»", as CV1 writes it.
 - Item 19: "along exactly the lines this section mapped" becomes "along exactly the lines you mapped in the auditing exercise".
