@@ -108,6 +108,7 @@ The sources you have read so far describe four main buckets of mechanisms to pro
 
 #### Widget
 source:: [[../widgets/whistleblower-levers]]
+required:: true
 
 #### Text
 content::
