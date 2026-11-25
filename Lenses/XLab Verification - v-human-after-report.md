@@ -52,6 +52,7 @@ Inspect the institution before relying on its finding. Then separate what the hu
 
 #### Widget
 source:: [[../widgets/human-institutions-judgment]]
+required:: true
 
 #### Text
 content::
