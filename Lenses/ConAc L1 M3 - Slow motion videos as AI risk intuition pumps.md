@@ -1,7 +1,7 @@
 ---
 id: '25eccb28-a547-42ce-be1e-49cf6911641a'
-reading_minutes: 5
-tutor_minutes: 5
+reading_minutes: 12
+tutor_minutes: 0
 summary_for_tutor: "Short article by Andrew Critch, 'Slow motion videos as AI risk intuition pumps'. Transistors fire about 10 million times faster than neurons, so digital minds may one day run 10 million times faster than us, and from a decision-making perspective humans would look to them like stationary objects, like plants or rocks. Critch embeds Adam Magyar's 'Stainless, Alexanderplatz', footage of a busy subway platform slowed by about 100x, then asks the reader to imagine AI acting 10 million times faster for 10 million subjective years, with near-stationary humans easy to take apart for resources, much as human civilization shows little regard for plants or insects. He notes the speed gap holds whether one imagines a single centralized AI or an economy of many."
 title: Slow motion videos as AI risk intuition pumps
 tags:
