@@ -1,7 +1,7 @@
 ---
 id: '47828a4f-8550-43a8-bb43-dbf1cb9695f9'
 title: "Examples of the three doctrines"
-reading_minutes: 10
+reading_minutes: 8
 tutor_minutes: 0
 tags:
   - wip
