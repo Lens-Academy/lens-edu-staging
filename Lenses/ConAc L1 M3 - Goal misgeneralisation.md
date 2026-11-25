@@ -1,7 +1,7 @@
 ---
 id: '443ef265-04d9-4703-806e-2db5db6ce9ed'
 title: "Goal misgeneralisation"
-reading_minutes: 45
+reading_minutes: 98
 tutor_minutes: 0
 tags:
   - wip
