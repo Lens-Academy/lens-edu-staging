@@ -24,6 +24,8 @@ Tutor summaries and feedback briefs are out (stage 6 did them), and so are artic
 
 **Later on 2026-11-25.** Unit 7 is flagged. Eight tldr flags, one comment on the welcome, one on the signatures lens and five on the red-line lens, one of them Content (the "symmetric, cheap, and checkable" rule). One XLab passage is for Andreas. Two of Claude's comments on the red-line lens were corrected after posting, and the corrections are pending, because the relay treats an edit to a comment as a suggestion.
 
+**Later on 2026-11-25.** Unit 8 is flagged. Five tldr flags, one of them a spoiler (Institutions and policy judgment) and one Content (Insiders: the warm-up reads as required). Two comments on the pages: the welcome (minor) and "Where a report can die". Two XLab passages are for Andreas. After the report arrives passes.
+
 ## How to read an entry
 
 - **Lens's text** lists the passages that are ours, by line in the lens file. Everything else on the lens is XLab's.
@@ -64,13 +66,13 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
 | 7 | The empirical anchor: intelligence identifies, the regime resolves | 617 | 208 | 41 | tldr flag only |
 | 7 | From signal to intelligence assessment | 473 | 169 | 0 | tldr flag only |
 | 7 | From intelligence lead to verification action | 1,276 | 358 | 404 | Flagged (Content) |
-| 8 | Welcome to Unit 8 | 73 | 73 | 0 | |
-| 8 | The human layer | 242 | 87 | 0 | |
-| 8 | Insiders and human sources | 1,118 | 351 | 307 | |
-| 8 | Reporting and protection | 867 | 414 | 49 | |
-| 8 | After the report arrives | 352 | 160 | 57 | |
-| 8 | Audits and inspections | 824 | 293 | 130 | |
-| 8 | Institutions and policy judgment | 1,035 | 193 | 330 | |
+| 8 | Welcome to Unit 8 | 73 | 73 | 0 | Flagged (minor) |
+| 8 | The human layer | 242 | 87 | 0 | tldr flag only |
+| 8 | Insiders and human sources | 1,118 | 351 | 307 | Flagged |
+| 8 | Reporting and protection | 867 | 414 | 49 | tldr flag, one XLab passage |
+| 8 | After the report arrives | 352 | 160 | 57 | Passes |
+| 8 | Audits and inspections | 824 | 293 | 130 | tldr flag only |
+| 8 | Institutions and policy judgment | 1,035 | 193 | 330 | tldr flag (spoiler), one XLab passage |
 | 9 | Welcome to Unit 9 | 76 | 76 | 0 | |
 | 9 | What is covert development? | 1,577 | 540 | 86 | |
 | 9 | A system overview for near-term, low-trust AI compute verification | 1,286 | 388 | 271 | |
@@ -267,3 +269,80 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
     - Line 158, **Content:** the "symmetric, cheap, and checkable" rule is taught nowhere in either course, yet the rubric grades against it (Turner's QA, log section 7). Also "confront the question the historical record says drafters avoid", and the "both-capitals test" label.
 - **Section 6's T1 flags on lines 29, 41 and 53** (the noninterference, *Six Layers* and MIRI paragraphs, XLab's): they pass in the course. "NTM" is defined in the collapsed callout on the intelligence opener, earlier in this unit, and the T1 check reads one lens at a time.
 - **Left for stage 8:** "this whole section" on line 80 and "this section" on line 97. Em dashes on lines 36, 87, 89, 90 and 96.
+
+## Unit 8: The Human Layer
+
+### Welcome to Unit 8
+
+[[../../modules/XLab Verification Part 2 W08 Insiders and reporting]], inline. Lens's throughout.
+
+- **Spoiler test:** passes.
+- **Flag on the page (minor):** line 19. "The route a whistleblower report has to survive", as in the overview's Unit 8 box.
+
+### The human layer
+
+[[../../Lenses/XLab Verification - v-human-intro]]. The framing paragraph and the objectives are XLab's.
+
+- **Lens's text:** the tldr and Works cited.
+- **Spoiler test:** passes.
+- **tldr flags:**
+    - "What an institution can honestly conclude" (T7).
+    - The first sentence is a list, a colon and a verdict fragment ("the cheapest verification tools to deploy and the easiest to fool"). The overview's Unit 8 box opens the same way.
+
+### Insiders and human sources
+
+[[../../Lenses/XLab Verification - v-human-insiders]]. The case-writing brief, the check questions and the failure modes are XLab's, lightly edited. The worked cases and the failure lists in the closed callouts were rebuilt from XLab's exercise.
+
+- **Lens's text:**
+    - the tldr
+    - the source line
+    - the lead-in to the two exercises (line 49)
+    - the warm-up's instruction (line 53, edited)
+    - the callout titles
+    - the first lines of "Where a report can die" (line 97) and the worked-cases callout
+    - Works cited
+- **Spoiler test:** passes.
+- **tldr flags:**
+    - **Content:** "then work six Project Lattice sources one at a time" reads as a required step, but the warm-up is optional (line 49 and the heading).
+    - It opens on "X, not Y" ("tells you where they stood, not what they saw").
+    - "Which record they never controlled could check the claim" is a garden-path clause.
+    - At 78 words it is near the 80-word limit.
+- **Flag on the page:** line 97. The first sentence ("Naming where a report dies is the work, so this list sits here and not above the exercise") explains the layout like an editor's note.
+- **Left for stage 8:** "the exercise for this section" on line 49.
+
+### Reporting and protection
+
+[[../../Lenses/XLab Verification - v-human-reporting-protection]]. Almost all XLab's. Ours: the tldr, the source lines, the closing line to the next lens, and Works cited.
+
+- **Spoiler test:** passes.
+- **tldr flag:** it opens on a metaphor in "X, not Y" form ("a door, not a corridor"), then extends it ("walk through to the Attorney General").
+- **For Andreas:** line 96, XLab's sentence, which the log's section 6 carried as a T7 flag. "Baker proposes a similar solution against this problem of physical access" does not parse well ("a solution against a problem"), and "this problem" points back across a reading. Line 60's "see the below *AI Whistleblowing Law: Best Practice Guide*" is also XLab's and awkward.
+- **Section 6's T1 flags on lines 51, 60 and 115 (now 116):** they pass. "Covered employee" and the protected subjects are in the statute excerpt above line 51. Line 60's guide is the next reading. Line 116 is a list of sources.
+- **Page:** passes.
+
+### After the report arrives
+
+[[../../Lenses/XLab Verification - v-human-after-report]]. New on 24 Nov from the split (B3). Its text is XLab's apart from the tldr, the source line, the heading and Works cited.
+
+- **Spoiler test:** passes.
+- **tldr:** passes.
+- **Left for stage 8 or 9:** the learner-facing times "Optional, 7 to 10 minutes" (line 34) and "Audit the verifier (15–20 min)" (line 48). CV1 cut times like these from its lenses, since learners see times in the sidebar.
+
+### Audits and inspections
+
+[[../../Lenses/XLab Verification - v-human-audits-inspections]]. The guiding questions, the brief and the finding callout are XLab's. Ours: the tldr, the reading lines (lines 29, 47, 63), the callout titles and Works cited.
+
+- **Spoiler test:** passes.
+- **tldr flag (minor):** "may honestly conclude" (T7), the third "honestly" in this course's tldrs.
+- **Page:** passes.
+- **Left for stage 8 or 9:** "(12 to 15 minutes)" in the brief's callout title.
+
+### Institutions and policy judgment
+
+[[../../Lenses/XLab Verification - v-human-institutions]]. The station questions and commentary are XLab's, lightly edited. Ours: the tldr, the reading lines, the optional exercise's lead-ins (lines 131 and 143) and Works cited.
+
+- **Spoiler test: fails.** "AI has candidates for the first and the third and nobody in the judge's chair" gives away the judge station's commentary ("This is the station with no tenant"), which the lens hides until the learner has answered.
+- **tldr flag:** besides the spoiler, "build the AI pipeline station by station" is mannered.
+- **For Andreas:** line 74, the judge question, which the log's section 6 carried as a T7 flag. It is XLab's apart from our link ("the captures you mapped in the auditing exercise"). The question hangs two "enough that" clauses on a colon after "Board-like standing", a label the learner has only from the line above. The judge commentary (line 108) also has "This is the station with no tenant" and "along exactly the lines" (T7), both XLab's.
+- **Section 6's T1 flags on lines 62 and 109:** they pass. The Board of Governors and the safeguards analysis come from the Carlson reading above them.
+- **Left for stage 8:** "the human layer this section closed on" (line 104) now describes this unit from inside it. "Defence" on line 143. "Optional, about 15 minutes" on line 131.
