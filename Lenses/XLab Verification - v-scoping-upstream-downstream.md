@@ -64,7 +64,7 @@ No verification document stands alone. Every source upstream of you was produced
 
 #### Question: Open
 id:: 0a469f70-f02c-4813-8318-9b1d10a4652e
-content:: Optional: Take the Fordow finding above and answer two questions about it.
+content:: Optional: Take the revised Fordow finding above (the one that begins "Iran declares enrichment at Fordow") and answer two questions about it.
 
 - Upstream: whose claims does this document rely on, and which of them did I verify myself, rather than inherit from the actor being checked?
 - Downstream: who will act on this document, and what does each reader need in order to act?
