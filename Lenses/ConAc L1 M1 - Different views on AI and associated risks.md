@@ -32,6 +32,7 @@ In the same year, the Center for AI Safety published a statement declaring that 
 Over the years, researchers, industry leaders, and public figures have signed numerous open letters, revealing a growing concern about AI risks.
 
 #### Callout: More on open letters about AI Safety
+tone:: blue
 collapse:: closed
 
 #### Text
