@@ -1,6 +1,6 @@
 ---
 id: '7698e67c-6c48-4490-abfa-39df66484700'
-reading_minutes: 20
+reading_minutes: 12
 tutor_minutes: 0
 summary_for_tutor: "Nate Soares argues that a central alignment problem is that capabilities generalize further than alignment. At some point a system starts working far outside its training distribution (the 'sharp left turn'), and its alignment properties turn out shallow. His analogy: natural selection optimized for inclusive genetic fitness, yet humans do not pursue it and invent condoms. Good capabilities form an attractor well with a free parameter (what the system optimizes for), and there is no matching alignment well, so shutdownability and low-impact training get steamrolled by instrumental incentives. In his OpenMind example alignment looks easy before the turn, and he says good answers on moral questions are not reassuring evidence."
 title: "A central AI alignment problem: capabilities generalization, and the sharp left turn"
