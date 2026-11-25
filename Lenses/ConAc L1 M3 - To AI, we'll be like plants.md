@@ -1,8 +1,6 @@
 ---
 id: '00882c5c-cdcd-42d4-8df7-b2f5bbf3497a'
 title: "To AI, we'll be like plants"
-reading_minutes: 1
-tutor_minutes: 0
 tags:
   - wip
 ---
