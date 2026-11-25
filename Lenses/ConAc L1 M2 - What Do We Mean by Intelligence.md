@@ -1,7 +1,7 @@
 ---
 id: '203aaaeb-68bd-4c74-bac7-ef0ef8bac7df'
 title: "What Do We Mean by Intelligence?"
-reading_minutes: 81
+reading_minutes: 25
 tutor_minutes: 0
 tags:
   - wip
