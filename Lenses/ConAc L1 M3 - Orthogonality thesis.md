@@ -1,7 +1,7 @@
 ---
 id: '781d64bf-2bda-4897-a093-7bc3535e1d04'
 title: "Orthogonality thesis"
-reading_minutes: 22
+reading_minutes: 32
 tutor_minutes: 0
 tags:
   - wip

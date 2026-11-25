@@ -1,6 +1,6 @@
 ---
 id: 'e306498c-9697-4b3b-b0c5-09f94e6233f3'
-reading_minutes: 16
+reading_minutes: 24
 tutor_minutes: 0
 summary_for_tutor: "MIRI researchers Jeremy Gillen and Peter Barnett argue that AIs capable of large-scale novel science (on the scale of the Manhattan Project or curing cancer) will by default pursue unwanted goals and cause catastrophe, even with significant countermeasures. Their chain: such work means overcoming many novel obstacles, so the AI will be approximately consequentialist; it must learn new facts and skills, which creates dangerous distribution shifts; behavioral training leaves its terminal goals underspecified; oversight and control of misaligned powerful AI is hard, so AI-assisted research cannot be both safe and much faster; and a misaligned AI could likely escape containment and pursue outcomes incompatible with human survival. They do not speculate on which fundamental advances would change this. (Trimmed excerpt, about 3,100 words.)"
 title: "Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AI"
