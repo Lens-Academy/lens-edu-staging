@@ -59,7 +59,7 @@ loses the window in which the activity is observable.
 
 \## Readings
 
-**Optional:** Three techniques from the CIA's *A Tradecraft Primer*: the Quality of Information Check, Indicators or Signposts of Change, and Analysis of Competing Hypotheses.
+**Optional:** Three techniques from the CIA's *A Tradecraft Primer*, for judging a source, watching for signs of change, and weighing rival explanations: the Quality of Information Check, Indicators or Signposts of Change, and Analysis of Competing Hypotheses.
 
 #### Article
 source:: [[../articles/government-a-tradecraft-primer-structured-analytic-techniques-for-improving-intelligence-analysis]]
