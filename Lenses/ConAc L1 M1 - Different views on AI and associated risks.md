@@ -297,6 +297,7 @@ from:: **The replacement doctrine**, a broad umbrella of views predicting
 to:: even if only as capital holders and consumers.
 
 #### Callout: Core expectations of the replacement doctrine
+tone:: purple
 collapse:: closed
 
 #### Text
