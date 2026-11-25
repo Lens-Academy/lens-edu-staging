@@ -8,7 +8,7 @@ tags: [wip]
 # Lens: Welcome to Unit 9
 id:: aab78d4e-fc68-4146-87b1-8252fbaf9b28
 tldr:: What you will learn in Unit 9: covert development and the low-trust architecture.
-summary_for_tutor:: Short opening page of Unit 9 (Covert development and the low-trust architecture) of Compute Verification 2. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+summary_for_tutor:: Short opening lens of Unit 9 (Covert Development and the Low-Trust Architecture) of Compute Verification 2. It lists what the learner will be able to do after the unit. Do not teach the unit's content here. If asked, point to the lens that covers it.
 reading_minutes:: 1
 tutor_minutes:: 0
 #### Text
