@@ -134,6 +134,7 @@ Seven ways a watcher sees. The disciplines split into two families: those that c
 
 #### Widget
 source:: [[../widgets/collection-map]]
+required:: true
 
 #### Text
 content::
