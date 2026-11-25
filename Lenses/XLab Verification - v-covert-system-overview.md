@@ -78,6 +78,7 @@ feedback-instructions:: Say plainly what the learner got right and, if anything 
 
 #### Question: Open
 id:: ff46a6f8-d7c3-45cf-bc6b-ae9e8d9235e2
+force-feedback:: first
 content:: **Question 2. Reconstruct the proposed approach** (required)
 
 Identify the principal propositions that constitute the author’s approach to low-trust AI compute verification.
