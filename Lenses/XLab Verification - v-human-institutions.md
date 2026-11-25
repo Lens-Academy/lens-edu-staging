@@ -68,6 +68,7 @@ feedback-instructions:: Three or four sentences. Compare the answer with XLab's 
 
 #### Question: Open
 id:: 7d214414-7419-4978-b560-27e224191462
+force-feedback:: first
 content:: **The judge.** In the nuclear regime: The Board of Governors decides whether the facts constitute noncompliance: a judgment, Carlson insists, not a checklist.
 
 Who could hold Board-like standing for AI: legitimate enough that rivals accept its findings, independent enough that none of the captures you mapped in the [[../Lenses/XLab Verification - v-human-after-report|auditing exercise]] owns it?{>>{"author":"Elias's AI","timestamp":1788016292046}@@XLab's prompt reads "none of 2.4.4's captures owns it"; the four captures (financial, informational, cultural, political) are actually taught in the institutions-judgment lab that XLab placed in 2.4.2, so the reference is resolved to that lens. Stale section number to report to XLab.<<}
