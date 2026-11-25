@@ -1,6 +1,8 @@
 ---
 id: 'd4626c5b-d409-434d-a70a-58d818c8148d'
 title: "AI timelines"
+reading_minutes: 15
+tutor_minutes: 0
 tags:
   - wip
 ---
