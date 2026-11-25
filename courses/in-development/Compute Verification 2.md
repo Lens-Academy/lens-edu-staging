@@ -37,6 +37,8 @@ facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
+# Module: [[../../modules/XLab Verification Part 2 W08 Insiders and reporting]]
+
 # Module: [[../../modules/XLab Verification Part 2 W08 Audits and institutions]]
 
 # Module: [[../../modules/XLab Verification Part 2 U8 Feedback|Unit 8 feedback]]

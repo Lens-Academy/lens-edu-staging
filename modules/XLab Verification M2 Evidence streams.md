@@ -79,6 +79,9 @@ source:: [[../Lenses/XLab Verification - v-human-insiders]]
 source:: [[../Lenses/XLab Verification - v-human-reporting-protection]]
 
 # Lens:
+source:: [[../Lenses/XLab Verification - v-human-after-report]]
+
+# Lens:
 source:: [[../Lenses/XLab Verification - v-human-audits-inspections]]
 
 # Lens:
