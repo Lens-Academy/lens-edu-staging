@@ -78,7 +78,7 @@ to:: as relevant to this Agreement.
 content::
 Read ¶1(b)(iii) against (i) and (ii). Protection is an undertaking; sharing is
 an encouragement. That is the asymmetry of this whole section sitting in one
-paragraph, and the red-line question at the end of this lens asks you to draft the obligation it declines to impose.
+paragraph, and the red-line question at the end of this lens asks you to draft the obligation it declines to impose.{>>{"author":"Andreas's AI","timestamp":1795627330421}@@Stage 7 flag (carried from the log's section 6, T7): a semicolon in the second sentence, and "That is the asymmetry of this whole section sitting in one paragraph" is a setup line that announces the point after it has been made. "This whole section" is also XLab's framing.<<}
 
 \## Authenticating what gets shared
 
@@ -89,14 +89,14 @@ between them — signal authentication, chain of custody?
 The cryptographic machinery for this — zero-knowledge proofs, multi-party
 computation, attestation — is covered with the privacy-preserving mechanisms in [[../Lenses/XLab Verification - v-mechanism-privacy|Unit 4]]. The bridge worth knowing is the
 zero-knowledge warhead-verification precedent (Glaser, Barak and Goldston,
-*Nature*, 2014).
+*Nature*, 2014).{>>{"author":"Andreas's AI","timestamp":1795627334816}@@Stage 7 flag (carried from section 6, T7 and T6): "Unit 4" is Unit 4 of Compute Verification 1, which the sentence does not say, so a learner in this course looks for it here. "The bridge worth knowing is" is a setup phrase. The precedent itself is named but not explained, so the learner cannot tell what it bridges.<<}
 
 \## Readings
 
 - MIRI draft US–China agreement — Article II's definitions and Article X,
   verbatim (pp. 20, 39–40). The passages excerpted above are the ones this
   section turns on; ideally read the whole draft treaty at this point.
-Read Baker's section on intelligence sharing, then compare the institutional options in *Six Layers*.
+Read Baker's section on intelligence sharing, then compare the institutional options in *Six Layers*.{>>{"author":"Andreas's AI","timestamp":1795627339449}@@Stage 7 flag: a semicolon in the bullet, and "ideally read the whole draft treaty at this point" leaves the learner unsure whether that is asked of them (it is about 40 pages, and no time is counted for it). The block also mixes a one-item list with a plain line after it.<<}
 
 #### Article
 source:: [[../articles/baker-nuclear-arms-control-verification-and-lessons-for-ai-treaties]]
@@ -147,7 +147,7 @@ An assessment that hides its own uncertainty is worth less than one that states
 it, because the next decision-maker cannot calibrate on it. This is the same
 discipline as the evidence standards in the capstone.
 
-As you red-line the treaty text, ask yourself: what does the Article II definition omit? Whose satellites count as "national", and is a commercial constellation under government tasking NTM or not? The word "cyber" appears inside the definition: is that legalized intelligence collection, or a license to hack that Beijing strikes out first? And what does "deliberate concealment" mean for AI: is behind-the-meter power generation camouflage, or ordinary industrial practice?
+As you red-line the treaty text, ask yourself: what does the Article II definition omit? Whose satellites count as "national", and is a commercial constellation under government tasking NTM or not? The word "cyber" appears inside the definition: is that legalized intelligence collection, or a license to hack that Beijing strikes out first? And what does "deliberate concealment" mean for AI: is behind-the-meter power generation camouflage, or ordinary industrial practice?{>>{"author":"Andreas's AI","timestamp":1795627343941}@@Stage 7 flag (carried from section 6, T1): "behind-the-meter power generation" (a site making its own power, so it never shows on the grid) is not explained on this lens or earlier in the course. "NTM" is spelled out only inside the treaty excerpt above.<<}
 
 #### Question: Open
 id:: b1cfa8da-fe64-4ad4-975b-1a6b08111099
@@ -155,7 +155,7 @@ force-feedback:: first
 content::
 \### Written output: Red-line the NTM article
 
-Work from the treaty text quoted above: item 17 of Article II's definitions, plus Article X ¶1(b) and its clauses (i), (ii) and (iii). Mark at least three gaps or ambiguities, starting from the four questions above if you like, and redraft the one provision whose failure you judge most consequential. Then confront the question the historical record says drafters avoid: write the binding sharing clause the text declines to impose, since ¶1(b)(iii) encourages cooperation but obligates nothing, or defend its absence in three sentences. Test whatever you write against the rule that states sign what is symmetric, cheap, and checkable, and finish with the both-capitals test: one paragraph on why Washington accepts your article, one on why Beijing does.
+Work from the treaty text quoted above: item 17 of Article II's definitions, plus Article X ¶1(b) and its clauses (i), (ii) and (iii). Mark at least three gaps or ambiguities, starting from the four questions above if you like, and redraft the one provision whose failure you judge most consequential. Then confront the question the historical record says drafters avoid: write the binding sharing clause the text declines to impose, since ¶1(b)(iii) encourages cooperation but obligates nothing, or defend its absence in three sentences. Test whatever you write against the rule that states sign what is symmetric, cheap, and checkable, and finish with the both-capitals test: one paragraph on why Washington accepts your article, one on why Beijing does.{>>{"author":"Andreas's AI","timestamp":1795627348762}@@Stage 7 flag, Content (Turner's QA, log section 7): "the rule that states sign what is symmetric, cheap, and checkable" is taught nowhere in either course, yet the rubric grades against it. Either the lens states the rule before this question, or the question explains it. Also "confront the question the historical record says drafters avoid" is mannered, and "the both-capitals test" is a label the colon after it has to explain.<<}
 
 **Reader:** The drafters of a US–China agreement, read in both capitals.
 
