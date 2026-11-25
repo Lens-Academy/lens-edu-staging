@@ -100,6 +100,7 @@ The answers below show what excellent student work might look like. Write your o
 
 #### Widget
 source:: [[../widgets/covert-worked-example]]
+required:: true
 
 #### Text
 content::
