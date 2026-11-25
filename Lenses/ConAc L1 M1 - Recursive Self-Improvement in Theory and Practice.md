@@ -1,7 +1,7 @@
 ---
 id: 'bb4ab50c-e41f-4483-bd01-49707efb4fbf'
 title: "Recursive self-improvement and Intelligence Explosion"
-reading_minutes: 35
+reading_minutes: 100
 tutor_minutes: 0
 tags:
   - wip
