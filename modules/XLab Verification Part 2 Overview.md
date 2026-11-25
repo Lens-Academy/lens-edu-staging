@@ -36,7 +36,7 @@ See where cloud oversight runs out, and what can be seen without the other side'
 :::
 
 :::callout {title="Unit 8: The Human Layer" tone="blue"}
-The cheapest verification tools to deploy and the easiest to fool. Who could know, whether they would tell, and what an institution can conclude from what they say: insiders and source credibility, whistleblower statutes and the route a report has to survive, audits and inspections and the access ceiling on any finding, and finally the institutional question of who finds, who judges, who enforces, and against what standard.{>>{"author":"Andreas's AI","timestamp":1795627195969}@@Stage 7 flag: the first line is a verdict fragment (T2, a punchline at the start). The second sentence stacks three questions, a colon and a four-part list whose parts contain "and" themselves, so it takes two reads. "The route a report has to survive" is mannered.<<}
+Discover the cheapest verification tools to deploy and the easiest to fool. Who could know, whether they would tell, and what an institution can conclude from what they say: insiders and source credibility, whistleblower statutes and the route a report has to survive, audits and inspections and the access ceiling on any finding, and finally the institutional question of who finds, who judges, who enforces, and against what standard.{>>{"author":"Andreas's AI","timestamp":1795627195969}@@Stage 7 flag: the first line is a verdict fragment (T2, a punchline at the start). The second sentence stacks three questions, a colon and a four-part list whose parts contain "and" themselves, so it takes two reads. "The route a report has to survive" is mannered.<<}
 :::
 
 :::callout {title="Unit 9: Covert Development and the Low-Trust Architecture" tone="blue"}
