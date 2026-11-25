@@ -77,6 +77,7 @@ As a result, individual researchers have to do much of the work that, in more ma
 Navigating disagreements and understanding background claims is therefore part of the research itself.
 
 #### Callout: More on navigating disagreements
+tone:: blue
 collapse:: closed
 
 #### Text
