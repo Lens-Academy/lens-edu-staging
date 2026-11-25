@@ -28,7 +28,7 @@ XLab is testing and calibrating this material with a small cohort before officia
 \## The path
 
 :::callout {title="Unit 6: Hardware Judgment and Cloud Records" tone="blue"}
-Where does hardware verification fit in practice, as opposed to where a demo suggests it stands? You separate maturity stages, write a hardware assurance brief for a delegation weighing a three-month pause, and then turn to the cloud: what a provider's own billing, identity and workload records can prove about a training run, and how know-your-customer rules from finance were transferred to compute. {>>{"author":"Andreas's AI","timestamp":1795627189895}@@Stage 7 flag (T7): "actually stand". Also "ported to compute" is programmers' slang. The Unit 6 welcome says "carried over".<<}
+Where does hardware verification fit in practice, as opposed to where a demo suggests it stands? You separate maturity stages, write a hardware assurance brief for a delegation weighing a three-month pause, and then turn to the cloud: what a provider's own billing, identity and workload records can prove about a training run, and how know-your-customer rules from finance were transferred to compute.{>>{"author":"Andreas's AI","timestamp":1795627189895}@@Stage 7 flag (T7): "actually stand". Also "ported to compute" is programmers' slang. The Unit 6 welcome says "carried over".<<}
 :::
 
 :::callout {title="Unit 7: Cloud Limits and Intelligence" tone="blue"}
