@@ -35,7 +35,18 @@ How to read it: «…» marks a link's label, and the arrow names the page it op
 
 The only fix on our side would be labels that spell out the page's full title, which is the clunky wording just removed. So this goes to the platform (log, section 5), and the labels stay short.
 
-**Proposed for the remaining items, in the same style** (not yet on the pages):
+**Andreas's review, part 2 (24 Nov, 21:00).**
+- Item 1: the two links to the red-line page are fine for now.
+- Item 2: open. Andreas asked whether the link belongs on "taxonomy" or "next". Claude's view: "taxonomy", because it names what the learner will find, follows the item 1 rule, and still holds if pages move.
+- Items 8, 9, 17 and 18: kept.
+- Item 10: Andreas changed it to "lens".
+- Items 11 to 15: skipped for now, since the institutions and red-line pages are one page.
+- Item 16: done. The bare "*30 minutes*" above the cloud drill now reads "The nine tasks in the drill below take about 30 minutes."
+- Item 19: "this layer mapped", in the text and in the model answer.
+- Items 20 onward: on Andreas's next pass.
+- "Lens" and "page" are both fine. "Lens" is Lens Academy's own unit and is preferred in some cases; "page" is more casual (log, B15).
+
+**Proposed for the remaining items, in the same style** (not yet on the pages; items 11, 12 and 19 are overtaken by part 2):
 - Item 11 (red-line page): "the red-line question at the end of this page asks you to draft" becomes "the red-line below asks you to draft".
 - Item 12: "is covered with the privacy-preserving mechanisms in «Unit 4»" becomes "is covered in «Unit 4»", as CV1 writes it.
 - Item 19: "along exactly the lines this section mapped" becomes "along exactly the lines you mapped in the auditing exercise".
