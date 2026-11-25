@@ -96,7 +96,7 @@ As the red team, explain the most plausible evasion strategy, its assumptions, a
 
 As the blue team, explain how evidence from the hardware, cloud, intelligence, and human layers could be combined, and recommend a proportionate response.
 
-The answers below show what excellent student work might look like. Write your own answer to a prompt before you open its model answer, or open the model answer straight away, so that you see the whole shape of the exercise before you meet the real one in Unit 10.
+The answers below show what excellent student work might look like. Write your own answer to a prompt before you open its model answer, or open the model answer straight away, so that you see the whole shape of the {--{"author":"Andreas's AI","timestamp":1795583528313}@@exercise--}{++{"author":"Andreas's AI","timestamp":1795583528313}@@reasoning++} before you {--{"author":"Andreas's AI","timestamp":1795583528313}@@meet the real one in Unit 10.--}{++{"author":"Andreas's AI","timestamp":1795583528313}@@use it in the Unit 10 review.++}
 
 #### Widget
 source:: [[../widgets/covert-worked-example]]
