@@ -212,7 +212,7 @@ content::
 
 #### Question: Choice
 id:: d119e50f-5b65-4d75-836e-e844943abfe7
-content:: A pause agreement forbids training runs above a compute threshold. When you draw this map, what goes in the center?
+content:: A pause agreement forbids training runs above a compute threshold. In the actor map above, what goes in the center?
 options::
 - [x] The regulated activity itself: a training run above the threshold.
 - The states that signed the agreement.
