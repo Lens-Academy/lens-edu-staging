@@ -28,8 +28,9 @@ content::
 
 If the form doesn't load for you, you can [open it in a new tab](<https://airtable.com/appwUI4Pc2NJPOfmZ/pagHeZnPA3oHwu5Zc/form>).
 
-#### Widget
-source:: [[../widgets/et-fg-post-program-form]]
+#### Text
+content::
+Please fill in the [post-program feedback form](<https://airtable.com/appwUI4Pc2NJPOfmZ/pagHeZnPA3oHwu5Zc/form>).
 
 #### End Callout
 
