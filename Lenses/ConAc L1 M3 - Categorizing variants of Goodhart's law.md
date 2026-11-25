@@ -1,7 +1,7 @@
 ---
 id: 'e3d9699d-0a4b-4972-8707-40c74e036cca'
 title: "Categorizing variants of Goodhart's law"
-reading_minutes: 20
+reading_minutes: 30
 tutor_minutes: 0
 tags:
   - wip
