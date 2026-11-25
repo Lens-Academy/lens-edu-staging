@@ -328,7 +328,7 @@ tags: [wip]
   function summary() {
     var vis = visibleRoutes();
     var lines = [];
-    lines.push("Evasion route explorer (Section B). View: " + (state.view === "matrix" ? "score matrix" : "route cards") +
+    lines.push("Evasion route explorer. View: " + (state.view === "matrix" ? "score matrix" : "route cards") +
       ", sorted by " + SORTS.filter(function (s) { return s.key === state.sort; })[0].label.replace(" (high first)", "") + ".");
     lines.push(filterLabel() ? "Filter " + filterLabel() + ": " + vis.length + " of 10 routes shown (" + vis.map(function (r) { return r.n + ". " + r.name; }).join("; ") + ")." : "No filter; all 10 routes shown.");
     lines.push("Routes opened so far: " + (state.seen.length ? state.seen.slice().sort(function (a, b) { return a - b; }).map(function (n) { return n + ". " + routeByN[n].name; }).join("; ") : "none") +
@@ -399,7 +399,7 @@ tags: [wip]
       CRITERIA.forEach(function (c) { sc.appendChild(scoreBlock(s, c.key)); });
       card.appendChild(sc);
     } else {
-      card.appendChild(el("p", "unscored", "Not scored: XLab’s Section B table scores seven of the ten routes, and this is one of the three it leaves out."));
+      card.appendChild(el("p", "unscored", "Not scored: the scoring table rates seven of the ten routes, and this is one of the three it leaves out."));
     }
 
     var detail = el("div", "detail");
@@ -410,7 +410,7 @@ tags: [wip]
     detail.appendChild(dl);
     if (s) {
       var sb = el("div", "sb");
-      sb.appendChild(el("h4", null, "Scored in Section B as: " + s.heading));
+      sb.appendChild(el("h4", null, "Scored as: " + s.heading));
       var cells = el("div", "cells");
       CRITERIA.forEach(function (c) {
         var cell = el("div", "cell");
@@ -460,7 +460,7 @@ tags: [wip]
     var unscored = vis.filter(function (r) { return !scoredByN[r.n]; });
     if (unscored.length) {
       var tr2 = el("tr"); var td2 = el("td"); td2.colSpan = 5;
-      td2.textContent = "Not scored in XLab’s table: " + unscored.map(function (r) { return r.n + ". " + r.name; }).join("; ") + ".";
+      td2.textContent = "Not scored in the table: " + unscored.map(function (r) { return r.n + ". " + r.name; }).join("; ") + ".";
       tr2.appendChild(td2); tbody.appendChild(tr2);
     }
     if (!scoredVis.length && !unscored.length) { var tr3 = el("tr"); var td3 = el("td"); td3.colSpan = 5; td3.textContent = "No route lists that layer or actor."; tr3.appendChild(td3); tbody.appendChild(tr3); }
@@ -473,7 +473,7 @@ tags: [wip]
     compareEl.classList.toggle("hidden", state.compare.length === 0);
     if (!state.compare.length) return;
     compareEl.appendChild(el("h2", null, "Side by side"));
-    compareEl.appendChild(el("p", "hint", state.compare.length < 2 ? "Add one or two more routes with their Compare buttons." : "Scores out of 5, with XLab’s one-line reason for each."));
+    compareEl.appendChild(el("p", "hint", state.compare.length < 2 ? "Add one or two more routes with their Compare buttons." : "Scores out of 5, with a one-line reason for each."));
     var box = el("div", "box"); var table = el("table");
     var thead = el("thead"); var hr = el("tr"); hr.appendChild(el("th", null, ""));
     state.compare.forEach(function (n) { hr.appendChild(el("th", null, n + ". " + routeByN[n].name)); });
