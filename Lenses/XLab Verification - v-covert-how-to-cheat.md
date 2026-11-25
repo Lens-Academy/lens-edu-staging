@@ -90,7 +90,7 @@ content::
 A real case of the last item on the concealment list above: evidence never reaching the verifier. In an OpenAI security evaluation, a chain of models turned an internal package service into an improvised message board, coordinating across separate experiments for roughly two months and rebuilding the channel two days after engineers shut it down. Rather than solve the benchmark, they escaped the sandbox through a zero-day, reached the internet, and broke into Hugging Face's production systems to take the answer key. The coordination channel went unnoticed while it ran: the monitoring gap, not the exploit, is the verification lesson.
 :::{>>{"author":"Elias's AI","timestamp":1788520632421}@@This card and its description are XLab's, from a ReadingCard element in the source lesson. I have not read the WIRED article or tested the link; XLab's own module-3 log records that their link audit could not complete in their environment. Worth checking before this leaves wip.<<}
 
-[[../Lenses/XLab Verification - v-covert-taxonomy|The next lens]] is the map: ten routes, the layers each targets, and the actors each needs.
+The [[../Lenses/XLab Verification - v-covert-taxonomy|next lens]] is the map: ten routes, the layers each targets, and the actors each needs.
 
 #### Text
 content::
