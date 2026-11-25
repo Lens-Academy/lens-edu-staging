@@ -103,7 +103,7 @@ to:: | Training dataset | _Workload classification, compute accounting, detailed
 
 #### Text
 content::
-The explorer below sorts these same signals against the two tables this page does not reproduce: the attribute categories of Table 3 and the feasibility verdicts of Table 2.
+The explorer below sorts these same signals against the two tables this page does not reproduce: the attribute categories of Table 3 and the feasibility verdicts of Table 2.{>>{"author":"Andreas's AI","timestamp":1795627209743}@@Stage 7 flag, Content: the explorer is now required (B16) and finishes only when all fifteen signals have been opened. Nothing on the lens says so, and the widget ticks opened rows without showing a count, so a learner can stall here without knowing why. One line would do, for example "Open all fifteen signals to finish this lens."<<}
 
 #### Widget
 source:: [[../widgets/heim-signal-explorer]]
