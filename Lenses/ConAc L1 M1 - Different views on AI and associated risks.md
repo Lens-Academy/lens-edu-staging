@@ -168,7 +168,6 @@ Despite the variety of views, the authors find that most fall into three broad c
 
 tone:: teal
 collapse:: closed
-tone:: teal
 #### Text
 content::
 We suggest reading excerpts from this paper with three questions in mind:
