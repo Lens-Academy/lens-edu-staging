@@ -19,9 +19,7 @@ corroboration is still needed.
 content::
 \## Cloud verification problem set
 
-*30 minutes*
-
-Answer from the assigned readings. Treat every qualifier as part of the question. Select only conclusions supported by the stated access and evidence.
+The nine tasks in the drill below take about 30 minutes. Answer from the assigned readings. Treat every qualifier as part of the question. Select only conclusions supported by the stated access and evidence.
 
 #### Widget
 source:: [[../widgets/cloud-evidence-drill]]
