@@ -1,7 +1,7 @@
 ---
 id: '6ffaee34-a076-49a1-b876-1cb2943571b7'
 title: "Emergent misalignment"
-reading_minutes: 2
+reading_minutes: 1
 tutor_minutes: 0
 tags:
   - wip
