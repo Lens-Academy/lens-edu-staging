@@ -73,13 +73,13 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
 | 8 | After the report arrives | 352 | 160 | 57 | Passes |
 | 8 | Audits and inspections | 824 | 293 | 130 | tldr flag only |
 | 8 | Institutions and policy judgment | 1,035 | 193 | 330 | tldr flag (spoiler), one XLab passage |
-| 9 | Welcome to Unit 9 | 76 | 76 | 0 | |
-| 9 | What is covert development? | 1,577 | 540 | 86 | |
-| 9 | A system overview for near-term, low-trust AI compute verification | 1,286 | 388 | 271 | |
-| 10 | Welcome to Unit 10 | 67 | 67 | 0 | |
-| 10 | How could a determined actor cheat? | 1,613 | 441 | 119 | |
-| 10 | Evasion scenario taxonomy | 811 | 191 | 114 | |
-| 10 | Red team, blue team: from treaty requirements to a verification system | 2,198 | 1,092 | 221 | |
+| 9 | Welcome to Unit 9 | 76 | 76 | 0 | Flagged (Content) |
+| 9 | What is covert development? | 1,577 | 540 | 86 | Flagged (minor) |
+| 9 | A system overview for near-term, low-trust AI compute verification | 1,286 | 388 | 271 | Flagged (Content in the tldr) |
+| 10 | Welcome to Unit 10 | 67 | 67 | 0 | Passes |
+| 10 | How could a determined actor cheat? | 1,613 | 441 | 119 | Flagged, two XLab passages |
+| 10 | Evasion scenario taxonomy | 811 | 191 | 114 | Flagged |
+| 10 | Red team, blue team: from treaty requirements to a verification system | 2,198 | 1,092 | 221 | Flagged (Content) |
 
 ## Course overview
 
@@ -346,3 +346,118 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
 - **For Andreas:** line 74, the judge question, which the log's section 6 carried as a T7 flag. It is XLab's apart from our link ("the captures you mapped in the auditing exercise"). The question hangs two "enough that" clauses on a colon after "Board-like standing", a label the learner has only from the line above. The judge commentary (line 108) also has "This is the station with no tenant" and "along exactly the lines" (T7), both XLab's.
 - **Section 6's T1 flags on lines 62 and 109:** they pass. The Board of Governors and the safeguards analysis come from the Carlson reading above them.
 - **Left for stage 8:** "the human layer this section closed on" (line 104) now describes this unit from inside it. "Defence" on line 143. "Optional, about 15 minutes" on line 131.
+
+## Unit 9: Covert Development and the Low-Trust Architecture
+
+### Welcome to Unit 9
+
+[[../../modules/XLab Verification Part 2 W09 Covert development and the low-trust architecture]], inline. Lens's throughout.
+
+- **Spoiler test:** passes.
+- **Flag on the page, Content:** line 20, "Find the step where its conclusion outruns its proof". As in the overview's Unit 9 box, no required question asks for this, and the phrase assumes the paper has such a step.
+
+### What is covert development?
+
+[[../../Lenses/XLab Verification - v-covert-what-is-it]]. A restored lesson (B10). The anchors, scenario, task and debrief are XLab's. The six prompts are in the widget.
+
+- **Lens's text:**
+    - the tldr
+    - the objectives box's title and "earlier in the course" (line 16)
+    - the bridge to Unit 10 (line 25, item 22, approved)
+    - the headings
+    - the lead-in to the widget (line 99)
+    - the closing line (line 128)
+    - Works cited
+- **Spoiler test:** passes. The tldr's "standard" is worded differently from the debrief's point, that operations are made inconclusive rather than invisible.
+- **tldr flags:**
+    - It opens on a verdict line ("Nothing in the scenario proves anything.").
+    - Its last sentence turns on "not X or Y, but Z" (T3).
+    - "A response honest enough to tell suspicion from proof" is the fourth "honest" in the course's tldrs.
+- **Flag on the page (minor):** line 99. The sentence offers two routes, and its "so that" clause fits only the second. The lens could also say plainly that the widget finishes once all six prompts are opened (B16).
+- **Not flagged:** line 128's "what a determined actor would actually try" (T7, one word).
+- **Left for stage 8:** "anchors this lesson" in Works cited.
+
+### A system overview for near-term, low-trust AI compute verification
+
+[[../../Lenses/XLab Verification - v-covert-system-overview]]. The assignment, the objectives and the nine questions are XLab's, lightly edited. Cankaya is the article.
+
+- **Lens's text:**
+    - the tldr
+    - line 12's ending
+    - the lead-ins to the two widgets (lines 42 and 54)
+    - the question instructions (lines 63 to 67, partly XLab's)
+    - the placeholders
+    - Works cited
+- **Spoiler test:** passes.
+- **tldr flag, Content:** "find the step where the conclusion outruns the proof", as on the Unit 9 welcome. "One engineer's blueprint" is mannered.
+- **Flags on the page:** three.
+    - Line 12 (minor, T3): "tackle", "synthesizing", "the verification intuitions you gained".
+    - Line 54: "are one calculator" and "buy each other" need decoding.
+    - Line 67: a semicolon. The bigger point is that lines 63 to 67 repeat the Assignment's instructions on lines 24 to 26 with small differences, so one set would do.
+- **Left for stage 8:** "Analyse" in question 3's title, and "9" as a numeral on line 63.
+
+## Unit 10: Evasion Routes and the Red Team Review
+
+### Welcome to Unit 10
+
+[[../../modules/XLab Verification Part 2 W10 Evasion routes and the red team review]], inline. Lens's throughout. **Passes**, and so does the tldr. **Left for stage 8:** "defences".
+
+### How could a determined actor cheat?
+
+[[../../Lenses/XLab Verification - v-covert-how-to-cheat]]. A restored lesson (B10). Its prose, table and cases are XLab's. The two questions are Lens's (proposal scope).
+
+- **Lens's text:**
+    - the tldr
+    - the bridge to the next lenses (lines 27 and 94, link pass)
+    - the two questions (lines 49 and 80 to 83)
+    - the optional callout's title
+    - Works cited
+- **Spoiler test:** passes, narrowly. "Check that its layers fail in different ways" is close to the choice question's answer, but the question stem already says the designers "want the layers to fail independently".
+- **tldr flags:**
+    - It opens on a two-sentence punchline ("…It will go around it.", T2).
+    - It ends on a verdict line ("…the archetype, and … the template").
+- **Flags on the page:** two.
+    - Line 49 (minor): "actually".
+    - Line 82: "which layer of the stack above it says something about" takes two reads.
+- **For Andreas:** two XLab passages from the log's section 6. They are XLab's, so they are not commented.
+    - Line 40 (T3): "It is important to take advantage of the unique strengths of each of the layers, while taking into account how they are affected by intersection…" is the most LLM-like paragraph in the unit. "Affected by intersection" does not parse.
+    - Line 92, the WIRED card (T1): "zero-day" is not explained, and the card ends "the monitoring gap, not the exploit, is the verification lesson", a punchline in "X, not Y" form.
+    - Section 6's T1 flag on line 72 (the Iraq paragraph, now 73) passes. Each case is explained in the paragraph itself.
+- **Left for stage 8:** "programme" in the question's rubric (tutor-facing) and "defence" in the tldr.
+
+### Evasion scenario taxonomy
+
+[[../../Lenses/XLab Verification - v-covert-taxonomy]]. A restored lesson. The table and the instruction on line 17 are XLab's.
+
+- **Lens's text:**
+    - the tldr
+    - the heading
+    - line 19
+    - the question: the recap on line 37, from the other pass, and the task on line 39
+    - Works cited
+- **Spoiler test:** passes. The tldr states the method (one primary route plus supporting tactics) that the question also states.
+- **tldr flag (minor):** "Learn them as moves rather than as a list" (T3), and "naming which is which is most of the analysis" is a verdict line.
+- **Flags on the page:** two.
+    - Line 19: "Rank them now and you are ranking a guess" (T2).
+    - Line 39: it covers the recap's 70-word sentence with its semicolon, carried from section 6. It also covers the task's "name", "say" and "say", and "sees the piece". Section 6's T1 flag on the recap's names passes.
+
+### Red team, blue team: from treaty requirements to a verification system
+
+[[../../Lenses/XLab Verification - v-covert-red-blue]]. A restored lesson, retargeted at the primary sources by Elias's AI. That is why so much of it is Lens's. The ten questions, the role and assignment, and the submission standard are XLab's.
+
+- **Lens's text:**
+    - the tldr
+    - the opening (lines 21 and 23)
+    - the reading and citing instructions (lines 26 to 34)
+    - the optional line (55)
+    - the placeholders
+    - the scoring part's lead-ins (lines 217, 222 and 228)
+    - Works cited
+- **Spoiler test:** passes.
+- **tldr flag (minor):** "which it cannot touch", the same figure as the overview's Unit 10 box.
+- **Flags on the page:** three.
+    - Line 21: "Now the harder job:" (setup) and "actually" (T7).
+    - Line 23, **Content:** "Neither was written with the other in view" is doubtful. Cankaya thanks Aaron Scher, a treaty co-author, both texts come from MIRI's Technical Governance Team, and question 8 asks the learner to notice that link. The line also has a setup, a semicolon and a closing punchline.
+    - Line 222: "Two things to hold" (setup), and a semicolon.
+- **Section 6's flags:** line 212 (now 217, T7) passes. "Relative, conditional assessments, not measured probabilities" is a real caveat that a reader might get wrong. Line 126 (question 4's list, T1) passes, since the terms come from the Cankaya paper read in Unit 9.
+- **Not flagged:** line 28's "not what does this system do, but which treaty obligations could it carry" (T3 form, but the contrast is the point of the paragraph).
