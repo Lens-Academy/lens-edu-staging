@@ -26,7 +26,7 @@ Two documents sit on the table. One is a draft treaty written like a treaty, wit
 
 Read the operative paragraphs of **Articles IV to VII** of the draft agreement, and **Sections 1 to 3** of the system overview. Both are inlined below. The material around each excerpt is collapsed rather than removed, so you can open the drafters' own Precedent and Notes sections whenever you want to know why a paragraph reads the way it does.
 
-If you read the whole of the system overview in Unit 9, you are re-reading Sections 1 to 3 here with a different question in mind: not what does this system do, but which treaty obligations could it carry.
+You read the whole of the system overview in Unit 9, so Sections 1 to 3 are optional on this page. They are repeated below the treaty articles in case you want them beside the questions, which ask something new of them: not what does this system do, but which treaty obligations could it carry.
 
 \### How to cite
 
@@ -51,8 +51,13 @@ to:: "Such limits aim to allow replacement of aging chips and modest expansion f
 from:: "Parties accept continuous on‑site verification of total chip usage at declared CCCs."
 to:: "The CTB will lead research and engineering to develop better technologies for chip use monitoring and verification. Parties will support these efforts"
 
+#### Text
+content::
+**Optional:** Sections 1 to 3 of the system overview, the same text you read in Unit 9.
+
 #### Article
 source:: [[../articles/cankaya-a-system-overview-for-near-term-low-trust-ai-compute-verification]]
+optional:: true
 from:: "In order to plan and execute under tight timelines, one needs to make some strategic bets, instead of hedging too much and keeping all options open."
 to:: "Faults, if triggered on purpose, can leak one bit of information to the verifier, per event. The prover and verifier need a pre-agreed budgeted rate for such faults, beyond which suspicion is raised."
 
