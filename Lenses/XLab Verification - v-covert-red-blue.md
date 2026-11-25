@@ -224,7 +224,7 @@ Two things to hold while you read the routes below. The scores synthesize the so
 
 #### Text
 content::
-The explorer below carries all ten routes from the previous page, with the scores on the seven routes that have them. Three routes are left unscored.
+The explorer below carries all ten routes from the previous lens, with the scores on the seven routes that have them. Three routes are left unscored.
 
 #### Widget
 source:: [[../widgets/evasion-taxonomy]]
