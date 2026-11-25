@@ -161,6 +161,7 @@ feedback-instructions:: Name the argument whose reconstruction is thinnest, then
 
 #### Question: Open
 id:: 7e54933d-e0e0-43c2-9fbf-0c5dd85da56d
+force-feedback:: first
 content:: **Question 7. Identify vulnerable positions** (choose one of Questions 3, 4, 7 or 9)
 
 Identify at least four vulnerable positions in the author’s reasoning, including:
