@@ -11,7 +11,7 @@ tags: [wip]
 %% Source curriculum: https://aisafetytracks.com/tracks/verification %%
 %% Weeks 6 to 10 of the recut of Compute Verification. Weeks 1 to 5 are Compute Verification 1; the capstone is a third course and carries v-capstone-together and v-capstone-feasibility. Module 3 is split across weeks 9 and 10 here because its five lenses total 460 minutes: week 9 opens with the covert-development framing lens and then the Cankaya close reading (245), week 10 runs the evasion material and the red team review (215). No meeting-doc-template is linked: the existing docs assume the old five-module shape.
 
-Core self-study per unit, re-timed 9 Oct 2026: U6 120 min, U7 170, U8 230, U9 200, U10 220. %%
+Core self-study per unit, re-timed 9 Oct 2026: U6 120 min, U7 170, U8 230, U9 200, U10 220. Units 6, 7 and 8 have two modules each since 24 Nov 2026 (decision B12 in the CV2 streamlining log); "Reporting and protection" was split into two pages the same day, which took unit 8 to about 220. %%
 
 application-survey:: [[../../surveys/Application Form]]
 
@@ -37,7 +37,7 @@ facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
-# Module: [[../../modules/XLab Verification Part 2 W08 The human layer]]
+# Module: [[../../modules/XLab Verification Part 2 W08 Audits and institutions]]
 
 # Module: [[../../modules/XLab Verification Part 2 U8 Feedback|Unit 8 feedback]]
 
