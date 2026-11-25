@@ -107,6 +107,7 @@ feedback-instructions:: Name the weakest part, then ask one follow-up question. 
 
 #### Question: Open
 id:: 18ac6dc1-86be-42bf-9d00-c0b7d7c74e5d
+force-feedback:: first
 content:: **Question 4. Examine the rejection of mutually trusted silicon** (choose one of Questions 3, 4, 7 or 9)
 
 Reconstruct the author’s argument against relying on general-purpose processors or AI accelerators that must be trusted by both parties.

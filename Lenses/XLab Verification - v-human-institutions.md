@@ -86,6 +86,7 @@ feedback-instructions:: Three or four sentences. Say what the learner got right 
 
 #### Question: Open
 id:: c9360c88-5ae3-41c1-bb81-6540a8812a15
+force-feedback:: first
 content:: **The standard.** In the nuclear regime: The Board has never defined noncompliance; five cases were decided case by case, and Carlson argues the credibility of the system rides on consistency.
 
 Write the one-sentence standard your AI regime announces before its first case: what separates a breach worth correcting from noncompliance worth judging?
