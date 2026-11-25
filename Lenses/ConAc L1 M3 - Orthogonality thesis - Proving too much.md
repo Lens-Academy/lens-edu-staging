@@ -1,7 +1,7 @@
 ---
 id: 'eecfe187-7a5a-4bd1-b6d0-c2b8c0656c1f'
 title: "Orthogonality thesis: Proving too much"
-reading_minutes: 6
+reading_minutes: 8
 tutor_minutes: 0
 tags:
   - wip

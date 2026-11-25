@@ -5,7 +5,8 @@ tldr: >-
   A threat model is a specific story of how AI could cause harm. A good one shows where you could step in to stop it, and gives research and strategy a direction even if the story is partly wrong.
 summary_for_tutor: >-
   Four short excerpts on what a threat model is and what it is for. The Alignment Forum wiki defines a threat model as a story of how a particular risk plays out, and quotes Rohin Shah: ideally a combination of a development model (how we get AGI) and a risk model (how AGI leads to existential catastrophe). Zach Stein-Perlman (AI Impacts) says the goal of threat modeling is to understand risks deeply enough to inform interventions, since a good causal model of a threat shows points of intervention and what countering it would require. Neel Nanda's introduction explains why alignment research often focuses on specific threat models: a specific story gives direction even when it is flawed. He warns that detailed stories feel more convincing although every added detail makes them less likely (the conjunction fallacy). Feifan's section defines a threat model as one specific pathway or failure mode by which AI causes harm, lists examples (cyberattacks with open-weight models, misaligned superintelligence seeking power, gradual disempowerment, election deepfakes, mass job loss), says there is no single threat model, and asks learners to form views from evidence rather than vibes.
-reading_minutes: 6
+reading_minutes: 5
+tutor_minutes: 0
 tags:
   - wip
 ---
