@@ -166,7 +166,7 @@ Despite the variety of views, the authors find that most fall into three broad c
 
 #### Callout: Guiding questions
 collapse:: closed
-teal
+tone:: teal
 #### Text
 content::
 We suggest reading excerpts from this paper with three questions in mind:
