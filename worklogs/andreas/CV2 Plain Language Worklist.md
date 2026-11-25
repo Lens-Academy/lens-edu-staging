@@ -22,6 +22,8 @@ Tutor summaries and feedback briefs are out (stage 6 did them), and so are artic
 
 **Status, 2026-11-25.** Unit 6 is flagged, with the course overview. Units 7 to 10 follow, one at a time.
 
+**Later on 2026-11-25.** Unit 7 is flagged. Eight tldr flags, one comment on the welcome, one on the signatures lens and five on the red-line lens, one of them Content (the "symmetric, cheap, and checkable" rule). One XLab passage is for Andreas. Two of Claude's comments on the red-line lens were corrected after posting, and the corrections are pending, because the relay treats an edit to a comment as a suggestion.
+
 ## How to read an entry
 
 - **Lens's text** lists the passages that are ours, by line in the lens file. Everything else on the lens is XLab's.
@@ -54,14 +56,14 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
 | 6 | Policy judgment: what role should hardware play? | 1,093 | 197 | 122 | Flagged |
 | 6 | Provider records and workload observables | 506 | 176 | 46 | Flagged (Content) |
 | 6 | Customer identification and ongoing monitoring | 254 | 92 | 65 | tldr flag only |
-| 7 | Welcome to Unit 7 | 62 | 62 | 0 | |
-| 7 | Detection gaps and policy limits | 434 | 110 | 67 | |
-| 7 | Interpreting cloud evidence | 308 | 136 | 53 | |
-| 7 | Intelligence: watching without permission | 734 | 88 | 59 | |
-| 7 | Observable signatures of undeclared AI development | 1,145 | 279 | 73 | |
-| 7 | The empirical anchor: intelligence identifies, the regime resolves | 617 | 208 | 41 | |
-| 7 | From signal to intelligence assessment | 473 | 169 | 0 | |
-| 7 | From intelligence lead to verification action | 1,276 | 358 | 404 | |
+| 7 | Welcome to Unit 7 | 62 | 62 | 0 | Flagged |
+| 7 | Detection gaps and policy limits | 434 | 110 | 67 | tldr flag only |
+| 7 | Interpreting cloud evidence | 308 | 136 | 53 | tldr flag only |
+| 7 | Intelligence: watching without permission | 734 | 88 | 59 | tldr flag, one XLab passage |
+| 7 | Observable signatures of undeclared AI development | 1,145 | 279 | 73 | Flagged |
+| 7 | The empirical anchor: intelligence identifies, the regime resolves | 617 | 208 | 41 | tldr flag only |
+| 7 | From signal to intelligence assessment | 473 | 169 | 0 | tldr flag only |
+| 7 | From intelligence lead to verification action | 1,276 | 358 | 404 | Flagged (Content) |
 | 8 | Welcome to Unit 8 | 73 | 73 | 0 | |
 | 8 | The human layer | 242 | 87 | 0 | |
 | 8 | Insiders and human sources | 1,118 | 351 | 307 | |
@@ -139,3 +141,129 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
 - **Spoiler test:** passes.
 - **tldr flag (minor):** "Egan and Heim port that playbook" stacks two borrowed metaphors (software "port", sports "playbook"). The literal version is shorter.
 - **Page:** passes.
+
+## Unit 7: Cloud Limits and Intelligence
+
+### Welcome to Unit 7
+
+[[../../modules/XLab Verification Part 2 W07 Cloud limits]], inline. Lens's throughout.
+
+- **Spoiler test:** passes.
+- **Flag on the page:** line 18. "Actually proves" (T7), and the third bullet's "treaty text that protects sensors" needs decoding, as in the overview.
+
+### Detection gaps and policy limits
+
+[[../../Lenses/XLab Verification - v-cloud-detection-gaps]]. The reading instructions are mostly XLab's, lightly edited. RAND and Carnegie are the articles.
+
+- **Lens's text:**
+    - the tldr
+    - the source lines
+    - "Read the following excerpts:" twice
+    - line 28's first clause (edited from XLab)
+    - Works cited
+- **Spoiler test:** passes.
+- **tldr flags:**
+    - A semicolon ("RAND models that gap; Carnegie asks…").
+    - "Only as good as the unit it adds up over" is mannered.
+- **Page:** passes. Line 28 ("Treat the BLOOM calculation as an illustration, not a timeless threshold recommendation") keeps XLab's "X, not Y" and reads plainly.
+
+### Interpreting cloud evidence
+
+[[../../Lenses/XLab Verification - v-cloud-evidence]]. The framing (lines 14 to 16) and the closing passage are XLab's. The drill is a widget.
+
+- **Lens's text:**
+    - the tldr
+    - the headings
+    - the open question (line 31), rebuilt from the drill's odd-one-out task
+    - Works cited
+- **Spoiler test:** passes. The open question lists the four observables but does not say which is the odd one.
+- **tldr flag (minor):**
+    - Two colon clauses in a row.
+    - "Exactly what it proves" (T7).
+    - The closing "Practice stopping at the first." is an aphorism.
+- **Page:** passes. The drill is required and finishes only when all nine tasks are solved. The lens's "For each item" implies all nine, and each task shows when it is solved, so this lens has no stall risk of the kind on v-cloud.
+
+### Intelligence: watching without permission
+
+[[../../Lenses/XLab Verification - v-intel-intro]]. The body is XLab's.
+
+- **Lens's text:**
+    - the tldr
+    - the link labels in line 20 (link pass, approved)
+    - the vocabulary callout's first and last lines (line 27)
+    - Works cited
+- **Spoiler test:** passes.
+- **tldr flag:** "whose satellites" stands for the institutions question (who owns the sensors and who must share), and the learner cannot resolve it before reading. "The section" is for stage 8.
+- **For Andreas:** line 20, XLab's paragraph. The log's section 6 carried a T7 flag on its opening, "The real problem here is ambiguity". The paragraph also has "actually establish", "really caught" and "what exactly do you do". It is XLab's voice, and our link labels sit inside it, so rewriting it is your call. Line 18 also has XLab's "one of the two the track weights most".
+
+### Observable signatures of undeclared AI development
+
+[[../../Lenses/XLab Verification - v-intel-signatures]]. The catalog, the families and the collection-map lead-in are XLab's.
+
+- **Lens's text:**
+    - the tldr
+    - the headings
+    - the readings line (line 142)
+    - the lead-ins to the threshold explorer (line 154) and the method explorer (line 170)
+    - Works cited
+- **Spoiler test:** passes.
+- **tldr flags:**
+    - "Can honestly establish" (T7).
+    - The list of images ("a rooftop where snow never settles", "a power line you cannot bury quietly") reads well but needs decoding before the lens has explained thermal and grid signatures.
+- **Flag on the page:** line 154. "From each side" does not resolve, because the two tables are the domestic levers and the international ones. "Set those same levers against cluster size" is mannered.
+- **Left for stage 8:** "colour" on line 78 (XLab's), and "the rest of the unit" on line 26, which already says "unit".
+
+### The empirical anchor: intelligence identifies, the regime resolves
+
+[[../../Lenses/XLab Verification - v-intel-anchor]]. The cases, caveats and hiding places are XLab's. The question is ours (B4) and was reviewed by Andreas.
+
+- **Lens's text:**
+    - the tldr
+    - the reading line (line 64)
+    - the question (lines 75 to 77)
+    - Works cited
+- **Spoiler test:** passes, narrowly. The tldr gives the finding (three of four cases began with a tip), but the lens title states it too, and the question asks what follows for AI rather than for the finding itself.
+- **tldr flags:**
+    - "That is the whole division of labor in one sentence" is a setup line (T7).
+    - "The fine print that keeps the finding honest" is mannered.
+
+### From signal to intelligence assessment
+
+[[../../Lenses/XLab Verification - v-intel-assessment]]. The body is XLab's.
+
+- **Lens's text:**
+    - the tldr
+    - the headings
+    - the reading line (line 61, rewritten for B6 and its reversal)
+    - Works cited
+- **Spoiler test:** passes.
+- **tldr flags:**
+    - Two semicolons in the first sentence.
+    - "Really fights about the assumption" (T7).
+- **Page:** passes.
+
+### From intelligence lead to verification action
+
+[[../../Lenses/XLab Verification - v-intel-action]]. Two of XLab's lessons merged (B14). Much of the text is XLab's, lightly edited. The other pass reworded the red-line question.
+
+- **Lens's text:**
+    - the tldr
+    - the headings
+    - "Here are the two passages" (line 58)
+    - line 79
+    - the readings block (lines 96 to 99)
+    - the four questions before the task (line 150, edited)
+    - the red-line question (lines 156 to 169, edited by the other pass and in stage 5)
+    - Works cited
+- **Spoiler test:** passes.
+- **tldr flags:**
+    - "NTM" is not spelled out.
+    - "Act like a regime that wants to survive its first ambiguous case", "take a pencil to" and "red-line it for both capitals" are three figures in two sentences.
+- **Flags on the page:** five, four of them carried from the log's section 6.
+    - Line 79: a semicolon, and a setup line ("That is the asymmetry of this whole section sitting in one paragraph").
+    - Line 92: "Unit 4" is CV1's Unit 4, and the sentence does not say so. "The bridge worth knowing" is a setup phrase.
+    - Line 99: a semicolon, and "ideally read the whole draft treaty" leaves it unclear whether that is asked.
+    - Line 150: "behind-the-meter" is not explained (T1).
+    - Line 158, **Content:** the "symmetric, cheap, and checkable" rule is taught nowhere in either course, yet the rubric grades against it (Turner's QA, log section 7). Also "confront the question the historical record says drafters avoid", and the "both-capitals test" label.
+- **Section 6's T1 flags on lines 29, 41 and 53** (the noninterference, *Six Layers* and MIRI paragraphs, XLab's): they pass in the course. "NTM" is defined in the collapsed callout on the intelligence opener two lenses earlier, and the T1 check reads one lens at a time.
+- **Left for stage 8:** "the whole unit" on line 35 already says "unit". "This whole section" on line 80 and "this section" on line 97. Em dashes on lines 36, 87, 89, 90 and 96.
