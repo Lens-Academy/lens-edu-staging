@@ -26,6 +26,14 @@ Tutor summaries and feedback briefs are out (stage 6 did them), and so are artic
 
 **Later on 2026-11-25.** Unit 8 is flagged. Five tldr flags, one of them a spoiler (Institutions and policy judgment) and one Content (Insiders: the warm-up reads as required). Two comments on the pages: the welcome (minor) and "Where a report can die". Two XLab passages are for Andreas. After the report arrives passes.
 
+**Later on 2026-11-25.** Units 9 and 10 are flagged, so every unit is. Units 9 and 10 have:
+
+- Five tldr flags, one of them Content: the close reading's "find the step where the conclusion outruns the proof", which no required question asks for.
+- Ten comments on the pages. Two are Content: the Unit 9 welcome, for the same reason, and the red team review's "Neither was written with the other in view", which the paper's acknowledgements contradict.
+- Two XLab passages for Andreas, both on the cheating lens.
+
+Across the course, "honestly" or "honest" turns up in six tldrs (the overview, signatures, anchor, the human layer, audits, covert development) and once in the overview's text. "Actually" turns up in eight places of Lens's text (the overview four times, the Unit 7 welcome, the covert opener's closing line, the Swiss-cheese question and the red team review). In all there are 29 comments on the pages. A decision on these two words, made once for the whole course, would settle a dozen flags.
+
 ## How to read an entry
 
 - **Lens's text** lists the passages that are ours, by line in the lens file. Everything else on the lens is XLab's.
@@ -372,7 +380,7 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
 - **tldr flags:**
     - It opens on a verdict line ("Nothing in the scenario proves anything.").
     - Its last sentence turns on "not X or Y, but Z" (T3).
-    - "A response honest enough to tell suspicion from proof" is the fourth "honest" in the course's tldrs.
+    - "A response honest enough to tell suspicion from proof" (see the count in the status above).
 - **Flag on the page (minor):** line 99. The sentence offers two routes, and its "so that" clause fits only the second. The lens could also say plainly that the widget finishes once all six prompts are opened (B16).
 - **Not flagged:** line 128's "what a determined actor would actually try" (T7, one word).
 - **Left for stage 8:** "anchors this lesson" in Works cited.
