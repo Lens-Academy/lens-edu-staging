@@ -341,7 +341,7 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
 [[../../Lenses/XLab Verification - v-human-audits-inspections]]. The guiding questions, the brief and the finding callout are XLab's. Ours: the tldr, the reading lines (lines 29, 47, 63), the callout titles and Works cited.
 
 - **Spoiler test:** passes.
-- **tldr flag (minor):** "may honestly conclude" (T7), the third "honestly" in this course's tldrs.
+- **tldr flag (minor):** "may honestly conclude" (T7).
 - **Page:** passes.
 - **Left for stage 8 or 9:** "(12 to 15 minutes)" in the brief's callout title.
 
