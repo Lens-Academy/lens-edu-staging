@@ -17,11 +17,34 @@ How to read it: «…» marks a link's label, and the arrow names the page it op
 - The institutions page is merged into the red-line page (B14), so items 10 to 13 and 15 now refer to text on v-intel-action. Item 10's summary line left the course with the old page. Item 11 now reads "the red-line question at the end of this page", item 15 "the treaty text quoted above", and item 3's Works cited carries the three full entries from item 13.
 - Item 6's exercise moved with the "Reporting and protection" split (B3), so its link now opens "After the report arrives". The label is unchanged.
 
-**Proposal.** Keep the "Now" wording for every item except two:
-- Item 19: "along exactly the lines this section mapped" becomes "along exactly the lines you mapped in the Audit the verifier exercise". The lines it lists (who funds it, who staffs it, who clears its reports) are that exercise's captures.
-- Item 22: not a link problem. The first covert page says the red team designs an evasion strategy in Unit 10, but the restored last page is a review of the treaty and the Cankaya system. That goes to stage 7 with the other wording flags.
+**Andreas's review (24 Nov, 20:30).** Most of the "Now" wording reads clunky. The rule, from item 1: a short word that is already in the sentence carries the link, as in "(signatures)" with "signatures" linked, rather than a phrase describing the page. Done on the pages that evening (all direct):
+- Item 1: the five links are back in their parentheses as «signatures», «empirical anchor» (with "and the answer is yes, with some fine print" restored), «assessment», «institutions» and «action». The last two both open the red-line page, which now holds the institutions text. The closing sentence is gone.
+- Item 2: "whose «taxonomy» you'll read next".
+- Item 3: nothing to link. The draft agreement is excerpted on the red-line page itself, so its Works cited entry is an ordinary entry.
+- Item 4: kept.
+- Item 5: «Whistleblower Programs», the reading's own name on the insiders page.
+- Item 6: «auditing exercise». It opened the start of Unit 8; see the platform bug below.
+- Item 7: Andreas's own edit ("Hardware mechanisms … cloud mechanisms").
+- Section 3's last "submodule": the unit 8 opener's summary line now says "This unit teaches you".
 
-Mark any item whose "Now" wording you want changed.
+**Platform bug: links into another module open that module's first page.** When a link points to a page in another module, the platform builds the page address from the link's label instead of the page's title. So «customer identification» goes to `…/module/xlab-verification-p2-cloud-records#customer-identification`, which matches no page and opens the module's first page. A link inside its own module works (it uses the page title). Checked on staging on 24 Nov. It affects every link that crosses a module:
+- v-cloud-evidence «customer identification» opens provider records. «provider records» lands right only because that page comes first in its module.
+- v-human-institutions «auditing exercise» opens Welcome to Unit 8.
+- v-hw-policy-studio «your ledger from the start of Unit 5» opens Welcome to Unit 5, inside CV2's course address.
+- v-intel-action «Unit 4» opens CV1 unit 4's first page, also inside CV2's course address.
+
+The only fix on our side would be labels that spell out the page's full title, which is the clunky wording just removed. So this goes to the platform (log, section 5), and the labels stay short.
+
+**Proposed for the remaining items, in the same style** (not yet on the pages):
+- Item 11 (red-line page): "the red-line question at the end of this page asks you to draft" becomes "the red-line below asks you to draft".
+- Item 12: "is covered with the privacy-preserving mechanisms in «Unit 4»" becomes "is covered in «Unit 4»", as CV1 writes it.
+- Item 19: "along exactly the lines this section mapped" becomes "along exactly the lines you mapped in the auditing exercise".
+- Item 25: "At «the end of this unit», after the red-team and blue-team review, you will return to that map" becomes "After the «red team review», you will return to that map".
+- Item 28: "«The next page» is the map" becomes "The next page is the «map»".
+- Item 29: "at «the end of this unit», after the red-team and blue-team review, and score" becomes "in the «red team review» and score".
+- Item 32: "Return to «the taxonomy on the previous page»" becomes "Return to the «taxonomy»".
+- Item 22 is not a link problem: the first covert page says the red team designs an evasion strategy in Unit 10, but the restored last page is a review. It goes to stage 7.
+- Every other item keeps its "Now" wording.
 
 ## 1. Links that XLab labelled with a section number
 
