@@ -17,7 +17,7 @@ application-survey:: [[../../surveys/Application Form]]
 
 # Module: [[../../modules/XLab Verification Part 2 Overview]]
 
-# Module: [[../../modules/XLab Verification Part 2 W06 Hardware judgment and cloud records]]
+# Module: [[../../modules/XLab Verification Part 2 W06 Cloud records]]
 
 # Module: [[../../modules/XLab Verification Part 2 U6 Feedback|Unit 6 feedback]]
 
@@ -25,7 +25,7 @@ application-survey:: [[../../surveys/Application Form]]
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 
-# Module: [[../../modules/XLab Verification Part 2 W07 Cloud limits and intelligence]]
+# Module: [[../../modules/XLab Verification Part 2 W07 Intelligence]]
 
 # Module: [[../../modules/XLab Verification Part 2 U7 Feedback|Unit 7 feedback]]
 
