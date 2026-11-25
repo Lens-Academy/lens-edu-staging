@@ -86,3 +86,5 @@ These are the widget descriptions. Each lost XLab's name, its semicolons and "pa
 ## Order and check
 
 Unit by unit, 6 to 10. After each unit, a production check on the course and a count of the validator's warnings that a tutor field names XLab, which should fall from 16 (15 lenses and the overview) to none, leaving only the 11 widgets until B7. B6 (the optional CIA excerpt) goes in just before the assessment lens's summary, so that summary describes the lens as it will be.
+
+Result, 25 Nov. Production: no errors, and 23 warnings, all from the legacy surveys. The two article 403s from the baseline have cleared. Draft (wip): 3 warnings, the two expected claim-ledger notes and one false match. That match is the overview's heading "What this course is about", which the validator reads as a link to the EA lens "What this course is". None of the 50 tutor fields in CV2 names XLab (21 lenses, the module tutor fields, 17 widgets).
