@@ -118,7 +118,7 @@ id:: 35268578-a253-45aa-a31e-3092410c86b5
 content::
 Take the case of a model that is misaligned in most situations without Anthropic having noticed. The report says its low risk estimate for this case rests mainly on believing it unlikely, not on its mitigations.
 
-1. Which premise of the monitoring part of a report like this would you check first, and why?
+1. Which premise of the monitoring part of a report like this would you check first? Say why it might fail.
 2. What would you look at to check it?
 placeholder:: A few sentences.
 force-feedback:: first
