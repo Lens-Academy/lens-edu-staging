@@ -211,7 +211,7 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
     - "Can honestly establish" (T7).
     - The list of images ("a rooftop where snow never settles", "a power line you cannot bury quietly") reads well but needs decoding before the lens has explained thermal and grid signatures.
 - **Flag on the page:** line 154. "From each side" does not resolve, because the two tables are the domestic levers and the international ones. "Set those same levers against cluster size" is mannered.
-- **Left for stage 8:** "colour" on line 78 (XLab's), and "the rest of the unit" on line 26, which already says "unit".
+- **Left for stage 8:** "colour" on line 78 (XLab's).
 
 ### The empirical anchor: intelligence identifies, the regime resolves
 
@@ -266,3 +266,4 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
     - Line 150: "behind-the-meter" is not explained (T1).
     - Line 158, **Content:** the "symmetric, cheap, and checkable" rule is taught nowhere in either course, yet the rubric grades against it (Turner's QA, log section 7). Also "confront the question the historical record says drafters avoid", and the "both-capitals test" label.
 - **Section 6's T1 flags on lines 29, 41 and 53** (the noninterference, *Six Layers* and MIRI paragraphs, XLab's): they pass in the course. "NTM" is defined in the collapsed callout on the intelligence opener, earlier in this unit, and the T1 check reads one lens at a time.
+- **Left for stage 8:** "this whole section" on line 80 and "this section" on line 97. Em dashes on lines 36, 87, 89, 90 and 96.
