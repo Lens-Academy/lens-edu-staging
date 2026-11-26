@@ -366,6 +366,7 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 - **After the report arrives:** passed earlier.
 
 **Stage 8 note (Andreas, 25 Nov).** XLab's "section" becomes "lens", "unit" or "module" by context, not always "lens".
+
 ### Welcome to Unit 8
 
 [[../../modules/XLab Verification Part 2 W08 Insiders and reporting]], inline. Lens's throughout.
