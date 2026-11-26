@@ -75,7 +75,7 @@ feasibility — their sole non-High intelligence mechanism. Three reasons:
 - Chip performance-per-watt improves about 1.6× a year, steadily shrinking the
   energy signature of any fixed quantity of compute.
 
-Real-world colour: the xAI Memphis behind-the-meter gas turbines were surfaced
+Real-world color: the xAI Memphis behind-the-meter gas turbines were surfaced
 by aerial thermal imaging — the signature and the workaround in one case.
 
 :::callout {title="Architecture changes the picture" tone="blue"}
