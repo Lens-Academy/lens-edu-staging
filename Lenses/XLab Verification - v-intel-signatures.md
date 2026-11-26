@@ -66,7 +66,7 @@ imagery, and burying them is itself a slow, satellite-visible construction
 project (MIRI).
 
 Against that, Scher and Thiergart rate power-grid analysis only **Medium**
-feasibility — their sole non-High intelligence mechanism. Three reasons:
+feasibility, their sole non-High intelligence mechanism. Three reasons:
 
 - Covert generation at the roughly 130 MW scale of a 100k-H100 cluster is
   plausible, comparable to military naval reactors.
