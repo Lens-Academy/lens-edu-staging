@@ -77,7 +77,7 @@ to:: as relevant to this Agreement.
 #### Text
 content::
 Read ¶1(b)(iii) against (i) and (ii). Protection is an undertaking whereas sharing is
-an encouragement. That is the core asymmetry of this whole section, and the red-line question at the end of this lens asks you to draft the obligation it declines to impose.{++{"author":"Andreas's AI","timestamp":1795660629776}@@ It also tests your draft against one rule of thumb: states sign what is symmetric (it binds both sides the same way), cheap (complying costs little) and checkable (each side can tell whether the other complies).++}
+an encouragement. That is the core asymmetry of this whole section, and the red-line question at the end of this lens asks you to draft the obligation it declines to impose. It also tests your draft against one rule of thumb: states sign what is symmetric (it binds both sides the same way), cheap (complying costs little) and checkable (each side can tell whether the other complies).
 
 \## Authenticating what gets shared
 
