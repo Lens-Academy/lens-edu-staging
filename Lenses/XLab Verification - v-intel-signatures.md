@@ -84,7 +84,7 @@ signature without changing size. Scaling an existing architecture by adding
 layers and shifting to a new architecture with a different compute profile
 produce different curves, and inference and training draw differently again.
 See Scher et al., *An International Agreement to Prevent the Premature Creation
-of Artificial Superintelligence*, Appendix D — and connect it back to the
+of Artificial Superintelligence*, Appendix D, and connect it back to the
 development picture from earlier in the course.
 :::
 
