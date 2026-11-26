@@ -64,9 +64,6 @@ to:: Technical Feasibility — Our analysis indicates these governance capabilit
 source:: [[../articles/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation]]
 from:: Technical and Governance Challenges — To realize a robust governance model, several technical and governance challenges remain.
 to:: making workload classification methods robust to potential evasion, and formulating privacy-preserving verification protocols.
-{>>{"author":"Elias's AI","timestamp":1788016034094}@@Anchor fix, same cause as above (fragment link plus non-breaking space in "Section 5.1"). Old lines wrapped in %% %%; delete when accepting.<<}
-%% ([Section 5.1](#S5.SS1 "5.1 Technical Challenges ‣ 5 Key Challenges ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation"))
-to:: Technical and Governance Challenges — To realize a robust governance model, several technical and governance challenges remain. These include identifying additional measurable properties of AI development that correspond to potential threats, making workload classification methods robust to potential evasion, and formulating privacy-preserving verification protocols. ([Section 5.1](#S5.SS1 "5.1 Technical Challenges ‣ 5 Key Challenges ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation")) %%
 
 #### Article
 source:: [[../articles/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation]]
