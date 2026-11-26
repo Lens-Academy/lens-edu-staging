@@ -196,6 +196,7 @@ Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agr
 
 Shavit, Yonadav. "What Does It Take to Catch a Chinchilla? Verifying Rules on Large-Scale Neural Network Training via Compute Monitoring." *arXiv*, Mar. 2023. [arxiv.org](https://arxiv.org/abs/2303.11341)
 *A proposal for verifying rules on large training runs by monitoring compute. Section 6 covers the chip supply chain and how concentrated it is.*
+
 XLab. "2.3.1 Observable Signatures of Undeclared AI Development." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-signatures)
 *The source lesson this page adapts, including the collection map.*
 :::
