@@ -1,6 +1,6 @@
 ---
 id: '3caea549-faad-4153-b4d8-85def1479af4'
-title: "Policy judgment: what role should hardware play?"
+title: "Policy Judgment: What Role Should Hardware Play?"
 tldr: "The most common error is calling a demo a regime. Separate five maturity stages and write a hardware assurance brief for a delegation weighing a three-month U.S.-China pause. Then compare your ledger answers now to the ones you gave in Unit 5."
 summary_for_tutor: "The closing lens of the hardware material, at the start of Compute Verification 2. The lens text sets out five maturity stages for hardware verification, from deployed primitive to operating governance regime, and warns against inferring a later stage from early evidence. A current assessment dated August 2026 of what hardware can and cannot yet contribute follows, then the anatomy of an assurance dossier. The hardware assurance brief is a graded, required open question with first-answer feedback: 700 to 1,000 words for a national delegation considering a three-month U.S.-China pause, covering eight required elements. Its rubric weights are claim fidelity 25, trust chain 20, adversary 20, feasibility 15, layering 10, audience and update 10. Review the brief against the eight elements before scoring. Then the claim-ledger widget from the start of Unit 5 appears again. It opens blank, because Lens keeps a widget's answers with the lens it sits on, so the learner reclassifies the seven conclusions and compares them with the ledger they kept in Unit 5. The resolution follows in a closed callout titled Open after you have classified. Do not give those verdicts away before the learner has judged all seven rows."
 tags: [wip]
@@ -9,7 +9,7 @@ tutor_minutes: 30
 ---
 #### Text
 content::
-\### Policy judgment: what role should hardware play?
+\### Policy Judgment: What Role Should Hardware Play?
 
 The most common error in this area is maturity inflation. Separate five stages.
 
