@@ -93,7 +93,7 @@ to:: One possible solution to this limitation is to implement regular in-person 
 #### Text
 content::
 
-Baker proposes a similar solution against the problem of physical access,
+Baker propose a similar solution against the problem of physical access,
  which includes visits to a building that the verifier physically secures as you
 read earlier in [[../Lenses/XLab Verification - v-human-insiders|Whistleblower Programs]].
 
