@@ -41,6 +41,7 @@ options::
 - Bachelors
 - Masters
 - PhD
+- PostDoc / Professor
 - Other
 required:: true
 
