@@ -15,14 +15,10 @@ tutor_minutes:: 0
 content::
 \## What this course is about
 
-How could parties that do not trust one another verify meaningful limits on advanced AI development? The first course worked from motivation to policy scope: why verification matters, what a pause agreement needs to say, who is bound by it, and what hardware can attest to. This course is about the evidence. The first three units each take one stream of it and ask what claims it can support and what it cannot establish on its own. The last two put the picture under adversarial pressure: a full technical verification architecture read closely, and the routes a determined actor would take around it. We built this course on the open-source verification curriculum of [XLab](https://xrisk.uchicago.edu/) at the University of Chicago.
+How could parties that do not trust one another verify meaningful limits on advanced AI development? The first course worked from motivation to policy scope: why verification matters, what a pause agreement needs to say, who is bound by it, and what hardware can attest to. This course is about the evidence. The first three units each take one stream of it and ask what claims it can support and what it cannot establish on its own. The last two put the picture under adversarial pressure: a full technical verification architecture read closely, and the routes a determined actor would take around it. We built this course on the open-source verification curriculum of [XLab](https://xrisk.uchicago.edu/) at the University of Chicago. To send feedback directly to XLab, use [their feedback form](https://forms.gle/KkWcHkKh87pygDzw9).
 
 :::callout {title="This course continues another one" tone="blue"}
-The first course, Compute Verification, is a prerequisite. This one starts from its results and does not restate them: the criteria for judging a mechanism, the actors and chokepoints of the compute supply chain, and the hardware mechanisms up to and including chip attestation and compute accounting. The capstone is a separate course that follows this one. It opens with the feasibility judgments, where you rank the mechanisms you have now read about and defend the ranking, and builds from there to a verification regime of your own design.
-:::
-
-:::callout {title="Alpha version" tone="amber"}
-XLab is testing and calibrating this material with a small cohort before official launch, and the curriculum will likely change after that. Treat sequence, framing, and exercises as provisional. If you find something unclear, wrong, missing, or especially useful, please send feedback through [XLab's feedback form](https://forms.gle/KkWcHkKh87pygDzw9).
+The first course, Compute Verification 1, is a prerequisite. This one starts from its results and does not restate them: the criteria for judging a mechanism, the actors and chokepoints of the compute supply chain, and the hardware mechanisms up to and including chip attestation and compute accounting. The capstone is a separate course that follows this one. It opens with the feasibility judgments, where you rank the mechanisms you have now read about and defend the ranking, and builds from there to a verification regime of your own design.
 :::
 
 \## The path
