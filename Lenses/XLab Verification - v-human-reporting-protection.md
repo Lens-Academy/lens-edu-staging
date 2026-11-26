@@ -1,7 +1,7 @@
 ---
 id: 'b14a66c9-7199-47ac-a777-14045193b072'
 title: "Reporting and protection"
-tldr: "A whistleblower statute is a door, not a corridor. California's SB 53 lets a covered employee walk through to the Attorney General, but says nothing about who protects her name, whether the office can judge the claim, or how a contractor's work order becomes evidence."
+tldr: "A whistleblower statute is not a golden ticket. California's SB 53 lets a covered employee walk through to the Attorney General, but says nothing about who protects her name, whether the office can judge the claim, or how a contractor's work order becomes evidence."
 summary_for_tutor: "A TED video and three readings (California Labor Code 1107 to 1107.2, the AIWI/CARMA best-practice guide, Wasil et al. on whistleblowers), then the Four Levers, One Each widget. The learner assigns one of four leverage chips (a legal right and remedies, the reporter's incentives, a duty on the developer, escalation as professional conduct) to each of four mechanisms, one chip per row, then commits. Each card then shows whether it was matched and what the course says that lever changes. The widget is required: the lens counts as complete once the learner commits. The lens carries the Mechanism to Effect lead above the widget and the sources line below it. What happens once the report reaches the verifier (the CIGIE investigation standards, Follow the report and Audit the verifier) is left for the next lens. A Works cited callout closes the lens. In feedback, cite the statute section or source named in the widget's explanation, and keep the line between what a statute protects and what an institution can actually do."
 tags: [wip]
 reading_minutes: 45
