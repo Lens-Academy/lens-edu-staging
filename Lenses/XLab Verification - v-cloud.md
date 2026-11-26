@@ -103,7 +103,7 @@ to:: | Training dataset | _Workload classification, compute accounting, detailed
 
 #### Text
 content::
-The explorer below sorts these signals against the two tables this page does not show: the attribute categories of Table 3 and the feasibility verdicts of Table 2. Open all the signals to complete the exercise.
+The explorer below sorts these signals against two tables from the reading this page does not show: the attribute categories of Table 3 and the feasibility verdicts of Table 2. Open all the signals to complete the exercise.
 
 #### Widget
 source:: [[../widgets/heim-signal-explorer]]
