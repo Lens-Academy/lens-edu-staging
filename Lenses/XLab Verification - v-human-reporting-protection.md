@@ -93,8 +93,7 @@ to:: One possible solution to this limitation is to implement regular in-person 
 #### Text
 content::
 
-Baker propose something similar for the problem of physical access:
- which includes visits to a building that the verifier physically secures as you
+Baker propose something similar for the problem of physical access: visits to a building that the verifier physically secures as you
 read earlier in [[../Lenses/XLab Verification - v-human-insiders|Whistleblower Programs]].
 
 Legal permission, a financial incentive, and a web form do not by themselves
