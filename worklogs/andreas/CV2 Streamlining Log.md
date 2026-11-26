@@ -141,6 +141,7 @@ The others look clean: RAND's statistics, Scher's Tables 1 and 2, Baker's layers
 - **Cankaya, third table.** The empty sixth column is in the LessWrong original too. Removed.
 - **No change needed.** Heim's Table 4 and Brundage's assurance levels: the line breaks render as breaks. Heim's Table 4 is about 5,000 pixels tall and scrolls sideways in the reading column, and Brundage's Table 3 scrolls about 95 pixels. That comes from long text in five columns, not from the import.
 - **Open.** Brundage's AAL-1 cell reads "checkpoints/-variants", possibly a PDF artifact; the paper was not reachable to check. The collapsed "omitted text" panels between excerpts also hold tables (Heim's Table 1 is garbled there). Learners see them only if they expand a panel, so they were not checked.
+
 ## 8. How the stated times count questions
 
 Checked 2026-11-24 for Andreas's question. The load map uses each page's stated reading and tutor minutes. Those were set at import (22 November), and nothing records how they were counted. The totals settle it for one page only:
