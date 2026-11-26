@@ -137,7 +137,7 @@ The step that gets skipped. Whatever the chosen action, the record should carry:
 
 - The **confidence** attached to the assessment;
 - Any **dissent** among the analysts;
-- The **unresolved blind spots** — what nobody could see, as distinct from what
+- The **unresolved blind spots**: what nobody could see, as distinct from what
   was looked at and found clean.
 
 An assessment that hides its own uncertainty is worth less than one that states
