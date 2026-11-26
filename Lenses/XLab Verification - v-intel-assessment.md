@@ -4,7 +4,7 @@ title: "From Signal to Intelligence Assessment"
 tldr: "A sensor records a hot roof. You infer chips. You judge a covert run. Those are three different claims, and most fights about evidence are fights about the assumption in the middle. Learn to keep observation, inference and judgment apart, ask what else explains the signal, and know what a source is worth before you escalate."
 summary_for_tutor: "A short reading on turning a signal into an assessment, with no questions. It separates observation, inference and judgment, names what breaks the chain (alternative explanations, dual-use ambiguity, base rates such as the roughly 500 datacenters above 10 MW), gives four source-quality questions (reliability, timeliness, corroboration, confidence), and states the progression from anomaly to verification lead to suspected non-compliance. One required reading follows: the CIA Tradecraft Primer sections on the Quality of Information Check, Indicators or Signposts of Change, and Analysis of Competing Hypotheses. A Works cited callout closes the lens. If the learner brings a scenario, coach them to label each statement as observation, inference or judgment."
 tags: [wip]
-reading_minutes: 10
+reading_minutes: 15
 tutor_minutes: 0
 ---
 #### Text
