@@ -300,39 +300,45 @@ Developing two lists of indicators for each hypothesis or scenario may prove use
 
 **Tracking the Potential for Political Instability in a Foreign Country**
 
-| Topics | Indicators | 1999 I | 1999 II | 1999 III | 1999 IV | 2000 I | 2000 II | 2000 III |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Government Capacity** | Quality of leadership/organizational capabilities | 🟠 | 🟠 | 🟠 | 🟥 | 🔴 | 🟠 | 🟠 |
-|  | Responsiveness to popular demands | 🟠 | 🟢 | 🔴 | 🟠 | 🟠 | 🟠 | 🟠 |
-|  | Ability to deliver basic goods and services |  |  |  |  |  |  |  |
-|  | Internal Security Capabilities |  |  |  |  |  |  |  |
-|  | Effectiveness of civil/criminal justice systems |  |  |  |  |  |  |  |
-| **Legitimacy of Regime** | Breadth and depth of political participation | 🟢 | 🟢 | 🟢 | 🟠 | 🟠 | 🟠 | 🟠 |
-|  | Perceived level of corruption | 🟠 | 🟢 | 🟢 | 🟢 | 🟢 | 🟠 | 🟠 |
-|  | Human rights violations | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 |
-|  | Weakness of civil society |  |  |  |  |  |  |  |
-|  | Pervasiveness of transnational criminal organizations |  |  |  |  |  |  |  |
-|  | External support for government |  |  |  |  |  |  |  |
-| **Opposition Activity** | Ethnic/religious discontent | 🟠 | 🟢 | 🟠 | 🟠 | 🔴 | 🔴 | 🔴 |
-|  | Military discontent with civilian government | 🟠 | 🟠 | 🟠 | 🔴 | 🔴 | 🔴 | 🔴 |
-|  | Popular demonstrations/strikes/riots |  |  |  |  |  |  |  |
-|  | Insurgent/separatist/terrorist group activity |  |  |  |  |  |  |  |
-|  | External support for opposition |  |  |  |  |  |  |  |
-|  | Threat of conflict with or in neighboring state |  |  |  |  |  |  |  |
-| **Economic Factors** | Weakness of domestic economy/unemployment/inflation |  |  |  |  |  |  |  |
-|  | Degree of income disparity |  |  |  |  |  |  |  |
-|  | Capital flight |  |  |  |  |  |  |  |
-|  | Decreased access to foreign funds |  |  |  |  |  |  |  |
-|  | Reduced trade openness |  |  |  |  |  |  |  |
-| **Environmental Issues** | Extent of environmental degradation |  |  |  |  |  |  |  |
-|  | Food/energy shortages |  |  |  |  |  |  |  |
-|  | Ability to respond to natural disasters |  |  |  |  |  |  |  |
-| **Presence of Trigger Mechanisms** (▶ if present) | Contested elections |  |  |  | ▶ |  |  |  |
-|  | Unpopular changes in food/energy prices |  |  | ▶ |  |  |  |  |
-|  | Sudden imposition of unpopular policies |  |  |  |  |  |  |  |
-|  | Coup plotting |  |  |  | ▶ |  |  |  |
-|  | Government mismanagement of natural disaster or national emergency |  |  |  |  |  |  |  |
-|  | Death of key figure |  |  |  |  |  |  |  |
+| {--{"author":"Andreas's AI","timestamp":1795677547732}@@Topics | --}Indicators | 1999 I | {--{"author":"Andreas's AI","timestamp":1795677547732}@@1999 --}II | {--{"author":"Andreas's AI","timestamp":1795677547732}@@1999 --}III |{--{"author":"Andreas's AI","timestamp":1795677547732}@@ 1999--} IV | 2000 I | {--{"author":"Andreas's AI","timestamp":1795677547732}@@2000 --}II | {--{"author":"Andreas's AI","timestamp":1795677547732}@@2000 --}III |
+{--{"author":"Andreas's AI","timestamp":1795677547732}@@| --- --}| --- | --- | --- | --- | --- | --- | --- | --- |
+| **Government Capacity** |{++{"author":"Andreas's AI","timestamp":1795677547732}@@  |  |  |  |  |  |  |
+|++} Quality of {--{"author":"Andreas's AI","timestamp":1795677547732}@@leadership/organizational--}{++{"author":"Andreas's AI","timestamp":1795677547732}@@leadership / organizational++} capabilities | 🟠 | 🟠 | 🟠 | 🟥 | 🔴 | 🟠 | 🟠 |
+{--{"author":"Andreas's AI","timestamp":1795677547732}@@|  --}| Responsiveness to popular demands | 🟠 | 🟢 | 🔴 | 🟠 | 🟠 | 🟠 | 🟠 |
+{--{"author":"Andreas's AI","timestamp":1795677547732}@@|  --}| Ability to deliver basic goods and services |  |  |  |  |  |  |  |
+|{--{"author":"Andreas's AI","timestamp":1795677547732}@@  |--} Internal Security Capabilities |  |  |  |  |  |  |  |
+{--{"author":"Andreas's AI","timestamp":1795677547732}@@|  --}| Effectiveness of civil/criminal justice systems |  |  |  |  |  |  |  |
+| **Legitimacy of Regime** |{++{"author":"Andreas's AI","timestamp":1795677547732}@@  |  |  |  |  |  |  |
+|++} Breadth and depth of political participation | 🟢 | 🟢 | 🟢 | 🟠 | 🟠 | 🟠 | 🟠 |
+{--{"author":"Andreas's AI","timestamp":1795677547732}@@|  --}| Perceived level of corruption | 🟠 | 🟢 | 🟢 | 🟢 | 🟢 | 🟠 | 🟠 |
+|{--{"author":"Andreas's AI","timestamp":1795677547732}@@  |--} Human rights violations | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 |
+{--{"author":"Andreas's AI","timestamp":1795677547732}@@|  --}| Weakness of civil society |  |  |  |  |  |  |  |
+{--{"author":"Andreas's AI","timestamp":1795677547732}@@|  --}| Pervasiveness of transnational criminal organizations |  |  |  |  |  |  |  |
+|{--{"author":"Andreas's AI","timestamp":1795677547732}@@  |--} External support for government |  |  |  |  |  |  |  |
+| **Opposition Activity** |{++{"author":"Andreas's AI","timestamp":1795677547732}@@  |  |  |  |  |  |  |
+|++} Ethnic/religious discontent | 🟠 | 🟢 | 🟠 | 🟠 | 🔴 | 🔴 | 🔴 |
+{--{"author":"Andreas's AI","timestamp":1795677547732}@@|  --}| Military discontent with civilian government | 🟠 | 🟠 | 🟠 | 🔴 | 🔴 | 🔴 | 🔴 |
+{--{"author":"Andreas's AI","timestamp":1795677547732}@@|  --}| Popular {--{"author":"Andreas's AI","timestamp":1795677547732}@@demonstrations/strikes/riots--}{++{"author":"Andreas's AI","timestamp":1795677547732}@@demonstrations / strikes / riots++} |  |  |  |  |  |  |  |
+|{--{"author":"Andreas's AI","timestamp":1795677547732}@@  | Insurgent/separatist/terrorist --}{++{"author":"Andreas's AI","timestamp":1795677547732}@@ Insurgent / separatist / terrorist ++}group activity |  |  |  |  |  |  |  |
+|{--{"author":"Andreas's AI","timestamp":1795677547732}@@  |--} External support for opposition |  |  |  |  |  |  |  |
+{--{"author":"Andreas's AI","timestamp":1795677547732}@@|  --}| Threat of conflict with or in neighboring state |  |  |  |  |  |  |  |
+| **Economic Factors** |{++{"author":"Andreas's AI","timestamp":1795677547732}@@  |  |  |  |  |  |  |
+|++} Weakness of domestic {--{"author":"Andreas's AI","timestamp":1795677547732}@@economy/unemployment/inflation--}{++{"author":"Andreas's AI","timestamp":1795677547732}@@economy / unemployment / inflation++} |  |  |  |  |  |  |  |
+{--{"author":"Andreas's AI","timestamp":1795677547732}@@|  --}| Degree of income disparity |  |  |  |  |  |  |  |
+{--{"author":"Andreas's AI","timestamp":1795677547732}@@|  --}| Capital flight |  |  |  |  |  |  |  |
+|{--{"author":"Andreas's AI","timestamp":1795677547732}@@  |--} Decreased access to foreign funds |  |  |  |  |  |  |  |
+{--{"author":"Andreas's AI","timestamp":1795677547732}@@|  --}| Reduced trade openness |  |  |  |  |  |  |  |
+| **Environmental Issues** |{++{"author":"Andreas's AI","timestamp":1795677547732}@@  |  |  |  |  |  |  |
+|++} Extent of environmental degradation |  |  |  |  |  |  |  |
+{--{"author":"Andreas's AI","timestamp":1795677547732}@@|  --}| Food/energy shortages |  |  |  |  |  |  |  |
+|{--{"author":"Andreas's AI","timestamp":1795677547732}@@  |--} Ability to respond to natural disasters |  |  |  |  |  |  |  |
+| **Presence of Trigger Mechanisms** (▶ if present) |{++{"author":"Andreas's AI","timestamp":1795677547732}@@  |  |  |  |  |  |  |
+|++} Contested elections |  |  |  | ▶ |  |  |  |
+{--{"author":"Andreas's AI","timestamp":1795677547732}@@|  --}| Unpopular changes in food/energy prices |  |  | ▶ |  |  |  |  |
+{--{"author":"Andreas's AI","timestamp":1795677547732}@@|  --}| Sudden imposition of unpopular policies |  |  |  |  |  |  |  |
+|{--{"author":"Andreas's AI","timestamp":1795677547732}@@  |--} Coup plotting |  |  |  | ▶ |  |  |  |
+{--{"author":"Andreas's AI","timestamp":1795677547732}@@|  --}| Government mismanagement of natural disaster or national emergency |  |  |  |  |  |  |  |
+{--{"author":"Andreas's AI","timestamp":1795677547732}@@|  --}| Death of key figure |  |  |  |  |  |  |  |
 
 🟥 Serious concern
 
