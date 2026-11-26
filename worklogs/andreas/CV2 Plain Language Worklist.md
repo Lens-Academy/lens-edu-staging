@@ -460,6 +460,7 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 - **tldrs** (frontmatter, so the candidates are in Claude's reply, not on the page):
     - **Cheating lens:** the facts come first, then "None of it proves anything on its own". "Not X or Y, but Z" goes, and "careful" replaces "honest".
     - **Close reading:** "find the step where the conclusion outruns the proof" becomes "examine one part of it in depth".
+
 ### Welcome to Unit 9
 
 [[../../modules/XLab Verification Part 2 W09 Covert development and the low-trust architecture]], inline. Lens's throughout.
