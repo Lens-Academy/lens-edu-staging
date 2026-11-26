@@ -1,7 +1,7 @@
 ---
 id: 'cd84e9b9-680c-47b8-935f-61e4ed8a49c1'
 title: "Evasion scenario taxonomy"
-tldr: "Ten routes around an AI agreement, each with the layers it targets and the people it needs. A realistic scheme is one primary route plus several supporting tactics, so practice telling them apart on a familiar caas."
+tldr: "Ten routes around an AI agreement, each with the layers it targets and the people it needs. A realistic scheme is one primary route plus several supporting tactics, so practice telling them apart on a familiar case."
 summary_for_tutor: "The ten-route evasion taxonomy as a table, with the primary layers each route targets and the actors each needs. This is the before-the-case version, so the instruction is to identify the move, the channel and the actors, and NOT to rank the routes. The scored version, with technical feasibility, organizational feasibility, verification effectiveness and durability, comes after the red-team exercise in the last lens of this unit. One graded, required open question with first-answer feedback asks the learner to decompose the Training Through the Pause scenario from Unit 9 into one primary route plus supporting tactics. There are two defensible primaries, route 7 and route 5. What is graded is whether the decomposition is coherent, not which primary is chosen. A Works cited callout closes the lens."
 tags: [wip]
 reading_minutes: 5
