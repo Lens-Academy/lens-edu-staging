@@ -119,7 +119,6 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
     - The Unit 9 box no longer promises a flaw. Its "a step of your choice" fits questions 3, 4 and 7 better than 9, which applies the system to a new case. This depends on the question 9 decision below.
     - The same Unit 9 promise is still in the Unit 9 welcome's third bullet and in the close reading's tldr, for when Andreas reaches Unit 9.
     - Question 9 stays one of four to choose from (B17), so "a step of your choice" in the Unit 9 box fits questions 3, 4 and 7 but not 9. "One part of your choice" would cover all four. Minor.
-- **Policy studio tldr:** cleared. The dossier phrase is removed.
 
 ## Unit 6: Hardware Judgment and Cloud Records
 
