@@ -17,7 +17,7 @@ content::
 
 - Find where cloud oversight runs out, and stop at what a record actually proves.{>>{"author":"Andreas's AI","timestamp":1795627321076}@@Stage 7 flag (T7): "actually proves". The third bullet's "treaty text that protects sensors" needs decoding, as in the overview: the clauses forbid interfering with each side's national technical means, a term the learner has not met yet.<<}
 - Name the observable signatures of an undeclared training run, and explain how a signal becomes an assessment.
-- Red-line treaty text that protects sensors but obliges nobody to share what they see.
+- Red-line a treaty that protects sensors but obliges nobody to share what they see.
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-cloud-detection-gaps]]
