@@ -40,5 +40,5 @@ Turn to the perspective of the adversary, then one long close reading. First a w
 :::
 
 :::callout {title="Unit 10: Evasion Routes and the Red Team Review" tone="blue"}
-Why defining cheating comes before detecting it, why layered defences only work when the layers fail differently, and a taxonomy of ten routes around an agreement. The unit ends in the written output the course builds to: an expert review deciding which obligations of a draft treaty the verification system from Unit 9 could feasibly carry, and which it cannot.
+Why defining cheating comes before detecting it, why layered defenses only work when the layers fail differently, and a taxonomy of ten routes around an agreement. The unit ends in the written output the course builds to: an expert review deciding which obligations of a draft treaty the verification system from Unit 9 could feasibly carry, and which it cannot.
 :::
