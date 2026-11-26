@@ -46,7 +46,7 @@ to:: The loss of value of equity does not count as damage to or loss of property
 content::
 
 :::callout {title="What the contract clause covers" tone="blue"}
-The operative language says a developer "shall not … enter into a … contract that prevents a covered employee from disclosing." — [California Labor Code §1107.1(a)](https://www.leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=5.1.&division=2.&lawCode=LAB&part=3.&title=)
+The operative language says a developer "shall not … enter into a … contract that prevents a covered employee from disclosing" ([California Labor Code §1107.1(a)](https://www.leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=5.1.&division=2.&lawCode=LAB&part=3.&title=)).
 
 Read that sentence together with the statute's definition of a covered
 employee, its two protected subjects, and its named recipients. The protection
@@ -59,7 +59,7 @@ also notes that public disclosure is not expressly protected by the chapter.
 
 Beyond explicit statutory enactments, see _AI Whistleblowing Law:
 Best Practice Guide_ for a more comprehensive framework for effective
-implementation of whistleblower protections. The core idea is: "whistleblower rights must override confidentiality/nondisclosure agreements." — [AIWI/CARMA, Retaliation Protection](https://aiwi.org/ai-whistleblowing-law-best-practice/)
+implementation of whistleblower protections. The core idea is: "whistleblower rights must override confidentiality/nondisclosure agreements" ([AIWI/CARMA, Retaliation Protection](https://aiwi.org/ai-whistleblowing-law-best-practice/)).
 
 \### AI Whistleblowing Law: Best Practice Guide
 Abra Ganz and Karl Koch | AIWI and CARMA (2026)
