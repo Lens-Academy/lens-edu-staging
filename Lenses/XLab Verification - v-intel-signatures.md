@@ -98,7 +98,7 @@ suspicious-activity reporting as named institutional precedents.
 Financial intelligence is rated **High** feasibility, under one year: covert AI
 projects are very expensive and might leave a substantial money trail across raw
 materials, chips, and datacenter components (Scher and Thiergart). Covert fabs
-are detectable by monitoring the lithography-equipment supply chain — a
+are detectable by monitoring the lithography-equipment supply chain, a
 chokepoint of a few dozen capable facilities worldwide (Shavit §6). The Huawei
 shadow-fab network surfaced in 2023 through exactly this channel.
 
@@ -116,10 +116,10 @@ supplemental mechanisms.
 The cards above sort into four families, and it is worth being able to name
 which one a given observation belongs to:
 
-- **Facility signatures** — what the building is and looks like.
-- **Resource-flow signatures** — power, water, chips, money moving in.
-- **Organizational signatures** — who is hired, who contracts with whom.
-- **Operational signatures** — what the site does, and when.
+- **Facility signatures:** what the building is and looks like.
+- **Resource-flow signatures:** power, water, chips, money moving in.
+- **Organizational signatures:** who is hired, who contracts with whom.
+- **Operational signatures:** what the site does, and when.
 
 \## How we see traces
 
