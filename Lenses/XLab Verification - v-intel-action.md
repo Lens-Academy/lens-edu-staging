@@ -20,7 +20,7 @@ sharing, strong on protection.**
 
 Nuclear treaties impose no obligation on intelligence agencies to share with
 treaty verifiers. Sharing is voluntary, informal, and inconsistent (Baker
-§2.3.3) — and protection of sources and methods is *why*. Third-party verifiers
+§2.3.3), and protection of sources and methods is *why*. Third-party verifiers
 lack major states' collection capabilities, so the body formally charged with
 verifying is rarely the body that can see.
 
@@ -33,7 +33,7 @@ noninterference "one of the earliest and easiest points of agreement" in those
 negotiations.
 
 This is the low-hanging fruit of the whole unit. Note the contrast with
-sharing, where drafting is hard — a point worth carrying into the written
+sharing, where drafting is hard. The contrast is worth carrying into the written
 output.
 
 \## Architecture: national or international?
