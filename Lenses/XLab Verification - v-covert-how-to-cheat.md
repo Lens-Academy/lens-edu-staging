@@ -20,7 +20,7 @@ A determined actor might try to conceal:
 
 - Who is really acting or benefiting;
 - Where the relevant hardware is located;
-- What a declared cluster is actually doing;
+- What a declared cluster is doing;
 - Where a model or capability came from;
 - Whether a threshold or definition has been crossed; or
 - Whether reliable evidence ever reaches the verifier.
