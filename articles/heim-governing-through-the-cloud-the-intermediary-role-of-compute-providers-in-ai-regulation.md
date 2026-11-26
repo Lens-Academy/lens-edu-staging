@@ -52,11 +52,10 @@ We focus on frontier AI systems, which have the potential to give rise to danger
 
 Governance Capacities — We propose that compute providers can leverage their crucial role in the AI supply chain to secure infrastructure and serve as the intermediate node in support of regulatory objectives while maintaining customers’ privacy and rights. They can facilitate effective AI regulation via four key capacities: as _securers_, _record keepers_, _verifiers_, and, in some cases, even _enforcers_. Reporting represents a related yet distinct dimension, wherein compute providers provide information to authorities as mandated by law or regulations. ([Section 2])
 
-{--{"author":"Andreas's AI","timestamp":1795676750237}@@| Governance Capacities |  |  |  --}{++{"author":"Andreas's AI","timestamp":1795676750237}@@**Governance Capacities**
+**Governance Capacities**
 
-| Security ++}|{--{"author":"Andreas's AI","timestamp":1795676750237}@@
-| --- | -----}{++{"author":"Andreas's AI","timestamp":1795676750237}@@ Record Keeping++} | {--{"author":"Andreas's AI","timestamp":1795676750237}@@-----}{++{"author":"Andreas's AI","timestamp":1795676750237}@@Verification++} | {--{"author":"Andreas's AI","timestamp":1795676750237}@@-----}{++{"author":"Andreas's AI","timestamp":1795676750237}@@Enforcement++} |
-| {--{"author":"Andreas's AI","timestamp":1795676750237}@@**Security**--}{++{"author":"Andreas's AI","timestamp":1795676750237}@@---++} |{--{"author":"Andreas's AI","timestamp":1795676750237}@@ **Record Keeping**--}{++{"author":"Andreas's AI","timestamp":1795676750237}@@ ---++} | {--{"author":"Andreas's AI","timestamp":1795676750237}@@**Verification**--}{++{"author":"Andreas's AI","timestamp":1795676750237}@@---++} | {--{"author":"Andreas's AI","timestamp":1795676750237}@@**Enforcement**--}{++{"author":"Andreas's AI","timestamp":1795676750237}@@---++} |
+| Security | Record Keeping | Verification | Enforcement |
+| --- | --- | --- | --- |
 | Helping provide physical and cybersecurity measures to secure the AI model, related intellectual property, and personal and confidential data. | The selective collection, organization, and maintenance of high-level information of a compute provider’s infrastructure usage, such as a customer’s compute usage data.[^note-1] | Actively verifying customer identities, specific activities, and high-level AI systems’ properties. | Restriction or limitation of compute access to customers or workloads for non-compliant customers. |
 | **Enables** |  |  |  |
 | Enables shared security standards to protect the public good, such as safeguarding critical infrastructure and helping prevent model theft. | Increases visibility into AI development, links customers and their usage to real-world actors, and enables post-incident attributions and forensics. | Ensures that the deployment and development of AI systems adhere to regulations or company policies and reported properties. | Directly impacts the capability of customers to develop or deploy advanced AI systems, ensuring adherence to rules. |
@@ -155,11 +154,10 @@ By capitalizing on their position as infrastructure providers, compute providers
 
 Compute providers can facilitate effective AI regulation via four key capacities. They can be _securers_, _record keepers_, _verifiers_, and, in some cases, even _enforcers_ ([Sections 2.2] and [4]).
 
-{--{"author":"Andreas's AI","timestamp":1795676755729}@@| Governance Capacities |  |  |  --}{++{"author":"Andreas's AI","timestamp":1795676755729}@@**Governance Capacities**
+**Governance Capacities**
 
-| Security ++}|{--{"author":"Andreas's AI","timestamp":1795676755729}@@
-| --- | -----}{++{"author":"Andreas's AI","timestamp":1795676755729}@@ Record Keeping++} | {--{"author":"Andreas's AI","timestamp":1795676755729}@@-----}{++{"author":"Andreas's AI","timestamp":1795676755729}@@Verification++} | {--{"author":"Andreas's AI","timestamp":1795676755729}@@-----}{++{"author":"Andreas's AI","timestamp":1795676755729}@@Enforcement++} |
-| {--{"author":"Andreas's AI","timestamp":1795676755729}@@**Security**--}{++{"author":"Andreas's AI","timestamp":1795676755729}@@---++} |{--{"author":"Andreas's AI","timestamp":1795676755729}@@ **Record Keeping**--}{++{"author":"Andreas's AI","timestamp":1795676755729}@@ ---++} | {--{"author":"Andreas's AI","timestamp":1795676755729}@@**Verification**--}{++{"author":"Andreas's AI","timestamp":1795676755729}@@---++} | {--{"author":"Andreas's AI","timestamp":1795676755729}@@**Enforcement**--}{++{"author":"Andreas's AI","timestamp":1795676755729}@@---++} |
+| Security | Record Keeping | Verification | Enforcement |
+| --- | --- | --- | --- |
 | Helping provide physical and cybersecurity measures to secure the AI model, related intellectual property, and personal and confidential data. | The selective collection, organization, and maintenance of high-level information of a compute provider’s infrastructure usage, such as a customer’s compute usage data.[^note-13] | Actively verifying customer identities, specific activities, and high-level AI systems’ properties. | Restriction or limitation of compute access to customers or workloads for non-compliant customers. |
 | **Enables** |  |  |  |
 | Enables shared security standards to protect the public good, such as safeguarding critical infrastructure and helping prevent model theft. | Increases visibility into AI development, links customers and their usage to real-world actors, and enables post-incident attributions and forensics. | Ensures that the deployment and development of AI systems adhere to regulations or company policies and reported properties. | Directly impacts the capability of customers to develop or deploy advanced AI systems, ensuring adherence to rules. |
