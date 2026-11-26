@@ -28,7 +28,7 @@ XLab is testing and calibrating this material with a small cohort before officia
 \## The path
 
 :::callout {title="Unit 6: Hardware Judgment and Cloud Records" tone="blue"}
-Where does hardware verification fit in practice, as opposed to where a demo suggests it stands? You separate maturity stages, write a hardware assurance brief for a delegation weighing a three-month pause, and then turn to the cloud: what a provider's own billing, identity and workload records can prove about a training run, and how know-your-customer rules from finance were transferred to {--{"author":"Andreas's AI","timestamp":1795638565936}@@compute.{>>{"author":"Andreas's AI","timestamp":1795627189895}@@Stage 7 flag (T7): "actually stand". Also "ported to compute" is programmers' slang. The Unit 6 welcome says "carried over".<<}--}{++{"author":"Andreas's AI","timestamp":1795638565936}@@compute.++}
+Where does hardware verification fit in practice, as opposed to where a demo suggests it stands? You separate maturity stages, write a hardware assurance brief for a delegation weighing a three-month pause, and then turn to the cloud: what a provider's own billing, identity and workload records can prove about a training run, and how know-your-customer rules from finance were transferred to compute.
 :::
 
 :::callout {title="Unit 7: Cloud Limits and Intelligence" tone="blue"}
@@ -44,5 +44,5 @@ Discover the adversarial turn, then one long close reading. First a worked case:
 :::
 
 :::callout {title="Unit 10: Evasion Routes and the Red Team Review" tone="blue"}
-Why defining cheating comes before detecting it, why layered defences only work when the layers fail differently, and a taxonomy of ten routes around an agreement. The unit ends in the written output the course builds to: an expert review deciding which obligations of a draft treaty the verification system from Unit 9 could feasibly carry, and which it {--{"author":"Andreas's AI","timestamp":1795638568650}@@cannot.{>>{"author":"Andreas's AI","timestamp":1795627202123}@@Stage 7 flag (T7): "could actually carry". "Which it cannot touch" is mannered. The plain version says which obligations the system does not cover.<<}--}{++{"author":"Andreas's AI","timestamp":1795638568650}@@cannot.++}
+Why defining cheating comes before detecting it, why layered defences only work when the layers fail differently, and a taxonomy of ten routes around an agreement. The unit ends in the written output the course builds to: an expert review deciding which obligations of a draft treaty the verification system from Unit 9 could feasibly carry, and which it cannot.
 :::
