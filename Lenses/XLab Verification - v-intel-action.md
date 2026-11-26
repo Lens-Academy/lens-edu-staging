@@ -93,7 +93,7 @@ computation, attestation — is covered with the privacy-preserving mechanisms i
 - MIRI draft US–China agreement — Article II's definitions and Article X,
   verbatim (pp. 20, 39–40). The passages excerpted above are the ones this
   section turns on. Ideally you have read the whole draft treaty at this point.
-Read Baker's section on intelligence sharing, then compare the institutional options in *Six Layers*.{>>{"author":"Andreas's AI","timestamp":1795627339449}@@Stage 7 flag: a semicolon in the bullet, and "ideally read the whole draft treaty at this point" leaves the learner unsure whether that is asked of them {--{"author":"Andreas's AI","timestamp":1795627368340}@@(it--}{++{"author":"Andreas's AI","timestamp":1795627368340}@@(the whole draft++} is about {--{"author":"Andreas's AI","timestamp":1795627368340}@@40 pages,--}{++{"author":"Andreas's AI","timestamp":1795627368340}@@31,000 words,++} and no time is counted for it). The block also mixes a one-item list with a plain line after it.<<}
+Read Baker's section on intelligence sharing, then compare the institutional options in *Six Layers*.
 
 #### Article
 source:: [[../articles/baker-nuclear-arms-control-verification-and-lessons-for-ai-treaties]]
