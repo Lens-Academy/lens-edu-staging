@@ -70,13 +70,13 @@ feasibility, their sole non-High intelligence mechanism. Three reasons:
 
 - Covert generation at the roughly 130 MW scale of a 100k-H100 cluster is
   plausible, comparable to military naval reactors.
-- Around 500 datacenters worldwide exceed 10 MW — a large haystack (2024–25
+- Around 500 datacenters worldwide exceed 10 MW, a large haystack (2024–25
   figures).
 - Chip performance-per-watt improves about 1.6× a year, steadily shrinking the
   energy signature of any fixed quantity of compute.
 
 Real-world color: the xAI Memphis behind-the-meter gas turbines were surfaced
-by aerial thermal imaging — the signature and the workaround in one case.
+by aerial thermal imaging: the signature and the workaround in one case.
 
 :::callout {title="Architecture changes the picture" tone="blue"}
 Power consumption is architecture-dependent, so the same facility can change
