@@ -32,7 +32,7 @@ content::
 
 \## On Paper
 
-Optional, 7 to 10 minutes. Reconstruct one route out of the organization and one route from allegation to usable evidence.
+Optional. Reconstruct one route out of the organization and one route from allegation to usable evidence.
 
 #### Widget
 source:: [[../widgets/human-reporting-protection]]
@@ -46,7 +46,7 @@ content::
 **Evidence finding.** Preserved and corroborated records may support one fact without supporting the larger allegation. The transmitted package must say exactly where that boundary lies.
 :::
 
-\## Audit the verifier (15–20 min)
+\## Audit the verifier
 
 Inspect the institution before relying on its finding. Then separate what the human record establishes from what still requires technical or physical evidence, and match each decision to its legal and evidentiary threshold.
 
