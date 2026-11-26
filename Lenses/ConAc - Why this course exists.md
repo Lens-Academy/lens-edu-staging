@@ -7,7 +7,6 @@ reading_minutes: 2
 tutor_minutes: 0
 tags: [wip]
 ---
-%% Draft by Elias's AI, 24 Nov 2026, from Elias's own notes (Signal 24 Nov 14:59). Placed before "How this course works" in the same module. The schedule is left out because it is not decided yet (the course description says eight weeks, the course file has six meetings). Add it under "What you will do" once it is settled. %%
 
 #### Text
 content::
