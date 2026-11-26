@@ -510,6 +510,30 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 
 ## Unit 10: Evasion Routes and the Red Team Review
 
+**Units 8 and 9 complete, 2026-11-25, night.** The "Baker et al." suggestion and the Unit 9 welcome bullet are accepted, both tldrs are rewritten, and no flags remain in either unit. On the cheating lens, Andreas left out "None of it proves anything on its own", which is fine. "Works towards" is for stage 8.
+
+**Review of Andreas's Unit 10 rewrites, same night.**
+
+- **Cleared** (comment removals pending):
+    - The Swiss-cheese question ("actually" gone).
+    - Red team review line 21.
+    - Red team review line 23. Andreas deleted the "Neither was written" sentence as factually wrong, and the semicolon became "while".
+    - Red team review line 222, now "Two things to keep in mind". Andreas asked what was wrong with the setup. Nothing much: T7 flags phrases that announce what is coming rather than saying it, but this one tells the reader two caveats follow, which helps. The semicolon was the concrete issue, and it is gone.
+    - The red team tldr ("which it cannot").
+- **Suggestions made in the text for Andreas to accept:**
+    - **The Swiss-cheese paragraph, line 40, XLab's.** The new version drops "It is important to take advantage of the unique strengths…" and "affected by intersection", which did not parse, and keeps the point about human sources: "Each layer has its own strengths and its own ways of failing, and a regime gets the most from its layers by knowing both. Whistleblowers and other human sources, covered in Unit 8, can raise a suspicion… But they usually work alongside the other layers, confirming a finding or pointing to where to look, rather than proving a violation on their own."
+    - **The cases question, line 82.** Andreas's rewording said "exposes" twice. The suggestion is "say which layer of the verification stack it concerns and what limit of that layer it exposes."
+    - **The taxonomy's line 19.** The punchline is cut, since line 17 already says not to rank yet.
+    - **The taxonomy question, rewritten to match its grading.**
+        - The opening line loses its list.
+        - The recap's long sentence becomes four.
+        - The task becomes three plain questions: "Which route is primary, and why? Which routes support it? For each part of the scheme, who would see it, and what would they see instead of a violation?"
+- **tldrs** (candidates in Claude's reply):
+    - **The cheating lens.** Andreas's merge reads "will not bypass a mechanism rather than attack it", which says the opposite of what is meant. The candidate fixes that and replaces the closing verdict with what the lens draws from nuclear history.
+    - **The taxonomy.** The candidate drops "as moves rather than as a list" and the verdict ending.
+- **Optional, XLab's:** the WIRED card on the cheating lens (line 92) still has "zero-day" unexplained and ends on "the monitoring gap, not the exploit, is the verification lesson".
+
+With all of these accepted, the production check shows no errors and the usual 25 warnings.
 ### Welcome to Unit 10
 
 [[../../modules/XLab Verification Part 2 W10 Evasion routes and the red team review]], inline. Lens's throughout. **Passes**, and so does the tldr. **Left for stage 8:** "defences".
