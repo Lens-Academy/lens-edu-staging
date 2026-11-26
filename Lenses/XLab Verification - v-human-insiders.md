@@ -94,7 +94,7 @@ content::
 :::
 
 :::callout {title="Where a report can die (open after you have submitted)" tone="neutral" collapse="closed"}
-Naming where a report dies is the work, so this list sits here and not above the exercise.{>>{"author":"Andreas's AI","timestamp":1795627492985}@@Stage 7 flag: this first sentence explains the course's layout to the learner, like an editor's note, and its "X and not Y" ending is a T3 habit. The callout title already says to open it after submitting, so the sentence can go. "Where a report dies" (here and in the title) is a figure the list below makes literal.<<} Four failures that do not count: the insider lies, the insider is wrong, reporting is illegal, or the verifier ignores the report for no reason.
+{>>{"author":"Andreas's AI","timestamp":1795627492985}@@Stage 7 flag: this first sentence explains the course's layout to the learner, like an editor's note, and its "X and not Y" ending is a T3 habit. The callout title already says to open it after submitting, so the sentence can go. "Where a report dies" (here and in the title) is a figure the list below makes literal.<<} Four failures that do not count: the insider lies, the insider is wrong, reporting is illegal, or the verifier ignores the report for no reason.
 
 Some that do count:
 
