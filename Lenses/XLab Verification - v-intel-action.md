@@ -76,7 +76,7 @@ to:: as relevant to this Agreement.
 
 #### Text
 content::
-Read ¶1(b)(iii) against (i) and (ii). Protection is an undertaking where sharing is
+Read ¶1(b)(iii) against (i) and (ii). Protection is an undertaking whereas sharing is
 an encouragement. That is the core asymmetry of this whole section, and the red-line question at the end of this lens asks you to draft the obligation it declines to {--{"author":"Andreas's AI","timestamp":1795657474582}@@impose.{>>{"author":"Andreas's AI","timestamp":1795627330421}@@Stage 7 flag (carried from the log's section 6, T7): a semicolon in the second sentence, and "That is the asymmetry of this whole section sitting in one paragraph" is a setup line that announces the point after it has been made. "This whole section" is also XLab's framing.<<}--}{++{"author":"Andreas's AI","timestamp":1795657474582}@@impose.++}
 
 \## Authenticating what gets shared
