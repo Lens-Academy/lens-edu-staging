@@ -124,7 +124,7 @@ which one a given observation belongs to:
 \## How we see traces
 
 Those are the signatures. The disciplines below are the ways a watcher picks
-them up — the collection side of the same picture.
+them up, the collection side of the same picture.
 
 #### Text
 content::
