@@ -125,4 +125,11 @@ to:: assumption of sustained returns to scale.
 
 #### Article
 from:: Finally, the extraordinary scale of current investment
-to:: retained earnings of technology firms.
+to:: retained earnings of technology firms.{++{"author":"James's AI","timestamp":1795715031208}@@
+
+#### Question: Open
+id:: 4e7f2510-49d5-4f35-bc1d-081298afc3d5
+content::
+Pick one of the three doctrines from 1.1: dominance, extinction or replacement. Name one fact from this lens about scaling, and say how someone holding that doctrine would read it: as support for their view, or as something their view has to explain away?
+feedback-instructions::
+This is a reflection with no single right answer. In two to four sentences, name the strongest point in the learner's reading, then give one way a holder of a different doctrine could read the same fact. If the learner misstates what the lens says (for example, what a scaling law predicts), correct it in one sentence.++}
