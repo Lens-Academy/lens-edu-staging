@@ -12,14 +12,14 @@ content::
 Every mechanism so far has needed the monitored side to play along. Hardware
 roots of trust and provider reporting share one failure mode: they
 assume cooperation. This section covers the one evidence stream that works
-uninvited — what undeclared frontier-AI development shows to a rival who is
+uninvited: what undeclared frontier-AI development shows to a rival who is
 simply watching, and what a watcher can honestly conclude from it.
 
 The guiding question: **how can states identify possible undeclared frontier-AI
 development without the monitored actor's cooperation?**
 
 Two properties frame the layer. It works without permission, and it works
-today — no new hardware, no new treaty machinery. Three literatures name the
+today, with no new hardware and no new treaty machinery. Three literatures name the
 same thing differently: Wasil et al. call it the national technical means (NTM)
 category, *Six Layers* calls it Layer 6, and Scher and Thiergart call it the
 national-intelligence building blocks.
