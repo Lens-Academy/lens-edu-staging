@@ -151,7 +151,7 @@ to:: Even carefully compartmentalized state projects will likely involve many pe
 
 #### Text
 content::
-Tables 1 and 2 set those same levers against cluster size. Set the two FLOP thresholds and pick a size: the widget recomputes how long that cluster needs to reach each threshold, when it gets registered, and which levers reach it from each side. The paper's own tables follow.{>>{"author":"Andreas's AI","timestamp":1795627325695}@@Stage 7 flag (T6): "from each side" has no sides to resolve to. The two tables are the domestic levers and the international ones. "Set those same levers against cluster size" is also mannered: the tables show which levers reach a cluster of each size.<<}
+Tables 1 and 2 set those same levers against cluster size. Set the two FLOP thresholds and pick a size: the widget recomputes how long that cluster needs to reach each threshold, when it gets registered, and which levers reach it from the domestic and international side. The paper's own tables follow.{>>{"author":"Andreas's AI","timestamp":1795627325695}@@Stage 7 flag (T6): "from each side" has no sides to resolve to. The two tables are the domestic levers and the international ones. "Set those same levers against cluster size" is also mannered: the tables show which levers reach a cluster of each size.<<}
 
 #### Widget
 source:: [[../widgets/scher-threshold-explorer]]
