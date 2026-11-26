@@ -126,7 +126,7 @@ A strong blue-team answer explains:
 
 The standard is not perfect evasion or perfect verification. It is a scenario specific enough to test, and a response honest enough to distinguish suspicion from proof.
 
-Unit 10 asks what a determined actor would actually try, and then lays out the ten routes it could take.
+Unit 10 asks what a determined actor would try, and then lays out the ten routes it could take.
 
 #### Text
 content::
