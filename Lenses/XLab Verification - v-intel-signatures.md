@@ -53,14 +53,14 @@ and it can be defeated by underground or camouflaged construction.
 
 Waste heat, and the narrow temperature band of constant chip operation. Infrared
 imaging, or heat inferred from rooftops where snow never accumulates in winter
-(Baker, footnote 127). Sensing capability is actively improving — HotSat-class
+(Baker, footnote 127). Sensing capability is actively improving: HotSat-class
 commercial thermal satellites are the current example.
 
 \### Energy and the power grid
 
 The unit's most quantitative tool and its most perishable. Measured energy
 delivery can be converted into an approximate FLOP count, which makes large
-unauthorized runs detectable from power draw — coarse violations only (Wasil et
+unauthorized runs detectable from power draw, though only coarse violations (Wasil et
 al.). City-scale draw needs transmission lines visible even in public satellite
 imagery, and burying them is itself a slow, satellite-visible construction
 project (MIRI).
