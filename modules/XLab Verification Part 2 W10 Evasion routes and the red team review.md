@@ -15,7 +15,7 @@ tutor_minutes:: 0
 content::
 \## In this unit you will
 
-- Explain why defining cheating comes before detecting it, and why layered defences only work when the layers fail differently.
+- Explain why defining cheating comes before detecting it, and why layered defenses only work when the layers fail differently.
 - Use a taxonomy of ten routes around an agreement.
 - Write an expert review deciding which obligations of a draft treaty a verification system could carry, and which it cannot.
 
