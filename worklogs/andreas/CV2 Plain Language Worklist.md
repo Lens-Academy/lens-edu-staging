@@ -347,6 +347,25 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 
 ## Unit 8: The Human Layer
 
+**Review of Andreas's rewrites, 2026-11-25, late evening.** Unit 8 is cleared. The welcome's comment removal is pending, and the "Where a report can die" comment was resolved by Andreas when he deleted the sentence, as intended.
+
+- **Welcome.** Small: "the pathway a whistleblower report takes going from insider to verifier" reads more simply without "going".
+- **The human layer tldr.** "Honestly" is gone. Small:
+    - "Enter the world of" is a stock opener.
+    - The list "whistleblowers, interviews, audits, inspections" has no "and".
+    - "This unit is about whistleblowers, interviews, audits and inspections." would do both.
+- **Insiders tldr.** The Content flag is fixed ("optionally work six … sources"). It is exactly 80 words, the limit.
+- **Reporting and protection.**
+    - The tldr now reads "not a golden ticket", but "walk through to the Attorney General" belonged to the old door metaphor and no longer fits. A candidate went to Andreas.
+    - XLab's line 60 is fixed ("see the below" is gone).
+    - Line 96 still reads "a similar solution against the problem of physical access". An optional candidate went to Andreas.
+- **Audits tldr:** cleared.
+- **Institutions:** cleared.
+    - The spoiler is gone ("Find out which of these roles AI already has candidates for").
+    - The judge question is split into two questions and reads well.
+- **After the report arrives:** passed earlier.
+
+**Stage 8 note (Andreas, 25 Nov).** XLab's "section" becomes "lens", "unit" or "module" by context, not always "lens".
 ### Welcome to Unit 8
 
 [[../../modules/XLab Verification Part 2 W08 Insiders and reporting]], inline. Lens's throughout.
