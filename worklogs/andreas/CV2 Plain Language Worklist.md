@@ -118,6 +118,8 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
     - The Unit 7 box's "a treaty that protects sensors" passes. Claude's reason for the flag was wrong, because CV1 teaches national technical means: the by-access map in Measuring Mechanism Effectiveness, the actors table, and the test-ban case. Optional precision: the treaty protects each side's own satellites from interference, which is the opposite of a shared network like the CTBT's IMS. "Bars interfering with each side's satellites" would say that if wanted.
     - The Unit 9 box no longer promises a flaw. Its "a step of your choice" fits questions 3, 4 and 7 better than 9, which applies the system to a new case. This depends on the question 9 decision below.
     - The same Unit 9 promise is still in the Unit 9 welcome's third bullet and in the close reading's tldr, for when Andreas reaches Unit 9.
+    - Question 9 stays one of four to choose from (B17), so "a step of your choice" in the Unit 9 box fits questions 3, 4 and 7 but not 9. "One part of your choice" would cover all four. Minor.
+- **Policy studio tldr:** cleared. The dossier phrase is removed.
 
 ## Unit 6: Hardware Judgment and Cloud Records
 
@@ -180,6 +182,29 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
 - **Page:** passes.
 
 ## Unit 7: Cloud Limits and Intelligence
+
+**Review of Andreas's rewrites, 2026-11-25 evening.** Comment removals are pending Andreas's accept.
+
+- **Cleared:**
+    - The welcome.
+    - Detection gaps (tldr).
+    - The intelligence opener: tldr, and XLab's line 20 kept by Andreas's choice. He also fixed line 18's "the track weights most".
+    - Signatures: the tldr, keeping its images by Andreas's choice, and line 154. Small: "follow after" says "follow" twice.
+    - The anchor's tldr.
+    - On the red-line lens:
+        - **Line 79.** Small: "an undertaking where sharing is an encouragement" can read as "in which". "Whereas" would avoid that.
+        - **The readings block.** Claude's objection was wrong: CV1 Unit 3 assigns the whole MIRI draft, so "Ideally you have read the whole draft treaty" points back to it. Naming CV1 would make that explicit. This comment cannot be removed from Claude's side while its two pending corrections sit inside it, so Andreas can delete it in the editor.
+    - **Cloud evidence tldr.** Andreas asked what was wrong with the closing aphorism. Nothing that needs fixing. "The first" resolves to the one conclusion each record supports, and "only" replaced "exactly", so the flag is withdrawn.
+- **Still open:**
+    - **The assessment tldr:** two semicolons ("A sensor records a hot roof; you infer chips; you judge a covert run") and "really". It is unchanged on the relay as of this review.
+    - **On the red-line lens:**
+        - The precedent sentence (line 91).
+        - "Behind-the-meter" (line 149).
+        - The rule in the question (line 157).
+        - Suggestions for all three went to Andreas on 25 Nov.
+        - The rule turns out to be XLab's own sentence, which our import dropped (see below).
+- **The tldr's "NTM":** a judgment call, kept as Andreas prefers. CV1 never uses the abbreviation, only "national technical means". The intelligence opener in this unit introduces "NTM" in its collapsed callout. IAEA is a better-known name, but the learner has met NTM by this lens.
+- **Where the "symmetric, cheap, and checkable" rule came from.** XLab's intelligence-institutions lesson stated it right after the two treaty passages: "It is a real text, and it is meant to be marked up rather than admired. The rule underneath, which the written output will test your draft against: states sign what is symmetric, cheap, and checkable." Our lens kept the first sentence and replaced the second with "Here are the two passages, from the paper itself." XLab stated the rule without explaining it, so restoring it still leaves the three words for the learner to interpret.
 
 ### Welcome to Unit 7
 
