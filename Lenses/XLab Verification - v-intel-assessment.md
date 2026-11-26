@@ -41,13 +41,13 @@ layer up, about which assumption is doing the work.
 
 Four questions, applied to every input:
 
-- **Reliability** — has this source been right before, and about this kind of
+- **Reliability:** has this source been right before, and about this kind of
   thing?
-- **Timeliness** — is it describing the present, or a facility as it stood two
+- **Timeliness:** is it describing the present, or a facility as it stood two
   years ago?
-- **Corroboration** — does an independent stream see the same thing? Streams
+- **Corroboration:** does an independent stream see the same thing? Streams
   that share an origin are not independent.
-- **Confidence** — what would have to be true for this to be wrong, and how
+- **Confidence:** what would have to be true for this to be wrong, and how
   likely is that?
 
 \## The progression
