@@ -31,9 +31,9 @@ The two readings in this unit do different jobs. The first, on this page, establ
 As you read, keep two columns:
 
 1. **What record or signal exists?**
-2. **What conclusion does it support—and what does it still not establish?**
+2. **What conclusion does it support, and what does it still not establish?**
 
-Start by asking which claims a provider's ordinary records can support—and
+Start by asking which claims a provider's ordinary records can support, and
 which claims remain beyond those records.
 
 \## Governing Through the Cloud: The Intermediary Role of Compute Providers in AI Regulation
