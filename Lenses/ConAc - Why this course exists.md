@@ -40,7 +40,8 @@ We asked people who have been in the field for a long time what they think every
 
 \## What you will do
 
-- Work on the skills you don't have yet
+- {++{"author":"James's AI","timestamp":1795726355568}@@Six weeks, one unit a week: why AI matters, what success looks like, the problem, theories of change, the AI safety ecosystem, and careers
+- ++}Work on the skills you don't have yet
 - A 2-hour group meeting at the end of each unit
 - Optional activities, for example:
     - Meet people in 1-on-1 conversations, like the ones at EA Global (EAG), the main conference of the effective altruism community
