@@ -28,4 +28,4 @@ content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 XLab. "2.4 The Human Layer." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-intro)
 *The source lesson this page adapts.*
-{--{"author":"Andreas's AI","timestamp":1795672765628}@@:::{>>{"author":"Elias's AI","timestamp":1788015709033}@@XLab's Objectives block carries scope="this submodule", so the title says "submodule" rather than "module".<<}--}{++{"author":"Andreas's AI","timestamp":1795672765628}@@:::++}
+:::

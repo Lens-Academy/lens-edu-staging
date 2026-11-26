@@ -640,12 +640,12 @@ Same statistics, ten times the cost. The certified ceiling is a function of the 
 
 **Same audit, model scaled ×100 (α ≈ 0.5, ≈10.8 proofs/GPU/day)**
 
-| Prover GPUs | Share of fleet | Proofs/day (n) | Requests sampled | Rules out non-compliance above (95%) |{--{"author":"Andreas's AI","timestamp":1795672515801}@@  |--}
-| --- | --- | --- | --- | --- |{--{"author":"Andreas's AI","timestamp":1795672515801}@@ --- |--}
-| 10 | 0.005% | ~110 | 1 in 1.6×10⁶ | 2.7% {--{"author":"Andreas's AI","timestamp":1795672515801}@@|  --}|
-| 100 | 0.05% | ~1,080 | 1 in 1.6×10⁵ | 0.28% {--{"author":"Andreas's AI","timestamp":1795672515801}@@|  --}|
-| 1,000 | 0.5% | ~10,800 | 1 in 1.6×10⁴ | 0.028% |{--{"author":"Andreas's AI","timestamp":1795672515801}@@  |--}
-| 10,000 | 5% | ~108,000 | 1 in 1,600 | 0.0028% {--{"author":"Andreas's AI","timestamp":1795672515801}@@|  --}|
+| Prover GPUs | Share of fleet | Proofs/day (n) | Requests sampled | Rules out non-compliance above (95%) |
+| --- | --- | --- | --- | --- |
+| 10 | 0.005% | ~110 | 1 in 1.6×10⁶ | 2.7% |
+| 100 | 0.05% | ~1,080 | 1 in 1.6×10⁵ | 0.28% |
+| 1,000 | 0.5% | ~10,800 | 1 in 1.6×10⁴ | 0.028% |
+| 10,000 | 5% | ~108,000 | 1 in 1,600 | 0.0028% |
 
 [^note-cankaya-1]: Monitorable means CoT without which an AI cannot perform its tasks, and CoT that accurately reflects an AI’s goals and actions, in a way its human supervisors can understand in quasi-real time. Also maintain monitorable inter-agent communication.
 [^note-cankaya-2]: Assuming the verification is based on re-execution in order to explain network traffic (and memory images).
