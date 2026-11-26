@@ -33,7 +33,7 @@ to:: The history of the implementation of KYC in the financial sector could prov
 
 #### Text
 content::
-\### Box 3: Learning from KYC in the financial sector — selected requirements and implementation lessons
+\### Box 3: Learning from KYC in the financial sector: selected requirements and implementation lessons
 
 #### Article
 source:: [[../articles/egan-oversight-for-frontier-ai-through-a-know-your-customer-scheme-for-compute-providers]]

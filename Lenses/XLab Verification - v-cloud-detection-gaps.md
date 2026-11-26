@@ -51,7 +51,7 @@ to:: [^note-shell-companies]: Given the existing policies and procedures of dete
 #### Text
 content::
 RAND shows how evasion depends on what a rule measures and how activity is
-grouped. Carnegie then asks what broader coverage would cost—and whether it
+grouped. Carnegie then asks what broader coverage would cost, and whether it
 would push users toward providers or jurisdictions beyond the rule.
 
 \### The Geopolitical Debates Over Controlling Cloud Compute
