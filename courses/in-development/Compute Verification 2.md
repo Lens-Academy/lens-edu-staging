@@ -9,7 +9,7 @@ partner-url: https://aisafetytracks.com/verification/landing
 tags: [wip]
 ---
 %% Source curriculum: https://aisafetytracks.com/tracks/verification %%
-%% Units 6 to 10 of the compute verification curriculum. Units 1 to 5 are Compute Verification 1, and the capstone is a third course that carries v-capstone-together and v-capstone-feasibility. Units 6, 7 and 8 have two modules each, and units 9 and 10 one each (decision B12 in the CV2 Streamlining Log, 24 Nov 2026). Unit times and meeting docs are stages 9 and 10 of that log. %%
+%% Units 6 to 10 of the compute verification curriculum. Units 1 to 5 are Compute Verification 1, and the capstone is a third course that carries v-capstone-together and v-capstone-feasibility. Units 6, 7 and 8 have two modules each, and units 9 and 10 one each (decision B12 in the CV2 Streamlining Log, 24 Nov 2026). Self-study per unit, re-timed 26 Nov 2026 in the CV2 Time Worklist: U6 133 min, U7 181, U8 221, U9 192, U10 202, and the overview 4. Meeting docs are stage 10 of that log. %%
 
 application-survey:: [[../../surveys/Application Form]]
 
