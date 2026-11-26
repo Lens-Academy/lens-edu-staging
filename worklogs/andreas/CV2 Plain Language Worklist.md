@@ -152,7 +152,7 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
     - **The opening line passes as a recap.** CV1's Unit 5 lens on measuring use has "a component demo, not a treaty regime" in its tldr, and line 91 says "an empirical component demonstration, not an end-to-end verification regime", so the tldr picks up a phrase the learner has met.
     - **The question is cleared:** it now restates only the scenario. Optional: "in response to the prompt above" sits after "pause", where it can read as part of the pause. It reads more cleanly right after "brief".
     - **The heading is cleared:** "Return to the claim ledger".
-    - **Still open:** the tldr's "fill in the hardware mechanism dossier". The lens gives the dossier as a list of fields and asks for nothing to be filled in.
+    - **Cleared later that evening:** the tldr's "fill in the hardware mechanism dossier" is removed. With that, the policy studio is cleared.
 
 ### Provider records and workload observables
 
