@@ -1,6 +1,6 @@
 # CV2 Time Worklist
 
-Stage 9 of [[CV2 Streamlining Log]] (times). Measured 2026-11-26 on the approved text (commit a867fea), after stage 8's fixes were accepted. Nothing is edited yet: every change below waits for Andreas.
+Stage 9 of [[CV2 Streamlining Log]] (times). Measured 2026-11-26 on the approved text (commit a867fea), after stage 8's fixes were accepted.
 
 ## Status, 2026-11-26
 
