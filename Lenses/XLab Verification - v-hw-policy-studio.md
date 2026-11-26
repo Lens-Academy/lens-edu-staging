@@ -120,7 +120,7 @@ feedback-instructions:: Give the score per rubric dimension with one sentence ea
 
 #### Text
 content::
-\#### Return to the opening puzzle
+\#### Return to the claim ledger
 
 You judged these seven conclusions at the start of Unit 5, before you read anything about hardware. Classify them again now, then see what moved.
 
