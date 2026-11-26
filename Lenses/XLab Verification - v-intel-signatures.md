@@ -181,6 +181,7 @@ Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement
 
 Scher, Aaron, and Lisa Thiergart. "Mechanisms to Verify International Agreements About AI Development." *arXiv*, June 2025. [arxiv.org](https://arxiv.org/abs/2506.15867)
 *MIRI's survey of verification mechanisms with a feasibility rating for each. The power-grid and financial-intelligence figures on this page come from it.*
+
 Wasil, Akash R., Tom Reed, Jack William Miller, et al. "Verification Methods for International AI Agreements." *arXiv*, Aug. 2024. [arxiv.org](https://arxiv.org/abs/2408.16074)
 *A survey of ten verification techniques for catching violations of international AI agreements, from unauthorized training runs to undeclared data centers.*
 
