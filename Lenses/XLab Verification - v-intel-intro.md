@@ -1,6 +1,6 @@
 ---
 id: '27cb8115-9790-4574-8090-4c3d56b1e230'
-title: "Intelligence: watching without permission"
+title: "Intelligence: Watching Without Permission"
 tldr: "A state can lie in its declarations, but it cannot opt out of thermodynamics, customs, payroll, or the power grid. Intelligence is reading those traces without the target's cooperation. This short opener sets up the five questions the module answers: what to watch, whether it has ever worked, how to read ambiguity, whose satellites do the work, and what to do next."
 summary_for_tutor: "A five-minute opening reading on intelligence, with no questions. It introduces intelligence (national technical means) as the evidence stream that works without the monitored actor's cooperation, using the physical footprint of a frontier training run (chips, power, heat, money, hiring), and stresses that ambiguity, not invisibility, is the core problem. It then sets out five questions an analyst faces in order, each linked to the lens that answers it. Two collapsed callouts give short definitions: national technical means, and a vocabulary note explaining that Wasil et al. count whistleblowers among national technical means while this course teaches them in Unit 8. A Works cited callout closes the lens. If the learner asks about the five questions, point them to the lenses that follow in this unit (signatures, empirical anchor, assessment and action) rather than answering here."
 tags: [wip]
