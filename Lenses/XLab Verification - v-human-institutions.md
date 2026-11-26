@@ -129,7 +129,7 @@ feedback-instructions:: One to three sentences. Say whether the guideline would 
 content::
 \## The Standard of Proof
 
-Optional, about 15 minutes. Every question in this exercise is optional.
+Every question in this exercise is optional.
 
 **The allegation, over every docket.** Meridian Compute ran a training run above the agreement’s compute ceiling at its Delta campus in the third quarter.
 
