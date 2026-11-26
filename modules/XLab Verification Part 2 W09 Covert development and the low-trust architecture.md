@@ -17,7 +17,7 @@ content::
 
 - Take apart an evasion built by a red team, using the standard that operations are made inconclusive rather than invisible.
 - Reconstruct the argument of a proposed system for verifying AI compute use between parties who do not trust each other, and trace its evidence from chip to verdict.
-- {--{"author":"Andreas's AI","timestamp":1795666795853}@@Find the step where its conclusion outruns its proof.{>>{"author":"Andreas's AI","timestamp":1795627576399}@@Stage 7 flag, Content: as--}{++{"author":"Andreas's AI","timestamp":1795666795853}@@Examine one part of it++} in {--{"author":"Andreas's AI","timestamp":1795666795853}@@the overview's Unit 9 box, this promises --}{++{"author":"Andreas's AI","timestamp":1795666795853}@@depth: an argument, ++}a {--{"author":"Andreas's AI","timestamp":1795666795853}@@task the close reading does not require, and assumes the paper has such--}{++{"author":"Andreas's AI","timestamp":1795666795853}@@design choice, its weak points, or how it handles++} a{--{"author":"Andreas's AI","timestamp":1795666795853}@@ step. Only question 7 (one of four to choose from) and question 8 (optional) ask about weak points. The phrase is also mannered.<<}--}{++{"author":"Andreas's AI","timestamp":1795666795853}@@ new case.++}
+- Examine one part of it in depth: an argument, a design choice, its weak points, or how it handles a new case.
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-covert-what-is-it]]
