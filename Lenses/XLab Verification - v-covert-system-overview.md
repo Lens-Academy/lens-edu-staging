@@ -51,7 +51,7 @@ to:: "| 10,000 | 5% | ~108,000 | 1 in 1,600 | 0.0028% |"
 
 #### Text
 content::
-The three tables in Appendix A1 are one model for catching non-compliant work. Move its sliders to see how a sample size, a flaw rate and a prover budget buy each other.{>>{"author":"Andreas's AI","timestamp":1795627586412}@@Stage 7 flag: "The three tables in Appendix A1 are one calculator" and "buy each other" need decoding. The calculator recomputes the detection probability and the proof budget from the sample size, flaw rate and GPU budget, which is what the tables tabulate.<<}
+The three tables in Appendix A1 are one model for catching non-compliant work. Move its sliders to see how a sample size, a flaw rate and a prover budget change the ch.{>>{"author":"Andreas's AI","timestamp":1795627586412}@@Stage 7 flag: "The three tables in Appendix A1 are one calculator" and "buy each other" need decoding. The calculator recomputes the detection probability and the proof budget from the sample size, flaw rate and GPU budget, which is what the tables tabulate.<<}
 
 #### Widget
 source:: [[../widgets/cankaya-audit-calculator]]
