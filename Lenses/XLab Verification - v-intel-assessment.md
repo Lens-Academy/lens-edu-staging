@@ -24,7 +24,7 @@ Three things get collapsed in ordinary speech and must be kept apart here.
   alternatives, and their own confidence.
 
 Most disputes that look like disagreements about evidence are disagreements one
-layer up — about which assumption is doing the work.
+layer up, about which assumption is doing the work.
 
 \## What breaks the chain
 
