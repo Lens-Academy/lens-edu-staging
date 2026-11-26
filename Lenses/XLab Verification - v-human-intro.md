@@ -1,7 +1,7 @@
 ---
 id: '53ac9af2-f8da-4859-9649-2e24c0d22e5c'
 title: "The human layer"
-tldr: "Enter the world of whistleblowers, interviews, audits, inspections. Humans are the cheapest verification tools to deploy and the easiest to fool. Like a witness on the stand, a person can be compelled to speak but not compelled to be truthful. This unit teaches you to work out who could know, whether they would tell, and what an institution can conclude from what they say."
+tldr: "This unit is about whistleblowers, interviews, audits, inspections. Humans are the cheapest verification tools to deploy and the easiest to fool. Like a witness on the stand, a person can be compelled to speak but not compelled to be truthful. This unit teaches you to work out who could know, whether they would tell, and what an institution can conclude from what they say."
 summary_for_tutor: "Opening lens of the human layer in Unit 8. One framing paragraph presents human-based verification as enforceable but unreliable, then an objectives callout lists four aims for the unit. A Works cited callout closes the lens. No questions. If the learner asks about mechanisms, point them forward to the next lens, on insiders and human sources, rather than lecturing here."
 tags: [wip]
 reading_minutes: 2
