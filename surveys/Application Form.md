@@ -50,20 +50,6 @@ key:: universities
 content:: Universities studied or working at. (You can add multiple.)
 required:: true
 
-#### Choice
-key:: career_stage
-content:: Career stage
-options::
-- High school
-- Bachelors
-- Masters
-- PhD
-- PostDoc / Professor
-- Early career (up to 3 years)
-- Mid career (3–10 years)
-- Expert career (10+ years)
-required:: true
-
 #### Question: FillBlank
 key:: work_years_fte
 content:: How many years of full-time-equivalent work experience do you have? {{number min 0 max 60}}
