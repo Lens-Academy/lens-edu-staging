@@ -124,9 +124,9 @@ that matter.
 
 When clarification does not resolve it, the ladder runs roughly:
 
-- **Task additional collection** — look again, with a different stream.
-- **Seek corroboration** — find an independent source that sees the same thing.
-- **Trigger an audit or challenge inspection** — the treaty's own tools, which
+- **Task additional collection:** look again, with a different stream.
+- **Seek corroboration:** find an independent source that sees the same thing.
+- **Trigger an audit or challenge inspection:** the treaty's own tools, which
   is where identification hands off to resolution.
 
 Each rung costs more, politically and diplomatically, than the one below.
