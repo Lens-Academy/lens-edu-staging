@@ -9,7 +9,7 @@ tutor_minutes: 10
 ---
 #### Text
 content::
-The previous section catalogued what undeclared development might show. This one
+The previous section cataloged what undeclared development might show. This one
 asks the empirical question: when undeclared facilities have actually been
 found, what found them?
 
@@ -38,7 +38,7 @@ Before the cases, the space of possibilities. Undeclared activity may occur:
 - Within existing commercial cloud or industrial infrastructure;
 - During a short operational window that is difficult to observe afterward.
 
-Note how many of these are invisible to a signature catalogue that assumes one
+Note how many of these are invisible to a signature catalog that assumes one
 large, dedicated, civilian building.
 
 \## The caveats, taught with the cases
