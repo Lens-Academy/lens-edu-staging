@@ -53,8 +53,9 @@ Companion to [[CV2 Streamlining Proposal]]. The proposal holds the plan, this ho
 | 5. Questions | Done 2026-11-24 (rows 22 to 24), reviewed by Andreas 2026-11-25 |
 | 6. Tutor summaries | Done 2026-11-25 (rows 25 and 26): every lens, the module tutor fields and 17 widgets ([[CV2 Tutor Summary Worklist]]). Andreas moved on to stage 7 after reviewing it |
 | 7. Plain language | Done 2026-11-25 (rows 27 and 28, [[CV2 Plain Language Worklist]]): flagged, rewritten by Andreas and reviewed unit by unit the same day. No stage 7 comments remain. The cheating lens's tldr typo is fixed |
-| 8. Consistency | Done 2026-11-25 (row 29), extended 2026-11-26 (row 30): tables in the omitted text, widgets, Works cited on the signatures page. Table fixes in section 9. Waiting on Andreas: accept the pending table fixes in the Heim, CIA and Brundage articles, and delete v-cloud's last `%%` block (line 88) |
-| 9 to 11 | Not started |
+| 8. Consistency | Done 2026-11-25 (row 29), extended 2026-11-26 (row 30): tables in the omitted text, widgets, Works cited on the signatures page. Table fixes in section 9. Closed 2026-11-26: Andreas accepted the table fixes and deleted v-cloud's last `%%` block |
+| 9. Times | Started 2026-11-26: [[CV2 Time Worklist]], in the CV1 Time Worklist's form. Nothing changes on the pages until Andreas agrees the figures |
+| 10 to 11 | Not started |
 
 ## 4. Change log
 
@@ -148,7 +149,7 @@ Andreas accepted these on 2026-11-26, and the rendered pages were then checked. 
 
 **Extension (2026-11-26): tables in the omitted text.** The "[...]" panels show every part of an article outside the excerpts, from its first line to its last, so the check covered every table in the 16 articles CV2 uses. That is 59 markdown tables and no HTML tables. Each was checked for unequal rows, a missing separator, a title in the header, empty columns, words run together, page-break rows and blank rows, and the flagged ones were compared with their sources. Fixed (pending, except where noted):
 
-- **Heim, Table 1** (twice: the executive summary and section 2.2). The title had become the header; it now sits above the table, and the four capacities are the header. The examples in each cell had run together ("malicious actors.Help prevent"), and now have line breaks (these landed directly).
+- **Heim, Table 1** (twice: the executive summary and section 2.2). The title had become the header; it now sits above the table, and the four capacities are the header. The examples in each cell had run together ("malicious actors.Help prevent"), and now have line breaks (these landed directly). The paper prints them as running sentences, without bullets; Andreas keeps the line breaks because they read better (2026-11-26).
 - **CIA, "Common Perceptual and Cognitive Biases".** A 2×2 grid of boxes with the title in the header. The title sits above, the first two box titles are the header, and the other two are a bold row.
 - **Brundage, Figure 2** (recommendations). The first group's name had become the header. Now the header is "Recommendation, Details", and the four group names are bold rows (the bold landed directly).
 - **Brundage, Figure 8** (assessment cadence). The flowchart's title had become the header. Now the three element types are the header, and the final box ("Valid, up-to-date, audit conclusions…") sits below the table.
