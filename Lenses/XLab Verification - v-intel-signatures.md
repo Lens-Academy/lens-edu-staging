@@ -45,6 +45,7 @@ The historical hook: the IAEA only began using satellite imagery in the 1990s,
 after failures to detect undeclared facilities under declared-facility
 safeguards.
 
+Caveats: imagery is unlikely to distinguish AI from non-AI datacenters
 (cooling is the key differentiator), it struggles with industrial look-alikes,
 and it can be defeated by underground or camouflaged construction.
 
