@@ -15,7 +15,7 @@ tutor_minutes:: 0
 content::
 \## In this unit you will
 
-- Find where cloud oversight runs out, and stop at what a record can prove.{>>{"author":"Andreas's AI","timestamp":1795627321076}@@Stage 7 flag (T7): "actually proves". The third bullet's "treaty text that protects sensors" needs decoding, as in the overview: the clauses forbid interfering with each side's national technical means, a term the learner has not met yet.<<}
+- Find where cloud oversight runs out, and stop at what a record can {--{"author":"Andreas's AI","timestamp":1795657467548}@@prove.{>>{"author":"Andreas's AI","timestamp":1795627321076}@@Stage 7 flag (T7): "actually proves". The third bullet's "treaty text that protects sensors" needs decoding, as in the overview: the clauses forbid interfering with each side's national technical means, a term the learner has not met yet.<<}--}{++{"author":"Andreas's AI","timestamp":1795657467548}@@prove.++}
 - Name the observable signatures of an undeclared training run, and explain how a signal becomes an assessment.
 - Red-line a treaty that protects sensors but obliges nobody to share what they see.
 
