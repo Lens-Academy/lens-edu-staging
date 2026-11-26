@@ -52,7 +52,8 @@ Companion to [[CV2 Streamlining Proposal]]. The proposal holds the plan, this ho
 | 4. Structure | Done 2026-11-24: B12, B3, B8, B13 and B14 |
 | 5. Questions | Done 2026-11-24 (rows 22 to 24), reviewed by Andreas 2026-11-25 |
 | 6. Tutor summaries | Done 2026-11-25 (rows 25 and 26): every lens, the module tutor fields and 17 widgets ([[CV2 Tutor Summary Worklist]]). Andreas moved on to stage 7 after reviewing it |
-| 7. Plain language | Flagged 2026-11-25 (row 27): every unit, the overview and the welcomes ([[CV2 Plain Language Worklist]]). Andreas rewrote behind the flags and Claude reviewed each unit the same day (row 28). Units 6 to 9 and the overview are cleared. Unit 10 waits on Andreas's accept of Claude's suggestions and two tldrs |
+| 7. Plain language | Done 2026-11-25 (rows 27 and 28, [[CV2 Plain Language Worklist]]): flagged, rewritten by Andreas and reviewed unit by unit the same day. No stage 7 comments remain. Left: one typo in the cheating lens's tldr ("chekcs") |
+| 8. Consistency | Not started. Andreas added a check of the article excerpts' tables (2026-11-25). See section 9 |
 | 8 to 11 | Not started |
 
 ## 4. Change log
@@ -114,6 +115,21 @@ The relay's writing checks flagged these during stage 3. They go into the stage 
 - **The red-line question** (`v-intel-action`, stage 5). It asks learners to test their article against "the rule that states sign what is symmetric, cheap, and checkable", and the grading scores it, but no page teaches that rule. It also asks for about six things in "about 700 words" with 25 tutor minutes, which stage 9 should check.
 - **Power-grid figures** (`v-intel-signatures`, "Energy and the power grid", about line 68). "Roughly 130 MW", "around 500 datacenters worldwide exceed 10 MW" and "about 1.6x a year" are credited to Scher and Thiergart, whose paper is neither linked nor in Lens Edu. For stage 8.
 - **Three unscored routes** on the red team review's explorer. Already noted by Elias's AI as XLab's own gap; no change planned.
+
+## 9. Stage 8 addition: tables in the article excerpts
+
+Andreas (2026-11-25): some imported tables are hard to read, so stage 8 checks every table in CV2's excerpts for formatting errors. A scan of the excerpt ranges each CV2 lens shows finds 14 markdown tables and no HTML tables. Seven look likely to need work, five of them in the first two rows below:
+
+| Lens | Article | Table | What the scan found |
+|---|---|---|---|
+| Institutions and policy judgment | Carlson, Defining Noncompliance | Table 1, 9 rows, 8 columns | The header cell runs straight into a paragraph ("…NoncomplianceIn recent years, the International Atomic Energy Agency Board of Governors…"). An import error, most likely |
+| From signal to intelligence assessment | CIA, *A Tradecraft Primer* | Indicators table, 36 rows, 11 columns; ACH matrix, 9 rows, 8 columns | The title sits in the header row, with mostly empty cells after it. Probably a PDF conversion |
+| Provider records and workload observables | Heim et al., Appendix B Table 4 | 12 rows, 5 columns | Line breaks inside cells, very long rows |
+| Audits and inspections | Brundage et al. | Two tables, 5 and 4 rows | Line breaks inside cells, very long rows |
+| Institutions and policy judgment | Brundage et al. | Assurance levels, 6 rows | Line breaks inside cells |
+| A system overview… (Cankaya) | Appendix A1 | Third table, 6 rows | An empty sixth column in the header |
+
+The others look clean: RAND's statistics, Scher's Tables 1 and 2, Baker's layers table, and Cankaya's first two tables. A scan cannot judge how a table reads, so stage 8 checks each one in the rendered lens on staging.
 
 ## 8. How the stated times count questions
 
