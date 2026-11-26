@@ -16,7 +16,7 @@ contemporary AI inspection regimes and the Chemical Weapons Convention
 precedent. As you read, keep the following questions in mind:
 
 - Who conducts the audit or inspection, and what access are they actually
-  granted — to sites, to systems, to people?
+  granted: to sites, to systems, to people?
 - What can routine, continuous, and challenge inspections each actually
   observe, and what does that access still not let the inspector conclude?
 - How does the regime protect information unrelated to compliance (managed
