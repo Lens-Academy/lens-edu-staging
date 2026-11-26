@@ -15,7 +15,7 @@ found, what found them?
 
 The answer is the unit's anchor, and it comes from Baker's Appendix E. Of the
 four states where the IAEA investigated what turned out to be undeclared
-facilities — Iraq, North Korea, Iran, Syria — **three investigations began
+facilities (Iraq, North Korea, Iran, Syria), **three investigations began
 mainly or entirely because of national intelligence tips, and in none did the
 IAEA find the facilities through its own safeguards processes.** Baker's
 assessment of those tips: they "appear to be irreplaceable."

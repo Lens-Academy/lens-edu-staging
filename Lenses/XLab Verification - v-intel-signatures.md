@@ -60,7 +60,7 @@ commercial thermal satellites are the current example.
 
 The unit's most quantitative tool and its most perishable. Measured energy
 delivery can be converted into an approximate FLOP count, which makes large
-unauthorized runs detectable from power draw, though only coarse violations (Wasil et
+unauthorized runs detectable from power draw, though it catches only coarse violations (Wasil et
 al.). City-scale draw needs transmission lines visible even in public satellite
 imagery, and burying them is itself a slow, satellite-visible construction
 project (MIRI).
