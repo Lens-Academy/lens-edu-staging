@@ -63,6 +63,11 @@ options::
 - Expert career (10+ years)
 required:: true
 
+#### Question: FillBlank
+key:: work_years_fte
+content:: How many years of full-time-equivalent work experience do you have? {{number min 0 max 60}}
+description:: Count any paid work (PhD, internships, co-ops, seasonal, part-time) as full-time equivalent. ~40 hrs/week × ~12 months = 1 year. Part-time counts proportionally. You can include half-years.
+
 #### Choice
 key:: fields
 content:: Field of study or work (pick up to 3)
