@@ -114,6 +114,10 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
         - The Unit 7 box: "really found" is on T7's list, "a treaty that protects sensors" still needs decoding, and "See where … what can be seen" repeats.
         - The Unit 8 box: Andreas asked about it, and a candidate went to him on 25 Nov.
         - The Unit 9 box: Content. A replacement for the last sentence went to him.
+- **Second review, 2026-11-25 evening:** all six of the overview's flags are cleared (removals pending Andreas's accept).
+    - The Unit 7 box's "a treaty that protects sensors" passes. Claude's reason for the flag was wrong, because CV1 teaches national technical means: the by-access map in Measuring Mechanism Effectiveness, the actors table, and the test-ban case. Optional precision: the treaty protects each side's own satellites from interference, which is the opposite of a shared network like the CTBT's IMS. "Bars interfering with each side's satellites" would say that if wanted.
+    - The Unit 9 box no longer promises a flaw. Its "a step of your choice" fits questions 3, 4 and 7 better than 9, which applies the system to a new case. This depends on the question 9 decision below.
+    - The same Unit 9 promise is still in the Unit 9 welcome's third bullet and in the close reading's tldr, for when Andreas reaches Unit 9.
 
 ## Unit 6: Hardware Judgment and Cloud Records
 
@@ -142,6 +146,11 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
     - **tldr:** "grade" and "opening-puzzle" are fixed. A new point: "fill in the hardware mechanism dossier" describes something the lens does not ask for. The dossier is a list of fields to use for any proposal, with no exercise attached. The opening verdict line is still open, and a candidate went to Andreas.
     - **Line 116 (the question):** open. Andreas is weighing removing the Prompt callout. Claude's advice, sent 25 Nov, is to keep the callout and shorten the question, because elements 1, 5, 6 and 7 refer back to "the mechanism" and "the proposed role", which only the prompt introduces.
     - **Line 123:** Andreas will rename the heading "Return to the opening puzzle". The Unit 5 lens never calls the ledger an opening puzzle in learner text.
+- **Second review, 2026-11-25 evening:**
+    - **The opening line passes as a recap.** CV1's Unit 5 lens on measuring use has "a component demo, not a treaty regime" in its tldr, and line 91 says "an empirical component demonstration, not an end-to-end verification regime", so the tldr picks up a phrase the learner has met.
+    - **The question is cleared:** it now restates only the scenario. Optional: "in response to the prompt above" sits after "pause", where it can read as part of the pause. It reads more cleanly right after "brief".
+    - **The heading is cleared:** "Return to the claim ledger".
+    - **Still open:** the tldr's "fill in the hardware mechanism dossier". The lens gives the dossier as a list of fields and asks for nothing to be filled in.
 
 ### Provider records and workload observables
 
@@ -177,7 +186,7 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
 [[../../modules/XLab Verification Part 2 W07 Cloud limits]], inline. Lens's throughout.
 
 - **Spoiler test:** passes.
-- **Flag on the page:** line 18. "Actually proves" (T7), and the third bullet's "treaty text that protects sensors" needs decoding, as in the overview.
+- **Flag on the page:** line 18. "Actually proves" (T7), and the third bullet's "treaty text that protects sensors" needs decoding, as in the overview. **Corrected 25 Nov:** the decoding half is withdrawn, because CV1 teaches national technical means. Only "actually" stands. The comment on the page still carries the old reasoning.
 
 ### Detection gaps and policy limits
 
