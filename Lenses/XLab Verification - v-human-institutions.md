@@ -46,7 +46,7 @@ to:: In these circumstances, the onus is then on the state to show that nonpeace
 #### Article
 source:: [[../articles/armscontrol-defining-noncompliance-npt-safeguards-agreements-arms-control-association]]
 from:: ## Table 1: Factors in Determining Noncompliance ^table-1-factors-in-determining-noncompliance
-to:: | *Egypt irradiated and dissolved very small quantities of uranium and thorium but did not separate any plutonium or uranium-233.Source: John Carlson, based on IAEA reports |  |  |  |  |  |  |  |
+to:: {--{"author":"Andreas's AI","timestamp":1795672532115}@@| *Egypt irradiated and dissolved very small quantities of uranium and thorium but did not separate any plutonium or uranium-233.Source: --}{++{"author":"Andreas's AI","timestamp":1795672532115}@@Source: ++}John Carlson, based on IAEA reports{--{"author":"Andreas's AI","timestamp":1795672532115}@@ |  |  |  |  |  |  |  |--}
 
 #### Text
 content::
