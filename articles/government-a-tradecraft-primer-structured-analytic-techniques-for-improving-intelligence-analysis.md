@@ -342,7 +342,7 @@ Developing two lists of indicators for each hypothesis or scenario may prove use
 
 {--{"author":"Andreas's AI","timestamp":1795672615530}@@●--}{++{"author":"Andreas's AI","timestamp":1795672615530}@@🟢++} Low concern
 
-● Negligible concern
+{--{"author":"Andreas's AI","timestamp":1795672628465}@@●--}{++{"author":"Andreas's AI","timestamp":1795672628465}@@·++} Negligible concern{++{"author":"Andreas's AI","timestamp":1795672628465}@@ (a small green dot in the original; none in this chart)++}
 
 **Tracking the Potential for Political Instability in an Indicators Matrix.** Analysts tracked the potential for regime change in 2000 and identified a list of indicators, to which they posed the question, "is this occurring or not? Analysts also went further and developed a list of "trigger mechanisms" that might bring about a political shift.
 
