@@ -21,16 +21,16 @@ In this {--{"author":"Andreas's AI","timestamp":1795666798539}@@unit,--}{++{"aut
 
 Read Naci Cankaya’s working paper **A System Overview for Near-Term, Low-Trust AI Compute Verification**, inlined in full below, from the version note through Appendix A1. It is also published [on the MIRI Technical Governance site](https://techgov.intelligence.org/research/a-system-overview-for-near-term-low-trust-ai-compute-verification).
 
-Answer Questions 1, 2 and 5 together with one of Questions 3, 4, 7 or 9. Support each answer with page or section references to the paper.
+{--{"author":"Andreas's AI","timestamp":1795666801726}@@Answer --}{++{"author":"Andreas's AI","timestamp":1795666801726}@@Nine questions follow the paper. You will answer ++}Questions 1, 2 and 5 {--{"author":"Andreas's AI","timestamp":1795666801726}@@together with--}{++{"author":"Andreas's AI","timestamp":1795666801726}@@and++} one of Questions 3, 4, 7 or {--{"author":"Andreas's AI","timestamp":1795666801726}@@9. Support each answer with page or section references to--}{++{"author":"Andreas's AI","timestamp":1795666801726}@@9, so as you read, note where the author states++} the{--{"author":"Andreas's AI","timestamp":1795666801726}@@ paper.
 
 Question 8 is an optional research task and may require consultation of an external technical source.
 
 In your answers:
 
-- distinguish the author’s claims from your own conclusions;
-- reconstruct arguments by identifying their premises and conclusions;
-- state explicitly when the available evidence does not justify a definite conclusion;
-- formulate counterarguments in their strongest plausible form.
+- distinguish --}{++{"author":"Andreas's AI","timestamp":1795666801726}@@ problem, how ++}the{--{"author":"Andreas's AI","timestamp":1795666801726}@@ author’s claims from your own conclusions;
+- reconstruct arguments by identifying their premises --}{++{"author":"Andreas's AI","timestamp":1795666801726}@@ proposed approach is built, ++}and {--{"author":"Andreas's AI","timestamp":1795666801726}@@conclusions;
+- state explicitly when the available --}{++{"author":"Andreas's AI","timestamp":1795666801726}@@how ++}evidence {--{"author":"Andreas's AI","timestamp":1795666801726}@@does not justify a definite conclusion;
+- formulate counterarguments in their strongest plausible form.--}{++{"author":"Andreas's AI","timestamp":1795666801726}@@travels from chip to verdict.++}
 
 #### Article
 source:: [[../articles/cankaya-a-system-overview-for-near-term-low-trust-ai-compute-verification]]
@@ -60,7 +60,7 @@ source:: [[../widgets/cankaya-audit-calculator]]
 content::
 \## Questions
 
-Read all 9 questions before beginning. Answer Questions 1, 2, 5, and any one question out of questions 3, 4, 7 or 9. Questions 6 and 8 are optional.
+Read all {--{"author":"Andreas's AI","timestamp":1795666805268}@@9--}{++{"author":"Andreas's AI","timestamp":1795666805268}@@nine++} questions before {--{"author":"Andreas's AI","timestamp":1795666805268}@@beginning. --}{++{"author":"Andreas's AI","timestamp":1795666805268}@@you start writing. ++}Answer Questions 1, {--{"author":"Andreas's AI","timestamp":1795666805268}@@2,--}{++{"author":"Andreas's AI","timestamp":1795666805268}@@2 and++} 5, and{--{"author":"Andreas's AI","timestamp":1795666805268}@@ any--} one{--{"author":"Andreas's AI","timestamp":1795666805268}@@ question out--} of {--{"author":"Andreas's AI","timestamp":1795666805268}@@questions--}{++{"author":"Andreas's AI","timestamp":1795666805268}@@Questions++} 3, 4, 7 or 9. {++{"author":"Andreas's AI","timestamp":1795666805268}@@Those four are marked optional below so that you can choose, but answer at least one. ++}Questions 6 and 8 are {--{"author":"Andreas's AI","timestamp":1795666805268}@@optional.--}{++{"author":"Andreas's AI","timestamp":1795666805268}@@optional, and Question 8 may need an outside technical source.++}
 
 Support each answer with section references to the paper, for example Section 2b or Section 3.2.2, since the inlined text above carries the author’s section numbering rather than page numbers. If you prefer to cite by page, work from the [PDF](https://intelligence.org/wp-content/uploads/A-system-overview-for-near-term-low-trust-AI-compute-verification.pdf). Clearly distinguish the author’s claims from your own conclusions.
 
