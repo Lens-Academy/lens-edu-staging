@@ -99,7 +99,7 @@ Financial intelligence is rated **High** feasibility, under one year: covert AI
 projects are very expensive and might leave a substantial money trail across raw
 materials, chips, and datacenter components (Scher and Thiergart). Covert fabs
 are detectable by monitoring the lithography-equipment supply chain, a
-chokepoint of a few dozen capable facilities worldwide (Shavit §6). The Huawei
+chokepoint of fewer than two dozen capable facilities worldwide (Shavit §6). The Huawei
 shadow-fab network surfaced in 2023 through exactly this channel.
 
 Caveats: domestic chip manufacturing erodes customs tracking, and dual-use
@@ -188,6 +188,14 @@ Wasil, Akash R., Tom Reed, Jack William Miller, et al. "Verification Methods for
 Epoch AI. "AI Data Centers." *Epoch AI*, continuously updated. [epoch.ai](https://epoch.ai/data/ai-data-centers)
 *Epoch's continuously updated database of the world's largest AI data centers, built from satellite imagery and permitting records.*
 
+Baker, Mauricio. "Nuclear Arms Control Verification and Lessons for AI Treaties." *arXiv*, Apr. 2023. [arxiv.org](https://arxiv.org/abs/2304.04123)
+*A survey of nuclear arms-control verification and what it suggests for AI treaties. Its footnote 127 describes reading heat from snow-free rooftops.*
+
+Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment." *arXiv*, July 2025. [arxiv.org](https://arxiv.org/abs/2507.15916)
+*The six-layer verification framework this page draws on, in which national intelligence is Layer 6.*
+
+Shavit, Yonadav. "What Does It Take to Catch a Chinchilla? Verifying Rules on Large-Scale Neural Network Training via Compute Monitoring." *arXiv*, Mar. 2023. [arxiv.org](https://arxiv.org/abs/2303.11341)
+*A proposal for verifying rules on large training runs by monitoring compute. Section 6 covers the chip supply chain and how concentrated it is.*
 XLab. "2.3.1 Observable Signatures of Undeclared AI Development." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-signatures)
 *The source lesson this page adapts, including the collection map.*
 :::
