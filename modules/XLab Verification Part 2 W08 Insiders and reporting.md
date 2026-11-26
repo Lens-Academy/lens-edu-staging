@@ -16,7 +16,7 @@ content::
 \## In this unit you will
 
 - Judge who could know about a violation, whether they would tell, and how far to trust what they say.
-- Trace the pathway a whistleblower report takes from insider to verifier, and the access ceiling on any audit or {--{"author":"Andreas's AI","timestamp":1795662755027}@@inspection.{>>{"author":"Andreas's AI","timestamp":1795627489830}@@Stage 7 flag (minor): "the route a whistleblower report has to survive" is mannered, as in the overview's Unit 8 box. The plain version says what happens to a report between the insider and the verifier.<<}--}{++{"author":"Andreas's AI","timestamp":1795662755027}@@inspection.++}
+- Trace the pathway a whistleblower report takes from insider to verifier, and the access ceiling on any audit or inspection.
 - Decide who finds, who judges and who enforces, and against what standard.
 
 # Lens:
