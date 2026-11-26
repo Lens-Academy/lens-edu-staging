@@ -54,7 +54,7 @@ Companion to [[CV2 Streamlining Proposal]]. The proposal holds the plan, this ho
 | 6. Tutor summaries | Done 2026-11-25 (rows 25 and 26): every lens, the module tutor fields and 17 widgets ([[CV2 Tutor Summary Worklist]]). Andreas moved on to stage 7 after reviewing it |
 | 7. Plain language | Done 2026-11-25 (rows 27 and 28, [[CV2 Plain Language Worklist]]): flagged, rewritten by Andreas and reviewed unit by unit the same day. No stage 7 comments remain. The cheating lens's tldr typo is fixed |
 | 8. Consistency | Done 2026-11-25 (row 29), extended 2026-11-26 (row 30): tables in the omitted text, widgets, Works cited on the signatures page. Table fixes in section 9. Closed 2026-11-26: Andreas accepted the table fixes and deleted v-cloud's last `%%` block |
-| 9. Times | Started 2026-11-26: [[CV2 Time Worklist]], in the CV1 Time Worklist's form. Nothing changes on the pages until Andreas agrees the figures |
+| 9. Times | Done 2026-11-26 (row 31, [[CV2 Time Worklist]]). Unit totals: 133, 181, 221, 192 and 202 minutes, plus the overview's 4 |
 | 10 to 11 | Not started |
 
 ## 4. Change log

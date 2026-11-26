@@ -6,6 +6,8 @@ Stage 9 of [[CV2 Streamlining Log]] (times). Measured 2026-11-26 on the approved
 
 Most times hold. Four pages need a new figure on the rules below, and four calls are Andreas's (decisions 1 to 4). With Claude's recommendations, unit 6 grows, unit 7 stays the same, unit 8 stays the same, and units 9 and 10 shrink.
 
+**Later on 2026-11-26: done.** Andreas took all four recommendations, and the widget figures as estimated, on one condition: reading and tutor time must be split correctly. Checked page by page, they are. Widgets that send the learner's writing to the AI (the Insider Report, the worked example, the dockets) count as tutor time. Drills and explorers count as reading, including the two drills that send each choice for background scoring, since the learner gets no AI feedback there. Seven page headers changed, all directly: the hardware brief tutor 45, Detection Gaps reading 20, Interpreting Cloud Evidence reading 20, From Signal to Intelligence Assessment reading 15, the red-line page tutor 40, What Is Covert Development? reading 12, and Red Team, Blue Team reading 40. The course file's note gives the unit totals, and the [CV2 load map](https://claude.ai/artifact/AzwbrECCiSuUyTmRfjaFcL) is rebuilt from the new figures (unit 6 shows 137 there because it includes the overview). Production check after: no errors, the 25 known warnings. The meeting docs' figures follow in stage 10.
+
 ## How the estimates are made
 
 The same method as [[CV1 Time Worklist]], with the AI Guide's rules in [[../../AI Guide/Writing Lenses]].
