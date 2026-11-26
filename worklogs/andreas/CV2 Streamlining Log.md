@@ -132,6 +132,15 @@ Andreas (2026-11-25): some imported tables are hard to read, so stage 8 checks e
 
 The others look clean: RAND's statistics, Scher's Tables 1 and 2, Baker's layers table, and Cankaya's first two tables. A scan cannot judge how a table reads, so stage 8 checks each one in the rendered lens on staging.
 
+**Results (2026-11-25).** Each table was checked against its source. The fixes are pending suggestions in the article files, and staging shows only approved text, so the rendered check of the fixed tables waits until they are accepted.
+
+- **Carlson, Table 1.** An import error. The paragraph that introduces the table had become its header cell, and the footnote and source line its last row. Both now sit outside the table, the country row is the header, and two missing spaces are back ("production of", "scale up"). The lens's end anchor changes with it. Accept the two together, or the excerpt breaks.
+- **CIA, indicators table.** An import error. The PDF (page 13) has seven quarters, 1999 I to 2000 III; the import added an eighth and an empty column. It also printed every coloured marker as the same black dot, so the rows could not be told apart. Rebuilt with one header row and coloured markers that match the legend (🟥 serious, 🔴 substantial, 🟠 moderate, 🟢 low). The trigger mechanisms now use the same two columns as the other topics.
+- **CIA, ACH matrix.** The title moved out of the header, each hypothesis's number and name now share one header cell, and the empty column is gone. Values unchanged ("Mastsumoto" is the PDF's own spelling).
+- **Brundage, Table 3 (audits).** Split at a page break, with a "Continued on next page" row and a repeated header. Now one table. AAL-3 and AAL-4 are labelled like AAL-1 and AAL-2.
+- **Cankaya, third table.** The empty sixth column is in the LessWrong original too. Removed.
+- **No change needed.** Heim's Table 4 and Brundage's assurance levels: the line breaks render as breaks. Heim's Table 4 is about 5,000 pixels tall and scrolls sideways in the reading column, and Brundage's Table 3 scrolls about 95 pixels. That comes from long text in five columns, not from the import.
+- **Open.** Brundage's AAL-1 cell reads "checkpoints/-variants", possibly a PDF artifact; the paper was not reachable to check. The collapsed "omitted text" panels between excerpts also hold tables (Heim's Table 1 is garbled there). Learners see them only if they expand a panel, so they were not checked.
 ## 8. How the stated times count questions
 
 Checked 2026-11-24 for Andreas's question. The load map uses each page's stated reading and tutor minutes. Those were set at import (22 November), and nothing records how they were counted. The totals settle it for one page only:
