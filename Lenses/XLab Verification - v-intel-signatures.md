@@ -21,7 +21,7 @@ development without the monitored actor's cooperation?**
 Two properties frame the layer. It works without permission, and it works
 today, with no new hardware and no new treaty machinery. Three literatures name the
 same thing differently: Wasil et al. call it the national technical means (NTM)
-category, *Six Layers* calls it Layer 6, and Scher and Thiergart call it the
+category, *Six Layers* calls it Layer 6, and [Scher and Thiergart](https://arxiv.org/abs/2506.15867) call it the
 national-intelligence building blocks.
 
 Hold on to one distinction for the rest of the unit. Intelligence
