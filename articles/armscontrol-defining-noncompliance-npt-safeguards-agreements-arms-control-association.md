@@ -154,15 +154,21 @@ Clarification of the issues involved in noncompliance determinations is importan
 
 ## Table 1: Factors in Determining Noncompliance ^table-1-factors-in-determining-noncompliance
 
-| Table 1: Factors in Determining NoncomplianceIn recent years, the International Atomic Energy Agency Board of Governors has found five states to be in noncompliance with their agency safeguards agreements. In another two recent decisions on serious safeguards breaches, involving South Korea (2004) and Egypt (2005), the board did not find the states in noncompliance. The board weighed several factors in making its determination. |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-|  | Romania | Iraq | North Korea | Libya | Iran | South Korea | Egypt |
+{--{"author":"Andreas's AI","timestamp":1795672520018}@@| Table 1: Factors in Determining NoncomplianceIn--}{++{"author":"Andreas's AI","timestamp":1795672520018}@@In++} recent years, the International Atomic Energy Agency Board of Governors has found five states to be in noncompliance with their agency safeguards agreements. In another two recent decisions on serious safeguards breaches, involving South Korea (2004) and Egypt (2005), the board did not find the states in noncompliance. The board weighed several factors in making its determination.{--{"author":"Andreas's AI","timestamp":1795672520018}@@ |  |  |  |  |  |  --}{++{"author":"Andreas's AI","timestamp":1795672520018}@@
+
+++}|  {--{"author":"Andreas's AI","timestamp":1795672520018}@@|
+--}| {--{"author":"Andreas's AI","timestamp":1795672520018}@@-----}{++{"author":"Andreas's AI","timestamp":1795672520018}@@Romania++} | {--{"author":"Andreas's AI","timestamp":1795672520018}@@-----}{++{"author":"Andreas's AI","timestamp":1795672520018}@@Iraq++} | {--{"author":"Andreas's AI","timestamp":1795672520018}@@--- | -----}{++{"author":"Andreas's AI","timestamp":1795672520018}@@North Korea++} | {--{"author":"Andreas's AI","timestamp":1795672520018}@@-----}{++{"author":"Andreas's AI","timestamp":1795672520018}@@Libya++} | {--{"author":"Andreas's AI","timestamp":1795672520018}@@-----}{++{"author":"Andreas's AI","timestamp":1795672520018}@@Iran++} | {--{"author":"Andreas's AI","timestamp":1795672520018}@@-----}{++{"author":"Andreas's AI","timestamp":1795672520018}@@South Korea++} | {--{"author":"Andreas's AI","timestamp":1795672520018}@@-----}{++{"author":"Andreas's AI","timestamp":1795672520018}@@Egypt++} |
+|{--{"author":"Andreas's AI","timestamp":1795672520018}@@  --}{++{"author":"Andreas's AI","timestamp":1795672520018}@@ --- ++}| {--{"author":"Andreas's AI","timestamp":1795672520018}@@Romania--}{++{"author":"Andreas's AI","timestamp":1795672520018}@@---++} | {--{"author":"Andreas's AI","timestamp":1795672520018}@@Iraq--}{++{"author":"Andreas's AI","timestamp":1795672520018}@@---++} | {--{"author":"Andreas's AI","timestamp":1795672520018}@@North Korea--}{++{"author":"Andreas's AI","timestamp":1795672520018}@@---++} | {--{"author":"Andreas's AI","timestamp":1795672520018}@@Libya--}{++{"author":"Andreas's AI","timestamp":1795672520018}@@---++} | {--{"author":"Andreas's AI","timestamp":1795672520018}@@Iran--}{++{"author":"Andreas's AI","timestamp":1795672520018}@@---++} |{--{"author":"Andreas's AI","timestamp":1795672520018}@@ South Korea--}{++{"author":"Andreas's AI","timestamp":1795672520018}@@ ---++} | {--{"author":"Andreas's AI","timestamp":1795672520018}@@Egypt--}{++{"author":"Andreas's AI","timestamp":1795672520018}@@---++} |
 | Diversion, evidence of nuclear weapons purpose | yes | yes | yes | yes | under investigation | no | no |
 | Nuclear program with possible weapons-related elements | planned | yes | yes | yes | yes | no | no |
-| Undeclared productionof fissile material | yes | yes | yes | yes | yes | yes | yes* |
-| Intention to scale upfissile material production | yes | yes | yes | yes | yes | no | no |
-| Safeguards implementation obstructed (e.g., after detection of breaches) | no | yes | yes | no | yes | no | no |
-| *Egypt irradiated and dissolved very small quantities of uranium and thorium but did not separate any plutonium or uranium-233.Source: John Carlson, based on IAEA reports |  |  |  |  |  |  |  |
+| Undeclared {--{"author":"Andreas's AI","timestamp":1795672520018}@@productionof --}{++{"author":"Andreas's AI","timestamp":1795672520018}@@production of ++}fissile material | yes | yes | yes | yes | yes | yes | {--{"author":"Andreas's AI","timestamp":1795672520018}@@yes*--}{++{"author":"Andreas's AI","timestamp":1795672520018}@@yes\*++} |
+| Intention to scale {--{"author":"Andreas's AI","timestamp":1795672520018}@@upfissile--}{++{"author":"Andreas's AI","timestamp":1795672520018}@@up fissile++} material production | yes | yes | yes | yes | yes | no | no |
+| Safeguards implementation obstructed (e.g., after detection of breaches) | no | yes | yes | no | yes | no | no {--{"author":"Andreas's AI","timestamp":1795672520018}@@|
+--}|{--{"author":"Andreas's AI","timestamp":1795672520018}@@ *Egypt--}{++{"author":"Andreas's AI","timestamp":1795672520018}@@
+
+\*Egypt++} irradiated and dissolved very small quantities of uranium and thorium but did not separate any plutonium or {--{"author":"Andreas's AI","timestamp":1795672520018}@@uranium-233.Source:--}{++{"author":"Andreas's AI","timestamp":1795672520018}@@uranium-233.
+
+Source:++} John Carlson, based on IAEA reports{--{"author":"Andreas's AI","timestamp":1795672520018}@@ |  |  |  |  |  |  |  |--}
 
 [Click here to comment on this article.](https://armscontroltoday.blogspot.com/2009/05/defining-noncompliance-npt-safeguards.html)
 
