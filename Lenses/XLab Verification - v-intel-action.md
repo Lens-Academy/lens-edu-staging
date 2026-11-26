@@ -90,7 +90,7 @@ computation, attestation) is covered with the privacy-preserving mechanisms in [
 
 \## Readings
 
-- MIRI draft US–China agreement — Article II's definitions and Article X,
+- MIRI draft US–China agreement: Article II's definitions and Article X,
   verbatim (pp. 20, 39–40). The passages excerpted above are the ones this
   section turns on. Ideally you have read the whole draft treaty at this point.
 Read Baker's section on intelligence sharing, then compare the institutional options in *Six Layers*.
@@ -110,7 +110,7 @@ content::
 \## Acting on a lead
 
 A lead has arrived and been assessed. This section is about what the regime
-does next — and about doing it proportionately, which is the part that decides
+does next, and about doing it proportionately, which is the part that decides
 whether a verification regime survives its first ambiguous case.
 
 \## Comparing against declarations
