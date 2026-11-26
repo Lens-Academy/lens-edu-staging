@@ -163,7 +163,7 @@ content:: **Question 7. Identify vulnerable positions** (choose one of Questions
 Identify at least four vulnerable positions in the author’s reasoning, including:
 
 - one insufficiently supported empirical claim;
-- one questionable inference or generalisation;
+- one questionable inference or generalization;
 - one consequential technical assumption;
 - one apparent contradiction or unresolved tension.
 
