@@ -1672,13 +1672,13 @@ There are also structural reasons to prefer that accountability be mediated thro
 | Governance and process | Process documentation                   | Internal documents describing procedures and responsibilities                                                                                                                                                      |
 |                        | Board and governance minutes            | Records of discussions, decisions, and actions from board and governance meetings                                                                                                                                  |
 |                        | Internal reports                        | Documents describing experiment results, incidents, or process outcomes                                                                                                                                            |
-| Continued on next page |                                         |                                                                                                                                                                                                                    |
+{--{"author":"Andreas's AI","timestamp":1795677067714}@@| Continued on next page |                                         |                                                                                                                                                                                                                    |
 
 Table 4 – continued from previous page
 
 | Category                   | Access type                        | Description                                                                                                                     |
 |----------------------------|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-|                            | Process communications             | Approval emails, request tickets, escalation threads, and decision logs                                                         |
+--}|                            | Process communications             | Approval emails, request tickets, escalation threads, and decision logs                                                         |
 |                            | Previous compliance reviews        | Reports and notes from prior audits or compliance reviews                                                                       |
 |                            | Organization charts                | Diagrams showing roles, reporting lines, and responsibilities                                                                   |
 |                            | Written representations            | Signed management statements confirming responsibilities, activities, or factual matters                                        |
