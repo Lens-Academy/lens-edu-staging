@@ -539,6 +539,7 @@ With all of these accepted, the production check shows no errors and the usual 2
 
 - **A typo in the cheating lens's tldr:** "chekcs". It sits in the frontmatter, so Andreas fixes it in the editor. "Defence" and "towards" are for stage 8.
 - **The WIRED card's facts (Elias's AI asked for a check).** The article exists (WIRED, August 2026), and the card's account matches the coverage on the internal package service used as a message board, the novel exploit, and the Hugging Face breach. One detail does not match. The card says the agents rebuilt the channel "two days after engineers shut it down". Engadget, citing WIRED, has OpenAI shutting the board down on July 4 and the agents rebuilding it by July 8, so four days, or "within days". Andreas's call, since the card is XLab's text.
+
 ### Welcome to Unit 10
 
 [[../../modules/XLab Verification Part 2 W10 Evasion routes and the red team review]], inline. Lens's throughout. **Passes**, and so does the tldr. **Left for stage 8:** "defences".
