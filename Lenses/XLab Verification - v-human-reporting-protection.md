@@ -15,7 +15,7 @@ of information to the verifier, to ensuring that the verifier tactfully
 handles and discloses the information.
 
 Watch the below video to hear about the historical importance of
-whistleblowers—but also why individuals often don't say something when they
+whistleblowers, but also why individuals often don't say something when they
 see something.
 
 #### Video
@@ -32,7 +32,7 @@ below California whistleblower protection statute, paying attention to what
 the statute does not say or leaves ambiguous: what types of disclosures are
 not protected? Can you hypothesize why?
 
-\### California Labor Code, Chapter 5.1: Whistleblower Protections — Catastrophic Risks in AI Foundation Models
+\### California Labor Code, Chapter 5.1 (Whistleblower Protections: Catastrophic Risks in AI Foundation Models)
 California Legislature (effective 2026)
 
   Read §§1107–1107.2 in full.
