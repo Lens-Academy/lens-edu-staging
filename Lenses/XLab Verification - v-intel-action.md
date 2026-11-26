@@ -59,7 +59,7 @@ borrowed from the ABM Treaty, INF, CTBT, and New START.
 It is a real text, and it is meant to be marked up rather than admired. Here
 are the two passages, from the paper itself.
 
-**Article II — Definitions, item 17**
+**Article II: Definitions, item 17**
 
 #### Article
 source:: [[../articles/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence]]
