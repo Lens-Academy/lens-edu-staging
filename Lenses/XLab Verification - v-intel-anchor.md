@@ -21,7 +21,7 @@ IAEA find the facilities through its own safeguards processes.** Baker's
 assessment of those tips: they "appear to be irreplaceable."
 
 That is the identify/resolve split stated as evidence rather than as theory.
-Intelligence generated the lead. The regime did the resolving — requesting
+Intelligence generated the lead. The regime did the resolving: requesting
 clarification, inspecting sites, collecting samples, comparing evidence against
 declarations, and assessing compliance.
 
@@ -46,7 +46,7 @@ large, dedicated, civilian building.
 Two honest qualifications travel with this finding, and they matter as much as
 the finding does.
 
-The cases mostly predate in-force Additional Protocols — the safeguards regime
+The cases mostly predate in-force Additional Protocols, so the safeguards regime
 they indict is not quite the regime that exists now. And even the 2019–20 Iran
 complementary-access successes began with an intelligence tip (the archive),
 with treaty tools used for resolution. The split holds, but it is not evidence
