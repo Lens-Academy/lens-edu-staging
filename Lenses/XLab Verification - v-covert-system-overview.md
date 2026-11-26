@@ -51,7 +51,7 @@ to:: "| 10,000 | 5% | ~108,000 | 1 in 1,600 | 0.0028% |"
 
 #### Text
 content::
-The three tables in Appendix A1 are one model for catching non-compliant work. Move its sliders to see how a sample size, a flaw rate and a prover budget influence the chance for a flaw to be detected.{>>{"author":"Andreas's AI","timestamp":1795627586412}@@Stage 7 flag: "The three tables in Appendix A1 are one calculator" and "buy each other" need decoding. The calculator recomputes the detection probability and the proof budget from the sample size, flaw rate and GPU budget, which is what the tables tabulate.<<}
+The three tables in Appendix A1 are one model for catching non-compliant work. Move its sliders to see how a sample size, a flaw rate and a prover budget influence the chance for a flaw to be {--{"author":"Andreas's AI","timestamp":1795666814900}@@detected.{>>{"author":"Andreas's AI","timestamp":1795627586412}@@Stage 7 flag: "The three tables in Appendix A1 are one calculator" and "buy each other" need decoding. The calculator recomputes the detection probability and the proof budget from the sample size, flaw rate and GPU budget, which is what the tables tabulate.<<}--}{++{"author":"Andreas's AI","timestamp":1795666814900}@@detected.++}
 
 #### Widget
 source:: [[../widgets/cankaya-audit-calculator]]
@@ -62,9 +62,15 @@ content::
 
 Read all {--{"author":"Andreas's AI","timestamp":1795666805268}@@9--}{++{"author":"Andreas's AI","timestamp":1795666805268}@@nine++} questions before {--{"author":"Andreas's AI","timestamp":1795666805268}@@beginning. --}{++{"author":"Andreas's AI","timestamp":1795666805268}@@you start writing. ++}Answer Questions 1, {--{"author":"Andreas's AI","timestamp":1795666805268}@@2,--}{++{"author":"Andreas's AI","timestamp":1795666805268}@@2 and++} 5, and{--{"author":"Andreas's AI","timestamp":1795666805268}@@ any--} one{--{"author":"Andreas's AI","timestamp":1795666805268}@@ question out--} of {--{"author":"Andreas's AI","timestamp":1795666805268}@@questions--}{++{"author":"Andreas's AI","timestamp":1795666805268}@@Questions++} 3, 4, 7 or 9. {++{"author":"Andreas's AI","timestamp":1795666805268}@@Those four are marked optional below so that you can choose, but answer at least one. ++}Questions 6 and 8 are {--{"author":"Andreas's AI","timestamp":1795666805268}@@optional.--}{++{"author":"Andreas's AI","timestamp":1795666805268}@@optional, and Question 8 may need an outside technical source.++}
 
-Support each answer with section references to the paper, for example Section 2b or Section 3.2.2, since the inlined text above carries the author’s section numbering rather than page numbers. If you prefer to cite by page, work from the [PDF](https://intelligence.org/wp-content/uploads/A-system-overview-for-near-term-low-trust-AI-compute-verification.pdf). Clearly distinguish the author’s claims from your own conclusions.
+Support each answer with section references to the paper, for example Section 2b or Section 3.2.2, since the inlined text above carries the author’s section numbering rather than page numbers. If you prefer to cite by page, work from the [PDF](https://intelligence.org/wp-content/uploads/A-system-overview-for-near-term-low-trust-AI-compute-verification.pdf).{--{"author":"Andreas's AI","timestamp":1795666810164}@@ Clearly --}{++{"author":"Andreas's AI","timestamp":1795666810164}@@
 
-Questions 3, 4, 7 and 9 are marked optional below so that you can complete the lens with whichever one you choose; answer at least one of them.{>>{"author":"Andreas's AI","timestamp":1795627589900}@@Stage 7 flag: a semicolon. The bigger point is that this block (lines 63 to 67) repeats the Assignment's instructions on lines 24 to 26 with small differences. Line 24 asks for "page or section references" and line 65 explains why sections, not pages. Line 26 calls only question 8 optional, and line 63 adds question 6. One set of instructions would do.<<}
+In your answers:
+
+- ++}distinguish the author’s claims from your own{--{"author":"Andreas's AI","timestamp":1795666810164}@@ conclusions.
+Questions 3, 4, 7 and 9 are marked optional below so that you can complete--}{++{"author":"Andreas's AI","timestamp":1795666810164}@@ conclusions
+- reconstruct arguments by identifying their premises and conclusions
+- state explicitly when++} the{--{"author":"Andreas's AI","timestamp":1795666810164}@@ lens with whichever one you choose; answer at least one of them.{>>{"author":"Andreas's AI","timestamp":1795627589900}@@Stage 7 flag:--}{++{"author":"Andreas's AI","timestamp":1795666810164}@@ available evidence does not justify++} a {--{"author":"Andreas's AI","timestamp":1795666810164}@@semicolon. The bigger point is that this block (lines 63 to 67) repeats the Assignment's instructions on lines 24 to 26 with small differences. Line 24 asks for "page or section references" and line 65 explains why sections, not pages. Line 26 calls only question 8 optional, and line 63 adds question 6. One set of instructions would do.<<}--}{++{"author":"Andreas's AI","timestamp":1795666810164}@@definite conclusion
+- formulate counterarguments in their strongest plausible form++}
 
 #### Question: Open
 id:: 217e8374-2817-43eb-951b-e347de1c6370
