@@ -9,7 +9,7 @@ tutor_minutes: 61
 ---
 #### Text
 content::
-In this unit, you will undertake a comprehensive technical verification system proposal, assemble the verification mechanisms, the actors and incentive structures, and the verification intuitions you have built across the course.{>>{"author":"Andreas's AI","timestamp":1795627582996}@@Stage 7 flag (minor, T3): "tackle", "synthesizing" and "the verification intuitions you gained" are the overused words T3 lists. The sentence is XLab's opening with our ending. Its plain version says what the learner will read and which earlier material it draws on.<<}
+In this unit, you will undertake a comprehensive technical verification system proposal, assemble the verification mechanisms, the actors and incentive structures, and the verification intuitions you have built throughout the course.{>>{"author":"Andreas's AI","timestamp":1795627582996}@@Stage 7 flag (minor, T3): "tackle", "synthesizing" and "the verification intuitions you gained" are the overused words T3 lists. The sentence is XLab's opening with our ending. Its plain version says what the learner will read and which earlier material it draws on.<<}
 
 :::callout {title="By the end of units 9 and 10, you will be able to:" tone="blue"}
 1. Explain how the requirements of an international AI agreement might be translated into a technical verification system.
