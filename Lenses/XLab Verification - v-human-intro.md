@@ -12,7 +12,7 @@ content::
 Human-based verification strategies, such as personnel interviews and
 whistleblower programs, are simultaneously the most enforceable and least
 reliable mechanisms in this course. Interviewing staff doesn't require any
-additional technological infrastructure or innovation—but people can
+additional technological infrastructure or innovation, but people can
 obfuscate, lie, and hide motivations. In this unit, you will learn about the
 core mechanisms of human verification applicable to AI development.
 
