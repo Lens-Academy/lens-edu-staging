@@ -38,7 +38,7 @@ output.
 
 \## Architecture: national or international?
 
-*Six Layers* argues — in an emphasis footnote, so hold the modality — for
+*Six Layers* argues (in an emphasis footnote, so hold the modality) for
 relying on **national** agencies rather than empowering an international agency
 to spy. Three reasons: decades of built-up capability; the IAEA precedent of
 learning about violations from national agencies; and the new risks an
