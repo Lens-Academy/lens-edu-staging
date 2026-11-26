@@ -67,6 +67,7 @@ Support each answer with section references to the paper, for example Section 2b
 In your answers:
 
 - ++}distinguish the author’s claims from your own{--{"author":"Andreas's AI","timestamp":1795666810164}@@ conclusions.
+
 Questions 3, 4, 7 and 9 are marked optional below so that you can complete--}{++{"author":"Andreas's AI","timestamp":1795666810164}@@ conclusions
 - reconstruct arguments by identifying their premises and conclusions
 - state explicitly when++} the{--{"author":"Andreas's AI","timestamp":1795666810164}@@ lens with whichever one you choose; answer at least one of them.{>>{"author":"Andreas's AI","timestamp":1795627589900}@@Stage 7 flag:--}{++{"author":"Andreas's AI","timestamp":1795666810164}@@ available evidence does not justify++} a {--{"author":"Andreas's AI","timestamp":1795666810164}@@semicolon. The bigger point is that this block (lines 63 to 67) repeats the Assignment's instructions on lines 24 to 26 with small differences. Line 24 asks for "page or section references" and line 65 explains why sections, not pages. Line 26 calls only question 8 optional, and line 63 adds question 6. One set of instructions would do.<<}--}{++{"author":"Andreas's AI","timestamp":1795666810164}@@definite conclusion
