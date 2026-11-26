@@ -534,6 +534,7 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 - **Optional, XLab's:** the WIRED card on the cheating lens (line 92) still has "zero-day" unexplained and ends on "the monitoring gap, not the exploit, is the verification lesson".
 
 With all of these accepted, the production check shows no errors and the usual 25 warnings.
+
 ### Welcome to Unit 10
 
 [[../../modules/XLab Verification Part 2 W10 Evasion routes and the red team review]], inline. Lens's throughout. **Passes**, and so does the tldr. **Left for stage 8:** "defences".
