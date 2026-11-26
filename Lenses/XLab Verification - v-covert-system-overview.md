@@ -87,7 +87,7 @@ feedback-instructions:: Name one missing or misclassified proposition, then ask 
 #### Question: Open
 id:: 0fcb8824-a51d-4461-9f0e-3314e0e91366
 force-feedback:: first
-content:: **Question 3. Analyse the covert-adversary argument** (choose one of Questions 3, 4, 7 or 9)
+content:: **Question 3. Analyze the covert-adversary argument** (choose one of Questions 3, 4, 7 or 9)
 
 The author argues that a verification system need not make every undeclared workload physically impossible.
 

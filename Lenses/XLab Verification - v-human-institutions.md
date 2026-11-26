@@ -141,7 +141,7 @@ For each docket, choose the institution’s next move. Then defend it:
 - what it does not establish;
 - whether this institution can defend the move you chose.
 
-Use about 60 to 90 words per docket. Once all four dockets carry a move and a defence, submitting reveals the pattern behind them and the marking key you use to score yourself.
+Use about 60 to 90 words per docket. Once all four dockets carry a move and a defense, submitting reveals the pattern behind them and the marking key you use to score yourself.
 
 #### Widget
 source:: [[../widgets/standard-of-proof]]
