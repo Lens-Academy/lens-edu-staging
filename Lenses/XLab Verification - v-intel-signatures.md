@@ -31,7 +31,7 @@ Hold on to one distinction for the rest of the unit. Intelligence
 
 Each signature below carries the same three-part anatomy: what it tells a
 verifier, what access it requires, and its main caveat. A standing red-team
-question applies to every one — **would this signature survive an adversary who
+question applies to every one: **would this signature survive an adversary who
 knows it is being watched?**
 
 \### Overhead imagery
@@ -45,8 +45,7 @@ The historical hook: the IAEA only began using satellite imagery in the 1990s,
 after failures to detect undeclared facilities under declared-facility
 safeguards.
 
-Caveats: imagery is unlikely to distinguish AI from non-AI datacenters —
-cooling is the key differentiator — it struggles with industrial look-alikes,
+(cooling is the key differentiator), it struggles with industrial look-alikes,
 and it can be defeated by underground or camouflaged construction.
 
 \### Thermal
