@@ -205,6 +205,22 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
 - **The tldr's "NTM":** a judgment call, kept as Andreas prefers. CV1 never uses the abbreviation, only "national technical means". The intelligence opener in this unit introduces "NTM" in its collapsed callout. IAEA is a better-known name, but the learner has met NTM by this lens.
 - **Where the "symmetric, cheap, and checkable" rule came from.** XLab's intelligence-institutions lesson stated it right after the two treaty passages: "It is a real text, and it is meant to be marked up rather than admired. The rule underneath, which the written output will test your draft against: states sign what is symmetric, cheap, and checkable." Our lens kept the first sentence and replaced the second with "Here are the two passages, from the paper itself." XLab stated the rule without explaining it, so restoring it still leaves the three words for the learner to interpret.
 
+**Third round, 2026-11-25, late evening.** Andreas fixed:
+
+- the assessment tldr
+- "whereas" on line 79
+- the warhead precedent (with "from Compute Verification 1")
+- "behind-the-meter"
+- the Unit 9 box ("one part of your choice")
+
+Claude added three suggestions on the red-line lens, pending Andreas's accept:
+
+- **The rule:** the line 79 paragraph ends with the red-line question testing the draft against the rule, glossed as symmetric (binds both sides the same way), cheap (complying costs little) and checkable (each side can tell whether the other complies).
+- **"Confront the question the historical record says drafters avoid"** becomes "take up the question drafters have historically avoided".
+- **The "both-capitals test" label** goes, and the question asks for "one paragraph on why Washington would accept your article and one on why Beijing would". The grading criterion is "Plausibility in both capitals", so nothing there depends on the label.
+
+The comment on the precedent is removed (pending). With the drafts accepted, the lens validates with no issues. The T7 check still catches line 79's "That is the core asymmetry of this whole section" (a setup line, and "section" is for stage 8). Two comments need Andreas to delete them in the editor, because Claude's pending corrections sit inside them: the readings block, and "behind-the-meter". The question's comment can go once the suggestions are accepted. **With that, Unit 7 is done.**
+
 ### Welcome to Unit 7
 
 [[../../modules/XLab Verification Part 2 W07 Cloud limits]], inline. Lens's throughout.
