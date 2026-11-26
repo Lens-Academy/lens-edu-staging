@@ -85,8 +85,8 @@ Baker's "shared documents might be fake" problem is an evidence-credibility
 question, and it belongs here: how do rivals authenticate intelligence passed
 between them (signal authentication, chain of custody)?
 
-The cryptographic machinery for this — zero-knowledge proofs, multi-party
-computation, attestation — is covered with the privacy-preserving mechanisms in [[../Lenses/XLab Verification - v-mechanism-privacy|Unit 4]] from Compute Verification 1. Arms control has a physical precedent: Glaser, Barak and Goldston (Nature, 2014) designed a test that lets inspectors confirm a warhead matches a known genuine one without learning anything about its design. That is the kind of guarantee rivals want when they share evidence: proof that a claim holds, without exposing what lies behind it.
+The cryptographic machinery for this (zero-knowledge proofs, multi-party
+computation, attestation) is covered with the privacy-preserving mechanisms in [[../Lenses/XLab Verification - v-mechanism-privacy|Unit 4]] from Compute Verification 1. Arms control has a physical precedent: Glaser, Barak and Goldston (Nature, 2014) designed a test that lets inspectors confirm a warhead matches a known genuine one without learning anything about its design. That is the kind of guarantee rivals want when they share evidence: proof that a claim holds, without exposing what lies behind it.
 
 \## Readings
 
