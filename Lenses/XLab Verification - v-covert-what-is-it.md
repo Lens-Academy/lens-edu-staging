@@ -96,7 +96,7 @@ As the red team, explain the most plausible evasion strategy, its assumptions, a
 
 As the blue team, explain how evidence from the hardware, cloud, intelligence, and human layers could be combined, and recommend a proportionate response.
 
-The answers below show what excellent student work might look like. Write your own answer to a prompt before you open its model answer, or open the model answer straight away, so that you see the whole shape of the reasoning before you use it in the Unit 10 review.{>>{"author":"Andreas's AI","timestamp":1795627579524}@@Stage 7 flag (minor): the sentence offers two routes, but its "so that" clause fits only the second, so it reads as if opening the model answer first were the point. The widget is required and finishes once all six prompts are opened by either route, which the lens could say plainly.<<}
+The answers below show what excellent student work might look like. Write your own answer to a prompt before you open its model answer, or open the model answer straight away so that you see the whole shape of the reasoning before you use it in the Unit 10 review.{>>{"author":"Andreas's AI","timestamp":1795627579524}@@Stage 7 flag (minor): the sentence offers two routes, but its "so that" clause fits only the second, so it reads as if opening the model answer first were the point. The widget is required and finishes once all six prompts are opened by either route, which the lens could say plainly.<<}
 
 #### Widget
 source:: [[../widgets/covert-worked-example]]
