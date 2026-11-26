@@ -9,7 +9,7 @@ tutor_minutes: 61
 ---
 #### Text
 content::
-In this {--{"author":"Andreas's AI","timestamp":1795666798539}@@unit,--}{++{"author":"Andreas's AI","timestamp":1795666798539}@@unit++} you will {--{"author":"Andreas's AI","timestamp":1795666798539}@@undertake a comprehensive technical verification system proposal, assemble the --}{++{"author":"Andreas's AI","timestamp":1795666798539}@@read one complete proposal for a technical ++}verification {--{"author":"Andreas's AI","timestamp":1795666798539}@@mechanisms, the actors --}{++{"author":"Andreas's AI","timestamp":1795666798539}@@system ++}and {--{"author":"Andreas's AI","timestamp":1795666798539}@@incentive structures, and the verification intuitions--}{++{"author":"Andreas's AI","timestamp":1795666798539}@@test it against what++} you have{--{"author":"Andreas's AI","timestamp":1795666798539}@@ built throughout the course.{>>{"author":"Andreas's AI","timestamp":1795627582996}@@Stage 7 flag (minor, T3): "tackle", "synthesizing" and "the--}{++{"author":"Andreas's AI","timestamp":1795666798539}@@ learned across both courses about++} verification{--{"author":"Andreas's AI","timestamp":1795666798539}@@ intuitions you gained" are the overused words T3 lists. The sentence is XLab's opening with our ending. Its plain version says what--}{++{"author":"Andreas's AI","timestamp":1795666798539}@@ mechanisms,++} the{--{"author":"Andreas's AI","timestamp":1795666798539}@@ learner will read--}{++{"author":"Andreas's AI","timestamp":1795666798539}@@ actors involved++} and{--{"author":"Andreas's AI","timestamp":1795666798539}@@ which earlier material it draws on.<<}--}{++{"author":"Andreas's AI","timestamp":1795666798539}@@ their incentives.++}
+In this unit you will read one complete proposal for a technical verification system and test it against what you have learned across both courses about verification mechanisms, the actors involved and their incentives.
 
 :::callout {title="By the end of units 9 and 10, you will be able to:" tone="blue"}
 1. Explain how the requirements of an international AI agreement might be translated into a technical verification system.
@@ -21,16 +21,7 @@ In this {--{"author":"Andreas's AI","timestamp":1795666798539}@@unit,--}{++{"aut
 
 Read Naci Cankaya’s working paper **A System Overview for Near-Term, Low-Trust AI Compute Verification**, inlined in full below, from the version note through Appendix A1. It is also published [on the MIRI Technical Governance site](https://techgov.intelligence.org/research/a-system-overview-for-near-term-low-trust-ai-compute-verification).
 
-{--{"author":"Andreas's AI","timestamp":1795666801726}@@Answer --}{++{"author":"Andreas's AI","timestamp":1795666801726}@@Nine questions follow the paper. You will answer ++}Questions 1, 2 and 5 {--{"author":"Andreas's AI","timestamp":1795666801726}@@together with--}{++{"author":"Andreas's AI","timestamp":1795666801726}@@and++} one of Questions 3, 4, 7 or {--{"author":"Andreas's AI","timestamp":1795666801726}@@9. Support each answer with page or section references to--}{++{"author":"Andreas's AI","timestamp":1795666801726}@@9, so as you read, note where the author states++} the{--{"author":"Andreas's AI","timestamp":1795666801726}@@ paper.
-
-Question 8 is an optional research task and may require consultation of an external technical source.
-
-In your answers:
-
-- distinguish --}{++{"author":"Andreas's AI","timestamp":1795666801726}@@ problem, how ++}the{--{"author":"Andreas's AI","timestamp":1795666801726}@@ author’s claims from your own conclusions;
-- reconstruct arguments by identifying their premises --}{++{"author":"Andreas's AI","timestamp":1795666801726}@@ proposed approach is built, ++}and {--{"author":"Andreas's AI","timestamp":1795666801726}@@conclusions;
-- state explicitly when the available --}{++{"author":"Andreas's AI","timestamp":1795666801726}@@how ++}evidence {--{"author":"Andreas's AI","timestamp":1795666801726}@@does not justify a definite conclusion;
-- formulate counterarguments in their strongest plausible form.--}{++{"author":"Andreas's AI","timestamp":1795666801726}@@travels from chip to verdict.++}
+Nine questions follow the paper. You will answer Questions 1, 2 and 5 and one of Questions 3, 4, 7 or 9, so as you read, note where the author states the problem, how the proposed approach is built, and how evidence travels from chip to verdict.
 
 #### Article
 source:: [[../articles/cankaya-a-system-overview-for-near-term-low-trust-ai-compute-verification]]
@@ -51,7 +42,7 @@ to:: "| 10,000 | 5% | ~108,000 | 1 in 1,600 | 0.0028% |"
 
 #### Text
 content::
-The three tables in Appendix A1 are one model for catching non-compliant work. Move its sliders to see how a sample size, a flaw rate and a prover budget influence the chance for a flaw to be {--{"author":"Andreas's AI","timestamp":1795666814900}@@detected.{>>{"author":"Andreas's AI","timestamp":1795627586412}@@Stage 7 flag: "The three tables in Appendix A1 are one calculator" and "buy each other" need decoding. The calculator recomputes the detection probability and the proof budget from the sample size, flaw rate and GPU budget, which is what the tables tabulate.<<}--}{++{"author":"Andreas's AI","timestamp":1795666814900}@@detected.++}
+The three tables in Appendix A1 are one model for catching non-compliant work. Move its sliders to see how a sample size, a flaw rate and a prover budget influence the chance for a flaw to be detected.
 
 #### Widget
 source:: [[../widgets/cankaya-audit-calculator]]
@@ -60,18 +51,16 @@ source:: [[../widgets/cankaya-audit-calculator]]
 content::
 \## Questions
 
-Read all {--{"author":"Andreas's AI","timestamp":1795666805268}@@9--}{++{"author":"Andreas's AI","timestamp":1795666805268}@@nine++} questions before {--{"author":"Andreas's AI","timestamp":1795666805268}@@beginning. --}{++{"author":"Andreas's AI","timestamp":1795666805268}@@you start writing. ++}Answer Questions 1, {--{"author":"Andreas's AI","timestamp":1795666805268}@@2,--}{++{"author":"Andreas's AI","timestamp":1795666805268}@@2 and++} 5, and{--{"author":"Andreas's AI","timestamp":1795666805268}@@ any--} one{--{"author":"Andreas's AI","timestamp":1795666805268}@@ question out--} of {--{"author":"Andreas's AI","timestamp":1795666805268}@@questions--}{++{"author":"Andreas's AI","timestamp":1795666805268}@@Questions++} 3, 4, 7 or 9. {++{"author":"Andreas's AI","timestamp":1795666805268}@@Those four are marked optional below so that you can choose, but answer at least one. ++}Questions 6 and 8 are {--{"author":"Andreas's AI","timestamp":1795666805268}@@optional.--}{++{"author":"Andreas's AI","timestamp":1795666805268}@@optional, and Question 8 may need an outside technical source.++}
+Read all nine questions before you start writing. Answer Questions 1, 2 and 5, and one of Questions 3, 4, 7 or 9. Those four are marked optional below so that you can choose, but answer at least one. Questions 6 and 8 are optional, and Question 8 may need an outside technical source.
 
-Support each answer with section references to the paper, for example Section 2b or Section 3.2.2, since the inlined text above carries the author’s section numbering rather than page numbers. If you prefer to cite by page, work from the [PDF](https://intelligence.org/wp-content/uploads/A-system-overview-for-near-term-low-trust-AI-compute-verification.pdf).{--{"author":"Andreas's AI","timestamp":1795666810164}@@ Clearly --}{++{"author":"Andreas's AI","timestamp":1795666810164}@@
+Support each answer with section references to the paper, for example Section 2b or Section 3.2.2, since the inlined text above carries the author’s section numbering rather than page numbers. If you prefer to cite by page, work from the [PDF](https://intelligence.org/wp-content/uploads/A-system-overview-for-near-term-low-trust-AI-compute-verification.pdf).
 
 In your answers:
 
-- ++}distinguish the author’s claims from your own{--{"author":"Andreas's AI","timestamp":1795666810164}@@ conclusions.
-
-Questions 3, 4, 7 and 9 are marked optional below so that you can complete--}{++{"author":"Andreas's AI","timestamp":1795666810164}@@ conclusions
+- distinguish the author’s claims from your own conclusions
 - reconstruct arguments by identifying their premises and conclusions
-- state explicitly when++} the{--{"author":"Andreas's AI","timestamp":1795666810164}@@ lens with whichever one you choose; answer at least one of them.{>>{"author":"Andreas's AI","timestamp":1795627589900}@@Stage 7 flag:--}{++{"author":"Andreas's AI","timestamp":1795666810164}@@ available evidence does not justify++} a {--{"author":"Andreas's AI","timestamp":1795666810164}@@semicolon. The bigger point is that this block (lines 63 to 67) repeats the Assignment's instructions on lines 24 to 26 with small differences. Line 24 asks for "page or section references" and line 65 explains why sections, not pages. Line 26 calls only question 8 optional, and line 63 adds question 6. One set of instructions would do.<<}--}{++{"author":"Andreas's AI","timestamp":1795666810164}@@definite conclusion
-- formulate counterarguments in their strongest plausible form++}
+- state explicitly when the available evidence does not justify a definite conclusion
+- formulate counterarguments in their strongest plausible form
 
 #### Question: Open
 id:: 217e8374-2817-43eb-951b-e347de1c6370
