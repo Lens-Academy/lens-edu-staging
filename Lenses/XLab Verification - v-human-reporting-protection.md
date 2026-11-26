@@ -130,7 +130,7 @@ Ganz, Abra, and Karl Koch. "AI Whistleblowing Law: Best Practice Guide." AI Whis
 Ganz, Abra, and Karl Koch. "Whistleblower Protections in SB 53: Strengths, Limitations, and Open Questions." AI Whistleblower Initiative, 2026. [aiwi.org](https://aiwi.org/publication-commentary-whistleblower-protections-in-sb-53/)
 *An analysis of SB 53's protected people and disclosures, available channels and remedies, and remaining implementation gaps.*
 
-Wasil, Akash R., Tom Reed, Jack William Miller, et al. "Verification Methods for International AI Agreements — Whistleblowers." *arXiv*, Aug. 2024. [arxiv.org](https://arxiv.org/html/2408.16074v2#Sx5.SSx1.SSSx2)
+Wasil, Akash R., Tom Reed, Jack William Miller, et al. "Verification Methods for International AI Agreements: Whistleblowers." *arXiv*, Aug. 2024. [arxiv.org](https://arxiv.org/html/2408.16074v2#Sx5.SSx1.SSSx2)
 *The paper's whistleblowers section: five ways a government could incentivize insiders to come forward, and why incentives alone fail when an employer can block contact with the verifier.*
 
 Wasil, Akash R., Tom Reed, Jack William Miller, et al. "Verification Methods for International AI Agreements." *arXiv*, Aug. 2024. [arxiv.org](https://arxiv.org/html/2408.16074)

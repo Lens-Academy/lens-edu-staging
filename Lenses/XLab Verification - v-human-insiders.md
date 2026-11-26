@@ -133,7 +133,7 @@ content::
 Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment." *arXiv*, July 2025. [arxiv.org](https://arxiv.org/abs/2507.15916)
 *A six-layer verification framework whose personnel-based layers map which workers can observe different violations and why disclosures still need independent confirmation.*
 
-Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agreements on AI — Appendix A.8: Whistleblower Programs." *arXiv*, July 2025. [arxiv.org](https://arxiv.org/html/2507.15916#A1.SS8)
+Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agreements on AI, Appendix A.8: Whistleblower Programs." *arXiv*, July 2025. [arxiv.org](https://arxiv.org/html/2507.15916#A1.SS8)
 *Baker et al. examine secure contact, suppression, incentives, confidentiality, and which supply-chain personnel can observe different violations.*
 
 XLab. "2.4.1 Insiders and Human Sources." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-insiders)
