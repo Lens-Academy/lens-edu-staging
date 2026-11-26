@@ -444,6 +444,22 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 
 ## Unit 9: Covert Development and the Low-Trust Architecture
 
+**Review of Andreas's rewrites, 2026-11-25, night.**
+
+- **Unit 8 is cleared,** with one slip on the reporting lens's line 96 ("Baker propose"). A suggestion for "Baker et al. propose" is pending.
+- **Cleared in Unit 9** (comment removals pending):
+    - The cheating lens's widget line now ends "Open all six prompts to complete the exercise", and with the comma gone the "so that" clause attaches to the second route as intended.
+    - The close reading's calculator lead-in.
+- **Suggestions made in the text for Andreas to accept:**
+    - **The Unit 9 welcome's third bullet** becomes "Examine one part of it in depth: an argument, a design choice, its weak points, or how it handles a new case." That matches questions 3, 4, 7 and 9, and it keeps the welcome in line with the overview's "one part of your choice". Deleting the bullet would leave the choice question unmentioned.
+    - **The close reading's opening sentence** (line 12) still read "undertake a … proposal" and "assemble … the verification intuitions". The suggested replacement reads one proposal and tests it "against what you have learned across both courses about verification mechanisms, the actors involved and their incentives".
+    - **The question instructions, now one set**, split as Andreas wanted.
+        - Before the paper: one priming sentence that names the four answers and what to note while reading (where the problem is stated, how the approach is built, and how evidence travels from chip to verdict, for questions 1, 2 and 5).
+        - Before the questions: the full instructions. Read all nine first, the answer set and why four questions are marked optional, questions 6 and 8 optional, section references and the PDF, and XLab's four "In your answers" bullets without their semicolons.
+        - The duplicate "Clearly distinguish the author's claims…" sentence goes, since the first bullet says it.
+- **tldrs** (frontmatter, so the candidates are in Claude's reply, not on the page):
+    - **Cheating lens:** the facts come first, then "None of it proves anything on its own". "Not X or Y, but Z" goes, and "careful" replaces "honest".
+    - **Close reading:** "find the step where the conclusion outruns the proof" becomes "examine one part of it in depth".
 ### Welcome to Unit 9
 
 [[../../modules/XLab Verification Part 2 W09 Covert development and the low-trust architecture]], inline. Lens's throughout.
