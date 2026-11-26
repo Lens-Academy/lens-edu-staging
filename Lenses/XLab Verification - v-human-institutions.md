@@ -107,7 +107,7 @@ AI has candidate finders, the evidence streams from earlier in the course: chip 
 :::
 
 :::callout {title="Commentary: The judge (open after you have answered)" tone="neutral" collapse="closed"}
-This is the role with no tenant. The IAEA Board’s standing took a treaty, a statute and decades of cases; nothing with comparable legitimacy exists for AI, and every candidate (a treaty conference, a new agency, a plurilateral council) trades legitimacy against capture along exactly the lines this layer mapped: who funds it, who staffs it, who clears its reports.
+This is the role that is still open. The IAEA Board’s standing took a treaty, a statute and decades of cases; nothing with comparable legitimacy exists for AI, and every candidate (a treaty conference, a new agency, a plurilateral council) trades legitimacy against capture along exactly the lines this layer mapped: who funds it, who staffs it, who clears its reports.
 :::
 
 :::callout {title="Commentary: The enforcer (open after you have answered)" tone="neutral" collapse="closed"}
