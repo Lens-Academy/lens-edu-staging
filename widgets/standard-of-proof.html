@@ -491,12 +491,12 @@ tags: [wip]
       TASK_LEAD + " " + TASKS.join(" ") + " " + LIMIT;
   }
   function docketInstructions(c) {
-    return "Score 0 to 100 against XLab’s marking key criterion for this docket: " + c.text + " " + KEY_REASONING +
+    return "Score 0 to 100 against the marking key criterion for this docket: " + c.text + " " + KEY_REASONING +
       " Grounds: " + c.grounds +
       " Any wording that does not distort the meaning counts; no criterion needs a particular term. Where a criterion asks for a mechanism, a correct label without it earns nothing." +
       " Full marks when the move and the reasoning both match the criterion. About half when the move matches but the reasoning is missing or generic. No credit for: " + KEY.noCredit.join(" ");
   }
-  var FEEDBACK = "Answer XLab’s two self-check questions for this docket in two or three sentences: " + SELF_CHECK.join(" ");
+  var FEEDBACK = "Answer the two self-check questions for this docket in two or three sentences: " + SELF_CHECK.join(" ");
 
   scoreBtn.addEventListener("click", function () {
     if (!window.Lens || !Lens.submit || !state.submitted) return;
