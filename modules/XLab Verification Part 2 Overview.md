@@ -40,7 +40,7 @@ Explore the cheapest verification tools to deploy and the easiest to fool. Start
 :::
 
 :::callout {title="Unit 9: Covert Development and the Low-Trust Architecture" tone="blue"}
-Turn to the perspective of the adversary, then one long close reading. First a worked case: an evasion built by a red team and taken apart by a blue team, with the standard that operations are made inconclusive rather than invisible. Then a published working paper that proposes a full technical system for verifying AI compute use between parties who do not trust each other. You reconstruct its argument, trace evidence from chip to verdict, and deeply analyze a step of your choice.
+Turn to the perspective of the adversary, then one long close reading. First a worked case: an evasion built by a red team and taken apart by a blue team, with the standard that operations are made inconclusive rather than invisible. Then a published working paper that proposes a full technical system for verifying AI compute use between parties who do not trust each other. You reconstruct its argument, trace evidence from chip to verdict, and deeply analyze one part of your choice.
 :::
 
 :::callout {title="Unit 10: Evasion Routes and the Red Team Review" tone="blue"}
