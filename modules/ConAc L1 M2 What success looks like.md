@@ -11,23 +11,24 @@ slug:: m2-overview
 ## Lens:
 source:: [[../Lenses/ConAc L1 M2 - In this module]]
 
-# Submodule: 2.1 Our fundamental views on the main goals
-slug:: m2-1-main-goals
-
-## Lens:
-source:: [[../Lenses/ConAc L1 M2 - Our fundamental views on the main goals]]
-
-# Submodule: 2.2 Our fundamental views on the underlying process
-slug:: m2-2-underlying-process
+# Submodule: 2.1 Our fundamental views on the underlying process
+slug:: m2-1-underlying-process
 
 ## Lens:
 source:: [[../Lenses/ConAc L1 M2 - What Do We Mean by Intelligence]]
 
-# Submodule: 2.3 Why people disagree
-slug:: m2-3-why-people-disagree
+# Submodule: 2.2 Why people disagree
+slug:: m2-2-why-people-disagree
 
 ## Lens:
 source:: [[../Lenses/ConAc L1 M2 - The Three AI Pills]]
 
 ## Lens:
 source:: [[../Lenses/ConAc L1 M2 - The Two Cultures of AI Safety]]
+# Submodule: 2.3 Our fundamental views on the main goals
+slug:: m2-3-main-goals
+source:: [[../Lenses/ConAc L1 M2 - Our fundamental views on the main goals]]
+# Submodule: 2.4 Instruments we have
+slug:: m2-4-instruments-we-have
+source:: [[../Lenses/ConAc L1 M3 - Theory of change]]
+source:: [[../Lenses/ConAc L1 M3 - Threat models]]
