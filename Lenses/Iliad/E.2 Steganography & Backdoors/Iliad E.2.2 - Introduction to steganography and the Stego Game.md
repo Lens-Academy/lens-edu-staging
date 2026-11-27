@@ -6,10 +6,11 @@ summary_for_tutor: "Section 4 of Iliad worksheet E.2: the setup of steganography
 authors:
   - Stephan Wäldchen (Independent)
   - Louis Jaburi (EleutherAI)
+  - Julian Schulz (Meridian Research)
 source_url: https://iliad-intensive.org/safety/steganography/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'f56fd72df9b0046aabc5123f84123a7a636fd6fc'
 upstream_key: "steganography#4-main-content"
-upstream_fingerprint: "271kfidW1tmgNbKt65/1235/1/00xW05rt07ER0GLV0Hzw0IoG0JtC0Lne0MJ40Nyv0RWa0WUp0Zy50bD30c3j0gTc0vnR11KF17sh193Q1CCi1DMU1DpL1HEp1QFr1cRZ1dSE1jO31luJ1oiB1sbe1tkg"
+upstream_fingerprint: "271kfidW1tmgNbKt65/1258/1/00xW05rt07ER0GLV0Hzw0IoG0JtC0Lne0MJ40Nyv0RWa0WUp0Zy50bD30c3j0gTc0vnR11KF17sh193Q1CCi1DMU1DpL1HEp1QFr1cRZ1dSE1jO31luJ1oiB1sbe1tkg"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/safety/steganography/#4-main-content"
@@ -113,3 +114,5 @@ The paper keeps this exact sampling procedure, but instead of using fresh random
 - Chain-of-Thought monitoring is, at the moment, the only really practical approach to find out how LLMs reason. Using steganography, models can however hide what they are thinking from monitors. This can arise naturally and quickly, as soon as there is any optimisation pressure on the COT to censor certain thoughts: [Models can hide COT with steganography](https://arxiv.org/html/2506.01926v2)
 - Models can collude with each other for nefarious purposes and scheme without human overseers noticing. [Steganography can arise and not easily prevented by paraphrasing](https://arxiv.org/pdf/2410.03768)
 - Crucial information could be smuggled out of frontier labs, such as model weights ([Model weight extractions](https://arxiv.org/pdf/2511.02620)) which allows either bad actors to run strong models, the model to proliferate copies of itself to run independently.
+
+Julian Schulz's lecture deck (Slides row, "Steganography") covers the theory, LLM steganography via minimum-entropy coupling, AI-safety relevance, learned steganography and backdoors. Exercise: [Watermarking](https://colab.research.google.com/github/wusche1/Iliad_steganography_and_backdoors/blob/main/exercises/watermarking/notebook.ipynb).

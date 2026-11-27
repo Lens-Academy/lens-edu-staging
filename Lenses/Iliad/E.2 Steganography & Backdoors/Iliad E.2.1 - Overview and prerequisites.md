@@ -6,8 +6,9 @@ summary_for_tutor: "Opening part of Iliad worksheet E.2 Steganography & Backdoor
 authors:
   - Stephan Wäldchen (Independent)
   - Louis Jaburi (EleutherAI)
+  - Julian Schulz (Meridian Research)
 source_url: https://iliad-intensive.org/safety/steganography/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'f56fd72df9b0046aabc5123f84123a7a636fd6fc'
 upstream_key: "steganography#1-prerequisites"
 upstream_fingerprint: "hggEHkNhn/153/1/05Vd07fd0Hp20JFJ0LOn0Qnu0bD30ctt0g9X0jco0t5t1WC520j223Kp2jgX2kGX2pDG2vHg2xdM31nH35IJ39Mg3GEb3Iws3Jz63Ni43QZg3UaD3aow3fXB3iPX3ihg"
 synced_from:
