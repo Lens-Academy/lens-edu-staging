@@ -120,7 +120,7 @@ One or two people share what their group landed on.
 ---
 
 \pagebreak
-### Room 4: Your clause, your next unit  [1:15–1:27]
+### Room 4: Your habit, your next unit  [1:15–1:27]
 
 **New group. Names first, then straight in.**
 
