@@ -46,8 +46,9 @@ The plan finished one day later than scheduled: the docs for Meetings 8 to 10 ra
 ## Left for others
 
 - **Platform** (log section 5): a course setting for the first unit number, links into another module opening that module's first page, a "choose k of n" option for questions, false table errors while an edit is pending, and the staging landing page, which says "practise", "layered defences" and "25 hours, 5 per module" although the course now has eight modules.
-- **Turner**: links and further programs in Meeting 10's Room 4 examples. Meeting 10's "Watch Discord for details on joining" the Capstone also needs confirming.
-- **Andreas**: moving CV2 out of wip once he is ready to promote it.
+- **Turner**: links and further programs in Meeting 10's Room 4 examples. Meeting 10's pointer to Discord for the Capstone stands, since Discord is where course announcements go (Andreas).
+
+CV2 moved to `courses/user-facing/` on 27 November, ready for promotion.
 
 ## For the next course
 

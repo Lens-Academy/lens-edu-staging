@@ -51,7 +51,7 @@ Totals are the required pages' reading plus tutor minutes, with the feedback pag
 
 - **The two long close-reading pages' tutor times hold.** The system overview's 61 is the three required answers, one of four (B17), and Questions 6 and 8 at half uptake (about 58). The red team review's 121 is ten required analytical answers at about 12 each.
 - **No page states a time in its text any more** (stage 8 removed the last four).
-- **Stated times that fit only one way of counting** (log section 8) now fit the rules: Institutions and Policy Judgment's 41 is six required answers at about 6, the two optional ones at half, and the optional dockets at half (about 49, within range).
+- **Stated times that fit only one way of counting** (log section 9) now fit the rules: Institutions and Policy Judgment's 41 is six required answers at about 6, the two optional ones at half, and the optional dockets at half (about 49, within range).
 
 ## Where the numbers change once agreed
 
