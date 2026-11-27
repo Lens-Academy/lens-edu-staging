@@ -36,7 +36,7 @@ source:: [[../Lenses/ConAc L1 M2 - Our fundamental views on the main goals]]
 slug:: m2-4-instruments-we-have
 
 ## Lens:
-source:: [[../Lenses/ConAc L1 M3 - Theory of change]]
+source:: [[../Lenses/ConAc L1 M2 - Theory of change]]
 
 ## Lens:
-source:: [[../Lenses/ConAc L1 M3 - Threat models]]
+source:: [[../Lenses/ConAc L1 M2 - Threat models]]
