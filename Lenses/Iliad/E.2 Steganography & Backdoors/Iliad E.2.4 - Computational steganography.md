@@ -6,8 +6,9 @@ summary_for_tutor: "Sections 9 to 14 of Iliad worksheet E.2: Definition 9.1 (com
 authors:
   - Stephan Wäldchen (Independent)
   - Louis Jaburi (EleutherAI)
+  - Julian Schulz (Meridian Research)
 source_url: https://iliad-intensive.org/safety/steganography/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'f56fd72df9b0046aabc5123f84123a7a636fd6fc'
 upstream_key: "steganography#9-computational-steganography"
 upstream_fingerprint: "b2FXjVVpKS4hM2AXpQ/634/1/03Bq03xH0AWu0DuU0EYx0Hzw0K780V3z0bD31O5e1YFV1jze1vOd2DzH2OtN2YkZ2bVM3Ffk3GCf3H3I3J6G3PyV3cyT3mhk3mja49RC49xa4kLc4uhf528Q5Gfq5cXB"
 synced_from:

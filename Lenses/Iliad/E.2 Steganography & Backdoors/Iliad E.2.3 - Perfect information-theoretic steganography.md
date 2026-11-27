@@ -6,8 +6,9 @@ summary_for_tutor: "Sections 5 to 8 of Iliad worksheet E.2: Definition 5.1 (steg
 authors:
   - Stephan Wäldchen (Independent)
   - Louis Jaburi (EleutherAI)
+  - Julian Schulz (Meridian Research)
 source_url: https://iliad-intensive.org/safety/steganography/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'f56fd72df9b0046aabc5123f84123a7a636fd6fc'
 upstream_key: "steganography#5-what-is-steganography"
 upstream_fingerprint: "FYPlsuRfoxHo/565/1/007g0As30GFA0Hzw0V3z0Z160bD30c3j0ffx0kEo0n4C0p5d18ZG19xX1O5e1T4y1YFV1jO31luJ1rSk1slJ203025Ty28Nu2Gq62iJb2tYR317H31KY39b33H3I3Hjs"
 synced_from:
