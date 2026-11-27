@@ -53,7 +53,7 @@ The unit's fictional worked case, during a twelve-month pause on frontier traini
 
 Nothing yet proves theft or prohibited training. Your group checks compliance with the pause.
 
-1. What is the strongest innocent explanation Sable could give?
+1. What is the strongest case Sable could give fo?
 2. Which single piece of evidence would most weaken that story?
 3. What response is justified before you have proof?
 4. If you still have time: suppose all you had was the intelligence report, with no cloud records or model demo. Would your response change?
