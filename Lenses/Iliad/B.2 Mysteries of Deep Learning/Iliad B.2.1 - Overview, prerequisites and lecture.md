@@ -6,9 +6,9 @@ summary_for_tutor: "Opening part of Iliad worksheet B.2 Mysteries of Deep Learni
 authors:
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/mysteries-of-deep-learning/
-upstream_commit: 'fa1d3e4148c2db4bcd3dc3a0635e0aac03ba948c'
+upstream_commit: '132fcda2ba3a2d81fbf5c901e6b3b47b94d02bab'
 upstream_key: "mysteries-of-deep-learning#prerequisites"
-upstream_fingerprint: "uUNIbS7kn2L9/480/1/09kF0DnR0IPd0T4Z0TYD0grY0uk71AsK1Ylm1bL51fyn1vsd2E0G2IaZ2L7f2NoF2Zz52skn35EO3Ni43PeW40Q840fx4Fpu4Mc24b8L4u4F574t57Eo5Cgd5Mt85dpl"
+upstream_fingerprint: "uUNIbS7kn2L9/541/1/09kF0DnR0IPd0T4Z0TYD0grY0uk71AsK1Ylm1bL51fyn1vsd2E0G2IaZ2L7f2NoF2OWl2Zz52skn35EO3Ni43PeW40Q840fx4Fpu4Mc24b8L4u4F574t57Eo5Cgd5Mt8"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/mysteries-of-deep-learning/#prerequisites"
@@ -30,6 +30,12 @@ content::
 * Students have encountered at least one candidate explanation for each mystery and can articulate what it does and doesn't explain
 * Students understand the "program synthesis" hypothesis as one proposed framework connecting deep learning to Solomonoff induction, and can evaluate its strengths and limitations
 * Students can articulate why solving these mysteries matters for AI safety: understanding the basic mechanisms by which deep learning works is necessary for any *systematic* (generalizing OOD) alignment interventions or measurements to even be possible
+
+:::
+
+:::callout {title="More material for this day" tone="blue"}
+
+Charles Renshaw-Whitman taught this day in the October 2026 run and compiled his own readings and exercises for it: four notebooks covering statistical learning theory, why LLMs became the dominant paradigm, deep learning as program synthesis, and a tour of surprising observations, plus four interactive figures. See [Mysteries of Deep Learning, October 2026](https://charlesr-w.github.io/crw-iliad-intensive-oct-2026/).
 
 :::
 
