@@ -8,9 +8,9 @@ authors:
   - Adam Shai (Simplex)
   - Paul Riechers (Simplex)
 source_url: https://iliad-intensive.org/interpretability/computational-mechanics/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: '8a48a01e52cc583d796dbe31b247b05a99229a5a'
 upstream_key: "computational-mechanics#6-python-exercises-hmm-from-scratch"
-upstream_fingerprint: "fb4uaE/206/1/0Dtb13Cv1Io71aje1b5r1qBV2C8B2qc44diN4jPi4ynw4zjI5qMz6Awq7MCX7PH77j657vra8DXF8oma9RXVAOscAQ1oAXVTAbFtArGWAw0pAzk1BMbbC5UhCL2lCWqa"
+upstream_fingerprint: "fb4/104/1/1b5r1qBV4diN4zjI7MCX7PH78oma9RXVAQ1oAXVTArGWAzk1CL2lDRpaDi1VEcGUFJxVFPH4IUAjJX8cJr2cLhX9N0bLN2ryOPgzOj42OxZFQulxRITHRPnUSqnLTNqx"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/interpretability/computational-mechanics/#6-python-exercises-hmm-from-scratch"
@@ -28,13 +28,3 @@ The Python exercises are ARENA-style notebooks in two parts. Each part has an **
 - Part 2 (solutions) — [Open in Colab](https://colab.research.google.com/github/iliad-team/iliad-intensive-C.3/blob/main/python-exercises/colab/part2_belief_states_solutions_colab.ipynb)
 
 The Colab notebooks are self-contained: their setup cells write the helper modules into the session, so there is nothing else to install or download.
-
-\## 7. Learn more
-
-- Beyond toy architectures – in-context learning
-  - LLMs have an amazing ability to adapt internal representations in-context – [Read: ICLR: [In-Context Learning of Representations](https://arxiv.org/pdf/2501.00070)]
-  - LLMs can predict HMM data in-context – [Read: [Pre-trained Large Language Models Learn Hidden Markov Models In-context](https://arxiv.org/pdf/2506.07298)]
-  - This suggests that internal representations of LLMs predicting GHMM data in-context, may resemble belief states.
-- Processes consisting of GHMMs with richer structure [Read: [Transformers learn factored representations](https://arxiv.org/pdf/2602.02385v1)]
-- Review article of computational mechanics [Read: [Between order and chaos](https://www.nature.com/articles/nphys2190)]
-- [Simplex](https://www.simplexaisafety.com/) is a non-profit research organisation working on applying computational mechanics to AI safety.
