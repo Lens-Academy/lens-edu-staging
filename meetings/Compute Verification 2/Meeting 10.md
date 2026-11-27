@@ -56,7 +56,7 @@ Three routes from the unit's map of evasion routes:
 - repurpose an authorized cluster, for example by reporting training as inference
 - attack the verification system itself, for example by spoofing sensors or coercing staff
 
-1. Each of you: which route would you use?
+1. Each of you: which route would you use to evade a re?
 2. Which of the four layers does the group's strongest pick beat at the same time?
 3. Which new layer would still catch that route, because it fails differently from the four?
 4. If you still have time: say your route is used to break a cap on training compute. Would it still count as cheating under a rule that only requires declaring large runs?
