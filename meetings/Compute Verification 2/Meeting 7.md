@@ -125,8 +125,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-1. Go around, one sentence each: the clause your Room 3 group ended with, or why it chose none.
-2. Each of you picks one habit from this unit to carry into the next:
+1. Each of you picks one habit from this unit to carry into the next:
     - keeping what was observed apart from what you infer from it
     - asking what else could explain a signal
     - stopping at what a record, such as a cloud bill, can actually prove
