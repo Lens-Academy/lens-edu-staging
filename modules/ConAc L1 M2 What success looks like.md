@@ -30,7 +30,7 @@ source:: [[../Lenses/ConAc L1 M2 - The Two Cultures of AI Safety]]
 slug:: m2-3-main-goals
 
 ## Lens:
-source:: [[../Lenses/ConAc L1 M2 - Our fundamental views on the main goals]]
+source:: [[../Lenses/ConAc L1 M2 - What Makes the World Safe]]
 
 # Submodule: 2.4 Instruments we have
 slug:: m2-4-instruments-we-have
