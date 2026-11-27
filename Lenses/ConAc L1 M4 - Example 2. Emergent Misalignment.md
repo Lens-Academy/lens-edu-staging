@@ -1,4 +1,5 @@
 ---
+id: '19ea195b-aa85-4350-ae97-71e6a5d0db6d'
 title: "Example 2. Emergent Misalignment"
 reading_minutes: 5
 tutor_minutes: 0
