@@ -84,7 +84,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-In the nuclear regime, inspectors find the facts, the IAEA Board judges them, and the UN Security Council enforces. An AI treaty including the U.S. and China has no judge yet. Candidates:
+In the nuclear regime, inspectors find the facts, the IAEA Board judges them, and the UN Security Council enforces. An AI treaty including the U.S. and China has no judge yet. PorentiCandidates:
 
 - a conference of all the treaty's parties
 - a new international agency
