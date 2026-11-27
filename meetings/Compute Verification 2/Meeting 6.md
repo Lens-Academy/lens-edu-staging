@@ -53,7 +53,7 @@ One or two people share what their group landed on.
 
 Roleplay. Designate one of you as the chip vendor. The others are a delegation weighing a three-month U.S.-China pause on large training runs. The vendor's pitch: "Our chips already prove their identity. They can verify your pause."
 
-1. The vendor pitches for two minutes, and the delegation matches each promise on a stage. Example promises:
+1. The vendor pitches for two minutes, and the delegation matches each promise to a stage. Example promises:
     - counting how much compute each chip used
     - telling training from inference
     - proving where each chip is located
