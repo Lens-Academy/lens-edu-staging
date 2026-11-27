@@ -20,7 +20,7 @@ Go around your group:
 1. How was the final unit? Did you finish it? If you didn't, what got in the way?
 2. Think of something you protect with more than one safeguard, such as your phone, your home or your bank account (no real details needed). What are the safeguards?
 3. Which one trick comes closest to beating all of them at once?
-4. If you still have time: think about the goal you set for yourself at the be what do you think about the course as a whole now?
+4. If you still have time: think about the goal you set for yourself at the beginning of this course.  what do you think about the course as a whole now?
 
 
 | Names | How the final unit went + your safeguards + the trick that comes closest |
