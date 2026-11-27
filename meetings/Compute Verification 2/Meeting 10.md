@@ -149,7 +149,7 @@ The course ends today, but your action plan doesn't have to.
 \pagebreak
 ### Wrap-up  [1:27–1:30]
 
-Back in the main room, share if you feel like it: one thing you're glad you know now that you didn't know when this course started.
+Back in the main room, share if you feel like it: one thing you're glad you know now that you didn't know when {--{"author":"Andreas's AI","timestamp":1795808571095}@@this course started.--}{++{"author":"Andreas's AI","timestamp":1795808571095}@@you started Compute Verification 1.++}
 Before you leave (your navigator will talk through these):
 
 - This is the last meeting of Compute Verification 2, so there is no next unit to read.
