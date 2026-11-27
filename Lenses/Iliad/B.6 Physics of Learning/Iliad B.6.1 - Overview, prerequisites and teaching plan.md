@@ -9,9 +9,9 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: '99b9622c55bf843f46aa222718298107e4f33674'
 upstream_key: "qft#"
-upstream_fingerprint: "oGJHOvgWTLsSLQWpyc/1785/1/076P078X07Df099W0CBh0Eol0G2G0T4Z0T980UQP0VtY0awn0ctt0eJ60iuf0lZu0t5t0uZe12P314Lg14kh1EFg1FGd1Mhw1PcM1QhP1YWE1abg1bp11eTM1gC41j7J"
+upstream_fingerprint: "oGJHOvgWTLsSLQWpyc/1810/1/076P078X07Df099W0CBh0Eol0G2G0T4Z0T980UQP0VtY0WUp0awn0ctt0eJ60iuf0lZu0t5t0uZe12P314Lg14kh1EFg1FGd1Mhw1PcM1QhP1YWE1abg1bp11eTM1gC4"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/qft/"
@@ -126,7 +126,7 @@ By the end of these notes, you should be able to:
 
 These notes contain far more than can be taught in a day. This section records one selection of material that was taught in a single day at the Iliad Intensive (September 2026, day B.6), as a worked example of how the notes can be used. The day alternates three lectures, given from the slide deck that accompanies these notes, with exercise sessions in which participants pick one exercise from the notes and work on it, alone or in small groups. It closes with a short reading and a discussion.
 
-The deck is the file `slides.tex` in the same folder as these notes. The website build compiles it and offers it in the "Slides" row at the top of this chapter's web page; it can also be opened directly at [iliad-team.github.io/iliad-intensive/downloads/qft/qft-slides.pdf](https://iliad-team.github.io/iliad-intensive/downloads/qft/qft-slides.pdf). Its three parts are the three lectures below: frames 1–20 (Part I), 21–41 (Part II), and 42–52 (Part III). The lectures deliberately leave derivations to the exercise sessions, so the deck is sparse by design; the corresponding sections of these notes fill in what the slides state.
+The deck is the file `slides.tex` in the same folder as these notes. The website build compiles it and offers it in the "Slides" row at the top of this chapter's web page; it can also be opened directly at [iliad-team.github.io/iliad-intensive/downloads/qft/qft-slides.pdf](https://iliad-team.github.io/iliad-intensive/downloads/qft/qft-slides.pdf). Its three parts are the three lectures below: frames 1–21 (Part I), 22–42 (Part II), and 43–53 (Part III). The frames reveal their content step by step; the "handout" version of the deck, offered in the same row, collapses each frame to one page. The lectures deliberately leave derivations to the exercise sessions, so the deck is sparse by design; the corresponding sections of these notes fill in what the slides state.
 
 %% Facilitator logistics (hidden from learners):
 \### 0.1 Schedule
