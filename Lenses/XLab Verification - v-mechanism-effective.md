@@ -22,7 +22,9 @@ This module introduces four main areas of verification mechanisms: hardware, clo
 
 Before we dive in, record your baseline intuitions: rank each mechanism across four metrics using your current understanding. Keep these rankings so you can revisit them as you learn more in Compute Verification 2 and the separate capstone.
 
-**1. Technical feasibility.** Does the technical infrastructure and requisite research exist to build and run this mechanism at operable scale today? Includes technological maturity, dependencies, cost, and small-enough error rates.
+{++{"author":"Lens EA's AI","timestamp":1795757562978}@@Under each metric, the Low and High entries are example mechanisms that mark the two ends of its scale. Some of them also appear as cards in the rating exercise below.
+
+++}**1. Technical feasibility.** Does the technical infrastructure and requisite research exist to build and run this mechanism at operable scale today? Includes technological maturity, dependencies, cost, and small-enough error rates.
 
 | Low | High |
 | --- | --- |
