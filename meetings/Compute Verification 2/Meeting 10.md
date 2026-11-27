@@ -108,7 +108,7 @@ Your group is the expert panel. Cankaya's system from Unit 9 records what runs o
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
-| Names | Best-carried article + least-carried article and what carries it + your vote |
+| Names | Best-carried article + least-carried article and what carries it + your verdict |
 |------|------------------------|
 |  |  |
 |  |  |
