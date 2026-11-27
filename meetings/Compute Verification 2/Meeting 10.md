@@ -98,7 +98,7 @@ Your group is the expert panel. Cankaya's system from Unit 9 records what runs o
 1. Which article could the system carry best?
 2. Which article could it least support?
 3. What else would have to carry that article instead?
-4. Vote as a panel on the system:
+4. As a panel, gi on the system:
     - adopt
     - pilot
     - redesign
