@@ -55,7 +55,7 @@ A lab is suspected of secretly running a training run bigger than a treaty allow
 1. Each of you picks the one source you'd most want to hear from, then agree on a top pick.
 2. What could your top pick not have seen?
 3. Which record, independent of that person, could check what they say?
-4. If you still have time: all six give the same account. Why might it still be wrong?
+4. If you still have time: Even all six give the same account. Why might it still be wrong?
 
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
