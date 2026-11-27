@@ -119,7 +119,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-1. Each of you picks the one question from this unit you'll keep asking of any source:
+1. Each of you picks the one question from this unit you'll keep in mind of any source:
     - what could this person actually have seen?
     - which independent record could check it?
     - where could a true report still die before anyone acts on it?
