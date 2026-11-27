@@ -172,7 +172,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 Write the sharing clause (reshuffle) |
 | 1:10–1:15 | Back together (whole group) |
-| 1:15–1:27 | R4 Your clause, your next unit (reshuffle) |
+| 1:15–1:27 | R4 Your habit and the next unit (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
 
 ### Lobby/Welcoming the participants
