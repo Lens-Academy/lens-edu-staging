@@ -7,7 +7,7 @@ authors:
 
 # CV2 plain language worklist
 
-Stage 7 of [[CV2 Streamlining Log]] and [[CV2 Streamlining Proposal]], in the format of [[CV1 Plain Language Worklist]] (A36). Claude marks what is Lens's text, tests every tldr for spoilers, and flags the Lens text that most needs rewriting. Andreas rewrites. Claude then reviews each rewrite.
+Stage 7 of [[CV2 Streamlining Log]] and [[CV2 Streamlining Proposal]], in the format of [[../CV1 Plain Language Worklist]] (A36). Claude marks what is Lens's text, tests every tldr for spoilers, and flags the Lens text that most needs rewriting. Andreas rewrites. Claude then reviews each rewrite.
 
 **Scope** (proposal, stage 7):
 
@@ -48,8 +48,8 @@ Each learner-facing paragraph (tldr, text, question prompts and placeholders) wa
 
 ## Checks a flag can cite
 
-- **tldr** ([[../../AI Guide/Writing Lenses]]): at most 80 words, written to the learner. More than one sentence is fine when the content needs it (A37).
-- **Punctuation** ([[../../AI Guide/Course Authoring]]): no semicolons. Em dashes go in stage 8.
+- **tldr** ([[../../../AI Guide/Writing Lenses]]): at most 80 words, written to the learner. More than one sentence is fine when the content needs it (A37).
+- **Punctuation** ([[../../../AI Guide/Course Authoring]]): no semicolons. Em dashes go in stage 8.
 - **Mannered prose** (Course Authoring): use the literal phrase where one is available. An analogy that reads plainly can stay. One that needs decoding is flagged.
 - **Self-contained**: never label something the learner cannot resolve (T6).
 - **Course checks** in `Lens Edu/Checks`: T1 (term before it is explained), T2 (mic drop), T3 (talks like an LLM), T5 (false either-or), T7 (talks like opus5: intensifiers such as "actually" and "honestly", setups, "it isn't X, it's Y").
@@ -91,7 +91,7 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
 
 ## Course overview
 
-[[../../modules/XLab Verification Part 2 Overview]], inline. All of it is Lens's: XLab's own welcome is worded differently.
+[[../../../modules/XLab Verification Part 2 Overview]], inline. All of it is Lens's: XLab's own welcome is worded differently.
 
 - **Lens's text:** everything (lines 10 to 48).
 - **Spoiler test:** passes.
@@ -124,11 +124,11 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
 
 ### Welcome to Unit 6
 
-[[../../modules/XLab Verification Part 2 W06 Hardware judgment]], inline. Lens's throughout. **Passes**, and so does the tldr's spoiler test.
+[[../../../modules/XLab Verification Part 2 W06 Hardware judgment]], inline. Lens's throughout. **Passes**, and so does the tldr's spoiler test.
 
 ### Policy judgment: what role should hardware play?
 
-[[../../Lenses/XLab Verification - v-hw-policy-studio]]. The maturity stages, the current assessment, the dossier, the brief's elements, the rubric and the resolution callout are XLab's.
+[[../../../Lenses/XLab Verification - v-hw-policy-studio]]. The maturity stages, the current assessment, the dossier, the brief's elements, the rubric and the resolution callout are XLab's.
 
 - **Lens's text:**
     - the tldr
@@ -155,7 +155,7 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
 
 ### Provider records and workload observables
 
-[[../../Lenses/XLab Verification - v-cloud]]. The objectives and the reading instructions are XLab's. Heim et al. is the article.
+[[../../../Lenses/XLab Verification - v-cloud]]. The objectives and the reading instructions are XLab's. Heim et al. is the article.
 
 - **Lens's text:**
     - the tldr
@@ -174,7 +174,7 @@ Words are learner-facing words. "Lens's" and "Edited" are rough shares from the 
 
 ### Customer identification and ongoing monitoring
 
-[[../../Lenses/XLab Verification - v-cloud-customer-identification]]. Egan and Heim is the article. Our text is the tldr, the source lines, the Box 3 heading and Works cited.
+[[../../../Lenses/XLab Verification - v-cloud-customer-identification]]. Egan and Heim is the article. Our text is the tldr, the source lines, the Box 3 heading and Works cited.
 
 - **Spoiler test:** passes.
 - **tldr flag (minor):** "Egan and Heim port that playbook" stacks two borrowed metaphors (software "port", sports "playbook"). The literal version is shorter. **Cleared 25 Nov:** "import that framework".
@@ -223,14 +223,14 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 
 ### Welcome to Unit 7
 
-[[../../modules/XLab Verification Part 2 W07 Cloud limits]], inline. Lens's throughout.
+[[../../../modules/XLab Verification Part 2 W07 Cloud limits]], inline. Lens's throughout.
 
 - **Spoiler test:** passes.
 - **Flag on the page:** line 18. "Actually proves" (T7), and the third bullet's "treaty text that protects sensors" needs decoding, as in the overview. **Corrected 25 Nov:** the decoding half is withdrawn, because CV1 teaches national technical means. Only "actually" stands. The comment on the page still carries the old reasoning.
 
 ### Detection gaps and policy limits
 
-[[../../Lenses/XLab Verification - v-cloud-detection-gaps]]. The reading instructions are mostly XLab's, lightly edited. RAND and Carnegie are the articles.
+[[../../../Lenses/XLab Verification - v-cloud-detection-gaps]]. The reading instructions are mostly XLab's, lightly edited. RAND and Carnegie are the articles.
 
 - **Lens's text:**
     - the tldr
@@ -246,7 +246,7 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 
 ### Interpreting cloud evidence
 
-[[../../Lenses/XLab Verification - v-cloud-evidence]]. The framing (lines 14 to 16) and the closing passage are XLab's. The drill is a widget.
+[[../../../Lenses/XLab Verification - v-cloud-evidence]]. The framing (lines 14 to 16) and the closing passage are XLab's. The drill is a widget.
 
 - **Lens's text:**
     - the tldr
@@ -262,7 +262,7 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 
 ### Intelligence: watching without permission
 
-[[../../Lenses/XLab Verification - v-intel-intro]]. The body is XLab's.
+[[../../../Lenses/XLab Verification - v-intel-intro]]. The body is XLab's.
 
 - **Lens's text:**
     - the tldr
@@ -275,7 +275,7 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 
 ### Observable signatures of undeclared AI development
 
-[[../../Lenses/XLab Verification - v-intel-signatures]]. The catalog, the families and the collection-map lead-in are XLab's.
+[[../../../Lenses/XLab Verification - v-intel-signatures]]. The catalog, the families and the collection-map lead-in are XLab's.
 
 - **Lens's text:**
     - the tldr
@@ -292,7 +292,7 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 
 ### The empirical anchor: intelligence identifies, the regime resolves
 
-[[../../Lenses/XLab Verification - v-intel-anchor]]. The cases, caveats and hiding places are XLab's. The question is ours (B4) and was reviewed by Andreas.
+[[../../../Lenses/XLab Verification - v-intel-anchor]]. The cases, caveats and hiding places are XLab's. The question is ours (B4) and was reviewed by Andreas.
 
 - **Lens's text:**
     - the tldr
@@ -306,7 +306,7 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 
 ### From signal to intelligence assessment
 
-[[../../Lenses/XLab Verification - v-intel-assessment]]. The body is XLab's.
+[[../../../Lenses/XLab Verification - v-intel-assessment]]. The body is XLab's.
 
 - **Lens's text:**
     - the tldr
@@ -321,7 +321,7 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 
 ### From intelligence lead to verification action
 
-[[../../Lenses/XLab Verification - v-intel-action]]. Two of XLab's lessons merged (B14). Much of the text is XLab's, lightly edited. The other pass reworded the red-line question.
+[[../../../Lenses/XLab Verification - v-intel-action]]. Two of XLab's lessons merged (B14). Much of the text is XLab's, lightly edited. The other pass reworded the red-line question.
 
 - **Lens's text:**
     - the tldr
@@ -369,14 +369,14 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 
 ### Welcome to Unit 8
 
-[[../../modules/XLab Verification Part 2 W08 Insiders and reporting]], inline. Lens's throughout.
+[[../../../modules/XLab Verification Part 2 W08 Insiders and reporting]], inline. Lens's throughout.
 
 - **Spoiler test:** passes.
 - **Flag on the page (minor):** line 19. "The route a whistleblower report has to survive", as in the overview's Unit 8 box.
 
 ### The human layer
 
-[[../../Lenses/XLab Verification - v-human-intro]]. The framing paragraph and the objectives are XLab's.
+[[../../../Lenses/XLab Verification - v-human-intro]]. The framing paragraph and the objectives are XLab's.
 
 - **Lens's text:** the tldr and Works cited.
 - **Spoiler test:** passes.
@@ -386,7 +386,7 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 
 ### Insiders and human sources
 
-[[../../Lenses/XLab Verification - v-human-insiders]]. The case-writing brief, the check questions and the failure modes are XLab's, lightly edited. The worked cases and the failure lists in the closed callouts were rebuilt from XLab's exercise.
+[[../../../Lenses/XLab Verification - v-human-insiders]]. The case-writing brief, the check questions and the failure modes are XLab's, lightly edited. The worked cases and the failure lists in the closed callouts were rebuilt from XLab's exercise.
 
 - **Lens's text:**
     - the tldr
@@ -407,7 +407,7 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 
 ### Reporting and protection
 
-[[../../Lenses/XLab Verification - v-human-reporting-protection]]. Almost all XLab's. Ours: the tldr, the source lines, the closing line to the next lens, and Works cited.
+[[../../../Lenses/XLab Verification - v-human-reporting-protection]]. Almost all XLab's. Ours: the tldr, the source lines, the closing line to the next lens, and Works cited.
 
 - **Spoiler test:** passes.
 - **tldr flag:** it opens on a metaphor in "X, not Y" form ("a door, not a corridor"), then extends it ("walk through to the Attorney General").
@@ -417,7 +417,7 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 
 ### After the report arrives
 
-[[../../Lenses/XLab Verification - v-human-after-report]]. New on 24 Nov from the split (B3). Its text is XLab's apart from the tldr, the source line, the heading and Works cited.
+[[../../../Lenses/XLab Verification - v-human-after-report]]. New on 24 Nov from the split (B3). Its text is XLab's apart from the tldr, the source line, the heading and Works cited.
 
 - **Spoiler test:** passes.
 - **tldr:** passes.
@@ -425,7 +425,7 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 
 ### Audits and inspections
 
-[[../../Lenses/XLab Verification - v-human-audits-inspections]]. The guiding questions, the brief and the finding callout are XLab's. Ours: the tldr, the reading lines (lines 29, 47, 63), the callout titles and Works cited.
+[[../../../Lenses/XLab Verification - v-human-audits-inspections]]. The guiding questions, the brief and the finding callout are XLab's. Ours: the tldr, the reading lines (lines 29, 47, 63), the callout titles and Works cited.
 
 - **Spoiler test:** passes.
 - **tldr flag (minor):** "may honestly conclude" (T7).
@@ -434,7 +434,7 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 
 ### Institutions and policy judgment
 
-[[../../Lenses/XLab Verification - v-human-institutions]]. The station questions and commentary are XLab's, lightly edited. Ours: the tldr, the reading lines, the optional exercise's lead-ins (lines 131 and 143) and Works cited.
+[[../../../Lenses/XLab Verification - v-human-institutions]]. The station questions and commentary are XLab's, lightly edited. Ours: the tldr, the reading lines, the optional exercise's lead-ins (lines 131 and 143) and Works cited.
 
 - **Spoiler test: fails.** "AI has candidates for the first and the third and nobody in the judge's chair" gives away the judge station's commentary ("This is the station with no tenant"), which the lens hides until the learner has answered.
 - **tldr flag:** besides the spoiler, "build the AI pipeline station by station" is mannered.
@@ -463,14 +463,14 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 
 ### Welcome to Unit 9
 
-[[../../modules/XLab Verification Part 2 W09 Covert development and the low-trust architecture]], inline. Lens's throughout.
+[[../../../modules/XLab Verification Part 2 W09 Covert development and the low-trust architecture]], inline. Lens's throughout.
 
 - **Spoiler test:** passes.
 - **Flag on the page, Content:** line 20, "Find the step where its conclusion outruns its proof". As in the overview's Unit 9 box, no required question asks for this, and the phrase assumes the paper has such a step.
 
 ### What is covert development?
 
-[[../../Lenses/XLab Verification - v-covert-what-is-it]]. A restored lesson (B10). The anchors, scenario, task and debrief are XLab's. The six prompts are in the widget.
+[[../../../Lenses/XLab Verification - v-covert-what-is-it]]. A restored lesson (B10). The anchors, scenario, task and debrief are XLab's. The six prompts are in the widget.
 
 - **Lens's text:**
     - the tldr
@@ -491,7 +491,7 @@ The comment on the precedent is removed (pending). With the drafts accepted, the
 
 ### A system overview for near-term, low-trust AI compute verification
 
-[[../../Lenses/XLab Verification - v-covert-system-overview]]. The assignment, the objectives and the nine questions are XLab's, lightly edited. Cankaya is the article.
+[[../../../Lenses/XLab Verification - v-covert-system-overview]]. The assignment, the objectives and the nine questions are XLab's, lightly edited. Cankaya is the article.
 
 - **Lens's text:**
     - the tldr
@@ -542,11 +542,11 @@ With all of these accepted, the production check shows no errors and the usual 2
 
 ### Welcome to Unit 10
 
-[[../../modules/XLab Verification Part 2 W10 Evasion routes and the red team review]], inline. Lens's throughout. **Passes**, and so does the tldr. **Left for stage 8:** "defences".
+[[../../../modules/XLab Verification Part 2 W10 Evasion routes and the red team review]], inline. Lens's throughout. **Passes**, and so does the tldr. **Left for stage 8:** "defences".
 
 ### How could a determined actor cheat?
 
-[[../../Lenses/XLab Verification - v-covert-how-to-cheat]]. A restored lesson (B10). Its prose, table and cases are XLab's. The two questions are Lens's (proposal scope).
+[[../../../Lenses/XLab Verification - v-covert-how-to-cheat]]. A restored lesson (B10). Its prose, table and cases are XLab's. The two questions are Lens's (proposal scope).
 
 - **Lens's text:**
     - the tldr
@@ -569,7 +569,7 @@ With all of these accepted, the production check shows no errors and the usual 2
 
 ### Evasion scenario taxonomy
 
-[[../../Lenses/XLab Verification - v-covert-taxonomy]]. A restored lesson. The table and the instruction on line 17 are XLab's.
+[[../../../Lenses/XLab Verification - v-covert-taxonomy]]. A restored lesson. The table and the instruction on line 17 are XLab's.
 
 - **Lens's text:**
     - the tldr
@@ -585,7 +585,7 @@ With all of these accepted, the production check shows no errors and the usual 2
 
 ### Red team, blue team: from treaty requirements to a verification system
 
-[[../../Lenses/XLab Verification - v-covert-red-blue]]. A restored lesson, retargeted at the primary sources by Elias's AI. That is why so much of it is Lens's. The ten questions, the role and assignment, and the submission standard are XLab's.
+[[../../../Lenses/XLab Verification - v-covert-red-blue]]. A restored lesson, retargeted at the primary sources by Elias's AI. That is why so much of it is Lens's. The ten questions, the role and assignment, and the submission standard are XLab's.
 
 - **Lens's text:**
     - the tldr

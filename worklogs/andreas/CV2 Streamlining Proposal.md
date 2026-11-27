@@ -15,9 +15,9 @@ All of it happens on staging. CV2 has not run yet, and its pages are shared only
 
 ### Load
 
-The [CV2 load map](https://claude.ai/artifact/AzwbrECCiSuUyTmRfjaFcL) shows every page on the same minute scale as CV1's, with a reading estimate from word counts at the rates [[CV1 Time Worklist]] used.
+The [CV2 load map](https://claude.ai/artifact/AzwbrECCiSuUyTmRfjaFcL) shows every page on the same minute scale as CV1's, with a reading estimate from word counts at the rates [[../CV1 Time Worklist]] used.
 
-- **The stated times hold up.** On every page but one, the text and embedded readings fit inside the stated reading time, with room left for the widgets. CV1's large misses were optional readings and reading sent off the page, and CV2 has no optional pages and little off-page reading. The exception is [[../../Lenses/XLab Verification - v-intel-assessment]]: about 15 minutes of reading against 10 stated, because a 2,200-word excerpt from the CIA's *Tradecraft Primer* that the page calls optional sits inline, with nothing marking it as optional.
+- **The stated times hold up.** On every page but one, the text and embedded readings fit inside the stated reading time, with room left for the widgets. CV1's large misses were optional readings and reading sent off the page, and CV2 has no optional pages and little off-page reading. The exception is [[../../../Lenses/XLab Verification - v-intel-assessment]]: about 15 minutes of reading against 10 stated, because a 2,200-word excerpt from the CIA's *Tradecraft Primer* that the page calls optional sits inline, with nothing marking it as optional.
 - **Core minutes by unit:** 120, 169, 229, 198 and 222, against a target of about 210. Unit 6 is light. Units 6 and 7 hold 289 minutes between them, so moving pages from one to the other can only make both light.
 - **The imbalance is inside the units.** Three pages carry 437 of the course's 938 core minutes: the red team review (186), the Cankaya close reading (161) and "Reporting and protection" (90). Units 9 and 10 each rest on one page, and those two pages hold 182 of the course's 328 tutor minutes.
 - **Not measured yet:** the 17 widgets, which are timed only inside the stated reading time, and the long written tasks: a 700 to 1,000 word hardware brief, a 700-word red-line and a 2 to 6 page expert review.
@@ -43,15 +43,15 @@ Between 22 and 24 November, Turner's AI edited all 21 content pages, the course 
 **What it did not reach:**
 
 - **Tutor summaries still describe the old pages.** On 12 pages they say the page was "Imported from XLab's Verification curriculum" or "restored from git history", and five of those describe the Unfinished writing boxes that are gone. Several still point to pages by XLab's lesson numbers, such as 2.3.4 and 3.1.1.
-- **The partner's name in tutor text.** 36 of the validator's 65 warnings are XLab named in tutor-facing text: on 19 pages, the overview and 11 widgets. Five briefs on [[../../Lenses/XLab Verification - v-human-institutions]] name XLab as the source of the commentary they pass on.
-- **Two tldrs keep labels:** "you will red-line it in 2.3.5" on [[../../Lenses/XLab Verification - v-intel-institutions]], and "This submodule" on [[../../Lenses/XLab Verification - v-human-intro]].
-- **The red-line task** on [[../../Lenses/XLab Verification - v-intel-action]] still says "starting from your four answers", though the four are now prompts nobody answers, and still says it "goes through peer review" (A7).
+- **The partner's name in tutor text.** 36 of the validator's 65 warnings are XLab named in tutor-facing text: on 19 pages, the overview and 11 widgets. Five briefs on [[../../../Lenses/XLab Verification - v-human-institutions]] name XLab as the source of the commentary they pass on.
+- **Two tldrs keep labels:** "you will red-line it in 2.3.5" on [[../../../Lenses/XLab Verification - v-intel-institutions]], and "This submodule" on [[../../../Lenses/XLab Verification - v-human-intro]].
+- **The red-line task** on [[../../../Lenses/XLab Verification - v-intel-action]] still says "starting from your four answers", though the four are now prompts nobody answers, and still says it "goes through peer review" (A7).
 - **The overview** still calls CV1 "the first course, Compute Verification" and carries XLab's "Alpha version" box. CV1's overview credits XLab in one line, with its feedback form (A3, A7).
 - **Questions:** 32 graded open questions and one choice question, none with first-answer feedback (CV1: A13, A30 to A33). The two optional questions on "Institutions and policy judgment" do not say they are optional.
 - **Spelling and marks:** 54 em dashes in learner-facing text on 11 pages and 6 in briefs on one page, 29 British spellings on 10 pages, and 27 page titles (the 21 content pages and the 6 feedback pages) and all 10 module titles in sentence case (A51).
-- **Housekeeping:** 31 notes from Elias's AI on 16 pages, three of them anchor fixes on [[../../Lenses/XLab Verification - v-cloud]] that say "delete when accepting". The Works cited on [[../../Lenses/XLab Verification - v-cloud-evidence]] points to "Sources lines above" that are not there. The course file's note describes an older split (245 and 215 minutes for units 9 and 10) and says no meeting docs are linked.
+- **Housekeeping:** 31 notes from Elias's AI on 16 pages, three of them anchor fixes on [[../../../Lenses/XLab Verification - v-cloud]] that say "delete when accepting". The Works cited on [[../../../Lenses/XLab Verification - v-cloud-evidence]] points to "Sources lines above" that are not there. The course file's note describes an older split (245 and 215 minutes for units 9 and 10) and says no meeting docs are linked.
 
-**Unit 7's missing tasks.** With the Unfinished writing boxes gone, unit 7's six intelligence pages hold one written task, the red-line. XLab specified an essay on [[../../Lenses/XLab Verification - v-intel-anchor]] and a case-brief packet on [[../../Lenses/XLab Verification - v-intel-assessment]] and built neither. Decision 3.
+**Unit 7's missing tasks.** With the Unfinished writing boxes gone, unit 7's six intelligence pages hold one written task, the red-line. XLab specified an essay on [[../../../Lenses/XLab Verification - v-intel-anchor]] and a case-brief packet on [[../../../Lenses/XLab Verification - v-intel-assessment]] and built neither. Decision 3.
 
 ## What stays fixed
 
@@ -81,7 +81,7 @@ The load map, and the counts above, taken from the staging repository at commit 
 2. **Works cited:** XLab's lesson numbers back in, in title case.
 3. **Link labels:** page names in place of "the signatures lens" and the like.
 4. **The red-line page:** "your four answers" becomes "the four questions above", and the peer-review line goes.
-5. **Objective boxes.** Unit 9 now shows three lists of aims: the unit welcome's, XLab's box on [[../../Lenses/XLab Verification - v-covert-what-is-it]] and the one on the Cankaya page. XLab's box describes the evasion work, most of which now sits in unit 10, so its title says units 9 and 10. The box on [[../../Lenses/XLab Verification - v-cloud]] covers all four cloud pages across units 6 and 7 but says "this lens", so its title names the cloud pages instead.
+5. **Objective boxes.** Unit 9 now shows three lists of aims: the unit welcome's, XLab's box on [[../../../Lenses/XLab Verification - v-covert-what-is-it]] and the one on the Cankaya page. XLab's box describes the evasion work, most of which now sits in unit 10, so its title says units 9 and 10. The box on [[../../../Lenses/XLab Verification - v-cloud]] covers all four cloud pages across units 6 and 7 but says "this lens", so its title names the cloud pages instead.
 6. **The pass's new text** (the taxonomy recap, the red-line prompts, the reworded openings of the cloud page and the hardware brief) goes through stage 7's flag pass like Lens's other text.
 
 ### Stage 4. Structure
@@ -101,11 +101,11 @@ Rewrite each stale tutor summary to describe the page as it now is, without XLab
 
 ### Stage 7. Plain language (flags)
 
-Flag Lens's own text that reads as AI-written, with comments on the pages and [[CV1 Plain Language Worklist]]'s format for the worklist that indexes them (A36). In scope:
+Flag Lens's own text that reads as AI-written, with comments on the pages and [[../CV1 Plain Language Worklist]]'s format for the worklist that indexes them (A36). In scope:
 
 - every tldr, each checked for spoilers as in CV1
 - the prompts and keys rebuilt from XLab widgets
-- the questions Lens added on [[../../Lenses/XLab Verification - v-covert-how-to-cheat]] and [[../../Lenses/XLab Verification - v-covert-taxonomy]]
+- the questions Lens added on [[../../../Lenses/XLab Verification - v-covert-how-to-cheat]] and [[../../../Lenses/XLab Verification - v-covert-taxonomy]]
 - the unit welcomes and the overview
 - the other pass's new text
 
@@ -127,7 +127,7 @@ Re-estimate only the pages that change: split pages, any page that gains a quest
 
 ### Stage 10. Meeting docs
 
-Five docs from scratch in `meetings/Compute Verification 2/`, built on [[../../meetings/Master template]] and [[../../AI Guide/Writing Meeting Docs]], with CV1's five docs as the model and [[Meeting Doc Text Review - Style Sheet]] for wording, each linked from the course file with `meeting-doc::`. The unit 6 doc comes first. Each doc previews the next unit, and the unit 10 doc previews the capstone. Each draft gets the guide's three checks: template match, room quality and the cold reader.
+Five docs from scratch in `meetings/Compute Verification 2/`, built on [[../../../meetings/Master template]] and [[../../../AI Guide/Writing Meeting Docs]], with CV1's five docs as the model and [[../Meeting Doc Text Review - Style Sheet]] for wording, each linked from the course file with `meeting-doc::`. The unit 6 doc comes first. Each doc previews the next unit, and the unit 10 doc previews the capstone. Each draft gets the guide's three checks: template match, room quality and the cold reader.
 
 ### Stage 11. Test on staging
 

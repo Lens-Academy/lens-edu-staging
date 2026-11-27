@@ -10,7 +10,7 @@ Most times hold. Four pages need a new figure on the rules below, and four calls
 
 ## How the estimates are made
 
-The same method as [[CV1 Time Worklist]], with the AI Guide's rules in [[../../AI Guide/Writing Lenses]].
+The same method as [[../CV1 Time Worklist]], with the AI Guide's rules in [[../../../AI Guide/Writing Lenses]].
 
 - **Reading:** page text at 200 words a minute, including the commentary callouts that open after an answer. Works cited callouts count 0. Excerpts at the load map's rates: 200 for essays, primers and magazine pieces, 175 for policy reports, 150 for academic, legal and technical texts. Videos at their running time.
 - **Widgets:** by what the learner does in them. The text a widget shows was counted from its data (at 200 a minute), plus time for each decision. Where XLab's own pages gave a time (the audits drill 12 to 15, Audit the verifier 15 to 20, Follow the report 7 to 10), that time is used. Widget figures are still the least certain part.

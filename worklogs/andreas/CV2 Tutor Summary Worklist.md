@@ -13,7 +13,7 @@ Companion to [[CV2 Streamlining Log]] and [[CV2 Streamlining Proposal]], stage 6
 
 ## The standard
 
-From the AI Guide ([[../../AI Guide/Writing Lenses]], [[../../AI Guide/Course Authoring]]) and CV1's stage 7:
+From the AI Guide ([[../../../AI Guide/Writing Lenses]], [[../../../AI Guide/Course Authoring]]) and CV1's stage 7:
 
 - Describe what the lens teaches and how its parts run, in order: readings, widgets, questions. Include what is optional and what is required, and how feedback starts (first answer or "Get feedback").
 - No XLab name, no XLab lesson numbers (2.2.1, 3.1.1 and so on), and no "Imported from XLab's curriculum" or "restored from git history". The paper's own section numbers stay (Heim §3.2, Baker §2.3.3, Cankaya Section 3.2).
