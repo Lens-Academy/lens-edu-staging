@@ -43,14 +43,14 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-An analyst's in-tray. A country that signed an AI treaty with inspection rights has declared no large training runs. Over six months, it shows:
+Sort thorugh an analyst's inbox. A country that signed an AI treaty with inspection rights has declared no large training runs. Over six months, it shows:
 
 - a new substation, big enough for a small city, at an industrial park
 - rooftops there that stay free of snow all winter
 - GPU imports far above what its declared data centers need
 - a hiring wave of machine-learning engineers at a state-linked firm
 
-1. Which signal is hardest to explain innocently?
+1. Which signal is hardest to reasonably explain away?
 2. Taken together, how far has this got: still just odd, worth chasing, or enough to suspect a breach of the treaty?
 3. Which next step would you take, given that you might be wrong?
     - ask the country to explain it against its declarations
