@@ -56,7 +56,7 @@ Companion to [[CV2 Streamlining Proposal]]. The proposal holds the plan, this ho
 | 8. Consistency | Done 2026-11-25 (row 29), extended 2026-11-26 (row 30): tables in the omitted text, widgets, Works cited on the signatures page. Table fixes in section 9. Closed 2026-11-26: Andreas accepted the table fixes and deleted v-cloud's last `%%` block |
 | 9. Times | Done 2026-11-26 (row 31, [[CV2 Time Worklist]]). Unit totals: 133, 181, 221, 192 and 202 minutes, plus the overview's 4 |
 | 10 | In progress. Unit 6 meeting doc done 2026-11-26 (row 32), Unit 7 done 2026-11-27 (row 33), Unit 8 done 2026-11-27 (row 34), Unit 9 done 2026-11-27 (row 35), Unit 10 drafted 2026-11-27 (row 36). Done once Andreas has reviewed Meeting 10, Room 4 especially |
-| 11 | Not started |
+| 11 | In progress 2026-11-27. Signed-out checks pass on staging: the new module titles, page order (After the Report Arrives follows Reporting and Protection, the merged intelligence page is gone), the stage 9 times (133, 181, 221, 192 and 202 minutes), the CIA excerpt shown as required (B6 reversed) and the red team review's optional second Cankaya copy (B8). Still to test signed in: first-answer feedback (B5), answers on the split page, and the meeting-doc links. The course landing page, outside the vault, says "practise", "defences" and "5 per module" |
 
 ## 4. Change log
 
