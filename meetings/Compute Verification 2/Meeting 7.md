@@ -132,7 +132,7 @@ One or two people share what their group landed on.
 2. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
 
 
-| Names | Your Room 3 clause + the habit you'll carry + your plan for the next unit |
+| Names | The habit you'll carry + your plan for the next unit |
 |------|------------------------|
 |  |  |
 |  |  |
