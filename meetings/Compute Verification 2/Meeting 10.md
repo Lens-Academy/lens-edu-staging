@@ -20,7 +20,7 @@ Go around your group:
 1. How was the final unit? Did you finish it? If you didn't, what got in the way?
 2. Think of something you protect with more than one safeguard, such as your phone, your home or your bank account (no real details needed). What are the safeguards?
 3. Which one trick comes closest to beating all of them at once?
-4. If you still have time: think about the goal you set for yourself at the beginning of this course. Did you meet it? What do you think about the course as a whole now?
+4. If you still have time: {--{"author":"Andreas's AI","timestamp":1795807905488}@@think about--}{++{"author":"Andreas's AI","timestamp":1795807905488}@@in++} the {--{"author":"Andreas's AI","timestamp":1795807905488}@@goal--}{++{"author":"Andreas's AI","timestamp":1795807905488}@@first meeting,++} you {--{"author":"Andreas's AI","timestamp":1795807905488}@@set for yourself at the beginning of this course. Did you meet it? What do you think about the course as a whole now?--}{++{"author":"Andreas's AI","timestamp":1795807905488}@@named one thing you wanted to be able to judge or argue by the end of this course. How close did you get?++}
 
 
 | Names | How the final unit went + your safeguards + the trick that comes closest |
@@ -136,10 +136,10 @@ The course ends today, but your action plan doesn't have to.
     - talk to someone who builds chips, runs a cloud or works on treaty verification
     - apply somewhere
     - join the Compute Verification Capstone
-2. The others respond: what would make that first step easier to take?
+2. {--{"author":"Andreas's AI","timestamp":1795807908737}@@The others respond: what would make that first step easier to take?--}{++{"author":"Andreas's AI","timestamp":1795807908737}@@Swap contact details with anyone whose action you'd like to hear about later.++}
 
 
-| Names | Your ongoing action + its first step and date + what makes it easier |
+| Names | Your ongoing action + its first step and date + {--{"author":"Andreas's AI","timestamp":1795807908737}@@what makes it easier--}{++{"author":"Andreas's AI","timestamp":1795807908737}@@contact details to swap++} |
 |------|------------------------|
 |  |  |
 |  |  |
