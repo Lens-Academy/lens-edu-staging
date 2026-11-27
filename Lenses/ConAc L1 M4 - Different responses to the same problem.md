@@ -1,4 +1,5 @@
 ---
+id: '9904252d-86eb-4455-8647-9c65057c43f0'
 title: "Different responses to the same problem"
 reading_minutes: 1
 tutor_minutes: 0
