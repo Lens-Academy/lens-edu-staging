@@ -43,7 +43,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-**Don't mistake a demo f a regime.** The unit's five maturity stages, earliest first:
+**Don't mistake a demo for a regime.** The unit's five maturity stages, earliest first:
 
 - a single security feature in use today (for example, chips proving their identity)
 - one component tested under set conditions
