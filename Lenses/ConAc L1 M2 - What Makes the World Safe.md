@@ -1,6 +1,8 @@
 ---
 id: '329a7361-410c-45b9-a8af-ee656022b7e2'
 title: "What Makes the World Safe?"
+reading_minutes: 15
+tutor_minutes: 0
 tags:
   - wip
 ---
