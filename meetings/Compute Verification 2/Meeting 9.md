@@ -125,7 +125,7 @@ One or two people share what their group landed on.
 
 
 1. Each of you picks the one weak point in Cankaya's design you most want to further analyze.
-2. Others respond to each pick by discussing what evidence would show whether it really is weak?
+2. Others respond to each pick by discussing what evidence would be required to show that ?
 3. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
 
 
