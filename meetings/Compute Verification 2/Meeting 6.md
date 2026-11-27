@@ -104,7 +104,7 @@ The know-your-customer (KYC) scheme proposed in this unit, borrowed from banking
 - it reports customers that fit the government's high-risk profiles
 - it can refuse or cut off access
 
-Your group is a well-funded lab that fits a high-risk profile, such as having through strong links to a country of concern. You want to buy cloud compute above the threshold for one training run, without being reported.
+Your group is a well-funded lab that fits a high-risk profile, such as having strong links to a country of concern. You want to buy cloud compute above the threshold for one training run, without being reported.
 
 1. Plan your route around the scheme.
 2. Which provider record could still give you away?
