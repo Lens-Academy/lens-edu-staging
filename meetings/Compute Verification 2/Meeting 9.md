@@ -97,7 +97,7 @@ Your group runs the checked side's data center and wants to train secretly while
 
 1. How would you do it?
 2. Which check would most likely catch you?
-3. Change one part of the design to close off your route.
+3. Change one part of the design to close off your approach.
 4. If you still have time: a record fails to match its hash. How could the checker tell cheating from a random hardware error?
 
 
