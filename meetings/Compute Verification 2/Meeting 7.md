@@ -187,7 +187,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 2. Name the new format (small breakout rooms of 3, new people each time, and a five-minute get-together after each room where anyone can share what their group landed on)
 3. Tell them the doc is in the chat + Discord and to open it + check they can type
 4. Run through the arc
-    - check-in and the traces a secret leaves → an analyst's in-tray: lead or noise? → drafting the sharing clause the treaty leaves out → your clause, a habit to keep and your plan for the next unit
+    - check-in and the traces a secret leaves → an analyst's in-tray: lead or noise? → drafting the sharing clause the treaty leaves out → a habit to keep and your plan for the next unit
     - say the meeting will take 90 min
 5. Inform participants that you will be jumping between rooms with your camera turned off to listen in and they can ask questions whenever you join
 6. Start room 1
