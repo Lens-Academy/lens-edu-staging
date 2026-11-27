@@ -44,6 +44,7 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../../modules/XLab Verification Part 2 U8 Feedback|Unit 8 feedback]]
 
 # Meeting: Unit 8: The Human Layer
+meeting-doc:: [[../../meetings/Compute Verification 2/Meeting 8]]
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
