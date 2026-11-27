@@ -25,10 +25,18 @@ source:: [[../Lenses/ConAc L1 M2 - The Three AI Pills]]
 
 ## Lens:
 source:: [[../Lenses/ConAc L1 M2 - The Two Cultures of AI Safety]]
+
 # Submodule: 2.3 Our fundamental views on the main goals
 slug:: m2-3-main-goals
+
+## Lens:
 source:: [[../Lenses/ConAc L1 M2 - Our fundamental views on the main goals]]
+
 # Submodule: 2.4 Instruments we have
 slug:: m2-4-instruments-we-have
+
+## Lens:
 source:: [[../Lenses/ConAc L1 M3 - Theory of change]]
+
+## Lens:
 source:: [[../Lenses/ConAc L1 M3 - Threat models]]

@@ -58,12 +58,3 @@ source:: [[../Lenses/ConAc L1 M3 - Emergent misalignment]]
 
 ## Lens:
 source:: [[../Lenses/ConAc L1 M3 - Goal misgeneralisation]]
-
-# Submodule: 3.4 Instruments we have
-slug:: m3-4-instruments-we-have
-
-## Lens:
-source:: [[../Lenses/ConAc L1 M3 - Theory of change]]
-
-## Lens:
-source:: [[../Lenses/ConAc L1 M3 - Threat models]]
