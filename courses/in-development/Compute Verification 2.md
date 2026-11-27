@@ -33,6 +33,7 @@ facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 # Module: [[../../modules/XLab Verification Part 2 U7 Feedback|Unit 7 feedback]]
 
 # Meeting: Unit 7: Cloud Limits and Intelligence
+meeting-doc:: [[../../meetings/Compute Verification 2/Meeting 7]]
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
