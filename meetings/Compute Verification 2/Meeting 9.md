@@ -19,7 +19,7 @@ Go around your group:
 
 1. How was this unit? Did you finish it? If you didn't, what got in the way?
 2. Think of a small rule you've seen people bend: speed limits, library deadlines, house rules. What made bending it seem worth the risk?
-3. What would have stopped them: a better chance of being caught, {--{"author":"Andreas's AI","timestamp":1795800103982}@@or --}a bigger {--{"author":"Andreas's AI","timestamp":1795800103982}@@penalty?--}{++{"author":"Andreas's AI","timestamp":1795800103982}@@penalty, or something else?++}
+3. What would have stopped them: a better chance of being caught, a bigger penalty, or something else?
 4. If you still have time: when someone was caught, how did they explain it away?
 
 
@@ -125,7 +125,7 @@ One or two people share what their group landed on.
 
 
 1. Each of you picks the one weak point in Cankaya's design you most want to further analyze.
-2. Others respond to each pick by discussing what evidence would be required to show {--{"author":"Andreas's AI","timestamp":1795800094963}@@that--}{++{"author":"Andreas's AI","timestamp":1795800094963}@@whether++} it is weak.
+2. Others respond to each pick by discussing what evidence would be required to show whether it is weak.
 3. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
 
 
