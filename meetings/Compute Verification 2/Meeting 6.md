@@ -51,7 +51,7 @@ One or two people share what their group landed on.
 - a pilot at the scale that matters for policy, surviving testing against a realistic adversary
 - a working regime: law, institutions, appeals, enforcement and international acceptance, all in practice
 
-Roleplay. Designate one of you as a chip vendor. The others are a delegation weighing a three-month U.S.-China pause on large training runs. The vendor's pitch: "Our chips already prove their identity. They can verify your pause."
+Roleplay. Designate one of you to play the role chip vendor. The others are a delegation weighing a three-month U.S.-China pause on large training runs. The vendor's pitch: "Our chips already prove their identity. They can verify your pause."
 
 1. The vendor pitches for two minutes, and the delegation places each promise on a stage. Example promises:
     - counting how much compute each chip used
