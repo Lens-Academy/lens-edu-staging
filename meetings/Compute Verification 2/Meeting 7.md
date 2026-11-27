@@ -43,7 +43,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Sort {--{"author":"Andreas's AI","timestamp":1795790258482}@@thorugh--}{++{"author":"Andreas's AI","timestamp":1795790258482}@@through++} an analyst's inbox. A country that signed an AI treaty with inspection rights has declared no large training runs. Over six months, it shows:
+Sort through an analyst's inbox. A country that signed an AI treaty with inspection rights has declared no large training runs. Over six months, it shows:
 
 - a new substation, big enough for a small city, at an industrial park
 - rooftops there that stay free of snow all winter
