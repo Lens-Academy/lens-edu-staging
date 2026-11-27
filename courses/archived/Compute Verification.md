@@ -11,7 +11,7 @@ tags: [wip]
 
 Depreciated because it doesn't fit into 5 weeks. Current versions:
 - [[../user-facing/Compute Verification 1]]
-- [[../in-development/Compute Verification 2]]
+- [[../user-facing/Compute Verification 2]]
 - [[../in-development/Compute Verification Capstone]]
 %%
 
