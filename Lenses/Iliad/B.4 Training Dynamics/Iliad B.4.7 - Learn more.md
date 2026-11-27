@@ -6,9 +6,9 @@ summary_for_tutor: "This is the 'Learn more' section of worksheet B.4 (training 
 authors:
   - Guillaume Corlouer (Stormglass)
 source_url: https://iliad-intensive.org/learning/training-dynamics/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: '80de3be510c44e4dd81b8a8ed640cfcdbec06212'
 upstream_key: "training-dynamics#learn-more"
-upstream_fingerprint: "JpBTI0oCkqxvF8klTExFbJ2w8aX/1781/1/006A03KW04id04jQ04wO0Efd0K4A0LKl0Lvd0NRJ0NZX0Nl00Ras0T9M0bgn0cOQ0grY0ivh0oWS0qRt0ud00uzw0wHE0xxX0xyz0yzi15cX17pe1AjH1Cer1IKM1NQq"
+upstream_fingerprint: "JpBTI0oCkqxvF8klTExFbJ2w8aX/1823/1/006A03KW04id04jQ04wO0Efd0K4A0LKl0Lvd0NRJ0NZX0Nl00Ras0T9M0bgn0cOQ0grY0ivh0oWS0qRt0ud00uzw0wHE0xxX0xyz0yzi15cX17pe1AjH1Cer1IKM1NQq"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/training-dynamics/#learn-more"
@@ -17,6 +17,13 @@ synced_from:
 #### Text
 content::
 \## Learn more
+
+:::callout {title="Guest lecture" tone="blue"}
+
+- [Learning Mechanics: Implicit Bias and Feature Learning](https://drive.google.com/file/d/1Uy7UDSUS8LEx2NH8RLPHk07oTZDc8URu/view) Daniel Kunin — slides from his guest lecture at the Iliad Intensive, October 2026
+- [Board notes](https://drive.google.com/file/d/1IXt6egCuc4Nr5PdosKW9TUNF-I8FUGjk/view) for the same lecture, with a [companion page on diagonal linear networks](https://daniel-kunin.com/diagonal-linear-networks/)
+
+:::
 
 The readings are roughly ordered in a way that makes sense for learning. Discuss the readings in groups of 2 or 3, to be formed in this [Google doc](https://docs.google.com/document/d/18ipUc3WcV2DOqHJRD_TqHAPyEaYHK0SVpUfiXtBF99Q/edit?tab=t.0). Spend 30 minutes reading, 30 minutes discussing and 30 minutes to write down your thoughts in the Google doc.
 
