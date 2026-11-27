@@ -8,9 +8,9 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
+upstream_commit: 'e39a3037322688d586e550365dddfafbf3f444be'
 upstream_key: "singular-learning-theory#4-degeneracy-and-bayesian-deep-learning"
-upstream_fingerprint: "X7WvjyPMApOiXR7/1840/1/06ri0GkS0Nwx0cAu0g9X0iuf0nBf0qn30rWq0t5t10vS1Gpb1Isf1JjZ1Rlu1Tcy1Viw1Vp11YWs1h1x1n2D1pc51rNE1sVI1vAJ1xtV1ywb28T829aD2A3W2DpZ2O8X"
+upstream_fingerprint: "X7WvjyPMATVgpOiXR7/2563/1/06ri0GkS0Nwx0Ut10cAu0g9X0gSZ0iuf0jcc0nBf0qn30rWq0t5t10vS18uA1Gpb1Isf1JjZ1Rlu1Tcy1Viw1Vp11YWs1h1x1jO31n2D1pc51rNE1sVI1vAJ1xtV1ywb"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/singular-learning-theory/#4-degeneracy-and-bayesian-deep-learning"
@@ -122,6 +122,170 @@ $$
 
 :::
 
+:::callout {title="Exercise" tone="amber"}
+**Exercise 4.2 (Estimating the learning coefficient from the Gibbs posterior).** This exercise turns the free energy expansion of Theorem 4.1, with an inverse temperature $$\beta$$ (writing $$t = n\beta$$), into two estimators of the learning coefficient. [*Note:* Contributed by Miguel Donaire Arcas-Sariot (Iliad Intensive, September 2026).]
+
+Consider the tempered free energy associated with a prior density $$\varphi \colon {\mathcal{W}} \to [0,\infty)$$, a loss $$L \colon {\mathcal{W}} \to {\mathbb{R}}$$, a sample size $$n \in {\mathbb{N}}$$ and an inverse temperature $$\beta > 0$$:
+
+$$
+F_{n}^{\beta} := -\log \int_{{\mathcal{W}}}e^{-n\beta L(w)}\, \varphi(w)\,dw. \tag{50}
+$$
+
+Set $$t := n\beta > 0$$. We write $${\mathbb{E}}_{n,\beta}[g(w)]$$ and $$\operatorname{Var}_{n,\beta}(g(w))$$ for the expectation and variance under the Gibbs posterior
+
+$$
+p_{n,\beta}(w) \propto e^{-n\beta L(w)}\, \varphi(w).
+$$
+
+Suppose that $$L$$ attains its minimum
+
+$$
+L^{\star} := \min_{w \in {\mathcal{W}}}L(w).
+$$
+
+Let $$\lambda^{\star}$$ and $$\mu^{\star}$$ denote, respectively, the RLCT and the multiplicity of the contribution that dominates the asymptotics of the integral in Equation 50. Concretely, if several global minimisers contribute, $$\lambda^{\star}$$ is the smallest local RLCT and, among the minimisers with that RLCT, $$\mu^{\star}$$ is the largest multiplicity.
+
+Assume that, as $$t \to \infty$$,
+
+$$
+F_{n}^{\beta} = tL^{\star} + \lambda^{\star} \log t - (\mu^{\star} - 1)\log\log t + r(t), \tag{51}
+$$
+
+where the remainder is regular enough that
+
+$$
+r'(t) = o(t^{-1}), \qquad r''(t) = o(t^{-2}).
+$$
+
+Throughout, you may assume that $$\frac{d}{dt}$$ can be exchanged with integration over $$w \in {\mathcal{W}}$$.
+
+**(a)** Show directly from Equation 50 that
+
+$$
+\frac{dF_{n}^{\beta}}{dt}= {\mathbb{E}}_{n,\beta}[L(w)]. \tag{52}
+$$
+
+Hence, by differentiating Equation 51, show that
+
+$$
+{\mathbb{E}}_{n,\beta}[L(w)] = L^{\star} + \frac{\lambda^{\star}}{t}- \frac{\mu^{\star} - 1}{t \log t}+ o(t^{-1}). \tag{53}
+$$
+
+**(b)** Suppose that an oracle provides the minimum loss $$L^{\star}$$. Use Equation 53 to construct an asymptotically consistent estimator of $$\lambda^{\star}$$ from the Gibbs expected loss.
+
+**(c)** Show directly that
+
+$$
+\frac{d^{2} F_{n}^{\beta}}{dt^{2}}= -\operatorname{Var}_{n,\beta}(L(w)). \tag{54}
+$$
+
+By differentiating Equation 51 twice, show that
+
+$$
+\operatorname{Var}_{n,\beta}(L(w)) = \frac{\lambda^{\star}}{t^{2}}- \frac{(\mu^{\star} - 1)(\log t + 1)}{t^{2} (\log t)^{2}}+ o(t^{-2}). \tag{55}
+$$
+
+**(d)** Use Equation 55 to construct an asymptotically consistent estimator of $$\lambda^{\star}$$ that does not require knowledge of $$L^{\star}$$.
+:::
+
+:::callout {title="Solution" tone="neutral" collapse="closed"}
+
+**(a)** Define the partition function
+
+$$
+Z(t) := \int_{{\mathcal{W}}}e^{-tL(w)}\, \varphi(w)\,dw,
+$$
+
+so that $$F_{n}^{\beta} = -\log Z(t)$$. Differentiating under the integral,
+
+$$
+Z'(t) = -\int_{{\mathcal{W}}}L(w)\, e^{-tL(w)}\, \varphi(w)\,dw.
+$$
+
+Therefore
+
+$$
+\frac{dF_{n}^{\beta}}{dt}= -\frac{Z'(t)}{Z(t)}= \frac{\int_{{\mathcal{W}}}L(w)\, e^{-tL(w)}\, \varphi(w)\,dw}{\int_{{\mathcal{W}}}e^{-tL(w)}\, \varphi(w)\,dw}= {\mathbb{E}}_{n,\beta}[L(w)].
+$$
+
+On the other hand, differentiating Equation 51 gives
+
+$$
+\frac{dF_{n}^{\beta}}{dt}= L^{\star} + \frac{\lambda^{\star}}{t}- \frac{\mu^{\star} - 1}{t \log t}+ r'(t). \tag{58}
+$$
+
+Since $$r'(t) = o(t^{-1})$$,
+
+$$
+\boxed{ {\mathbb{E}}_{n,\beta}[L(w)] = L^\star + \frac{\lambda^{\star}}{t} - \frac{\mu^{\star} - 1}{t \log t} + o(t^{-1}) }
+$$
+
+Thus the leading deviation of the Gibbs expected loss above its minimum is controlled by the RLCT.
+
+**(b)** Rearranging Equation 53,
+
+$$
+t\bigl({\mathbb{E}}_{n,\beta}[L(w)] - L^{\star}\bigr) = \lambda^{\star} - \frac{\mu^{\star} - 1}{\log t}+ o(1).
+$$
+
+Hence the oracle estimator
+
+$$
+\boxed{ \widehat{\lambda}_{\mathrm{mean}} := t\bigl({\mathbb{E}}_{n,\beta}[L(w)] - L^\star\bigr) } \tag{59}
+$$
+
+satisfies $$\widehat{\lambda}_{\mathrm{mean}}\to \lambda^{\star}$$ as $$t \to \infty$$.
+
+Its leading finite-$$t$$ bias is $$-(\mu^{\star} - 1)/\log t$$, which decays only logarithmically. If the multiplicity $$\mu^{\star}$$ were also known, one could use the bias-corrected estimator
+
+$$
+t\bigl({\mathbb{E}}_{n,\beta}[L(w)] - L^{\star}\bigr) + \frac{\mu^{\star} - 1}{\log t}.
+$$
+
+**(c)** By Equation 52, $$\frac{d^{2} F_{n}^{\beta}}{dt^{2}}= \frac{d}{dt}{\mathbb{E}}_{n,\beta}[L(w)]$$. Writing $${\mathbb{E}}_{n,\beta}[L(w)] = -Z'(t)/Z(t)$$ and using $$Z''(t) = \int_{{\mathcal{W}}}L(w)^{2} e^{-tL(w)}\, \varphi(w)\,dw$$,
+
+$$
+\begin{aligned}\frac{d}{dt}{\mathbb{E}}_{n,\beta}[L(w)]&= -\frac{Z''(t)}{Z(t)}+ \left(\frac{Z'(t)}{Z(t)}\right)^{2} \\&= -{\mathbb{E}}_{n,\beta}[L(w)^{2}] + {\mathbb{E}}_{n,\beta}[L(w)]^{2} \\&= -\operatorname{Var}_{n,\beta}(L(w)).\end{aligned}
+$$
+
+Thus
+
+$$
+\boxed{ \frac{d^{2} F_{n}^{\beta}}{dt^{2}} = -\operatorname{Var}_{n,\beta}(L(w)) }
+$$
+
+Now differentiate Equation 58. Since $$\frac{d}{dt}(t\log t) = \log t + 1$$,
+
+$$
+\frac{d^{2} F_{n}^{\beta}}{dt^{2}}= -\frac{\lambda^{\star}}{t^{2}}+ \frac{(\mu^{\star} - 1)(\log t + 1)}{t^{2} (\log t)^{2}}+ r''(t),
+$$
+
+and $$r''(t) = o(t^{-2})$$. Since the second derivative is minus the variance,
+
+$$
+\boxed{ \operatorname{Var}_{n,\beta}(L(w)) = \frac{\lambda^{\star}}{t^{2}} - \frac{(\mu^{\star} - 1)(\log t + 1)}{t^{2} (\log t)^{2}} + o(t^{-2}) }
+$$
+
+In particular, $$\operatorname{Var}_{n,\beta}(L(w)) \sim \lambda^{\star} / t^{2}$$.
+
+**(d)** Multiplying Equation 55 by $$t^{2}$$ gives
+
+$$
+t^{2} \operatorname{Var}_{n,\beta}(L(w)) = \lambda^{\star} - (\mu^{\star} - 1)\frac{\log t + 1}{(\log t)^{2}}+ o(1).
+$$
+
+Therefore
+
+$$
+\boxed{ \widehat{\lambda}_{\mathrm{var}} := t^2 \operatorname{Var}_{n,\beta}(L(w)) } \tag{60}
+$$
+
+satisfies $$\widehat{\lambda}_{\mathrm{var}}\to \lambda^{\star}$$ as $$t \to \infty$$, so it is an asymptotically consistent estimator.
+
+Unlike Equation 59, this estimator does not require knowledge of the minimum loss $$L^{\star}$$. It only requires samples from the tempered posterior, from which the variance of $$L(w)$$ can be estimated.
+
+:::
+
 \### 4.2 Bayesian phase transitions
 
 So far we have looked at the consequence of the free energy formula when considering $$n$$ to be fixed. However, we also find it interesting to see what it tells us about changes in the posterior as $$n$$ increases.
@@ -131,7 +295,7 @@ For the rest of this section, assume $$n$$ is sufficiently large that (i) the fr
 Consider two disjoint regions $${\mathcal{U}}, {\mathcal{V}} \subseteq {\mathcal{W}}$$, containing minimisers $$u^{\ast}$$ and $$v^{\ast}$$ of the population loss $$L$$ with local learning coefficients $$\lambda_{{\mathcal{U}}}$$ and $$\lambda_{{\mathcal{V}}}$$ respectively. Applying the free energy formula to each region, the log posterior odds between the two regions satisfy
 
 $$
-\log \frac{\pi_{n}({\mathcal{U}})}{\pi_{n}({\mathcal{V}})}= F_{n}({\mathcal{V}}) - F_{n}({\mathcal{U}}) \approx n\,\Delta L_{n} + \Delta\lambda \cdot \log n \tag{50}
+\log \frac{\pi_{n}({\mathcal{U}})}{\pi_{n}({\mathcal{V}})}= F_{n}({\mathcal{V}}) - F_{n}({\mathcal{U}}) \approx n\,\Delta L_{n} + \Delta\lambda \cdot \log n \tag{56}
 $$
 
 where $$\Delta L_{n} = L_{n}(v^{\ast}) - L_{n}(u^{\ast})$$ and $$\Delta\lambda = \lambda_{{\mathcal{V}}}- \lambda_{{\mathcal{U}}}$$.
@@ -142,16 +306,16 @@ $$
 L_{n}(u^{\ast}) > L_{n}(v^{\ast}) \qquad\text{and}\qquad \lambda_{{\mathcal{U}}}< \lambda_{{\mathcal{V}}}.
 $$
 
-Then $$\Delta L_{n} < 0$$ and $$\Delta\lambda > 0$$, so the two terms in (50) have opposite signs. For smaller $$n$$, the $$\Delta\lambda \cdot \log n$$ term dominates so the log posterior odds is negative meaning the posterior prefers $${\mathcal{U}}$$ (the simpler, less accurate region). As $$n$$ increases, the linear term $$n\,\Delta L_{n}$$ eventually dominates the logarithmic term, and the posterior shifts to prefer $${\mathcal{V}}$$ (the more complex, more accurate region). Setting the leading terms equal, this change occurs at a critical sample size $$n^{*}$$ satisfying
+Then $$\Delta L_{n} < 0$$ and $$\Delta\lambda > 0$$, so the two terms in (56) have opposite signs. For smaller $$n$$, the $$\Delta\lambda \cdot \log n$$ term dominates so the log posterior odds is negative meaning the posterior prefers $${\mathcal{U}}$$ (the simpler, less accurate region). As $$n$$ increases, the linear term $$n\,\Delta L_{n}$$ eventually dominates the logarithmic term, and the posterior shifts to prefer $${\mathcal{V}}$$ (the more complex, more accurate region). Setting the leading terms equal, this change occurs at a critical sample size $$n^{*}$$ satisfying
 
 $$
-\frac{n^{*}}{\log n^{*}}\approx \frac{\Delta\lambda}{\lvert\Delta L_{n}\rvert}. \tag{51}
+\frac{n^{*}}{\log n^{*}}\approx \frac{\Delta\lambda}{\lvert\Delta L_{n}\rvert}. \tag{57}
 $$
 
 At $$n = n^{*}$$, the posterior undergoes a **Bayesian phase transition**: the region that dominates the posterior changes abruptly.
 
 :::callout {title="Exercise" tone="amber"}
-**Exercise 4.2 (Exploring phase transitions).** We show how *phase transitions* can occur when different local free energies change at different rates.
+**Exercise 4.3 (Exploring phase transitions).** We show how *phase transitions* can occur when different local free energies change at different rates.
 
 **(a)** Suppose we partition the overall parameter space into a disjoint union $${\mathcal{W}} = {\mathcal{U}} \sqcup {\mathcal{V}}$$. Denote the overall free energy by $$F_{n}$$ and the local free energies by $$F_{n}({\mathcal{U}})$$ and $$F_{n}({\mathcal{V}})$$, respectively. Show that the relationship
 

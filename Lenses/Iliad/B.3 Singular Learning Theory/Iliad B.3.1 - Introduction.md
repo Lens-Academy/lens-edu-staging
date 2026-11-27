@@ -8,7 +8,7 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'e39a3037322688d586e550365dddfafbf3f444be'
 upstream_key: "singular-learning-theory#"
 upstream_fingerprint: "oGJCLn/994/1/02Ml047r06CS0GuS0T980XZt0bDh0d5R0edq0iOu0iuf0k5x0lQO0lss0uK30zcG105b1EhF1Rxh1Viw1Xw41ha51qMP1vMm210022cW27mz28is2Cso2DNy2NG52O8X"
 synced_from:
@@ -95,7 +95,7 @@ To paraphrase Euclid, there is no royal road to algebro-geometric learning theor
 
 1. To understand parameter–function map versus loss landscape degeneracy: Read Section 2.1 and complete Exercises 2.1 and 2.2. Complete either Exercise 2.9 or Exercise 2.10. Read Section 2.5 and complete your choice of Exercise 2.14 and/or Exercise 2.15.
 2. To understand the local learning coefficient via volume scaling: Read Section 3.1 and complete Exercises 3.1, 3.2, 3.4 and 3.7. Read Section 3.3 and Exercise 3.10.
-3. To understand the relation between degeneracy and learning in the Bayesian case: Read all of Section 4 (it is shorter). Complete Exercise 4.2.
+3. To understand the relation between degeneracy and learning in the Bayesian case: Read all of Section 4 (it is shorter). Complete Exercise 4.3.
 
 Once you are done, we hope you will consider taking the scenic route some other time.
 
