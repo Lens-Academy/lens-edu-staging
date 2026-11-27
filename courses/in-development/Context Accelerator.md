@@ -33,7 +33,7 @@ application-survey:: [[../../surveys/Application Form]]
 # Module: [[../../modules/ConAc L3 M3 Understanding the problem|Level 3]]
 # Meeting: Week 3
 
-# Module: [[../../modules/ConAc L1 M4 Theories of change for existing approaches|Level 1: Theories of change for existing approaches]]
+# Module: [[../../modules/ConAc L1 M4 Theories of change for existing approaches|Level 1: Research agendas and their theories of change]]
 # Module: [[../../modules/ConAc L2 M4 Theories of change for existing approaches|Level 2]]
 # Module: [[../../modules/ConAc L3 M4 Theories of change for existing approaches|Level 3]]
 # Meeting: Week 4
