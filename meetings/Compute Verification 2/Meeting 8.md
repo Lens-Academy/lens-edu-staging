@@ -55,7 +55,7 @@ A lab is suspected of secretly running a training run bigger than a treaty allow
 1. Each of you picks the one source you'd most want to hear from, then agree on a top pick.
 2. What could your top pick not have seen?
 3. Which record, independent of that person, could check what they say?
-4. If you still have time: {--{"author":"Andreas's AI","timestamp":1795791875869}@@All--}{++{"author":"Andreas's AI","timestamp":1795791875869}@@all++} six corroborate the same account. Why might they still be wrong?
+4. If you still have time: all six corroborate the same account. Why might they still be wrong?
 
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
@@ -84,7 +84,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-In the nuclear regime, inspectors find the facts, the IAEA Board judges them, and the UN Security Council enforces. An AI treaty including the U.S. and China has no judge yet. {--{"author":"Andreas's AI","timestamp":1795791871938}@@Here are some potential--}{++{"author":"Andreas's AI","timestamp":1795791871938}@@Potential++} candidates:
+In the nuclear regime, inspectors find the facts, the IAEA Board judges them, and the UN Security Council enforces. An AI treaty including the U.S. and China has no judge yet. Potential candidates:
 
 - a conference of all the treaty's parties
 - a new international agency
