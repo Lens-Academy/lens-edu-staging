@@ -53,6 +53,7 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../../modules/XLab Verification Part 2 U9 Feedback|Unit 9 feedback]]
 
 # Meeting: Unit 9: Covert Development and the Low-Trust Architecture
+meeting-doc:: [[../../meetings/Compute Verification 2/Meeting 9]]
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
