@@ -102,11 +102,10 @@ to:: "~0.5 OOMs/year)._"{--{"author":"Aleksandra's AI","timestamp":1795822667897
 
 #### Text
 content::
-\## RSI in theory and predictions{++{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795533305928}@@
-
-#### Video++}
-{--{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795533305928}@@{>>{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795439025356}@@Video to add here, whole: https://www.youtube.com/watch?v=vV7dRkjTPo4 (import failed on 2026-11-23, retry)<<}--}{++{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795533305928}@@source:: [[../video_transcripts/rational-animations-scientists-predicted-a-singularity-on-nov-13-2026-they-were-right]]++}
+\## RSI in theory and predictions
+{>>{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795439025356}@@Video to add here, whole: https://www.youtube.com/watch?v=vV7dRkjTPo4 (import failed on 2026-11-23, retry)<<}
 
 #### Text
 content::
+\## RSI in current AI development
 {>>{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795439025356}@@Video to add here, 0:00 to 10:44: https://www.youtube.com/watch?v=h_aA1-R70E8 (import failed on 2026-11-23, retry)<<}--}
