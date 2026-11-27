@@ -6,7 +6,7 @@ summary_for_tutor: "Opening part of Iliad worksheet B.2 Mysteries of Deep Learni
 authors:
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/mysteries-of-deep-learning/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'fa1d3e4148c2db4bcd3dc3a0635e0aac03ba948c'
 upstream_key: "mysteries-of-deep-learning#prerequisites"
 upstream_fingerprint: "uUNIbS7kn2L9/480/1/09kF0DnR0IPd0T4Z0TYD0grY0uk71AsK1Ylm1bL51fyn1vsd2E0G2IaZ2L7f2NoF2Zz52skn35EO3Ni43PeW40Q840fx4Fpu4Mc24b8L4u4F574t57Eo5Cgd5Mt85dpl"
 synced_from:
@@ -47,7 +47,7 @@ The content is already attempting to compress a somewhat disjointed research fie
 
 \### Lecture
 
-[Slides.](https://drive.google.com/drive/folders/1SV-VYOSTzEGcRxw5GuDBCLbwQWj3k0Ym)
+[Slides.](https://drive.google.com/file/d/1ZEkjSSQ6MzrrW3ULLjvbNrQgzkZUgZ0S/view)
 
 *Discussion questions:*
 
