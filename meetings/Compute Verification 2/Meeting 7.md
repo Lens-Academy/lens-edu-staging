@@ -86,7 +86,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-The part of MIRI's draft AI treaty on each side's own sensors (satellites, aircraft, cyber, signals, imagery and other remote sensing):
+From the part of MIRI's draft AI treaty on each side's own sensors (satellites, aircraft, cyber, signals, imagery and other remote sensing):
 
 - each side uses them to check that the other complies
 - each side promises not to interfere with the other's sensors
