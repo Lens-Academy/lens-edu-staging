@@ -62,6 +62,7 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../../modules/XLab Verification Part 2 U10 Feedback|Unit 10 and course feedback]]
 
 # Meeting: Unit 10: Evasion Routes and the Red Team Review
+meeting-doc:: [[../../meetings/Compute Verification 2/Meeting 10]]
 survey:: [[../../surveys/CV2 Final Impact Survey v2]]
 facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
