@@ -77,7 +77,7 @@ feedback-instructions:: The learner just read Shlegeris's June 2026 paragraph. I
 #### Question: Open
 id:: 8021b3df-1b07-49a2-b1b7-8aefc974d273
 content::
-Optional: now picture a small safety team at a bank that runs an open-weight model, one whose weights are public so anyone can download, run and change it, as its internal coding agent. The bank did not build the model, but it holds a copy of the model's weights. What is one thing the team's control work can do because the bank holds the weights, that a customer using the model through another company's service could not do?
+Optional: now picture a small safety team at a bank that runs an open-weight model, one whose weights are public so anyone can download, run and change it, as its internal coding agent. The bank did not build the model, but it holds a copy of the model's weights. What is one thing the team's control work can do because the bank holds the weights, that a customer who only sends inputs to the model and gets its outputs back through another company's service could not do?
 placeholder:: A few sentences.
 optional:: true
 force-feedback:: first
