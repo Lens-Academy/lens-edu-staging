@@ -75,6 +75,9 @@ source:: [[../../Lenses/riechers-neural-networks-leverage-nominally-quantum-and-
 # Lens: C.3.7 Python exercises and further reading
 source:: [[../../Lenses/Iliad/C.3 Computational Mechanics/Iliad C.3.7 - Python exercises and further reading]]
 
+# Lens: C.3.8 More exercise notebooks (August 2026)
+source:: [[../../Lenses/Iliad/C.3 Computational Mechanics/Iliad C.3.8 - More exercise notebooks (August 2026)]]
+
 # Submodule: C.4 Condensation
 
 # Lens: C.4.1 Overview and prerequisites
