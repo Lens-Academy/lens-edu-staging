@@ -98,14 +98,4 @@ source:: [[../articles/aisafety-what-is-recursive-self-improvement]]
 #### Article
 source:: [[../articles/ahead-ii-from-agi-to-superintelligence-the-intelligence-explosion]]
 from:: "_AI progress won’t stop at human-level._"
-to:: "~0.5 OOMs/year)._"{--{"author":"Aleksandra's AI","timestamp":1795822667897}@@
-
-#### Text
-content::
-\## RSI in theory and predictions
-{>>{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795439025356}@@Video to add here, whole: https://www.youtube.com/watch?v=vV7dRkjTPo4 (import failed on 2026-11-23, retry)<<}
-
-#### Text
-content::
-\## RSI in current AI development
-{>>{"author":"opus-5.5 (Alex R)'s AI","timestamp":1795439025356}@@Video to add here, 0:00 to 10:44: https://www.youtube.com/watch?v=h_aA1-R70E8 (import failed on 2026-11-23, retry)<<}--}
+to:: "~0.5 OOMs/year)._"
