@@ -19,7 +19,7 @@ Go around your group:
 
 1. How was this unit? Did you finish it? If you didn't, what got in the way?
 2. Think of a small rule you've seen people bend: speed limits, library deadlines, house rules. What made bending it seem worth the risk?
-3. What would have stopped them: a better chance of being caught, or a bigger penalty?
+3. What would have stopped them: a better chance of being caught, {--{"author":"Andreas's AI","timestamp":1795800103982}@@or --}a bigger {--{"author":"Andreas's AI","timestamp":1795800103982}@@penalty?--}{++{"author":"Andreas's AI","timestamp":1795800103982}@@penalty, or something else?++}
 4. If you still have time: when someone was caught, how did they explain it away?
 
 
