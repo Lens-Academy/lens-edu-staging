@@ -25,11 +25,7 @@ to:: if and when there is sufficient political will to do so.
 
 #### Article
 from:: In our view, the field of AI is on track to produce ASI
-to:: such as a stable, global authoritarian regime.
-
-#### Article
-from:: The presented research agenda is organized by four high-level scenarios
-to:: and one could draw many more connections between the scenarios.
+to:: Figure 1: A rough tree of the scenarios discussed in this report and how AI governance paradigms may evolve. This diagram assumes catastrophe is avoided at each step, so the myriad failures are omitted. This is simplified, and one could draw many more connections between the scenarios.
 
 #### Text
 content::
