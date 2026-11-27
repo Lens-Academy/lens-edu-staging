@@ -51,7 +51,7 @@ Before we dive in, record your baseline intuitions: rank each mechanism across f
 
 Rate each mechanism on four metrics; every rating drops it onto the ranking lanes below, so you can see your full ordering take shape. Keep the set for comparison with the reference map in the separate capstone.
 
-:::callout {title="How the four metrics are defined, and what each rung means (open before you rate)" tone="neutral" collapse="closed"}
+:::callout {title="How the four metrics are defined, and what each rung means (open before you rate)" tone="neutral" {--{"author":"Lens EA's AI","timestamp":1795759984845}@@collapse="closed"}--}{++{"author":"Lens EA's AI","timestamp":1795759984845}@@collapse="open"}++}
 **Technical feasibility.** Can this be built and run at the required scale today, not in a demo, not in five years? How mature is the underlying technology? What dependencies does it drag in? What does it cost to build and operate? What are the error rates in the field? Rungs: Not close, Research, Prototype, Buildable, Running.
 
 **Political feasibility.** Would the specific parties whose cooperation is required actually adopt and enforce it, now or under conditions you can name? What are the incentives of the parties who must act? How intrusive is it, and what does it cost in confidentiality? Does it have an institutional home, who runs it? Enforcement, not just signature. Rungs: Non-starter, Rivals yield, Hard bargain, Willing, Piggybacks.
