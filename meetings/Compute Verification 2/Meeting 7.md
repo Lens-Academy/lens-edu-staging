@@ -130,7 +130,7 @@ One or two people share what their group landed on.
     - keeping what was observed apart from what you infer from it
     - asking what else could explain a signal
     - stopping at what a record, such as a cloud bill, can actually prove
-3. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
+2. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
 
 
 | Names | Your Room 3 clause + the habit you'll carry + your plan for the next unit |
