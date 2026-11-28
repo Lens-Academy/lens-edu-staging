@@ -37,7 +37,7 @@ tone:: amber
 #### Text
 content::
 - **Communication (Friday before):** Send participants a reminder to complete their presentations before the session (see template message in CD HQ)
-- **Remind Participants to submit their presentations for the central Effective Thesis Team to review** (There will be a link in the CD HQ you can share, and on Lens Academy which they will all have access to)
+- **Remind participants to submit their presentations** (research proposal summary slides) as part of their post-programme off-boarding form. They will each have been sent a personal email link to the form.
 - **Prepare and lead** the 1.5h Final Week 8 Presentation using the Weekly Facilitation Guide below
 - **During your discussion - please ask everyone to fill in their post-programme feedback form**
 
