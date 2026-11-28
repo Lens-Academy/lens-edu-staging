@@ -43,7 +43,7 @@ application-survey:: [[../../surveys/Application Form]]
 # Module: [[../../modules/ConAc L3 M5 AI Safety ecosystem|Level 3]]
 # Meeting: Week 5
 
-# Module: [[../../modules/ConAc L1 M6 Hight-impact carreer strategies and expectations|Level 1: High-impact career strategies and expectations]]
+# Module: [[../../modules/ConAc L1 M6 Hight-impact carreer strategies and expectations|Level 1: Ways to get involved]]
 # Module: [[../../modules/ConAc L2 M6 High-impact career strategies and expectations|Level 2]]
 # Module: [[../../modules/ConAc L3 M6 High-impact career strategies and expectations|Level 3]]
 
