@@ -38,7 +38,7 @@ To receive your certificate, please confirm you've submitted the form and enter 
 
 #### Question: Choice
 id:: e2710293-e6c8-4457-a3c0-524339fd0f5e
-content:: 1. Have you submitted the post-program form? If not yet, you can [open it here](https://airtable.com/appwUI4Pc2NJPOfmZ/pagHeZnPA3oHwu5Zc/form).
+content:: 1. Have you submitted the post-program form?
 options::
 - ✅ Yes, I've submitted the post-program form
 - Not yet (please complete it, as it's required for your certificate!)
