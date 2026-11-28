@@ -13,7 +13,7 @@ content::
 
 During a three-month AI pause, a laboratory sends the verification authority a valid cryptographic statement from each of the 20,000 accelerators in its declared cluster. The laboratory says the tokens prove that the cluster complied.
 
-Before reading further, classify each of the seven conclusions in the ledger below as **supported**, **possibly supported if the system was designed to measure it**, or **unsupported by attestation alone**.
+Before reading further, classify each conclusion as **supported**, **possibly supported if the system was designed to measure it**, or **unsupported by attestation alone**.
 
 #### Widget
 source:: [[../widgets/claim-ledger]]
