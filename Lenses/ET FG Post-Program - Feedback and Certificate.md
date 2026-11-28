@@ -24,13 +24,7 @@ tone:: amber
 
 #### Text
 content::
-**Please fill in the post-program form to share your feedback, offboard from the program, and get your confirmation code.**
-
-If the form doesn't load for you, you can [open it in a new tab](<https://airtable.com/appwUI4Pc2NJPOfmZ/pagHeZnPA3oHwu5Zc/form>).
-
-#### Embed
-source:: [[../articles/airtable-offboarding]]
-inline:: true
+Please check your email, you have been sent an individual link to your post-programme feedback form. Once you've filled it in you'll get a code, which you can enter below as part of your Campus Director / Facilitator certificate process 💚
 
 #### End Callout
 
