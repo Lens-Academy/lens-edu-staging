@@ -160,7 +160,7 @@ content::
 - Remind participants to stay connected as a cohort and support each other beyond the program.
 - Close with inspiration and encouragement: the end of the program is the start of their impact journey.
 
-**\[Super Important 🙂\] Ask participants to complete** [the final program survey here](https://airtable.com/appcKo5GTmHnUaBlg/pagGHPBww4E31JabV/form). We will also send this out personally.
+**\[Super Important 🙂\] Ask participants to complete their post-programme off-boarding form.** They will each have been sent a personal email link to the form.
 
 #### End Callout
 
