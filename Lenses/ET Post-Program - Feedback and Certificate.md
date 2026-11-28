@@ -24,15 +24,9 @@ tone:: amber
 
 #### Text
 content::
-**Please fill in the feedback form below to share your feedback and receive your Certificate of Participation.**
+Please check your email, you have been sent an individual link to your post-programme feedback form. Once you've filled it in you'll get a code, which you can enter below as part of your certification requirements 💚
 
-At the end of the form, you'll see a **completion code**. Copy it, then enter it in question 2 further down this page.
-
-If the form doesn't load for you, you can [open it in a new tab](https://airtable.com/appcKo5GTmHnUaBlg/pagGHPBww4E31JabV/form).
-
-#### Embed
-source:: [[../articles/airtable-everyones-app-platform]]
-inline:: true
+Also, please note that to be eligible to receive your certificate you must have read through and engaged with roughly 75% of the course content. (Top tip: sometimes people forget to click the "mark as completed" buttons as they read content, so make sure you've done so)
 
 #### End Callout
 
