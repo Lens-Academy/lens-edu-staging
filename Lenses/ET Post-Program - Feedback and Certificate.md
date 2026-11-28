@@ -40,7 +40,7 @@ To receive your Certificate of Participation, please complete the questions belo
 
 #### Question: Choice
 id:: ac7efb34-616f-45ff-a297-21e028a3d934
-content:: 1. Have you completed the post-program feedback form? If not yet, you can [open it here](https://airtable.com/appcKo5GTmHnUaBlg/pagGHPBww4E31JabV/form).
+content:: 1. Have you completed the post-program feedback form?
 options::
 - ✅ Yes, I've submitted the post-program feedback form
 - Not yet (please complete it, as it's required for your certificate!)
